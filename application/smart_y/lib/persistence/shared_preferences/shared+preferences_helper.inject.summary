@@ -1,0 +1,8 @@
+{
+  "asset": "asset:smarty/lib/persistence/shared_preferences/shared+preferences_helper.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}

@@ -19,15 +19,93 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^0.1.3
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
+  # Localization Library
+  flutter_localizations:
+    sdk: flutter
 
+  # DI
+  provider: ^4.1.3
+
+  # Dependency injection
+  inject:
+    git:
+      url: https://github.com/google/inject.dart.git
+      path: package/inject
+      ref: 7c3cbf6
+
+  # State Management Library
+  mobx: ^1.2.1
+  flutter_mobx: ^1.1.0
+
+  # Shared Prefs
+  shared_preferences: ^0.5.7+3
+
+  # Network Agent
+  http: ^0.12.1
+  dio: ^3.0.9
+  dio_flutter_transformer: ^3.0.2
+  dio_http_cache: ^0.2.7
+
+  # Pair and Other Types
+  analyzer_plugin: ^0.2.5
+
+  # String validation
+  validators: ^2.0.0+1
+
+  # Retrofit
+  retrofit: ^1.3.4
+
+  # Logger
+  logger: any
+
+  # Streams and RX
+  rxdart: ^0.24.1
+
+  # ORM, Database SQL
+  sqfentity: ^1.3.5+3
+
+  # Firebase Libs
+  firebase_core: ^0.4.5
+  firebase_auth: ^0.16.1
+  firebase_analytics: ^5.0.15
+
+  # Localization
+  gen_lang: 0.1.3
+
+  # Internationalization
+  intl: ^0.16.1
+
+  # Toasts
+  fluttertoast: ^4.0.1
+  
+
+dependency_overrides:
+  source_gen: 0.9.5
+  analyzer: ^0.39.4
+  intl: ^0.16.1
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  build_runner: ^1.7.3
+  retrofit_generator: ^1.3.7+2
+  test: ^1.14.4
+  country_pickers: ^1.3.0
+  inject_generator:
+    git:
+      url: https://github.com/google/inject.dart.git
+      path: package/inject_generator
+      ref: 7c3cbf6
+
+  # Generate Language Files
+  lang_table: 0.2.0
+
+
+flutter_intl:
+  enabled: true
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
