@@ -1,5 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/ApiUrls.dart';
+import 'package:smarty/persistence/shared_preferences/shared+preferences_helper.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 @singleton
@@ -7,25 +9,33 @@ import 'package:smarty/utils/logger/logger.dart';
 class HttpClient {
   static const String TAG = "HttpClient";
 
-  Logger _logger;
+  final Logger _logger;
+  final SharedPreferencesHelper _preferencesHelper;
 
-  HttpClient(this._logger);
+  HttpClient(this._logger, this._preferencesHelper);
 
   // INFO: In case we wanted to switch for http, this is where we do it
   static Dio _dio = Dio(new BaseOptions(
-    baseUrl: "https://www.xx.com/api",
-    connectTimeout: 5000,
-    receiveTimeout: 3000,
-  ));
+      baseUrl: ApiUrls.BaseUrl, connectTimeout: 5000, receiveTimeout: 3000));
 
   Future<Response> get(String url) async {
+    // Inject Auth Header Here :)
     try {
-      Response response = await _dio.get(url);
+      String token = await _preferencesHelper.getToken();
+
+      Response response = await _dio.get(url,
+          options: Options(headers: {"authorization": token}));
       if (response.statusCode >= 200 && response.statusCode < 300) {
-        _logger.info(TAG, "Got Response Code: " + response.statusCode.toString() + " and Got Response: " + response.data);
+        _logger.info(
+            TAG,
+            "Got Response Code: " +
+                response.statusCode.toString() +
+                " and Got Response: " +
+                response.data);
         return response;
       } else {
-        _logger.error(TAG, "Error Status Code: " + response.statusCode.toString());
+        _logger.error(
+            TAG, "Error Status Code: " + response.statusCode.toString());
         return null;
       }
     } catch (error, stacktrace) {
@@ -36,12 +46,21 @@ class HttpClient {
 
   Future<Response> post(String url, Map<String, dynamic> payLoad) async {
     try {
-      Response response = await _dio.post(url, data: payLoad);
+      String token = await _preferencesHelper.getToken();
+
+      Response response = await _dio.post(url,
+          data: payLoad, options: Options(headers: {"authorization": token}));
       if (response.statusCode >= 200 && response.statusCode < 300) {
-        _logger.info(TAG, "Got Response Code: " + response.statusCode.toString() + " and Got Response: " + response.data);
+        _logger.info(
+            TAG,
+            "Got Response Code: " +
+                response.statusCode.toString() +
+                " and Got Response: " +
+                response.data);
         return response;
       } else {
-        _logger.error(TAG, "Error Status Code: " + response.statusCode.toString());
+        _logger.error(
+            TAG, "Error Status Code: " + response.statusCode.toString());
         return null;
       }
     } catch (error, stacktrace) {
@@ -52,12 +71,21 @@ class HttpClient {
 
   Future<Response> put(String url, Map<String, dynamic> payLoad) async {
     try {
-      Response response = await _dio.get(url);
+      String token = await _preferencesHelper.getToken();
+
+      Response response = await _dio.get(url,
+          options: Options(headers: {"authorization": token}));
       if (response.statusCode >= 200 && response.statusCode < 300) {
-        _logger.info(TAG, "Got Response Code: " + response.statusCode.toString() + " and Got Response: " + response.data);
+        _logger.info(
+            TAG,
+            "Got Response Code: " +
+                response.statusCode.toString() +
+                " and Got Response: " +
+                response.data);
         return response;
       } else {
-        _logger.error(TAG, "Error Status Code: " + response.statusCode.toString());
+        _logger.error(
+            TAG, "Error Status Code: " + response.statusCode.toString());
         return null;
       }
     } catch (error, stacktrace) {
@@ -68,12 +96,21 @@ class HttpClient {
 
   Future<Response> delete(String url) async {
     try {
-      Response response = await HttpClient._dio.get(url);
+      String token = await _preferencesHelper.getToken();
+
+      Response response = await HttpClient._dio
+          .get(url, options: Options(headers: {"authorization": token}));
       if (response.statusCode >= 200 && response.statusCode < 300) {
-        _logger.info(TAG, "Got Response Code: " + response.statusCode.toString() + " and Got Response: " + response.data);
+        _logger.info(
+            TAG,
+            "Got Response Code: " +
+                response.statusCode.toString() +
+                " and Got Response: " +
+                response.data);
         return response;
       } else {
-        _logger.error(TAG, "Error Status Code: " + response.statusCode.toString());
+        _logger.error(
+            TAG, "Error Status Code: " + response.statusCode.toString());
         return null;
       }
     } catch (error, stacktrace) {
