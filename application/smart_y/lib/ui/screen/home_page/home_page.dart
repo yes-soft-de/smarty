@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:smarty/ui/widget/app_drawer.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
+import 'package:smarty/ui/widget/video_card.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -14,38 +15,38 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          backgroundColor: Color(0xff5E239D),
+        backgroundColor: Color(0xff5E239D),
         actions: <Widget>[
           IconButton(
             icon: ImageAsIcon(
               img:'assets/profilePic.png',
               height: 32.0,
               width: 32.0,
-      ),
+            ),
             onPressed: () {
               // do something
             },
           )
         ],
-          leading: Builder(
+        leading: Builder(
           builder: (BuildContext context) {
             return IconButton(
               icon: ImageAsIcon(
-                  img:'assets/drawer.png',
-                  height: 20.0,
-                  width: 30.0,
+                img:'assets/drawer.png',
+                height: 20.0,
+                width: 30.0,
               ),
               onPressed: () {
                 Scaffold.of(context).openDrawer();
               },
               tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
-                );
-              },
-            ),
+            );
+          },
+        ),
 
-          ),
+      ),
 
-          drawer: AppDrawer(),
+      drawer: AppDrawer(),
       body: ListView(
         padding: EdgeInsetsDirectional.fromSTEB(15 , 10, 15, 10),
         children: <Widget>[
@@ -81,8 +82,8 @@ class _HomePageState extends State<HomePage> {
                           )
                       ),
                       child: Icon(
-                          Icons.star_border,
-                          color: Colors.white,
+                        Icons.star_border,
+                        color: Colors.white,
                         size: 30,
                       ),
                     ),
@@ -133,20 +134,20 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
 
-                   Column(
-                     mainAxisAlignment: MainAxisAlignment.end,
-                     children: <Widget>[
-                       IconButton(
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: <Widget>[
+                        IconButton(
 
-                         icon: ImageAsIcon(
-                           img: 'assets/Ok.png',
-                           height: 500.0,
-                           width: 500.0,
-                         ),
-                         onPressed: (){},
-                       ),
-                     ],
-                   ),
+                          icon: ImageAsIcon(
+                            img: 'assets/Ok.png',
+                            height: 500.0,
+                            width: 500.0,
+                          ),
+                          onPressed: (){},
+                        ),
+                      ],
+                    ),
 
                   ],
                 ),
@@ -168,7 +169,24 @@ class _HomePageState extends State<HomePage> {
                 icon: Icon(Icons.arrow_forward_ios),
               )
             ],
-          )
+          ),
+
+          VideoCard(
+            color: Color(0xff3dd598),
+            backgroundColor: Color(0xff286053),
+            text: 'Mindfulness',
+            image: 'assets/Rectangle 2.png',
+            isPaid: false,
+          ),
+          VideoCard(
+            color: Color(0xff9a4614),
+            backgroundColor: Color(0xff0a0219),
+            text: 'Mindfulness',
+            image: 'assets/Rectangle 1.png',
+            isPaid: true,
+          ),
+
+
 
 
         ],
