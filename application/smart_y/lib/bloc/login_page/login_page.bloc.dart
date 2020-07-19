@@ -30,6 +30,7 @@ class LoginPageBloc {
         // I use it for generalized service response models
         _loginSubject.add(Pair(STATUS_CODE_AUTH_SUCCESS, null));
       } else {
+        print('login failed');
         _loginSubject.add(Pair(STATUS_CODE_AUTH_ERROR,
             "Error Signing in, Please Try again Later"));
       }

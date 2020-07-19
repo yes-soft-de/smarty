@@ -26,7 +26,7 @@ dependencies:
     sdk: flutter
 
   # DI
-  provider: ^4.1.3
+  provider: ^4.0.0
 
   # Dependency injection
   inject:
@@ -79,20 +79,20 @@ dependencies:
 
   # Toasts
   fluttertoast: ^4.0.1
-  
+
 
 dependency_overrides:
   source_gen: 0.9.5
   analyzer: ^0.39.4
   intl: ^0.16.1
-  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   build_runner: ^1.7.3
   retrofit_generator: ^1.3.7+2
-  test: ^1.14.4
+#  test: ^1.14.4
   country_pickers: ^1.3.0
   inject_generator:
     git:
@@ -119,7 +119,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 
