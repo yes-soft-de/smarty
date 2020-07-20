@@ -14,6 +14,9 @@ class CourseCard extends StatelessWidget {
     return Container(
 
       child: Card(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(15.0),
+        ),
         child: Column(
           children: <Widget>[
             SizedBox(height: MediaQuery.of(context).size.height*0.05,),
