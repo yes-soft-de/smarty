@@ -21,10 +21,11 @@ class HttpClient {
   Future<Response> get(String url) async {
     // Inject Auth Header Here :)
     try {
-      String token = await _preferencesHelper.getToken();
-
       Response response = await _dio.get(url,
-          options: Options(headers: {"authorization": token}));
+          options: Options(headers: {
+              'X-LLMS-CONSUMER-KEY':'ck_f967cde4edbcb452876f690105ef5bd05f347ef5',
+              'X-LLMS-CONSUMER-SECRET':'cs_b30af3735e9366c7336e898810f57bde32392d1e'
+          }));
       if (response.statusCode >= 200 && response.statusCode < 300) {
         _logger.info(
             TAG,
