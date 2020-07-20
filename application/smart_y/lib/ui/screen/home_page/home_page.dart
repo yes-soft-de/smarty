@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:smarty/ui/widget/app_drawer.dart';
 import 'package:smarty/ui/widget/course_card.dart';
 import 'package:smarty/ui/widget/article_card.dart';
+import 'package:smarty/ui/widget/event_card.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
 import 'package:smarty/ui/widget/video_card.dart';
 
@@ -240,7 +241,22 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: <Widget>[
 
+                IconButton(
+                  onPressed: (){},
+                  icon: Icon(Icons.arrow_forward_ios),
+                )
+              ],
+            ),
+            EventCard(
+              image: 'assets/Rectangle7.png',
+              color: Color(0xff0A0219),
+              title: 'Boked for 8 PM',
+              description: 'asdf ',
+            ),
           ],
         ),
       ),
