@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:smarty/ui/widget/app_drawer.dart';
+import 'package:smarty/ui/widget/course_card.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
 import 'package:smarty/ui/widget/video_card.dart';
 
@@ -186,7 +187,29 @@ class _HomePageState extends State<HomePage> {
             isPaid: true,
           ),
 
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                'Cources recomended for you',
+                style: TextStyle(
+                  fontSize: 8.0,
+                ),
+              ),
+              IconButton(
+                onPressed: (){},
+                icon: Icon(Icons.arrow_forward_ios),
+              )
+            ],
+          ),
 
+          CourseCard(
+            image: 'assets/yoga.jpg',
+            price: 50,
+            chapters: 42,
+            name: 'Weekly progress',
+            description: 'Weekly progress on dieting',
+          )
 
 
         ],
