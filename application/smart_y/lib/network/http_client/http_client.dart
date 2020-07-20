@@ -19,12 +19,13 @@ class HttpClient {
       baseUrl: ApiUrls.BaseUrl, connectTimeout: 5000, receiveTimeout: 3000));
 
   Future<Response> get(String url) async {
-    // Inject Auth Header Here :)
     try {
       Response response = await _dio.get(url,
           options: Options(headers: {
-              'X-LLMS-CONSUMER-KEY':'ck_f967cde4edbcb452876f690105ef5bd05f347ef5',
-              'X-LLMS-CONSUMER-SECRET':'cs_b30af3735e9366c7336e898810f57bde32392d1e'
+            'X-LLMS-CONSUMER-KEY':
+                'ck_f967cde4edbcb452876f690105ef5bd05f347ef5',
+            'X-LLMS-CONSUMER-SECRET':
+                'cs_b30af3735e9366c7336e898810f57bde32392d1e'
           }));
       if (response.statusCode >= 200 && response.statusCode < 300) {
         _logger.info(
@@ -50,7 +51,13 @@ class HttpClient {
       String token = await _preferencesHelper.getToken();
 
       Response response = await _dio.post(url,
-          data: payLoad, options: Options(headers: {"authorization": token}));
+          data: payLoad,
+          options: Options(headers: {
+            'X-LLMS-CONSUMER-KEY':
+                'ck_f967cde4edbcb452876f690105ef5bd05f347ef5',
+            'X-LLMS-CONSUMER-SECRET':
+                'cs_b30af3735e9366c7336e898810f57bde32392d1e'
+          }));
       if (response.statusCode >= 200 && response.statusCode < 300) {
         _logger.info(
             TAG,
@@ -75,7 +82,12 @@ class HttpClient {
       String token = await _preferencesHelper.getToken();
 
       Response response = await _dio.get(url,
-          options: Options(headers: {"authorization": token}));
+          options: Options(headers: {
+            'X-LLMS-CONSUMER-KEY':
+                'ck_f967cde4edbcb452876f690105ef5bd05f347ef5',
+            'X-LLMS-CONSUMER-SECRET':
+                'cs_b30af3735e9366c7336e898810f57bde32392d1e'
+          }));
       if (response.statusCode >= 200 && response.statusCode < 300) {
         _logger.info(
             TAG,
@@ -99,8 +111,13 @@ class HttpClient {
     try {
       String token = await _preferencesHelper.getToken();
 
-      Response response = await HttpClient._dio
-          .get(url, options: Options(headers: {"authorization": token}));
+      Response response = await HttpClient._dio.get(url,
+          options: Options(headers: {
+            'X-LLMS-CONSUMER-KEY':
+                'ck_f967cde4edbcb452876f690105ef5bd05f347ef5',
+            'X-LLMS-CONSUMER-SECRET':
+                'cs_b30af3735e9366c7336e898810f57bde32392d1e'
+          }));
       if (response.statusCode >= 200 && response.statusCode < 300) {
         _logger.info(
             TAG,
