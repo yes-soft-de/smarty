@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:smarty/ui/widget/app_drawer.dart';
 import 'package:smarty/ui/widget/course_card.dart';
-import 'package:smarty/ui/widget/course_video_card.dart';
+import 'package:smarty/ui/widget/article_card.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
 import 'package:smarty/ui/widget/video_card.dart';
 
@@ -226,13 +226,13 @@ class _HomePageState extends State<HomePage> {
 
             Row(
               children: <Widget>[
-                CourseVideoCard(
+                ArticleCard(
                   icon: Icon(Icons.settings, color: Colors.white,),
                   name: 'Introduce',
                   duration: 20,
                   color: Colors.greenAccent,
                 ),
-                CourseVideoCard(
+                ArticleCard(
                   icon: Icon(Icons.settings,color: Colors.white,),
                   name: 'Introduce',
                   duration: 20,
