@@ -6,7 +6,7 @@ import 'package:smarty/ui/widget/article_card.dart';
 import 'package:smarty/ui/widget/event_card.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
 import 'package:smarty/ui/widget/video_card.dart';
-
+import 'package:smarty/ui/widget/offer_card.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -256,6 +256,10 @@ class _HomePageState extends State<HomePage> {
               color: Color(0xff0A0219),
               title: 'Boked for 8 PM',
               description: 'asdf ',
+            ),
+            OfferCard(
+              color: Color(0xff5F06A6),
+              description: 'lorem opsem',
             ),
           ],
         ),
