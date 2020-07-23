@@ -3,7 +3,7 @@ import 'package:inject/inject.dart';
 import 'package:rxdart/subjects.dart';
 import 'package:smarty/service/login_page/login_page.service.dart';
 
-// State Mangment for Login Page
+// State Management for Login Page
 @provide
 class LoginPageBloc {
   // Status Indicators, Random ints are used here

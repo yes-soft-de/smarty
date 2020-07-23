@@ -1,3 +1,4 @@
+import 'package:analyzer_plugin/protocol/protocol.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/manager/login/login.manager.dart';
 import 'package:smarty/persistence/shared_preferences/shared+preferences_helper.dart';

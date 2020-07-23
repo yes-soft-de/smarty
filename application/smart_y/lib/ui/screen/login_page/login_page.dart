@@ -4,7 +4,6 @@ import 'package:inject/inject.dart';
 import 'package:smarty/bloc/login_page/login_page.bloc.dart';
 import 'package:smarty/request/login_page/login_request.dart';
 import 'package:smarty/ui/widget/logo.dart';
-import 'package:smarty/ui/widget/text_field_with_image_icon.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 // NOTE: All Pages are Statefull Widgets
