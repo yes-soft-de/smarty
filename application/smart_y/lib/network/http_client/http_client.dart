@@ -15,10 +15,9 @@ class HttpClient {
   HttpClient(this._logger, this._preferencesHelper);
 
   // INFO: In case we wanted to switch for http, this is where we do it
-  static Dio _dio = Dio(new BaseOptions(
-      baseUrl: ApiUrls.BaseUrl, connectTimeout: 5000, receiveTimeout: 3000));
+  static Dio _dio = Dio(new BaseOptions(baseUrl: ApiUrls.BaseUrl));
 
-  Future<String> get(String url) async {
+  Future<dynamic> get(String url) async {
     try {
       Response response = await _dio.get(url,
           options: Options(headers: {
@@ -30,11 +29,7 @@ class HttpClient {
 
       if (response.statusCode >= 200 && response.statusCode < 300) {
         _logger.info(
-            TAG,
-            "Got Response Code: " +
-                response.statusCode.toString() +
-                " and Got Response: " +
-                response.data);
+            TAG, "Got Response Code: " + response.statusCode.toString());
         return response.data;
       } else {
         _logger.error(
@@ -42,12 +37,12 @@ class HttpClient {
         return null;
       }
     } catch (error, stacktrace) {
-      _logger.error(TAG, "Exception occured: $error stackTrace: $stacktrace");
+      _logger.error(TAG, "Exception occurred: $error stackTrace: $stacktrace");
       return null;
     }
   }
 
-  Future<String> post(String url, Map<String, dynamic> payLoad) async {
+  Future<dynamic> post(String url, Map<String, dynamic> payLoad) async {
     try {
       String token = await _preferencesHelper.getToken();
 
@@ -78,7 +73,7 @@ class HttpClient {
     }
   }
 
-  Future<Response> put(String url, Map<String, dynamic> payLoad) async {
+  Future<dynamic> put(String url, Map<String, dynamic> payLoad) async {
     try {
       String token = await _preferencesHelper.getToken();
 
@@ -108,7 +103,7 @@ class HttpClient {
     }
   }
 
-  Future<Response> delete(String url) async {
+  Future<dynamic> delete(String url) async {
     try {
       String token = await _preferencesHelper.getToken();
 

@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:inject/inject.dart';
 import 'package:smarty/ApiUrls.dart';
 
@@ -13,15 +11,14 @@ class CoursesRepository {
   CoursesRepository(this._httpClient);
 
   Future<List<CourseResponse>> getCourses() async {
-    String response = await _httpClient.get(ApiUrls.CoursesApi);
+    dynamic response = await _httpClient.get(ApiUrls.CoursesApi);
 
     // If no Response, return Null
     if (response == null) return null;
 
     // Decode the data
     List<CourseResponse> availableCourses = [];
-    List<Map> data = jsonDecode(response);
-    data.forEach((element) {
+    response.forEach((element) {
       availableCourses.add(CourseResponse.fromJson(element));
     });
 

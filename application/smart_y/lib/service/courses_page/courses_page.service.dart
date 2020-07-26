@@ -17,10 +17,15 @@ class CoursesService {
   Future<List<CourseModel>> getCourses() async {
     List<CourseResponse> coursesResponse =
         await this._coursesManager.getCourses();
+
+    if (coursesResponse == null) {
+      return null;
+    }
+
     List<CourseModel> availableCourses = [];
     coursesResponse.forEach((course) {
       // TODO: Create a Course Model
-      availableCourses.add(CourseModel(title: course.title.rendered, content: course.content.rendered));
+      availableCourses.add(CourseModel(title: course.title.rendered, content: course.excerpt.rendered));
     });
     return availableCourses;
   }

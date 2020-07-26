@@ -1,5 +1,5 @@
 class ApiUrls {
-  static const BaseUrl = "https://developer.lifterlms.com/wp-json/llms/v1";
+  static const BaseUrl = "https://wow-ae.com/wp-json/llms/v1/";
 
   static const LoginApi = "login";
 
