@@ -1,6 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'package:smarty/bloc/courses_page/courses_page.bloc.dart';
+import 'package:smarty/model/course/course_list_item.model.dart';
 import 'package:smarty/ui/widget/app_drawer.dart';
 import 'package:smarty/ui/widget/course_card.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
@@ -15,9 +15,7 @@ class CoursesPage extends StatefulWidget {
   final String tag = "CoursesPage";
 
   final CoursesPageBloc _coursesPageBloc;
-  // If we have time to log every single second in this stage, we would do it, BUT we dont have the time
   final Logger _logger;
-
 
   CoursesPage(this._coursesPageBloc, this._logger);
 
@@ -27,46 +25,42 @@ class CoursesPage extends StatefulWidget {
 
 class _CoursesPageState extends State<CoursesPage> {
   int currentState = CoursesPageBloc.STATUS_CODE_INIT;
+  List<CourseModel> courses;
 
   @override
   Widget build(BuildContext context) {
     widget._coursesPageBloc.loginStateObservable.listen((stateChanged) {
-      // This can be used to calculate how many times the page refreshes
-      widget._logger.info(widget.tag, "State Changed");
-      currentState = stateChanged.first ;
+      currentState = stateChanged.first;
+
+      if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
+        this.courses = stateChanged.last;
+      }
+
       setState(() {});
     });
 
     if (currentState == CoursesPageBloc.STATUS_CODE_INIT) {
-
       widget._logger.info(widget.tag, "Courses List Page Started");
       widget._coursesPageBloc.getCourses();
     }
 
     if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA) {
-
       widget._logger.info(widget.tag, "Fetching data from the server");
       return LoadingIndicator();
     }
 
     if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
-      // TODO: Move to Home using Navigator
       widget._logger.info(widget.tag, "Fetching data SUCCESS");
       return getPageLayout();
     }
 
     if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA_ERROR) {
-      // TODO: Show an Error Message on the Login Indicator, and Remove this
       widget._logger.info(widget.tag, "Fetching data Error");
       return Scaffold(
           body: Center(
-            child: Text("Login Error"),
-          ));
+        child: Text("Fetching data Error"),
+      ));
     }
-
-
-
-
 
     // Undefined State
     widget._logger.error(widget.tag, "Undefined State");
@@ -77,78 +71,65 @@ class _CoursesPageState extends State<CoursesPage> {
     );
   }
 
-
-
-
-
-
-    Widget getPageLayout() {
-      return Scaffold(
-        appBar: SmartyAppBar(appBar: AppBar()),
-        drawer: AppDrawer(),
-        body: Container(
-
-          color: Color(0xffF4ECEC),
-          child: Stack(
-            children: <Widget>[
-              ListView.builder(
-                itemCount: widget._coursesPageBloc.courses.length,
-                padding: EdgeInsetsDirectional.fromSTEB(15 , 50, 15, 10),
+  Widget getPageLayout() {
+    return Scaffold(
+      appBar: SmartyAppBar(appBar: AppBar()),
+      drawer: AppDrawer(),
+      body: Container(
+        color: Color(0xffF4ECEC),
+        child: Stack(
+          children: <Widget>[
+            ListView.builder(
+                itemCount: courses.length,
+                padding: EdgeInsetsDirectional.fromSTEB(15, 50, 15, 10),
                 itemBuilder: (BuildContext context, int index) {
-                    return CourseCard(
-                      image: 'assets/yoga.jpg',
-                      price: 50,
-                      chapters: 42,
-                      name: widget._coursesPageBloc.courses[index].title.rendered,
-                      description: widget._coursesPageBloc.courses[index].content.rendered,
-                    );
-
-                }
-
-              ),
-              Positioned(
-                left: 0.0,
-                right: 0.0,
-                top: 0.0,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        IconButton(
-                          onPressed: (){},
-                          icon: ImageAsIcon(
-                            img: 'assets/filter_icon.png',
-                            width: 20,
-                            height: 10,
-                          ),
+                  return CourseCard(
+                    image: 'assets/yoga.jpg',
+                    price: 50,
+                    chapters: 42,
+                    name: courses[index].title,
+                    description: courses[index].content,
+                  );
+                }),
+            Positioned(
+              left: 0.0,
+              right: 0.0,
+              top: 0.0,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                      IconButton(
+                        onPressed: () {},
+                        icon: ImageAsIcon(
+                          img: 'assets/filter_icon.png',
+                          width: 20,
+                          height: 10,
                         ),
-                        Text('Filter')
-                      ],
-                    ),
-                    Row(
-                      children: <Widget>[
-                        IconButton(
-                          onPressed: (){},
-                          icon: ImageAsIcon(
-                            img: 'assets/filter_icon.png',
-                            width: 20,
-                            height: 10,
-                          ),
+                      ),
+                      Text('Filter')
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      IconButton(
+                        onPressed: () {},
+                        icon: ImageAsIcon(
+                          img: 'assets/filter_icon.png',
+                          width: 20,
+                          height: 10,
                         ),
-                        Text('Sort')
-                      ],
-                    ),
-                  ],
-                ),
+                      ),
+                      Text('Sort')
+                    ],
+                  ),
+                ],
               ),
-            ],
-          ),
-
-
+            ),
+          ],
         ),
-      );
-    }
-
+      ),
+    );
   }
-
+}

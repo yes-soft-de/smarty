@@ -10,6 +10,11 @@ import '../../bloc/login_page/login_page.bloc.dart' as _i8;
 import '../../service/login_page/login_page.service.dart' as _i9;
 import '../../manager/login/login.manager.dart' as _i10;
 import '../../repository/login_page/login_page.repository.dart' as _i11;
+import '../../ui/screen/courses_page/courses_page.dart' as _i12;
+import '../../bloc/courses_page/courses_page.bloc.dart' as _i13;
+import '../../service/courses_page/courses_page.service.dart' as _i14;
+import '../../manager/courses/cources.manager.dart' as _i15;
+import '../../repository/courses_page/courses_page.repository.dart' as _i16;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -26,7 +31,8 @@ class AppComponent$Injector implements _i1.AppComponent {
     return injector;
   }
 
-  _i6.MyApp _createMyApp() => _i6.MyApp(_createLoginPage());
+  _i6.MyApp _createMyApp() =>
+      _i6.MyApp(_createLoginPage(), _createCoursesPage());
   _i7.LoginPage _createLoginPage() =>
       _i7.LoginPage(_createLoginPageBloc(), _createLogger());
   _i8.LoginPageBloc _createLoginPageBloc() =>
@@ -42,6 +48,16 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i2.Logger _createLogger() => _singletonLogger ??= _i2.Logger();
   _i3.SharedPreferencesHelper _createSharedPreferencesHelper() =>
       _singletonSharedPreferencesHelper ??= _i3.SharedPreferencesHelper();
+  _i12.CoursesPage _createCoursesPage() =>
+      _i12.CoursesPage(_createCoursesPageBloc(), _createLogger());
+  _i13.CoursesPageBloc _createCoursesPageBloc() =>
+      _i13.CoursesPageBloc(_createCoursesService(), _createLogger());
+  _i14.CoursesService _createCoursesService() => _i14.CoursesService(
+      _createSharedPreferencesHelper(), _createCoursesManager());
+  _i15.CoursesManager _createCoursesManager() =>
+      _i15.CoursesManager(_createCoursesRepository());
+  _i16.CoursesRepository _createCoursesRepository() =>
+      _i16.CoursesRepository(_createHttpClient());
   @override
   _i6.MyApp get app => _createMyApp();
 }

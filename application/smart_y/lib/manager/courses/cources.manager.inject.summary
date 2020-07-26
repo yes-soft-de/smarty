@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/main.dart",
+  "asset": "asset:smarty/lib/manager/courses/cources.manager.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "MyApp",
+        "name": "CoursesManager",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/main.dart#MyApp",
+              "root": "asset:smarty/lib/manager/courses/cources.manager.dart#CoursesManager",
               "qualifier": null
             },
             "isProvider": false
@@ -21,14 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/ui/screen/login_page/login_page.dart#LoginPage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/ui/screen/courses_page/courses_page.dart#CoursesPage",
+                "root": "asset:smarty/lib/repository/courses_page/courses_page.repository.dart#CoursesRepository",
                 "qualifier": null
               },
               "isProvider": false

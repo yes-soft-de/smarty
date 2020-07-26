@@ -18,7 +18,7 @@ class HttpClient {
   static Dio _dio = Dio(new BaseOptions(
       baseUrl: ApiUrls.BaseUrl, connectTimeout: 5000, receiveTimeout: 3000));
 
-  Future<Response> get(String url) async {
+  Future<String> get(String url) async {
     try {
       Response response = await _dio.get(url,
           options: Options(headers: {
@@ -35,7 +35,7 @@ class HttpClient {
                 response.statusCode.toString() +
                 " and Got Response: " +
                 response.data);
-        return response;
+        return response.data;
       } else {
         _logger.error(
             TAG, "Error Status Code: " + response.statusCode.toString());
@@ -47,7 +47,7 @@ class HttpClient {
     }
   }
 
-  Future<Response> post(String url, Map<String, dynamic> payLoad) async {
+  Future<String> post(String url, Map<String, dynamic> payLoad) async {
     try {
       String token = await _preferencesHelper.getToken();
 
@@ -66,14 +66,14 @@ class HttpClient {
                 response.statusCode.toString() +
                 " and Got Response: " +
                 response.data);
-        return response;
+        return response.data;
       } else {
         _logger.error(
             TAG, "Error Status Code: " + response.statusCode.toString());
         return null;
       }
     } catch (error, stacktrace) {
-      _logger.error(TAG, "Exception occured: $error stackTrace: $stacktrace");
+      _logger.error(TAG, "Exception occurred: $error stackTrace: $stacktrace");
       return null;
     }
   }
@@ -103,7 +103,7 @@ class HttpClient {
         return null;
       }
     } catch (error, stacktrace) {
-      _logger.error(TAG, "Exception occured: $error stackTrace: $stacktrace");
+      _logger.error(TAG, "Exception occurred: $error stackTrace: $stacktrace");
       return null;
     }
   }
@@ -133,7 +133,7 @@ class HttpClient {
         return null;
       }
     } catch (error, stacktrace) {
-      _logger.error(TAG, "Exception occured: $error stackTrace: $stacktrace");
+      _logger.error(TAG, "Exception occurred: $error stackTrace: $stacktrace");
       return null;
     }
   }

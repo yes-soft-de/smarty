@@ -5,12 +5,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/routes.dart';
+import 'package:smarty/ui/screen/courses_page/courses_page.dart';
 import 'package:smarty/ui/screen/login_page/login_page.dart';
 
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
 
-void main(){
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   SystemChrome.setPreferredOrientations([
@@ -21,23 +22,25 @@ void main(){
   });
 }
 
-
 @provide
 class MyApp extends StatelessWidget {
   // This is for logging purposes, Dont warry about it
   static FirebaseAnalytics analytics = FirebaseAnalytics();
-  static FirebaseAnalyticsObserver observer = FirebaseAnalyticsObserver(analytics: analytics);
+  static FirebaseAnalyticsObserver observer =
+      FirebaseAnalyticsObserver(analytics: analytics);
 
   final LoginPage _loginPage;
+  final CoursesPage _coursesPage;
 
-  MyApp(this._loginPage);
+  MyApp(this._loginPage, this._coursesPage);
 
   @override
   Widget build(BuildContext context) {
     Map<String, WidgetBuilder> fullRoutesList = Map();
 
     fullRoutesList = {
-      Routes.LoginPageRoute: (context) => _loginPage
+      Routes.LoginPageRoute: (context) => _loginPage,
+      Routes.coursesPage: (context) => _coursesPage
     };
 
     return MaterialApp(
@@ -55,6 +58,6 @@ class MyApp extends StatelessWidget {
         supportedLocales: S.delegate.supportedLocales,
         title: 'Smart Y',
         routes: fullRoutesList,
-        initialRoute: Routes.LoginPageRoute);
+        initialRoute: Routes.coursesPage);
   }
 }

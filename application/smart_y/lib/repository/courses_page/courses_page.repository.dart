@@ -1,29 +1,31 @@
 import 'dart:convert';
 
-import 'package:dio/dio.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/ApiUrls.dart';
-import 'package:smarty/model/course/course_list_item.model.dart';
-
 
 import 'package:smarty/network/http_client/http_client.dart';
+import 'package:smarty/response/course_response/course_response.dart';
 
 @provide
-class CoursesRepository{
+class CoursesRepository {
   HttpClient _httpClient;
+
   CoursesRepository(this._httpClient);
 
-  Future<List<CourseListItem>> getCourses() async{
-    var response = await _httpClient.get(ApiUrls.CoursesApi);
+  Future<List<CourseResponse>> getCourses() async {
+    String response = await _httpClient.get(ApiUrls.CoursesApi);
 
-    if(response == null) return null;
+    // If no Response, return Null
+    if (response == null) return null;
 
-   // Map<String, dynamic> coursesData = jsonDecode(response.data );
-//    List<dynamic> list = json.decode(response.data);
-    var courseslist = jsonDecode(response.data) as List;
-    List<CourseListItem> courses = courseslist.map((course) => CourseListItem.fromJson(course)).toList();
+    // Decode the data
+    List<CourseResponse> availableCourses = [];
+    List<Map> data = jsonDecode(response);
+    data.forEach((element) {
+      availableCourses.add(CourseResponse.fromJson(element));
+    });
 
-
-    return courses;
-}
+    // Return the decoded response
+    return availableCourses;
+  }
 }

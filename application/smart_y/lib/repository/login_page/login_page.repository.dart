@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:dio/dio.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/ApiUrls.dart';
@@ -14,12 +16,12 @@ class LoginRepository {
   /// login from API, and decode the result
   /// Return LoginResponse when Success, and Null otherwise
   Future<LoginResponse> login(LoginRequest loginRequest) async {
-    Response response  = await _httpClient.post(ApiUrls.LoginApi, loginRequest.toJson());
+    String response  = await _httpClient.post(ApiUrls.LoginApi, loginRequest.toJson());
 
     if (response == null) {
       return null;
     }
 
-    return LoginResponse.fromJson(response.data);
+    return LoginResponse.fromJson(jsonDecode(response));
   }
 }
