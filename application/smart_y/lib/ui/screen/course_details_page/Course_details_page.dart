@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:smarty/model/lesson/lesson.dart';
+import 'package:smarty/ui/widget/course_section_lessons.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
 
 class CourseDetailPage extends StatefulWidget {
@@ -8,6 +10,10 @@ class CourseDetailPage extends StatefulWidget {
 }
 
 class _CourseDetailPageState extends State<CourseDetailPage> {
+  //mockup data
+  List<Lesson> lessons = [new Lesson('lesson 1'),new Lesson('lesson 2'),new Lesson('lesson 3'),new Lesson('lesson 4')];
+  List<Lesson> lessons2 = [new Lesson('lesson 1'),new Lesson('lesson 2'),new Lesson('lesson 3'),new Lesson('lesson 4'),new Lesson('lesson 5')];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -89,6 +95,24 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                   ),
                 ],
               ),
+            ),
+
+            Divider(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text('Lessons',
+                  style: TextStyle(color:  Color(0xff5E239D)),)
+              ],
+            ),
+            Divider(),
+            Container(
+                height: MediaQuery.of(context).size.height*0.4,
+                child: CourseSectionLessons(sectionName: 'Getting started',lessons: lessons,)
+            ),
+            Container(
+                height: MediaQuery.of(context).size.height*0.4,
+                child: CourseSectionLessons(sectionName: 'Introduction',lessons: lessons2,)
             ),
 
             Container(
