@@ -5,6 +5,7 @@ import 'package:smarty/ui/widget/course_card.dart';
 import 'package:smarty/ui/widget/article_card.dart';
 import 'package:smarty/ui/widget/event_card.dart';
 import 'package:smarty/ui/widget/image_icon.dart';
+import 'package:smarty/ui/widget/smarty_app_bar.dart';
 import 'package:smarty/ui/widget/video_card.dart';
 import 'package:smarty/ui/widget/offer_card.dart';
 
@@ -17,38 +18,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Color(0xff5E239D),
-        actions: <Widget>[
-          IconButton(
-            icon: ImageAsIcon(
-              img:'assets/profilePic.png',
-              height: 32.0,
-              width: 32.0,
-            ),
-            onPressed: () {
-              // do something
-            },
-          )
-        ],
-        leading: Builder(
-          builder: (BuildContext context) {
-            return IconButton(
-              icon: ImageAsIcon(
-                img:'assets/drawer.png',
-                height: 20.0,
-                width: 30.0,
-              ),
-              onPressed: () {
-                Scaffold.of(context).openDrawer();
-              },
-              tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
-            );
-          },
-        ),
-
-      ),
-
+      appBar: SmartyAppBar(appBar: AppBar()),
       drawer: AppDrawer(),
       body: Container(
         color: Color(0xffF4ECEC),

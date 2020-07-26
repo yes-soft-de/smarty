@@ -7,6 +7,7 @@ import 'package:smarty/ui/widget/image_icon.dart';
 
 import 'package:inject/inject.dart';
 import 'package:smarty/ui/widget/loading_indicator.dart';
+import 'package:smarty/ui/widget/smarty_app_bar.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 @provide
@@ -83,38 +84,7 @@ class _CoursesPageState extends State<CoursesPage> {
 
     Widget getPageLayout() {
       return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Color(0xff5E239D),
-          actions: <Widget>[
-            IconButton(
-              icon: ImageAsIcon(
-                img:'assets/profilePic.png',
-                height: 32.0,
-                width: 32.0,
-              ),
-              onPressed: () {
-                // do something
-              },
-            )
-          ],
-          leading: Builder(
-            builder: (BuildContext context) {
-              return IconButton(
-                icon: ImageAsIcon(
-                  img:'assets/drawer.png',
-                  height: 20.0,
-                  width: 30.0,
-                ),
-                onPressed: () {
-                  Scaffold.of(context).openDrawer();
-                },
-                tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
-              );
-            },
-          ),
-
-        ),
-
+        appBar: SmartyAppBar(appBar: AppBar()),
         drawer: AppDrawer(),
         body: Container(
 
