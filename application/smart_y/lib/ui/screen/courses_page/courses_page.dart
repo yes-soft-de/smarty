@@ -73,7 +73,7 @@ class _CoursesPageState extends State<CoursesPage> {
 
   Widget getPageLayout() {
     return Scaffold(
-      appBar: SmartyAppBar(appBar: AppBar()),
+      appBar: SmartyAppBar(appBar: AppBar(),title: 'Courses',),
       drawer: AppDrawer(),
       body: Container(
         color: Color(0xffF4ECEC),

@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: SmartyAppBar(appBar: AppBar()),
+      appBar: SmartyAppBar(appBar: AppBar(),title: 'Home',),
       drawer: AppDrawer(),
       body: Container(
         color: Color(0xffF4ECEC),
