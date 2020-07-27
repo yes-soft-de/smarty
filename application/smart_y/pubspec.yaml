@@ -80,6 +80,7 @@ dependencies:
   # Toasts
   fluttertoast: ^4.0.1
 
+  carousel_slider: ^2.2.1
 
 dependency_overrides:
   source_gen: 0.9.5
