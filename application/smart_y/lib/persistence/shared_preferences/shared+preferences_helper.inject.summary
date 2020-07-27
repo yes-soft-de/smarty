@@ -1,0 +1,26 @@
+{
+  "asset": "asset:smarty/lib/persistence/shared_preferences/shared+preferences_helper.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "SharedPreferencesHelper",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:smarty/lib/persistence/shared_preferences/shared+preferences_helper.dart#SharedPreferencesHelper",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": true,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}
