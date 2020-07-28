@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/routes.dart';
+import 'package:smarty/ui/screen/course_details_page/Course_details_page.dart';
 import 'package:smarty/ui/screen/courses_page/courses_page.dart';
 import 'package:smarty/ui/screen/login_page/login_page.dart';
 
@@ -31,9 +32,9 @@ class MyApp extends StatelessWidget {
 
   final LoginPage _loginPage;
   final CoursesPage _coursesPage;
+  final CourseDetailPage _courseDetailPage;
 
-
-  MyApp(this._loginPage, this._coursesPage);
+  MyApp(this._loginPage, this._coursesPage,this._courseDetailPage);
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
 
     fullRoutesList = {
       Routes.LoginPageRoute: (context) => _loginPage,
-      Routes.coursesPage: (context) => _coursesPage
+      Routes.coursesPage: (context) => _coursesPage,
+      Routes.courseDetailsPage: (context) => _courseDetailPage,
     };
 
     return MaterialApp(

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:inject/inject.dart';
 import 'package:smarty/bloc/courses_details_page/courses_details_page.bloc.dart';
 import 'package:smarty/bloc/courses_page/courses_page.bloc.dart';
 import 'package:smarty/model/lesson/lesson.dart';
@@ -9,6 +10,7 @@ import 'package:smarty/ui/widget/image_icon.dart';
 import 'package:smarty/ui/widget/loading_indicator.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
+@provide
 class CourseDetailPage extends StatefulWidget {
   final int courseId;
   final String tag = "CourseDetailsPage";
