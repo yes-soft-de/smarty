@@ -1,4 +1,5 @@
 class Lesson{
-  String name;
-  Lesson(this.name);
+  int id;
+  String title;
+  Lesson({this.id,this.title});
 }

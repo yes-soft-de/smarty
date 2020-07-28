@@ -68,6 +68,7 @@ class OfferCard extends StatelessWidget {
               ],
             ),
             IconButton(
+              onPressed: (){},
               icon: ImageAsIcon(
                 img: 'assets/Group 14.png',
                 height: 20,

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:smarty/model/meditation_suggestions.dart';
 import 'package:smarty/ui/widget/app_drawer.dart';
 import 'package:smarty/ui/widget/smarty_app_bar.dart';
- 
+
 import 'package:carousel_slider/carousel_options.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:smarty/ui/widget/video_card.dart';

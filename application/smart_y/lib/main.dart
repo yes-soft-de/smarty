@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
   final LoginPage _loginPage;
   final CoursesPage _coursesPage;
 
+
   MyApp(this._loginPage, this._coursesPage);
 
   @override
