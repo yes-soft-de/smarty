@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/ui/widget/event_card.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}

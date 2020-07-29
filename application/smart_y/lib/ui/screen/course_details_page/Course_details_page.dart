@@ -1,9 +1,10 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:inject/inject.dart';
 import 'package:smarty/model/lesson/lesson.dart';
-import 'package:smarty/ui/widget/course_section_lessons.dart';
-import 'package:smarty/ui/widget/image_icon.dart';
+import 'package:smarty/ui/widget/course_section/course_section_lessons.dart';
+import 'package:smarty/ui/widget/image_icon/image_icon.dart';
 
+@provide
 class CourseDetailPage extends StatefulWidget {
   @override
   _CourseDetailPageState createState() => _CourseDetailPageState();

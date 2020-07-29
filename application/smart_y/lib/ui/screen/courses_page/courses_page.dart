@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:inject/inject.dart';
 import 'package:smarty/bloc/courses_page/courses_page.bloc.dart';
 import 'package:smarty/model/course/course_list_item.model.dart';
-import 'package:smarty/ui/widget/app_drawer.dart';
-import 'package:smarty/ui/widget/course_card.dart';
-import 'package:smarty/ui/widget/image_icon.dart';
-
-import 'package:inject/inject.dart';
-import 'package:smarty/ui/widget/loading_indicator.dart';
-import 'package:smarty/ui/widget/smarty_app_bar.dart';
+import 'package:smarty/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/ui/widget/course_card/course_card.dart';
+import 'package:smarty/ui/widget/image_icon/image_icon.dart';
+import 'package:smarty/ui/widget/loading_indicator/loading_indicator.dart';
+import 'package:smarty/ui/widget/smart_app_bar/smarty_app_bar.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 @provide
@@ -73,7 +72,10 @@ class _CoursesPageState extends State<CoursesPage> {
 
   Widget getPageLayout() {
     return Scaffold(
-      appBar: SmartyAppBar(appBar: AppBar(),title: 'Courses',),
+      appBar: SmartyAppBar(
+        appBar: AppBar(),
+        title: 'Courses',
+      ),
       drawer: AppDrawer(),
       body: Container(
         color: Color(0xffF4ECEC),

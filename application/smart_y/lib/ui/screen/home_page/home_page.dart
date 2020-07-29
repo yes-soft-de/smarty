@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:smarty/ui/widget/app_drawer.dart';
-import 'package:smarty/ui/widget/course_card.dart';
-import 'package:smarty/ui/widget/article_card.dart';
-import 'package:smarty/ui/widget/event_card.dart';
-import 'package:smarty/ui/widget/image_icon.dart';
-import 'package:smarty/ui/widget/smarty_app_bar.dart';
-import 'package:smarty/ui/widget/video_card.dart';
-import 'package:smarty/ui/widget/offer_card.dart';
+import 'package:inject/inject.dart';
+import 'package:smarty/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/ui/widget/article_card/article_card.dart';
+import 'package:smarty/ui/widget/course_card/course_card.dart';
+import 'package:smarty/ui/widget/event_card/event_card.dart';
+import 'package:smarty/ui/widget/image_icon/image_icon.dart';
+import 'package:smarty/ui/widget/offer_card/offer_card.dart';
+import 'package:smarty/ui/widget/smart_app_bar/smarty_app_bar.dart';
+import 'package:smarty/ui/widget/video_card/video_card.dart';
 
+@provide
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
