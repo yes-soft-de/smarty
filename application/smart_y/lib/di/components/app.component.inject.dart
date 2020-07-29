@@ -1,3 +1,4 @@
+
 import 'app.component.dart' as _i1;
 import '../../utils/logger/logger.dart' as _i2;
 import '../../persistence/shared_preferences/shared+preferences_helper.dart'
@@ -14,7 +15,12 @@ import '../../ui/screen/courses_page/courses_page.dart' as _i12;
 import '../../bloc/courses_page/courses_page.bloc.dart' as _i13;
 import '../../service/courses_page/courses_page.service.dart' as _i14;
 import '../../manager/courses/cources.manager.dart' as _i15;
-import '../../repository/courses_page/courses_page.repository.dart' as _i16;
+import '../../repository/courses_page/courses_page.repository.dart' as _i16 ;
+import '../../ui/screen/course_details_page/Course_details_page.dart' as _i17;
+import '../../bloc/courses_details_page/courses_details_page.bloc.dart' as _i18;
+import '../../service/course_details_page/course_details_page.service.dart' as _i19;
+import '../../manager/course_details/course_details.manager.dart' as _i20;
+import '../../repository/course_details_page/course_details_page.repository.dart' as _i20;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -32,7 +38,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   }
 
   _i6.MyApp _createMyApp() =>
-      _i6.MyApp(_createLoginPage(), _createCoursesPage());
+      _i6.MyApp(_createLoginPage(), _createCoursesPage(),_createCourseDetailPage());
   _i7.LoginPage _createLoginPage() =>
       _i7.LoginPage(_createLoginPageBloc(), _createLogger());
   _i8.LoginPageBloc _createLoginPageBloc() =>
@@ -58,6 +64,20 @@ class AppComponent$Injector implements _i1.AppComponent {
       _i15.CoursesManager(_createCoursesRepository());
   _i16.CoursesRepository _createCoursesRepository() =>
       _i16.CoursesRepository(_createHttpClient());
-  @override
+
+  _i17.CourseDetailPage _createCourseDetailPage() =>
+     _i17.CourseDetailPage(1,_createCourseDetailsBloc(),_createLogger());
+  _i18.CourseDetailsBloc _createCourseDetailsBloc() =>
+      _i18.CourseDetailsBloc(_createLogger(),_createCourseDetailsService());
+  _i19.CourseDetailsService _createCourseDetailsService() =>
+      _i19.CourseDetailsService(_createCourseDetailManager(),_createSharedPreferencesHelper());
+  _i20.CourseDetailManager _createCourseDetailManager() =>
+      _i20.CourseDetailManager(_createCourseDetailsRepository());
+  _i20.CourseDetailsRepository _createCourseDetailsRepository() =>
+      _i20.CourseDetailsRepository(_createHttpClient());
+
+@override
   _i6.MyApp get app => _createMyApp();
+
+
 }

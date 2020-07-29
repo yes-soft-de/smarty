@@ -9,6 +9,7 @@ abstract class AppComponent {
   @provide
   MyApp get app;
 
+
   static Future<AppComponent> create() async {
     return await g.AppComponent$Injector.create(
     );
