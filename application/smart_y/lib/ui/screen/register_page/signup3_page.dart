@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:country_pickers/country.dart';
 import 'package:country_pickers/country_pickers.dart';
-import 'package:smarty/ui/widget/logo.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/logo/logo.dart';
 
 class SignUp3Page extends StatefulWidget {
   @override

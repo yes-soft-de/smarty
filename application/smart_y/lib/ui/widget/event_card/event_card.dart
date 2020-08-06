@@ -1,7 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'image_icon.dart';
+import '../image_icon/image_icon.dart';
 
 class EventCard extends StatelessWidget {
   final String image;

@@ -2,8 +2,8 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:smarty/ui/widget/logo.dart';
-import 'package:smarty/ui/widget/text_field_with_image_icon.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/logo/logo.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/text_field_with_image_icon/text_field_with_image_icon.dart';
 
 
 class SignUp2Page extends StatefulWidget {

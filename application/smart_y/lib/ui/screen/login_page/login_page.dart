@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/bloc/login_page/login_page.bloc.dart';
 import 'package:smarty/request/login_page/login_request.dart';
-import 'package:smarty/ui/widget/logo.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/logo/logo.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 // NOTE: All Pages are Statefull Widgets

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:smarty/ui/widget/app_drawer.dart';
-import 'package:smarty/ui/widget/course_card.dart';
-import 'package:smarty/ui/widget/article_card.dart';
-import 'package:smarty/ui/widget/event_card.dart';
-import 'package:smarty/ui/widget/image_icon.dart';
-import 'package:smarty/ui/widget/smarty_app_bar.dart';
-import 'package:smarty/ui/widget/video_card.dart';
-import 'package:smarty/ui/widget/offer_card.dart';
+import 'package:smarty/ui/widget/app_drawer/app_drawer.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/course_card/course_card.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/article_card/article_card.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/event_card/event_card.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/image_icon/image_icon.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/smarty_app_bar/smarty_app_bar.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/video_card/video_card.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/offer_card/offer_card.dart';
 
 class HomePage extends StatefulWidget {
   @override

@@ -5,9 +5,9 @@ import 'package:smarty/bloc/courses_details_page/courses_details_page.bloc.dart'
 import 'package:smarty/bloc/courses_page/courses_page.bloc.dart';
 import 'package:smarty/model/lesson/lesson.dart';
 import 'package:smarty/model/section/secction.dart';
-import 'package:smarty/ui/widget/course_section_lessons.dart';
-import 'package:smarty/ui/widget/image_icon.dart';
-import 'package:smarty/ui/widget/loading_indicator.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/course_section_lessons/course_section_lessons.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/image_icon/image_icon.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/loading_indicator/loading_indicator.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 @provide

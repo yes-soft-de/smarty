@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smarty/ui/widget/image_icon.dart';
+import 'file:///D:/YesSoft%20projects/Smart%20Y/the%20flutter%20project/smarty/application/smart_y/lib/ui/widget/image_icon/image_icon.dart';
 
 
 class SmartyAppBar extends StatelessWidget implements PreferredSizeWidget {
