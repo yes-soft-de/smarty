@@ -115,60 +115,95 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Text('Weekly progress'),
-                    Text('For 50 \$'),
+                    FlatButton(
+                      onPressed: (){},
+                      color: Color(0xff5E239D),
+                      child: Text(
+                        'Start',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    )
                   ],
                 ),
+              ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: <Widget>[
+                  SizedBox(width: MediaQuery.of(context).size.width*0.07,),
+                  Text('Course category',
+                    style: TextStyle(
+                      fontSize: 10,
+                      color: Color(0xff5E239D),
+                    ),
+                  ),
+
+                ],
+              ),
+
+              //horizontal space
+              Container(
+                height: 10,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
-                  SizedBox(width: MediaQuery.of(context).size.width*0.1,),
-                  Text('Weekly progress on dieting',
+                  SizedBox(width: MediaQuery.of(context).size.width*0.07,),
+                  Text('Estimation time 1 day' ,
                     style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 9,
+                        fontSize: 12
+                    ),
+                  ),
+                  VerticalDivider(width: 30,),
+                  Text('For 50 \$',
+                    style: TextStyle(
+                        fontSize: 12
+                    ),
+                  ),
+                ],
+              ),
+              //horizontal space
+              Container(
+                height: 10,
+              ),
+
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: <Widget>[
+                  SizedBox(width: MediaQuery.of(context).size.width*0.07,),
+                  Container(
+                    width: MediaQuery.of(context).size.width*0.9,
+                    child: Text('Weekly progress on  dieting  Weekly progress on dieting Weekly progress on dieting Weekly progress on dieting',
+
+                    ),
+                  ),
+                ],
+              ),
+//horizontal space
+              Container(
+                height: 10,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: <Widget>[
+                  SizedBox(width: MediaQuery.of(context).size.width*0.07,),
+                  Text('Course content' ,
+                    style: TextStyle(
+                        fontSize: 12
+                    ),
+                  ),
+                  VerticalDivider(width: 70,),
+                  Text('42 Chapters',
+                    style: TextStyle(
+                        fontSize: 12
                     ),
                   ),
                 ],
               ),
 
-              Container(
-                padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        Icon(Icons.favorite,color: Colors.grey,),
-                        Text('42 Likes',
-                          style: TextStyle(
-                            color: Colors.grey,
-                            fontSize: 10,
-                          ),)
-                      ],
-                    ),
-                    Row(
-                      children: <Widget>[
-                        Icon(Icons.comment,color: Colors.grey,),
-                        Text('7 Comments',
-                          style: TextStyle(
-                            color: Colors.grey,
-                            fontSize: 10,
-                          ),)
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-
-              Divider(),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Text('Lessons',
-                    style: TextStyle(color:  Color(0xff5E239D)),)
-                ],
-              ),
               Divider(),
 
               sectionsColumn(sections),
@@ -209,6 +244,9 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
               ),
 
               Divider(),
+
+
+              //comments && likes number
               Container(
                 padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
                 child: Row(
@@ -239,6 +277,8 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                 ),
               ),
               Divider(),
+
+              //comment field
               Container(
                 padding: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 20),
                 child: Row(
@@ -248,12 +288,13 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                       child: Image(
 
                         image: AssetImage('assets/profile_pic.png'),
-                        height: MediaQuery.of(context).size.width*0.2,
+                        height: MediaQuery.of(context).size.width*0.17,
                       ),
                     ),
 
                     Container(
                       width: MediaQuery.of(context).size.width*0.6,
+                      height: MediaQuery.of(context).size.width*0.16,
                       child: TextField(
                         textAlign: TextAlign.start,
                         keyboardType: TextInputType.text,
@@ -261,7 +302,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                             suffixIcon: Icon(Icons.attach_file,color: Colors.grey,),
                             hintStyle: TextStyle(fontSize: 10),
                             border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(8),
+                              borderRadius: BorderRadius.circular(15),
                               borderSide: BorderSide(
                                 width: 0,
                                 style: BorderStyle.none,
@@ -278,11 +319,51 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
                   ],
                 ),
-              )
+              ),
+
+              //previous comments
+              Container(
+                padding: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 20),
+                child: Row(
+                  children: <Widget>[
+                    Container(
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 10, 0),
+                      child: Image(
+
+                        image: AssetImage('assets/profilePic.png'
+                        ),
+                        height: MediaQuery.of(context).size.width*0.2,
+                      ),
+                    ),
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Alex Smith'),
+                        Text('20 April at 4:20 PM',
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 9,
+                            )
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              ),
+
+              Container (
+                padding: const EdgeInsets.all(16.0),
+                width: MediaQuery.of(context).size.width*0.85,
+                child: Text ("Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2", textAlign: TextAlign.center),
+              ),
+
+
             ],
-          ),
-        ),
-      );
+                ),
+              )
+
+          );
+
 
 
   }

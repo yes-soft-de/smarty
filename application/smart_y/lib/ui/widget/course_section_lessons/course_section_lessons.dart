@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smarty/model/lesson/lesson.dart';
+import 'package:smarty/ui/widget/image_icon/image_icon.dart';
 
 class CourseSectionLessons extends StatelessWidget {
   final String sectionName;
@@ -18,7 +19,7 @@ class CourseSectionLessons extends StatelessWidget {
             padding: EdgeInsetsDirectional.fromSTEB(15 , 50, 15, 10),
             itemBuilder: (BuildContext context, int index){
               return Card(
-                color: Colors.white12,
+                color: Color(0xff3ED598),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(0.0),
                 ),
@@ -28,30 +29,47 @@ class CourseSectionLessons extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
 
-                          Text(lessons[index].title,
-                          style: TextStyle(color: Colors.grey),
-                          ),
-
+                      Text(lessons[index].title,
+                        style: TextStyle(color: Colors.white),
+                      ),
+                      Text('${lessons[index].duration} min',
+                        style: TextStyle(color: Colors.white),
+                      ),
                       Text('${index+1} of ${lessons.length}',
-                        style: TextStyle(color: Colors.grey),),
+                        style: TextStyle(color: Colors.white),),
 
+                      Row(
 
-                          Icon(Icons.check_circle,color: Colors.grey,),
+                        children: <Widget>[
+                          ImageAsIcon(
+                            width: 25,
+                            height: 25,
+                            img: 'assets/Play2.png',
+                          ),
+                          FlatButton(
+                              onPressed: (){},
+                              child: Text('Start',style: TextStyle(color: Colors.white ,fontSize: 10),
+                              )
+                          )
+                        ],
+                      ),
+
 
                     ],
                   ),
                 ),
               );
-           },
+            },
           ),
           Positioned(
             left: 0.0,
             right: 0.0,
             top: 0.0,
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                         Text(sectionName),
+                SizedBox(width: MediaQuery.of(context).size.width*0.07,),
+                Text(sectionName),
               ],
             ),
           ),
