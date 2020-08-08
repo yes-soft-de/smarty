@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/manager/login/login.manager.dart",
+  "asset": "asset:smarty/lib/manager/register/register.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "LoginManager",
+        "name": "RegisterManager",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/manager/login/login.manager.dart#LoginManager",
+              "root": "asset:smarty/lib/manager/register/register.dart#RegisterManager",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/repository/login/login_page.repository.dart#LoginRepository",
+                "root": "asset:smarty/lib/repository/register/register.dart#RegisterRepository",
                 "qualifier": null
               },
               "isProvider": false

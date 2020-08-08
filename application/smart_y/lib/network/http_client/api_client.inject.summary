@@ -1,27 +1,27 @@
 {
-  "asset": "asset:smarty/lib/manager/login/login.manager.dart",
+  "asset": "asset:smarty/lib/network/http_client/api_client.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "LoginManager",
+        "name": "ApiClient",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/manager/login/login.manager.dart#LoginManager",
+              "root": "asset:smarty/lib/network/http_client/api_client.dart#ApiClient",
               "qualifier": null
             },
             "isProvider": false
           },
-          "singleton": false,
+          "singleton": true,
           "asynchronous": false,
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/repository/login/login_page.repository.dart#LoginRepository",
+                "root": "asset:smarty/lib/utils/logger/logger.dart#Logger",
                 "qualifier": null
               },
               "isProvider": false

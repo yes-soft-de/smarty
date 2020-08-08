@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/repository/login_page/login_page.repository.dart",
+  "asset": "asset:smarty/lib/repository/register/register.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "LoginRepository",
+        "name": "RegisterRepository",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/repository/login_page/login_page.repository.dart#LoginRepository",
+              "root": "asset:smarty/lib/repository/register/register.dart#RegisterRepository",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/network/http_client/http_client.dart#HttpClient",
+                "root": "asset:smarty/lib/network/http_client/api_client.dart#ApiClient",
                 "qualifier": null
               },
               "isProvider": false

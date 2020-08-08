@@ -1,34 +1,41 @@
 {
-  "asset": "asset:smarty/lib/network/http_client/http_client.dart",
+  "asset": "asset:smarty/lib/main.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "HttpClient",
+        "name": "MyApp",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/network/http_client/http_client.dart#HttpClient",
+              "root": "asset:smarty/lib/main.dart#MyApp",
               "qualifier": null
             },
             "isProvider": false
           },
-          "singleton": true,
+          "singleton": false,
           "asynchronous": false,
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/utils/logger/logger.dart#Logger",
+                "root": "asset:smarty/lib/ui/screen/login_page/login_page.dart#LoginPage",
                 "qualifier": null
               },
               "isProvider": false
             },
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/persistence/shared_preferences/shared+preferences_helper.dart#SharedPreferencesHelper",
+                "root": "asset:smarty/lib/ui/screen/courses_page/courses_page.dart#CoursesPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/ui/screen/register_page/register_page.dart#RegisterPage",
                 "qualifier": null
               },
               "isProvider": false

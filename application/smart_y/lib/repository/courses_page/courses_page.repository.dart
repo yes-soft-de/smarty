@@ -1,17 +1,18 @@
 import 'package:inject/inject.dart';
 import 'package:smarty/ApiUrls.dart';
 
-import 'package:smarty/network/http_client/http_client.dart';
+import 'package:smarty/network/http_client/api_client.dart';
 import 'package:smarty/response/course_response/course_response.dart';
 
 @provide
 class CoursesRepository {
-  HttpClient _httpClient;
+  ApiClient _httpClient;
 
   CoursesRepository(this._httpClient);
 
   Future<List<CourseResponse>> getCourses() async {
-    dynamic response = await _httpClient.get(ApiUrls.CoursesApi);
+    List<Map<String, dynamic>> response =
+        await _httpClient.get(ApiUrls.CoursesApi);
 
     // If no Response, return Null
     if (response == null) return null;

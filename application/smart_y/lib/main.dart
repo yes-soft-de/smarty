@@ -7,6 +7,7 @@ import 'package:inject/inject.dart';
 import 'package:smarty/routes.dart';
 import 'package:smarty/ui/screen/courses_page/courses_page.dart';
 import 'package:smarty/ui/screen/login_page/login_page.dart';
+import 'package:smarty/ui/screen/register_page/register_page.dart';
 
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
@@ -30,9 +31,10 @@ class MyApp extends StatelessWidget {
       FirebaseAnalyticsObserver(analytics: analytics);
 
   final LoginPage _loginPage;
+  final RegisterPage _registerPage;
   final CoursesPage _coursesPage;
 
-  MyApp(this._loginPage, this._coursesPage);
+  MyApp(this._loginPage, this._coursesPage, this._registerPage);
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +42,8 @@ class MyApp extends StatelessWidget {
 
     fullRoutesList = {
       Routes.LoginPageRoute: (context) => _loginPage,
-      Routes.coursesPage: (context) => _coursesPage
+      Routes.coursesPage: (context) => _coursesPage,
+      Routes.registerPageRoute: (context) => _registerPage
     };
 
     return MaterialApp(
@@ -58,6 +61,6 @@ class MyApp extends StatelessWidget {
         supportedLocales: S.delegate.supportedLocales,
         title: 'Smart Y',
         routes: fullRoutesList,
-        initialRoute: Routes.coursesPage);
+        initialRoute: Routes.registerPageRoute);
   }
 }

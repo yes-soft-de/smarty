@@ -1,25 +1,36 @@
 class LoginResponse {
-  String token;
-  String userDisplayName;
-  String userEmail;
-  String userNicename;
+  bool success;
+  LoginPayload data;
 
-  LoginResponse(
-      {this.token, this.userDisplayName, this.userEmail, this.userNicename});
+  LoginResponse({this.success, this.data});
 
   LoginResponse.fromJson(Map<String, dynamic> json) {
-    token = json['token'];
-    userDisplayName = json['user_display_name'];
-    userEmail = json['user_email'];
-    userNicename = json['user_nicename'];
+    success = json['success'];
+    data = json['data'] != null ? new LoginPayload.fromJson(json['data']) : null;
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['token'] = this.token;
-    data['user_display_name'] = this.userDisplayName;
-    data['user_email'] = this.userEmail;
-    data['user_nicename'] = this.userNicename;
+    data['success'] = this.success;
+    if (this.data != null) {
+      data['data'] = this.data.toJson();
+    }
+    return data;
+  }
+}
+
+class LoginPayload {
+  String jwt;
+
+  LoginPayload({this.jwt});
+
+  LoginPayload.fromJson(Map<String, dynamic> json) {
+    jwt = json['jwt'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['jwt'] = this.jwt;
     return data;
   }
 }

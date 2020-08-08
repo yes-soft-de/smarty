@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/network/http_client/http_client.dart#HttpClient",
+                "root": "asset:smarty/lib/network/http_client/api_client.dart#ApiClient",
                 "qualifier": null
               },
               "isProvider": false

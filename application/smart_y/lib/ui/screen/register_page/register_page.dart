@@ -1,9 +1,19 @@
+import 'dart:developer';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/ApiUrls.dart';
+import 'package:smarty/network/http_client/api_client.dart';
+import 'package:smarty/service/register/register.dart';
 import 'package:smarty/ui/widget/logo_widget/logo.dart';
 
 @provide
 class RegisterPage extends StatefulWidget {
+  final RegisterService _registerService;
+
+  RegisterPage(this._registerService);
+
   @override
   State<StatefulWidget> createState() => RegisterPageState();
 }
@@ -16,9 +26,18 @@ class RegisterPageState extends State<RegisterPage> {
 
   @override
   Widget build(BuildContext context) {
+
     PageView signUpPageView = PageView();
 
     return Scaffold(
+      appBar: AppBar(
+        title: GestureDetector(
+          onTap: () {
+            _signUp();
+          },
+          child: Text('Register'),
+        ),
+      ),
       body: Container(
         alignment: Alignment.center,
         decoration: BoxDecoration(
@@ -250,5 +269,7 @@ class RegisterPageState extends State<RegisterPage> {
     );
   }
 
-  _signUp() {}
+  _signUp()  {
+    widget._registerService.register('mohammad16@mail.com', '123456789');
+  }
 }

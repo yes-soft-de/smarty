@@ -13,14 +13,12 @@ class LoginService {
     LoginService(this._loginManager, this._sharedPreferencesHelper);
 
     /// Returns True if credentials are OK, otherwise returns False
-    Future<bool> login(String username, String password) async {
-      LoginRequest loginRequest = LoginRequest(username: username, password: password);
+    Future<bool> login(String email, String password) async {
+      LoginRequest loginRequest = LoginRequest(email: email, password: password);
       LoginResponse loginResponse = await _loginManager.login(loginRequest);
 
       if (loginResponse != null) {
-        // TODO: Cache the Token and the response
-
-        await _sharedPreferencesHelper.setToken(loginResponse.token);
+        await _sharedPreferencesHelper.setToken(loginResponse.data.jwt);
 
         return true;
       }

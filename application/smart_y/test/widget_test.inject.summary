@@ -1,5 +1,5 @@
 {
-  "asset": "asset:smarty/lib/model/meditation_suggestions.dart",
+  "asset": "asset:smarty/test/widget_test.dart",
   "summary": {
     "injector": [],
     "module": [],

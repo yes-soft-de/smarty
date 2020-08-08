@@ -47,6 +47,10 @@ dependencies:
   dio: ^3.0.9
   dio_flutter_transformer: ^3.0.2
   dio_http_cache: ^0.2.7
+  dio_cookie_manager: ^1.0.0
+
+  # Cookies
+  cookie_jar: ^1.0.0
 
   # Pair and Other Types
   analyzer_plugin: ^0.2.5

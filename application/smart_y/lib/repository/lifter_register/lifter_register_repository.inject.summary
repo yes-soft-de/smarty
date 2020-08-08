@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/manager/login/login.manager.dart",
+  "asset": "asset:smarty/lib/repository/lifter_register/lifter_register_repository.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "LoginManager",
+        "name": "LifterRegisterRepository",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/manager/login/login.manager.dart#LoginManager",
+              "root": "asset:smarty/lib/repository/lifter_register/lifter_register_repository.dart#LifterRegisterRepository",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/repository/login/login_page.repository.dart#LoginRepository",
+                "root": "asset:smarty/lib/network/http_client/api_client.dart#ApiClient",
                 "qualifier": null
               },
               "isProvider": false
