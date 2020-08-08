@@ -22,21 +22,26 @@ class RegisterPageState extends State<RegisterPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
 
+  final formIconWidth = 25.0;
+  final formIconHeight = 35.0;
+
   @override
   Widget build(BuildContext context) {
-    PageView signUpPageView = PageView(
-      children: <Widget>[_getStepOnePage(), _getStepTowPage()],
+    Widget signUpPageView = PageView(
+      controller: _formController,
+      children: <Widget>[
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: SingleChildScrollView(child: _getStepOnePage()),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: SingleChildScrollView(child: _getStepTowPage()),
+        )
+      ],
     );
 
     return Scaffold(
-      appBar: AppBar(
-        title: GestureDetector(
-          onTap: () {
-            _signUp();
-          },
-          child: Text('Register'),
-        ),
-      ),
       body: Container(
         alignment: Alignment.center,
         decoration: BoxDecoration(
@@ -45,35 +50,20 @@ class RegisterPageState extends State<RegisterPage> {
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
                 stops: [0.6, 1])),
-        child: Form(child: signUpPageView),
+        child: Center(child: Form(child: signUpPageView)),
       ),
     );
   }
 
   /// User Info Form Page
   Widget _getStepOnePage() {
-    return Flex(
-      direction: Axis.vertical,
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         _getPageHeader(),
         TextFormField(
-          decoration: InputDecoration(
-              labelText: 'Full Name', icon: Image.asset('assets/person.png')),
-          validator: (name) {
-            if (name.isEmpty) {
-              return 'Please enter some text';
-            }
-            if (name.length < 5) {
-              return 'Name is too short';
-            }
-            return null;
-          },
           controller: _nameController,
-        ),
-        TextFormField(
-          decoration: InputDecoration(
-              labelText: 'Username', icon: Image.asset('assets/person.png')),
           validator: (name) {
             if (name.isEmpty) {
               return 'Please enter some text';
@@ -83,11 +73,41 @@ class RegisterPageState extends State<RegisterPage> {
             }
             return null;
           },
-          controller: _usernameController,
+          keyboardType: TextInputType.text,
+          decoration: InputDecoration(
+              labelText: 'Full Name',
+              icon: Container(
+                  height: formIconHeight,
+                  width: formIconWidth,
+                  child: Image.asset('assets/person.png'))),
         ),
         TextFormField(
+          keyboardType: TextInputType.text,
+          controller: _usernameController,
           decoration: InputDecoration(
-              labelText: 'Email', icon: Image.asset('assets/person.png')),
+              labelText: 'Username',
+              icon: Container(
+                  height: formIconHeight,
+                  width: formIconWidth,
+                  child: Image.asset('assets/person.png'))),
+          validator: (name) {
+            if (name.isEmpty) {
+              return 'Please enter some text';
+            }
+            if (name.length < 5) {
+              return 'Name is too short';
+            }
+            return null;
+          },
+        ),
+        TextFormField(
+          keyboardType: TextInputType.emailAddress,
+          decoration: InputDecoration(
+              labelText: 'Email',
+              icon: Container(
+                  height: formIconHeight,
+                  width: formIconWidth,
+                  child: Image.asset('assets/person.png'))),
           validator: (name) {
             if (name.isEmpty) {
               return 'Please enter some text';
@@ -130,18 +150,13 @@ class RegisterPageState extends State<RegisterPage> {
                   child: FlatButton(
                     padding: EdgeInsetsDirectional.fromSTEB(7.5, 15, 0, 15),
                     onPressed: () {
-                      _signUp();
+                      _formController.jumpToPage(1);
                     },
                     color: Color(0xffDCDCDE),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        Text(
-                          'Next',
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
-                        ),
+
                         Icon(
                           Icons.arrow_forward,
                           color: Colors.white,
@@ -165,18 +180,21 @@ class RegisterPageState extends State<RegisterPage> {
       children: <Widget>[
         _getPageHeader(),
         TextFormField(
+          obscureText: true,
+          controller: _passwordController,
           validator: (password) {
             if (password.isEmpty) return 'Please input your password';
             if (password.length < 6) return 'Short Password!';
             return null;
           },
-          controller: _passwordController,
           decoration: InputDecoration(
-              icon: Image.asset('assets/password.png'),
+              icon: Container(
+                  height: formIconHeight,
+                  width: formIconWidth,
+                  child: Image.asset('assets/password.png')),
               hintText: 'Create a Password'),
         ),
         TextFormField(
-          controller: _passwordController,
           validator: (passwordConfirmation) {
             if (passwordConfirmation.isEmpty)
               return 'Please input your password';
@@ -186,7 +204,10 @@ class RegisterPageState extends State<RegisterPage> {
             return null;
           },
           decoration: InputDecoration(
-              icon: Image.asset('assets/password.png'),
+              icon: Container(
+                  height: formIconHeight,
+                  width: formIconWidth,
+                  child: Image.asset('assets/password.png')),
               hintText: 'Create a Password'),
         ),
         Padding(
@@ -244,6 +265,8 @@ class RegisterPageState extends State<RegisterPage> {
   Widget _getPageHeader() {
     return Flex(
       direction: Axis.vertical,
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         LogoWidget(),
         Row(
