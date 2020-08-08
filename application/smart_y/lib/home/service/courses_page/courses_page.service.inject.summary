@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/persistence/shared_preferences/shared+preferences_helper.dart#SharedPreferencesHelper",
+                "root": "asset:smarty/lib/persistence/shared_preferences/shared_preferences_helper.dart#SharedPreferencesHelper",
                 "qualifier": null
               },
               "isProvider": false

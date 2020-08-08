@@ -26,12 +26,11 @@ class LoginPageBloc {
   Stream<Pair<int, dynamic>> get loginStateObservable => _loginSubject.stream;
 
   login(String username, String password) {
+
     _loginSubject.add(Pair(STATUS_CODE_CREDENTIALS_SENT, null));
+
     _loginService.login(username, password).then((loginSuccess) {
       if (loginSuccess) {
-        // This Might be used later to indicate an error message
-        // The important Part is the first paramter, the second is optional.
-        // I use it for generalized service response models
         _loginSubject.add(Pair(STATUS_CODE_AUTH_SUCCESS, null));
       } else {
         this._logger.warn(tag, 'login failed');

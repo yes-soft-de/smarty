@@ -1,5 +1,5 @@
 import 'app.component.dart' as _i1;
-import '../../persistence/shared_preferences/shared+preferences_helper.dart'
+import '../../persistence/shared_preferences/shared_preferences_helper.dart'
     as _i2;
 import '../../utils/logger/logger.dart' as _i3;
 import '../../network/http_client/api_client.dart' as _i4;
@@ -63,8 +63,8 @@ class AppComponent$Injector implements _i1.AppComponent {
       _singletonSharedPreferencesHelper ??= _i2.SharedPreferencesHelper();
   _i13.CoursesManager _createCoursesManager() =>
       _i13.CoursesManager(_createCoursesRepository());
-  _i14.CoursesRepository _createCoursesRepository() =>
-      _i14.CoursesRepository(_createApiClient());
+  _i14.CoursesRepository _createCoursesRepository() => _i14.CoursesRepository(
+      _createApiClient(), _createSharedPreferencesHelper());
   _i4.ApiClient _createApiClient() =>
       _singletonApiClient ??= _i4.ApiClient(_createLogger());
   _i3.Logger _createLogger() => _singletonLogger ??= _i3.Logger();
@@ -76,7 +76,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i18.LoginPageBloc _createLoginPageBloc() =>
       _i18.LoginPageBloc(_createLoginService(), _createLogger());
   _i19.LoginService _createLoginService() => _i19.LoginService(
-      _createLoginManager(), _createSharedPreferencesHelper());
+      _createLoginManager(), _createSharedPreferencesHelper(), _createLogger());
   _i20.LoginManager _createLoginManager() =>
       _i20.LoginManager(_createLoginRepository());
   _i21.LoginRepository _createLoginRepository() =>

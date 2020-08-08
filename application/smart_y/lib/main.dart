@@ -55,6 +55,6 @@ class MyApp extends StatelessWidget {
         supportedLocales: S.delegate.supportedLocales,
         title: 'Smart Y',
         routes: fullRoutesList,
-        initialRoute: AuthorizationModule.ROUTE_REGISTER_PAGE);
+        initialRoute: AuthorizationModule.ROUTE_LOGIN_PAGE);
   }
 }

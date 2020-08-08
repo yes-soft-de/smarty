@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/authorization/authorization_component.dart';
 import 'package:smarty/authorization/bloc/login_page/login_page.bloc.dart';
+import 'package:smarty/home/home_module.dart';
 import 'package:smarty/shared/ui/widget/logo_widget/logo.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
@@ -9,9 +11,9 @@ class LoginPage extends StatefulWidget {
   final String tag = "LoginPage";
 
   final LoginPageBloc _loginPageBloc;
+
   // If we have time to log every single second in this stage, we would do it, BUT we dont have the time
   final Logger _logger;
-
 
   LoginPage(this._loginPageBloc, this._logger);
 
@@ -27,6 +29,8 @@ class LoginPageState extends State<LoginPage> {
   String _userName;
   String _password;
 
+  bool authError = false;
+
   @override
   Widget build(BuildContext context) {
     widget._loginPageBloc.loginStateObservable.listen((stateChanged) {
@@ -40,19 +44,12 @@ class LoginPageState extends State<LoginPage> {
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_SUCCESS) {
       // TODO: Move to Home using Navigator
       widget._logger.info(widget.tag, "AUTH SUCCESS");
-      return Scaffold(
-          body: Center(
-             child: Text("Login Success!"),
-      ));
+      Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);
     }
 
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_ERROR) {
-      // TODO: Show an Error Message on the Login Indicator, and Remove this
       widget._logger.info(widget.tag, "AUTH Error");
-      return Scaffold(
-          body: Center(
-             child: Text("Login Error"),
-      ));
+      return getPageLayout();
     }
 
     if (currentState == LoginPageBloc.STATUS_CODE_CREDENTIALS_SENT) {
@@ -76,27 +73,24 @@ class LoginPageState extends State<LoginPage> {
     );
   }
 
-
   // Always Return a Scaffold from a screen, consistency is the key here
   Widget getPageLayout() {
     // Build Based on Current State :)
     return Scaffold(
       body: Container(
         height: MediaQuery.of(context).size.height,
-          padding: EdgeInsetsDirectional.fromSTEB(10.0, 0, 10.0, 0),
-          decoration: BoxDecoration(
-              gradient: LinearGradient(
-                  colors: [Color(0xff5E239D),Color(0xffDCDCDE)],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                  stops: [0.6,1]
-            )),
+        padding: EdgeInsetsDirectional.fromSTEB(10.0, 0, 10.0, 0),
+        decoration: BoxDecoration(
+            gradient: LinearGradient(
+                colors: [Color(0xff5E239D), Color(0xffDCDCDE)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                stops: [0.6, 1])),
         child: SafeArea(
           child: SingleChildScrollView(
-            child:new Form(
+            child: new Form(
               key: _formKey,
               autovalidate: _autoValidate,
-
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
@@ -126,47 +120,44 @@ class LoginPageState extends State<LoginPage> {
                             height: 30,
                             width: 20,
                           ),
-                        )
-                    ),
-                    keyboardType:TextInputType.text,
+                        )),
+                    keyboardType: TextInputType.text,
                     validator: validateName,
                     onSaved: (String val) {
                       _userName = val;
                     },
                   ),
                   new TextFormField(
-                      obscureText: true,
-                      decoration: InputDecoration(
-                          labelText: 'Password',
-                          icon: Tab(
-                            icon: Container(
-                              child: Image(
-                                image: AssetImage('assets/password.png'),
-                                fit: BoxFit.cover,
-                              ),
-                              height: 30,
-                              width: 20,
+                    obscureText: true,
+                    decoration: InputDecoration(
+                        labelText: 'Password',
+                        icon: Tab(
+                          icon: Container(
+                            child: Image(
+                              image: AssetImage('assets/password.png'),
+                              fit: BoxFit.cover,
                             ),
-                          )
-                      ),
+                            height: 30,
+                            width: 20,
+                          ),
+                        )),
                     keyboardType: TextInputType.visiblePassword,
                     validator: validatePassword,
                     onSaved: (String val) {
                       _password = val;
                     },
                   ),
-
                   Container(
                     margin: EdgeInsets.fromLTRB(30, 30, 30, 0),
                     child: FlatButton(
                       padding: EdgeInsets.fromLTRB(0, 15, 0, 15),
-                      onPressed:  _validateInputs
-                      ,
+                      onPressed: () {
+                        _validateInputsAndLogin();
+                      },
                       color: Color(0xffDCDCDE),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          // TODO: Switch This to a button or a Gesture Detector, and disable it if currentStatus STATUS_CODE_CREDENTIALS_SENT
                           Text(
                             // This needs to translate, but Later, the dependency is installed
                             'Sign in',
@@ -188,8 +179,8 @@ class LoginPageState extends State<LoginPage> {
                       padding: EdgeInsets.fromLTRB(0, 15, 0, 15),
                       color: Color(0xffDCDCDE),
                       onPressed: () {
-                        // TODO: Use Logger info method
-
+                        Navigator.pushNamed(
+                            context, AuthorizationModule.ROUTE_REGISTER_PAGE);
                       },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -210,33 +201,28 @@ class LoginPageState extends State<LoginPage> {
           ),
         ),
       ),
-
-
     );
   }
 
   String validateName(String value) {
-    if(value.length < 1)
+    if (value.length < 1)
       return 'Name can\'t be empty ';
     else
       return null;
-
   }
 
   String validatePassword(String value) {
-    if(value.length < 1)
+    if (value.length < 1)
       return 'Password can\'t be empty ';
     else
       return null;
-
   }
-  void _validateInputs() {
+
+  void _validateInputsAndLogin() {
     if (_formKey.currentState.validate()) {
-//    If all data are correct then save data to out variables
       _formKey.currentState.save();
       login();
     } else {
-//    If all data are not valid then start auto validation.
       setState(() {
         _autoValidate = true;
       });
@@ -244,8 +230,6 @@ class LoginPageState extends State<LoginPage> {
   }
 
   login() {
-    // Get the text from TextFormControl and Submit it to the Bloc
-    // No Need to return values, it will show in the stream above
     widget._loginPageBloc.login(_userName, _password);
   }
 }

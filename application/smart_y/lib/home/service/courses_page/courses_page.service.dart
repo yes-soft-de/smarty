@@ -1,7 +1,7 @@
 import 'package:inject/inject.dart';
 import 'package:smarty/home/manager/courses/cources.manager.dart';
 import 'package:smarty/home/model/course/course_list_item.model.dart';
-import 'package:smarty/persistence/shared_preferences/shared+preferences_helper.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 import 'package:smarty/home/response/course_response/course_response.dart';
 
 @provide

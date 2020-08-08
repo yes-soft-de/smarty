@@ -8,7 +8,7 @@ import 'package:smarty/authorization/request/register_request/register_request.d
 import 'package:smarty/authorization/response/lifter_register_response/lifter_register_response.dart';
 import 'package:smarty/authorization/response/login_page/login.response.dart';
 import 'package:smarty/authorization/response/register/register.dart';
-import 'package:smarty/persistence/shared_preferences/shared+preferences_helper.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 @provide
@@ -32,16 +32,16 @@ class RegisterService {
     RegisterResponse registerResponse = await _registerNewUserInWordPress(registerRequest);
 
     if (registerResponse == null) {
-      return null;
+      return false;
     }
 
     LoginResponse loginResponse = await _authorizeWithWordPress(registerRequest.email, registerRequest.password);
 
     if (loginResponse == null) {
-      return null;
+      return false;
     }
 
-    _authorizeWithLifter(registerResponse.user.iD, loginResponse.data.jwt);
+    await _preferencesHelper.setToken(loginResponse.data.jwt);
 
     return true;
   }
@@ -75,14 +75,5 @@ class RegisterService {
     await _preferencesHelper.setToken(loginResponse.data.jwt);
 
     return loginResponse;
-  }
-
-  Future<dynamic> _authorizeWithLifter(String userId, String jwt) async {
-    // Request Lifter END Point Access
-    LifterRegisterResponse lifterResponse = await this._lifterRegisterManager.register(LifterRegisterRequest(
-        userId: int.parse(userId),
-        description: 'User Endpoint No.' + userId,
-        permissions: 'read'
-    ), jwt);
   }
 }
