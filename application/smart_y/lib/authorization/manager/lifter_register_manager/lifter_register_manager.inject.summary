@@ -1,0 +1,34 @@
+{
+  "asset": "asset:smarty/lib/authorization/manager/lifter_register_manager/lifter_register_manager.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "LifterRegisterManager",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:smarty/lib/authorization/manager/lifter_register_manager/lifter_register_manager.dart#LifterRegisterManager",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/authorization/repository/lifter_register/lifter_register_repository.dart#LifterRegisterRepository",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

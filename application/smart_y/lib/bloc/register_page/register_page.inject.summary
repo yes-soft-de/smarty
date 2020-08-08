@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/bloc/register_page/register_page.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}

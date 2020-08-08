@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/ui/widget/loading_indicator/loading_indicator.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}

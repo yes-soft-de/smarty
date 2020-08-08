@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/main.dart",
+  "asset": "asset:smarty/lib/authorization/service/login_page/login_page.service.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "MyApp",
+        "name": "LoginService",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/main.dart#MyApp",
+              "root": "asset:smarty/lib/authorization/service/login_page/login_page.service.dart#LoginService",
               "qualifier": null
             },
             "isProvider": false
@@ -21,21 +21,14 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/authorization/ui/screen/login_page/login_page.dart#LoginPage",
+                "root": "asset:smarty/lib/authorization/manager/login/login.manager.dart#LoginManager",
                 "qualifier": null
               },
               "isProvider": false
             },
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/courses_page/courses_page.dart#CoursesPage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/authorization/ui/screen/register_page/register_page.dart#RegisterPage",
+                "root": "asset:smarty/lib/persistence/shared_preferences/shared+preferences_helper.dart#SharedPreferencesHelper",
                 "qualifier": null
               },
               "isProvider": false

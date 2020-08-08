@@ -5,23 +5,25 @@ import '../../persistence/shared_preferences/shared+preferences_helper.dart'
     as _i4;
 import 'dart:async' as _i5;
 import '../../main.dart' as _i6;
-import '../../ui/screen/login_page/login_page.dart' as _i7;
-import '../../bloc/login_page/login_page.bloc.dart' as _i8;
-import '../../service/login_page/login_page.service.dart' as _i9;
-import '../../manager/login/login.manager.dart' as _i10;
-import '../../repository/login/login_page.repository.dart' as _i11;
-import '../../ui/screen/courses_page/courses_page.dart' as _i12;
-import '../../bloc/courses_page/courses_page.bloc.dart' as _i13;
-import '../../service/courses_page/courses_page.service.dart' as _i14;
-import '../../manager/courses/cources.manager.dart' as _i15;
-import '../../repository/courses_page/courses_page.repository.dart' as _i16;
-import '../../ui/screen/register_page/register_page.dart' as _i17;
-import '../../service/register/register.dart' as _i18;
-import '../../manager/register/register.dart' as _i19;
-import '../../repository/register/register.dart' as _i20;
-import '../../manager/lifter_register_manager/lifter_register_manager.dart'
+import '../../authorization/ui/screen/login_page/login_page.dart' as _i7;
+import '../../authorization/bloc/login_page/login_page.bloc.dart' as _i8;
+import '../../authorization/service/login_page/login_page.service.dart' as _i9;
+import '../../authorization/manager/login/login.manager.dart' as _i10;
+import '../../authorization/repository/login/login_page.repository.dart'
+    as _i11;
+import '../../home/ui/screen/courses_page/courses_page.dart' as _i12;
+import '../../home/bloc/courses_page/courses_page.bloc.dart' as _i13;
+import '../../home/service/courses_page/courses_page.service.dart' as _i14;
+import '../../home/manager/courses/cources.manager.dart' as _i15;
+import '../../home/repository/courses_page/courses_page.repository.dart'
+    as _i16;
+import '../../authorization/ui/screen/register_page/register_page.dart' as _i17;
+import '../../authorization/service/register/register.dart' as _i18;
+import '../../authorization/manager/register/register.dart' as _i19;
+import '../../authorization/repository/register/register.dart' as _i20;
+import '../../authorization/manager/lifter_register_manager/lifter_register_manager.dart'
     as _i21;
-import '../../repository/lifter_register/lifter_register_repository.dart'
+import '../../authorization/repository/lifter_register/lifter_register_repository.dart'
     as _i22;
 
 class AppComponent$Injector implements _i1.AppComponent {

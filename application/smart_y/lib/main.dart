@@ -5,9 +5,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/routes.dart';
-import 'package:smarty/ui/screen/courses_page/courses_page.dart';
-import 'package:smarty/ui/screen/login_page/login_page.dart';
-import 'package:smarty/ui/screen/register_page/register_page.dart';
+import 'package:smarty/home/ui/screen/courses_page/courses_page.dart';
+import 'package:smarty/authorization/ui/screen/login_page/login_page.dart';
+import 'package:smarty/authorization/ui/screen/register_page/register_page.dart';
 
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';

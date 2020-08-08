@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/request/register_request/register_request.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}
