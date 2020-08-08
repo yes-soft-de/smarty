@@ -1,5 +1,6 @@
 import 'package:inject/inject.dart';
 import 'package:smarty/authorization/repository/register/register.dart';
+import 'package:smarty/authorization/request/register_request/register_request.dart';
 import 'package:smarty/authorization/response/register/register.dart';
 
 @provide
@@ -8,7 +9,7 @@ class RegisterManager {
 
   RegisterManager(this._repository);
 
-  Future<RegisterResponse> register(email, password) {
-    return this._repository.registerByCredentials(email, password);
+  Future<RegisterResponse> register(RegisterRequest registerRequest) {
+    return this._repository.registerByCredentials(registerRequest);
   }
 }

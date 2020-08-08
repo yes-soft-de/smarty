@@ -4,6 +4,7 @@ import 'package:smarty/authorization/manager/login/login.manager.dart';
 import 'package:smarty/authorization/manager/register/register.dart';
 import 'package:smarty/authorization/request/lifter_register_request/lifter_register_request.dart';
 import 'package:smarty/authorization/request/login_page/login_request.dart';
+import 'package:smarty/authorization/request/register_request/register_request.dart';
 import 'package:smarty/authorization/response/lifter_register_response/lifter_register_response.dart';
 import 'package:smarty/authorization/response/login_page/login.response.dart';
 import 'package:smarty/authorization/response/register/register.dart';
@@ -27,14 +28,14 @@ class RegisterService {
       this._loginManager,
       this._lifterRegisterManager);
 
-  Future<bool> register(String email, String password) async {
-    RegisterResponse registerResponse = await _registerNewUserInWordPress(email, password);
+  Future<bool> register(RegisterRequest registerRequest) async {
+    RegisterResponse registerResponse = await _registerNewUserInWordPress(registerRequest);
 
     if (registerResponse == null) {
       return null;
     }
 
-    LoginResponse loginResponse = await _authorizeWithWordPress(email, password);
+    LoginResponse loginResponse = await _authorizeWithWordPress(registerRequest.email, registerRequest.password);
 
     if (loginResponse == null) {
       return null;
@@ -45,9 +46,9 @@ class RegisterService {
     return true;
   }
 
-  Future<RegisterResponse> _registerNewUserInWordPress(String email, String password) async {
+  Future<RegisterResponse> _registerNewUserInWordPress(RegisterRequest registerRequest) async {
     RegisterResponse registerResponse =
-        await this._registerManager.register(email, password);
+        await this._registerManager.register(registerRequest);
 
     if (registerResponse == null) {
       this._logger.info(TAG, 'Null Register Response');

@@ -1,0 +1,55 @@
+{
+  "asset": "asset:smarty/lib/home/home_module.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "HomeModule",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:smarty/lib/home/home_module.dart#HomeModule",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/meditation_page/meditation_page.dart#MeditationPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/home_page/home_page.dart#HomePage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/courses_page/courses_page.dart#CoursesPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/course_details_page/Course_details_page.dart#CourseDetailPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

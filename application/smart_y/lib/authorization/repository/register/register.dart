@@ -1,5 +1,6 @@
 import 'package:inject/inject.dart';
 import 'package:smarty/ApiUrls.dart';
+import 'package:smarty/authorization/request/register_request/register_request.dart';
 import 'package:smarty/authorization/response/register/register.dart';
 import 'package:smarty/network/http_client/api_client.dart';
 
@@ -10,14 +11,11 @@ class RegisterRepository {
   RegisterRepository(this._apiClient);
 
   Future<RegisterResponse> registerByCredentials(
-      String email, String password) async {
+      RegisterRequest registerRequest) async {
+    registerRequest.authKey = 'THISISMySpeCiaLAUthCode02';
     List<Map<String, dynamic>> apiResponse = await _apiClient.post(
       ApiUrls.registerApi,
-      {
-        'email': email,
-        'password': password,
-        'AUTH_KEY': 'THISISMySpeCiaLAUthCode02'
-      },
+      registerRequest.toJson(),
     );
 
     if (apiResponse == null) {
@@ -29,5 +27,4 @@ class RegisterRepository {
 
     return registerResponse;
   }
-
 }

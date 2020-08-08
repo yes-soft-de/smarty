@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/authorization/request/register_request/register_request.dart';
 import 'package:smarty/authorization/service/register/register.dart';
 import 'package:smarty/shared/ui/widget/logo_widget/logo.dart';
 
@@ -15,14 +16,17 @@ class RegisterPage extends StatefulWidget {
 
 class RegisterPageState extends State<RegisterPage> {
   final GlobalKey signUpFormKey = GlobalKey<FormState>();
+  final PageController _formController = PageController(initialPage: 0);
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _usernameController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
-
-    PageView signUpPageView = PageView();
+    PageView signUpPageView = PageView(
+      children: <Widget>[_getStepOnePage(), _getStepTowPage()],
+    );
 
     return Scaffold(
       appBar: AppBar(
@@ -46,37 +50,13 @@ class RegisterPageState extends State<RegisterPage> {
     );
   }
 
-  Widget getStepOnePage() {
+  /// User Info Form Page
+  Widget _getStepOnePage() {
     return Flex(
       direction: Axis.vertical,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        LogoWidget(),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'Hello!',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 25,
-              ),
-            ),
-          ],
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'Lets introduce',
-              style: TextStyle(
-                color: Colors.white,
-              ),
-            ),
-          ],
-        ),
-        // This needs a controller, i.e. it is a form field isn't it?
-        // And since this is the case, we need validation
+        _getPageHeader(),
         TextFormField(
           decoration: InputDecoration(
               labelText: 'Full Name', icon: Image.asset('assets/person.png')),
@@ -105,6 +85,20 @@ class RegisterPageState extends State<RegisterPage> {
           },
           controller: _usernameController,
         ),
+        TextFormField(
+          decoration: InputDecoration(
+              labelText: 'Email', icon: Image.asset('assets/person.png')),
+          validator: (name) {
+            if (name.isEmpty) {
+              return 'Please enter some text';
+            }
+            if (name.length < 5) {
+              return 'Name is too short';
+            }
+            return null;
+          },
+          controller: _emailController,
+        ),
         Padding(
           padding: const EdgeInsets.all(10.0),
           child: Row(
@@ -127,28 +121,33 @@ class RegisterPageState extends State<RegisterPage> {
                   ),
                 ),
               ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(7.5, 0, 0, 0),
-                child: FlatButton(
-                  padding: EdgeInsetsDirectional.fromSTEB(7.5, 15, 0, 15),
-                  onPressed: () {
-                    _signUp();
-                  },
-                  color: Color(0xffDCDCDE),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Text(
-                        'Next',
-                        style: TextStyle(
-                          color: Colors.white,
+              GestureDetector(
+                onTap: () {
+                  _formController.jumpToPage(1);
+                },
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(7.5, 0, 0, 0),
+                  child: FlatButton(
+                    padding: EdgeInsetsDirectional.fromSTEB(7.5, 15, 0, 15),
+                    onPressed: () {
+                      _signUp();
+                    },
+                    color: Color(0xffDCDCDE),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Text(
+                          'Next',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
                         ),
-                      ),
-                      Icon(
-                        Icons.arrow_forward,
-                        color: Colors.white,
-                      )
-                    ],
+                        Icon(
+                          Icons.arrow_forward,
+                          color: Colors.white,
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -159,34 +158,12 @@ class RegisterPageState extends State<RegisterPage> {
     );
   }
 
-  Widget getStepTowPage() {
+  /// Password Form Page
+  Widget _getStepTowPage() {
     return Flex(
       direction: Axis.vertical,
       children: <Widget>[
-        LogoWidget(),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'Hello!',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 25,
-              ),
-            ),
-          ],
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'Lets introduce',
-              style: TextStyle(
-                color: Colors.white,
-              ),
-            ),
-          ],
-        ),
+        _getPageHeader(),
         TextFormField(
           validator: (password) {
             if (password.isEmpty) return 'Please input your password';
@@ -264,7 +241,44 @@ class RegisterPageState extends State<RegisterPage> {
     );
   }
 
-  _signUp()  {
-    widget._registerService.register('mohammad16@mail.com', '123456789');
+  Widget _getPageHeader() {
+    return Flex(
+      direction: Axis.vertical,
+      children: <Widget>[
+        LogoWidget(),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              'Hello!',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 25,
+              ),
+            ),
+          ],
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              'Lets introduce',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+
+  _signUp() {
+    RegisterRequest registerRequest = new RegisterRequest();
+    registerRequest.email = _emailController.text;
+    registerRequest.password = _passwordController.text;
+    registerRequest.userNicename = _nameController.text;
+    registerRequest.userLogin = _usernameController.text;
+    widget._registerService.register(registerRequest);
   }
 }

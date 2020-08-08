@@ -4,10 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:inject/inject.dart';
-import 'package:smarty/routes.dart';
-import 'package:smarty/home/ui/screen/courses_page/courses_page.dart';
-import 'package:smarty/authorization/ui/screen/login_page/login_page.dart';
-import 'package:smarty/authorization/ui/screen/register_page/register_page.dart';
+import 'package:smarty/authorization/authorization_component.dart';
+import 'package:smarty/home/home_module.dart';
 
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
@@ -25,26 +23,22 @@ void main() {
 
 @provide
 class MyApp extends StatelessWidget {
-  // This is for logging purposes, Dont warry about it
   static FirebaseAnalytics analytics = FirebaseAnalytics();
   static FirebaseAnalyticsObserver observer =
       FirebaseAnalyticsObserver(analytics: analytics);
 
-  final LoginPage _loginPage;
-  final RegisterPage _registerPage;
-  final CoursesPage _coursesPage;
+  // Modulation in Progress :)
+  final HomeModule _homeModule;
+  final AuthorizationModule _authorizationModule;
 
-  MyApp(this._loginPage, this._coursesPage, this._registerPage);
+  MyApp(this._homeModule, this._authorizationModule);
 
   @override
   Widget build(BuildContext context) {
     Map<String, WidgetBuilder> fullRoutesList = Map();
 
-    fullRoutesList = {
-      Routes.LoginPageRoute: (context) => _loginPage,
-      Routes.coursesPage: (context) => _coursesPage,
-      Routes.registerPageRoute: (context) => _registerPage
-    };
+    fullRoutesList.addAll(_homeModule.getRoutes());
+    fullRoutesList.addAll(_authorizationModule.getRoutes());
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[
@@ -61,6 +55,6 @@ class MyApp extends StatelessWidget {
         supportedLocales: S.delegate.supportedLocales,
         title: 'Smart Y',
         routes: fullRoutesList,
-        initialRoute: Routes.registerPageRoute);
+        initialRoute: AuthorizationModule.ROUTE_REGISTER_PAGE);
   }
 }
