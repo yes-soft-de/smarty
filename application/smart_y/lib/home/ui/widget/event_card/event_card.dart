@@ -2,13 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../image_icon/image_icon.dart';
 
-class EventCard extends StatelessWidget {
+class EventCardWidget extends StatelessWidget {
   final String image;
   final Color color;
   final String title;
   final String description;
 
-  EventCard(
+  EventCardWidget(
       {@required this.image,
       @required this.color,
       @required this.title,
@@ -53,7 +53,7 @@ class EventCard extends StatelessWidget {
               ],
             ),
             IconButton(
-              icon: ImageAsIcon(
+              icon: ImageAsIconWidget(
                 img: 'assets/Group 14.png',
                 height: 20,
                 width: 20,

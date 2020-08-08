@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import '../image_icon/image_icon.dart';
 
-class ArticleCard extends StatelessWidget {
+class ArticleCardWidget extends StatelessWidget {
   final Icon icon;
   final String name;
   final Color color;
   final int duration;
-  ArticleCard({@required this.icon,@required this.name,@required this.color,@required this.duration})
+  ArticleCardWidget({@required this.icon,@required this.name,@required this.color,@required this.duration})
   :assert(icon != null && name != null && color != null && duration != null);
   @override
   Widget build(BuildContext context) {
@@ -53,7 +53,7 @@ class ArticleCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 IconButton(
-                  icon: ImageAsIcon(
+                  icon: ImageAsIconWidget(
                     img:'assets/Play33.png',
                     height: 30.0,
                     width: 30.5,

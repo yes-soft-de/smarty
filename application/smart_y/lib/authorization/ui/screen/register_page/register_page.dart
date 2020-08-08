@@ -51,7 +51,7 @@ class RegisterPageState extends State<RegisterPage> {
       direction: Axis.vertical,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Logo(),
+        LogoWidget(),
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
@@ -163,7 +163,7 @@ class RegisterPageState extends State<RegisterPage> {
     return Flex(
       direction: Axis.vertical,
       children: <Widget>[
-        Logo(),
+        LogoWidget(),
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[

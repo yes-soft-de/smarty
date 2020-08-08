@@ -31,11 +31,11 @@ class _MeditationPageState extends State<MeditationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: SmartyAppBar(
+      appBar: SmartyAppBarWidget(
         appBar: AppBar(),
         title: 'Meditattion',
       ),
-      drawer: AppDrawer(),
+      drawer: AppDrawerWidget(),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -76,28 +76,28 @@ class _MeditationPageState extends State<MeditationPage> {
                 ),
               ],
             ),
-            VideoCard(
+            VideoCardWidget(
               color: Color(0xff3dd598),
               backgroundColor: Color(0xff286053),
               text: 'Mindfulness',
               image: 'assets/Rectangle 2.png',
               isPaid: false,
             ),
-            VideoCard(
+            VideoCardWidget(
               color: Color(0xff9a4614),
               backgroundColor: Color(0xff0a0219),
               text: 'Mindfulness',
               image: 'assets/Rectangle 1.png',
               isPaid: true,
             ),
-            VideoCard(
+            VideoCardWidget(
               color: Color(0xff9a4614),
               backgroundColor: Color(0xff0a0219),
               text: 'Mindfulness',
               image: 'assets/Rectangle 1.png',
               isPaid: true,
             ),
-            VideoCard(
+            VideoCardWidget(
               color: Color(0xff9a4614),
               backgroundColor: Color(0xff0a0219),
               text: 'Mindfulness',

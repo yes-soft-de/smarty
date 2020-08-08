@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-class Logo extends StatelessWidget {
+class LogoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image(

@@ -24,7 +24,7 @@ class _SignUp2PageState extends State<SignUp2Page> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Logo(),
+              LogoWidget(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
@@ -48,9 +48,9 @@ class _SignUp2PageState extends State<SignUp2Page> {
                   ),
                 ],
               ),
-              TextFieldWithImageIcon(
+              TextFieldWithImageIconWidget(
                   img: 'assets/password.png', hint: 'Create  Password'),
-              TextFieldWithImageIcon(
+              TextFieldWithImageIconWidget(
                   img: 'assets/password.png', hint: 'Confirm Your Password'),
               Padding(
                 padding: const EdgeInsets.all(10.0),

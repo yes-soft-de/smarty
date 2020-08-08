@@ -23,7 +23,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
         leading: Builder(
           builder: (BuildContext context) {
             return IconButton(
-              icon: ImageAsIcon(
+              icon: ImageAsIconWidget(
                 img:'assets/goback.png',
                 height: 20.0,
                 width: 30.0,
@@ -109,11 +109,11 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
             Divider(),
             Container(
                 height: MediaQuery.of(context).size.height*0.4,
-                child: CourseSectionLessons(sectionName: 'Getting started',lessons: lessons,)
+                child: CourseSectionLessonsWidget(sectionName: 'Getting started',lessons: lessons,)
             ),
             Container(
                 height: MediaQuery.of(context).size.height*0.4,
-                child: CourseSectionLessons(sectionName: 'Introduction',lessons: lessons2,)
+                child: CourseSectionLessonsWidget(sectionName: 'Introduction',lessons: lessons2,)
             ),
 
             Container(

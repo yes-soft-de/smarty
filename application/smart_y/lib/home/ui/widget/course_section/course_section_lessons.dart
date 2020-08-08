@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:smarty/home/model/lesson/lesson.dart';
 
-class CourseSectionLessons extends StatelessWidget {
+class CourseSectionLessonsWidget extends StatelessWidget {
   final String sectionName;
   final List<Lesson> lessons;
 
-  CourseSectionLessons({@required this.lessons, @required this.sectionName})
+  CourseSectionLessonsWidget({@required this.lessons, @required this.sectionName})
       : assert(sectionName != null && lessons != null);
 
   @override

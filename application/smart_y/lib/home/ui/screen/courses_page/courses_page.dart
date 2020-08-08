@@ -45,7 +45,7 @@ class _CoursesPageState extends State<CoursesPage> {
 
     if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA) {
       widget._logger.info(widget.tag, "Fetching data from the server");
-      return LoadingIndicator();
+      return LoadingIndicatorWidget();
     }
 
     if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
@@ -72,11 +72,11 @@ class _CoursesPageState extends State<CoursesPage> {
 
   Widget getPageLayout() {
     return Scaffold(
-      appBar: SmartyAppBar(
+      appBar: SmartyAppBarWidget(
         appBar: AppBar(),
         title: 'Courses',
       ),
-      drawer: AppDrawer(),
+      drawer: AppDrawerWidget(),
       body: Container(
         color: Color(0xffF4ECEC),
         child: Stack(
@@ -85,7 +85,7 @@ class _CoursesPageState extends State<CoursesPage> {
                 itemCount: courses.length,
                 padding: EdgeInsetsDirectional.fromSTEB(15, 50, 15, 10),
                 itemBuilder: (BuildContext context, int index) {
-                  return CourseCard(
+                  return CourseCardWidget(
                     image: 'assets/yoga.jpg',
                     price: 50,
                     chapters: 42,
@@ -104,7 +104,7 @@ class _CoursesPageState extends State<CoursesPage> {
                     children: <Widget>[
                       IconButton(
                         onPressed: () {},
-                        icon: ImageAsIcon(
+                        icon: ImageAsIconWidget(
                           img: 'assets/filter_icon.png',
                           width: 20,
                           height: 10,
@@ -117,7 +117,7 @@ class _CoursesPageState extends State<CoursesPage> {
                     children: <Widget>[
                       IconButton(
                         onPressed: () {},
-                        icon: ImageAsIcon(
+                        icon: ImageAsIconWidget(
                           img: 'assets/filter_icon.png',
                           width: 20,
                           height: 10,

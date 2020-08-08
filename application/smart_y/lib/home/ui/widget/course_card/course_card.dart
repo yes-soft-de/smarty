@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CourseCard extends StatelessWidget {
+class CourseCardWidget extends StatelessWidget {
   final String image;
   final int chapters;
   final int price;
   final String name;
   final String description;
 
-  CourseCard(
+  CourseCardWidget(
       {@required this.image,
       @required this.chapters,
       @required this.price,

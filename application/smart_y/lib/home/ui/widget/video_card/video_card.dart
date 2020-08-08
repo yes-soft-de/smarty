@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../image_icon/image_icon.dart';
 
-class VideoCard extends StatelessWidget {
+class VideoCardWidget extends StatelessWidget {
   final Color color;
   final Color backgroundColor;
   final String image;
   final bool isPaid;
   final String text;
 
-  VideoCard(
+  VideoCardWidget(
       {@required this.color,
       @required this.backgroundColor,
       @required this.image,
@@ -54,7 +54,7 @@ class VideoCard extends StatelessWidget {
               ],
             ),
             IconButton(
-              icon: ImageAsIcon(
+              icon: ImageAsIconWidget(
                 img: 'assets/Play.png',
                 height: 32.0,
                 width: 32.0,

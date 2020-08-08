@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:smarty/home/ui/widget/image_icon/image_icon.dart';
 
 
-class SmartyAppBar extends StatelessWidget implements PreferredSizeWidget {
+class SmartyAppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final AppBar appBar;
-  const SmartyAppBar({this.appBar,this.title}):super();
+  const SmartyAppBarWidget({this.appBar,this.title}):super();
 
   @override
   Size get preferredSize => new Size.fromHeight(appBar.preferredSize.height);
@@ -18,7 +18,7 @@ class SmartyAppBar extends StatelessWidget implements PreferredSizeWidget {
       title:Text(title,style: TextStyle(fontSize: 10.0),),
       actions: <Widget>[
         IconButton(
-          icon: ImageAsIcon(
+          icon: ImageAsIconWidget(
             img:'assets/profilePic.png',
             height: 32.0,
             width: 32.0,
@@ -31,7 +31,7 @@ class SmartyAppBar extends StatelessWidget implements PreferredSizeWidget {
       leading: Builder(
         builder: (BuildContext context) {
           return IconButton(
-            icon: ImageAsIcon(
+            icon: ImageAsIconWidget(
               img:'assets/drawer.png',
               height: 20.0,
               width: 30.0,

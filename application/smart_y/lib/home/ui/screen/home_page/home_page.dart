@@ -19,8 +19,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: SmartyAppBar(appBar: AppBar(),title: 'Home',),
-      drawer: AppDrawer(),
+      appBar: SmartyAppBarWidget(appBar: AppBar(),title: 'Home',),
+      drawer: AppDrawerWidget(),
       body: Container(
         color: Color(0xffF4ECEC),
         child: ListView(
@@ -119,7 +119,7 @@ class _HomePageState extends State<HomePage> {
                         children: <Widget>[
                           IconButton(
 
-                            icon: ImageAsIcon(
+                            icon: ImageAsIconWidget(
                               img: 'assets/Ok.png',
                               height: 500.0,
                               width: 500.0,
@@ -151,14 +151,14 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
 
-            VideoCard(
+            VideoCardWidget(
               color: Color(0xff3dd598),
               backgroundColor: Color(0xff286053),
               text: 'Mindfulness',
               image: 'assets/Rectangle 2.png',
               isPaid: false,
             ),
-            VideoCard(
+            VideoCardWidget(
               color: Color(0xff9a4614),
               backgroundColor: Color(0xff0a0219),
               text: 'Mindfulness',
@@ -182,7 +182,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
 
-            CourseCard(
+            CourseCardWidget(
               image: 'assets/yoga.jpg',
               price: 50,
               chapters: 42,
@@ -198,13 +198,13 @@ class _HomePageState extends State<HomePage> {
 
             Row(
               children: <Widget>[
-                ArticleCard(
+                ArticleCardWidget(
                   icon: Icon(Icons.settings, color: Colors.white,),
                   name: 'Introduce',
                   duration: 20,
                   color: Colors.greenAccent,
                 ),
-                ArticleCard(
+                ArticleCardWidget(
                   icon: Icon(Icons.settings,color: Colors.white,),
                   name: 'Introduce',
                   duration: 20,
@@ -222,13 +222,13 @@ class _HomePageState extends State<HomePage> {
                 )
               ],
             ),
-            EventCard(
+            EventCardWidget(
               image: 'assets/Rectangle7.png',
               color: Color(0xff0A0219),
               title: 'Boked for 8 PM',
               description: 'asdf ',
             ),
-            OfferCard(
+            OfferCardWidget(
               color: Color(0xff5F06A6),
               description: 'lorem opsem',
             ),

@@ -24,7 +24,7 @@ class _SignUp1PageState extends State<SignUp1Page> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Logo(),
+              LogoWidget(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
@@ -48,9 +48,9 @@ class _SignUp1PageState extends State<SignUp1Page> {
                   ),
                 ],
               ),
-              TextFieldWithImageIcon(
+              TextFieldWithImageIconWidget(
                   img: 'assets/person.png', hint: 'Your full name'),
-              TextFieldWithImageIcon(
+              TextFieldWithImageIconWidget(
                   img: 'assets/person.png', hint: 'Username'),
               Padding(
                 padding: const EdgeInsets.all(10.0),

@@ -100,7 +100,7 @@ class LoginPageState extends State<LoginPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Logo(),
+                  LogoWidget(),
                   Text(
                     'Welcome !',
                     style: TextStyle(
