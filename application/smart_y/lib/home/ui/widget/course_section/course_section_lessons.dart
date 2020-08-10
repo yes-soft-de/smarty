@@ -29,7 +29,7 @@ class CourseSectionLessonsWidget extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
                       Text(
-                        lessons[index].name,
+                        lessons[index].title,
                         style: TextStyle(color: Colors.grey),
                       ),
                       Text(
