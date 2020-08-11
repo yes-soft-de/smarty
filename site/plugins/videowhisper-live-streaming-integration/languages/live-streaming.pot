@@ -1,0 +1,724 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Live Streaming - Broadcast Live Video\n"
+"POT-Creation-Date: 2020-06-22 22:25+0300\n"
+"PO-Revision-Date: 2019-04-25 08:18+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: videowhisper_streaming.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bp.php:36
+msgid "To stream live video on this group just go to Admin > Live Streaming."
+msgstr ""
+
+#: bp.php:106
+msgid "First broadcast: creating group channel."
+msgstr ""
+
+#: bp.php:117 videowhisper_streaming.php:1709 videowhisper_streaming.php:7410
+msgid "Broadcast"
+msgstr ""
+
+#: bp.php:137
+msgid "There was an error saving, please try again"
+msgstr ""
+
+#: bp.php:139
+msgid "Settings saved successfully"
+msgstr ""
+
+#: inc/options.php:577
+msgid "Resets"
+msgstr ""
+
+#: inc/options.php:595
+msgid "Import Options"
+msgstr ""
+
+#: inc/options.php:634 inc/options.php:649
+msgid "Setup Pages"
+msgstr ""
+
+#: inc/options.php:694
+msgid "Setup Overview"
+msgstr ""
+
+#: inc/options.php:704
+msgid "Setup Checkpoints"
+msgstr ""
+
+#: inc/options.php:788
+msgid "Troubleshooting Requirements"
+msgstr ""
+
+#: inc/options.php:1016
+msgid "Reset Options"
+msgstr ""
+
+#: inc/options.php:1642
+msgid "End User License Agreement"
+msgstr ""
+
+#: inc/options.php:1648
+msgid "Cross Domain Policy"
+msgstr ""
+
+#: template-channel.php:44
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr ""
+
+#: videowhisper_streaming.php:48 videowhisper_streaming.php:7356
+msgid "Settings"
+msgstr ""
+
+#: videowhisper_streaming.php:652
+msgid ""
+"Login required: Please login first or register an account if you do not have "
+"one!"
+msgstr ""
+
+#: videowhisper_streaming.php:653
+msgid "Login"
+msgstr ""
+
+#: videowhisper_streaming.php:653
+msgid "Register"
+msgstr ""
+
+#: videowhisper_streaming.php:695
+msgid ""
+"This displays a broadcasting channel for registered members that have this "
+"feature enabled."
+msgstr ""
+
+#: videowhisper_streaming.php:775
+msgid "Reload"
+msgstr ""
+
+#: videowhisper_streaming.php:860
+msgid "Main Categories"
+msgstr ""
+
+#: videowhisper_streaming.php:926
+msgid ""
+"This pages allows creating and managing broadcasting channels for registered "
+"members that have this feature enabled."
+msgstr ""
+
+#: videowhisper_streaming.php:953
+msgid "Channel was removed. Admins may delete this content after review."
+msgstr ""
+
+#: videowhisper_streaming.php:957
+msgid ""
+"This will remove channel from public access. Only administrator can "
+"completely delete channels. Associated data may be needed for report review, "
+"moderation purposes."
+msgstr ""
+
+#: videowhisper_streaming.php:959
+msgid "Confirm Removal"
+msgstr ""
+
+#: videowhisper_streaming.php:980 videowhisper_streaming.php:981
+msgid "Could not create the new channel"
+msgstr ""
+
+#: videowhisper_streaming.php:1661 videowhisper_streaming.php:6497
+msgid "Last Broadcast"
+msgstr ""
+
+#: videowhisper_streaming.php:1664
+#, php-format
+msgid "each %d days"
+msgstr ""
+
+#: videowhisper_streaming.php:1667
+msgid "Total Broadcast Time"
+msgstr ""
+
+#: videowhisper_streaming.php:1667
+msgid "Unlimited"
+msgstr ""
+
+#: videowhisper_streaming.php:1667 videowhisper_streaming.php:6514
+msgid "Total Watch Time"
+msgstr ""
+
+#: videowhisper_streaming.php:1669
+msgid "Level"
+msgstr ""
+
+#: videowhisper_streaming.php:1672
+msgid "Transcoding"
+msgstr ""
+
+#: videowhisper_streaming.php:1674
+msgid "Logo"
+msgstr ""
+
+#: videowhisper_streaming.php:1675
+msgid "Ads"
+msgstr ""
+
+#: videowhisper_streaming.php:1677
+msgid "Stream Type"
+msgstr ""
+
+#: videowhisper_streaming.php:1679
+msgid "IP Camera"
+msgstr ""
+
+#: videowhisper_streaming.php:1681
+msgid "ReStream Paused"
+msgstr ""
+
+#: videowhisper_streaming.php:1684
+msgid "Playlist Scheduled"
+msgstr ""
+
+#: videowhisper_streaming.php:1704 videowhisper_streaming.php:2017
+msgid "Setup"
+msgstr ""
+
+#: videowhisper_streaming.php:1705
+msgid "Delete"
+msgstr ""
+
+#: videowhisper_streaming.php:1710
+msgid "Web Broadcast (Auto)"
+msgstr ""
+
+#: videowhisper_streaming.php:1711 videowhisper_streaming.php:1738
+msgid "Advanced (PC Flash)"
+msgstr ""
+
+#: videowhisper_streaming.php:1715
+msgid "WebRTC (HTML5)"
+msgstr ""
+
+#: videowhisper_streaming.php:1718
+msgid "External Encoders (Apps)"
+msgstr ""
+
+#: videowhisper_streaming.php:1721
+msgid "Playlist"
+msgstr ""
+
+#: videowhisper_streaming.php:1725
+msgid "IP Cam / Stream"
+msgstr ""
+
+#: videowhisper_streaming.php:1726
+msgid "IPTV / Pull"
+msgstr ""
+
+#: videowhisper_streaming.php:1730 videowhisper_streaming.php:1815
+msgid "Offline Video"
+msgstr ""
+
+#: videowhisper_streaming.php:1736
+msgid "Playback"
+msgstr ""
+
+#: videowhisper_streaming.php:1741
+msgid "Web View (HTML5)"
+msgstr ""
+
+#: videowhisper_streaming.php:1745
+msgid "Only Video (Auto)"
+msgstr ""
+
+#: videowhisper_streaming.php:1746
+msgid "Video (PC Flash)"
+msgstr ""
+
+#: videowhisper_streaming.php:1750
+msgid "Video HLS (iOS/Safari)"
+msgstr ""
+
+#: videowhisper_streaming.php:1751
+msgid "MPEG DASH (Android/Chrome)"
+msgstr ""
+
+#: videowhisper_streaming.php:1754
+msgid "Video WebRTC (HTML5)"
+msgstr ""
+
+#: videowhisper_streaming.php:1757
+msgid "Other Players, Embed"
+msgstr ""
+
+#: videowhisper_streaming.php:1818
+msgid "Offline video plays in html5 player when channel is offline."
+msgstr ""
+
+#: videowhisper_streaming.php:1879
+msgid "Closed"
+msgstr ""
+
+#: videowhisper_streaming.php:1880
+msgid "Open"
+msgstr ""
+
+#: videowhisper_streaming.php:1901 videowhisper_streaming.php:5218
+msgid "Tags"
+msgstr ""
+
+#: videowhisper_streaming.php:1901
+msgid "Tags separated by comma."
+msgstr ""
+
+#: videowhisper_streaming.php:1912
+msgid "Access Password"
+msgstr ""
+
+#: videowhisper_streaming.php:1912
+msgid "Password to protect channel. Leave blank to not require password."
+msgstr ""
+
+#: videowhisper_streaming.php:1917
+msgid "Can access channel."
+msgstr ""
+
+#: videowhisper_streaming.php:1918
+msgid "Can view public chat."
+msgstr ""
+
+#: videowhisper_streaming.php:1919
+msgid "Can write in public chat."
+msgstr ""
+
+#: videowhisper_streaming.php:1920
+msgid "Can view participants list."
+msgstr ""
+
+#: videowhisper_streaming.php:1921
+msgid "Can initiate private chat with users from participants list."
+msgstr ""
+
+#: videowhisper_streaming.php:1930
+msgid ""
+"Define user list as roles, logins, emails separated by comma. Leave empty to "
+"allow everybody or set None to disable."
+msgstr ""
+
+#: videowhisper_streaming.php:1939
+msgid "Access Price"
+msgstr ""
+
+#: videowhisper_streaming.php:1939
+msgid "Channel access price. Leave 0 for free access."
+msgstr ""
+
+#: videowhisper_streaming.php:1948
+msgid "Logo Image"
+msgstr ""
+
+#: videowhisper_streaming.php:1948
+msgid ""
+"Channel floating logo URL (preferably a transparent PNG image). Leave blank "
+"to hide."
+msgstr ""
+
+#: videowhisper_streaming.php:1952
+msgid "URL to open on logo click."
+msgstr ""
+
+#: videowhisper_streaming.php:1962
+msgid "IP Camera Stream"
+msgstr ""
+
+#: videowhisper_streaming.php:1980
+msgid "Picture"
+msgstr ""
+
+#: videowhisper_streaming.php:1980
+msgid "Update channel picture."
+msgstr ""
+
+#: videowhisper_streaming.php:1985
+msgid "Show Picture"
+msgstr ""
+
+#: videowhisper_streaming.php:1986
+msgid "Event Info"
+msgstr ""
+
+#: videowhisper_streaming.php:1987
+msgid "Everywhere"
+msgstr ""
+
+#: videowhisper_streaming.php:1988
+msgid "No"
+msgstr ""
+
+#: videowhisper_streaming.php:1989
+msgid "Configure picture display."
+msgstr ""
+
+#: videowhisper_streaming.php:1996
+msgid "Event Title"
+msgstr ""
+
+#: videowhisper_streaming.php:2000 videowhisper_streaming.php:2004
+msgid "Date"
+msgstr ""
+
+#: videowhisper_streaming.php:2000 videowhisper_streaming.php:2004
+msgid "Time"
+msgstr ""
+
+#: videowhisper_streaming.php:2004
+msgid "Event End"
+msgstr ""
+
+#: videowhisper_streaming.php:2007
+msgid "Event Description"
+msgstr ""
+
+#: videowhisper_streaming.php:2007
+msgid "Event details also show when channel is offline or inaccessible."
+msgstr ""
+
+#: videowhisper_streaming.php:2012
+msgid "Setup Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:2013
+msgid "Description"
+msgstr ""
+
+#: videowhisper_streaming.php:2014
+msgid "Category"
+msgstr ""
+
+#: videowhisper_streaming.php:2015
+msgid "Comments"
+msgstr ""
+
+#: videowhisper_streaming.php:2177
+msgid ""
+"Using the Flash web based interface requires <a rel=\"nofollow\" target="
+"\"_flash\" href=\"https://get.adobe.com/flashplayer/\">latest Flash plugin</"
+"a> and <a rel=\"nofollow\" target=\"_flash\" href=\"https://helpx.adobe.com/"
+"flash-player.html\">activating plugin in your browser</a>. Flash apps are "
+"recommended on PC for best latency and most advanced features."
+msgstr ""
+
+#: videowhisper_streaming.php:2339
+msgid "Try HTML5 View"
+msgstr ""
+
+#: videowhisper_streaming.php:3243 videowhisper_streaming.php:4297
+msgid "Broadcasting not allowed: Only logged in users can broadcast!"
+msgstr ""
+
+#: videowhisper_streaming.php:4062
+msgid "Only logged in users can broadcast!"
+msgstr ""
+
+#: videowhisper_streaming.php:4409
+msgid "Try HTML5 WebRTC Broadcast"
+msgstr ""
+
+#: videowhisper_streaming.php:4562 videowhisper_streaming.php:5383
+msgid "LIVE"
+msgstr ""
+
+#: videowhisper_streaming.php:4563
+msgid "Never"
+msgstr ""
+
+#: videowhisper_streaming.php:5177
+msgid "All"
+msgstr ""
+
+#: videowhisper_streaming.php:5178
+msgid "Loading Category"
+msgstr ""
+
+#: videowhisper_streaming.php:5184
+msgid "Ordering channels"
+msgstr ""
+
+#: videowhisper_streaming.php:5185
+msgid "Order By"
+msgstr ""
+
+#: videowhisper_streaming.php:5187
+msgid "Creation Date"
+msgstr ""
+
+#: videowhisper_streaming.php:5189
+msgid "Broadcast Recently"
+msgstr ""
+
+#: videowhisper_streaming.php:5191
+msgid "Current Viewers"
+msgstr ""
+
+#: videowhisper_streaming.php:5193
+msgid "Maximum Viewers"
+msgstr ""
+
+#: videowhisper_streaming.php:5198
+msgid "Rating"
+msgstr ""
+
+#: videowhisper_streaming.php:5199
+msgid "Most Rated"
+msgstr ""
+
+#: videowhisper_streaming.php:5200
+msgid "Rate Popularity"
+msgstr ""
+
+#: videowhisper_streaming.php:5204
+msgid "Random"
+msgstr ""
+
+#: videowhisper_streaming.php:5224
+msgid "Name"
+msgstr ""
+
+#: videowhisper_streaming.php:5232 videowhisper_streaming.php:7083
+#: videowhisper_streaming.php:7134 videowhisper_streaming.php:7136
+msgid "Search"
+msgstr ""
+
+#: videowhisper_streaming.php:5346
+msgid ""
+"No channels match current selection. Channels get listed after being "
+"broadcast or configured as events, with snapshot/picture."
+msgstr ""
+
+#: videowhisper_streaming.php:5352 videowhisper_streaming.php:5394
+msgid "Loading previous page"
+msgstr ""
+
+#: videowhisper_streaming.php:5352 videowhisper_streaming.php:5394
+msgid "Previous"
+msgstr ""
+
+#: videowhisper_streaming.php:5354 videowhisper_streaming.php:5396
+msgid "Loading next page"
+msgstr ""
+
+#: videowhisper_streaming.php:5354 videowhisper_streaming.php:5396
+msgid "Next"
+msgstr ""
+
+#: videowhisper_streaming.php:6506
+msgid "Maximum viewers"
+msgstr ""
+
+#: videowhisper_streaming.php:6526
+msgid "My Review"
+msgstr ""
+
+#: videowhisper_streaming.php:6530
+msgid "Reviews"
+msgstr ""
+
+#: videowhisper_streaming.php:6729
+msgctxt "Post Type General Name"
+msgid "Channels"
+msgstr ""
+
+#: videowhisper_streaming.php:6730
+msgctxt "Post Type Singular Name"
+msgid "Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6731
+msgid "Channels"
+msgstr ""
+
+#: videowhisper_streaming.php:6732
+msgid "Parent Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6733
+msgid "All Channels"
+msgstr ""
+
+#: videowhisper_streaming.php:6734
+msgid "View Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6735
+msgid "Add New Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6736
+msgid "New Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6737
+msgid "Edit Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6738
+msgid "Update Channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6739
+msgid "Search Channels"
+msgstr ""
+
+#: videowhisper_streaming.php:6740
+msgid "No Channels found"
+msgstr ""
+
+#: videowhisper_streaming.php:6741
+msgid "No Channels found in Trash"
+msgstr ""
+
+#: videowhisper_streaming.php:6744
+msgid "channel"
+msgstr ""
+
+#: videowhisper_streaming.php:6745
+msgid "Video Channels"
+msgstr ""
+
+#: videowhisper_streaming.php:7021
+msgid "No items."
+msgstr ""
+
+#: videowhisper_streaming.php:7037
+msgid "&laquo;"
+msgstr ""
+
+#: videowhisper_streaming.php:7038
+msgid "&raquo;"
+msgstr ""
+
+#: videowhisper_streaming.php:7073
+msgid "Most Used"
+msgstr ""
+
+#: videowhisper_streaming.php:7078
+msgid "View All"
+msgstr ""
+
+#: videowhisper_streaming.php:7148
+msgid "No results found."
+msgstr ""
+
+#: videowhisper_streaming.php:7163
+msgid "Select All"
+msgstr ""
+
+#: videowhisper_streaming.php:7167
+msgid "Add to Menu"
+msgstr ""
+
+#: videowhisper_streaming.php:7334
+msgid "Live & Ban"
+msgstr ""
+
+#: videowhisper_streaming.php:7341
+msgid "Channel Posts"
+msgstr ""
+
+#: videowhisper_streaming.php:7349
+msgid "Statistics"
+msgstr ""
+
+#: videowhisper_streaming.php:7363
+msgid "Documentation"
+msgstr ""
+
+#: videowhisper_streaming.php:7377
+msgid "Broadcast Live"
+msgstr ""
+
+#: videowhisper_streaming.php:7387
+msgid "Browse Channels"
+msgstr ""
+
+#: videowhisper_streaming.php:7437
+msgid "Once every 10 minutes"
+msgstr ""
+
+#: videowhisper_streaming.php:8726
+msgid "Username is not available. Choose another!"
+msgstr ""
+
+#: videowhisper_streaming.php:8727
+msgid "Email is already registered."
+msgstr ""
+
+#: videowhisper_streaming.php:8729
+msgid "Email is not valid."
+msgstr ""
+
+#: videowhisper_streaming.php:8749
+msgid "Username and channel created"
+msgstr ""
+
+#: videowhisper_streaming.php:8750
+msgid "Could not register account."
+msgstr ""
+
+#: videowhisper_streaming.php:8816 videowhisper_streaming.php:8992
+#: videowhisper_streaming.php:9177 videowhisper_streaming.php:9504
+msgid "You are not in the broadcasters list"
+msgstr ""
+
+#: videowhisper_streaming.php:8987 videowhisper_streaming.php:8993
+#: videowhisper_streaming.php:9172 videowhisper_streaming.php:9178
+#: videowhisper_streaming.php:9499 videowhisper_streaming.php:9505
+msgid ""
+"Please login first or register an account if you do not have one! Click here "
+"to return to website."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Broadcast Live Video - HTML5 Live Streaming"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://videowhisper.com/?p=WordPress+Live+Streaming"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<strong>Broadcast Live Video / HTML5 Live Streaming : HTML5, WebRTC, HLS, "
+"RTSP, RTMP</strong> solution powers a turnkey live streaming channels site "
+"including web based webcam broadcasting app and player with chat, support "
+"for external apps, 24/7 RTSP ip cameras, WebRTC, video playlist scheduler, "
+"video archiving & vod, HLS & MPEG-DASH delivery for mobile including AJAX "
+"chat, membership and access control, pay per view channels and tips/gifts "
+"for broadcasters. <a href='https://videowhisper.com/tickets_submit.php?"
+"topic=Live-Streaming'>Contact Support</a> | <a href='admin.php?page=live-"
+"streaming&tab=setup'>Setup</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "VideoWhisper.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://videowhisper.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "VideoWhisper Full Page"
+msgstr ""
