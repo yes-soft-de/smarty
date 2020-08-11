@@ -35,7 +35,11 @@ class _CoursesPageState extends State<CoursesPage> {
         this.courses = stateChanged.last;
       }
 
-      setState(() {});
+      if (this.mounted){
+        setState((){
+          //Your state change code goes here
+        });
+      }
     });
 
     if (currentState == CoursesPageBloc.STATUS_CODE_INIT) {

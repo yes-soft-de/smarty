@@ -18,11 +18,11 @@ class HomeModule extends Module {
   CoursesPage _coursesPage;
   HomePage _homePage;
   MeditationPage _meditationPage;
-  LessonPage _lessonPage;
+//  LessonPage _lessonPage;
 
   HomeModule(this._meditationPage, this._homePage,
       this._coursesPage, this._courseDetailPage,
-      this._lessonPage
+     /* this._lessonPage*/
       );
 
   @override
@@ -32,7 +32,7 @@ class HomeModule extends Module {
       ROUTE_COURSE_LIST: (context) => _coursesPage,
       ROUTE_HOME: (context) => _homePage,
       ROUTE_MEDITATION: (context) => _meditationPage,
-      ROUTE_LESSON: (context) => _lessonPage
+//      ROUTE_LESSON: (context) => _lessonPage
     };
   }
 }

@@ -44,7 +44,10 @@ class LoginPageState extends State<LoginPage> {
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_SUCCESS) {
       // TODO: Move to Home using Navigator
       widget._logger.info(widget.tag, "AUTH SUCCESS");
-      Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);
+       Future.delayed(Duration(seconds: 1), () {
+        Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);
+      });
+
     }
 
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_ERROR) {

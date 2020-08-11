@@ -1,5 +1,5 @@
 {
-  "asset": "asset:smarty/lib/ui/widget/course_section_lessons.dart",
+  "asset": "asset:smarty/lib/home/ui/widget/course_section_lessons/course_section_lessons.dart",
   "summary": {
     "injector": [],
     "module": [],

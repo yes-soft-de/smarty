@@ -1,5 +1,5 @@
-import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebase_analytics/observer.dart';
+//import 'package:firebase_analytics/firebase_analytics.dart';
+//import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -23,9 +23,9 @@ void main() {
 
 @provide
 class MyApp extends StatelessWidget {
-  static FirebaseAnalytics analytics = FirebaseAnalytics();
-  static FirebaseAnalyticsObserver observer =
-      FirebaseAnalyticsObserver(analytics: analytics);
+//  static FirebaseAnalytics analytics = FirebaseAnalytics();
+//  static FirebaseAnalyticsObserver observer =
+//      FirebaseAnalyticsObserver(analytics: analytics);
 
   // Modulation in Progress :)
   final HomeModule _homeModule;
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[
-          observer
+//          observer
         ],
         localizationsDelegates: [
           S.delegate,
