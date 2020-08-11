@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 
 import '../../../home_module.dart';
 
 class AppDrawerWidget extends StatelessWidget {
+  final SharedPreferencesHelper _preferencesHelper= new SharedPreferencesHelper();
+  AppDrawerWidget( );
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,7 +22,29 @@ class AppDrawerWidget extends StatelessWidget {
                   stops: [0.6, 1])),
 
           child: ListView(
+
             children: <Widget>[
+              Container(
+                padding: EdgeInsetsDirectional.fromSTEB(10, 20, 10, 10),
+                child: Row(
+
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image(
+                      height: 75,
+                      width: 75,
+                      image: AssetImage('assets/Rectangle16.png'),
+                    ),
+                    Text(
+                      '${ _preferencesHelper.getUserEmail().toString()}',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+
               ListTile(
                 title: Text('Smarty',
                   style: TextStyle(

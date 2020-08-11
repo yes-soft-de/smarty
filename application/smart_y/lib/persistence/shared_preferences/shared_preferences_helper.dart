@@ -7,6 +7,7 @@ class SharedPreferencesHelper {
   static const String _KEY_TOKEN = "token";
   static const String _KEY_PASSWORD = 'password';
   static const String _KEY_EMAIL = 'email';
+  static const String _KEY_USERNAME = 'userName';
 
   SharedPreferences _sharedPreferences;
 
@@ -28,12 +29,21 @@ class SharedPreferencesHelper {
     return _sharedPreferences.setString(_KEY_EMAIL, email);
   }
 
+  //now it's not return in the response of login
+  Future<void> setUserName(String userName) async {
+    return _sharedPreferences.setString(_KEY_USERNAME, userName);
+  }
+
   Future<void> setUserPassword(String password) async {
     return _sharedPreferences.setString(_KEY_PASSWORD, password);
   }
 
-  Future<String> getUserEmail() async {
+  String getUserEmail()  {
     return _sharedPreferences.getString(_KEY_EMAIL);
+  }
+
+  Future<String> getUserName() async {
+    return _sharedPreferences.getString(_KEY_USERNAME);
   }
 
   Future<String> getUserPassword() async {
