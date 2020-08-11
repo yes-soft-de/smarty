@@ -1,0 +1,92 @@
+/* Product Membership Discount table */
+#pms-woo-product-membership-discounts, #pms-woo-subscription-product-discounts {
+    width: 100%;
+    border-spacing: 0;
+}
+
+#pms-woo-product-membership-discounts thead td, #pms-woo-subscription-product-discounts thead td {
+    padding: 0 0.5em;
+}
+
+
+/* Membership Discounts table cells */
+
+.pms-woo-product-membership-discount > td, .pms-woo-subscription-product-discount > td {
+    padding: 1em 3em 1em 0.5em;
+    border-top: 1px solid #e9e9e9;
+    box-sizing: border-box;
+}
+
+/* Subscription plan table cell*/
+.pms-woo-product-membership-discount > td:first-of-type {
+    width: 30%;
+}
+/* Discount Type table cell */
+.pms-woo-product-membership-discount > td:nth-child(2) {
+    width: 20%
+}
+/* Discount Amount table cell */
+.pms-woo-product-membership-discount > td:nth-child(3) {
+    width: 20%
+}
+/* Discount Status table cell */
+.pms-woo-product-membership-discount > td:nth-child(4) {
+    width: 20%
+}
+
+
+/* Product Discounts table cells (under Subscription plan) */
+
+/* Discount for table cell*/
+.pms-woo-subscription-product-discount > td:first-of-type {
+    width: 15%;
+    padding: 1em 0.5em;
+
+}
+/* Item Name table cell */
+.pms-woo-subscription-product-discount > td:nth-child(2) {
+    width: 35%
+}
+/* Type table cell */
+.pms-woo-subscription-product-discount > td:nth-child(3) {
+    width: 15%
+}
+/* Amount table cell */
+.pms-woo-subscription-product-discount > td:nth-child(4) {
+    width: 15%
+}
+/* Status table cell */
+.pms-woo-subscription-product-discount > td:nth-child(5) {
+    width: 15%
+}
+
+
+
+/* Remove row table cell */
+.pms-woo-product-membership-discount > td:last-of-type, .pms-woo-subscription-product-discount > td:last-of-type {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.pms-woo-product-membership-discount > td:last-of-type a, .pms-woo-subscription-product-discount > td:last-of-type a {
+    color: #4f4f4f;
+    opacity: 0.7;
+    text-decoration: none;
+    padding: 10px;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.pms-woo-product-membership-discount > td:last-of-type a:hover, .pms-woo-subscription-product-discount > td:last-of-type a:hover {
+    opacity: 1;
+}
+
+#pms-woo-product-add-membership-discount, #pms-woo-subscription-add-product-discount {
+    margin: 0.5em 0;
+}
+

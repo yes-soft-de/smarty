@@ -1,0 +1,3 @@
+[submodule "includes/modules/recaptcha"]
+	path = includes/modules/recaptcha
+	url = git@bitbucket.org:cozmoslabs/pms-add-on-recaptcha.git

@@ -1,0 +1,219 @@
+/* VideoWhisper.com HTML Chat - Broadcast */
+
+#videochatContainer{
+margin:0 auto;
+background:#eee;
+width: 100%;
+min-height: 630px;
+display: flex;
+flex-wrap: wrap;
+position: relative;
+}
+
+#streamContainer{
+	position:relative;
+	width: 640px;
+	min-width:640px;	
+	float: left;
+	flex: 0;
+}
+
+  .videowhisper_htmlvideo{
+	width: 640px;
+	height: 480px;
+  }
+  
+#chatContainer{
+	position: relative;	
+	min-width:320px;
+	min-height:440px;
+	width: auto;
+	background:#eee;
+	display: inline-block;
+	flex: 1;
+}
+
+/* For lower resolutions video takes full width and chat shows below */
+@media screen and (max-width: 960px),
+@media screen and (max-device-width: 960px)
+@media screen and (-webkit-min-device-pixel-ratio: 2)
+{  
+  #streamContainer { 
+	position:relative;		  
+    float: none;
+    width: 100%;
+  }
+  
+  .videowhisper_htmlvideo{
+	width: 96vw;
+	height: 72vw;
+  }
+
+#chatContainer{
+	min-height:260px;
+}
+
+}
+
+
+
+/* Chats */
+#chatLineHolder{
+	position: absolute;
+	margin-bottom:10px;
+	right: 156px;
+	left: 4px;
+	top: 0px;
+	bottom: 50px;
+}
+
+.chat{
+	background: #fff;
+	min-height:24px;
+	padding: 4px;
+	border:1px solid #eee;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+	
+	border-radius: 9px;
+
+	position:relative;
+	margin:2px 2px 12px 2px;
+}
+
+.chat:last-child{
+	margin-bottom:0;
+}
+
+.chat span{
+	color:#777777;
+	font-size:12px;
+}
+
+.chat .text{
+	color:#555555;
+	display:inline;
+	font-size:12px;
+	overflow:hidden;
+	vertical-align:top;
+}
+
+.chat .gravatar{
+	background: no-repeat;
+	float:left;
+}
+
+.chat img{
+	display:inline;
+	visibility:hidden;
+	border-radius: 4px;	
+	
+}
+
+.chat a, .noChats a{
+	text-decoration: underline;
+}
+
+.chat .time{
+	position:absolute;
+	right:2px;
+	font-size:11px;
+	display: block;
+}
+
+.chat .author{
+	margin:4px;
+	font-size:11px;
+	display: inline;
+}
+
+
+/* Chat User Area */
+#chatUsers{
+	position:absolute;
+	right:0px;
+	width:150px;
+	top: 0px;
+	bottom: 50px;
+
+	overflow-y: auto;	
+}
+
+#chatUsers .user{
+	font-size:10px;
+	display: block;
+	height: 25px;
+}
+
+#chatUsers .userText{
+	font-size:10px;
+	display: block;
+}
+
+#chatUsers .user img{
+	border:1px solid #999;
+	border-radius: 4px;		
+	float: left;
+	vertical-align:middle;
+	margin: 2px;
+}
+
+
+/* Bottom Bar */
+
+#chatBottomBar{
+	position:absolute;
+	left: 0;
+	right: 0;
+	bottom:0px;
+	padding:10px;
+	height:auto;
+}
+
+#chatBottomBar .tip{
+	position:absolute;
+	width:0;
+	height:0;
+	top:-20px;
+	left:20px;
+}
+
+#submitForm{
+	display:none;
+}
+
+input#chatText{
+	/* The chat submit text field */
+	width:65%;
+}
+
+input#submit{
+	/* The chat submit text field */
+	width:30%;
+}
+
+/* Additional styles */
+p.noChats,
+#chatUsers .count{
+	clear:both;
+	font-size:12px;
+	padding:10px;
+	text-align:center;
+}
+
+#chatUsers .count{
+	font-size:11px;
+}
+
+#chatErrorMessage{
+	width:100%;
+	top:0;
+	left:0;
+	position:fixed;
+	background-color:#ab0909;
+	border-bottom:1px solid #d32a2a;
+	font-size:23px;
+	padding:16px;
+	text-align:center;
+	color:#fff;
+}
