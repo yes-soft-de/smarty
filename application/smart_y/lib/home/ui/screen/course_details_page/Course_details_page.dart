@@ -11,19 +11,20 @@ import 'package:smarty/utils/logger/logger.dart';
 
 @provide
 class CourseDetailPage extends StatefulWidget {
-  final int courseId;
   final String tag = "CourseDetailsPage";
 
   final CourseDetailsBloc _courseDetailsBloc;
   final Logger _logger;
 
-  CourseDetailPage( this.courseId,this._courseDetailsBloc,this._logger) ;
+  CourseDetailPage(this._courseDetailsBloc,this._logger) ;
 
   @override
   _CourseDetailPageState createState() => _CourseDetailPageState();
 }
 
 class _CourseDetailPageState extends State<CourseDetailPage> {
+  int courseId;
+
   int currentState = CoursesPageBloc.STATUS_CODE_INIT;
   List<Section> sections;
 
@@ -33,6 +34,8 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
   @override
   Widget build(BuildContext context) {
+
+
     widget._courseDetailsBloc.courseDetailsStateObservable.listen((stateChanged) {
       currentState = stateChanged.first;
 
@@ -45,7 +48,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
     if(currentState == CourseDetailsBloc.STATUS_CODE_INIT){
       widget._logger.info(widget.tag, "Course details Page Started");
-      widget._courseDetailsBloc.getCourseDetails(widget.courseId);
+      widget._courseDetailsBloc.getCourseDetails(courseId);
     }
 
     if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA) {

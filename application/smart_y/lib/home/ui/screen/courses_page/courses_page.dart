@@ -61,7 +61,7 @@ class _CoursesPageState extends State<CoursesPage> {
       widget._logger.info(widget.tag, "Fetching data Error");
       return Scaffold(
           body: Center(
-        child: Text("Fetching data Error"),
+        child: Text("Fetching data Error.."),
       ));
     }
 

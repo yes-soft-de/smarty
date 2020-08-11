@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/home/ui/screen/course_details_page/Course_details_page.dart",
+  "asset": "asset:smarty/lib/home/bloc/lesson_page/lesson_page.bloc.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "CourseDetailPage",
+        "name": "LessonPageBloc",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/home/ui/screen/course_details_page/Course_details_page.dart#CourseDetailPage",
+              "root": "asset:smarty/lib/home/bloc/lesson_page/lesson_page.bloc.dart#LessonPageBloc",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/bloc/courses_details_page/courses_details_page.bloc.dart#CourseDetailsBloc",
+                "root": "asset:smarty/lib/home/service/lesson_page/lesson_page.service.dart#LessonService",
                 "qualifier": null
               },
               "isProvider": false

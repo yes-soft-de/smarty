@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:inject/inject.dart';
 import 'package:smarty/home/bloc/lesson_page/lesson_page.bloc.dart';
 import 'package:smarty/home/model/lesson/lesson.dart';
 import 'package:smarty/home/ui/widget/image_icon/image_icon.dart';
 import 'package:smarty/home/ui/widget/loading_indicator/loading_indicator.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
+@provide
 class LessonPage extends StatefulWidget {
   final int lessonId;
   final String tag = "LessonPage";
