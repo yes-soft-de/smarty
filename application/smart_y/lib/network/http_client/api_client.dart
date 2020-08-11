@@ -108,10 +108,14 @@ class ApiClient {
 
     String response = stringResponse.substring(startIndex);
     this._logger.info(TAG, response);
-
-    return jsonDecode(response) is Map
-        ? [jsonDecode(response)]
-        : jsonDecode(response);
+    if (jsonDecode(response) is List) {
+      return jsonDecode(response)
+          .map((item) => item as Map<String, dynamic>)
+          .toList()
+          .cast<Map<String, dynamic>>();
+    } else {
+      return [jsonDecode(response)];
+    }
   }
 
   List<Map<String, dynamic>> _extractResponse(Response response) {

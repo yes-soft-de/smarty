@@ -80,8 +80,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i16.CourseDetailsBloc _createCourseDetailsBloc() =>
       _i16.CourseDetailsBloc(_createLogger(), _createCourseDetailsService());
   _i17.CourseDetailsService _createCourseDetailsService() =>
-      _i17.CourseDetailsService(
-          _createCourseDetailManager(), _createSharedPreferencesHelper());
+      _i17.CourseDetailsService(_createCourseDetailManager());
   _i18.CourseDetailManager _createCourseDetailManager() =>
       _i18.CourseDetailManager(_createCourseDetailsRepository());
   _i19.CourseDetailsRepository _createCourseDetailsRepository() =>

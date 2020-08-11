@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/home/bloc/courses_page/courses_page.bloc.dart';
@@ -35,8 +36,8 @@ class _CoursesPageState extends State<CoursesPage> {
         this.courses = stateChanged.last;
       }
 
-      if (this.mounted){
-        setState((){
+      if (this.mounted) {
+        setState(() {
           //Your state change code goes here
         });
       }
@@ -61,7 +62,18 @@ class _CoursesPageState extends State<CoursesPage> {
       widget._logger.info(widget.tag, "Fetching data Error");
       return Scaffold(
           body: Center(
-        child: Text("Fetching data Error.."),
+        child: Flex(
+          direction: Axis.vertical,
+          children: <Widget>[
+            Text("Fetching data Error.."),
+            RaisedButton(
+              child: Text('Refresh'),
+              onPressed: () {
+                widget._coursesPageBloc.getCourses();
+              },
+            )
+          ],
+        ),
       ));
     }
 
