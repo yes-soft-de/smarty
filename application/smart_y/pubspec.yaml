@@ -47,6 +47,10 @@ dependencies:
   dio: ^3.0.9
   dio_flutter_transformer: ^3.0.2
   dio_http_cache: ^0.2.7
+  dio_cookie_manager: ^1.0.0
+
+  # Cookies
+  cookie_jar: ^1.0.0
 
   # Pair and Other Types
   analyzer_plugin: ^0.2.5
@@ -67,9 +71,9 @@ dependencies:
   sqfentity: ^1.3.5+3
 
   # Firebase Libs
-  firebase_core: ^0.4.5
-  firebase_auth: ^0.16.1
-  firebase_analytics: ^5.0.15
+#  firebase_core: ^0.4.5
+#  firebase_auth: ^0.16.1
+#  firebase_analytics: ^5.0.15
 
   # Localization
   gen_lang: 0.1.3
@@ -92,7 +96,7 @@ dev_dependencies:
     sdk: flutter
 
   build_runner: ^1.7.3
-  retrofit_generator: ^1.3.7+2
+#  retrofit_generator: ^1.3.7+2
 #  test: ^1.14.4
   country_pickers: ^1.3.0
   inject_generator:

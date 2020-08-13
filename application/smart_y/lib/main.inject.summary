@@ -21,14 +21,14 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/ui/screen/login_page/login_page.dart#LoginPage",
+                "root": "asset:smarty/lib/home/home_module.dart#HomeModule",
                 "qualifier": null
               },
               "isProvider": false
             },
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/ui/screen/courses_page/courses_page.dart#CoursesPage",
+                "root": "asset:smarty/lib/authorization/authorization_component.dart#AuthorizationModule",
                 "qualifier": null
               },
               "isProvider": false
