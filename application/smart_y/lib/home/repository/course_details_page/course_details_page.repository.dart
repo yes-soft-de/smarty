@@ -19,7 +19,7 @@ class CourseDetailsRepository{
       String token = await this._preferencesHelper.getToken();
 
       dynamic  response = await _httpClient
-          .get(ApiUrls.SectionsApi+'?parent=$courseId', {}, {'Authorization': 'Bearer $token'});
+          .get(ApiUrls.SectionsApi, {'parent':'$courseId'}, {'Authorization': 'Bearer $token'});
 
       // If no Response, return Null
       if (response == null) return null;
@@ -29,11 +29,18 @@ class CourseDetailsRepository{
       response.forEach((element)async{
          availableSections.add(SectionResponse.fromJson(element));
          var sectionId= availableSections.last.id;
+
          List<LessonResponse> sectionLessons = await getSectionLessons(sectionId);
 
          // In case sections should be contain lessons
-         if (sectionLessons == null) return null;
-         availableSections.last.lessons = sectionLessons;
+        if (sectionLessons == null || sectionLessons.length==0) {
+          availableSections.last.lessons =new List<LessonResponse>();
+        }
+        else {
+          availableSections.last.lessons =sectionLessons;
+        }
+
+
       });
 
       // Return the decoded response
@@ -42,16 +49,25 @@ class CourseDetailsRepository{
    }
 
    Future<List<LessonResponse>> getSectionLessons(int sectionId)async{
-      dynamic response = await _httpClient.get(ApiUrls.LessonsApi+'?parent=$sectionId');
+      String token = await this._preferencesHelper.getToken();
+
+
+      dynamic response = await _httpClient.get(ApiUrls.LessonsApi,{'parent':'$sectionId'},{'Authorization': 'Bearer $token'});
+
 
       // If no Response, return Null
-      if (response == null) return null;
+      if (response == null  ) return null;
 
       //Decode the data
       List<LessonResponse> availableLessons = [];
-      response.forEach((element){
-         availableLessons.add(LessonResponse.fromJson(element));
-      });
+      if(response.toString()!='[]'){
+
+        response.forEach((element){
+          availableLessons.add(LessonResponse.fromJson(element));
+        });
+
+
+      }
 
       // Return the decoded response
       return availableLessons;

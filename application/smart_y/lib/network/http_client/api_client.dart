@@ -18,6 +18,8 @@ class ApiClient {
   Future<List<Map<String, dynamic>>> get(String url,
       [Map<String, String> queryMap, Map<String, String> headers]) async {
     this._logger.info(TAG, 'Requesting GET: ' + url);
+    this._logger.info(TAG, 'Query parameters: ' + queryMap.toString());
+    this._logger.info(TAG, 'Headers: ' + headers.toString());
 
     try {
       Response response = await _dio.get<String>(url,

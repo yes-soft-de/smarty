@@ -39,15 +39,21 @@ class CourseCardWidget extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text(
-                      name,
-                      style: TextStyle(fontSize: 10.0),
+                    Container(
+                      width: MediaQuery.of(context).size.width*0.5,
+                      child: Text(
+                        name,
+                        style: TextStyle(fontSize: 10.0),
+                      ),
                     ),
-                    Text(
-                      description,
-                      style: TextStyle(
-                        fontSize: 8.0,
-                        color: Colors.blueGrey,
+                    Container(
+                      width: MediaQuery.of(context).size.width*0.5,
+                      child: Text(
+                        description,
+                        style: TextStyle(
+                          fontSize: 8.0,
+                          color: Colors.blueGrey,
+                        ),
                       ),
                     ),
                   ],

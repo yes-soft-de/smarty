@@ -20,12 +20,17 @@ class CourseDetailsService {
       return null;
     }
 
+
     List<Section> courseSections = [];
     sectionResponse.forEach((element) {
+
       List<Lesson> sectionLessons = [];
-      element.lessons.forEach((el) {
-        sectionLessons.add(Lesson(id: el.id, title: el.title.rendered));
-      });
+      if(element.lessons!=null ){
+        element.lessons.forEach((el) {
+          sectionLessons.add(Lesson(id: el.id, title: el.title.rendered));
+        });
+      }
+
 
       courseSections.add(Section(
           id: element.id,

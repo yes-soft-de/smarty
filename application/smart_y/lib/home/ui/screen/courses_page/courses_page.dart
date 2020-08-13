@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/home/bloc/courses_page/courses_page.bloc.dart';
+import 'package:smarty/home/home_module.dart';
 import 'package:smarty/home/model/course/course_list_item.model.dart';
 import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
 import 'package:smarty/home/ui/widget/course_card/course_card.dart';
@@ -99,50 +100,60 @@ class _CoursesPageState extends State<CoursesPage> {
           children: <Widget>[
             ListView.builder(
                 itemCount: courses.length,
-                padding: EdgeInsetsDirectional.fromSTEB(15, 50, 15, 10),
+               padding: EdgeInsetsDirectional.fromSTEB(0,50 ,0, 0),
                 itemBuilder: (BuildContext context, int index) {
-                  return CourseCardWidget(
-                    image: 'assets/yoga.jpg',
-                    price: 50,
-                    chapters: 42,
-                    name: courses[index].title,
-                    description: courses[index].content,
+                  return FlatButton(
+                    onPressed: (){
+                      print('${courses[index].id}');
+                      Navigator.pushNamed(context, HomeModule.ROUTE_COURSE_DETAILS,arguments: courses[index]);
+
+                    },
+                    child: CourseCardWidget(
+                      image: 'assets/yoga.jpg',
+                      price: 50,
+                      chapters: 42,
+                      name: courses[index].title,
+                      description: courses[index].content,
+                    ),
                   );
                 }),
             Positioned(
               left: 0.0,
               right: 0.0,
               top: 0.0,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      IconButton(
-                        onPressed: () {},
-                        icon: ImageAsIconWidget(
-                          img: 'assets/filter_icon.png',
-                          width: 20,
-                          height: 10,
+              child: Container(
+                color: Color(0xffF4ECEC),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    Row(
+                      children: <Widget>[
+                        IconButton(
+                          onPressed: () {},
+                          icon: ImageAsIconWidget(
+                            img: 'assets/filter_icon.png',
+                            width: 20,
+                            height: 10,
+                          ),
                         ),
-                      ),
-                      Text('Filter')
-                    ],
-                  ),
-                  Row(
-                    children: <Widget>[
-                      IconButton(
-                        onPressed: () {},
-                        icon: ImageAsIconWidget(
-                          img: 'assets/filter_icon.png',
-                          width: 20,
-                          height: 10,
+                        Text('Filter')
+                      ],
+                    ),
+                    Row(
+                      children: <Widget>[
+                        IconButton(
+                          onPressed: () {},
+                          icon: ImageAsIconWidget(
+                            img: 'assets/filter_icon.png',
+                            width: 20,
+                            height: 10,
+                          ),
                         ),
-                      ),
-                      Text('Sort')
-                    ],
-                  ),
-                ],
+                        Text('Sort')
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ],

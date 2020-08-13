@@ -29,6 +29,7 @@ class LoginPageState extends State<LoginPage> {
   String _userName;
   String _password;
 
+  bool _buttonsDisabled = false;
   bool authError = false;
 
   @override
@@ -51,6 +52,7 @@ class LoginPageState extends State<LoginPage> {
     }
 
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_ERROR) {
+      _buttonsDisabled = false;
       widget._logger.info(widget.tag, "AUTH Error");
       return getPageLayout();
     }
@@ -58,12 +60,14 @@ class LoginPageState extends State<LoginPage> {
     if (currentState == LoginPageBloc.STATUS_CODE_CREDENTIALS_SENT) {
       // TODO: Stop submitting more requests until we get a response
       widget._logger.info(widget.tag, "Sending Login Request");
+      _buttonsDisabled = true;
       return getPageLayout();
     }
 
     if (currentState == LoginPageBloc.STATUS_CODE_INIT) {
       // RECOMMENDATION: Stick to more general coding style, where we return at the end
       widget._logger.info(widget.tag, "Login Page Started");
+      _buttonsDisabled = false;
       return getPageLayout();
     }
 
@@ -154,9 +158,8 @@ class LoginPageState extends State<LoginPage> {
                     margin: EdgeInsets.fromLTRB(30, 30, 30, 0),
                     child: FlatButton(
                       padding: EdgeInsets.fromLTRB(0, 15, 0, 15),
-                      onPressed: () {
-                        _validateInputsAndLogin();
-                      },
+                      onPressed: _buttonsDisabled?null:()=> _validateInputsAndLogin()
+                      ,
                       color: Color(0xffDCDCDE),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,

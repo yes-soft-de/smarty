@@ -12,6 +12,6 @@ class CourseDetailManager{
   CourseDetailManager(this._courseDetailsRepository);
 
   Future<List<SectionResponse>> getCourseDetails(int courseId)async{
-    return this._courseDetailsRepository.getCourseDetails(courseId);
+    return await this._courseDetailsRepository.getCourseDetails(courseId);
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/home/bloc/courses_details_page/courses_details_page.bloc.dart';
 import 'package:smarty/home/bloc/courses_page/courses_page.bloc.dart';
+import 'package:smarty/home/model/course/course_list_item.model.dart';
 import 'package:smarty/home/model/lesson/lesson.dart';
 import 'package:smarty/home/model/section/secction.dart';
 import 'package:smarty/home/ui/widget/course_section_lessons/course_section_lessons.dart';
@@ -16,6 +17,7 @@ class CourseDetailPage extends StatefulWidget {
   final CourseDetailsBloc _courseDetailsBloc;
   final Logger _logger;
 
+
   CourseDetailPage(this._courseDetailsBloc,this._logger) ;
 
   @override
@@ -23,10 +25,11 @@ class CourseDetailPage extends StatefulWidget {
 }
 
 class _CourseDetailPageState extends State<CourseDetailPage> {
-  int courseId;
+
 
   int currentState = CoursesPageBloc.STATUS_CODE_INIT;
   List<Section> sections;
+  CourseModel _course;
 
   //mockup data
   List<Lesson> lessons = [new Lesson(title:'lesson 1',id:1),new Lesson(title:'lesson 2',id:2),new Lesson(title:'lesson 3',id:3),new Lesson(title:'lesson 4',id:4)];
@@ -34,7 +37,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-
+    _course = ModalRoute.of(context).settings.arguments;
 
     widget._courseDetailsBloc.courseDetailsStateObservable.listen((stateChanged) {
       currentState = stateChanged.first;
@@ -43,12 +46,15 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
         this.sections = stateChanged.last;
       }
 
-      setState(() {});
+      if(this.mounted){
+        setState(() {});
+      }
+
     });
 
     if(currentState == CourseDetailsBloc.STATUS_CODE_INIT){
       widget._logger.info(widget.tag, "Course details Page Started");
-      widget._courseDetailsBloc.getCourseDetails(courseId);
+      widget._courseDetailsBloc.getCourseDetails(_course.id);
     }
 
     if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA) {
@@ -88,13 +94,14 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
           leading: Builder(
             builder: (BuildContext context) {
               return IconButton(
+
                 icon: ImageAsIconWidget(
                   img:'assets/goback.png',
                   height: 20.0,
                   width: 30.0,
                 ),
                 onPressed: () {
-
+                  Navigator.pop(context);
                 },
 
               );
@@ -116,7 +123,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Text('Weekly progress'),
+                    Text('${_course.title}'),
                     FlatButton(
                       onPressed: (){},
                       color: Color(0xff5E239D),
@@ -178,7 +185,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                   SizedBox(width: MediaQuery.of(context).size.width*0.07,),
                   Container(
                     width: MediaQuery.of(context).size.width*0.9,
-                    child: Text('Weekly progress on  dieting  Weekly progress on dieting Weekly progress on dieting Weekly progress on dieting',
+                    child: Text('${_course.content}',
 
                     ),
                   ),
@@ -210,40 +217,8 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
               sectionsColumn(sections),
 
-              Container(
-                padding: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 20),
-                child: Row(
-                  children: <Widget>[
-                    Container(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 10, 0),
-                      child: Image(
 
-                        image: AssetImage('assets/profilePic.png'
-                        ),
-                        height: MediaQuery.of(context).size.width*0.2,
-                      ),
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        Text('Alex Smith'),
-                        Text('20 April at 4:20 PM',
-                            style: TextStyle(
-                              color: Colors.grey,
-                              fontSize: 9,
-                            )
-                        )
-                      ],
-                    )
-                  ],
-                ),
-              ),
 
-              Container (
-                padding: const EdgeInsets.all(16.0),
-                width: MediaQuery.of(context).size.width*0.85,
-                child: Text ("Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2", textAlign: TextAlign.center),
-              ),
 
               Divider(),
 
@@ -375,7 +350,29 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
     for(var i = 0; i < sections.length; i++){
       list.add(new  Container(
           height: MediaQuery.of(context).size.height*0.4,
-          child: CourseSectionLessons(sectionName: sections[i].title,lessons: sections[i].lessons,)
+          child:sections[i].lessons.length>0?
+          CourseSectionLessons(sectionName: sections[i].title,lessons: sections[i].lessons,):
+          Container(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Text(
+                      '${sections[i].title}'
+                    ),
+                  ],
+                ),
+                Text(
+                  'No Lessons',
+                  style: TextStyle(
+                    color: Colors.redAccent,
+                  ),
+                )
+              ],
+            ),
+          )
       )
 
       );
