@@ -1,8 +1,12 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:inject/inject.dart';
 import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 
 import '../../../home_module.dart';
 
+@provide
+@singleton
 class AppDrawerWidget extends StatelessWidget {
   final SharedPreferencesHelper _preferencesHelper= new SharedPreferencesHelper();
   AppDrawerWidget( );
@@ -53,6 +57,7 @@ class AppDrawerWidget extends StatelessWidget {
                 ) ,
               ),
 
+
               FlatButton(
                 onPressed: (){
                   Navigator.pushNamed(context, HomeModule.ROUTE_HOME);
@@ -81,6 +86,22 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                   trailing: Icon(
                       Icons.book,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_PROGRAMS);
+                },
+                child: ListTile(
+                  title: Text("Programs",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.satellite,
                     color: Colors.white,
                   ),
                 ),

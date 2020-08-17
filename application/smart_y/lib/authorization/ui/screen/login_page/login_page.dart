@@ -45,7 +45,7 @@ class LoginPageState extends State<LoginPage> {
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_SUCCESS) {
       // TODO: Move to Home using Navigator
       widget._logger.info(widget.tag, "AUTH SUCCESS");
-       Future.delayed(Duration(seconds: 1), () {
+       Future.delayed(Duration(milliseconds: 100), () {
         Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);
       });
 
@@ -129,9 +129,9 @@ class LoginPageState extends State<LoginPage> {
                           ),
                         )),
                     keyboardType: TextInputType.text,
-                    validator: validateName,
+//                    validator: validateName,
                     onSaved: (String val) {
-                      _userName = val;
+                      _userName = val  ;
                     },
                   ),
                   new TextFormField(
@@ -149,7 +149,7 @@ class LoginPageState extends State<LoginPage> {
                           ),
                         )),
                     keyboardType: TextInputType.visiblePassword,
-                    validator: validatePassword,
+//                    validator: validatePassword,
                     onSaved: (String val) {
                       _password = val;
                     },
@@ -158,7 +158,7 @@ class LoginPageState extends State<LoginPage> {
                     margin: EdgeInsets.fromLTRB(30, 30, 30, 0),
                     child: FlatButton(
                       padding: EdgeInsets.fromLTRB(0, 15, 0, 15),
-                      onPressed: _buttonsDisabled?null:()=> _validateInputsAndLogin()
+                      onPressed: _buttonsDisabled?null:()=> /*_validateInputsAndLogin()*/ login()
                       ,
                       color: Color(0xffDCDCDE),
                       child: Row(
@@ -236,6 +236,6 @@ class LoginPageState extends State<LoginPage> {
   }
 
   login() {
-    widget._loginPageBloc.login(_userName, _password);
+    widget._loginPageBloc.login(/*_userName, _password*/'Test@Test.com','Test');
   }
 }

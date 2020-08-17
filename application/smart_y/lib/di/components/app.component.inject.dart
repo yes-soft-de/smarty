@@ -23,21 +23,22 @@ import '../../home/service/course_details_page/course_details_page.service.dart'
 import '../../home/manager/course_details/course_details.manager.dart' as _i18;
 import '../../home/repository/course_details_page/course_details_page.repository.dart'
     as _i19;
-import '../../authorization/authorization_component.dart' as _i20;
-import '../../authorization/ui/screen/login_page/login_page.dart' as _i21;
-import '../../authorization/bloc/login_page/login_page.bloc.dart' as _i22;
-import '../../authorization/service/login_page/login_page.service.dart' as _i23;
-import '../../authorization/manager/login/login.manager.dart' as _i24;
+import '../../home/ui/screen/programs_page/programs_page.dart' as _i20;
+import '../../authorization/authorization_component.dart' as _i21;
+import '../../authorization/ui/screen/login_page/login_page.dart' as _i22;
+import '../../authorization/bloc/login_page/login_page.bloc.dart' as _i23;
+import '../../authorization/service/login_page/login_page.service.dart' as _i24;
+import '../../authorization/manager/login/login.manager.dart' as _i25;
 import '../../authorization/repository/login/login_page.repository.dart'
-    as _i25;
-import '../../authorization/ui/screen/register_page/register_page.dart' as _i26;
-import '../../authorization/service/register/register.dart' as _i27;
-import '../../authorization/manager/register/register.dart' as _i28;
-import '../../authorization/repository/register/register.dart' as _i29;
+    as _i26;
+import '../../authorization/ui/screen/register_page/register_page.dart' as _i27;
+import '../../authorization/service/register/register.dart' as _i28;
+import '../../authorization/manager/register/register.dart' as _i29;
+import '../../authorization/repository/register/register.dart' as _i30;
 import '../../authorization/manager/lifter_register_manager/lifter_register_manager.dart'
-    as _i30;
-import '../../authorization/repository/lifter_register/lifter_register_repository.dart'
     as _i31;
+import '../../authorization/repository/lifter_register/lifter_register_repository.dart'
+    as _i32;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -56,8 +57,12 @@ class AppComponent$Injector implements _i1.AppComponent {
 
   _i6.MyApp _createMyApp() =>
       _i6.MyApp(_createHomeModule(), _createAuthorizationModule());
-  _i7.HomeModule _createHomeModule() => _i7.HomeModule(_createMeditationPage(),
-      _createHomePage(), _createCoursesPage(), _createCourseDetailPage());
+  _i7.HomeModule _createHomeModule() => _i7.HomeModule(
+      _createMeditationPage(),
+      _createHomePage(),
+      _createCoursesPage(),
+      _createCourseDetailPage(),
+      _createProgramsPage());
   _i8.MeditationPage _createMeditationPage() => _i8.MeditationPage();
   _i9.HomePage _createHomePage() => _i9.HomePage();
   _i10.CoursesPage _createCoursesPage() =>
@@ -86,34 +91,35 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i19.CourseDetailsRepository _createCourseDetailsRepository() =>
       _i19.CourseDetailsRepository(
           _createApiClient(), _createSharedPreferencesHelper());
-  _i20.AuthorizationModule _createAuthorizationModule() =>
-      _i20.AuthorizationModule(_createLoginPage(), _createRegisterPage());
-  _i21.LoginPage _createLoginPage() =>
-      _i21.LoginPage(_createLoginPageBloc(), _createLogger());
-  _i22.LoginPageBloc _createLoginPageBloc() =>
-      _i22.LoginPageBloc(_createLoginService(), _createLogger());
-  _i23.LoginService _createLoginService() => _i23.LoginService(
+  _i20.ProgramsPage _createProgramsPage() => _i20.ProgramsPage();
+  _i21.AuthorizationModule _createAuthorizationModule() =>
+      _i21.AuthorizationModule(_createLoginPage(), _createRegisterPage());
+  _i22.LoginPage _createLoginPage() =>
+      _i22.LoginPage(_createLoginPageBloc(), _createLogger());
+  _i23.LoginPageBloc _createLoginPageBloc() =>
+      _i23.LoginPageBloc(_createLoginService(), _createLogger());
+  _i24.LoginService _createLoginService() => _i24.LoginService(
       _createLoginManager(), _createSharedPreferencesHelper(), _createLogger());
-  _i24.LoginManager _createLoginManager() =>
-      _i24.LoginManager(_createLoginRepository());
-  _i25.LoginRepository _createLoginRepository() =>
-      _i25.LoginRepository(_createApiClient());
-  _i26.RegisterPage _createRegisterPage() =>
-      _i26.RegisterPage(_createRegisterService());
-  _i27.RegisterService _createRegisterService() => _i27.RegisterService(
+  _i25.LoginManager _createLoginManager() =>
+      _i25.LoginManager(_createLoginRepository());
+  _i26.LoginRepository _createLoginRepository() =>
+      _i26.LoginRepository(_createApiClient());
+  _i27.RegisterPage _createRegisterPage() =>
+      _i27.RegisterPage(_createRegisterService());
+  _i28.RegisterService _createRegisterService() => _i28.RegisterService(
       _createLogger(),
       _createRegisterManager(),
       _createSharedPreferencesHelper(),
       _createLoginManager(),
       _createLifterRegisterManager());
-  _i28.RegisterManager _createRegisterManager() =>
-      _i28.RegisterManager(_createRegisterRepository());
-  _i29.RegisterRepository _createRegisterRepository() =>
-      _i29.RegisterRepository(_createApiClient());
-  _i30.LifterRegisterManager _createLifterRegisterManager() =>
-      _i30.LifterRegisterManager(_createLifterRegisterRepository());
-  _i31.LifterRegisterRepository _createLifterRegisterRepository() =>
-      _i31.LifterRegisterRepository(_createApiClient());
+  _i29.RegisterManager _createRegisterManager() =>
+      _i29.RegisterManager(_createRegisterRepository());
+  _i30.RegisterRepository _createRegisterRepository() =>
+      _i30.RegisterRepository(_createApiClient());
+  _i31.LifterRegisterManager _createLifterRegisterManager() =>
+      _i31.LifterRegisterManager(_createLifterRegisterRepository());
+  _i32.LifterRegisterRepository _createLifterRegisterRepository() =>
+      _i32.LifterRegisterRepository(_createApiClient());
   @override
   _i6.MyApp get app => _createMyApp();
 }

@@ -1,22 +1,22 @@
 {
-  "asset": "asset:smarty/lib/home/ui/widget/app_drawer/app_drawer.dart",
+  "asset": "asset:smarty/lib/home/ui/screen/programs_page/programs_page.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "AppDrawerWidget",
+        "name": "ProgramsPage",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/home/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
+              "root": "asset:smarty/lib/home/ui/screen/programs_page/programs_page.dart#ProgramsPage",
               "qualifier": null
             },
             "isProvider": false
           },
-          "singleton": true,
+          "singleton": false,
           "asynchronous": false,
           "dependencies": []
         }

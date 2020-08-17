@@ -6,6 +6,7 @@ import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
 import 'package:smarty/home/ui/widget/smart_app_bar/smarty_app_bar.dart';
 import 'package:smarty/home/ui/widget/video_card/video_card.dart';
 
+//fake data
 final List<MeditationSuggestions> imgList = [
   MeditationSuggestions(
       title: 'Weelky Progress',

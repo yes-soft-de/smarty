@@ -15,7 +15,7 @@ class SmartyAppBarWidget extends StatelessWidget implements PreferredSizeWidget 
     return  AppBar(
       backgroundColor: Color(0xff5E239D),
       centerTitle: true,
-      title:Text(title,style: TextStyle(fontSize: 10.0),),
+      title:Text(title,style: TextStyle(fontSize: 10.0,color: Colors.white),),
       actions: <Widget>[
         IconButton(
           icon: ImageAsIconWidget(
