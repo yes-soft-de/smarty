@@ -115,7 +115,7 @@ class LoginPageState extends State<LoginPage> {
                   ),
                   new TextFormField(
                     decoration: InputDecoration(
-                        labelText: 'Name',
+                        labelText: 'Email',
                         icon: Tab(
                           icon: Container(
                             child: Image(
@@ -127,7 +127,7 @@ class LoginPageState extends State<LoginPage> {
                           ),
                         )),
                     keyboardType: TextInputType.text,
-//                    validator: validateName,
+             //       validator: validateName,
                     onSaved: (String val) {
                       _userName = val  ;
                     },
@@ -147,7 +147,7 @@ class LoginPageState extends State<LoginPage> {
                           ),
                         )),
                     keyboardType: TextInputType.visiblePassword,
-//                    validator: validatePassword,
+                 //   validator: validatePassword,
                     onSaved: (String val) {
                       _password = val;
                     },

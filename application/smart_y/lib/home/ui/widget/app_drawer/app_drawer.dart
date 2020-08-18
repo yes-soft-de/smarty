@@ -138,6 +138,22 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                 ),
               ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_EVENT_AND_NEWS);
+                },
+                child: ListTile(
+                  title: Text("Events & News",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.fiber_new,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
 
 
             ],

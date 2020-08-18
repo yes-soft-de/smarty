@@ -5,6 +5,7 @@ import 'package:smarty/home/ui/widget/image_icon/image_icon.dart';
 class SmartyAppBarWidget extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final AppBar appBar;
+
   const SmartyAppBarWidget({this.appBar,this.title}):super();
 
   @override

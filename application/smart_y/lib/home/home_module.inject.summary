@@ -60,6 +60,13 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/news_and_events_page/news_and_evens_page.dart#NewsAndEventsPAge",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }
