@@ -35,6 +35,9 @@ final List<ProgramModel> programList = [
 
 @provide
 class ProgramsPage extends StatefulWidget {
+  final AppDrawerWidget _appDrawerWidget;
+  ProgramsPage(this._appDrawerWidget);
+
   @override
   _ProgramsPageState createState() => _ProgramsPageState();
 }
@@ -51,22 +54,27 @@ class _ProgramsPageState extends State<ProgramsPage> {
         appBar: AppBar(),
         title: 'Programs',
       ),
-      drawer: AppDrawerWidget(),
+      drawer:widget._appDrawerWidget,
       body:  Container(
           color: Color(0xffF2F2F2),
           child: Container(
             height: MediaQuery.of(context).size.height ,
-            child: ProgramSliderWidget(),
+            child: ProgramSliderWidget( ),
 
         ),
       )
     );
 
   }
+
+
+
 }
 
 
 class ProgramSliderWidget extends StatelessWidget {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -75,6 +83,7 @@ class ProgramSliderWidget extends StatelessWidget {
               children: <Widget>[
                 CarouselSlider(
                   options: CarouselOptions(
+
                     height: MediaQuery.of(context).size.height*0.80 ,
                     autoPlay: true,
                     aspectRatio: 2.0,
@@ -86,7 +95,14 @@ class ProgramSliderWidget extends StatelessWidget {
             )),
 
     );
+
+
   }
+
+
+
+
+
 }
 
 
@@ -181,7 +197,10 @@ class ProgramCardWidget extends StatelessWidget {
                            ],
                         ),
                         FlatButton(
-                          onPressed: (){},
+                          onPressed: (){
+
+                            _showPaymentDialog(context);
+                          },
 
                           color: Color(0xff5F06A6),
                           child:Container(
@@ -212,5 +231,116 @@ class ProgramCardWidget extends StatelessWidget {
 
       ),
     );
+
+
+  }
+
+  _showPaymentDialog(BuildContext context) {
+    showDialog(
+        context: context,
+        builder: (_) => new SimpleDialog(
+
+            backgroundColor: Colors.black54,
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height*0.8,
+                width: MediaQuery.of(context).size.width,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                  Row(
+
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image(
+                      height: 75,
+                      width: 75,
+                      image: AssetImage('assets/Rectangle16.png'),
+                    ),
+                    Text(
+                      /* _preferencesHelper.getUserEmail().toString()*/'Test@Test.com',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Text(
+                        'The Program Coast',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                        '120\$',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
+
+                    Text(
+                      'Please inter your card holder name',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextField(
+
+                    ),
+                    Text(
+                      'Card number',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    TextField(
+                      decoration: InputDecoration(
+                          border: new UnderlineInputBorder(
+                              borderSide: new BorderSide(
+                                  color: Colors.red
+                              )
+                          )
+
+                      ),
+                    ),
+                    FlatButton(
+                        onPressed: (){
+
+
+                        },
+
+                        color: Color(0xff5F06A6),
+                        child:Container(
+                          height: MediaQuery.of(context).size.height*0.09,
+                          width: MediaQuery.of(context).size.width*0.45,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                'Pay now',
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    color: Colors.white
+                                ),
+                              ),
+                              Icon(
+                                Icons.arrow_forward,
+                                color: Colors.white,
+                              ),
+                            ],
+                          ),
+                        )
+                    ),
+            ],
+                ),
+              )
+            ],
+        ));
   }
 }
+
+

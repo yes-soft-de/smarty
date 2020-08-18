@@ -8,8 +8,8 @@ import '../../../home_module.dart';
 @provide
 @singleton
 class AppDrawerWidget extends StatelessWidget {
-  final SharedPreferencesHelper _preferencesHelper= new SharedPreferencesHelper();
-  AppDrawerWidget( );
+  final SharedPreferencesHelper _preferencesHelper;
+  AppDrawerWidget(this._preferencesHelper );
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -106,6 +106,24 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                 ),
               ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_MEDITATION);
+                },
+                child: ListTile(
+                  title: Text("Meditation",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.spa,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+
+
             ],
           ),
         ),

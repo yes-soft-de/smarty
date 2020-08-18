@@ -18,7 +18,15 @@
           },
           "singleton": false,
           "asynchronous": false,
-          "dependencies": []
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
         }
       }
     ]

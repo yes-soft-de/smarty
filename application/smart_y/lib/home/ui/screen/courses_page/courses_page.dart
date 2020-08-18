@@ -17,8 +17,10 @@ class CoursesPage extends StatefulWidget {
 
   final CoursesPageBloc _coursesPageBloc;
   final Logger _logger;
+  final AppDrawerWidget _appDrawerWidget;
 
-  CoursesPage(this._coursesPageBloc, this._logger);
+
+  CoursesPage(this._coursesPageBloc, this._logger,this._appDrawerWidget);
 
   @override
   _CoursesPageState createState() => _CoursesPageState();
@@ -93,7 +95,7 @@ class _CoursesPageState extends State<CoursesPage> {
         appBar: AppBar(),
         title: 'Courses',
       ),
-      drawer: AppDrawerWidget(),
+      drawer: widget._appDrawerWidget,
       body: Container(
         color: Color(0xffF4ECEC),
         child: Stack(

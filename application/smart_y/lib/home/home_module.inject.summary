@@ -49,6 +49,13 @@
             },
             {
               "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/lesson_page/lesson_page.dart#LessonPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
                 "root": "asset:smarty/lib/home/ui/screen/programs_page/programs_page.dart#ProgramsPage",
                 "qualifier": null
               },

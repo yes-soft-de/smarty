@@ -11,19 +11,22 @@ final List<MeditationSuggestions> imgList = [
   MeditationSuggestions(
       title: 'Weelky Progress',
       content: 'erhr frgredg c dfbdfh dhgh  hdgh xge t',
-      image: 'assets/BG.png'),
+      image: 'assets/course_image.png'),
   MeditationSuggestions(
       title: 'bla bla',
       content: 'shshrehe rher theth gh  h rh',
-      image: 'assets/BG2.jpg'),
+      image: 'assets/Rectangle 1.png'),
   MeditationSuggestions(
       title: 'go go',
       content: 'zcbvsf gh tt ghg   gfhfg  fghg  ur yt',
-      image: 'assets/BG3.jpg'),
+      image: 'assets/yoga.jpg'),
 ];
 
 @provide
 class MeditationPage extends StatefulWidget {
+  final AppDrawerWidget _appDrawerWidget;
+  MeditationPage(this._appDrawerWidget);
+
   @override
   _MeditationPageState createState() => _MeditationPageState();
 }
@@ -36,7 +39,7 @@ class _MeditationPageState extends State<MeditationPage> {
         appBar: AppBar(),
         title: 'Meditattion',
       ),
-      drawer: AppDrawerWidget(),
+      drawer: widget._appDrawerWidget,
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[

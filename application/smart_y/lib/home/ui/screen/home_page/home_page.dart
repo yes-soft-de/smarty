@@ -11,6 +11,9 @@ import 'package:smarty/home/ui/widget/video_card/video_card.dart';
 
 @provide
 class HomePage extends StatefulWidget {
+  final AppDrawerWidget _appDrawerWidget;
+  HomePage(this._appDrawerWidget);
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -20,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: SmartyAppBarWidget(appBar: AppBar(),title: 'Home',),
-      drawer: AppDrawerWidget(),
+      drawer: widget._appDrawerWidget,
       body: Container(
         color: Color(0xffF4ECEC),
         child: ListView(
