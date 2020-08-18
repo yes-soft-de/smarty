@@ -73,11 +73,9 @@ class LoginPageState extends State<LoginPage> {
 
     // Undefined State
     widget._logger.error(widget.tag, "Undefined State");
-    return Scaffold(
-      body: Center(
-        child: Text("Undefined State?!!"),
-      ),
-    );
+
+    _buttonsDisabled = true;
+    return getPageLayout();
   }
 
   // Always Return a Scaffold from a screen, consistency is the key here

@@ -104,7 +104,7 @@ class AppComponent$Injector implements _i1.AppComponent {
       _i20.CourseDetailsRepository(
           _createApiClient(), _createSharedPreferencesHelper());
   _i21.LessonPage _createLessonPage() =>
-      _i21.LessonPage(null, _createLessonPageBloc(), _createLogger());
+      _i21.LessonPage(_createLessonPageBloc(), _createLogger());
   _i22.LessonPageBloc _createLessonPageBloc() =>
       _i22.LessonPageBloc(_createLessonService(), _createLogger());
   _i23.LessonService _createLessonService() =>
