@@ -12,35 +12,31 @@ class NewsTabCard extends StatelessWidget {
           ),
           child: Column(
             children: [
-              Container(
-                padding: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 0),
-                child: Row(
-                  children: <Widget>[
-                    Container(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 10, 0),
-                      child: Image(
-
-                        image: AssetImage('assets/profilePic.png'
-                        ),
-                        height: MediaQuery.of(context).size.width*0.15,
+              //title
+              Container (
+                padding:EdgeInsetsDirectional.fromSTEB(16, 16, 16, 0),
+                width: MediaQuery.of(context).size.width*0.85,
+                child:Row(
+                  children: [
+                    Text (
+                      '01',
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                          fontSize: 20,
+                        color:  Color(0xffF61067),
                       ),
                     ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        Text('Alex Smith'),
-                        Text('20 April at 4:20 PM',
-                            style: TextStyle(
-                              color: Colors.grey,
-                              fontSize: 9,
-                            )
-                        )
-                      ],
-                    )
+                    Text (
+                      'The Title of the News',
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                          fontSize: 15
+                      ),
+                    ),
                   ],
-                ),
+                )
               ),
-
+              //description
               Container (
                 padding: const EdgeInsets.all(16.0),
                 width: MediaQuery.of(context).size.width*0.85,
@@ -65,6 +61,29 @@ class NewsTabCard extends StatelessWidget {
                   ),
                 ),
               ),
+              Divider(),
+              Container(
+                padding: EdgeInsetsDirectional.fromSTEB(16, 0, 0, 0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    //date
+                    Row(
+                      children: [
+                        Icon(Icons.calendar_today,color: Color(0xffF61067),),
+                        Text(
+                          '30-6-2020',
+                          style: TextStyle(
+                              fontSize: 9
+                          ),
+                        ),
+                      ],
+                    ),
+
+                  ],
+                ),
+              ),
+              Divider(),
 
               Container(
                 height: MediaQuery.of(context).size.width*0.5,
