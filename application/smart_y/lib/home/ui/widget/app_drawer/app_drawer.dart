@@ -154,6 +154,22 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                 ),
               ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_CONSULTING);
+                },
+                child: ListTile(
+                  title: Text("Consulting",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.question_answer,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
 
 
             ],

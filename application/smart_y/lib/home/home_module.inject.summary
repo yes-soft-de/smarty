@@ -67,6 +67,13 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/consulting_page/consulting_page.dart#ConsultingPage",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }
