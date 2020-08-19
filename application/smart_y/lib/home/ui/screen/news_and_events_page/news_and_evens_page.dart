@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/home/ui/screen/news_and_events_page/events_tab/events_tab_page.dart';
+import 'package:smarty/home/ui/screen/news_and_events_page/news_tab/news_tab_page.dart';
 import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
 import 'package:smarty/home/ui/widget/smart_app_bar/smarty_app_bar.dart';
 
@@ -46,10 +47,7 @@ class _NewsAndEventsPAgeState extends State<NewsAndEventsPAge> {
               child: TabBarView(
                 children: [
                   EventsTabPage(),
-                  new Container(
-
-                    child: Center(child: Text('There isn\'t any news', style: TextStyle(color: Colors.red),),),
-                  ),
+                  NewsTabPage(),
                 ],
               ),
             ),

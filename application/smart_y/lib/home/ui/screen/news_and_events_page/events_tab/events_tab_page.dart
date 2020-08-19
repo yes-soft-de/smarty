@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smarty/home/ui/widget/events_tab_card/events_tab_card.dart';
+import 'package:smarty/home/ui/widget/events_tab_card2/events_tab_card2.dart';
 
 class EventsTabPage extends StatefulWidget {
   @override
@@ -18,9 +19,9 @@ class _EventsTabPageState extends State<EventsTabPage> {
 
          padding: EdgeInsetsDirectional.fromSTEB(20 , 30, 20, 20),
          children:<Widget> [
-             EventsTabCard(),
-             EventsTabCard() ,
-             EventsTabCard(),
+             EventsTabCard2(),
+             EventsTabCard2() ,
+             EventsTabCard2(),
 
          ],
        ),
