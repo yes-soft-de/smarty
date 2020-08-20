@@ -7,6 +7,7 @@ import 'package:smarty/home/ui/screen/home_page/home_page.dart';
 import 'package:smarty/home/ui/screen/lesson_page/lesson_page.dart';
 import 'package:smarty/home/ui/screen/meditation_page/meditation_page.dart';
 import 'package:smarty/home/ui/screen/news_and_events_page/news_and_evens_page.dart';
+import 'package:smarty/home/ui/screen/notification_page/notification_page.dart';
 import 'package:smarty/home/ui/screen/programs_page/programs_page.dart';
 
 @provide
@@ -19,6 +20,7 @@ class HomeModule extends Module {
   static const ROUTE_PROGRAMS = '/programs';
   static const ROUTE_EVENT_AND_NEWS= '/events_and_news';
   static const ROUTE_CONSULTING= '/consulting';
+  static const ROUTE_NOTIFICATION= '/notification';
 
 
   CourseDetailPage _courseDetailPage;
@@ -29,11 +31,13 @@ class HomeModule extends Module {
   ProgramsPage _programsPage;
   NewsAndEventsPAge _newsAndEventsPAge;
   ConsultingPage _consultingPage;
+  NotificationPage _notificationPage;
 
   HomeModule(this._meditationPage, this._homePage,
       this._coursesPage, this._courseDetailPage,
       this._lessonPage , this._programsPage,
-      this._newsAndEventsPAge,this._consultingPage
+      this._newsAndEventsPAge,this._consultingPage,
+      this._notificationPage,
       );
 
   @override
@@ -47,6 +51,7 @@ class HomeModule extends Module {
       ROUTE_PROGRAMS: (context) => _programsPage,
       ROUTE_EVENT_AND_NEWS : (context) => _newsAndEventsPAge,
       ROUTE_CONSULTING : (context) => _consultingPage,
+      ROUTE_NOTIFICATION :(context) => _notificationPage,
     };
   }
 }

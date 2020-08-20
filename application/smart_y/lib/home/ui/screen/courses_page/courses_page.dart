@@ -125,8 +125,9 @@ class _CoursesPageState extends State<CoursesPage> {
               top: 0.0,
               child: Container(
                 color: Color(0xffF4ECEC),
+                padding: EdgeInsetsDirectional.fromSTEB(10, 0, 12, 0),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Row(
                       children: <Widget>[

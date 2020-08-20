@@ -170,6 +170,22 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                 ),
               ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_NOTIFICATION);
+                },
+                child: ListTile(
+                  title: Text("Notification",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.notifications,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
 
 
             ],
