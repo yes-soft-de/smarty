@@ -1,0 +1,120 @@
+apiVersion: v1                  
+kind: PersistentVolumeClaim     
+metadata:                       
+   name: pvc-mysql              
+spec:                           
+   accessModes:                  
+   - ReadWriteOnce              
+   resources:                   
+      requests:                 
+         storage: 1Gi          
+---
+apiVersion: v1                  
+kind: PersistentVolumeClaim     
+metadata:                       
+   name: pvc-wordpress              
+
+spec:                           
+   accessModes:                 
+   - ReadWriteOnce              
+   resources:                   
+      requests:                 
+         storage: 1Gi          
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wordpress-mysql
+  labels:
+    app: wordpress
+spec:
+  clusterIP: None
+  ports:
+    - port: 3306
+  selector:
+    app: wordpress
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wordpress-mysql
+  labels:
+    app: wordpress
+spec:
+
+  selector:
+    matchLabels:
+      app: wordpress
+  template:
+    metadata:
+      labels:
+        app: wordpress
+    spec:
+      containers:
+      - image: mysql:5.6
+        name: mysql
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql
+
+              key: password
+
+        ports:
+        - containerPort: 3306
+          name: mysql
+        volumeMounts:
+        - name: mysql-persistent-storage
+          mountPath: /var/lib/mysql
+      volumes:
+      - name: mysql-persistent-storage
+        persistentVolumeClaim:
+          claimName: pvc-mysql
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wordpress
+  labels:
+    app: wordpress
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+  selector:
+    app: wordpress
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wordpress
+  labels:
+    app: wordpress
+spec:
+  selector:
+    matchLabels:
+      app: wordpress
+  template:
+    metadata:
+      labels:
+        app: wordpress
+    spec:
+      containers:
+      - name: wordpresse
+        #command: ["/bin/sh", "-c"]
+        
+        image: gcr.io/neural-sol-285619/wpp    
+
+        env:
+        - name: WORDPRESS_DB_HOST
+          value: wordpress-mysql
+        - name: WORDPRESS_DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql
+              key: password
+        ports:
+        - containerPort: 8000
+          name: wordpress
