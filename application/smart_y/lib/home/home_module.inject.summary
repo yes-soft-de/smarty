@@ -46,6 +46,41 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/lesson_page/lesson_page.dart#LessonPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/programs_page/programs_page.dart#ProgramsPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/news_and_events_page/news_and_evens_page.dart#NewsAndEventsPAge",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/consulting_page/consulting_page.dart#ConsultingPage",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/ui/screen/notification_page/notification_page.dart#NotificationPage",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }

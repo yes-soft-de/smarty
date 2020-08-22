@@ -1,11 +1,15 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:inject/inject.dart';
 import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 
 import '../../../home_module.dart';
 
+@provide
+@singleton
 class AppDrawerWidget extends StatelessWidget {
-  final SharedPreferencesHelper _preferencesHelper= new SharedPreferencesHelper();
-  AppDrawerWidget( );
+  final SharedPreferencesHelper _preferencesHelper;
+  AppDrawerWidget(this._preferencesHelper );
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -53,6 +57,7 @@ class AppDrawerWidget extends StatelessWidget {
                 ) ,
               ),
 
+
               FlatButton(
                 onPressed: (){
                   Navigator.pushNamed(context, HomeModule.ROUTE_HOME);
@@ -85,6 +90,104 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                 ),
               ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_PROGRAMS);
+                },
+                child: ListTile(
+                  title: Text("Programs",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.satellite,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_MEDITATION);
+                },
+                child: ListTile(
+                  title: Text("Meditation",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.spa,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_LESSON);
+                },
+                child: ListTile(
+                  title: Text("Lesson",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.book,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_EVENT_AND_NEWS);
+                },
+                child: ListTile(
+                  title: Text("Events & News",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.fiber_new,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_CONSULTING);
+                },
+                child: ListTile(
+                  title: Text("Consulting",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.question_answer,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, HomeModule.ROUTE_NOTIFICATION);
+                },
+                child: ListTile(
+                  title: Text("Notification",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.notifications,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+
+
             ],
           ),
         ),

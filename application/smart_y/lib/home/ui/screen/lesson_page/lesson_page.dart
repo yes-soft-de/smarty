@@ -8,13 +8,13 @@ import 'package:smarty/utils/logger/logger.dart';
 
 @provide
 class LessonPage extends StatefulWidget {
-  final int lessonId;
+
   final String tag = "LessonPage";
 
   final LessonPageBloc _lessonPageBloc;
   final Logger _logger;
 
-  LessonPage(this.lessonId,this._lessonPageBloc,this._logger);
+  LessonPage(this._lessonPageBloc,this._logger);
 
   @override
   _LessonPageState createState() => _LessonPageState();
@@ -22,7 +22,7 @@ class LessonPage extends StatefulWidget {
 
 class _LessonPageState extends State<LessonPage> {
   int currentState = LessonPageBloc.STATUS_CODE_INIT;
-  Lesson lesson;
+  Lesson lesson = new Lesson(id: 1,content: 'the content of the lesson',title: 'lesson title',duration: 20);
 
   @override
   Widget build(BuildContext context) {
@@ -39,8 +39,13 @@ class _LessonPageState extends State<LessonPage> {
    switch(currentState){
      case LessonPageBloc.STATUS_CODE_INIT: {
        widget._logger.info(widget.tag, "Lesson Page Started");
-       widget._lessonPageBloc.getLesson(widget.lessonId);
-       break;
+       // real data
+       //widget._lessonPageBloc.getLesson(1);
+       //  break;
+
+       //with fake data
+       return getPageLayout();
+
      }
      case LessonPageBloc.STATUS_CODE_FETCHING_DATA: {
        widget._logger.info(widget.tag, "Fetching data from the server");
@@ -86,99 +91,120 @@ class _LessonPageState extends State<LessonPage> {
                 width: 30.0,
               ),
               onPressed: () {
-
+                Navigator.pop(context);
               },
 
             );
           },
         ),
-        title: Text('Introduce'),
-      ),
-      body: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Image(
-              image: AssetImage('assets/course_image.png'),
-              width: MediaQuery.of(context).size.width,
-            ),
-            Container(
-              padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: <Widget>[
-                  Text('What is it?')
-                ],
-              ),
-            ),
-            Container(
-              padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 10),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: <Widget>[
-                  Text(lesson.title,
-                    style: TextStyle(
-                      color: Color(0xff5E239D),
-                      fontSize: 10.0,
-                    ),
-                  )
-                ],
-              ),
-            ),
-            Container(
-              width: MediaQuery.of(context).size.width*0.98,
-              padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 10),
-
-              child:   Text(lesson.content,
-              ),
-
-            ),
-
-            Container(
-              height:3,
-              width: MediaQuery.of(context).size.width*0.94,
-              color: Colors.black87,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                FlatButton(
-                  onPressed: (){},
-                  child: Text('<< Previous chapter' ,
-                    style: TextStyle(
-                      fontSize: 11,
-                    ),
-                  ),
-
-                ),
-                Container(
-
-                  height: 30,
-                  width: 2,
-                  color: Colors.black54,
-
-                ),
-                FlatButton(
-                  onPressed: (){},
-                  child: Text('Next chapter >>',
-                    style: TextStyle(
-                      fontSize: 11,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-
-            Container(
-              padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
-              height:3,
-              color: Colors.black54,
-            ),
-
-          ],
+        title: Text(
+          'Introduce',
+          style: TextStyle(
+            color: Colors.white
+          ),
         ),
       ),
+      body: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Image(
+                  image: AssetImage('assets/course_image.png'),
+                  width: MediaQuery.of(context).size.width,
+                ),
+                Container(
+                  padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: <Widget>[
+                      Text('What is it?')
+                    ],
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 10),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: <Widget>[
+                      Text(lesson.title,
+                        style: TextStyle(
+                          color: Color(0xff5E239D),
+                          fontSize: 10.0,
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+                Container(
+                  width: MediaQuery.of(context).size.width*0.98,
+                  padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 10),
 
+                  child:   Text(lesson.content,
+                  ),
+
+                ),
+//                Container(
+//                  height:3,
+//                  width: MediaQuery.of(context).size.width*0.94,
+//                  color: Colors.black87,
+//                ),
+//                Row(
+//                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//                  children: <Widget>[
+//                    FlatButton(
+//                      onPressed: (){},
+//                      child: Text('<< Previous chapter' ,
+//                        style: TextStyle(
+//                          fontSize: 11,
+//                        ),
+//                      ),
+//
+//                    ),
+//                    Container(
+//
+//                      height: 30,
+//                      width: 2,
+//                      color: Colors.black54,
+//
+//                    ),
+//                    FlatButton(
+//                      onPressed: (){},
+//                      child: Text('Next chapter >>',
+//                        style: TextStyle(
+//                          fontSize: 11,
+//                        ),
+//                      ),
+//                    ),
+//                  ],
+//                ),
+//                Container(
+//                  padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
+//                  height:3,
+//                  color: Colors.black54,
+//                ),
+
+
+
+
+
+              ],
+            ),
+          ),
+
+bottomNavigationBar: BottomNavigationBar(
+  items: const <BottomNavigationBarItem>[
+    BottomNavigationBarItem(
+      icon: Icon(Icons.skip_previous),
+      title: Text('Previous'),
+    ),
+    BottomNavigationBarItem(
+      icon: Icon(Icons.skip_next),
+      title: Text('Next chapter'),
+    ),
+
+  ],
+  selectedItemColor: Colors.black54,
+),
     );
   }
 }

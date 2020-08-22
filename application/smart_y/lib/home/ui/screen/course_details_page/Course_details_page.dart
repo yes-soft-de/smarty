@@ -123,7 +123,9 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Text('${_course.title}'),
+                    Container(
+                        width:MediaQuery.of(context).size.width*0.4,
+                        child: Text('${_course.title}')),
                     FlatButton(
                       onPressed: (){},
                       color: Color(0xff5E239D),

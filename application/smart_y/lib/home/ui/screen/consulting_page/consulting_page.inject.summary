@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/home/ui/screen/home_page/home_page.dart",
+  "asset": "asset:smarty/lib/home/ui/screen/consulting_page/consulting_page.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "HomePage",
+        "name": "ConsultingPage",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/home/ui/screen/home_page/home_page.dart#HomePage",
+              "root": "asset:smarty/lib/home/ui/screen/consulting_page/consulting_page.dart#ConsultingPage",
               "qualifier": null
             },
             "isProvider": false

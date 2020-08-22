@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/home/ui/screen/home_page/home_page.dart",
+  "asset": "asset:smarty/lib/home/ui/screen/notification_page/notification_page.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "HomePage",
+        "name": "NotificationPage",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/home/ui/screen/home_page/home_page.dart#HomePage",
+              "root": "asset:smarty/lib/home/ui/screen/notification_page/notification_page.dart#NotificationPage",
               "qualifier": null
             },
             "isProvider": false
