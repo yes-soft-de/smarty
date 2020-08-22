@@ -1,35 +1,4 @@
 class CourseResponse {
-  Data data;
-  List<Null> headers;
-  int status;
-
-  CourseResponse({this.data, this.headers, this.status});
-
-  CourseResponse.fromJson(Map<String, dynamic> json) {
-    data = json['data'] != null ? new Data.fromJson(json['data']) : null;
-    if (json['headers'] != null) {
-      headers = new List<Null>();
-      json['headers'].forEach((v) {
-        headers.add(new Null.fromJson(v));
-      });
-    }
-    status = json['status'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.data != null) {
-      data['data'] = this.data.toJson();
-    }
-    if (this.headers != null) {
-      data['headers'] = this.headers.map((v) => v.toJson()).toList();
-    }
-    data['status'] = this.status;
-    return data;
-  }
-}
-
-class Data {
   int id;
   String name;
   int dateCreated;
@@ -46,7 +15,7 @@ class Data {
   Instructor instructor;
   int menuOrder;
 
-  Data(
+  CourseResponse(
       {this.id,
         this.name,
         this.dateCreated,
@@ -63,7 +32,7 @@ class Data {
         this.instructor,
         this.menuOrder});
 
-  Data.fromJson(Map<String, dynamic> json) {
+  CourseResponse.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     name = json['name'];
     dateCreated = json['date_created'];
