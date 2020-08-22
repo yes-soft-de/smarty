@@ -234,6 +234,10 @@ class LoginPageState extends State<LoginPage> {
   }
 
   login() {
-    widget._loginPageBloc.login(/*_userName, _password*/'Test@Test.com','Test');
+
+//    widget._loginPageBloc.login(/*_userName, _password*/'Test@Test.com','Test');
+    Future.delayed(Duration(milliseconds: 100), () {
+      Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);
+    });
   }
 }

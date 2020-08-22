@@ -187,7 +187,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                   SizedBox(width: MediaQuery.of(context).size.width*0.07,),
                   Container(
                     width: MediaQuery.of(context).size.width*0.9,
-                    child: Text('${_course.content}',
+                    child: Text('',
 
                     ),
                   ),

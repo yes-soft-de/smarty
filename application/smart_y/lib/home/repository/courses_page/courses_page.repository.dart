@@ -16,7 +16,7 @@ class CoursesRepository {
     String token = await this._preferencesHelper.getToken();
 
     List<Map<String, dynamic>> response = await _httpClient
-        .get(ApiUrls.CoursesApi, {}, {'Authorization': 'Bearer $token'});
+        .get(ApiUrls.CoursesApi, {}, {/*'Authorization': 'Bearer $token'*/});
 
     // If no Response, return Null
     if (response == null) return null;
@@ -24,7 +24,7 @@ class CoursesRepository {
     // Decode the data
     List<CourseResponse> availableCourses = [];
     response.forEach((element) {
-      availableCourses.add(CourseResponse.fromJson(element));
+      availableCourses.add(CourseResponse.fromJson(element["data"]));
     });
 
     // Return the decoded response

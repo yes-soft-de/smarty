@@ -190,8 +190,8 @@ class _HomePageState extends State<HomePage> {
 
             CourseCardWidget(
               image: 'assets/yoga.jpg',
-              price: 50,
-              chapters: 42,
+              price: '50',
+              chapters: '42',
               name: 'Weekly progress',
               description: 'Weekly progress on dieting',
             ),

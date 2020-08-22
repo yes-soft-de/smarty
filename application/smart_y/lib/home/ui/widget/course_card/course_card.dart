@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class CourseCardWidget extends StatelessWidget {
   final String image;
-  final int chapters;
-  final int price;
+  final String chapters;
+  final String price;
   final String name;
   final String description;
 
@@ -31,7 +31,7 @@ class CourseCardWidget extends StatelessWidget {
           children: <Widget>[
             Image(
               width: MediaQuery.of(context).size.width * 0.7,
-              image: AssetImage(image),
+              image: NetworkImage(image),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

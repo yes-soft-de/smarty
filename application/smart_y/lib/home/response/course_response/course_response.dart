@@ -1,19 +1,19 @@
 class CourseResponse {
-  int id;
-  String name;
-  int dateCreated;
-  String status;
-  String price;
-  String priceHtml;
-  int totalStudents;
-  String seats;
-  int startDate;
-  String averageRating;
-  String ratingCount;
-  String featuredImage;
+  var id;
+  var name;
+  var dateCreated;
+  var status;
+  var price;
+  var priceHtml;
+  var totalStudents;
+  var seats;
+  var startDate;
+  var averageRating;
+  var ratingCount;
+  var featuredImage;
   List<Categories> categories;
   Instructor instructor;
-  int menuOrder;
+  var menuOrder;
 
   CourseResponse(
       {this.id,
@@ -83,10 +83,10 @@ class CourseResponse {
 }
 
 class Categories {
-  int id;
-  String name;
-  String slug;
-  String image;
+  var id;
+  var name;
+  var slug;
+  var image;
 
   Categories({this.id, this.name, this.slug, this.image});
 
@@ -108,10 +108,10 @@ class Categories {
 }
 
 class Instructor {
-  String id;
-  String name;
-  String avatar;
-  String sub;
+  var id;
+  var name;
+  var avatar;
+  var sub;
 
   Instructor({this.id, this.name, this.avatar, this.sub});
 

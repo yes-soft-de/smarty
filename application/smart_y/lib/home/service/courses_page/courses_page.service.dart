@@ -23,7 +23,7 @@ class CoursesService {
     List<CourseModel> availableCourses = [];
     coursesResponse.forEach((course) {
       // TODO: Create a Course Model
-      availableCourses.add(CourseModel(id:course.id,title: course.title.rendered, content: course.excerpt.rendered));
+      availableCourses.add(CourseModel(id:course.id,title: course.name,price: course.price,image: course.featuredImage ));
     });
     return availableCourses;
   }
