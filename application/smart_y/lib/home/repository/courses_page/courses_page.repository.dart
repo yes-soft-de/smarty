@@ -13,18 +13,20 @@ class CoursesRepository {
   CoursesRepository(this._httpClient, this._preferencesHelper);
 
   Future<List<CourseResponse>> getCourses() async {
-    String token = await this._preferencesHelper.getToken();
+//    String token = await this._preferencesHelper.getToken();
 
     List<Map<String, dynamic>> response = await _httpClient
-        .get(ApiUrls.CoursesApi, {}, {'Authorization': 'Bearer $token'});
+        .get(ApiUrls.CoursesApi, {}, {/*'Authorization': 'Bearer $token'*/});
 
     // If no Response, return Null
     if (response == null) return null;
 
+
+    dynamic res = response[0]['courses'];
     // Decode the data
     List<CourseResponse> availableCourses = [];
-    response.forEach((element) {
-      availableCourses.add(CourseResponse.fromJson(element));
+    res.forEach((element) {
+      availableCourses.add(CourseResponse.fromJson(element["data"]));
     });
 
     // Return the decoded response

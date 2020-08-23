@@ -2,6 +2,7 @@
 
 import 'package:inject/inject.dart';
 import 'package:smarty/home/repository/course_details_page/course_details_page.repository.dart';
+import 'package:smarty/home/response/course_details_response/course_details_response.dart';
 import 'package:smarty/home/response/course_details_response/section_response.dart';
 
 @provide
@@ -11,7 +12,7 @@ class CourseDetailManager{
 
   CourseDetailManager(this._courseDetailsRepository);
 
-  Future<List<SectionResponse>> getCourseDetails(int courseId)async{
+  Future</*List<SectionResponse>*/CourseDetailsResponse> getCourseDetails(int courseId)async{
     return await this._courseDetailsRepository.getCourseDetails(courseId);
   }
 }

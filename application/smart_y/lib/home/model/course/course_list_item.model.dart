@@ -1,7 +1,10 @@
 class CourseModel {
-  int id;
-  String title;
-  String content;
+  var id;
+  var title;
+//  String content;
 
-  CourseModel({this.id,this.title, this.content});
+  var price;
+  var image;
+
+  CourseModel({this.id,this.title, this.price,this.image,});
 }

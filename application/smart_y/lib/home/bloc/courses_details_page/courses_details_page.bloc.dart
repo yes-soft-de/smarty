@@ -3,6 +3,7 @@
 import 'package:analyzer_plugin/utilities/pair.dart';
 import 'package:inject/inject.dart';
 import 'package:rxdart/rxdart.dart';
+import 'package:smarty/home/model/course_model/course_details.dart';
 import 'package:smarty/home/service/course_details_page/course_details_page.service.dart';
 
 import 'package:smarty/utils/logger/logger.dart';
@@ -21,9 +22,9 @@ class CourseDetailsBloc{
   Logger _logger;
 
   CourseDetailsBloc(this._logger,this._courseDetailsService);
-  PublishSubject<Pair<int, List<Section>>> _courseDetailsSubject = new PublishSubject();
+  PublishSubject<Pair<int,/* List<Section>*/CourseDetails>> _courseDetailsSubject = new PublishSubject();
 
-  Stream<Pair<int , List<Section>>> get courseDetailsStateObservable =>  _courseDetailsSubject.stream;
+  Stream<Pair<int , /*List<Section>*/CourseDetails>> get courseDetailsStateObservable =>  _courseDetailsSubject.stream;
 
   getCourseDetails(int courseId){
     _courseDetailsSubject.add(Pair(STATUS_CODE_FETCHING_DATA, null));

@@ -111,11 +111,11 @@ class _CoursesPageState extends State<CoursesPage> {
 
                     },
                     child: CourseCardWidget(
-                      image: 'assets/yoga.jpg',
-                      price: 50,
-                      chapters: 42,
-                      name: courses[index].title,
-                      description: courses[index].content,
+                      image: courses[index].image,
+                      price: courses[index].price.toString(),
+                      chapters: '42',
+                      name: courses[index].title.toString(),
+                      description: '',
                     ),
                   );
                 }),
