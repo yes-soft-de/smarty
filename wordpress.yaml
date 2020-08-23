@@ -1,0 +1,73 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: wordpress
+  name: wordpress
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wordpress
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: wordpress
+    spec:
+      containers:
+        - env:
+            - name: WORDPRESS_DB_HOST
+              value: wordpress-mysql
+            - name: WORDPRESS_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: password
+                  name: mysql
+          image: gcr.io/neural-sol-285619/github.com/aliomom/smarty-1
+          imagePullPolicy: Always
+          name: wordpresse
+          ports:
+            - containerPort: 8000
+              name: wordpress
+              protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  finalizers:
+    - service.kubernetes.io/load-balancer-cleanup
+  labels:
+    app: wordpress
+  name: wordpress
+  namespace: default
+spec:
+  clusterIP: 10.55.244.113
+  externalTrafficPolicy: Cluster
+  ports:
+    - nodePort: 32030
+      port: 80
+      protocol: TCP
+      targetPort: 80
+  selector:
+    app: wordpress
+  sessionAffinity: None
+  type: LoadBalancer
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: wordpress
+  name: wordpress-mysql
+  namespace: default
+spec:
+  clusterIP: None
+  ports:
+    - port: 3306
+      protocol: TCP
