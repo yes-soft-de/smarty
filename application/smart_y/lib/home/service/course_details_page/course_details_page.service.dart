@@ -1,4 +1,5 @@
 import 'package:inject/inject.dart';
+import 'package:smarty/home/filter/courrse_sections_filter/course_section_filter.dart';
 import 'package:smarty/home/manager/course_details/course_details.manager.dart';
 import 'package:smarty/home/model/course_model/course_details.dart';
 import 'package:smarty/home/model/lesson/lesson.dart';
@@ -24,7 +25,10 @@ class CourseDetailsService {
       return null;
     }
 
-    return new CourseDetails(name: courseDetails.course.name,price: courseDetails.course.price,description: courseDetails.description);
+    return new CourseDetails(name: courseDetails.course.name,
+      price: courseDetails.course.price,description: courseDetails.description,
+      sections: CourseSectionsFilter.getSections(courseDetails.curriculum)
+    );
 
 
 //    List<Section> courseSections = [];

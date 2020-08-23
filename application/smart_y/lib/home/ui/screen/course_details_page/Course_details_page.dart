@@ -171,7 +171,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                     ),
                   ),
                   VerticalDivider(width: 30,),
-                  Text('For 50 \$',
+                  Text('For ${_course.price} \$',
                     style: TextStyle(
                         fontSize: 12
                     ),
@@ -220,7 +220,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
               Divider(),
 
-//              sectionsColumn(sections),
+               sectionsColumn(courseDetails.sections),
 
 
 
@@ -354,7 +354,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
     List<Widget> list = new List<Widget>();
     for(var i = 0; i < sections.length; i++){
       list.add(new  Container(
-          height: MediaQuery.of(context).size.height*0.4,
+          height: MediaQuery.of(context).size.height*0.6,
           child:sections[i].lessons.length>0?
           CourseSectionLessons(sectionName: sections[i].title,lessons: sections[i].lessons,):
           Container(

@@ -29,8 +29,11 @@ class CourseSectionLessons extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
 
-                      Text(lessons[index].title,
-                        style: TextStyle(color: Colors.white),
+                      Container(
+                        width:MediaQuery.of(context).size.width*0.4,
+                        child: Text(lessons[index].title,
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                       Text('${lessons[index].duration} min',
                         style: TextStyle(color: Colors.white),
@@ -69,7 +72,10 @@ class CourseSectionLessons extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
                 SizedBox(width: MediaQuery.of(context).size.width*0.07,),
-                Text(sectionName),
+                Container(
+                    width: MediaQuery.of(context).size.width*0.8,
+                    child: Text(sectionName)
+                ),
               ],
             ),
           ),
