@@ -3,6 +3,7 @@ import 'package:inject/inject.dart';
 import 'package:smarty/home/bloc/courses_details_page/courses_details_page.bloc.dart';
 import 'package:smarty/home/bloc/courses_page/courses_page.bloc.dart';
 import 'package:smarty/home/model/course/course_list_item.model.dart';
+import 'package:smarty/home/model/course_model/course_details.dart';
 import 'package:smarty/home/model/lesson/lesson.dart';
 import 'package:smarty/home/model/section/secction.dart';
 import 'package:smarty/home/ui/widget/course_section_lessons/course_section_lessons.dart';
@@ -29,6 +30,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
   int currentState = CoursesPageBloc.STATUS_CODE_INIT;
   List<Section> sections;
+  CourseDetails courseDetails;
   CourseModel _course;
 
   //mockup data
@@ -43,7 +45,8 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
       currentState = stateChanged.first;
 
       if (currentState == CoursesPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
-        this.sections = stateChanged.last;
+//        this.sections = stateChanged.last;
+          this.courseDetails = stateChanged.last;
       }
 
       if(this.mounted){
@@ -114,7 +117,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Image(
-                image: AssetImage('assets/course_image.png'),
+                image: NetworkImage(_course.image),
                 width: MediaQuery.of(context).size.width,
               ),
               Container(
@@ -187,7 +190,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                   SizedBox(width: MediaQuery.of(context).size.width*0.07,),
                   Container(
                     width: MediaQuery.of(context).size.width*0.9,
-                    child: Text('',
+                    child: Text(courseDetails.description,
 
                     ),
                   ),
@@ -217,7 +220,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
               Divider(),
 
-              sectionsColumn(sections),
+//              sectionsColumn(sections),
 
 
 

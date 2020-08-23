@@ -1,5 +1,6 @@
 import 'package:inject/inject.dart';
 import 'package:smarty/ApiUrls.dart';
+import 'package:smarty/home/response/course_details_response/course_details_response.dart';
 import 'package:smarty/network/http_client/api_client.dart';
 import 'package:smarty/home/response/lesson_response/lesson_response.dart';
 import 'package:smarty/home/response/course_details_response/section_response.dart';
@@ -15,8 +16,24 @@ class CourseDetailsRepository{
 
    CourseDetailsRepository(this._httpClient,this._preferencesHelper);
 
-   Future<List<SectionResponse>> getCourseDetails(int courseId)async{
-      String token = await this._preferencesHelper.getToken();
+   Future<CourseDetailsResponse> getCourseDetails(int courseId)async{
+     dynamic response = await _httpClient.
+     get(ApiUrls.CoursesApi+'/$courseId',{},{});
+
+     // If no Response, return Null
+     if (response == null) return null;
+
+     dynamic res = response[0];
+     // Decode the data
+     CourseDetailsResponse courseDetails = CourseDetailsResponse.fromJson(res["data"]);
+
+     return courseDetails;
+   }
+
+ /*  Future<List<SectionResponse>> getCourseDetails(int courseId)async{
+
+
+     String token = await this._preferencesHelper.getToken();
 
       dynamic  response = await _httpClient
           .get(ApiUrls.SectionsApi, {'parent':'$courseId'}, {'Authorization': 'Bearer $token'});
@@ -72,5 +89,9 @@ class CourseDetailsRepository{
       // Return the decoded response
       return availableLessons;
    }
+*/
+
+
+
 
 }

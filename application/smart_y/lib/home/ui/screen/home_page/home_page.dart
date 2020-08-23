@@ -189,7 +189,7 @@ class _HomePageState extends State<HomePage> {
             ),
 
             CourseCardWidget(
-              image: 'assets/yoga.jpg',
+              image: 'https://wow-ae.com/wp-content/uploads/2014/02/img5-460x276.jpg',
               price: '50',
               chapters: '42',
               name: 'Weekly progress',
