@@ -25,6 +25,7 @@ class CoursesService {
       // TODO: Create a Course Model
       availableCourses.add(CourseModel(id:course.id,title: course.name,price: course.price,image: course.featuredImage ));
     });
+
     return availableCourses;
   }
 }
