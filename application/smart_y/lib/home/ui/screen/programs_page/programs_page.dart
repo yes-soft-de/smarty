@@ -10,7 +10,7 @@ final List<ProgramModel> programList = [
   ProgramModel(
   content:'It looks like you are on track. Please continue to follow your daily plan.' ,
   name:'Pre wellness' ,
-  date: new DateTime(2020,8,15),
+//  date: new DateTime(2020,8,15),
   participant:20 ,
   price:120,
   image:'assets/Bitmap2.png'
@@ -18,7 +18,7 @@ final List<ProgramModel> programList = [
   ProgramModel(
       content:'It looks like you are on track. Please continue to follow your daily plan.' ,
       name:'Pre wellness' ,
-      date: new DateTime(2020,8,30),
+//      date: new DateTime(2020,8,30),
       participant:20 ,
       price:120,
     image: 'assets/Bitmap2.png'
@@ -26,7 +26,7 @@ final List<ProgramModel> programList = [
   ProgramModel(
       content:'It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.' ,
       name:'Pre wellness' ,
-      date: new DateTime(2020,8,20),
+//      date: new DateTime(2020,8,20),
       participant:20 ,
       price:120,
       image:'assets/Bitmap2.png'
@@ -36,6 +36,7 @@ final List<ProgramModel> programList = [
 @provide
 class ProgramsPage extends StatefulWidget {
   final AppDrawerWidget _appDrawerWidget;
+
   ProgramsPage(this._appDrawerWidget);
 
   @override
@@ -45,8 +46,11 @@ class ProgramsPage extends StatefulWidget {
 class _ProgramsPageState extends State<ProgramsPage> {
   @override
   Widget build(BuildContext context) {
+
     return getPageLayout();
   }
+
+
 
   Widget getPageLayout(){
     return Scaffold(
@@ -163,7 +167,7 @@ class ProgramCardWidget extends StatelessWidget {
                           height: 10,
                         ),
                         Text(
-                            'It will be on ${item.date.day} of the month',
+                            'It will be on 12 of the month',
                             style: TextStyle(
                             color: Colors.white
                         ),
