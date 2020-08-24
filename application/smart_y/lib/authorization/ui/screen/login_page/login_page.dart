@@ -24,6 +24,10 @@ class LoginPage extends StatefulWidget {
 class LoginPageState extends State<LoginPage> {
   int currentState = LoginPageBloc.STATUS_CODE_INIT;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  final TextEditingController _usernameController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+
   bool _autoValidate = false;
 
   String _userName;
@@ -45,10 +49,9 @@ class LoginPageState extends State<LoginPage> {
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_SUCCESS) {
       // TODO: Move to Home using Navigator
       widget._logger.info(widget.tag, "AUTH SUCCESS");
-       Future.delayed(Duration(milliseconds: 100), () {
+      Future.delayed(Duration(milliseconds: 100), () {
         Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);
       });
-
     }
 
     if (currentState == LoginPageBloc.STATUS_CODE_AUTH_ERROR) {
@@ -114,6 +117,7 @@ class LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   new TextFormField(
+                    controller: _usernameController,
                     decoration: InputDecoration(
                         labelText: 'Email',
                         icon: Tab(
@@ -127,12 +131,10 @@ class LoginPageState extends State<LoginPage> {
                           ),
                         )),
                     keyboardType: TextInputType.text,
-             //       validator: validateName,
-                    onSaved: (String val) {
-                      _userName = val  ;
-                    },
+                    validator: (username) => _validateName(username),
                   ),
                   new TextFormField(
+                    controller: _passwordController,
                     obscureText: true,
                     decoration: InputDecoration(
                         labelText: 'Password',
@@ -147,17 +149,15 @@ class LoginPageState extends State<LoginPage> {
                           ),
                         )),
                     keyboardType: TextInputType.visiblePassword,
-                 //   validator: validatePassword,
-                    onSaved: (String val) {
-                      _password = val;
-                    },
+                    validator: (password) => _validatePassword(password),
                   ),
                   Container(
                     margin: EdgeInsets.fromLTRB(30, 30, 30, 0),
                     child: FlatButton(
                       padding: EdgeInsets.fromLTRB(0, 15, 0, 15),
-                      onPressed: _buttonsDisabled?null:()=> /*_validateInputsAndLogin()*/ login()
-                      ,
+                      onPressed: _buttonsDisabled
+                          ? null
+                          : () => /*_validateInputsAndLogin()*/ login(),
                       color: Color(0xffDCDCDE),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -208,36 +208,24 @@ class LoginPageState extends State<LoginPage> {
     );
   }
 
-  String validateName(String value) {
+  String _validateName(String value) {
     if (value.length < 1)
       return 'Name can\'t be empty ';
     else
       return null;
   }
 
-  String validatePassword(String value) {
+  String _validatePassword(String value) {
     if (value.length < 1)
       return 'Password can\'t be empty ';
     else
       return null;
   }
 
-  void _validateInputsAndLogin() {
+  void login() {
     if (_formKey.currentState.validate()) {
-      _formKey.currentState.save();
-      login();
-    } else {
-      setState(() {
-        _autoValidate = true;
-      });
+      widget._loginPageBloc.login(
+          _usernameController.text.trim(), _passwordController.text.trim());
     }
-  }
-
-  login() {
-
-//    widget._loginPageBloc.login(/*_userName, _password*/'Test@Test.com','Test');
-    Future.delayed(Duration(milliseconds: 2000), () {
-      Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);
-    });
   }
 }
