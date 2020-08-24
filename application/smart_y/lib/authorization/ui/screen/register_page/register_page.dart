@@ -156,7 +156,6 @@ class RegisterPageState extends State<RegisterPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-
                         Icon(
                           Icons.arrow_forward,
                           color: Colors.white,
@@ -238,20 +237,25 @@ class RegisterPageState extends State<RegisterPage> {
                   padding: EdgeInsetsDirectional.fromSTEB(7.5, 15, 0, 15),
                   onPressed: () {},
                   color: Color(0xffDCDCDE),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Text(
-                        'Next',
-                        style: TextStyle(
-                          color: Colors.white,
+                  child: GestureDetector(
+                    onTap: () {
+                      _signUp();
+                    },
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Text(
+                          'Next',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
                         ),
-                      ),
-                      Icon(
-                        Icons.arrow_forward,
-                        color: Colors.white,
-                      )
-                    ],
+                        Icon(
+                          Icons.arrow_forward,
+                          color: Colors.white,
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -298,10 +302,9 @@ class RegisterPageState extends State<RegisterPage> {
 
   _signUp() {
     RegisterRequest registerRequest = new RegisterRequest();
-    registerRequest.email = _emailController.text;
-    registerRequest.password = _passwordController.text;
-    registerRequest.userNicename = _nameController.text;
-    registerRequest.userLogin = _usernameController.text;
+    registerRequest.email = _emailController.text.trim();
+    registerRequest.password = _passwordController.text.trim();
+    registerRequest.username = _usernameController.text.trim();
     widget._registerService.register(registerRequest);
   }
 }

@@ -12,7 +12,6 @@ class RegisterRepository {
 
   Future<RegisterResponse> registerByCredentials(
       RegisterRequest registerRequest) async {
-    registerRequest.authKey = 'THISISMySpeCiaLAUthCode02';
     List<Map<String, dynamic>> apiResponse = await _apiClient.post(
       ApiUrls.registerApi,
       registerRequest.toJson(),

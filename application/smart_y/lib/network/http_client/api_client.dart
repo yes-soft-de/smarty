@@ -36,6 +36,7 @@ class ApiClient {
       String url, Map<String, dynamic> payLoad,
       [Map<String, String> queryMap, Map<String, String> headers]) async {
     this._logger.info(TAG, 'Requesting POST: ' + url);
+    this._logger.info(TAG, 'Request Payload: ' + jsonEncode(payLoad));
 
     try {
       Response response = await _dio.post<String>(url,

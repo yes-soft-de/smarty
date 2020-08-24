@@ -1,79 +1,85 @@
 class RegisterResponse {
-  bool success;
-  int id;
+  bool status;
   String message;
   User user;
+  Token token;
 
-  RegisterResponse({this.success, this.id, this.message, this.user});
+  RegisterResponse({this.status, this.message, this.user, this.token});
 
   RegisterResponse.fromJson(Map<String, dynamic> json) {
-    success = json['success'];
-    id = json['id'];
+    status = json['status'];
     message = json['message'];
     user = json['user'] != null ? new User.fromJson(json['user']) : null;
+    token = json['token'] != null ? new Token.fromJson(json['token']) : null;
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['success'] = this.success;
-    data['id'] = this.id;
+    data['status'] = this.status;
     data['message'] = this.message;
     if (this.user != null) {
       data['user'] = this.user.toJson();
+    }
+    if (this.token != null) {
+      data['token'] = this.token.toJson();
     }
     return data;
   }
 }
 
 class User {
-  String iD;
-  String userLogin;
-  String userNicename;
-  String userEmail;
-  String userUrl;
-  String userRegistered;
-  String userActivationKey;
-  String userStatus;
-  String displayName;
-  int userLevel;
+  int id;
+  String name;
+  String sub;
+  String email;
+  String avatar;
 
-  User(
-      {this.iD,
-        this.userLogin,
-        this.userNicename,
-        this.userEmail,
-        this.userUrl,
-        this.userRegistered,
-        this.userActivationKey,
-        this.userStatus,
-        this.displayName,
-        this.userLevel});
+  User({this.id, this.name, this.sub, this.email, this.avatar});
 
   User.fromJson(Map<String, dynamic> json) {
-    iD = json['ID'];
-    userLogin = json['user_login'];
-    userNicename = json['user_nicename'];
-    userEmail = json['user_email'];
-    userUrl = json['user_url'];
-    userRegistered = json['user_registered'];
-    userActivationKey = json['user_activation_key'];
-    userStatus = json['user_status'];
-    displayName = json['display_name'];
-    userLevel = json['user_level'];
+    id = json['id'];
+    name = json['name'];
+    sub = json['sub'];
+    email = json['email'];
+    avatar = json['avatar'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['ID'] = this.iD;
-    data['user_login'] = this.userLogin;
-    data['user_nicename'] = this.userNicename;
-    data['user_email'] = this.userEmail;
-    data['user_url'] = this.userUrl;
-    data['user_registered'] = this.userRegistered;
-    data['user_activation_key'] = this.userActivationKey;
-    data['user_status'] = this.userStatus;
-    data['display_name'] = this.displayName;
-    data['user_level'] = this.userLevel;
+    data['id'] = this.id;
+    data['name'] = this.name;
+    data['sub'] = this.sub;
+    data['email'] = this.email;
+    data['avatar'] = this.avatar;
+    return data;
+  }
+}
+
+class Token {
+  String accessToken;
+  String clientId;
+  int userId;
+  String expires;
+  String scope;
+
+  Token(
+      {this.accessToken, this.clientId, this.userId, this.expires, this.scope});
+
+  Token.fromJson(Map<String, dynamic> json) {
+    accessToken = json['access_token'];
+    clientId = json['client_id'];
+    userId = json['user_id'];
+    expires = json['expires'];
+    scope = json['scope'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['access_token'] = this.accessToken;
+    data['client_id'] = this.clientId;
+    data['user_id'] = this.userId;
+    data['expires'] = this.expires;
+    data['scope'] = this.scope;
     return data;
   }
 }

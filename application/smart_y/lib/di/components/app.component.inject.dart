@@ -45,10 +45,6 @@ import '../../authorization/ui/screen/register_page/register_page.dart' as _i36;
 import '../../authorization/service/register/register.dart' as _i37;
 import '../../authorization/manager/register/register.dart' as _i38;
 import '../../authorization/repository/register/register.dart' as _i39;
-import '../../authorization/manager/lifter_register_manager/lifter_register_manager.dart'
-    as _i40;
-import '../../authorization/repository/lifter_register/lifter_register_repository.dart'
-    as _i41;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -145,17 +141,11 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i37.RegisterService _createRegisterService() => _i37.RegisterService(
       _createLogger(),
       _createRegisterManager(),
-      _createSharedPreferencesHelper(),
-      _createLoginManager(),
-      _createLifterRegisterManager());
+      _createSharedPreferencesHelper());
   _i38.RegisterManager _createRegisterManager() =>
       _i38.RegisterManager(_createRegisterRepository());
   _i39.RegisterRepository _createRegisterRepository() =>
       _i39.RegisterRepository(_createApiClient());
-  _i40.LifterRegisterManager _createLifterRegisterManager() =>
-      _i40.LifterRegisterManager(_createLifterRegisterRepository());
-  _i41.LifterRegisterRepository _createLifterRegisterRepository() =>
-      _i41.LifterRegisterRepository(_createApiClient());
   @override
   _i7.MyApp get app => _createMyApp();
 }

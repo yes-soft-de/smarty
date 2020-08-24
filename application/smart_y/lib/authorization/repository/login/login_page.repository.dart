@@ -14,7 +14,7 @@ class LoginRepository {
   /// Return LoginResponse when Success, and Null otherwise
   Future<LoginResponse> login(LoginRequest loginRequest) async {
     List<Map<String, dynamic>> response =
-        await _httpClient.post(ApiUrls.authApi, loginRequest.toJson());
+        await _httpClient.post(ApiUrls.loginApi, loginRequest.toJson());
 
     if (response == null) {
       return null;
