@@ -6,6 +6,7 @@ class ApiUrls {
   //static const authApi = HomePageUrl + '?rest_route=/auth/v1/auth';
   static const authApi = BaseUrl+ 'user/signin';
   static const lifterKeysApi = BaseUrl + 'api-keys';
+  static const CourseApi = BaseUrl + "course";
   static const CoursesApi = BaseUrl + "course/category/71";
   static const ProgramsApi = BaseUrl + "course/category/72";
   static const SectionsApi = BaseUrl +"sections";

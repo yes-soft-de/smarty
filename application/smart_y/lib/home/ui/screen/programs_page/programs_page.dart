@@ -1,54 +1,122 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/home/bloc/programs_page/programs_page.bloc.dart';
 import 'package:smarty/home/model/program/program_model.dart';
 import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/home/ui/widget/loading_indicator/loading_indicator.dart';
 import 'package:smarty/home/ui/widget/smart_app_bar/smarty_app_bar.dart';
+import 'package:smarty/utils/logger/logger.dart';
 
 //fake data
-final List<ProgramModel> programList = [
-  ProgramModel(
-  content:'It looks like you are on track. Please continue to follow your daily plan.' ,
-  name:'Pre wellness' ,
-//  date: new DateTime(2020,8,15),
-  participant:20 ,
-  price:120,
-  image:'assets/Bitmap2.png'
-  ),
-  ProgramModel(
-      content:'It looks like you are on track. Please continue to follow your daily plan.' ,
-      name:'Pre wellness' ,
-//      date: new DateTime(2020,8,30),
-      participant:20 ,
-      price:120,
-    image: 'assets/Bitmap2.png'
-  ),
-  ProgramModel(
-      content:'It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.' ,
-      name:'Pre wellness' ,
-//      date: new DateTime(2020,8,20),
-      participant:20 ,
-      price:120,
-      image:'assets/Bitmap2.png'
-  ),
-];
+//final List<ProgramModel> programList = [
+//  ProgramModel(
+//  content:'It looks like you are on track. Please continue to follow your daily plan.' ,
+//  name:'Pre wellness' ,
+////  date: new DateTime(2020,8,15),
+//  participant:20 ,
+//  price:120,
+//  image:'assets/Bitmap2.png'
+//  ),
+//  ProgramModel(
+//      content:'It looks like you are on track. Please continue to follow your daily plan.' ,
+//      name:'Pre wellness' ,
+////      date: new DateTime(2020,8,30),
+//      participant:20 ,
+//      price:120,
+//    image: 'assets/Bitmap2.png'
+//  ),
+//  ProgramModel(
+//      content:'It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.' ,
+//      name:'Pre wellness' ,
+////      date: new DateTime(2020,8,20),
+//      participant:20 ,
+//      price:120,
+//      image:'assets/Bitmap2.png'
+//  ),
+//];
+
+List<Widget> imageSliders;
 
 @provide
 class ProgramsPage extends StatefulWidget {
+  final String tag = "ProgramsPage";
+
+  final ProgramsPageBloc _programsPageBloc;
+  final Logger _logger;
   final AppDrawerWidget _appDrawerWidget;
 
-  ProgramsPage(this._appDrawerWidget);
+  ProgramsPage(this._appDrawerWidget,this._programsPageBloc,this._logger);
 
   @override
   _ProgramsPageState createState() => _ProgramsPageState();
 }
 
 class _ProgramsPageState extends State<ProgramsPage> {
+  int currentState = ProgramsPageBloc.STATUS_CODE_INIT;
+  List<ProgramModel> programs;
+
+
   @override
   Widget build(BuildContext context) {
+    widget._programsPageBloc.programsStateObservable.listen((stateChanged) {
+      currentState = stateChanged.first;
 
-    return getPageLayout();
+      if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
+        this.programs = stateChanged.last;
+      }
+
+      setState(() {});
+    });
+
+    switch(currentState){
+      case ProgramsPageBloc.STATUS_CODE_INIT: {
+        widget._logger.info(widget.tag, "Programs Page Started");
+
+        widget._programsPageBloc.getPrograms();
+          break;
+
+
+
+      }
+      case ProgramsPageBloc.STATUS_CODE_FETCHING_DATA: {
+        widget._logger.info(widget.tag, "Fetching data from the server");
+        return LoadingIndicatorWidget();
+      }
+
+      case ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS: {
+        widget._logger.info(widget.tag, "Fetching data SUCCESS");
+
+          imageSliders = programs
+            .map((item) =>
+            ProgramCardWidget(item)
+        ).toList();
+
+        return getPageLayout();
+      }
+
+      case ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_ERROR: {
+        widget._logger.info(widget.tag, "Fetching data Error");
+        return Scaffold(
+            body: Center(
+              child: Text("Fetching data Error"),
+            ));
+      }
+      default:{
+        // Undefined State
+        widget._logger.error(widget.tag, "Undefined State");
+        return Scaffold(
+          body: Center(
+            child: Text("Undefined State?!!"),
+          ),
+        );
+      }
+
+    }
+    return Container();
   }
+
+
 
 
 
@@ -110,10 +178,7 @@ class ProgramSliderWidget extends StatelessWidget {
 }
 
 
-final List<Widget> imageSliders = programList
-    .map((item) =>
-   ProgramCardWidget(item)
-).toList();
+
 
 class ProgramCardWidget extends StatelessWidget {
   final ProgramModel item;

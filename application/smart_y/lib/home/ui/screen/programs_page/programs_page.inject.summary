@@ -25,6 +25,20 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/home/bloc/programs_page/programs_page.bloc.dart#ProgramsPageBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/utils/logger/logger.dart#Logger",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }

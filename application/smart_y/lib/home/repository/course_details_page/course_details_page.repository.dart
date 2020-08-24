@@ -18,7 +18,7 @@ class CourseDetailsRepository{
 
    Future<CourseDetailsResponse> getCourseDetails(int courseId)async{
      dynamic response = await _httpClient.
-     get(ApiUrls.CoursesApi+'/$courseId',{},{});
+     get(ApiUrls.CourseApi+'/$courseId',{},{});
 
      // If no Response, return Null
      if (response == null) return null;
