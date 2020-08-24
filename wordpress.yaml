@@ -29,35 +29,13 @@ spec:
                 secretKeyRef:
                   key: password
                   name: mysql
-          image: gcr.io/neural-sol-285619/github.com/aliomom/smarty-1
+          image: gcr.io/neural-sol-285619/github.com/yes-soft-de/smarty
           imagePullPolicy: Always
           name: wordpresse
           ports:
             - containerPort: 8000
               name: wordpress
               protocol: TCP
----
-apiVersion: v1
-kind: Service
-metadata:
-  finalizers:
-    - service.kubernetes.io/load-balancer-cleanup
-  labels:
-    app: wordpress
-  name: wordpress
-  namespace: default
-spec:
-  clusterIP: 10.55.244.113
-  externalTrafficPolicy: Cluster
-  ports:
-    - nodePort: 32030
-      port: 80
-      protocol: TCP
-      targetPort: 80
-  selector:
-    app: wordpress
-  sessionAffinity: None
-  type: LoadBalancer
 ---
 apiVersion: v1
 kind: Service
@@ -71,3 +49,30 @@ spec:
   ports:
     - port: 3306
       protocol: TCP
+      targetPort: 3306
+  selector:
+    app: wordpress
+  sessionAffinity: None
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  finalizers:
+    - service.kubernetes.io/load-balancer-cleanup
+  labels:
+    app: wordpress
+  name: wordpress
+  namespace: default
+spec:
+  clusterIP: 10.0.10.87
+  externalTrafficPolicy: Cluster
+  ports:
+    - nodePort: 30537
+      port: 80
+      protocol: TCP
+      targetPort: 80
+  selector:
+    app: wordpress
+  sessionAffinity: None
+  type: LoadBalancer
