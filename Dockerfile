@@ -4,4 +4,4 @@ RUN cd smarty
 WORKDIR site
 FROM wordpress 
 COPY --from=builder ./smarty/site/theme /var/www/html/wp-content/themes
-COPY --from=builder ./smarty/site/plugins /var/www/html/wp-content/pulgins
+COPY --from=builder ./smarty/site/plugins /var/www/html/wp-content/plugins
