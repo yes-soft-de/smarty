@@ -11,7 +11,11 @@ class ProgramsManager{
   ProgramsManager(this._programsRepository);
 
   Future<List<CourseDetailsResponse>> getPrograms() async{
-    return  await _programsRepository.getPrograms();
+    List<CourseDetailsResponse> programsResponse=
+        await this._programsRepository.getPrograms();
+
+
+    return  programsResponse;
   }
 
 }

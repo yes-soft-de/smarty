@@ -1,10 +1,10 @@
 class ProgramModel{
-  int participant;
-  int price;
+  var participant;
+  var price;
 //  DateTime date;
-  String content;
-  String name;
-  String image;
+  var content;
+  var name;
+  var image;
 
   ProgramModel({this.participant,this.price,/*this.date,*/this.content,this.name,this.image});
 }

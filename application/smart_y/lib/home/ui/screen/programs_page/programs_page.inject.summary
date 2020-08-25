@@ -21,14 +21,14 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
+                "root": "asset:smarty/lib/home/bloc/programs_page/programs_page.bloc.dart#ProgramsPageBloc",
                 "qualifier": null
               },
               "isProvider": false
             },
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/bloc/programs_page/programs_page.bloc.dart#ProgramsPageBloc",
+                "root": "asset:smarty/lib/home/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
                 "qualifier": null
               },
               "isProvider": false

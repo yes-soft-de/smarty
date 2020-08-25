@@ -27,12 +27,16 @@ class ProgramsPageBloc{
       _programsSubject.stream;
 
   getPrograms(){
+
     _programsSubject.add(Pair(STATUS_CODE_FETCHING_DATA, null));
+
     _programsService.getPrograms().then((result) {
       if (result != null) {
+
         _programsSubject.add(Pair(STATUS_CODE_FETCHING_DATA_SUCCESS, result));
         _logger.info(tag, 'Data Fetched Correctly');
       } else {
+
         _programsSubject.add(Pair(STATUS_CODE_FETCHING_DATA_ERROR, null));
         _logger.error(tag, "Error Getting the Data");
       }

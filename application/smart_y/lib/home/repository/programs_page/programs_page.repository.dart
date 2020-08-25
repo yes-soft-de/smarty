@@ -10,38 +10,57 @@ class ProgramsRepository{
   ApiClient _httpClient;
   ProgramsRepository(this._httpClient);
 
-  Future<List<CourseDetailsResponse>> getPrograms() async{
-  dynamic response = _httpClient.get(ApiUrls.ProgramsApi,{},{});
+  Future<List<CourseDetailsResponse >> getPrograms() async{
+
+  dynamic response = await _httpClient
+      .get(ApiUrls.ProgramsApi,{},{});
+
 
   // If no Response, return Null
   if(response == null)
     return null;
+
   dynamic res = response[0]['courses'];
+
+
   // Decode the data
-  List<CourseDetailsResponse> availablePrograms = [];
-  res.forEach((element)async {
-    int programId = element["data"]["id"];
+  List<CourseDetailsResponse> availablePrograms = new List();
 
-    CourseDetailsResponse program = await getProgramWithDescription(programId);
-
-    availablePrograms.add(
-        program
-    );
-  });
+  for(int i=0; i<res.length; i++ ){
+    int programId =  res[i]["data"]["id"];
+    CourseDetailsResponse program = new CourseDetailsResponse();
+    program = await getProgramWithDescription(programId);
+    availablePrograms.add(program);
+  }
+//  res.forEach((element)async {
+//    int programId = element["data"]["id"];
+//    CourseDetailsResponse program = new CourseDetailsResponse();
+//     program = await getProgramWithDescription(programId);
+//
+//
+//    availablePrograms.add(
+//        program
+//    );
+//
+//  });
+  print('llll'+availablePrograms[0].course.name.toString());
 
   return availablePrograms;
   }
 
   Future<CourseDetailsResponse> getProgramWithDescription(int programId) async{
     dynamic response = await _httpClient.
-    get(ApiUrls.CoursesApi+'/$programId',{},{});
+    get(ApiUrls.CourseApi+'/$programId',{},{});
 
     // If no Response, return Null
     if (response == null) return null;
 
     dynamic res = response[0];
     // Decode the data
-    CourseDetailsResponse programDetails = CourseDetailsResponse.fromJson(res["data"]);
+    CourseDetailsResponse programDetails = new CourseDetailsResponse();
+     programDetails = CourseDetailsResponse.fromJson(res["data"]);
+
+
 
     return programDetails;
 

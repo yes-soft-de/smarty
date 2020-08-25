@@ -36,7 +36,7 @@ import 'package:smarty/utils/logger/logger.dart';
 //  ),
 //];
 
-List<Widget> imageSliders;
+List<Widget> imageSliders = [];
 
 @provide
 class ProgramsPage extends StatefulWidget {
@@ -46,7 +46,7 @@ class ProgramsPage extends StatefulWidget {
   final Logger _logger;
   final AppDrawerWidget _appDrawerWidget;
 
-  ProgramsPage(this._appDrawerWidget,this._programsPageBloc,this._logger);
+  ProgramsPage(this._programsPageBloc,this._appDrawerWidget,this._logger);
 
   @override
   _ProgramsPageState createState() => _ProgramsPageState();
@@ -64,57 +64,66 @@ class _ProgramsPageState extends State<ProgramsPage> {
 
       if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
         this.programs = stateChanged.last;
+
       }
 
-      setState(() {});
+      if(this.mounted){
+        setState(() {
+
+        });
+      }
+
     });
 
-    switch(currentState){
-      case ProgramsPageBloc.STATUS_CODE_INIT: {
-        widget._logger.info(widget.tag, "Programs Page Started");
+    if (currentState == ProgramsPageBloc.STATUS_CODE_INIT) {
+      widget._logger.info(widget.tag, "Programs Page Started");
 
-        widget._programsPageBloc.getPrograms();
-          break;
+      widget._programsPageBloc.getPrograms();
+    }
 
+    if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA) {
+      widget._logger.info(widget.tag, "Fetching data from the server");
+      return LoadingIndicatorWidget();
+    }
 
+    if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
+      widget._logger.info(widget.tag, "Fetching data SUCCESS");
 
-      }
-      case ProgramsPageBloc.STATUS_CODE_FETCHING_DATA: {
-        widget._logger.info(widget.tag, "Fetching data from the server");
-        return LoadingIndicatorWidget();
-      }
-
-      case ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS: {
-        widget._logger.info(widget.tag, "Fetching data SUCCESS");
-
-          imageSliders = programs
-            .map((item) =>
-            ProgramCardWidget(item)
-        ).toList();
-
-        return getPageLayout();
-      }
-
-      case ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_ERROR: {
-        widget._logger.info(widget.tag, "Fetching data Error");
-        return Scaffold(
-            body: Center(
-              child: Text("Fetching data Error"),
-            ));
-      }
-      default:{
-        // Undefined State
-        widget._logger.error(widget.tag, "Undefined State");
-        return Scaffold(
-          body: Center(
-            child: Text("Undefined State?!!"),
-          ),
-        );
-      }
+      imageSliders = programs
+          .map((item) =>
+          ProgramCardWidget(item)
+      ).toList();
+       return getPageLayout();
 
     }
-    return Container();
-  }
+
+    if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_ERROR) {
+      widget._logger.info(widget.tag, "Fetching data Error");
+      return Scaffold(
+          body: Center(
+            child: Flex(
+              direction: Axis.vertical,
+              children: <Widget>[
+                Text("Fetching data Error.."),
+                RaisedButton(
+                  child: Text('Refresh'),
+                  onPressed: () {
+                    widget._programsPageBloc.getPrograms();
+                  },
+                )
+              ],
+            ),
+          ));
+    }
+
+    // Undefined State
+    widget._logger.error(widget.tag, "Undefined State");
+    return Scaffold(
+      body: Center(
+        child: Text("Undefined State?!!"),
+      ),
+    );
+     }
 
 
 
@@ -193,7 +202,7 @@ class ProgramCardWidget extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(25.0)),
             child: Stack(
               children: <Widget>[
-                Image.asset(item.image, fit: BoxFit.cover, width: 1000.0),
+                Image.network(item.image, fit: BoxFit.cover, width: 1000.0),
                 Positioned(
                   left: 0.0,
                   right: 0.0,
@@ -255,12 +264,15 @@ class ProgramCardWidget extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                            children: [
-                             Text(
-                               item.name,
-                               style: TextStyle(
-                                   color: Colors.white,
-                                   fontSize: 15
+                             Container(
+                               width:MediaQuery.of(context).size.width*0.6,
+                               child: Text(
+                                 item.name,
+                                 style: TextStyle(
+                                     color: Colors.white,
+                                     fontSize: 15
 
+                                 ),
                                ),
                              ),
                            ],

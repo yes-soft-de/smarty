@@ -8,12 +8,16 @@ import 'package:smarty/home/response/course_details_response/course_details_resp
 class ProgramsService{
   ProgramsManager _programsManager;
 
+  ProgramsService(this._programsManager);
+
  Future<List<ProgramModel>> getPrograms() async{
+
    List<CourseDetailsResponse> programsResponse =
-       await _programsManager.getPrograms();
+       await this._programsManager.getPrograms();
 
    if(programsResponse == null )
      return null;
+
 
    List<ProgramModel> availablePrograms = [];
 
@@ -28,6 +32,7 @@ class ProgramsService{
        )
      );
    });
+
 
  return availablePrograms;
  }

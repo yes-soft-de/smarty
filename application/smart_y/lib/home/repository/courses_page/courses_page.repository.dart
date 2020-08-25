@@ -15,7 +15,7 @@ class CoursesRepository {
   Future<List<CourseResponse>> getCourses() async {
 //    String token = await this._preferencesHelper.getToken();
 
-    List<Map<String, dynamic>> response = await _httpClient
+    dynamic response = await _httpClient
         .get(ApiUrls.CoursesApi, {}, {/*'Authorization': 'Bearer $token'*/});
 
     // If no Response, return Null
