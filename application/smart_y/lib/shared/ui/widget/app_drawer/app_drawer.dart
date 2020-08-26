@@ -124,22 +124,22 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              FlatButton(
-                onPressed: (){
-                  Navigator.pushNamed(context, CourseModule.ROUTE_LESSON);
-                },
-                child: ListTile(
-                  title: Text("Lesson",
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
-                  ),
-                  trailing: Icon(
-                    Icons.book,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
+//              FlatButton(
+//                onPressed: (){
+//                  Navigator.pushNamed(context, CourseModule.ROUTE_LESSON);
+//                },
+//                child: ListTile(
+//                  title: Text("Lesson",
+//                    style: TextStyle(
+//                      color: Colors.white,
+//                    ),
+//                  ),
+//                  trailing: Icon(
+//                    Icons.book,
+//                    color: Colors.white,
+//                  ),
+//                ),
+//              ),
               FlatButton(
                 onPressed: (){
                   Navigator.pushNamed(context, HomeModule.ROUTE_EVENT_AND_NEWS);
