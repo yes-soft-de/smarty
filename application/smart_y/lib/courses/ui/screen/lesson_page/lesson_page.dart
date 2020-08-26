@@ -22,29 +22,36 @@ class LessonPage extends StatefulWidget {
 
 class _LessonPageState extends State<LessonPage> {
   int currentState = LessonPageBloc.STATUS_CODE_INIT;
-  Lesson lesson = new Lesson(id: 1,content: 'the content of the lesson',title: 'lesson title',duration: 20);
+  int _lesson_id;
+  Lesson _lesson = new Lesson();
 
   @override
   Widget build(BuildContext context) {
+    _lesson_id = ModalRoute.of(context).settings.arguments;
+
+
    widget._lessonPageBloc.lessonStateObservable.listen((stateChanged) {
      currentState = stateChanged.first;
 
      if (currentState == LessonPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
-       this.lesson = stateChanged.last;
+       this._lesson = stateChanged.last;
+
      }
 
-     setState(() {});
+     if(this.mounted){
+       setState(() {});
+     }
    });
 
    switch(currentState){
      case LessonPageBloc.STATUS_CODE_INIT: {
        widget._logger.info(widget.tag, "Lesson Page Started");
-       // real data
-       //widget._lessonPageBloc.getLesson(1);
-       //  break;
+//        real data
+       widget._lessonPageBloc.getLesson(_lesson_id);
+         break;
 
        //with fake data
-       return getPageLayout();
+//       return getPageLayout();
 
      }
      case LessonPageBloc.STATUS_CODE_FETCHING_DATA: {
@@ -64,16 +71,15 @@ class _LessonPageState extends State<LessonPage> {
              child: Text("Fetching data Error"),
            ));
      }
-     default:{
-       // Undefined State
-       widget._logger.error(widget.tag, "Undefined State");
-       return Scaffold(
-         body: Center(
-           child: Text("Undefined State?!!"),
-         ),
-       );
-     }
+
    }
+    // Undefined State
+    widget._logger.error(widget.tag, "Undefined State");
+    return Scaffold(
+      body: Center(
+        child: Text("Undefined State?!!"),
+      ),
+    );
   }
 
 
@@ -126,7 +132,7 @@ class _LessonPageState extends State<LessonPage> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
-                      Text(lesson.title,
+                      Text(_lesson.title,
                         style: TextStyle(
                           color: Color(0xff5E239D),
                           fontSize: 10.0,
@@ -139,7 +145,7 @@ class _LessonPageState extends State<LessonPage> {
                   width: MediaQuery.of(context).size.width*0.98,
                   padding: EdgeInsetsDirectional.fromSTEB(10, 0, 10, 10),
 
-                  child:   Text(lesson.content,
+                  child:   Text(_lesson.content,
                   ),
 
                 ),

@@ -18,7 +18,7 @@ class CourseDetailsResponse {
     course =
     json['course'] != null ? new Course.fromJson(json['course']) : null;
     description = json['description'];
-    if (json['curriculum'] != null) {
+    if (json['curriculum'] != null && json['curriculum'] != false) {
       curriculum = new List<Curriculum>();
       json['curriculum'].forEach((v) {
         curriculum.add(new Curriculum.fromJson(v));
