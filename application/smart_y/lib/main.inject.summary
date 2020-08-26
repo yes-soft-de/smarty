@@ -39,6 +39,13 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/programs/programs_module.dart#ProgramsModule",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }

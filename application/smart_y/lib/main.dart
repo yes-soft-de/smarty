@@ -7,6 +7,7 @@ import 'package:inject/inject.dart';
 import 'package:smarty/authorization/authorization_component.dart';
 import 'package:smarty/courses/course_module.dart';
 import 'package:smarty/home/home_module.dart';
+import 'package:smarty/programs/programs_module.dart';
 
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
@@ -32,8 +33,9 @@ class MyApp extends StatelessWidget {
   final HomeModule _homeModule;
   final AuthorizationModule _authorizationModule;
   final CourseModule _courseModule;
+  final ProgramsModule _programsModule;
 
-  MyApp(this._homeModule, this._authorizationModule,this._courseModule);
+  MyApp(this._homeModule, this._authorizationModule,this._courseModule,this._programsModule);
 
   @override
   Widget build(BuildContext context) {
@@ -42,6 +44,7 @@ class MyApp extends StatelessWidget {
     fullRoutesList.addAll(_homeModule.getRoutes());
     fullRoutesList.addAll(_authorizationModule.getRoutes());
     fullRoutesList.addAll(_courseModule.getRoutes());
+    fullRoutesList.addAll(_programsModule.getRoutes());
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[

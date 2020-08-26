@@ -51,6 +51,14 @@ import '../../courses/service/lesson_page/lesson_page.service.dart' as _i39;
 import '../../courses/manager/lesson/lesson.manager.dart' as _i40;
 import '../../courses/repository/lesson_page/lesson_page.repository.dart'
     as _i41;
+import '../../programs/programs_module.dart' as _i42;
+import '../../programs/ui/screen/programs_page/programs_page.dart' as _i43;
+import '../../programs/bloc/programs_page/programs_page.bloc.dart' as _i44;
+import '../../programs/service/programs_page/programs_page.service.dart'
+    as _i45;
+import '../../programs/manager/programs/programs.manager.dart' as _i46;
+import '../../programs/repository/programs_page/programs_page.repository.dart'
+    as _i47;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -70,7 +78,10 @@ class AppComponent$Injector implements _i1.AppComponent {
   }
 
   _i7.MyApp _createMyApp() => _i7.MyApp(
-      _createHomeModule(), _createAuthorizationModule(), _createCourseModule());
+      _createHomeModule(),
+      _createAuthorizationModule(),
+      _createCourseModule(),
+      _createProgramsModule());
   _i8.HomeModule _createHomeModule() => _i8.HomeModule(
       _createMeditationPage(),
       _createHomePage(),
@@ -154,6 +165,18 @@ class AppComponent$Injector implements _i1.AppComponent {
       _i40.LessonManager(_createLessonRepository());
   _i41.LessonRepository _createLessonRepository() => _i41.LessonRepository(
       _createApiClient(), _createSharedPreferencesHelper());
+  _i42.ProgramsModule _createProgramsModule() =>
+      _i42.ProgramsModule(_createProgramsPage());
+  _i43.ProgramsPage _createProgramsPage() => _i43.ProgramsPage(
+      _createProgramsPageBloc(), _createAppDrawerWidget(), _createLogger());
+  _i44.ProgramsPageBloc _createProgramsPageBloc() =>
+      _i44.ProgramsPageBloc(_createProgramsService(), _createLogger());
+  _i45.ProgramsService _createProgramsService() =>
+      _i45.ProgramsService(_createProgramsManager());
+  _i46.ProgramsManager _createProgramsManager() =>
+      _i46.ProgramsManager(_createProgramsRepository());
+  _i47.ProgramsRepository _createProgramsRepository() =>
+      _i47.ProgramsRepository(_createApiClient());
   @override
   _i7.MyApp get app => _createMyApp();
 }
