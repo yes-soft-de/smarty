@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
-import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
-import 'package:smarty/home/ui/widget/image_icon/image_icon.dart';
-import 'package:smarty/home/ui/widget/notification_row/notification_row.dart';
-import 'package:smarty/home/ui/widget/smart_app_bar/smarty_app_bar.dart';
+import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/shared/ui/widget/image_icon/image_icon.dart';
+import 'package:smarty/shared/ui/widget/notification_row/notification_row.dart';
+import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
 
 @provide
 class NotificationPage extends StatefulWidget {

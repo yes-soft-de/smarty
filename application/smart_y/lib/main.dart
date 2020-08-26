@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/authorization/authorization_component.dart';
+import 'package:smarty/courses/course_module.dart';
 import 'package:smarty/home/home_module.dart';
 
 import 'di/components/app.component.dart';
@@ -30,8 +31,9 @@ class MyApp extends StatelessWidget {
   // Modulation in Progress :)
   final HomeModule _homeModule;
   final AuthorizationModule _authorizationModule;
+  final CourseModule _courseModule;
 
-  MyApp(this._homeModule, this._authorizationModule);
+  MyApp(this._homeModule, this._authorizationModule,this._courseModule);
 
   @override
   Widget build(BuildContext context) {
@@ -39,6 +41,7 @@ class MyApp extends StatelessWidget {
 
     fullRoutesList.addAll(_homeModule.getRoutes());
     fullRoutesList.addAll(_authorizationModule.getRoutes());
+    fullRoutesList.addAll(_courseModule.getRoutes());
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[

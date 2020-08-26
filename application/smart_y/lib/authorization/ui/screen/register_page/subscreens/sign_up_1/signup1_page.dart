@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:smarty/home/ui/widget/text_field_with_image/text_field_with_image_icon.dart';
 import 'package:smarty/shared/ui/widget/logo_widget/logo.dart';
+import 'package:smarty/shared/ui/widget/text_field_with_image/text_field_with_image_icon.dart';
 
 class SignUp1Page extends StatefulWidget {
   @override

@@ -2,9 +2,9 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/home/model/meditation/meditation_suggestions.dart';
-import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
-import 'package:smarty/home/ui/widget/smart_app_bar/smarty_app_bar.dart';
-import 'package:smarty/home/ui/widget/video_card/video_card.dart';
+import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
+import 'package:smarty/shared/ui/widget/video_card/video_card.dart';
 
 //fake data
 final List<MeditationSuggestions> imgList = [

@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
+                "root": "asset:smarty/lib/shared/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
                 "qualifier": null
               },
               "isProvider": false

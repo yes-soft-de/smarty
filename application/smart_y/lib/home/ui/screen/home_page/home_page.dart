@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
-import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
-import 'package:smarty/home/ui/widget/article_card/article_card.dart';
-import 'package:smarty/home/ui/widget/course_card/course_card.dart';
-import 'package:smarty/home/ui/widget/event_card/event_card.dart';
-import 'package:smarty/home/ui/widget/image_icon/image_icon.dart';
-import 'package:smarty/home/ui/widget/offer_card/offer_card.dart';
-import 'package:smarty/home/ui/widget/smart_app_bar/smarty_app_bar.dart';
-import 'package:smarty/home/ui/widget/video_card/video_card.dart';
+import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/shared/ui/widget/article_card/article_card.dart';
+import 'package:smarty/shared/ui/widget/course_card/course_card.dart';
+import 'package:smarty/shared/ui/widget/event_card/event_card.dart';
+import 'package:smarty/shared/ui/widget/image_icon/image_icon.dart';
+import 'package:smarty/shared/ui/widget/offer_card/offer_card.dart';
+import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
+import 'package:smarty/shared/ui/widget/video_card/video_card.dart';
 
 @provide
 class HomePage extends StatefulWidget {

@@ -1,0 +1,41 @@
+{
+  "asset": "asset:smarty/lib/courses/bloc/courses_details_page/courses_details_page.bloc.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "CourseDetailsBloc",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:smarty/lib/courses/bloc/courses_details_page/courses_details_page.bloc.dart#CourseDetailsBloc",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/utils/logger/logger.dart#Logger",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/courses/service/course_details_page/course_details_page.service.dart#CourseDetailsService",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

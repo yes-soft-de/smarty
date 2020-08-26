@@ -1,0 +1,8 @@
+{
+  "asset": "asset:smarty/lib/programs/programs_module.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}
