@@ -9,6 +9,7 @@ class ApiUrls {
   static const CourseApi = BaseUrl + "course";
   static const CoursesApi = BaseUrl + "course/category/71";
   static const ProgramsApi = BaseUrl + "course/category/72";
+  static const MeditationsApi = BaseUrl + "course/category/113";
   static const SectionsApi = BaseUrl +"sections";
   static const LessonsApi =BaseUrl + "lessons";
 }

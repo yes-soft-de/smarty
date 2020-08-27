@@ -11,6 +11,7 @@ import 'package:smarty/programs/programs_module.dart';
 
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
+import 'meditation/Meditation_module.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,8 +35,12 @@ class MyApp extends StatelessWidget {
   final AuthorizationModule _authorizationModule;
   final CourseModule _courseModule;
   final ProgramsModule _programsModule;
+  final MeditationModule _meditationModule;
 
-  MyApp(this._homeModule, this._authorizationModule,this._courseModule,this._programsModule);
+  MyApp(this._homeModule, this._authorizationModule,
+      this._courseModule,this._programsModule,
+      this._meditationModule,
+      );
 
   @override
   Widget build(BuildContext context) {
@@ -45,6 +50,7 @@ class MyApp extends StatelessWidget {
     fullRoutesList.addAll(_authorizationModule.getRoutes());
     fullRoutesList.addAll(_courseModule.getRoutes());
     fullRoutesList.addAll(_programsModule.getRoutes());
+    fullRoutesList.addAll(_meditationModule.getRoutes());
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[

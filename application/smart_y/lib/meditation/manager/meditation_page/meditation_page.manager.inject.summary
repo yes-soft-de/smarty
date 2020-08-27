@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/home/ui/screen/meditation_page/meditation_page.dart",
+  "asset": "asset:smarty/lib/meditation/manager/meditation_page/meditation_page.manager.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "MeditationPage",
+        "name": "MeditationManager",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/home/ui/screen/meditation_page/meditation_page.dart#MeditationPage",
+              "root": "asset:smarty/lib/meditation/manager/meditation_page/meditation_page.manager.dart#MeditationManager",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/shared/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
+                "root": "asset:smarty/lib/meditation/repository/meditaion_page/meditation_page.repository.dart#MeditationRepository",
                 "qualifier": null
               },
               "isProvider": false

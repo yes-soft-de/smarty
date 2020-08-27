@@ -23,15 +23,15 @@ final List<MeditationSuggestions> imgList = [
 ];
 
 @provide
-class MeditationPage extends StatefulWidget {
+class MeditationDetailsPage extends StatefulWidget {
   final AppDrawerWidget _appDrawerWidget;
-  MeditationPage(this._appDrawerWidget);
+  MeditationDetailsPage(this._appDrawerWidget);
 
   @override
-  _MeditationPageState createState() => _MeditationPageState();
+  _MeditationDetailsPageState createState() => _MeditationDetailsPageState();
 }
 
-class _MeditationPageState extends State<MeditationPage> {
+class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

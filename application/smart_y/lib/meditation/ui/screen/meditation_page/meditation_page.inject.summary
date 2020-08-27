@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/home/home_module.dart",
+  "asset": "asset:smarty/lib/meditation/ui/screen/meditation_page/meditation_page.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "HomeModule",
+        "name": "MeditationPage",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/home/home_module.dart#HomeModule",
+              "root": "asset:smarty/lib/meditation/ui/screen/meditation_page/meditation_page.dart#MeditationPage",
               "qualifier": null
             },
             "isProvider": false
@@ -21,28 +21,21 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/home_page/home_page.dart#HomePage",
+                "root": "asset:smarty/lib/meditation/bloc/meditation_page/meditation_page.bloc.dart#MeditationPageBloc",
                 "qualifier": null
               },
               "isProvider": false
             },
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/news_and_events_page/news_and_evens_page.dart#NewsAndEventsPAge",
+                "root": "asset:smarty/lib/utils/logger/logger.dart#Logger",
                 "qualifier": null
               },
               "isProvider": false
             },
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/consulting_page/consulting_page.dart#ConsultingPage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/notification_page/notification_page.dart#NotificationPage",
+                "root": "asset:smarty/lib/shared/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
                 "qualifier": null
               },
               "isProvider": false

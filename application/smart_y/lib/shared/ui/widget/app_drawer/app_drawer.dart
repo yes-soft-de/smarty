@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/courses/course_module.dart';
 import 'package:smarty/home/home_module.dart';
+import 'package:smarty/meditation/Meditation_module.dart';
 import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 import 'package:smarty/programs/programs_module.dart';
 
@@ -110,7 +111,7 @@ class AppDrawerWidget extends StatelessWidget {
               ),
               FlatButton(
                 onPressed: (){
-                  Navigator.pushNamed(context, HomeModule.ROUTE_MEDITATION);
+                  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION);
                 },
                 child: ListTile(
                   title: Text("Meditation",

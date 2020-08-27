@@ -46,6 +46,13 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/meditation/Meditation_module.dart#MeditationModule",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }
