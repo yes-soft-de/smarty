@@ -59,18 +59,26 @@ import '../../programs/manager/programs/programs.manager.dart' as _i45;
 import '../../programs/repository/programs_page/programs_page.repository.dart'
     as _i46;
 import '../../meditation/Meditation_module.dart' as _i47;
-import '../../meditation/ui/screen/meditation_details_page/meditation_page.dart'
+import '../../meditation/ui/screen/meditation_details_page/meditation_details_page.dart'
     as _i48;
-import '../../meditation/ui/screen/meditation_page/meditation_page.dart'
+import '../../meditation/bloc/meditation_details_page/meditation_details_page.bloc.dart'
     as _i49;
-import '../../meditation/bloc/meditation_page/meditation_page.bloc.dart'
+import '../../meditation/service/meditation_details_page/meditation_details_page.service.dart'
     as _i50;
-import '../../meditation/service/meditation_Page/meditation_page_service.dart'
+import '../../meditation/manager/meditation_details_page/meditation_details_page.manager.dart'
     as _i51;
-import '../../meditation/manager/meditation_page/meditation_page.manager.dart'
+import '../../meditation/repository/meditation_details_page/meditation_details_page.repository.dart'
     as _i52;
-import '../../meditation/repository/meditaion_page/meditation_page.repository.dart'
+import '../../meditation/ui/screen/meditation_page/meditation_page.dart'
     as _i53;
+import '../../meditation/bloc/meditation_page/meditation_page.bloc.dart'
+    as _i54;
+import '../../meditation/service/meditation_Page/meditation_page_service.dart'
+    as _i55;
+import '../../meditation/manager/meditation_page/meditation_page.manager.dart'
+    as _i56;
+import '../../meditation/repository/meditaion_page/meditation_page.repository.dart'
+    as _i57;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -190,17 +198,28 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i47.MeditationModule _createMeditationModule() => _i47.MeditationModule(
       _createMeditationDetailsPage(), _createMeditationPage());
   _i48.MeditationDetailsPage _createMeditationDetailsPage() =>
-      _i48.MeditationDetailsPage(_createAppDrawerWidget());
-  _i49.MeditationPage _createMeditationPage() => _i49.MeditationPage(
+      _i48.MeditationDetailsPage(_createAppDrawerWidget(),
+          _createMeditationDetailsBloc(), _createLogger());
+  _i49.MeditationDetailsBloc _createMeditationDetailsBloc() =>
+      _i49.MeditationDetailsBloc(
+          _createLogger(), _createMeditationDetailsService());
+  _i50.MeditationDetailsService _createMeditationDetailsService() =>
+      _i50.MeditationDetailsService(_createMeditationDetailManager());
+  _i51.MeditationDetailManager _createMeditationDetailManager() =>
+      _i51.MeditationDetailManager(_createMeditationDetailsRepository());
+  _i52.MeditationDetailsRepository _createMeditationDetailsRepository() =>
+      _i52.MeditationDetailsRepository(
+          _createApiClient(), _createSharedPreferencesHelper());
+  _i53.MeditationPage _createMeditationPage() => _i53.MeditationPage(
       _createMeditationPageBloc(), _createLogger(), _createAppDrawerWidget());
-  _i50.MeditationPageBloc _createMeditationPageBloc() =>
-      _i50.MeditationPageBloc(_createMeditationService(), _createLogger());
-  _i51.MeditationService _createMeditationService() =>
-      _i51.MeditationService(_createMeditationManager());
-  _i52.MeditationManager _createMeditationManager() =>
-      _i52.MeditationManager(_createMeditationRepository());
-  _i53.MeditationRepository _createMeditationRepository() =>
-      _i53.MeditationRepository(_createApiClient());
+  _i54.MeditationPageBloc _createMeditationPageBloc() =>
+      _i54.MeditationPageBloc(_createMeditationService(), _createLogger());
+  _i55.MeditationService _createMeditationService() =>
+      _i55.MeditationService(_createMeditationManager());
+  _i56.MeditationManager _createMeditationManager() =>
+      _i56.MeditationManager(_createMeditationRepository());
+  _i57.MeditationRepository _createMeditationRepository() =>
+      _i57.MeditationRepository(_createApiClient());
   @override
   _i7.MyApp get app => _createMyApp();
 }

@@ -109,7 +109,7 @@ class _MeditationPageState extends State<MeditationPage> {
                   return FlatButton(
                     onPressed: (){
                       print('${meditations[index].id}');
-                      Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_DETAILS,arguments: meditations[index]);
+                      Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_DETAILS,arguments: meditations[index].id);
 
                     },
                     child: CourseCardWidget(

@@ -1,7 +1,7 @@
 
 import 'package:inject/inject.dart';
 import 'package:smarty/abstracts/module.dart';
-import 'package:smarty/meditation/ui/screen/meditation_details_page/meditation_page.dart';
+import 'package:smarty/meditation/ui/screen/meditation_details_page/meditation_details_page.dart';
 import 'package:smarty/meditation/ui/screen/meditation_page/meditation_page.dart';
 
 
