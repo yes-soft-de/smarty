@@ -40,7 +40,7 @@ class LoginService {
       String email, String password) async {
     this._logger.info(TAG, 'Requesting Login');
     LoginResponse loginResponse = await _loginManager
-        .login(LoginRequest(email: email, password: password));
+        .login(LoginRequest(username: email, password: password));
 
     if (loginResponse == null) return null;
 

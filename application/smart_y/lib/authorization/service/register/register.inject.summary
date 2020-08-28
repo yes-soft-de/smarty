@@ -39,20 +39,6 @@
                 "qualifier": null
               },
               "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/authorization/manager/login/login.manager.dart#LoginManager",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/authorization/manager/lifter_register_manager/lifter_register_manager.dart#LifterRegisterManager",
-                "qualifier": null
-              },
-              "isProvider": false
             }
           ]
         }

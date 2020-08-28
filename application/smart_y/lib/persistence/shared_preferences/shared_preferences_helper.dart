@@ -38,7 +38,7 @@ class SharedPreferencesHelper {
     return _sharedPreferences.setString(_KEY_PASSWORD, password);
   }
 
-  String getUserEmail()  {
+  Future<String> getUserEmail() async {
     return _sharedPreferences.getString(_KEY_EMAIL);
   }
 
