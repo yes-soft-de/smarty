@@ -5,10 +5,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/authorization/authorization_component.dart';
+import 'package:smarty/courses/course_module.dart';
 import 'package:smarty/home/home_module.dart';
+import 'package:smarty/programs/programs_module.dart';
 
 import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
+import 'meditation/Meditation_module.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,8 +33,14 @@ class MyApp extends StatelessWidget {
   // Modulation in Progress :)
   final HomeModule _homeModule;
   final AuthorizationModule _authorizationModule;
+  final CourseModule _courseModule;
+  final ProgramsModule _programsModule;
+  final MeditationModule _meditationModule;
 
-  MyApp(this._homeModule, this._authorizationModule);
+  MyApp(this._homeModule, this._authorizationModule,
+      this._courseModule,this._programsModule,
+      this._meditationModule,
+      );
 
   @override
   Widget build(BuildContext context) {
@@ -39,6 +48,9 @@ class MyApp extends StatelessWidget {
 
     fullRoutesList.addAll(_homeModule.getRoutes());
     fullRoutesList.addAll(_authorizationModule.getRoutes());
+    fullRoutesList.addAll(_courseModule.getRoutes());
+    fullRoutesList.addAll(_programsModule.getRoutes());
+    fullRoutesList.addAll(_meditationModule.getRoutes());
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[

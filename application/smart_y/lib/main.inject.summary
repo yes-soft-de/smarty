@@ -32,6 +32,27 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/courses/course_module.dart#CourseModule",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/programs/programs_module.dart#ProgramsModule",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/meditation/Meditation_module.dart#MeditationModule",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }

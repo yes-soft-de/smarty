@@ -21,42 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/meditation_page/meditation_page.dart#MeditationPage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
                 "root": "asset:smarty/lib/home/ui/screen/home_page/home_page.dart#HomePage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/courses_page/courses_page.dart#CoursesPage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/course_details_page/Course_details_page.dart#CourseDetailPage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/lesson_page/lesson_page.dart#LessonPage",
-                "qualifier": null
-              },
-              "isProvider": false
-            },
-            {
-              "lookupKey": {
-                "root": "asset:smarty/lib/home/ui/screen/programs_page/programs_page.dart#ProgramsPage",
                 "qualifier": null
               },
               "isProvider": false

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
-import 'package:smarty/home/ui/widget/app_drawer/app_drawer.dart';
-import 'package:smarty/home/ui/widget/smart_app_bar/smarty_app_bar.dart';
+import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
 
 @provide
 class ConsultingPage extends StatefulWidget {

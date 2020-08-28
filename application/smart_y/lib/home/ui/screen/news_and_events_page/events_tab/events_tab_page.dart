@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:smarty/home/ui/widget/events_tab_card/events_tab_card.dart';
-import 'package:smarty/home/ui/widget/events_tab_card2/events_tab_card2.dart';
+import 'package:smarty/shared/ui/widget/events_tab_card/events_tab_card.dart';
+import 'package:smarty/shared/ui/widget/events_tab_card2/events_tab_card2.dart';
 
 class EventsTabPage extends StatefulWidget {
   @override
