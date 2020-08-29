@@ -233,7 +233,7 @@ class ProgramCardWidget extends StatelessWidget {
                                     color: Colors.white
                                 ),
                                 Text(
-                                    '${item.participant} member',
+                                    '${(item.participant==false)?0:item.participant} member',
                                   style: TextStyle(
                                       color: Colors.white
                                   ),
@@ -241,7 +241,7 @@ class ProgramCardWidget extends StatelessWidget {
                               ],
                             ),
                             Text(
-                              '\$${item.price}',
+                              '\$${(item.price==false)?0:item.price}',
                               style: TextStyle(
                                   color: Colors.white
                               ),

@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[
-          observer
+//          observer
         ],
         localizationsDelegates: [
           S.delegate,

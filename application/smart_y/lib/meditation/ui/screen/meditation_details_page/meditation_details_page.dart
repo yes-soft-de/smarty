@@ -129,62 +129,61 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
                   ),
                 ],
               ),
-              Text(
-                '${_meditationDetails.audiosNumber} Audios',
-                style: TextStyle(color: Colors.black87, fontSize: 12),
-              ),
+
               Container(
                 padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text('${_meditationDetails.description}'),
               ),
               Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        Row(
-                          children: <Widget>[
-                            IconButton(
-                                onPressed: () {}, icon: Icon(Icons.settings)),
-                            Text('Settings')
-                          ],
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                      IconButton(
+                          onPressed: (){}
+                          , icon: Icon(Icons.settings)),
+                      Text('Settings')
+                    ],
+                  ),
+                  Text(
+                    'Edit',
+                    style: TextStyle(color: Color(0xff5E239D)),
+                  ),
+                ],
+              ),
+
+              Container(
+                height: MediaQuery.of(context).size.height * 0.3,
+                child: ListView.builder(
+                    itemCount: _meditationDetails.audios.length,
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
+                    itemBuilder: (BuildContext context, int index) {
+                      return (index == 0)
+                          ? Container(
+
+                        child: VideoCardWidget(
+                          playerService: widget._playerService,
+                          track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                          color: Color(0xff3dd598),
+                          backgroundColor: Color(0xff286053),
+                          text: 'Mindfulness',
+                          image: 'assets/Rectangle 2.png',
+                          isPaid: false,
                         ),
-                        Text(
-                          'Edit',
-                          style: TextStyle(color: Color(0xff5E239D)),
-                        ),
-                      ],
-                    ),
-                    Container(
-                      height: MediaQuery.of(context).size.height * 0.3,
-                      child: ListView.builder(
-                          itemCount: _meditationDetails.audios.length,
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
-                          itemBuilder: (BuildContext context, int index) {
-                            return (index == 0)
-                                ? VideoCardWidget(
-                                    playerService: widget._playerService,
-                                    track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
-                                    color: Color(0xff3dd598),
-                                    backgroundColor: Color(0xff286053),
-                                    text: 'Mindfulness',
-                                    image: 'assets/Rectangle 2.png',
-                                    isPaid: false,
-                                  )
-                                : VideoCardWidget(
-                                  playerService: widget._playerService,
-                                    track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
-                                    color: Color(0xff9a4614),
-                                    backgroundColor: Color(0xff0a0219),
-                                    text:
-                                        '${_meditationDetails.audios[index].name}',
-                                    image: 'assets/Rectangle 1.png',
-                                    isPaid: true,
-                                  );
-                          }),
-                    ),
-                  ]),
+                      )
+                          : VideoCardWidget(
+                        playerService: widget._playerService,
+                        track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                        color: Color(0xff9a4614),
+                        backgroundColor: Color(0xff0a0219),
+                        text:
+                        '${_meditationDetails.audios[index].name}',
+                        image: 'assets/Rectangle 1.png',
+                        isPaid: true,
+                      );
+                    }),
+              ),
             ],
           ),
         ));
