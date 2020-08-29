@@ -111,7 +111,7 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
           children: <Widget>[
 
                 Container(
-                    height: MediaQuery.of(context).size.height * 0.30,
+                    height: MediaQuery.of(context).size.height * 0.3,
                     child: CompilcatedImageDemo()),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,

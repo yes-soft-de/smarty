@@ -204,8 +204,10 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i50.MeditationDetailsRepository _createMeditationDetailsRepository() =>
       _i50.MeditationDetailsRepository(
           _createApiClient(), _createSharedPreferencesHelper());
-  _i51.MeditationPage _createMeditationPage() =>
-      _i51.MeditationPage(_createMeditationPageBloc(), _createLogger());
+  _i51.MeditationPage _createMeditationPage() => _i51.MeditationPage(
+      _createMeditationPageBloc(),
+      _createLogger(),
+      _createSharedPreferencesHelper());
   _i52.MeditationPageBloc _createMeditationPageBloc() =>
       _i52.MeditationPageBloc(_createMeditationService(), _createLogger());
   _i53.MeditationService _createMeditationService() =>
@@ -215,7 +217,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i55.MeditationRepository _createMeditationRepository() =>
       _i55.MeditationRepository(_createApiClient());
   _i56.MeditationSettingPage _createMeditationSettingPage() =>
-      _i56.MeditationSettingPage();
+      _i56.MeditationSettingPage(_createSharedPreferencesHelper());
   @override
   _i7.MyApp get app => _createMyApp();
 }

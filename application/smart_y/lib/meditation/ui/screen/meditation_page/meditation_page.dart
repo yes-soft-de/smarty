@@ -5,14 +5,10 @@ import 'package:smarty/courses/bloc/courses_page/courses_page.bloc.dart';
 import 'package:smarty/courses/model/course/course_list_item.model.dart';
 import 'package:smarty/meditation/Meditation_module.dart';
 import 'package:smarty/meditation/bloc/meditation_page/meditation_page.bloc.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 import 'package:smarty/shared/project_colors/project_colors.dart';
-import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
 import 'package:smarty/shared/ui/widget/circle_image/circle_iamge.dart';
-import 'package:smarty/shared/ui/widget/course_card/course_card.dart';
-import 'package:smarty/shared/ui/widget/image_icon/image_icon.dart';
-import 'package:smarty/shared/ui/widget/kind_of_meditation_card/kind_of_meditation_card.dart';
 import 'package:smarty/shared/ui/widget/loading_indicator/loading_indicator.dart';
-import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
 
@@ -22,9 +18,9 @@ class MeditationPage extends StatefulWidget {
 
   final MeditationPageBloc _meditationPageBloc;
   final Logger _logger;
+  final SharedPreferencesHelper _preferencesHelper;
 
-
-  MeditationPage(this._meditationPageBloc, this._logger );
+  MeditationPage(this._meditationPageBloc, this._logger ,this._preferencesHelper);
 
   @override
   _MeditationPageState createState() => _MeditationPageState();
@@ -122,7 +118,7 @@ class _MeditationPageState extends State<MeditationPage> {
                             image: AssetImage('assets/Rectangle16.png'),
                           ),
                           Text(
-                            '',
+                              '${ widget._preferencesHelper.getUserEmail()}',
                             style: TextStyle(
                               color: Colors.blue,
                             ),

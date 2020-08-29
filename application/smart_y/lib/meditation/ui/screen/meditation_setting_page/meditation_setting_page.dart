@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/courses/model/course/course_list_item.model.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 import 'package:smarty/shared/project_colors/project_colors.dart';
 import 'package:smarty/shared/ui/widget/meditiation_setting_card/meditation_setting_card.dart';
 
@@ -8,6 +9,10 @@ import '../../../Meditation_module.dart';
 
 @provide
 class MeditationSettingPage extends StatefulWidget {
+  final SharedPreferencesHelper _preferencesHelper;
+
+  MeditationSettingPage(this._preferencesHelper);
+
   @override
   _MeditationSettingPageState createState() => _MeditationSettingPageState();
 }
@@ -54,7 +59,7 @@ class _MeditationSettingPageState extends State<MeditationSettingPage> {
                               width: 10,
                             ),
                             Text(
-                              '${"email"}',
+                              '${ widget._preferencesHelper.getUserEmail()}',
                               style: TextStyle(
 
                               ),
