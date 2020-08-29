@@ -68,13 +68,15 @@ dependencies:
   intl: ^0.16.1
 
   # Toasts
-  fluttertoast: ^7.0.2
+  fluttertoast: ^7.0.3
 
   # Carousel Slider
   carousel_slider: ^2.2.1
 
   # Audio Player
-  audioplayer: ^0.8.1
+  just_audio: ^0.4.0
+  audio_service: ^0.14.0
+  audio_session: ^0.0.3
 
   # Video Player
   video_player: ^0.10.12+2

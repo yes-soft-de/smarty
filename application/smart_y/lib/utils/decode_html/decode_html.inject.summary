@@ -1,0 +1,8 @@
+{
+  "asset": "asset:smarty/lib/utils/decode_html/decode_html.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}
