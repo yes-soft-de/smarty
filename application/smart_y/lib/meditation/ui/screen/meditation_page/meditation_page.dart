@@ -22,10 +22,9 @@ class MeditationPage extends StatefulWidget {
 
   final MeditationPageBloc _meditationPageBloc;
   final Logger _logger;
-  final AppDrawerWidget _appDrawerWidget;
 
 
-  MeditationPage(this._meditationPageBloc, this._logger,this._appDrawerWidget);
+  MeditationPage(this._meditationPageBloc, this._logger );
 
   @override
   _MeditationPageState createState() => _MeditationPageState();
@@ -35,6 +34,7 @@ class _MeditationPageState extends State<MeditationPage> {
   int currentState = CoursesPageBloc.STATUS_CODE_INIT;
   List<CourseModel> meditations;
   int selectedTabId = -1;
+  CourseModel selectedMeditation  = new CourseModel();
 
   @override
   Widget build(BuildContext context) {
@@ -147,6 +147,7 @@ class _MeditationPageState extends State<MeditationPage> {
                         onTap:(){
                           setState(() {
                             selectedTabId = meditations[index].id;
+                            selectedMeditation = meditations[index];
                           });
 
                         },
@@ -210,7 +211,7 @@ class _MeditationPageState extends State<MeditationPage> {
                   onPressed:
                 (selectedTabId==-1)
                     ? null
-                    :  ()=>  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_DETAILS,arguments:selectedTabId)
+                    :  ()=>  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_SETTING,arguments:selectedMeditation)
                   ,
 
 

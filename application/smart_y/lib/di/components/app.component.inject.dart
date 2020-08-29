@@ -204,8 +204,8 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i50.MeditationDetailsRepository _createMeditationDetailsRepository() =>
       _i50.MeditationDetailsRepository(
           _createApiClient(), _createSharedPreferencesHelper());
-  _i51.MeditationPage _createMeditationPage() => _i51.MeditationPage(
-      _createMeditationPageBloc(), _createLogger(), _createAppDrawerWidget());
+  _i51.MeditationPage _createMeditationPage() =>
+      _i51.MeditationPage(_createMeditationPageBloc(), _createLogger());
   _i52.MeditationPageBloc _createMeditationPageBloc() =>
       _i52.MeditationPageBloc(_createMeditationService(), _createLogger());
   _i53.MeditationService _createMeditationService() =>
