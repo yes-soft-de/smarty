@@ -25,9 +25,10 @@ class ApiClient {
       Response response = await _dio.get<String>(url,
           queryParameters: queryMap, options: Options(headers: headers));
 
+      this._logger.info(TAG, 'Got a Response');
       return _extractResponse(response);
     } catch (error, stacktrace) {
-      _logger.error(TAG, "Exception occurred: $error stackTrace: $stacktrace");
+      _logger.error(TAG, "Exception occurred: $error");
       return null;
     }
   }
@@ -44,8 +45,7 @@ class ApiClient {
 
       return _extractResponse(response);
     } catch (error, stacktrace) {
-      _logger.error(
-          TAG, "Post: Exception occurred: $error stackTrace: $stacktrace");
+      _logger.error(TAG, "Post: Exception occurred: $error");
       return null;
     }
   }
@@ -61,7 +61,7 @@ class ApiClient {
 
       return _extractResponse(response);
     } catch (error, stacktrace) {
-      _logger.error(TAG, "Exception occurred: $error stackTrace: $stacktrace");
+      _logger.error(TAG, "Exception occurred: $error");
 
       return null;
     }
@@ -76,8 +76,8 @@ class ApiClient {
           await _dio.delete(url, options: Options(headers: headers));
 
       return _extractResponse(response);
-    } catch (error, stacktrace) {
-      _logger.error(TAG, "Exception occurred: $error stackTrace: $stacktrace");
+    } catch (error) {
+      _logger.error(TAG, "Exception occurred: $error");
       return null;
     }
   }

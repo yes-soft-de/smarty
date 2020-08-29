@@ -1,5 +1,5 @@
 {
-  "asset": "asset:smarty/lib/home/model/course_model/course_details.dart",
+  "asset": "asset:smarty/lib/utils/decode_html/decode_html.dart",
   "summary": {
     "injector": [],
     "module": [],

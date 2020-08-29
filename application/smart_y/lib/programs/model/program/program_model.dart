@@ -1,10 +1,19 @@
-class ProgramModel{
+import 'package:smarty/utils/decode_html/decode_html.dart';
+
+class ProgramModel {
   var participant;
   var price;
-//  DateTime date;
   var content;
   var name;
   var image;
 
-  ProgramModel({this.participant,this.price,/*this.date,*/this.content,this.name,this.image});
+  ProgramModel({
+    this.participant,
+    this.price,
+    this.content,
+    this.name,
+    this.image,
+  }) {
+    this.content = DecodeHtml.decode(this.content);
+  }
 }

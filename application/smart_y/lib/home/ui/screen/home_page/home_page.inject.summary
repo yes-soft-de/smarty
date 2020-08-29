@@ -25,6 +25,13 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/audio_player/service/audio_payer_service.dart#AudioPlayerService",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }

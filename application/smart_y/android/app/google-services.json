@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "410422243596",
+    "firebase_url": "https://smarty-abbcd.firebaseio.com",
+    "project_id": "smarty-abbcd",
+    "storage_bucket": "smarty-abbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410422243596:android:a10ab94424ce35dfa41929",
+        "android_client_info": {
+          "package_name": "com.example.smarty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410422243596-70nf6e4uj55gkr6c3dspndrvf0vo03ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4OpwIN-WQ3qVHyHYuzIoZacnXzXehjrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410422243596-70nf6e4uj55gkr6c3dspndrvf0vo03ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

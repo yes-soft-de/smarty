@@ -1,24 +1,45 @@
 import 'package:flutter/material.dart';
+import 'package:smarty/audio_player/service/audio_payer_service.dart';
 
-import '../image_icon/image_icon.dart';
-
-class VideoCardWidget extends StatelessWidget {
+class VideoCardWidget extends StatefulWidget {
   final Color color;
   final Color backgroundColor;
   final String image;
   final bool isPaid;
   final String text;
+  final AudioPlayerService playerService;
+  final String track;
 
   VideoCardWidget(
       {@required this.color,
       @required this.backgroundColor,
       @required this.image,
       @required this.isPaid,
-      @required this.text})
-      : assert(color != null &&
-            backgroundColor != null &&
-            image != null &&
-            isPaid != null);
+      @required this.playerService,
+      @required this.text,
+      @required this.track});
+
+  @override
+  State<StatefulWidget> createState() => _VideoCardWidgetState(
+        this.color,
+        this.backgroundColor,
+        this.image,
+        this.isPaid,
+        this.text,
+        this.track,
+      );
+}
+
+class _VideoCardWidgetState extends State<VideoCardWidget> {
+  final Color color;
+  final Color backgroundColor;
+  final String image;
+  final bool isPaid;
+  final String text;
+  final String track;
+
+  _VideoCardWidgetState(this.color, this.backgroundColor, this.image,
+      this.isPaid, this.text, this.track);
 
   @override
   Widget build(BuildContext context) {
@@ -53,14 +74,26 @@ class VideoCardWidget extends StatelessWidget {
                 ),
               ],
             ),
-            IconButton(
-              icon: ImageAsIconWidget(
-                img: 'assets/Play.png',
-                height: 32.0,
-                width: 32.0,
+            GestureDetector(
+              child: Container(
+                height: 32,
+                width: 32,
+                decoration: BoxDecoration(
+                    color: Color(0x8fB9F6CA),
+                    borderRadius: BorderRadius.all(Radius.circular(32))),
+                child: widget.playerService.isPlaying(track)
+                    ? Icon(Icons.pause)
+                    : Icon(Icons.play_arrow),
               ),
-              onPressed: () {
-                // do something
+              onTap: () {
+                widget.playerService.isPlaying(track)
+                    ? widget.playerService.pause()
+                    : widget.playerService.play(track);
+                setState(() {});
+              },
+              onLongPress: () {
+                widget.playerService.stop();
+                setState(() {});
               },
             )
           ],
