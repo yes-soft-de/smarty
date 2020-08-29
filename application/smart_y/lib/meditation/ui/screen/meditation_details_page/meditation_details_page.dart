@@ -10,20 +10,22 @@ import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
 import 'package:smarty/shared/ui/widget/video_card/video_card.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
+import '../../../Meditation_module.dart';
+
 //fake data
 final List<MeditationSuggestions> imgList = [
   MeditationSuggestions(
       title: 'Weelky Progress',
-      content: 'erhr frgredg c dfbdfh dhgh  hdgh xge t',
-      image: 'assets/course_image.png'),
+      content: 'It\'s look like you are on trak ,Please continue to follow your daily plan ',
+      image: 'assets/bk1.jpg'),
   MeditationSuggestions(
-      title: 'bla bla',
-      content: 'shshrehe rher theth gh  h rh',
-      image: 'assets/Rectangle 1.png'),
+      title: 'Weelky Progress',
+      content: 'It\'s look like you are on trak ,Please continue to follow your daily plan ',
+      image: 'assets/BG.png'),
   MeditationSuggestions(
-      title: 'go go',
-      content: 'zcbvsf gh tt ghg   gfhfg  fghg  ur yt',
-      image: 'assets/yoga.jpg'),
+      title: 'Weelky Progress',
+      content: 'It\'s look like you are on trak ,Please continue to follow your daily plan ',
+      image: 'assets/bk3.png'),
 ];
 
 @provide
@@ -98,22 +100,31 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
 
   Widget getPageLayout() {
     return Scaffold(
-        appBar: SmartyAppBarWidget(
-          appBar: AppBar(),
-          title: 'Meditattion',
-        ),
-        drawer: widget._appDrawerWidget,
-        body: Container(
-          child: Column(children: <Widget>[
-            Container(
-                height: MediaQuery.of(context).size.height * 0.30,
-                child: CompilcatedImageDemo()),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                Text(
-                  '${_meditationDetails.name}',
-                  style: TextStyle(color: Colors.black87, fontSize: 12),
+      appBar: SmartyAppBarWidget(
+        appBar: AppBar(),
+        title: 'Meditattion',
+      ),
+      drawer: widget._appDrawerWidget,
+      body: Container(
+
+        child: Column(
+          children: <Widget>[
+
+                Container(
+                    height: MediaQuery.of(context).size.height * 0.3,
+                    child: CompilcatedImageDemo()),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    Text(
+                      '${_meditationDetails.name}',
+                      style: TextStyle(color: Colors.black87, fontSize: 12),
+                    ),
+                    Text(
+                      '${_meditationDetails.audiosNumber} Audios',
+                      style: TextStyle(color: Colors.black87, fontSize: 12),
+                    ),
+                  ],
                 ),
                 Text(
                   '${_meditationDetails.audiosNumber} Audios',
@@ -131,41 +142,53 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
               children: <Widget>[
                 Row(
                   children: <Widget>[
-                    IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
-                    Text('Settings')
+                    Row(
+                      children: <Widget>[
+                        IconButton(
+                            onPressed: (){}
+                            , icon: Icon(Icons.settings)),
+                        Text('Settings')
+                      ],
+                    ),
+                    Text(
+                      'Edit',
+                      style: TextStyle(color: Color(0xff5E239D)),
+                    ),
                   ],
                 ),
-                Text(
-                  'Edit',
-                  style: TextStyle(color: Color(0xff5E239D)),
-                ),
-              ],
-            ),
-//                VideoCardWidget(
-//                  color: Color(0xff3dd598),
-//                  backgroundColor: Color(0xff286053),
-//                  text: 'Mindfulness',
-//                  image: 'assets/Rectangle 2.png',
-//                  isPaid: false,
-//                ),
 
-            Container(
-              height: MediaQuery.of(context).size.height * 0.3,
-              child: ListView.builder(
-                  itemCount: _meditationDetails.audios.length,
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
-                  itemBuilder: (BuildContext context, int index) {
-                    return VideoCardWidget(
-                      color: Color(0xff9a4614),
-                      backgroundColor: Color(0xff0a0219),
-                      text: '${_meditationDetails.audios[index].name}',
-                      image: 'assets/Rectangle 1.png',
-                      isPaid: true,
-                    );
-                  }),
-            ),
-          ]),
-        ));
+              Container(
+                height: MediaQuery.of(context).size.height*0.3,
+                child: ListView.builder(
+                    itemCount: _meditationDetails.audios.length,
+                    padding: EdgeInsetsDirectional.fromSTEB(0,50 ,0, 0),
+                    itemBuilder: (BuildContext context, int index) {
+                    return
+                      (index==0)
+                          ? VideoCardWidget(
+                              color: Color(0xff3dd598),
+                              backgroundColor: Color(0xff286053),
+                              text: 'Mindfulness',
+                              image: 'assets/Rectangle 2.png',
+                              isPaid: false,
+                              )
+
+                           : VideoCardWidget(
+                              color: Color(0xff9a4614),
+                              backgroundColor: Color(0xff0a0219),
+                              text: '${_meditationDetails.audios[index].name}',
+                              image: 'assets/Rectangle 1.png',
+                              isPaid: true,
+                            );
+                    }),
+              ),
+
+              ]
+       ),
+
+
+    )
+    );
   }
 }
 

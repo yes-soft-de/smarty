@@ -42,10 +42,16 @@ class AppDrawerWidget extends StatelessWidget {
                       width: 75,
                       image: AssetImage('assets/Rectangle16.png'),
                     ),
-                    Text(
-                      '${ _preferencesHelper.getUserEmail().toString()}',
-                      style: TextStyle(
-                        color: Colors.white,
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Container(
+                      width: MediaQuery.of(context).size.width*0.3,
+                      child: Text(
+                        '${ _preferencesHelper.getUserEmail()}',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
                       ),
                     ),
                   ],
@@ -189,6 +195,8 @@ class AppDrawerWidget extends StatelessWidget {
                   ),
                 ),
               ),
+
+
 
 
             ],

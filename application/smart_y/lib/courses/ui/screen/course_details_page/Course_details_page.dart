@@ -336,7 +336,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
               Container (
                 padding: const EdgeInsets.all(16.0),
                 width: MediaQuery.of(context).size.width*0.85,
-                child: Text ("Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2, Long Text 2", textAlign: TextAlign.center),
+                child: Text (" We're intersted in your ideas and would be glade to build something bigger out of it, Share your ideas about features/design an we will bring them on to our full case of this product design", textAlign: TextAlign.center),
               ),
 
 

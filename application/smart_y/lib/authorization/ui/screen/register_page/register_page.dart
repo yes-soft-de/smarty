@@ -208,7 +208,7 @@ class RegisterPageState extends State<RegisterPage> {
                   height: formIconHeight,
                   width: formIconWidth,
                   child: Image.asset('assets/password.png')),
-              hintText: 'Create a Password'),
+              hintText: 'Confirm your Password'),
         ),
         Padding(
           padding: const EdgeInsets.all(10.0),

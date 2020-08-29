@@ -104,7 +104,7 @@ class _LessonPageState extends State<LessonPage> {
           },
         ),
         title: Text(
-          'Introduce',
+          '${_lesson.title}',
           style: TextStyle(
             color: Colors.white
           ),

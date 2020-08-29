@@ -140,6 +140,7 @@ class AppComponent$Injector implements _i1.AppComponent {
       _createLogger(),
       _createRegisterManager(),
       _createSharedPreferencesHelper());
+
   _i22.RegisterManager _createRegisterManager() =>
       _i22.RegisterManager(_createRegisterRepository());
   _i23.RegisterRepository _createRegisterRepository() =>

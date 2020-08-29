@@ -35,7 +35,7 @@
             },
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/shared/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
+                "root": "asset:smarty/lib/persistence/shared_preferences/shared_preferences_helper.dart#SharedPreferencesHelper",
                 "qualifier": null
               },
               "isProvider": false
