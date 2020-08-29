@@ -76,6 +76,8 @@ import '../../meditation/manager/meditation_page/meditation_page.manager.dart'
     as _i55;
 import '../../meditation/repository/meditaion_page/meditation_page.repository.dart'
     as _i56;
+import '../../meditation/ui/screen/meditation_setting_page/meditation_setting_page.dart'
+    as _i57;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -140,7 +142,6 @@ class AppComponent$Injector implements _i1.AppComponent {
       _createLogger(),
       _createRegisterManager(),
       _createSharedPreferencesHelper());
-
   _i22.RegisterManager _createRegisterManager() =>
       _i22.RegisterManager(_createRegisterRepository());
   _i23.RegisterRepository _createRegisterRepository() =>
@@ -191,10 +192,15 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i45.ProgramsRepository _createProgramsRepository() =>
       _i45.ProgramsRepository(_createApiClient());
   _i46.MeditationModule _createMeditationModule() => _i46.MeditationModule(
-      _createMeditationDetailsPage(), _createMeditationPage());
+      _createMeditationDetailsPage(),
+      _createMeditationPage(),
+      _createMeditationSettingPage());
   _i47.MeditationDetailsPage _createMeditationDetailsPage() =>
-      _i47.MeditationDetailsPage(_createAppDrawerWidget(),
-          _createMeditationDetailsBloc(), _createLogger());
+      _i47.MeditationDetailsPage(
+          _createAppDrawerWidget(),
+          _createMeditationDetailsBloc(),
+          _createLogger(),
+          _createAudioPlayerService());
   _i48.MeditationDetailsBloc _createMeditationDetailsBloc() =>
       _i48.MeditationDetailsBloc(
           _createLogger(), _createMeditationDetailsService());
@@ -206,7 +212,9 @@ class AppComponent$Injector implements _i1.AppComponent {
       _i51.MeditationDetailsRepository(
           _createApiClient(), _createSharedPreferencesHelper());
   _i52.MeditationPage _createMeditationPage() => _i52.MeditationPage(
-      _createMeditationPageBloc(), _createLogger(), _createAppDrawerWidget());
+      _createMeditationPageBloc(),
+      _createLogger(),
+      _createSharedPreferencesHelper());
   _i53.MeditationPageBloc _createMeditationPageBloc() =>
       _i53.MeditationPageBloc(_createMeditationService(), _createLogger());
   _i54.MeditationService _createMeditationService() =>
@@ -215,6 +223,8 @@ class AppComponent$Injector implements _i1.AppComponent {
       _i55.MeditationManager(_createMeditationRepository());
   _i56.MeditationRepository _createMeditationRepository() =>
       _i56.MeditationRepository(_createApiClient());
+  _i57.MeditationSettingPage _createMeditationSettingPage() =>
+      _i57.MeditationSettingPage(_createSharedPreferencesHelper());
   @override
   _i7.MyApp get app => _createMyApp();
 }

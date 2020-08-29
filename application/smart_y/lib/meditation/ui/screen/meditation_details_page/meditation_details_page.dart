@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/audio_player/service/audio_payer_service.dart';
 import 'package:smarty/home/model/meditation/meditation_suggestions.dart';
 import 'package:smarty/meditation/bloc/meditation_details_page/meditation_details_page.bloc.dart';
 import 'package:smarty/meditation/model/meditation_details.dart';
@@ -16,15 +17,18 @@ import '../../../Meditation_module.dart';
 final List<MeditationSuggestions> imgList = [
   MeditationSuggestions(
       title: 'Weelky Progress',
-      content: 'It\'s look like you are on trak ,Please continue to follow your daily plan ',
+      content:
+          'It\'s look like you are on trak ,Please continue to follow your daily plan ',
       image: 'assets/bk1.jpg'),
   MeditationSuggestions(
       title: 'Weelky Progress',
-      content: 'It\'s look like you are on trak ,Please continue to follow your daily plan ',
+      content:
+          'It\'s look like you are on trak ,Please continue to follow your daily plan ',
       image: 'assets/BG.png'),
   MeditationSuggestions(
       title: 'Weelky Progress',
-      content: 'It\'s look like you are on trak ,Please continue to follow your daily plan ',
+      content:
+          'It\'s look like you are on trak ,Please continue to follow your daily plan ',
       image: 'assets/bk3.png'),
 ];
 
@@ -34,9 +38,10 @@ class MeditationDetailsPage extends StatefulWidget {
   final AppDrawerWidget _appDrawerWidget;
   final MeditationDetailsBloc _meditationDetailsBloc;
   final Logger _logger;
+  final AudioPlayerService _playerService;
 
   MeditationDetailsPage(
-      this._appDrawerWidget, this._meditationDetailsBloc, this._logger);
+      this._appDrawerWidget, this._meditationDetailsBloc, this._logger, this._playerService);
 
   @override
   _MeditationDetailsPageState createState() => _MeditationDetailsPageState();
@@ -100,95 +105,89 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
 
   Widget getPageLayout() {
     return Scaffold(
-      appBar: SmartyAppBarWidget(
-        appBar: AppBar(),
-        title: 'Meditattion',
-      ),
-      drawer: widget._appDrawerWidget,
-      body: Container(
-
-        child: Column(
-          children: <Widget>[
-
-                Container(
-                    height: MediaQuery.of(context).size.height * 0.3,
-                    child: CompilcatedImageDemo()),
-                Row(
+        appBar: SmartyAppBarWidget(
+          appBar: AppBar(),
+          title: 'Meditattion',
+        ),
+        drawer: widget._appDrawerWidget,
+        body: Container(
+          child: Column(
+            children: <Widget>[
+              Container(
+                  height: MediaQuery.of(context).size.height * 0.3,
+                  child: CompilcatedImageDemo()),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Text(
+                    '${_meditationDetails.name}',
+                    style: TextStyle(color: Colors.black87, fontSize: 12),
+                  ),
+                  Text(
+                    '${_meditationDetails.audiosNumber} Audios',
+                    style: TextStyle(color: Colors.black87, fontSize: 12),
+                  ),
+                ],
+              ),
+              Text(
+                '${_meditationDetails.audiosNumber} Audios',
+                style: TextStyle(color: Colors.black87, fontSize: 12),
+              ),
+              Container(
+                padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                width: MediaQuery.of(context).size.width * 0.8,
+                child: Text('${_meditationDetails.description}'),
+              ),
+              Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Text(
-                      '${_meditationDetails.name}',
-                      style: TextStyle(color: Colors.black87, fontSize: 12),
-                    ),
-                    Text(
-                      '${_meditationDetails.audiosNumber} Audios',
-                      style: TextStyle(color: Colors.black87, fontSize: 12),
-                    ),
-                  ],
-                ),
-                Text(
-                  '${_meditationDetails.audiosNumber} Audios',
-                  style: TextStyle(color: Colors.black87, fontSize: 12),
-                ),
-              ],
-            ),
-            Container(
-              padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-              width: MediaQuery.of(context).size.width * 0.8,
-              child: Text('${_meditationDetails.description}'),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                Row(
                   children: <Widget>[
                     Row(
                       children: <Widget>[
-                        IconButton(
-                            onPressed: (){}
-                            , icon: Icon(Icons.settings)),
-                        Text('Settings')
+                        Row(
+                          children: <Widget>[
+                            IconButton(
+                                onPressed: () {}, icon: Icon(Icons.settings)),
+                            Text('Settings')
+                          ],
+                        ),
+                        Text(
+                          'Edit',
+                          style: TextStyle(color: Color(0xff5E239D)),
+                        ),
                       ],
                     ),
-                    Text(
-                      'Edit',
-                      style: TextStyle(color: Color(0xff5E239D)),
+                    Container(
+                      height: MediaQuery.of(context).size.height * 0.3,
+                      child: ListView.builder(
+                          itemCount: _meditationDetails.audios.length,
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
+                          itemBuilder: (BuildContext context, int index) {
+                            return (index == 0)
+                                ? VideoCardWidget(
+                                    playerService: widget._playerService,
+                                    track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                                    color: Color(0xff3dd598),
+                                    backgroundColor: Color(0xff286053),
+                                    text: 'Mindfulness',
+                                    image: 'assets/Rectangle 2.png',
+                                    isPaid: false,
+                                  )
+                                : VideoCardWidget(
+                                  playerService: widget._playerService,
+                                    track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                                    color: Color(0xff9a4614),
+                                    backgroundColor: Color(0xff0a0219),
+                                    text:
+                                        '${_meditationDetails.audios[index].name}',
+                                    image: 'assets/Rectangle 1.png',
+                                    isPaid: true,
+                                  );
+                          }),
                     ),
-                  ],
-                ),
-
-              Container(
-                height: MediaQuery.of(context).size.height*0.3,
-                child: ListView.builder(
-                    itemCount: _meditationDetails.audios.length,
-                    padding: EdgeInsetsDirectional.fromSTEB(0,50 ,0, 0),
-                    itemBuilder: (BuildContext context, int index) {
-                    return
-                      (index==0)
-                          ? VideoCardWidget(
-                              color: Color(0xff3dd598),
-                              backgroundColor: Color(0xff286053),
-                              text: 'Mindfulness',
-                              image: 'assets/Rectangle 2.png',
-                              isPaid: false,
-                              )
-
-                           : VideoCardWidget(
-                              color: Color(0xff9a4614),
-                              backgroundColor: Color(0xff0a0219),
-                              text: '${_meditationDetails.audios[index].name}',
-                              image: 'assets/Rectangle 1.png',
-                              isPaid: true,
-                            );
-                    }),
-              ),
-
-              ]
-       ),
-
-
-    )
-    );
+                  ]),
+            ],
+          ),
+        ));
   }
 }
 

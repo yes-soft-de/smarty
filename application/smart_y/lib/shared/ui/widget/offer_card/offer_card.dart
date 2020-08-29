@@ -71,6 +71,7 @@ class OfferCardWidget extends StatelessWidget {
                 height: 20,
                 width: 20,
               ),
+              onPressed: (){},
             ),
           ],
         ),
