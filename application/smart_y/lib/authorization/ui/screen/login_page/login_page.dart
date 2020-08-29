@@ -155,11 +155,11 @@ class LoginPageState extends State<LoginPage> {
                     margin: EdgeInsets.fromLTRB(30, 30, 30, 0),
                     child: FlatButton(
                       padding: EdgeInsets.fromLTRB(0, 15, 0, 15),
-                      onPressed: (){  Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);},
+                      onPressed: /*(){  Navigator.pushReplacementNamed(context, HomeModule.ROUTE_HOME);},*/
 
-//                      _buttonsDisabled
-//                          ? null
-//                          : () => /*_validateInputsAndLogin()*/ login(),
+                      _buttonsDisabled
+                          ? null
+                          : () => /*_validateInputsAndLogin()*/ login(),
                       color: Color(0xffDCDCDE),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
