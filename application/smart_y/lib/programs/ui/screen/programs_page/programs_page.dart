@@ -209,8 +209,11 @@ class ProgramCardWidget extends StatelessWidget {
                   left: 0.0,
                   right: 0.0,
                   child: Container(
+
                     decoration: BoxDecoration(
+                      color: Colors.black38,
                       image: DecorationImage(
+                        colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
                         image: NetworkImage(item.image),
                         fit: BoxFit.fitHeight,
                       ),

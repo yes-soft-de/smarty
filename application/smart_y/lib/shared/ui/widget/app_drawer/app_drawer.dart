@@ -190,6 +190,23 @@ class AppDrawerWidget extends StatelessWidget {
                 ),
               ),
 
+              FlatButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_SETTING);
+                },
+                child: ListTile(
+                  title: Text("M setting",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  trailing: Icon(
+                    Icons.fiber_new,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+
 
             ],
           ),

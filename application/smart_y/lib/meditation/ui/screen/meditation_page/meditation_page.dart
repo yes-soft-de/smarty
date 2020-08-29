@@ -5,9 +5,12 @@ import 'package:smarty/courses/bloc/courses_page/courses_page.bloc.dart';
 import 'package:smarty/courses/model/course/course_list_item.model.dart';
 import 'package:smarty/meditation/Meditation_module.dart';
 import 'package:smarty/meditation/bloc/meditation_page/meditation_page.bloc.dart';
+import 'package:smarty/shared/project_colors/project_colors.dart';
 import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
+import 'package:smarty/shared/ui/widget/circle_image/circle_iamge.dart';
 import 'package:smarty/shared/ui/widget/course_card/course_card.dart';
 import 'package:smarty/shared/ui/widget/image_icon/image_icon.dart';
+import 'package:smarty/shared/ui/widget/kind_of_meditation_card/kind_of_meditation_card.dart';
 import 'package:smarty/shared/ui/widget/loading_indicator/loading_indicator.dart';
 import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
 import 'package:smarty/utils/logger/logger.dart';
@@ -31,6 +34,7 @@ class MeditationPage extends StatefulWidget {
 class _MeditationPageState extends State<MeditationPage> {
   int currentState = CoursesPageBloc.STATUS_CODE_INIT;
   List<CourseModel> meditations;
+  int selectedTabId = -1;
 
   @override
   Widget build(BuildContext context) {
@@ -90,80 +94,157 @@ class _MeditationPageState extends State<MeditationPage> {
       ),
     );
   }
+  Widget getPageLayout(){
+    return  Scaffold(
+      backgroundColor: ProjectColors.Color3,
 
-  Widget getPageLayout() {
-    return Scaffold(
-      appBar: SmartyAppBarWidget(
-        appBar: AppBar(),
-        title: 'Meditation',
+      appBar: AppBar(
+        backgroundColor: ProjectColors.Color3,
       ),
-      drawer: widget._appDrawerWidget,
-      body: Container(
-        color: Color(0xffF4ECEC),
-        child: Stack(
-          children: <Widget>[
-            ListView.builder(
-                itemCount: meditations.length,
-                padding: EdgeInsetsDirectional.fromSTEB(0,50 ,0, 0),
-                itemBuilder: (BuildContext context, int index) {
-                  return FlatButton(
-                    onPressed: (){
-                      print('${meditations[index].id}');
-                      Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_DETAILS,arguments: meditations[index].id);
+      body: SingleChildScrollView(
+        child: Container(
+          padding: EdgeInsetsDirectional.fromSTEB(15, 10, 15, 10),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Container(
 
-                    },
-                    child: CourseCardWidget(
-                      image: meditations[index].image,
-                      price: meditations[index].price.toString(),
-                      chapters: '42',
-                      name: meditations[index].title.toString(),
-                      description: '',
+                      child: Row(
+
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Image(
+                            height: 100,
+                            width: 100,
+                            image: AssetImage('assets/Rectangle16.png'),
+                          ),
+                          Text(
+                            '',
+                            style: TextStyle(
+                              color: Colors.blue,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
-                  );
-                }),
-            Positioned(
-              left: 0.0,
-              right: 0.0,
-              top: 0.0,
-              child: Container(
-                color: Color(0xffF4ECEC),
-                padding: EdgeInsetsDirectional.fromSTEB(10, 0, 12, 0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        IconButton(
-                          onPressed: () {},
-                          icon: ImageAsIconWidget(
-                            img: 'assets/filter_icon.png',
-                            width: 20,
-                            height: 10,
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height*0.55,
+                child: Flexible(
+                  child: GridView.builder(itemBuilder: (BuildContext context, int index){
+
+                    return
+
+                      GestureDetector(
+                        onTap:(){
+                          setState(() {
+                            selectedTabId = meditations[index].id;
+                          });
+
+                        },
+                        child: Container(
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(100),
+                              color:(selectedTabId == meditations[index].id)?
+                              ProjectColors.color9:
+                              ProjectColors.color8,
+
+                          ),
+
+                          child:Column(
+                            children: <Widget>[
+                              SizedBox(height: 8,),
+                              MyCircularImage(MediaQuery.of(context).size.width/5,MediaQuery.of(context).size.width/5,
+                                linkImg: meditations[index].image,),
+                              SizedBox(height: 8,),
+                              Row(
+                                children: <Widget>[Expanded(child: Padding(
+                                    padding: EdgeInsets.all(4),
+                                    child: Text(
+                                      meditations[index].title.toString(),
+                                      maxLines: 2,
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 14,
+                                      ),
+                                      textDirection: TextDirection.ltr,
+                                      textAlign: TextAlign.center,
+                                    )
+                                )
+                                )
+                                ],
+                              ),
+
+
+                            ],
                           ),
                         ),
-                        Text('Filter')
-                      ],
+                      );
+
+
+
+                  },
+                    padding: EdgeInsets.symmetric(horizontal: 10),
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 3,
+                        mainAxisSpacing: 10,
+                        crossAxisSpacing: 30,
+                        childAspectRatio: (2.3/4)
                     ),
-                    Row(
-                      children: <Widget>[
-                        IconButton(
-                          onPressed: () {},
-                          icon: ImageAsIconWidget(
-                            img: 'assets/filter_icon.png',
-                            width: 20,
-                            height: 10,
-                          ),
-                        ),
-                        Text('Sort')
-                      ],
-                    ),
-                  ],
+                    itemCount:meditations.length,
+                    physics: NeverScrollableScrollPhysics(),
+                    shrinkWrap: true,),
                 ),
               ),
-            ),
-          ],
+
+
+              FlatButton(
+                  onPressed:
+                (selectedTabId==-1)
+                    ? null
+                    :  ()=>  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_DETAILS,arguments:selectedTabId)
+                  ,
+
+
+               color: Color(0xff5F06A6),
+                  child:Container(
+                    width: MediaQuery.of(context).size.width*0.6,
+                    height: MediaQuery.of(context).size.height*0.09,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          'Next',
+
+                          style: TextStyle(
+                              fontSize: 10,
+                              color: Colors.white
+                          ),
+                        ),
+                        Icon(
+                          Icons.arrow_forward,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                  )
+              )
+
+
+
+            ],
+          ),
         ),
       ),
     );
   }
+
 }
