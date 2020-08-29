@@ -1,5 +1,7 @@
 //import 'package:firebase_analytics/firebase_analytics.dart';
 //import 'package:firebase_analytics/observer.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -15,7 +17,6 @@ import 'meditation/Meditation_module.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]).then((_) async {
@@ -26,9 +27,9 @@ void main() {
 
 @provide
 class MyApp extends StatelessWidget {
-//  static FirebaseAnalytics analytics = FirebaseAnalytics();
-//  static FirebaseAnalyticsObserver observer =
-//      FirebaseAnalyticsObserver(analytics: analytics);
+  static FirebaseAnalytics analytics = FirebaseAnalytics();
+  static FirebaseAnalyticsObserver observer =
+      FirebaseAnalyticsObserver(analytics: analytics);
 
   // Modulation in Progress :)
   final HomeModule _homeModule;
@@ -37,10 +38,13 @@ class MyApp extends StatelessWidget {
   final ProgramsModule _programsModule;
   final MeditationModule _meditationModule;
 
-  MyApp(this._homeModule, this._authorizationModule,
-      this._courseModule,this._programsModule,
-      this._meditationModule,
-      );
+  MyApp(
+    this._homeModule,
+    this._authorizationModule,
+    this._courseModule,
+    this._programsModule,
+    this._meditationModule,
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +58,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
         navigatorObservers: <NavigatorObserver>[
-//          observer
+          observer
         ],
         localizationsDelegates: [
           S.delegate,

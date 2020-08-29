@@ -35,14 +35,14 @@ class MeditationDetailsPage extends StatefulWidget {
   final MeditationDetailsBloc _meditationDetailsBloc;
   final Logger _logger;
 
-  MeditationDetailsPage(this._appDrawerWidget,this._meditationDetailsBloc,this._logger);
+  MeditationDetailsPage(
+      this._appDrawerWidget, this._meditationDetailsBloc, this._logger);
 
   @override
   _MeditationDetailsPageState createState() => _MeditationDetailsPageState();
 }
 
 class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
-
   int currentState = MeditationDetailsBloc.STATUS_CODE_INIT;
   int meditationId;
   MeditationDetails _meditationDetails;
@@ -51,21 +51,21 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
   Widget build(BuildContext context) {
     meditationId = ModalRoute.of(context).settings.arguments;
 
-    widget._meditationDetailsBloc.meditationDetailsStateObservable.listen((stateChanged) {
+    widget._meditationDetailsBloc.meditationDetailsStateObservable
+        .listen((stateChanged) {
       currentState = stateChanged.first;
 
-      if (currentState == MeditationDetailsBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
-
+      if (currentState ==
+          MeditationDetailsBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
         this._meditationDetails = stateChanged.last;
       }
 
-      if(this.mounted){
+      if (this.mounted) {
         setState(() {});
       }
-
     });
 
-    if(currentState == MeditationDetailsBloc.STATUS_CODE_INIT){
+    if (currentState == MeditationDetailsBloc.STATUS_CODE_INIT) {
       widget._logger.info(widget.tag, "Meditation details Page Started");
       widget._meditationDetailsBloc.getMeditationDetails(meditationId);
     }
@@ -75,7 +75,8 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
       return LoadingIndicatorWidget();
     }
 
-    if (currentState == MeditationDetailsBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
+    if (currentState ==
+        MeditationDetailsBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
       widget._logger.info(widget.tag, "Fetching data SUCCESS");
       return getPageLayout();
     }
@@ -84,8 +85,8 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
       widget._logger.info(widget.tag, "Fetching data Error");
       return Scaffold(
           body: Center(
-            child: Text("Fetching data Error"),
-          ));
+        child: Text("Fetching data Error"),
+      ));
     }
 
     // Undefined State
@@ -95,10 +96,9 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
         child: Text("Undefined State?!!"),
       ),
     );
-
   }
 
-  Widget getPageLayout(){
+  Widget getPageLayout() {
     return Scaffold(
       appBar: SmartyAppBarWidget(
         appBar: AppBar(),
@@ -126,14 +126,21 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
                     ),
                   ],
                 ),
-                Container(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
-                  width: MediaQuery.of(context).size.width * 0.8,
-                  child: Text(
-                      '${_meditationDetails.description}'),
+                Text(
+                  '${_meditationDetails.audiosNumber} Audios',
+                  style: TextStyle(color: Colors.black87, fontSize: 12),
                 ),
+              ],
+            ),
+            Container(
+              padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+              width: MediaQuery.of(context).size.width * 0.8,
+              child: Text('${_meditationDetails.description}'),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Row(
                       children: <Widget>[
@@ -184,10 +191,6 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
     );
   }
 }
-
-
-
-
 
 class CompilcatedImageDemo extends StatelessWidget {
   @override

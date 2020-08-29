@@ -1,3 +1,4 @@
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/authorization/manager/login/login.manager.dart';
 import 'package:smarty/authorization/request/login_page/login_request.dart';
@@ -24,7 +25,7 @@ class LoginService {
       return false;
     }
 
-    await _preferencesHelper.setToken(loginResponse.data.jwt);
+    await _preferencesHelper.setToken(loginResponse.token.accessToken);
 
     return true;
   }
@@ -44,12 +45,14 @@ class LoginService {
 
     if (loginResponse == null) return null;
 
-    if (!loginResponse.success) {
+    if (!loginResponse.status) {
+      Fluttertoast.showToast(
+          msg: loginResponse.message, toastLength: Toast.LENGTH_LONG);
       return null;
     }
 
     // Cache the Token
-    await _preferencesHelper.setToken(loginResponse.data.jwt);
+    await _preferencesHelper.setToken(loginResponse.token.accessToken);
     await _preferencesHelper.setUserEmail(email);
     await _preferencesHelper.setUserPassword(password);
 

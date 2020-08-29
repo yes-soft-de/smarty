@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/audio_player/service/audio_payer_service.dart';
 import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
 import 'package:smarty/shared/ui/widget/article_card/article_card.dart';
 import 'package:smarty/shared/ui/widget/course_card/course_card.dart';
@@ -12,7 +13,9 @@ import 'package:smarty/shared/ui/widget/video_card/video_card.dart';
 @provide
 class HomePage extends StatefulWidget {
   final AppDrawerWidget _appDrawerWidget;
-  HomePage(this._appDrawerWidget);
+  final AudioPlayerService audioPlayerService;
+
+  HomePage(this._appDrawerWidget, this.audioPlayerService);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -22,20 +25,22 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: SmartyAppBarWidget(appBar: AppBar(),title: 'Home',),
+      appBar: SmartyAppBarWidget(
+        appBar: AppBar(),
+        title: 'Home',
+      ),
       drawer: widget._appDrawerWidget,
       body: Container(
         color: Color(0xffF4ECEC),
         child: ListView(
-
-          padding: EdgeInsetsDirectional.fromSTEB(15 , 10, 15, 10),
+          padding: EdgeInsetsDirectional.fromSTEB(15, 10, 15, 10),
           children: <Widget>[
             Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(0),
               ),
               color: Color(0xff5E239D),
-              child:Container(
+              child: Container(
                 padding: EdgeInsetsDirectional.fromSTEB(15, 15, 15, 15),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -60,19 +65,19 @@ class _HomePageState extends State<HomePage> {
                           decoration: BoxDecoration(
                               color: Colors.white30,
                               borderRadius: new BorderRadius.only(
-                                  topLeft:  const  Radius.circular(10.0),
-                                  topRight: const  Radius.circular(10.0),
-                                  bottomLeft:  const  Radius.circular(10.0),
-                                  bottomRight: const  Radius.circular(10.0)
-                              )
-                          ),
+                                  topLeft: const Radius.circular(10.0),
+                                  topRight: const Radius.circular(10.0),
+                                  bottomLeft: const Radius.circular(10.0),
+                                  bottomRight: const Radius.circular(10.0))),
                           child: Icon(
                             Icons.star_border,
                             color: Colors.white,
                             size: 30,
                           ),
                         ),
-                        SizedBox(width: 20.0,),
+                        SizedBox(
+                          width: 20.0,
+                        ),
                         Text(
                           'Live Video',
                           style: TextStyle(
@@ -82,7 +87,6 @@ class _HomePageState extends State<HomePage> {
                         )
                       ],
                     ),
-
                     Row(
                       children: <Widget>[
                         Column(
@@ -118,29 +122,25 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ],
                         ),
-
                         Column(
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: <Widget>[
                             IconButton(
-
                               icon: ImageAsIconWidget(
                                 img: 'assets/Ok.png',
                                 height: 500.0,
                                 width: 500.0,
                               ),
-                              onPressed: (){},
+                              onPressed: () {},
                             ),
                           ],
                         ),
-
                       ],
                     ),
                   ],
                 ),
               ),
             ),
-
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -151,13 +151,15 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 IconButton(
-                  onPressed: (){},
+                  onPressed: () {},
                   icon: Icon(Icons.arrow_forward_ios),
                 )
               ],
             ),
-
             VideoCardWidget(
+              playerService: widget.audioPlayerService,
+              track:
+                  'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/Ziklibrenbib/Peculate/st/Peculate_-_03_-_Existence_Through_Negation.mp3',
               color: Color(0xff3dd598),
               backgroundColor: Color(0xff286053),
               text: 'Mindfulness',
@@ -165,13 +167,15 @@ class _HomePageState extends State<HomePage> {
               isPaid: false,
             ),
             VideoCardWidget(
+              playerService: widget.audioPlayerService,
+              track:
+                  'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/Ziklibrenbib/Peculate/st/Peculate_-_09_-_The_Immediate_Task.mp3',
               color: Color(0xff9a4614),
               backgroundColor: Color(0xff0a0219),
               text: 'Mindfulness',
               image: 'assets/Rectangle 1.png',
               isPaid: true,
             ),
-
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -182,14 +186,14 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 IconButton(
-                  onPressed: (){},
+                  onPressed: () {},
                   icon: Icon(Icons.arrow_forward_ios),
                 )
               ],
             ),
-
             CourseCardWidget(
-              image: 'https://wow-ae.com/wp-content/uploads/2014/02/img5-460x276.jpg',
+              image:
+                  'https://wow-ae.com/wp-content/uploads/2014/02/img5-460x276.jpg',
               price: '50',
               chapters: '42',
               name: 'Weekly progress',
@@ -201,17 +205,22 @@ class _HomePageState extends State<HomePage> {
                 fontSize: 10.0,
               ),
             ),
-
             Row(
               children: <Widget>[
                 ArticleCardWidget(
-                  icon: Icon(Icons.settings, color: Colors.white,),
+                  icon: Icon(
+                    Icons.settings,
+                    color: Colors.white,
+                  ),
                   name: 'Introduce',
                   duration: 20,
                   color: Colors.greenAccent,
                 ),
                 ArticleCardWidget(
-                  icon: Icon(Icons.settings,color: Colors.white,),
+                  icon: Icon(
+                    Icons.settings,
+                    color: Colors.white,
+                  ),
                   name: 'Introduce',
                   duration: 20,
                   color: Colors.pink,
@@ -221,9 +230,8 @@ class _HomePageState extends State<HomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
-
                 IconButton(
-                  onPressed: (){},
+                  onPressed: () {},
                   icon: Icon(Icons.arrow_forward_ios),
                 )
               ],

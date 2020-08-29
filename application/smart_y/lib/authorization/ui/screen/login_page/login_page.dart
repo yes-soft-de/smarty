@@ -39,7 +39,7 @@ class LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     widget._loginPageBloc.loginStateObservable.listen((stateChanged) {
-      // This can be used to calulate how many times the page refreshes
+      // This can be used to calculate how many times the page refreshes
       widget._logger.info(widget.tag, "State Changed");
       currentState = stateChanged.first;
       // We Could use a message generated from a bloc with stateChanged.second
@@ -226,8 +226,10 @@ class LoginPageState extends State<LoginPage> {
 
   void login() {
     if (_formKey.currentState.validate()) {
-      widget._loginPageBloc.login(
-          _usernameController.text.trim(), _passwordController.text.trim());
+//      widget._loginPageBloc.login(
+//          _usernameController.text.trim(),
+//          _passwordController.text.trim());
+      widget._loginPageBloc.login('MickSawy3r12', '123456789');
     }
   }
 }
