@@ -15,7 +15,7 @@ class LoginRequest {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['email'] = this.username;
+    data['username'] = this.username.split('@')[0];
     data['password'] = this.password;
     data['client_id'] = this.clientId;
     data['state'] = this.state;

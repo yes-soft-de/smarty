@@ -70,7 +70,14 @@ dependencies:
   # Toasts
   fluttertoast: ^7.0.2
 
+  # Carousel Slider
   carousel_slider: ^2.2.1
+
+  # Audio Player
+  audioplayer: ^0.8.1
+
+  # Video Player
+  video_player: ^0.10.12+2
 
 dev_dependencies:
   flutter_test:

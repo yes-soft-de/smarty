@@ -1,3 +1,4 @@
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/authorization/manager/register/register.dart';
 import 'package:smarty/authorization/request/register_request/register_request.dart';
@@ -40,6 +41,8 @@ class RegisterService {
 
     if (!registerResponse.status) {
       this._logger.info(TAG, 'Null Register Not SuccessFull');
+      Fluttertoast.showToast(
+          msg: registerResponse.message, toastLength: Toast.LENGTH_LONG);
       return null;
     }
 

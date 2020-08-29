@@ -224,8 +224,10 @@ class LoginPageState extends State<LoginPage> {
 
   void login() {
     if (_formKey.currentState.validate()) {
-      widget._loginPageBloc.login(
-          _usernameController.text.trim(), _passwordController.text.trim());
+//      widget._loginPageBloc.login(
+//          _usernameController.text.trim(),
+//          _passwordController.text.trim());
+      widget._loginPageBloc.login('MickSawy3r12', '123456789');
     }
   }
 }

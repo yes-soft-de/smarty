@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/authorization/request/register_request/register_request.dart';
 import 'package:smarty/authorization/service/register/register.dart';
+import 'package:smarty/home/home_module.dart';
 import 'package:smarty/shared/ui/widget/logo_widget/logo.dart';
 
 @provide
@@ -305,6 +306,10 @@ class RegisterPageState extends State<RegisterPage> {
     registerRequest.email = _emailController.text.trim();
     registerRequest.password = _passwordController.text.trim();
     registerRequest.username = _usernameController.text.trim();
-    widget._registerService.register(registerRequest);
+    widget._registerService.register(registerRequest).then((value) {
+      if (value) {
+        Navigator.of(context).pushNamed(HomeModule.ROUTE_HOME);
+      }
+    });
   }
 }
