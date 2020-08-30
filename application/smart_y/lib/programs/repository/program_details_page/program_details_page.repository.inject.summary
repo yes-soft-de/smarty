@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/programs/ui/screen/program_details_page/audios_tab_page/audios_tab_page.dart",
+  "asset": "asset:smarty/lib/programs/repository/program_details_page/program_details_page.repository.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "AudiosTabPage",
+        "name": "ProgramDetailsRepository",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/programs/ui/screen/program_details_page/audios_tab_page/audios_tab_page.dart#AudiosTabPage",
+              "root": "asset:smarty/lib/programs/repository/program_details_page/program_details_page.repository.dart#ProgramDetailsRepository",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "dart:core#List",
+                "root": "asset:smarty/lib/network/http_client/api_client.dart#ApiClient",
                 "qualifier": null
               },
               "isProvider": false

@@ -55,29 +55,39 @@ import '../../programs/service/programs_page/programs_page.service.dart'
 import '../../programs/manager/programs/programs.manager.dart' as _i44;
 import '../../programs/repository/programs_page/programs_page.repository.dart'
     as _i45;
-import '../../meditation/Meditation_module.dart' as _i46;
-import '../../meditation/ui/screen/meditation_details_page/meditation_details_page.dart'
+import '../../programs/ui/screen/program_details_page/program_details_page.dart'
+    as _i46;
+import '../../programs/bloc/program_details_page/program_details_page.bloc.dart'
     as _i47;
-import '../../meditation/bloc/meditation_details_page/meditation_details_page.bloc.dart'
+import '../../programs/service/program_details_page/program_details_page.service.dart'
     as _i48;
-import '../../meditation/service/meditation_details_page/meditation_details_page.service.dart'
+import '../../programs/manager/program_details/program_details.manager.dart'
     as _i49;
-import '../../meditation/manager/meditation_details_page/meditation_details_page.manager.dart'
+import '../../programs/repository/program_details_page/program_details_page.repository.dart'
     as _i50;
-import '../../meditation/repository/meditation_details_page/meditation_details_page.repository.dart'
-    as _i51;
-import '../../meditation/ui/screen/meditation_page/meditation_page.dart'
+import '../../meditation/Meditation_module.dart' as _i51;
+import '../../meditation/ui/screen/meditation_details_page/meditation_details_page.dart'
     as _i52;
-import '../../meditation/bloc/meditation_page/meditation_page.bloc.dart'
+import '../../meditation/bloc/meditation_details_page/meditation_details_page.bloc.dart'
     as _i53;
-import '../../meditation/service/meditation_Page/meditation_page_service.dart'
+import '../../meditation/service/meditation_details_page/meditation_details_page.service.dart'
     as _i54;
-import '../../meditation/manager/meditation_page/meditation_page.manager.dart'
+import '../../meditation/manager/meditation_details_page/meditation_details_page.manager.dart'
     as _i55;
-import '../../meditation/repository/meditaion_page/meditation_page.repository.dart'
+import '../../meditation/repository/meditation_details_page/meditation_details_page.repository.dart'
     as _i56;
-import '../../meditation/ui/screen/meditation_setting_page/meditation_setting_page.dart'
+import '../../meditation/ui/screen/meditation_page/meditation_page.dart'
     as _i57;
+import '../../meditation/bloc/meditation_page/meditation_page.bloc.dart'
+    as _i58;
+import '../../meditation/service/meditation_Page/meditation_page_service.dart'
+    as _i59;
+import '../../meditation/manager/meditation_page/meditation_page.manager.dart'
+    as _i60;
+import '../../meditation/repository/meditaion_page/meditation_page.repository.dart'
+    as _i61;
+import '../../meditation/ui/screen/meditation_setting_page/meditation_setting_page.dart'
+    as _i62;
 
 class AppComponent$Injector implements _i1.AppComponent {
   AppComponent$Injector._();
@@ -180,7 +190,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i39.LessonRepository _createLessonRepository() => _i39.LessonRepository(
       _createApiClient(), _createSharedPreferencesHelper());
   _i40.ProgramsModule _createProgramsModule() =>
-      _i40.ProgramsModule(_createProgramsPage(), null);
+      _i40.ProgramsModule(_createProgramsPage(), _createProgramDetailsPage());
   _i41.ProgramsPage _createProgramsPage() => _i41.ProgramsPage(
       _createProgramsPageBloc(), _createAppDrawerWidget(), _createLogger());
   _i42.ProgramsPageBloc _createProgramsPageBloc() =>
@@ -191,40 +201,51 @@ class AppComponent$Injector implements _i1.AppComponent {
       _i44.ProgramsManager(_createProgramsRepository());
   _i45.ProgramsRepository _createProgramsRepository() =>
       _i45.ProgramsRepository(_createApiClient());
-  _i46.MeditationModule _createMeditationModule() => _i46.MeditationModule(
+  _i46.ProgramDetailsPage _createProgramDetailsPage() =>
+      _i46.ProgramDetailsPage(_createProgramDetailsPageBloc(), _createLogger());
+  _i47.ProgramDetailsPageBloc _createProgramDetailsPageBloc() =>
+      _i47.ProgramDetailsPageBloc(
+          _createProgramDetailsService(), _createLogger());
+  _i48.ProgramDetailsService _createProgramDetailsService() =>
+      _i48.ProgramDetailsService(_createProgramDetailsManager());
+  _i49.ProgramDetailsManager _createProgramDetailsManager() =>
+      _i49.ProgramDetailsManager(_createProgramDetailsRepository());
+  _i50.ProgramDetailsRepository _createProgramDetailsRepository() =>
+      _i50.ProgramDetailsRepository(_createApiClient());
+  _i51.MeditationModule _createMeditationModule() => _i51.MeditationModule(
       _createMeditationDetailsPage(),
       _createMeditationPage(),
       _createMeditationSettingPage());
-  _i47.MeditationDetailsPage _createMeditationDetailsPage() =>
-      _i47.MeditationDetailsPage(
+  _i52.MeditationDetailsPage _createMeditationDetailsPage() =>
+      _i52.MeditationDetailsPage(
           _createAppDrawerWidget(),
           _createMeditationDetailsBloc(),
           _createLogger(),
           _createAudioPlayerService());
-  _i48.MeditationDetailsBloc _createMeditationDetailsBloc() =>
-      _i48.MeditationDetailsBloc(
+  _i53.MeditationDetailsBloc _createMeditationDetailsBloc() =>
+      _i53.MeditationDetailsBloc(
           _createLogger(), _createMeditationDetailsService());
-  _i49.MeditationDetailsService _createMeditationDetailsService() =>
-      _i49.MeditationDetailsService(_createMeditationDetailManager());
-  _i50.MeditationDetailManager _createMeditationDetailManager() =>
-      _i50.MeditationDetailManager(_createMeditationDetailsRepository());
-  _i51.MeditationDetailsRepository _createMeditationDetailsRepository() =>
-      _i51.MeditationDetailsRepository(
+  _i54.MeditationDetailsService _createMeditationDetailsService() =>
+      _i54.MeditationDetailsService(_createMeditationDetailManager());
+  _i55.MeditationDetailManager _createMeditationDetailManager() =>
+      _i55.MeditationDetailManager(_createMeditationDetailsRepository());
+  _i56.MeditationDetailsRepository _createMeditationDetailsRepository() =>
+      _i56.MeditationDetailsRepository(
           _createApiClient(), _createSharedPreferencesHelper());
-  _i52.MeditationPage _createMeditationPage() => _i52.MeditationPage(
+  _i57.MeditationPage _createMeditationPage() => _i57.MeditationPage(
       _createMeditationPageBloc(),
       _createLogger(),
       _createSharedPreferencesHelper());
-  _i53.MeditationPageBloc _createMeditationPageBloc() =>
-      _i53.MeditationPageBloc(_createMeditationService(), _createLogger());
-  _i54.MeditationService _createMeditationService() =>
-      _i54.MeditationService(_createMeditationManager());
-  _i55.MeditationManager _createMeditationManager() =>
-      _i55.MeditationManager(_createMeditationRepository());
-  _i56.MeditationRepository _createMeditationRepository() =>
-      _i56.MeditationRepository(_createApiClient());
-  _i57.MeditationSettingPage _createMeditationSettingPage() =>
-      _i57.MeditationSettingPage(_createSharedPreferencesHelper());
+  _i58.MeditationPageBloc _createMeditationPageBloc() =>
+      _i58.MeditationPageBloc(_createMeditationService(), _createLogger());
+  _i59.MeditationService _createMeditationService() =>
+      _i59.MeditationService(_createMeditationManager());
+  _i60.MeditationManager _createMeditationManager() =>
+      _i60.MeditationManager(_createMeditationRepository());
+  _i61.MeditationRepository _createMeditationRepository() =>
+      _i61.MeditationRepository(_createApiClient());
+  _i62.MeditationSettingPage _createMeditationSettingPage() =>
+      _i62.MeditationSettingPage(_createSharedPreferencesHelper());
   @override
   _i7.MyApp get app => _createMyApp();
 }

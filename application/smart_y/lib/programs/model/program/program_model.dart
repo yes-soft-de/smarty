@@ -1,6 +1,7 @@
 import 'package:smarty/utils/decode_html/decode_html.dart';
 
 class ProgramModel {
+  var id;
   var participant;
   var price;
   var content;
@@ -8,6 +9,7 @@ class ProgramModel {
   var image;
 
   ProgramModel({
+    this.id,
     this.participant,
     this.price,
     this.content,

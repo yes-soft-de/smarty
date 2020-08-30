@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
 class EventsTabCard extends StatelessWidget {
+  final String content;
+
+  EventsTabCard({this.content});
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
+      margin: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 20),
       child: new Card(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(0),
@@ -44,7 +47,7 @@ class EventsTabCard extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               width: MediaQuery.of(context).size.width*0.85,
               child: Text (
-                  'We\'re intersted in your ideas and would be glade to build something bigger out of it',
+                  content,
                   textAlign: TextAlign.start,
                   style: TextStyle(
                     fontSize: 10

@@ -7,10 +7,11 @@ import 'package:smarty/shared/ui/widget/circle_image/circle_iamge.dart';
 class CardAudioName extends StatelessWidget {
   VoidCallback press;
   String name;
+  String avatar;
   String commentNumber;
   String loveNumber;
 
-  CardAudioName({this.press, this.name, this.commentNumber, this.loveNumber});
+  CardAudioName({this.press, this.name,this.avatar, this.commentNumber, this.loveNumber});
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +34,7 @@ class CardAudioName extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
-                  MyCircularImage(70,70,),
+                  MyCircularImage(60,60,linkImg: avatar,),
                   SizedBox(width: 4,),
                   Flexible(child:
                   Text(name,style: TextStyle(color: Colors.black,fontSize: 16 ),),),

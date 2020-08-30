@@ -19,7 +19,11 @@ class CourseSectionsFilter{
       else if(element.type == 'unit'){
 
         tempSection.lessons.add(
-            new Lesson(id: element.id,title: element.title,duration: element.duration,content: '')
+            new Lesson(
+                id: (element.id.runtimeType == String )? int.tryParse(element.id):element.id,
+                title: element.title,
+                duration: element.duration,
+                content: '')
         );
       }
     });

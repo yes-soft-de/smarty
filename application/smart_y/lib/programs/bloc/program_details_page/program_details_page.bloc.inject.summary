@@ -1,17 +1,17 @@
 {
-  "asset": "asset:smarty/lib/programs/ui/screen/program_details_page/program_details_page.dart",
+  "asset": "asset:smarty/lib/programs/bloc/program_details_page/program_details_page.bloc.dart",
   "summary": {
     "injector": [],
     "module": [],
     "injectable": [
       {
-        "name": "ProgramDetailsPage",
+        "name": "ProgramDetailsPageBloc",
         "constructor": {
           "name": "",
           "kind": "constructor",
           "injectedType": {
             "lookupKey": {
-              "root": "asset:smarty/lib/programs/ui/screen/program_details_page/program_details_page.dart#ProgramDetailsPage",
+              "root": "asset:smarty/lib/programs/bloc/program_details_page/program_details_page.bloc.dart#ProgramDetailsPageBloc",
               "qualifier": null
             },
             "isProvider": false
@@ -21,7 +21,7 @@
           "dependencies": [
             {
               "lookupKey": {
-                "root": "asset:smarty/lib/programs/bloc/program_details_page/program_details_page.bloc.dart#ProgramDetailsPageBloc",
+                "root": "asset:smarty/lib/programs/service/program_details_page/program_details_page.service.dart#ProgramDetailsService",
                 "qualifier": null
               },
               "isProvider": false

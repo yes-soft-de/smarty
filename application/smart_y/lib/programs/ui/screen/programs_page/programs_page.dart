@@ -57,6 +57,7 @@ class _ProgramsPageState extends State<ProgramsPage> {
   int currentState = ProgramsPageBloc.STATUS_CODE_INIT;
   List<ProgramModel> programs;
 
+  int selectedProgramId = -1;
 
   @override
   Widget build(BuildContext context) {
@@ -292,7 +293,7 @@ class ProgramCardWidget extends StatelessWidget {
                         FlatButton(
                           onPressed: (){
 
-                            _showPaymentDialog(context);
+                            _showPaymentDialog(context , item.id);
                           },
 
                           color: Color(0xff5F06A6),
@@ -328,7 +329,7 @@ class ProgramCardWidget extends StatelessWidget {
 
   }
 
-  _showPaymentDialog(BuildContext context) {
+  _showPaymentDialog(BuildContext context ,int programId) {
     showDialog(
         context: context,
         builder: (_) => new SimpleDialog(
@@ -402,7 +403,7 @@ class ProgramCardWidget extends StatelessWidget {
                     ),
                     FlatButton(
                         onPressed: (){
-                              Navigator.pushNamed(context, ProgramsModule.ROUTE_PROGRAM_DETAILS);
+                              Navigator.pushNamed(context, ProgramsModule.ROUTE_PROGRAM_DETAILS,arguments: programId);
 
                         },
 

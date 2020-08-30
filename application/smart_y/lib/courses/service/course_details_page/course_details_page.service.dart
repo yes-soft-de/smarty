@@ -1,9 +1,9 @@
 import 'package:inject/inject.dart';
-import 'package:smarty/courses/filter/courrse_sections_filter/course_section_filter.dart';
 import 'package:smarty/courses/manager/course_details/course_details.manager.dart';
 import 'package:smarty/courses/model/course_model/course_details.dart';
 import 'package:smarty/courses/response/course_details_response/course_details_response.dart';
 import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
+import 'package:smarty/utils/filter/courrse_sections_filter/course_section_filter.dart';
 
 @provide
 class CourseDetailsService {
