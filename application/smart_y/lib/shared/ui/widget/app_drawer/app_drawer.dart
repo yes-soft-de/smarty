@@ -117,7 +117,7 @@ class AppDrawerWidget extends StatelessWidget {
               ),
               FlatButton(
                 onPressed: (){
-                  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION);
+                  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION/*,arguments: 477*/);
                 },
                 child: ListTile(
                   title: Text("Meditation",

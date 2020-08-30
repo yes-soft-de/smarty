@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/programs/bloc/programs_page/programs_page.bloc.dart';
 import 'package:smarty/programs/model/program/program_model.dart';
+import 'package:smarty/programs/programs_module.dart';
 import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
 import 'package:smarty/shared/ui/widget/loading_indicator/loading_indicator.dart';
 import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
@@ -401,7 +402,7 @@ class ProgramCardWidget extends StatelessWidget {
                     ),
                     FlatButton(
                         onPressed: (){
-
+                              Navigator.pushNamed(context, ProgramsModule.ROUTE_PROGRAM_DETAILS);
 
                         },
 

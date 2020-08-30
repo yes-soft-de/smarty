@@ -159,7 +159,7 @@ class _HomePageState extends State<HomePage> {
             VideoCardWidget(
               playerService: widget.audioPlayerService,
               track:
-                  'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/Ziklibrenbib/Peculate/st/Peculate_-_03_-_Existence_Through_Negation.mp3',
+                  'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
               color: Color(0xff3dd598),
               backgroundColor: Color(0xff286053),
               text: 'Mindfulness',
@@ -169,7 +169,7 @@ class _HomePageState extends State<HomePage> {
             VideoCardWidget(
               playerService: widget.audioPlayerService,
               track:
-                  'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/Ziklibrenbib/Peculate/st/Peculate_-_09_-_The_Immediate_Task.mp3',
+                  'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
               color: Color(0xff9a4614),
               backgroundColor: Color(0xff0a0219),
               text: 'Mindfulness',

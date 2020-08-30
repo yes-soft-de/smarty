@@ -1,0 +1,26 @@
+{
+  "asset": "asset:smarty/lib/programs/ui/screen/program_details_page/audios_tab_page/audios_tab_page.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "AudiosTabPage",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:smarty/lib/programs/ui/screen/program_details_page/audios_tab_page/audios_tab_page.dart#AudiosTabPage",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": []
+        }
+      }
+    ]
+  }
+}

@@ -11,7 +11,6 @@ class MeditationModule extends Module {
 
   static const ROUTE_MEDITATION = '/meditation';
   static const ROUTE_MEDITATION_DETAILS = 'meditation_dtails';
-  static const ROUTE_KINDS_OF_MEDITATION = '/kinds_of_meditation';
   static const ROUTE_MEDITATION_SETTING = '/meditation_setting';
 
   MeditationPage _meditationPage;

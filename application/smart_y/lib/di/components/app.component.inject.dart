@@ -180,7 +180,7 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i39.LessonRepository _createLessonRepository() => _i39.LessonRepository(
       _createApiClient(), _createSharedPreferencesHelper());
   _i40.ProgramsModule _createProgramsModule() =>
-      _i40.ProgramsModule(_createProgramsPage());
+      _i40.ProgramsModule(_createProgramsPage(), null);
   _i41.ProgramsPage _createProgramsPage() => _i41.ProgramsPage(
       _createProgramsPageBloc(), _createAppDrawerWidget(), _createLogger());
   _i42.ProgramsPageBloc _createProgramsPageBloc() =>

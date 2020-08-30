@@ -25,6 +25,13 @@
                 "qualifier": null
               },
               "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/programs/ui/screen/program_details_page/program_details_page.dart#ProgramDetailsPage",
+                "qualifier": null
+              },
+              "isProvider": false
             }
           ]
         }
