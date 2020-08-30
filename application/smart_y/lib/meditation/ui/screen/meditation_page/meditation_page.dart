@@ -43,6 +43,7 @@ class _MeditationPageState extends State<MeditationPage> {
 
       if (this.mounted) {
         setState(() {
+
           //Your state change code goes here
         });
       }
@@ -132,9 +133,8 @@ class _MeditationPageState extends State<MeditationPage> {
               SizedBox(
                 height: 30,
               ),
-              Container(
-                height: MediaQuery.of(context).size.height*0.55,
-                child: Flexible(
+               Flexible(
+                 
                   child: GridView.builder(itemBuilder: (BuildContext context, int index){
 
                     return
@@ -200,39 +200,42 @@ class _MeditationPageState extends State<MeditationPage> {
                     physics: NeverScrollableScrollPhysics(),
                     shrinkWrap: true,),
                 ),
-              ),
 
 
-              FlatButton(
-                  onPressed:
-                (selectedTabId==-1)
-                    ? null
-                    :  ()=>  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_SETTING,arguments:selectedMeditation)
-                  ,
+
+              Container(
+                padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
+                child: FlatButton(
+                    onPressed:
+                  (selectedTabId==-1)
+                      ? null
+                      :  ()=>  Navigator.pushNamed(context, MeditationModule.ROUTE_MEDITATION_SETTING,arguments:selectedMeditation)
+                    ,
 
 
-               color: Color(0xff5F06A6),
-                  child:Container(
-                    width: MediaQuery.of(context).size.width*0.6,
-                    height: MediaQuery.of(context).size.height*0.09,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          'Next',
+                 color: Color(0xff5F06A6),
+                    child:Container(
+                      width: MediaQuery.of(context).size.width*0.6,
+                      height: MediaQuery.of(context).size.height*0.09,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Next',
 
-                          style: TextStyle(
-                              fontSize: 10,
-                              color: Colors.white
+                            style: TextStyle(
+                                fontSize: 10,
+                                color: Colors.white
+                            ),
                           ),
-                        ),
-                        Icon(
-                          Icons.arrow_forward,
-                          color: Colors.white,
-                        ),
-                      ],
-                    ),
-                  )
+                          Icon(
+                            Icons.arrow_forward,
+                            color: Colors.white,
+                          ),
+                        ],
+                      ),
+                    )
+                ),
               )
 
 
