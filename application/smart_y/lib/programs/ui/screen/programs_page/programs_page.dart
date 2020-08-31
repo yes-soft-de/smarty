@@ -47,7 +47,7 @@ class ProgramsPage extends StatefulWidget {
   final Logger _logger;
   final AppDrawerWidget _appDrawerWidget;
 
-  ProgramsPage(this._programsPageBloc,this._appDrawerWidget,this._logger);
+  ProgramsPage(this._programsPageBloc, this._appDrawerWidget, this._logger);
 
   @override
   _ProgramsPageState createState() => _ProgramsPageState();
@@ -66,15 +66,11 @@ class _ProgramsPageState extends State<ProgramsPage> {
 
       if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
         this.programs = stateChanged.last;
-
       }
 
-      if(this.mounted){
-        setState(() {
-
-        });
+      if (this.mounted) {
+        setState(() {});
       }
-
     });
 
     if (currentState == ProgramsPageBloc.STATUS_CODE_INIT) {
@@ -91,31 +87,27 @@ class _ProgramsPageState extends State<ProgramsPage> {
     if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
       widget._logger.info(widget.tag, "Fetching data SUCCESS");
 
-      imageSliders = programs
-          .map((item) =>
-          ProgramCardWidget(item)
-      ).toList();
-       return getPageLayout();
-
+      imageSliders = programs.map((item) => ProgramCardWidget(item)).toList();
+      return getPageLayout();
     }
 
     if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_ERROR) {
       widget._logger.info(widget.tag, "Fetching data Error");
       return Scaffold(
           body: Center(
-            child: Flex(
-              direction: Axis.vertical,
-              children: <Widget>[
-                Text("Fetching data Error.."),
-                RaisedButton(
-                  child: Text('Refresh'),
-                  onPressed: () {
-                    widget._programsPageBloc.getPrograms();
-                  },
-                )
-              ],
-            ),
-          ));
+        child: Flex(
+          direction: Axis.vertical,
+          children: <Widget>[
+            Text("Fetching data Error.."),
+            RaisedButton(
+              child: Text('Refresh'),
+              onPressed: () {
+                widget._programsPageBloc.getPrograms();
+              },
+            )
+          ],
+        ),
+      ));
     }
 
     // Undefined State
@@ -125,84 +117,56 @@ class _ProgramsPageState extends State<ProgramsPage> {
         child: Text("Undefined State?!!"),
       ),
     );
-     }
-
-
-
-
-
-  Widget getPageLayout(){
-    return Scaffold(
-      appBar: SmartyAppBarWidget(
-        appBar: AppBar(),
-        title: 'Programs',
-      ),
-      drawer:widget._appDrawerWidget,
-      body:  Container(
-          color: Color(0xffF2F2F2),
-          child: Container(
-            height: MediaQuery.of(context).size.height ,
-            child: ProgramSliderWidget( ),
-
-        ),
-      )
-    );
-
   }
 
-
-
+  Widget getPageLayout() {
+    return Scaffold(
+        appBar: SmartyAppBarWidget(
+          appBar: AppBar(),
+          title: 'Programs',
+        ),
+        drawer: widget._appDrawerWidget,
+        body: Container(
+          color: Color(0xffF2F2F2),
+          child: Container(
+            height: MediaQuery.of(context).size.height,
+            child: ProgramSliderWidget(),
+          ),
+        ));
+  }
 }
 
-
 class ProgramSliderWidget extends StatelessWidget {
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:  Container(
-            child: Column(
-              children: <Widget>[
-                CarouselSlider(
-                  options: CarouselOptions(
-
-                    height: MediaQuery.of(context).size.height*0.80 ,
-                    autoPlay: true,
-                    aspectRatio: 2.0,
-                    enlargeCenterPage: true,
-                  ),
-                  items: imageSliders,
-                ),
-              ],
-            )),
-
+      body: Container(
+          child: Column(
+        children: <Widget>[
+          CarouselSlider(
+            options: CarouselOptions(
+              height: MediaQuery.of(context).size.height * 0.80,
+              autoPlay: true,
+              aspectRatio: 2.0,
+              enlargeCenterPage: true,
+            ),
+            items: imageSliders,
+          ),
+        ],
+      )),
     );
-
-
   }
-
-
-
-
-
 }
-
-
-
 
 class ProgramCardWidget extends StatelessWidget {
   final ProgramModel item;
   ProgramCardWidget(this.item);
   @override
   Widget build(BuildContext context) {
-    return   Container(
+    return Container(
       child: Container(
-
         margin: EdgeInsets.all(5.0),
-
         child: ClipRRect(
-
             borderRadius: BorderRadius.all(Radius.circular(25.0)),
             child: Stack(
               children: <Widget>[
@@ -211,17 +175,17 @@ class ProgramCardWidget extends StatelessWidget {
                   left: 0.0,
                   right: 0.0,
                   child: Container(
-
                     decoration: BoxDecoration(
                       color: Colors.black38,
                       image: DecorationImage(
-                        colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
+                        colorFilter: new ColorFilter.mode(
+                            Colors.black.withOpacity(0.2), BlendMode.dstATop),
                         image: NetworkImage(item.image),
                         fit: BoxFit.fitHeight,
                       ),
                     ),
-                    padding: EdgeInsets.symmetric(
-                        vertical: 20.0, horizontal: 20.0),
+                    padding:
+                        EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
@@ -230,10 +194,7 @@ class ProgramCardWidget extends StatelessWidget {
                           children: [
                             Row(
                               children: [
-                                Icon(
-                                    Icons.person,
-                                    color: Colors.white
-                                ),
+                                Icon(Icons.person, color: Colors.white),
                                 Text(
                                     '${(item.participant==false)?0:item.participant} member',
                                   style: TextStyle(
@@ -254,20 +215,16 @@ class ProgramCardWidget extends StatelessWidget {
                           height: 10,
                         ),
                         Text(
-                            'It will be on 12 of the month',
-                            style: TextStyle(
-                            color: Colors.white
-                        ),
+                          'It will be on 12 of the month',
+                          style: TextStyle(color: Colors.white),
                         ),
                         Container(
-                             width: MediaQuery.of(context).size.width*0.9,
-                             height:MediaQuery.of(context).size.height*0.4 ,
+                          width: MediaQuery.of(context).size.width * 0.9,
+                          height: MediaQuery.of(context).size.height * 0.4,
                           child: SingleChildScrollView(
                             child: Text(
                               item.content,
-                              style: TextStyle(
-                                  color: Colors.white
-                              ),
+                              style: TextStyle(color: Colors.white),
                             ),
                           ),
                         ),
@@ -276,19 +233,16 @@ class ProgramCardWidget extends StatelessWidget {
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.start,
-                           children: [
-                             Container(
-                               width:MediaQuery.of(context).size.width*0.6,
-                               child: Text(
-                                 item.name,
-                                 style: TextStyle(
-                                     color: Colors.white,
-                                     fontSize: 15
-
-                                 ),
-                               ),
-                             ),
-                           ],
+                          children: [
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.6,
+                              child: Text(
+                                item.name,
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 15),
+                              ),
+                            ),
+                          ],
                         ),
                         FlatButton(
                           onPressed: (){
@@ -307,98 +261,84 @@ class ProgramCardWidget extends StatelessWidget {
                                     fontSize: 10,
                                     color: Colors.white
                                   ),
-                                ),
-                                Icon(
-                                  Icons.arrow_forward,
-                                  color: Colors.white,
-                                ),
-                              ],
-                            ),
-                          )
-                        )
+                                  Icon(
+                                    Icons.arrow_forward,
+                                    color: Colors.white,
+                                  ),
+                                ],
+                              ),
+                            ))
                       ],
                     ),
                   ),
                 ),
               ],
             )),
-
       ),
     );
-
-
   }
 
   _showPaymentDialog(BuildContext context ,int programId) {
     showDialog(
         context: context,
         builder: (_) => new SimpleDialog(
-
-            backgroundColor: Colors.black54,
-            children: [
-              Container(
-                height: MediaQuery.of(context).size.height*0.8,
-                width: MediaQuery.of(context).size.width,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                  Row(
-
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Image(
-                      height: 75,
-                      width: 75,
-                      image: AssetImage('assets/Rectangle16.png'),
-                    ),
-                    Text(
-                      /* _preferencesHelper.getUserEmail().toString()*/'Test@Test.com',
-                      style: TextStyle(
-                        color: Colors.white,
+              backgroundColor: Colors.black54,
+              children: [
+                Container(
+                  height: MediaQuery.of(context).size.height * 0.8,
+                  width: MediaQuery.of(context).size.width,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image(
+                            height: 75,
+                            width: 75,
+                            image: AssetImage('assets/Rectangle16.png'),
+                          ),
+                          Text(
+                            /* _preferencesHelper.getUserEmail().toString()*/ 'Test@Test.com',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                        ],
                       ),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Text(
-                        'The Program Coast',
-                      style: TextStyle(
-                        color: Colors.white,
+                      Row(
+                        children: [
+                          Text(
+                            'The Program Coast',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                          Text(
+                            '120\$',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
+                        ],
                       ),
-                    ),
-                    Text(
-                        '120\$',
-                      style: TextStyle(
-                        color: Colors.white,
+                      Text(
+                        'Please inter your card holder name',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-
-                    Text(
-                      'Please inter your card holder name',
-                      style: TextStyle(
-                        color: Colors.white,
+                      TextField(),
+                      Text(
+                        'Card number',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
                       ),
-                    ),
-                    TextField(
-
-                    ),
-                    Text(
-                      'Card number',
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
-                    ),
-                    TextField(
-                      decoration: InputDecoration(
-                          border: new UnderlineInputBorder(
-                              borderSide: new BorderSide(
-                                  color: Colors.red
-                              )
-                          )
-
+                      TextField(
+                        decoration: InputDecoration(
+                            border: new UnderlineInputBorder(
+                                borderSide: new BorderSide(color: Colors.red))),
                       ),
                     ),
                     FlatButton(
@@ -420,21 +360,17 @@ class ProgramCardWidget extends StatelessWidget {
                                     fontSize: 10,
                                     color: Colors.white
                                 ),
-                              ),
-                              Icon(
-                                Icons.arrow_forward,
-                                color: Colors.white,
-                              ),
-                            ],
-                          ),
-                        )
-                    ),
-            ],
-                ),
-              )
-            ],
-        ));
+                                Icon(
+                                  Icons.arrow_forward,
+                                  color: Colors.white,
+                                ),
+                              ],
+                            ),
+                          )),
+                    ],
+                  ),
+                )
+              ],
+            ));
   }
 }
-
-
