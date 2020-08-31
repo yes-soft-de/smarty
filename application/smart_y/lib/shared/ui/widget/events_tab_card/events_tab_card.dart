@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:smarty/shared/ui/widget/circle_image/circle_iamge.dart';
 
 class EventsTabCard extends StatelessWidget {
   final String content;
+  final String avatar;
+  final String instructor;
 
-  EventsTabCard({this.content});
+  EventsTabCard({this.content,this.avatar,this.instructor});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -18,19 +21,15 @@ class EventsTabCard extends StatelessWidget {
               padding: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 0),
               child: Row(
                 children: <Widget>[
-                  Container(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 10, 0),
-                    child: Image(
 
-                      image: AssetImage('assets/profilePic.png'
-                      ),
-                      height: MediaQuery.of(context).size.width*0.15,
-                    ),
+                    MyCircularImage(
+                      50,50,linkImg: avatar,
+
                   ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
-                      Text('Alex Smith'),
+                      Text(instructor),
                       Text('20 April at 4:20 PM',
                           style: TextStyle(
                             color: Colors.grey,

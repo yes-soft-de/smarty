@@ -144,7 +144,10 @@ class _ArticlesTabPageState extends State<ArticlesTabPage> {
 
 
 
-              : EventsTabCard(content: widget.articles[index].content,)
+              : EventsTabCard(
+                  content: widget.articles[index].content,
+                  instructor:widget.articles[index].instructorName ,
+                  avatar:widget.articles[index].instructorAvatar)
               ;
             }),
 

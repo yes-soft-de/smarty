@@ -30,7 +30,9 @@ class Audio{
 }
 
 class Article{
+  String instructorAvatar;
+  String instructorName;
   String content;
 
-  Article({this.content});
+  Article({this.content,this.instructorName,this.instructorAvatar});
 }
