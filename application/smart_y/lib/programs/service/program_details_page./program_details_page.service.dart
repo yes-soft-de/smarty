@@ -106,7 +106,9 @@ class ProgramDetailsService {
       CourseDetailsResponse articleDetails =
       await _programDetailsManager.getProgramDetails(articles[i].id);
       Article article = new Article(
-         content: DecodeHtml.decode(articleDetails.description)
+         content: DecodeHtml.decode(articleDetails.description),
+        instructorName: articleDetails.course.instructor.name,
+        instructorAvatar: articleDetails.course.instructor.avatar,
       );
       result.add(article);
     }

@@ -100,7 +100,7 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
           body:Column(
             children: [
               Container(
-                height: MediaQuery.of(context).size.height*0.07,
+                height: MediaQuery.of(context).size.height*0.1,
                 child: TabBar(
                     indicatorColor: Color(0xff5E239D),
                     labelPadding: EdgeInsetsDirectional.fromSTEB(0, 3, 0, 0),
@@ -111,13 +111,13 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                             children: [
                               Icon(
                                   Icons.calendar_today,
-                                size: 18,
+                                size: 24,
                               ),
                               Text(
                                   'About',
                                   style:TextStyle(
                                       color:Color(0xff5E239D),
-                                      fontSize: 9
+                                      fontSize: 10
                                   )
                               ),
                             ],
@@ -128,13 +128,13 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                           children: [
                             Icon(
                                 Icons.videocam,
-                              size: 18,
+                              size: 24,
                             ),
                             Text(
                                 'Videos',
                                 style:TextStyle(
                                     color:Color(0xff5E239D),
-                                    fontSize: 9
+                                    fontSize: 10
                             )
                             ),
                           ],
@@ -144,13 +144,13 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                         children: [
                           Icon(
                               Icons.mic,
-                            size: 18,
+                            size: 24,
                           ),
                           Text(
                               'Audio',
                               style:TextStyle(
                                 color:Color(0xff5E239D),
-                                  fontSize: 9
+                                  fontSize: 10
                               )),
                         ],
                       )
@@ -159,13 +159,13 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                         children: [
                           Icon(
                               Icons.library_books,
-                            size: 18,
+                            size: 24,
                           ),
                           Text(
                               'Articles',
                               style:TextStyle(
                                 color:Color(0xff5E239D),
-                                  fontSize: 9
+                                  fontSize: 10
                               )
                           ),
                         ],
@@ -176,7 +176,7 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                 ),
               ),
               Container(
-                height:MediaQuery.of(context).size.height*0.777 ,
+                height:MediaQuery.of(context).size.height*0.7  ,
                 child: TabBarView(
                   children: [
                     AboutTabPage(
