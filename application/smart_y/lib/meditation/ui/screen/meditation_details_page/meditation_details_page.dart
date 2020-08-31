@@ -168,7 +168,7 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
                         :(index == 1)
                                 ?  VideoCardWidget(
                                       playerService: widget._playerService,
-                                      track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                                      track: _meditationDetails.audios[index].audioUrl ,
                                       color: Color(0xff3dd598),
                                       backgroundColor: Color(0xff286053),
                                       text: '${_meditationDetails.audios[index].name}',
@@ -178,7 +178,8 @@ class _MeditationDetailsPageState extends State<MeditationDetailsPage> {
 
                                 :   VideoCardWidget(
                                         playerService: widget._playerService,
-                                        track: 'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                        //                        'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3'
+                                        track:_meditationDetails.audios[index].audioUrl ,
                                         color: Color(0xff9a4614),
                                         backgroundColor: Color(0xff0a0219),
                                         text:

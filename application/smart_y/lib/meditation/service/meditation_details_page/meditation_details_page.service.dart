@@ -20,12 +20,26 @@ class MeditationDetailsService {
       return null;
     }
 
+    List<Audio> audios = await getAudios(meditationDetails.curriculum);
+
     return new MeditationDetails(
         name: meditationDetails.course.name,
       description: meditationDetails.description,
       audiosNumber: meditationDetails.curriculum.length,
-      audios: AudiosFilter.getAudios(meditationDetails.curriculum),
+      audios: audios,
     );
 
+  }
+  Future<List<Audio>> getAudios(List<Curriculum> curriculum)async{
+    List<CourseDetailsResponse>  audios = new List();
+
+    for(int i=0; i<curriculum.length ; i++){
+      CourseDetailsResponse audio =
+          await _meditationDetailManager.getMeditationDetails(int.tryParse(curriculum[i].id));
+
+      audios.add(audio);
+    }
+
+    return AudiosFilter.getAudios(audios);
   }
 }
