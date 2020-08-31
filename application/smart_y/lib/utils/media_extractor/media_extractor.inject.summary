@@ -1,0 +1,8 @@
+{
+  "asset": "asset:smarty/lib/utils/media_extractor/media_extractor.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}

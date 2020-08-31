@@ -14,6 +14,6 @@ class MeditationDetails {
 
 class Audio {
   var name;
-
-  Audio({this.name});
+  String audioUrl;
+  Audio({this.name,this.audioUrl});
 }

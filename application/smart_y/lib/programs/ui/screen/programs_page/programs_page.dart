@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/programs/bloc/programs_page/programs_page.bloc.dart';
 import 'package:smarty/programs/model/program/program_model.dart';
+import 'package:smarty/programs/programs_module.dart';
 import 'package:smarty/shared/ui/widget/app_drawer/app_drawer.dart';
 import 'package:smarty/shared/ui/widget/loading_indicator/loading_indicator.dart';
 import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
@@ -55,6 +56,8 @@ class ProgramsPage extends StatefulWidget {
 class _ProgramsPageState extends State<ProgramsPage> {
   int currentState = ProgramsPageBloc.STATUS_CODE_INIT;
   List<ProgramModel> programs;
+
+  int selectedProgramId = -1;
 
   @override
   Widget build(BuildContext context) {
@@ -193,14 +196,18 @@ class ProgramCardWidget extends StatelessWidget {
                               children: [
                                 Icon(Icons.person, color: Colors.white),
                                 Text(
-                                  '${item.participant} member',
-                                  style: TextStyle(color: Colors.white),
+                                    '${(item.participant==false)?0:item.participant} member',
+                                  style: TextStyle(
+                                      color: Colors.white
+                                  ),
                                 )
                               ],
                             ),
                             Text(
-                              '\$${item.price}',
-                              style: TextStyle(color: Colors.white),
+                              '\$${(item.price==false)?0:item.price}',
+                              style: TextStyle(
+                                  color: Colors.white
+                              ),
                             )
                           ],
                         ),
@@ -238,18 +245,21 @@ class ProgramCardWidget extends StatelessWidget {
                           ],
                         ),
                         FlatButton(
-                            onPressed: () {
-                              _showPaymentDialog(context);
-                            },
-                            color: Color(0xff5F06A6),
-                            child: Container(
-                              height: MediaQuery.of(context).size.height * 0.09,
-                              child: Row(
-                                children: [
-                                  Text(
-                                    'Yes i am intersted',
-                                    style: TextStyle(
-                                        fontSize: 10, color: Colors.white),
+                          onPressed: (){
+
+                            _showPaymentDialog(context , item.id);
+                          },
+
+                          color: Color(0xff5F06A6),
+                          child:Container(
+                            height: MediaQuery.of(context).size.height*0.09,
+                            child: Row(
+                              children: [
+                                Text(
+                                  'Yes i am intersted',
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                    color: Colors.white
                                   ),
                                   Icon(
                                     Icons.arrow_forward,
@@ -268,7 +278,7 @@ class ProgramCardWidget extends StatelessWidget {
     );
   }
 
-  _showPaymentDialog(BuildContext context) {
+  _showPaymentDialog(BuildContext context ,int programId) {
     showDialog(
         context: context,
         builder: (_) => new SimpleDialog(
@@ -330,19 +340,25 @@ class ProgramCardWidget extends StatelessWidget {
                             border: new UnderlineInputBorder(
                                 borderSide: new BorderSide(color: Colors.red))),
                       ),
-                      FlatButton(
-                          onPressed: () {},
-                          color: Color(0xff5F06A6),
-                          child: Container(
-                            height: MediaQuery.of(context).size.height * 0.09,
-                            width: MediaQuery.of(context).size.width * 0.45,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Text(
-                                  'Pay now',
-                                  style: TextStyle(
-                                      fontSize: 10, color: Colors.white),
+                    ),
+                    FlatButton(
+                        onPressed: (){
+                              Navigator.pushNamed(context, ProgramsModule.ROUTE_PROGRAM_DETAILS,arguments: programId);
+
+                        },
+
+                        color: Color(0xff5F06A6),
+                        child:Container(
+                          height: MediaQuery.of(context).size.height*0.09,
+                          width: MediaQuery.of(context).size.width*0.45,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                'Pay now',
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    color: Colors.white
                                 ),
                                 Icon(
                                   Icons.arrow_forward,

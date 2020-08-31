@@ -24,6 +24,7 @@ class ProgramsService{
    programsResponse.forEach((element) {
      availablePrograms.add(
        new ProgramModel(
+           id: element.course.id,
            name: element.course.name,
            content: element.description,
            price: element.course.price,
