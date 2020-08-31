@@ -23,34 +23,46 @@ class ProgramDetailsService {
       return null;
     }
     List<Section>  programSections =  CourseSectionsFilter.getSections(courseDetails.curriculum);
+
+    List<About> about;
     List<Video> videos;
     List<Audio> audios;
     List<Article> articles;
 
-    for(int i=0; i<programSections.length; i++){
-     switch(programSections[i].title){
-       case 'Video': videos=await getProgramVideos(programSections[i].lessons);
-       break;
-       case 'Audio': audios=await getProgramAudios(programSections[i].lessons);
-       break;
-       case 'Article': articles=await getProgramArticles(programSections[i].lessons);
-       break;
-       default:
-       break;
-     }
-    }
 
+
+    for(int i=0; i<programSections.length; i++){
+      if(programSections[i].title == 'About') about=await getAboutProgram(programSections[i].lessons);
+      if(programSections[i].title == 'Video') videos=await getProgramVideos(programSections[i].lessons);
+      if(programSections[i].title == 'Audio') audios=await getProgramAudios(programSections[i].lessons);
+      if(programSections[i].title == 'Article') articles=await getProgramArticles(programSections[i].lessons);
+
+    }
 
 
   return new ProgramDetailsModel(
     audios: audios,
     videos: videos,
-    articles: articles
+    articles: articles,
+    about: about
   );
 
 
   }
+  Future<List<About>> getAboutProgram(List<Lesson> abouts) async{
+    List<About> result = new List();
 
+    for(int i=0; i<abouts.length; i++){
+      CourseDetailsResponse videoDetails =
+      await _programDetailsManager.getProgramDetails(abouts[i].id);
+      About about = new About(
+          content:DecodeHtml.decode( videoDetails.description)
+      );
+
+      result.add(about);
+    }
+    return result;
+  }
 
   Future<List<Video>> getProgramVideos(List<Lesson> videos) async{
     List<Video> result = new List();
@@ -60,7 +72,9 @@ class ProgramDetailsService {
       await _programDetailsManager.getProgramDetails(videos[i].id);
       Video video = new Video(
           name: videoDetails.course.name,
-          videoUrl:MediaExtractor.extractMedia(videoDetails.description)
+          videoUrl:MediaExtractor.extractMedia(videoDetails.description),
+          instructorAvatar: videoDetails.course.instructor.avatar,
+          instructorName:   videoDetails.course.instructor.name
       );
 
       result.add(video);
@@ -94,11 +108,10 @@ class ProgramDetailsService {
       Article article = new Article(
          content: DecodeHtml.decode(articleDetails.description)
       );
-
       result.add(article);
     }
 
-    print('hhhhhhhh '+result.length.toString());
+
     return result;
   }
 }

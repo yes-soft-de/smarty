@@ -12,8 +12,10 @@ class CardVideosName extends StatelessWidget {
   String name;
   String commentNumber;
   String loveNumber;
+  String instructorName;
+  String avatar;
 
-  CardVideosName({this.press, this.name,this.commentNumber,this.loveNumber});
+  CardVideosName({this.press,this.avatar,this.instructorName, this.name,this.commentNumber,this.loveNumber});
 
   @override
   Widget build(BuildContext context) {
@@ -36,10 +38,10 @@ class CardVideosName extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
-                  MyCircularImage(70,70,),
+                  MyCircularImage(50,50,linkImg:avatar ,),
                   SizedBox(width: 4,),
                   Flexible(child:
-                    Text(name,style: TextStyle(color: Colors.black,fontSize: 16 ),),)
+                    Text(instructorName,style: TextStyle(color: Colors.black,fontSize: 14 ),),)
 
                 ],
               ),
@@ -48,7 +50,7 @@ class CardVideosName extends StatelessWidget {
               children: <Widget>[
                 Expanded(
                   child: Container(
-                    height: 200,
+                    height: 150,
 
 
                       child: Card(
@@ -84,30 +86,36 @@ class CardVideosName extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Expanded(
-                    child: Text("weekly progress",style: TextStyle(fontSize: 14),),
+                    child: Text(name,style: TextStyle(fontSize: 12),),
                   ),
                   Expanded(
-                    child: Text("2-2-2020",style: TextStyle(fontSize: 14),textAlign: TextAlign.end,),
+                    child: Text("2-2-2020",style: TextStyle(fontSize: 12),textAlign: TextAlign.end,),
                   ),
                 ],
               ),
               SizedBox(height: 10,),
               Row(
                 mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  Icon(Icons.comment,color: Colors.grey,),
-                  SizedBox(width: 4,),
-                  Flexible(
-                    child: Text(commentNumber,style: TextStyle(fontSize: 14,color:  Colors.grey,),),
+
+                  Row(
+                    children: [
+                      Icon(Icons.comment,color: Colors.grey,),
+                      SizedBox(width: 4,),
+                      Text(commentNumber,style: TextStyle(fontSize: 12,color:  Colors.grey,),),
+
+                    ],
                   ),
-                  SizedBox(width: 4,),
-                  Icon(Icons.assistant_photo,color:  Colors.grey,),
-                  SizedBox(width: 4,),
-                  Flexible(
-                    child: Text(loveNumber,style: TextStyle(fontSize: 14,color:  Colors.grey,),),
-                  ),
-                  SizedBox(width: 4,),
+                 Row(
+                   children: [
+                     Icon(Icons.favorite,color:  Colors.grey,),
+                     SizedBox(width: 4,),
+                      Text(loveNumber,style: TextStyle(fontSize: 12,color:  Colors.grey,),),
+
+
+                   ],
+                 )
                 ],
               )
 

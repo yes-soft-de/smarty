@@ -2,21 +2,33 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:smarty/audio_player/service/audio_payer_service.dart';
 import 'package:smarty/shared/ui/widget/circle_image/circle_iamge.dart';
 
-class CardAudioName extends StatelessWidget {
-  VoidCallback press;
+class CardAudioName extends StatefulWidget {
   String name;
   String avatar;
   String commentNumber;
   String loveNumber;
+  String track;
+  final AudioPlayerService playerService;
 
-  CardAudioName({this.press, this.name,this.avatar, this.commentNumber, this.loveNumber});
+  CardAudioName(
+      { this.name,
+        this.avatar,this.track,
+        this.commentNumber, this.loveNumber,
+        this.playerService
+      });
 
   @override
+  _CardAudioNameState createState() => _CardAudioNameState();
+}
+
+class _CardAudioNameState extends State<CardAudioName> {
+  @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap:press ,
+    return Container(
+
       child: Card(
 
         color: Colors.white,
@@ -30,14 +42,14 @@ class CardAudioName extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              SizedBox(height: 10,),
+              SizedBox(height: 5,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
-                  MyCircularImage(60,60,linkImg: avatar,),
+                  MyCircularImage(50,50,linkImg: widget.avatar,),
                   SizedBox(width: 4,),
                   Flexible(child:
-                  Text(name,style: TextStyle(color: Colors.black,fontSize: 16 ),),),
+                     Text(widget.name,style: TextStyle(color: Colors.black,fontSize: 14 ),),),
 
                   Expanded(
                     flex: 2,
@@ -45,14 +57,28 @@ class CardAudioName extends StatelessWidget {
 
                       child: Align(
                         alignment: Alignment.topRight,
-                        child: ClipOval(
-
-                            child: Container(color: Colors.blue.withOpacity(0.4)
-
-                                ,child: Padding(
-                                  padding: const EdgeInsets.all(2.0),
-                                  child: Icon(Icons.play_arrow,size: 30,color: Colors.blue),
-                                ))),
+                        child:  GestureDetector(
+                          child: Container(
+                            height: 32,
+                            width: 32,
+                            decoration: BoxDecoration(
+                                color: Color(0x8fB9F6CA),
+                                borderRadius: BorderRadius.all(Radius.circular(32))),
+                            child: widget.playerService.isPlaying(widget.track)
+                                ? Icon(Icons.pause)
+                                : Icon(Icons.play_arrow),
+                          ),
+                          onTap: () {
+                            widget.playerService.isPlaying(widget.track)
+                                ? widget.playerService.pause()
+                                : widget.playerService.play(widget.track);
+                            setState(() {});
+                          },
+                          onLongPress: () {
+                            widget.playerService.stop();
+                            setState(() {});
+                          },
+                        )
                       ),
                     ),
                   ),
@@ -61,36 +87,28 @@ class CardAudioName extends StatelessWidget {
               ),
 
               SizedBox(height: 10,),
-
-            /*  Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  Expanded(
-                    child: Text("weekly progress",style: TextStyle(fontSize: 14),),
-                  ),
-                  Expanded(
-                    child: Text("2-2-2020",style: TextStyle(fontSize: 14),textAlign: TextAlign.end,),
-                  ),
-                ],
-              ),*/
-              SizedBox(height: 10,),
               Row(
                 mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  Icon(Icons.comment,color: Colors.grey,),
-                  SizedBox(width: 4,),
-                  Flexible(
-                    child: Text(commentNumber,style: TextStyle(fontSize: 14,color:  Colors.grey,),),
+
+                  Row(
+                    children: [
+                      Icon(Icons.comment,color: Colors.grey,),
+                      SizedBox(width: 4,),
+                      Text(widget.commentNumber,style: TextStyle(fontSize: 12,color:  Colors.grey,),),
+
+                    ],
                   ),
-                  SizedBox(width: 4,),
-                  Icon(Icons.assistant_photo,color:  Colors.grey,),
-                  SizedBox(width: 4,),
-                  Flexible(
-                    child: Text(loveNumber,style: TextStyle(fontSize: 14,color:  Colors.grey,),),
-                  ),
-                  SizedBox(width: 4,),
+                  Row(
+                    children: [
+                      Icon(Icons.favorite,color:  Colors.grey,),
+                      SizedBox(width: 4,),
+                      Text(widget.loveNumber,style: TextStyle(fontSize: 12,color:  Colors.grey,),),
+
+
+                    ],
+                  )
                 ],
               )
 

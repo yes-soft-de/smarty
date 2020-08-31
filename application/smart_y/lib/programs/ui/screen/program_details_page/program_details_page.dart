@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/programs/bloc/program_details_page/program_details_page.bloc.dart';
 import 'package:smarty/programs/model/program_details_model/program_details_model.dart';
+import 'package:smarty/programs/ui/screen/program_details_page/about_tab_page/about_tab_page.dart';
 import 'package:smarty/programs/ui/screen/program_details_page/articles_tab_page/articles_tab_page.dart';
 import 'package:smarty/programs/ui/screen/program_details_page/videos_tab_page/videos_tap_page.dart';
 import 'package:smarty/shared/ui/widget/loading_indicator/loading_indicator.dart';
@@ -83,13 +84,14 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
 
   Widget getPageLayout(){
     return DefaultTabController(
-      length:3 ,
+      length:4 ,
       child: Scaffold(
             appBar: AppBar(
               title: Text(
                   'Prewelness',
                 style: TextStyle(
-                  color: Colors.white
+                  color: Colors.white,
+                      fontSize: 15
                 ),
               ),
               backgroundColor:Color(0xff5E239D) ,
@@ -101,43 +103,69 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                 height: MediaQuery.of(context).size.height*0.07,
                 child: TabBar(
                     indicatorColor: Color(0xff5E239D),
+                    labelPadding: EdgeInsetsDirectional.fromSTEB(0, 3, 0, 0),
                     tabs:
                     [
-//                      Tab(child: Text('About',style:TextStyle(color: Color(0xff5E239D),)),),
                       Tab(
-                        child: Row(
+                          child: Column(
+                            children: [
+                              Icon(
+                                  Icons.calendar_today,
+                                size: 18,
+                              ),
+                              Text(
+                                  'About',
+                                  style:TextStyle(
+                                      color:Color(0xff5E239D),
+                                      fontSize: 9
+                                  )
+                              ),
+                            ],
+                          )
+                      ),
+                      Tab(
+                        child: Column(
                           children: [
-                            Icon(Icons.videocam),
+                            Icon(
+                                Icons.videocam,
+                              size: 18,
+                            ),
                             Text(
                                 'Videos',
                                 style:TextStyle(
                                     color:Color(0xff5E239D),
-                                    fontSize: 10
+                                    fontSize: 9
                             )
                             ),
                           ],
                         )
                       ),
-                      Tab(child: Row(
+                      Tab(child: Column(
                         children: [
-                          Icon(Icons.mic),
+                          Icon(
+                              Icons.mic,
+                            size: 18,
+                          ),
                           Text(
                               'Audio',
                               style:TextStyle(
                                 color:Color(0xff5E239D),
-                                  fontSize: 10
+                                  fontSize: 9
                               )),
                         ],
                       )
                       ),
-                      Tab(child: Row(
+                      Tab(child: Column(
                         children: [
-                          Icon(Icons.library_books),
+                          Icon(
+                              Icons.library_books,
+                            size: 18,
+                          ),
                           Text(
                               'Articles',
                               style:TextStyle(
                                 color:Color(0xff5E239D),
-                                  fontSize: 10
+                                  fontSize: 9
                               )
                           ),
                         ],
@@ -151,6 +179,9 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                 height:MediaQuery.of(context).size.height*0.777 ,
                 child: TabBarView(
                   children: [
+                    AboutTabPage(
+                        _programDetailsModel.about
+                    ),
                     VideosTabPage(
                       _programDetailsModel.videos
                     ),

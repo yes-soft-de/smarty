@@ -7,7 +7,7 @@ class ArticlesTabPage extends StatefulWidget {
   final List<Article> articles;
 
  ArticlesTabPage(this.articles){
-       articles.insert(0, new Article(content: ''));
+       articles.insert(0, new Article(content: ' '));
  }
   @override
   _ArticlesTabPageState createState() => _ArticlesTabPageState();
@@ -22,13 +22,13 @@ class _ArticlesTabPageState extends State<ArticlesTabPage> {
   Widget getPageLayout(){
     return Scaffold(
       body:Container(
-        padding: EdgeInsetsDirectional.fromSTEB(20, 10, 20, 10),
+        padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
         child: ListView.builder(
             itemCount: widget.articles.length,
             padding: EdgeInsetsDirectional.fromSTEB(0,50 ,0, 0),
             itemBuilder: (BuildContext context, int index) {
               return (index == 0)
-              ?Column(
+              ? Column(
                     children: [
                           Row(
                                 children: <Widget>[

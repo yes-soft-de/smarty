@@ -1,21 +1,23 @@
 
 class ProgramDetailsModel{
-//  List<About> about;
+  List<About> about;
   List<Video> videos;
   List<Audio> audios;
   List<Article> articles;
-  ProgramDetailsModel({this.audios,/*this.about,*/this.articles,this.videos});
+  ProgramDetailsModel({this.audios,this.about,this.articles,this.videos});
 }
 
 class About{
-
+   String content;
+   About({this.content});
 }
 
 class Video{
   String name;
   String videoUrl;
-
-  Video({this.name,this.videoUrl});
+  String instructorAvatar;
+  String instructorName;
+  Video({this.name,this.videoUrl,this.instructorAvatar,this.instructorName});
 
 }
 
