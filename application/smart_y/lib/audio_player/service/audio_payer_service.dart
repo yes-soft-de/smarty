@@ -15,7 +15,8 @@ class AudioPlayerService {
       _player.stop();
     }
 
-    _player.load(AudioSource.uri(Uri.parse(track)));
+    String editedTrackUrl = track.replaceAll('https', 'http');
+    _player.load(AudioSource.uri(Uri.parse(editedTrackUrl)));
     _player.play();
   }
 

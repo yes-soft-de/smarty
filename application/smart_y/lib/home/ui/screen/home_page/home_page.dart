@@ -214,7 +214,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   name: 'Introduce',
                   duration: 20,
-                  color: Colors.greenAccent,
+                  color: Colors.lightGreen,
                 ),
                 ArticleCardWidget(
                   icon: Icon(
@@ -223,7 +223,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   name: 'Introduce',
                   duration: 20,
-                  color: Colors.pink,
+                  color: Colors.orange,
                 ),
               ],
             ),
