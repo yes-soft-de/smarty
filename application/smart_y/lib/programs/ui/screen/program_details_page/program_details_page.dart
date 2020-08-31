@@ -83,7 +83,7 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
 
   Widget getPageLayout(){
     return DefaultTabController(
-      length:2 ,
+      length:3 ,
       child: Scaffold(
             appBar: AppBar(
               title: Text(
@@ -130,20 +130,20 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                         ],
                       )
                       ),
-//                      Tab(child: Row(
-//                        children: [
-//                          Icon(Icons.library_books),
-//                          Text(
-//                              'Articles',
-//                              style:TextStyle(
-//                                color:Color(0xff5E239D),
-//                                  fontSize: 10
-//                              )
-//                          ),
-//                        ],
-//
-//                      )
-//                      ),
+                      Tab(child: Row(
+                        children: [
+                          Icon(Icons.library_books),
+                          Text(
+                              'Articles',
+                              style:TextStyle(
+                                color:Color(0xff5E239D),
+                                  fontSize: 10
+                              )
+                          ),
+                        ],
+
+                      )
+                      ),
                     ]
                 ),
               ),
@@ -157,9 +157,9 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                     AudiosTabPage(
                       _programDetailsModel.audios
                     ),
-//                    ArticlesTabPage(
-//                      _programDetailsModel.articles
-//                    )
+                    ArticlesTabPage(
+                      _programDetailsModel.articles
+                    )
                   ],
                 ),
               ),

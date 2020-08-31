@@ -27,6 +27,9 @@ class CourseSectionsFilter{
         );
       }
     });
+    if(tempSection != null){
+      sections.add(tempSection);
+    }
  return sections;
   }
 

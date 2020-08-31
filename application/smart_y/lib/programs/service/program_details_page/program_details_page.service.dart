@@ -27,19 +27,14 @@ class ProgramDetailsService {
     List<Audio> audios;
     List<Article> articles;
 
-    for(int i=0; i<programSections.length; i++){
-     switch(programSections[i].title){
-       case 'Video': videos=await getProgramVideos(programSections[i].lessons);
-       break;
-       case 'Audio': audios=await getProgramAudios(programSections[i].lessons);
-       break;
-       case 'Article': articles=await getProgramArticles(programSections[i].lessons);
-       break;
-       default:
-       break;
-     }
-    }
 
+
+    for(int i=0; i<programSections.length; i++){
+      if(programSections[i].title == 'Video') videos=await getProgramVideos(programSections[i].lessons);
+      if(programSections[i].title == 'Audio') audios=await getProgramAudios(programSections[i].lessons);
+      if(programSections[i].title == 'Article') articles=await getProgramArticles(programSections[i].lessons);
+
+    }
 
 
   return new ProgramDetailsModel(
@@ -93,12 +88,11 @@ class ProgramDetailsService {
       await _programDetailsManager.getProgramDetails(articles[i].id);
       Article article = new Article(
          content: DecodeHtml.decode(articleDetails.description)
-      );
-
+      ); 
       result.add(article);
     }
 
-    print('hhhhhhhh '+result.length.toString());
+
     return result;
   }
 }
