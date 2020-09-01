@@ -160,7 +160,9 @@ class ProgramSliderWidget extends StatelessWidget {
 
 class ProgramCardWidget extends StatelessWidget {
   final ProgramModel item;
+
   ProgramCardWidget(this.item);
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -196,18 +198,14 @@ class ProgramCardWidget extends StatelessWidget {
                               children: [
                                 Icon(Icons.person, color: Colors.white),
                                 Text(
-                                    '${(item.participant==false)?0:item.participant} member',
-                                  style: TextStyle(
-                                      color: Colors.white
-                                  ),
+                                  '${(item.participant == false) ? 0 : item.participant} member',
+                                  style: TextStyle(color: Colors.white),
                                 )
                               ],
                             ),
                             Text(
-                              '\$${(item.price==false)?0:item.price}',
-                              style: TextStyle(
-                                  color: Colors.white
-                              ),
+                              '\$${(item.price == false) ? 0 : item.price}',
+                              style: TextStyle(color: Colors.white),
                             )
                           ],
                         ),
@@ -245,22 +243,17 @@ class ProgramCardWidget extends StatelessWidget {
                           ],
                         ),
                         FlatButton(
-                          onPressed: (){
-
-                            _showPaymentDialog(context , item.id);
-                          },
-
-                          color: Color(0xff5F06A6),
-                          child:Container(
-                            height: MediaQuery.of(context).size.height*0.09,
-                            child: Row(
-                              children: [
-                                Text(
-                                  'Yes i am intersted',
-                                  style: TextStyle(
-                                    fontSize: 10,
-                                    color: Colors.white
-                                  ),
+                            onPressed: () {
+                              _showPaymentDialog(context, item.id);
+                            },
+                            color: Color(0xff5F06A6),
+                            child: Container(
+                              height: MediaQuery.of(context).size.height * 0.09,
+                              child: Row(
+                                children: [
+                                  Text('Yes i am intersted',
+                                      style: TextStyle(
+                                          fontSize: 10, color: Colors.white)),
                                   Icon(
                                     Icons.arrow_forward,
                                     color: Colors.white,
@@ -278,7 +271,7 @@ class ProgramCardWidget extends StatelessWidget {
     );
   }
 
-  _showPaymentDialog(BuildContext context ,int programId) {
+  _showPaymentDialog(BuildContext context, int programId) {
     showDialog(
         context: context,
         builder: (_) => new SimpleDialog(
@@ -299,7 +292,8 @@ class ProgramCardWidget extends StatelessWidget {
                             image: AssetImage('assets/Rectangle16.png'),
                           ),
                           Text(
-                            /* _preferencesHelper.getUserEmail().toString()*/ 'Test@Test.com',
+                            /* _preferencesHelper.getUserEmail().toString()*/
+                            'Test@Test.com',
                             style: TextStyle(
                               color: Colors.white,
                             ),
@@ -340,26 +334,22 @@ class ProgramCardWidget extends StatelessWidget {
                             border: new UnderlineInputBorder(
                                 borderSide: new BorderSide(color: Colors.red))),
                       ),
-                    ),
-                    FlatButton(
-                        onPressed: (){
-                              Navigator.pushNamed(context, ProgramsModule.ROUTE_PROGRAM_DETAILS,arguments: programId);
-
-                        },
-
-                        color: Color(0xff5F06A6),
-                        child:Container(
-                          height: MediaQuery.of(context).size.height*0.09,
-                          width: MediaQuery.of(context).size.width*0.45,
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text(
-                                'Pay now',
-                                style: TextStyle(
-                                    fontSize: 10,
-                                    color: Colors.white
-                                ),
+                      FlatButton(
+                          onPressed: () {
+                            Navigator.pushNamed(
+                                context, ProgramsModule.ROUTE_PROGRAM_DETAILS,
+                                arguments: programId);
+                          },
+                          color: Color(0xff5F06A6),
+                          child: Container(
+                            height: MediaQuery.of(context).size.height * 0.09,
+                            width: MediaQuery.of(context).size.width * 0.45,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text('Pay now',
+                                    style: TextStyle(
+                                        fontSize: 10, color: Colors.white)),
                                 Icon(
                                   Icons.arrow_forward,
                                   color: Colors.white,
