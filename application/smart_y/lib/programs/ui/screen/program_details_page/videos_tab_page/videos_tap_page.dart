@@ -18,27 +18,24 @@ class _VideosTabPageState extends State<VideosTabPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-     body:  Container(
-           padding: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 10),
-           child: ListView.builder(
-               itemCount: widget.videos.length,
-
-               itemBuilder: (BuildContext context, int index) {
-                 return    Container(
-                   margin: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 25),
-                   child: CardVideosName(
-                     videoUrl: widget.videos[index].videoUrl,
-                     name: widget.videos[index].name,
-                     avatar: widget.videos[index].instructorAvatar,
-                     instructorName: widget.videos[index].instructorName,
-                     commentNumber: "7Comment",
-                     loveNumber: "10Likes",),
-                 );
-               }),
-
-         ),
-
-
+      body: Container(
+        padding: EdgeInsetsDirectional.fromSTEB(20, 20, 20, 10),
+        child: ListView.builder(
+            itemCount: widget.videos.length,
+            itemBuilder: (BuildContext context, int index) {
+              return Container(
+                margin: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 25),
+                child: CardVideosName(
+                  videoUrl: widget.videos[index].videoUrl,
+                  name: widget.videos[index].name,
+                  avatar: widget.videos[index].instructorAvatar,
+                  instructorName: widget.videos[index].instructorName,
+                  commentNumber: "7Comment",
+                  loveNumber: "10Likes",
+                ),
+              );
+            }),
+      ),
     );
   }
 }
