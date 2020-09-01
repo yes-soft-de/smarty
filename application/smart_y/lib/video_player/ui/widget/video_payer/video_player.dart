@@ -29,8 +29,6 @@ class _SmartyVideoPlayerState extends State<VideoPlayer> {
 
   @override
   Widget build(BuildContext context) {
-    return FlickVideoPlayer(
-        flickManager: flickManager
-    );
+    return FlickVideoPlayer(flickManager: flickManager);
   }
 }
