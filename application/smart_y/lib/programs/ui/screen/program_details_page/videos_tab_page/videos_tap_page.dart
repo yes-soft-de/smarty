@@ -1,11 +1,9 @@
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/programs/model/program_details_model/program_details_model.dart';
 import 'package:smarty/programs/ui/widget/card_videos_name/card_videos_name.dart';
-import 'package:smarty/shared/project_colors/project_colors.dart';
+
 @provide
 class VideosTabPage extends StatefulWidget {
   final List<Video> videos;
@@ -29,6 +27,7 @@ class _VideosTabPageState extends State<VideosTabPage> {
                  return    Container(
                    margin: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 25),
                    child: CardVideosName(
+                     videoUrl: widget.videos[index].videoUrl,
                      name: widget.videos[index].name,
                      avatar: widget.videos[index].instructorAvatar,
                      instructorName: widget.videos[index].instructorName,
