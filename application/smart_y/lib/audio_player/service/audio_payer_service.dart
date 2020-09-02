@@ -1,9 +1,14 @@
 import 'package:inject/inject.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:rxdart/rxdart.dart';
 
 @provide
 class AudioPlayerService {
   final AudioPlayer _player = AudioPlayer();
+
+  final PublishSubject _playerEventSubject = PublishSubject();
+  Stream<String> get playerEventStream => _playerEventSubject.stream;
+
   String currentTrack;
 
   void play(String track) {
@@ -11,6 +16,7 @@ class AudioPlayerService {
       return;
     }
     currentTrack = track;
+    _playerEventSubject.add(track);
     if (_player.playing) {
       _player.stop();
     }
@@ -22,6 +28,7 @@ class AudioPlayerService {
 
   void stop() {
     if (_player.playing) {
+      _playerEventSubject.add(null);
       _player.stop();
     }
   }
@@ -34,5 +41,9 @@ class AudioPlayerService {
 
   bool isPlaying(String track) {
     return currentTrack == track && _player.playing;
+  }
+
+  void dispose() {
+    _playerEventSubject.close();
   }
 }

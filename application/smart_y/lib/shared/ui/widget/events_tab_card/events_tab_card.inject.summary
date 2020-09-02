@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/shared/ui/widget/events_tab_card/events_tab_card.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/authorization/request/login_page/login_request.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}

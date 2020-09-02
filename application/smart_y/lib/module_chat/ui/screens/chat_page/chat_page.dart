@@ -10,9 +10,7 @@ import 'package:smarty/module_chat/ui/widget/chat_bubble/chat_bubble.dart';
 @provide
 class ChatPage extends StatefulWidget {
   final ChatPageBloc _chatPageBloc;
-
   ChatPage(this._chatPageBloc);
-
   @override
   State<StatefulWidget> createState() => ChatPageState();
 }

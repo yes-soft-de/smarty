@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/shared/ui/widget/smart_app_bar/smarty_app_bar.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}

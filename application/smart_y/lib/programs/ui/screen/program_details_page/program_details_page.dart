@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/module_chat/ui/screens/chat_page/chat_page.dart';
 import 'package:smarty/programs/bloc/program_details_page/program_details_page.bloc.dart';
 import 'package:smarty/programs/model/program_details_model/program_details_model.dart';
 import 'package:smarty/programs/ui/screen/program_details_page/about_tab_page/about_tab_page.dart';
@@ -16,9 +17,10 @@ class ProgramDetailsPage extends StatefulWidget {
 
   final ProgramDetailsPageBloc _programDetailsPageBloc;
   final Logger _logger;
+  final ChatPage _chatPage;
 
-  ProgramDetailsPage(this._programDetailsPageBloc,this._logger);
-
+  ProgramDetailsPage(
+      this._programDetailsPageBloc, this._logger, this._chatPage);
 
   @override
   _ProgramDetailsPageState createState() => _ProgramDetailsPageState();
@@ -34,21 +36,20 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
   Widget build(BuildContext context) {
     _programId = ModalRoute.of(context).settings.arguments;
 
-    widget._programDetailsPageBloc.programdetailsStateObservable.listen((state) {
-        currentState = state.first;
+    widget._programDetailsPageBloc.programdetailsStateObservable
+        .listen((state) {
+      currentState = state.first;
 
-        if(currentState == ProgramDetailsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS){
-          _programDetailsModel = state.last;
-        }
-        if(this.mounted){
-          setState(() {
-
-          });
-        }
-
+      if (currentState ==
+          ProgramDetailsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
+        _programDetailsModel = state.last;
+      }
+      if (this.mounted) {
+        setState(() {});
+      }
     });
 
-    if(currentState == ProgramDetailsPageBloc.STATUS_CODE_INIT){
+    if (currentState == ProgramDetailsPageBloc.STATUS_CODE_INIT) {
       widget._logger.info(widget.tag, "Program details Page Started");
       widget._programDetailsPageBloc.getProgramDetails(_programId);
     }
@@ -58,17 +59,19 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
       return LoadingIndicatorWidget();
     }
 
-    if (currentState == ProgramDetailsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
+    if (currentState ==
+        ProgramDetailsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
       widget._logger.info(widget.tag, "Fetching data SUCCESS");
       return getPageLayout();
     }
 
-    if (currentState == ProgramDetailsPageBloc.STATUS_CODE_FETCHING_DATA_ERROR) {
+    if (currentState ==
+        ProgramDetailsPageBloc.STATUS_CODE_FETCHING_DATA_ERROR) {
       widget._logger.info(widget.tag, "Fetching data Error");
       return Scaffold(
           body: Center(
-            child: Text("Fetching data Error"),
-          ));
+        child: Text("Fetching data Error"),
+      ));
     }
 
     // Undefined State
@@ -78,125 +81,103 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
         child: Text("Undefined State?!!"),
       ),
     );
-
-
   }
 
-  Widget getPageLayout(){
+  Widget getPageLayout() {
     return DefaultTabController(
-      length:4 ,
+      length: 4,
       child: Scaffold(
-            appBar: AppBar(
-              title: Text(
-                  'Prewelness',
-                style: TextStyle(
-                  color: Colors.white,
-                      fontSize: 15
-                ),
-              ),
-              backgroundColor:Color(0xff5E239D) ,
+          appBar: AppBar(
+            title: Text(
+              'Prewelness',
+              style: TextStyle(color: Colors.white, fontSize: 15),
             ),
-
-          body:Column(
+            backgroundColor: Color(0xff5E239D),
+          ),
+          body: Column(
             children: [
               Container(
-                height: MediaQuery.of(context).size.height*0.1,
+                height: MediaQuery.of(context).size.height * 0.1,
                 child: TabBar(
                     indicatorColor: Color(0xff5E239D),
                     labelPadding: EdgeInsetsDirectional.fromSTEB(0, 3, 0, 0),
-                    tabs:
-                    [
+                    tabs: [
                       Tab(
                           child: Column(
-                            children: [
-                              Icon(
-                                  Icons.calendar_today,
-                                size: 24,
-                              ),
-                              Text(
-                                  'About',
-                                  style:TextStyle(
-                                      color:Color(0xff5E239D),
-                                      fontSize: 10
-                                  )
-                              ),
-                            ],
-                          )
-                      ),
+                        children: [
+                          Icon(
+                            Icons.calendar_today,
+                            size: 24,
+                          ),
+                          Text('About',
+                              style: TextStyle(
+                                  color: Color(0xff5E239D), fontSize: 10)),
+                        ],
+                      )),
                       Tab(
-                        child: Column(
-                          children: [
-                            Icon(
-                                Icons.videocam,
-                              size: 24,
-                            ),
-                            Text(
-                                'Videos',
-                                style:TextStyle(
-                                    color:Color(0xff5E239D),
-                                    fontSize: 10
-                            )
-                            ),
-                          ],
-                        )
-                      ),
-                      Tab(child: Column(
+                          child: Column(
                         children: [
                           Icon(
-                              Icons.mic,
+                            Icons.videocam,
                             size: 24,
                           ),
-                          Text(
-                              'Audio',
-                              style:TextStyle(
-                                color:Color(0xff5E239D),
-                                  fontSize: 10
-                              )),
+                          Text('Videos',
+                              style: TextStyle(
+                                  color: Color(0xff5E239D), fontSize: 10)),
                         ],
-                      )
-                      ),
-                      Tab(child: Column(
+                      )),
+                      Tab(
+                          child: Column(
                         children: [
                           Icon(
-                              Icons.library_books,
+                            Icons.mic,
                             size: 24,
                           ),
-                          Text(
-                              'Articles',
-                              style:TextStyle(
-                                color:Color(0xff5E239D),
-                                  fontSize: 10
-                              )
-                          ),
+                          Text('Audio',
+                              style: TextStyle(
+                                  color: Color(0xff5E239D), fontSize: 10)),
                         ],
-
-                      )
-                      ),
-                    ]
-                ),
+                      )),
+                      Tab(
+                          child: Column(
+                        children: [
+                          Icon(
+                            Icons.library_books,
+                            size: 24,
+                          ),
+                          Text('Articles',
+                              style: TextStyle(
+                                  color: Color(0xff5E239D), fontSize: 10)),
+                        ],
+                      )),
+                      Tab(
+                          child: Column(
+                        children: [
+                          Icon(
+                            Icons.library_books,
+                            size: 24,
+                          ),
+                          Text('Comments',
+                              style: TextStyle(
+                                  color: Color(0xff5E239D), fontSize: 10)),
+                        ],
+                      ))
+                    ]),
               ),
               Container(
-                height:MediaQuery.of(context).size.height*0.7  ,
+                height: MediaQuery.of(context).size.height * 0.7,
                 child: TabBarView(
                   children: [
-                    AboutTabPage(
-                        _programDetailsModel.about
-                    ),
-                    VideosTabPage(
-                      _programDetailsModel.videos
-                    ),
-                    AudiosTabPage(
-                      _programDetailsModel.audios
-                    ),
-                    ArticlesTabPage(
-                      _programDetailsModel.articles
-                    )
+                    AboutTabPage(_programDetailsModel.about),
+                    VideosTabPage(_programDetailsModel.videos),
+                    AudiosTabPage(_programDetailsModel.audios),
+                    ArticlesTabPage(_programDetailsModel.articles),
+                    widget._chatPage
                   ],
                 ),
               ),
             ],
-          )
-      ),
+          )),
     );
   }
 }

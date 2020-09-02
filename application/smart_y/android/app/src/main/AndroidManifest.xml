@@ -8,6 +8,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="smarty"
         android:icon="@mipmap/ic_launcher">
+
         <service android:name="com.ryanheise.audioservice.AudioService">
             <intent-filter>
                 <action android:name="android.media.browse.MediaBrowserService" />

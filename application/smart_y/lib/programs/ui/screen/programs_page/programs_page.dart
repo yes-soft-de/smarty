@@ -9,34 +9,6 @@ import 'package:smarty/shared/ui/widget/loading_indicator/loading_indicator.dart
 import 'package:smarty/shared/ui/widget/smart_app_bar/smarty_app_bar.dart';
 import 'package:smarty/utils/logger/logger.dart';
 
-//fake data
-//final List<ProgramModel> programList = [
-//  ProgramModel(
-//  content:'It looks like you are on track. Please continue to follow your daily plan.' ,
-//  name:'Pre wellness' ,
-////  date: new DateTime(2020,8,15),
-//  participant:20 ,
-//  price:120,
-//  image:'assets/Bitmap2.png'
-//  ),
-//  ProgramModel(
-//      content:'It looks like you are on track. Please continue to follow your daily plan.' ,
-//      name:'Pre wellness' ,
-////      date: new DateTime(2020,8,30),
-//      participant:20 ,
-//      price:120,
-//    image: 'assets/Bitmap2.png'
-//  ),
-//  ProgramModel(
-//      content:'It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.It looks like you are on track. Please continue to follow your daily plan.' ,
-//      name:'Pre wellness' ,
-////      date: new DateTime(2020,8,20),
-//      participant:20 ,
-//      price:120,
-//      image:'assets/Bitmap2.png'
-//  ),
-//];
-
 List<Widget> imageSliders = [];
 
 @provide

@@ -1,8 +1,0 @@
-{
-  "asset": "asset:smarty/lib/authorization/request/lifter_register_request/lifter_register_request.dart",
-  "summary": {
-    "injector": [],
-    "module": [],
-    "injectable": []
-  }
-}
