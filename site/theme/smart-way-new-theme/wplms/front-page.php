@@ -302,7 +302,7 @@
                   <a href="<?php echo $lesson['link']; ?>">
                     <div class="row">
                       <div class="col-xs-7">
-                        <img src="<?php// echo wp_get_attachment_url( get_post_thumbnail_id($lesson->id) ); ?>" alt="">
+                        <img src="<?php echo get_the_post_thumbnail_url( $lesson['id'] ) ? get_the_post_thumbnail_url( $lesson['id'] ) : get_template_directory_uri() . '/assets/img/inner-peace-meditation.jpg'; ?>" alt="">
                         <div class="d-inline-block meditation-div-title">
                           <span class="meditation-title d-block"><?php echo $lesson['title']; ?></span>
                           <span class="meditation-shadow-title d-block"><?php echo $lesson['title']; ?></span>
