@@ -1,0 +1,1327 @@
+wp_posts,893,post_type,Type,course
+wp_posts,893,post_title,Title,Relationships
+wp_posts,893,post_date,Date,"2020-08-30 12:40:08"
+wp_posts,893,post_content,Content,
+wp_posts,893,post_author,"Author ID",1
+wp_posts,893,post_excerpt,Excerpt,
+wp_posts,893,post_status,Status,publish
+wp_posts,893,post_name,Slug,relationships
+wp_posts,893,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,893,_edit_lock," edit lock",1598791108:1
+wp_postmeta,893,_edit_last," edit last",1
+wp_postmeta,893,_wp_page_template," wp page template",default
+wp_postmeta,893,slide_template,"Slide template",
+wp_postmeta,893,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,893,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,893,vibe_duration,"Total Duration of Course",10
+wp_postmeta,893,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,893,vibe_students,"Total number of Students in Course",1
+wp_postmeta,893,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,893,vibe_course_offline,"Offline Course",H
+wp_postmeta,893,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,893,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,893,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,893,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,893,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,893,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,893,vibe_start_date,"Course Start Date",
+wp_postmeta,893,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,893,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,893,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,893,vibe_course_badge_title,"Badge Title",
+wp_postmeta,893,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,893,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,893,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,893,vibe_course_drip,"Drip Feed",H
+wp_postmeta,893,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,893,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,893,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,893,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,893,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,893,vibe_course_curriculum,"Course Curriculum","Relationships S1|884|887|Relationships S2|889|891"
+wp_postmeta,893,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,893,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,893,vibe_forum,"Course Forum",
+wp_postmeta,893,vibe_group,"Course Group",
+wp_postmeta,893,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,893,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,893,vibe_course_free,"Vibe course free",S
+wp_postmeta,893,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,893,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,893,vibe_product,"Vibe product",
+wp_terms,893,course-cat,Terms,"Relationships,Spirit"
+wp_user,1,"User Details",talal.danoun@gmail.com,wow.shop100
+wp_usermeta,893,"User Timestamp",1,1599655214
+wp_postmeta,893,1,"User status",0
+wp_usermeta,course_status893,"COURSE STATUS",1,2
+wp_posts,884,post_type,Type,unit
+wp_posts,884,post_title,Title,"Lovely 1"
+wp_posts,884,post_date,Date,"2020-08-30 12:36:39"
+wp_posts,884,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,884,post_author,"Author ID",1
+wp_posts,884,post_excerpt,Excerpt,
+wp_posts,884,post_status,Status,publish
+wp_posts,884,post_name,Slug,lovely-1
+wp_posts,884,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,884,_edit_lock," edit lock",1598790862:1
+wp_postmeta,884,_edit_last," edit last",1
+wp_postmeta,884,slide_template,"Slide template",
+wp_postmeta,884,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,884,vibe_subtitle,"Unit Description"," "
+wp_postmeta,884,vibe_type,"Unit Type",play
+wp_postmeta,884,vibe_free,"Free Unit",S
+wp_postmeta,884,vibe_duration,"Unit Duration",
+wp_postmeta,884,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,884,vibe_forum,"Unit Forum",
+wp_postmeta,884,vibe_assignment,"Connect Assignments",
+wp_postmeta,884,vibe_unit_attachments,Attachments,
+wp_posts,887,post_type,Type,unit
+wp_posts,887,post_title,Title,"Lovely 2"
+wp_posts,887,post_date,Date,"2020-08-30 12:37:12"
+wp_posts,887,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,887,post_author,"Author ID",1
+wp_posts,887,post_excerpt,Excerpt,
+wp_posts,887,post_status,Status,publish
+wp_posts,887,post_name,Slug,lovely-2
+wp_posts,887,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,887,_edit_lock," edit lock",1598790896:1
+wp_postmeta,887,_edit_last," edit last",1
+wp_postmeta,887,slide_template,"Slide template",
+wp_postmeta,887,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,887,vibe_subtitle,"Unit Description"," "
+wp_postmeta,887,vibe_type,"Unit Type",play
+wp_postmeta,887,vibe_free,"Free Unit",S
+wp_postmeta,887,vibe_duration,"Unit Duration",
+wp_postmeta,887,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,887,vibe_forum,"Unit Forum",
+wp_postmeta,887,vibe_assignment,"Connect Assignments",
+wp_postmeta,887,vibe_unit_attachments,Attachments,
+wp_posts,889,post_type,Type,unit
+wp_posts,889,post_title,Title,"Lovely 3"
+wp_posts,889,post_date,Date,"2020-08-30 12:37:52"
+wp_posts,889,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,889,post_author,"Author ID",1
+wp_posts,889,post_excerpt,Excerpt,
+wp_posts,889,post_status,Status,publish
+wp_posts,889,post_name,Slug,lovely-3
+wp_posts,889,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,889,_edit_lock," edit lock",1598790937:1
+wp_postmeta,889,_edit_last," edit last",1
+wp_postmeta,889,slide_template,"Slide template",
+wp_postmeta,889,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,889,vibe_subtitle,"Unit Description"," "
+wp_postmeta,889,vibe_type,"Unit Type",play
+wp_postmeta,889,vibe_free,"Free Unit",S
+wp_postmeta,889,vibe_duration,"Unit Duration",
+wp_postmeta,889,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,889,vibe_forum,"Unit Forum",
+wp_postmeta,889,vibe_assignment,"Connect Assignments",
+wp_postmeta,889,vibe_unit_attachments,Attachments,
+wp_posts,891,post_type,Type,unit
+wp_posts,891,post_title,Title,"Lovely 4"
+wp_posts,891,post_date,Date,"2020-08-30 12:38:31"
+wp_posts,891,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,891,post_author,"Author ID",1
+wp_posts,891,post_excerpt,Excerpt,
+wp_posts,891,post_status,Status,publish
+wp_posts,891,post_name,Slug,lovely-4
+wp_posts,891,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,891,_edit_lock," edit lock",1598790976:1
+wp_postmeta,891,_edit_last," edit last",1
+wp_postmeta,891,slide_template,"Slide template",
+wp_postmeta,891,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,891,vibe_subtitle,"Unit Description"," "
+wp_postmeta,891,vibe_type,"Unit Type",play
+wp_postmeta,891,vibe_free,"Free Unit",S
+wp_postmeta,891,vibe_duration,"Unit Duration",
+wp_postmeta,891,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,891,vibe_forum,"Unit Forum",
+wp_postmeta,891,vibe_assignment,"Connect Assignments",
+wp_postmeta,891,vibe_unit_attachments,Attachments,
+wp_posts,882,post_type,Type,course
+wp_posts,882,post_title,Title,"Atmosphere & Fun"
+wp_posts,882,post_date,Date,"2020-08-30 12:32:07"
+wp_posts,882,post_content,Content,
+wp_posts,882,post_author,"Author ID",1
+wp_posts,882,post_excerpt,Excerpt,
+wp_posts,882,post_status,Status,publish
+wp_posts,882,post_name,Slug,atmosphere-fun
+wp_posts,882,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,882,_edit_lock," edit lock",1598790688:1
+wp_postmeta,882,_edit_last," edit last",1
+wp_postmeta,882,_wp_page_template," wp page template",default
+wp_postmeta,882,slide_template,"Slide template",
+wp_postmeta,882,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,882,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,882,vibe_duration,"Total Duration of Course",10
+wp_postmeta,882,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,882,vibe_students,"Total number of Students in Course",1
+wp_postmeta,882,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,882,vibe_course_offline,"Offline Course",H
+wp_postmeta,882,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,882,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,882,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,882,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,882,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,882,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,882,vibe_start_date,"Course Start Date",
+wp_postmeta,882,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,882,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,882,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,882,vibe_course_badge_title,"Badge Title",
+wp_postmeta,882,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,882,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,882,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,882,vibe_course_drip,"Drip Feed",H
+wp_postmeta,882,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,882,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,882,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,882,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,882,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,882,vibe_course_curriculum,"Course Curriculum","Atmosphere &amp; Fun S1|873|875|Atmosphere &amp; Fun S2|877|880"
+wp_postmeta,882,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,882,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,882,vibe_forum,"Course Forum",
+wp_postmeta,882,vibe_group,"Course Group",
+wp_postmeta,882,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,882,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,882,vibe_course_free,"Vibe course free",S
+wp_postmeta,882,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,882,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,882,vibe_product,"Vibe product",
+wp_terms,882,course-cat,Terms,"Atmosphere&amp;Fun,Heat"
+wp_user,1,"User Details",talal.danoun@gmail.com,wow.shop100
+wp_usermeta,882,"User Timestamp",1,1599654735
+wp_postmeta,882,1,"User status",0
+wp_usermeta,course_status882,"COURSE STATUS",1,2
+wp_posts,873,post_type,Type,unit
+wp_posts,873,post_title,Title,"Joyful 1"
+wp_posts,873,post_date,Date,"2020-08-30 12:27:26"
+wp_posts,873,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,873,post_author,"Author ID",1
+wp_posts,873,post_excerpt,Excerpt,
+wp_posts,873,post_status,Status,publish
+wp_posts,873,post_name,Slug,joyful-1
+wp_posts,873,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,873,_edit_lock," edit lock",1598790308:1
+wp_postmeta,873,_edit_last," edit last",1
+wp_postmeta,873,slide_template,"Slide template",
+wp_postmeta,873,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,873,vibe_subtitle,"Unit Description"," "
+wp_postmeta,873,vibe_type,"Unit Type",play
+wp_postmeta,873,vibe_free,"Free Unit",S
+wp_postmeta,873,vibe_duration,"Unit Duration",
+wp_postmeta,873,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,873,vibe_forum,"Unit Forum",
+wp_postmeta,873,vibe_assignment,"Connect Assignments",
+wp_postmeta,873,vibe_unit_attachments,Attachments,
+wp_posts,875,post_type,Type,unit
+wp_posts,875,post_title,Title,"Joyful 2"
+wp_posts,875,post_date,Date,"2020-08-30 12:27:58"
+wp_posts,875,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,875,post_author,"Author ID",1
+wp_posts,875,post_excerpt,Excerpt,
+wp_posts,875,post_status,Status,publish
+wp_posts,875,post_name,Slug,joyful-2
+wp_posts,875,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,875,_edit_lock," edit lock",1598790340:1
+wp_postmeta,875,_edit_last," edit last",1
+wp_postmeta,875,slide_template,"Slide template",
+wp_postmeta,875,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,875,vibe_subtitle,"Unit Description"," "
+wp_postmeta,875,vibe_type,"Unit Type",play
+wp_postmeta,875,vibe_free,"Free Unit",S
+wp_postmeta,875,vibe_duration,"Unit Duration",
+wp_postmeta,875,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,875,vibe_forum,"Unit Forum",
+wp_postmeta,875,vibe_assignment,"Connect Assignments",
+wp_postmeta,875,vibe_unit_attachments,Attachments,
+wp_posts,877,post_type,Type,unit
+wp_posts,877,post_title,Title,"Joyful 3"
+wp_posts,877,post_date,Date,"2020-08-30 12:28:26"
+wp_posts,877,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,877,post_author,"Author ID",1
+wp_posts,877,post_excerpt,Excerpt,
+wp_posts,877,post_status,Status,publish
+wp_posts,877,post_name,Slug,joyful-3
+wp_posts,877,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,877,_edit_lock," edit lock",1598790540:1
+wp_postmeta,877,_edit_last," edit last",1
+wp_postmeta,877,slide_template,"Slide template",
+wp_postmeta,877,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,877,vibe_subtitle,"Unit Description"," "
+wp_postmeta,877,vibe_type,"Unit Type",play
+wp_postmeta,877,vibe_free,"Free Unit",S
+wp_postmeta,877,vibe_duration,"Unit Duration",
+wp_postmeta,877,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,877,vibe_forum,"Unit Forum",
+wp_postmeta,877,vibe_assignment,"Connect Assignments",
+wp_postmeta,877,vibe_unit_attachments,Attachments,
+wp_posts,880,post_type,Type,unit
+wp_posts,880,post_title,Title,"Joyful 4"
+wp_posts,880,post_date,Date,"2020-08-30 12:29:35"
+wp_posts,880,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,880,post_author,"Author ID",1
+wp_posts,880,post_excerpt,Excerpt,
+wp_posts,880,post_status,Status,publish
+wp_posts,880,post_name,Slug,joyful-4
+wp_posts,880,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,880,_edit_lock," edit lock",1598790438:1
+wp_postmeta,880,_edit_last," edit last",1
+wp_postmeta,880,slide_template,"Slide template",
+wp_postmeta,880,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,880,vibe_subtitle,"Unit Description"," "
+wp_postmeta,880,vibe_type,"Unit Type",play
+wp_postmeta,880,vibe_free,"Free Unit",S
+wp_postmeta,880,vibe_duration,"Unit Duration",
+wp_postmeta,880,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,880,vibe_forum,"Unit Forum",
+wp_postmeta,880,vibe_assignment,"Connect Assignments",
+wp_postmeta,880,vibe_unit_attachments,Attachments,
+wp_posts,871,post_type,Type,course
+wp_posts,871,post_title,Title,Mind
+wp_posts,871,post_date,Date,"2020-08-30 12:23:49"
+wp_posts,871,post_content,Content,
+wp_posts,871,post_author,"Author ID",1
+wp_posts,871,post_excerpt,Excerpt,
+wp_posts,871,post_status,Status,publish
+wp_posts,871,post_name,Slug,mind
+wp_posts,871,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,871,_edit_lock," edit lock",1598790131:1
+wp_postmeta,871,_edit_last," edit last",1
+wp_postmeta,871,_wp_page_template," wp page template",default
+wp_postmeta,871,slide_template,"Slide template",
+wp_postmeta,871,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,871,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,871,vibe_duration,"Total Duration of Course",10
+wp_postmeta,871,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,871,vibe_students,"Total number of Students in Course",1
+wp_postmeta,871,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,871,vibe_course_offline,"Offline Course",H
+wp_postmeta,871,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,871,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,871,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,871,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,871,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,871,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,871,vibe_start_date,"Course Start Date",
+wp_postmeta,871,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,871,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,871,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,871,vibe_course_badge_title,"Badge Title",
+wp_postmeta,871,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,871,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,871,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,871,vibe_course_drip,"Drip Feed",H
+wp_postmeta,871,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,871,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,871,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,871,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,871,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,871,vibe_course_curriculum,"Course Curriculum","Mind S1|863|865|Mind S2|867|869"
+wp_postmeta,871,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,871,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,871,vibe_forum,"Course Forum",
+wp_postmeta,871,vibe_group,"Course Group",
+wp_postmeta,871,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,871,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,871,vibe_course_free,"Vibe course free",S
+wp_postmeta,871,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,871,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,871,vibe_product,"Vibe product",
+wp_terms,871,course-cat,Terms,"Heat,Mind"
+wp_user,1,"User Details",talal.danoun@gmail.com,wow.shop100
+wp_usermeta,871,"User Timestamp",1,1599654239
+wp_postmeta,871,1,"User status",0
+wp_usermeta,course_status871,"COURSE STATUS",1,2
+wp_posts,863,post_type,Type,unit
+wp_posts,863,post_title,Title,"Mindful 1"
+wp_posts,863,post_date,Date,"2020-08-30 12:20:00"
+wp_posts,863,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,863,post_author,"Author ID",1
+wp_posts,863,post_excerpt,Excerpt,
+wp_posts,863,post_status,Status,publish
+wp_posts,863,post_name,Slug,mindful-1
+wp_posts,863,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,863,_edit_lock," edit lock",1598789875:1
+wp_postmeta,863,_edit_last," edit last",1
+wp_postmeta,863,slide_template,"Slide template",
+wp_postmeta,863,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,863,vibe_subtitle,"Unit Description"," "
+wp_postmeta,863,vibe_type,"Unit Type",play
+wp_postmeta,863,vibe_free,"Free Unit",S
+wp_postmeta,863,vibe_duration,"Unit Duration",
+wp_postmeta,863,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,863,vibe_forum,"Unit Forum",
+wp_postmeta,863,vibe_assignment,"Connect Assignments",
+wp_postmeta,863,vibe_unit_attachments,Attachments,
+wp_posts,865,post_type,Type,unit
+wp_posts,865,post_title,Title,"Mindful 2"
+wp_posts,865,post_date,Date,"2020-08-30 12:20:45"
+wp_posts,865,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,865,post_author,"Author ID",1
+wp_posts,865,post_excerpt,Excerpt,
+wp_posts,865,post_status,Status,publish
+wp_posts,865,post_name,Slug,mindful-2
+wp_posts,865,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,865,_edit_lock," edit lock",1598789908:1
+wp_postmeta,865,_edit_last," edit last",1
+wp_postmeta,865,slide_template,"Slide template",
+wp_postmeta,865,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,865,vibe_subtitle,"Unit Description"," "
+wp_postmeta,865,vibe_type,"Unit Type",play
+wp_postmeta,865,vibe_free,"Free Unit",S
+wp_postmeta,865,vibe_duration,"Unit Duration",
+wp_postmeta,865,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,865,vibe_forum,"Unit Forum",
+wp_postmeta,865,vibe_assignment,"Connect Assignments",
+wp_postmeta,865,vibe_unit_attachments,Attachments,
+wp_posts,867,post_type,Type,unit
+wp_posts,867,post_title,Title,"Mindful 3"
+wp_posts,867,post_date,Date,"2020-08-30 12:21:19"
+wp_posts,867,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,867,post_author,"Author ID",1
+wp_posts,867,post_excerpt,Excerpt,
+wp_posts,867,post_status,Status,publish
+wp_posts,867,post_name,Slug,mindful-3
+wp_posts,867,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,867,_edit_lock," edit lock",1598789944:1
+wp_postmeta,867,_edit_last," edit last",1
+wp_postmeta,867,slide_template,"Slide template",
+wp_postmeta,867,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,867,vibe_subtitle,"Unit Description"," "
+wp_postmeta,867,vibe_type,"Unit Type",play
+wp_postmeta,867,vibe_free,"Free Unit",S
+wp_postmeta,867,vibe_duration,"Unit Duration",
+wp_postmeta,867,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,867,vibe_forum,"Unit Forum",
+wp_postmeta,867,vibe_assignment,"Connect Assignments",
+wp_postmeta,867,vibe_unit_attachments,Attachments,
+wp_posts,869,post_type,Type,unit
+wp_posts,869,post_title,Title,"Mindful 4"
+wp_posts,869,post_date,Date,"2020-08-30 12:21:58"
+wp_posts,869,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,869,post_author,"Author ID",1
+wp_posts,869,post_excerpt,Excerpt,
+wp_posts,869,post_status,Status,publish
+wp_posts,869,post_name,Slug,mindful-4
+wp_posts,869,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,869,_edit_lock," edit lock",1598789982:1
+wp_postmeta,869,_edit_last," edit last",1
+wp_postmeta,869,slide_template,"Slide template",
+wp_postmeta,869,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,869,vibe_subtitle,"Unit Description"," "
+wp_postmeta,869,vibe_type,"Unit Type",play
+wp_postmeta,869,vibe_free,"Free Unit",S
+wp_postmeta,869,vibe_duration,"Unit Duration",
+wp_postmeta,869,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,869,vibe_forum,"Unit Forum",
+wp_postmeta,869,vibe_assignment,"Connect Assignments",
+wp_postmeta,869,vibe_unit_attachments,Attachments,
+wp_posts,860,post_type,Type,course
+wp_posts,860,post_title,Title,Body
+wp_posts,860,post_date,Date,"2020-08-30 12:00:44"
+wp_posts,860,post_content,Content,
+wp_posts,860,post_author,"Author ID",1
+wp_posts,860,post_excerpt,Excerpt,
+wp_posts,860,post_status,Status,publish
+wp_posts,860,post_name,Slug,body
+wp_posts,860,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,860,_edit_lock," edit lock",1598789877:1
+wp_postmeta,860,_edit_last," edit last",1
+wp_postmeta,860,_wp_page_template," wp page template",default
+wp_postmeta,860,slide_template,"Slide template",
+wp_postmeta,860,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,860,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,860,vibe_duration,"Total Duration of Course",10
+wp_postmeta,860,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,860,vibe_students,"Total number of Students in Course",1
+wp_postmeta,860,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,860,vibe_course_offline,"Offline Course",H
+wp_postmeta,860,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,860,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,860,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,860,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,860,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,860,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,860,vibe_start_date,"Course Start Date",
+wp_postmeta,860,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,860,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,860,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,860,vibe_course_badge_title,"Badge Title",
+wp_postmeta,860,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,860,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,860,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,860,vibe_course_drip,"Drip Feed",H
+wp_postmeta,860,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,860,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,860,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,860,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,860,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,860,vibe_course_curriculum,"Course Curriculum","Body S2|856|858|Body S1|852|854"
+wp_postmeta,860,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,860,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,860,vibe_forum,"Course Forum",
+wp_postmeta,860,vibe_group,"Course Group",
+wp_postmeta,860,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,860,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,860,vibe_course_free,"Vibe course free",S
+wp_postmeta,860,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,860,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,860,vibe_product,"Vibe product",
+wp_terms,860,course-cat,Terms,"Body,Heat"
+wp_user,1,"User Details",talal.danoun@gmail.com,wow.shop100
+wp_usermeta,860,"User Timestamp",1,1599652852
+wp_postmeta,860,1,"User status",0
+wp_usermeta,course_status860,"COURSE STATUS",1,2
+wp_posts,856,post_type,Type,unit
+wp_posts,856,post_title,Title,"Powerful 3"
+wp_posts,856,post_date,Date,"2020-08-30 11:51:13"
+wp_posts,856,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,856,post_author,"Author ID",1
+wp_posts,856,post_excerpt,Excerpt,
+wp_posts,856,post_status,Status,publish
+wp_posts,856,post_name,Slug,powerful-3
+wp_posts,856,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,856,_edit_lock," edit lock",1598788145:1
+wp_postmeta,856,_edit_last," edit last",1
+wp_postmeta,856,slide_template,"Slide template",
+wp_postmeta,856,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,856,vibe_subtitle,"Unit Description"," "
+wp_postmeta,856,vibe_type,"Unit Type",play
+wp_postmeta,856,vibe_free,"Free Unit",S
+wp_postmeta,856,vibe_duration,"Unit Duration",
+wp_postmeta,856,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,856,vibe_forum,"Unit Forum",
+wp_postmeta,856,vibe_assignment,"Connect Assignments",
+wp_postmeta,856,vibe_unit_attachments,Attachments,
+wp_posts,858,post_type,Type,unit
+wp_posts,858,post_title,Title,"Powerful 4"
+wp_posts,858,post_date,Date,"2020-08-30 11:52:05"
+wp_posts,858,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,858,post_author,"Author ID",1
+wp_posts,858,post_excerpt,Excerpt,
+wp_posts,858,post_status,Status,publish
+wp_posts,858,post_name,Slug,powerful-4
+wp_posts,858,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,858,_edit_lock," edit lock",1598788212:1
+wp_postmeta,858,_edit_last," edit last",1
+wp_postmeta,858,slide_template,"Slide template",
+wp_postmeta,858,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,858,vibe_subtitle,"Unit Description"," "
+wp_postmeta,858,vibe_type,"Unit Type",play
+wp_postmeta,858,vibe_free,"Free Unit",S
+wp_postmeta,858,vibe_duration,"Unit Duration",
+wp_postmeta,858,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,858,vibe_forum,"Unit Forum",
+wp_postmeta,858,vibe_assignment,"Connect Assignments",
+wp_postmeta,858,vibe_unit_attachments,Attachments,
+wp_posts,852,post_type,Type,unit
+wp_posts,852,post_title,Title,"Powerful 1"
+wp_posts,852,post_date,Date,"2020-08-30 11:48:10"
+wp_posts,852,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,852,post_author,"Author ID",1
+wp_posts,852,post_excerpt,Excerpt,
+wp_posts,852,post_status,Status,publish
+wp_posts,852,post_name,Slug,powerful-1
+wp_posts,852,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,852,_edit_lock," edit lock",1598787960:1
+wp_postmeta,852,_edit_last," edit last",1
+wp_postmeta,852,slide_template,"Slide template",
+wp_postmeta,852,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,852,vibe_subtitle,"Unit Description"," "
+wp_postmeta,852,vibe_type,"Unit Type",play
+wp_postmeta,852,vibe_free,"Free Unit",S
+wp_postmeta,852,vibe_duration,"Unit Duration",
+wp_postmeta,852,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,852,vibe_forum,"Unit Forum",
+wp_postmeta,852,vibe_assignment,"Connect Assignments",
+wp_postmeta,852,vibe_unit_attachments,Attachments,
+wp_posts,854,post_type,Type,unit
+wp_posts,854,post_title,Title,"Powerful 2"
+wp_posts,854,post_date,Date,"2020-08-30 11:50:11"
+wp_posts,854,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,854,post_author,"Author ID",1
+wp_posts,854,post_excerpt,Excerpt,
+wp_posts,854,post_status,Status,publish
+wp_posts,854,post_name,Slug,powerful-2
+wp_posts,854,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,854,_edit_lock," edit lock",1598788102:1
+wp_postmeta,854,_edit_last," edit last",1
+wp_postmeta,854,slide_template,"Slide template",
+wp_postmeta,854,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,854,vibe_subtitle,"Unit Description"," "
+wp_postmeta,854,vibe_type,"Unit Type",play
+wp_postmeta,854,vibe_free,"Free Unit",S
+wp_postmeta,854,vibe_duration,"Unit Duration",
+wp_postmeta,854,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,854,vibe_forum,"Unit Forum",
+wp_postmeta,854,vibe_assignment,"Connect Assignments",
+wp_postmeta,854,vibe_unit_attachments,Attachments,
+wp_posts,781,post_type,Type,course
+wp_posts,781,post_title,Title,"Pre Business"
+wp_posts,781,post_date,Date,"2020-08-29 21:17:41"
+wp_posts,781,post_content,Content,
+wp_posts,781,post_author,"Author ID",1
+wp_posts,781,post_excerpt,Excerpt,
+wp_posts,781,post_status,Status,publish
+wp_posts,781,post_name,Slug,pre-business
+wp_posts,781,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,781,_edit_lock," edit lock",1598768051:1
+wp_postmeta,781,_edit_last," edit last",1
+wp_postmeta,781,_wp_page_template," wp page template",default
+wp_postmeta,781,slide_template,"Slide template",
+wp_postmeta,781,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,781,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,781,vibe_duration,"Total Duration of Course",10
+wp_postmeta,781,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,781,vibe_students,"Total number of Students in Course",0
+wp_postmeta,781,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,781,vibe_course_offline,"Offline Course",H
+wp_postmeta,781,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,781,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,781,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,781,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,781,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,781,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,781,vibe_start_date,"Course Start Date",
+wp_postmeta,781,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,781,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,781,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,781,vibe_course_badge_title,"Badge Title",
+wp_postmeta,781,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,781,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,781,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,781,vibe_course_drip,"Drip Feed",H
+wp_postmeta,781,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,781,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,781,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,781,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,781,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,781,vibe_course_curriculum,"Course Curriculum",About|Video|818|Audio|Article
+wp_postmeta,781,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,781,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,781,vibe_forum,"Course Forum",
+wp_postmeta,781,vibe_group,"Course Group",
+wp_postmeta,781,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,781,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,781,vibe_course_free,"Vibe course free",S
+wp_postmeta,781,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,781,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,781,vibe_product,"Vibe product",847
+wp_terms,781,course-cat,Terms,Programmes
+wp_posts,818,post_type,Type,unit
+wp_posts,818,post_title,Title,"Pre business"
+wp_posts,818,post_date,Date,"2020-08-29 19:41:38"
+wp_posts,818,post_content,Content,"[video width=""854"" height=""480"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/Smart-Y-Pre-Business.mp4""][/video]"
+wp_posts,818,post_author,"Author ID",1
+wp_posts,818,post_excerpt,Excerpt,
+wp_posts,818,post_status,Status,publish
+wp_posts,818,post_name,Slug,pre-business
+wp_posts,818,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,818,_edit_lock," edit lock",1598736869:1
+wp_postmeta,818,_edit_last," edit last",1
+wp_postmeta,818,slide_template,"Slide template",
+wp_postmeta,818,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,818,vibe_subtitle,"Unit Description"," "
+wp_postmeta,818,vibe_type,"Unit Type",play
+wp_postmeta,818,vibe_free,"Free Unit",S
+wp_postmeta,818,vibe_duration,"Unit Duration",
+wp_postmeta,818,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,818,vibe_forum,"Unit Forum",
+wp_postmeta,818,vibe_assignment,"Connect Assignments",
+wp_postmeta,818,vibe_unit_attachments,Attachments,819
+wp_posts,836,post_type,Type,course
+wp_posts,836,post_title,Title,Love
+wp_posts,836,post_date,Date,"2020-08-29 20:12:05"
+wp_posts,836,post_content,Content,
+wp_posts,836,post_author,"Author ID",1
+wp_posts,836,post_excerpt,Excerpt,
+wp_posts,836,post_status,Status,publish
+wp_posts,836,post_name,Slug,love
+wp_posts,836,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,836,_edit_lock," edit lock",1598731835:1
+wp_postmeta,836,_edit_last," edit last",1
+wp_postmeta,836,_thumbnail_id," thumbnail id",838
+wp_postmeta,836,_wp_page_template," wp page template",default
+wp_postmeta,836,slide_template,"Slide template",
+wp_postmeta,836,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,836,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,836,vibe_duration,"Total Duration of Course",10
+wp_postmeta,836,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,836,vibe_students,"Total number of Students in Course",0
+wp_postmeta,836,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,836,vibe_course_offline,"Offline Course",H
+wp_postmeta,836,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,836,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,836,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,836,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,836,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,836,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,836,vibe_start_date,"Course Start Date",
+wp_postmeta,836,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,836,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,836,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,836,vibe_course_badge_title,"Badge Title",
+wp_postmeta,836,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,836,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,836,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,836,vibe_course_drip,"Drip Feed",H
+wp_postmeta,836,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,836,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,836,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,836,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,836,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,836,vibe_course_curriculum,"Course Curriculum","Love s1|829|831|833"
+wp_postmeta,836,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,836,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,836,vibe_forum,"Course Forum",
+wp_postmeta,836,vibe_group,"Course Group",
+wp_postmeta,836,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,836,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,836,vibe_course_free,"Vibe course free",S
+wp_postmeta,836,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,836,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,836,vibe_product,"Vibe product",
+wp_terms,836,course-cat,Terms,Meditations
+wp_posts,829,post_type,Type,unit
+wp_posts,829,post_title,Title,"Love 1"
+wp_posts,829,post_date,Date,"2020-08-29 20:09:12"
+wp_posts,829,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,829,post_author,"Author ID",1
+wp_posts,829,post_excerpt,Excerpt,
+wp_posts,829,post_status,Status,publish
+wp_posts,829,post_name,Slug,love-1
+wp_posts,829,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,829,_edit_lock," edit lock",1598731629:1
+wp_postmeta,829,_edit_last," edit last",1
+wp_postmeta,829,slide_template,"Slide template",
+wp_postmeta,829,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,829,vibe_subtitle,"Unit Description"," "
+wp_postmeta,829,vibe_type,"Unit Type",music-file-1
+wp_postmeta,829,vibe_free,"Free Unit",S
+wp_postmeta,829,vibe_duration,"Unit Duration",
+wp_postmeta,829,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,829,vibe_forum,"Unit Forum",
+wp_postmeta,829,vibe_assignment,"Connect Assignments",
+wp_postmeta,829,vibe_unit_attachments,Attachments,
+wp_posts,831,post_type,Type,unit
+wp_posts,831,post_title,Title,"Love 2"
+wp_posts,831,post_date,Date,"2020-08-29 20:09:52"
+wp_posts,831,post_content,Content,
+wp_posts,831,post_author,"Author ID",1
+wp_posts,831,post_excerpt,Excerpt,
+wp_posts,831,post_status,Status,publish
+wp_posts,831,post_name,Slug,love-2
+wp_posts,831,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,831,_edit_lock," edit lock",1598731655:1
+wp_postmeta,831,_edit_last," edit last",1
+wp_postmeta,831,slide_template,"Slide template",
+wp_postmeta,831,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,831,vibe_subtitle,"Unit Description"," "
+wp_postmeta,831,vibe_type,"Unit Type",music-file-1
+wp_postmeta,831,vibe_free,"Free Unit",H
+wp_postmeta,831,vibe_duration,"Unit Duration",
+wp_postmeta,831,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,831,vibe_forum,"Unit Forum",
+wp_postmeta,831,vibe_assignment,"Connect Assignments",
+wp_postmeta,831,vibe_unit_attachments,Attachments,
+wp_posts,833,post_type,Type,unit
+wp_posts,833,post_title,Title,"Love 3"
+wp_posts,833,post_date,Date,"2020-08-29 20:10:15"
+wp_posts,833,post_content,Content,
+wp_posts,833,post_author,"Author ID",1
+wp_posts,833,post_excerpt,Excerpt,
+wp_posts,833,post_status,Status,publish
+wp_posts,833,post_name,Slug,love-3
+wp_posts,833,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,833,_edit_lock," edit lock",1598731688:1
+wp_postmeta,833,_edit_last," edit last",1
+wp_postmeta,833,slide_template,"Slide template",
+wp_postmeta,833,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,833,vibe_subtitle,"Unit Description"," "
+wp_postmeta,833,vibe_type,"Unit Type",music-file-1
+wp_postmeta,833,vibe_free,"Free Unit",H
+wp_postmeta,833,vibe_duration,"Unit Duration",
+wp_postmeta,833,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,833,vibe_forum,"Unit Forum",
+wp_postmeta,833,vibe_assignment,"Connect Assignments",
+wp_postmeta,833,vibe_unit_attachments,Attachments,
+wp_posts,827,post_type,Type,course
+wp_posts,827,post_title,Title,Energy
+wp_posts,827,post_date,Date,"2020-08-29 20:06:49"
+wp_posts,827,post_content,Content,
+wp_posts,827,post_author,"Author ID",1
+wp_posts,827,post_excerpt,Excerpt,
+wp_posts,827,post_status,Status,publish
+wp_posts,827,post_name,Slug,energy
+wp_posts,827,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,827,_edit_lock," edit lock",1598731910:1
+wp_postmeta,827,_edit_last," edit last",1
+wp_postmeta,827,_wp_page_template," wp page template",default
+wp_postmeta,827,slide_template,"Slide template",
+wp_postmeta,827,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,827,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,827,vibe_duration,"Total Duration of Course",10
+wp_postmeta,827,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,827,vibe_students,"Total number of Students in Course",1
+wp_postmeta,827,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,827,vibe_course_offline,"Offline Course",H
+wp_postmeta,827,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,827,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,827,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,827,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,827,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,827,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,827,vibe_start_date,"Course Start Date",
+wp_postmeta,827,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,827,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,827,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,827,vibe_course_badge_title,"Badge Title",
+wp_postmeta,827,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,827,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,827,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,827,vibe_course_drip,"Drip Feed",H
+wp_postmeta,827,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,827,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,827,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,827,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,827,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,827,vibe_course_curriculum,"Course Curriculum","Energy s1|821|823|825"
+wp_postmeta,827,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,827,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,827,vibe_forum,"Course Forum",
+wp_postmeta,827,vibe_group,"Course Group",
+wp_postmeta,827,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,827,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,827,vibe_course_free,"Vibe course free",S
+wp_postmeta,827,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,827,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,827,vibe_product,"Vibe product",
+wp_terms,827,course-cat,Terms,Meditations
+wp_user,1,"User Details",talal.danoun@gmail.com,wow.shop100
+wp_usermeta,827,"User Timestamp",1,1599595808
+wp_postmeta,827,1,"User status",0
+wp_usermeta,course_status827,"COURSE STATUS",1,2
+wp_posts,821,post_type,Type,unit
+wp_posts,821,post_title,Title,"Energy 1"
+wp_posts,821,post_date,Date,"2020-08-29 20:02:02"
+wp_posts,821,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,821,post_author,"Author ID",1
+wp_posts,821,post_excerpt,Excerpt,
+wp_posts,821,post_status,Status,publish
+wp_posts,821,post_name,Slug,energy-1
+wp_posts,821,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,821,_edit_lock," edit lock",1598731188:1
+wp_postmeta,821,_edit_last," edit last",1
+wp_postmeta,821,slide_template,"Slide template",
+wp_postmeta,821,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,821,vibe_subtitle,"Unit Description"," "
+wp_postmeta,821,vibe_type,"Unit Type",music-file-1
+wp_postmeta,821,vibe_free,"Free Unit",S
+wp_postmeta,821,vibe_duration,"Unit Duration",
+wp_postmeta,821,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,821,vibe_forum,"Unit Forum",
+wp_postmeta,821,vibe_assignment,"Connect Assignments",
+wp_postmeta,821,vibe_unit_attachments,Attachments,
+wp_posts,823,post_type,Type,unit
+wp_posts,823,post_title,Title,"Energy 2"
+wp_posts,823,post_date,Date,"2020-08-29 20:03:01"
+wp_posts,823,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,823,post_author,"Author ID",1
+wp_posts,823,post_excerpt,Excerpt,
+wp_posts,823,post_status,Status,publish
+wp_posts,823,post_name,Slug,energy-2
+wp_posts,823,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,823,_edit_lock," edit lock",1598731245:1
+wp_postmeta,823,_edit_last," edit last",1
+wp_postmeta,823,slide_template,"Slide template",
+wp_postmeta,823,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,823,vibe_subtitle,"Unit Description"," "
+wp_postmeta,823,vibe_type,"Unit Type",music-file-1
+wp_postmeta,823,vibe_free,"Free Unit",H
+wp_postmeta,823,vibe_duration,"Unit Duration",
+wp_postmeta,823,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,823,vibe_forum,"Unit Forum",
+wp_postmeta,823,vibe_assignment,"Connect Assignments",
+wp_postmeta,823,vibe_unit_attachments,Attachments,
+wp_posts,825,post_type,Type,unit
+wp_posts,825,post_title,Title,"Energy 3"
+wp_posts,825,post_date,Date,"2020-08-29 20:03:38"
+wp_posts,825,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,825,post_author,"Author ID",1
+wp_posts,825,post_excerpt,Excerpt,
+wp_posts,825,post_status,Status,publish
+wp_posts,825,post_name,Slug,energy-3
+wp_posts,825,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,825,_edit_lock," edit lock",1598731281:1
+wp_postmeta,825,_edit_last," edit last",1
+wp_postmeta,825,slide_template,"Slide template",
+wp_postmeta,825,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,825,vibe_subtitle,"Unit Description"," "
+wp_postmeta,825,vibe_type,"Unit Type",music-file-1
+wp_postmeta,825,vibe_free,"Free Unit",H
+wp_postmeta,825,vibe_duration,"Unit Duration",
+wp_postmeta,825,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,825,vibe_forum,"Unit Forum",
+wp_postmeta,825,vibe_assignment,"Connect Assignments",
+wp_postmeta,825,vibe_unit_attachments,Attachments,
+wp_posts,814,post_type,Type,course
+wp_posts,814,post_title,Title,Heat
+wp_posts,814,post_date,Date,"2020-08-29 19:13:45"
+wp_posts,814,post_content,Content,
+wp_posts,814,post_author,"Author ID",1
+wp_posts,814,post_excerpt,Excerpt,
+wp_posts,814,post_status,Status,publish
+wp_posts,814,post_name,Slug,heat
+wp_posts,814,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,814,_edit_lock," edit lock",1598787159:1
+wp_postmeta,814,_edit_last," edit last",1
+wp_postmeta,814,_thumbnail_id," thumbnail id",815
+wp_postmeta,814,_wp_page_template," wp page template",default
+wp_postmeta,814,slide_template,"Slide template",
+wp_postmeta,814,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,814,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,814,vibe_duration,"Total Duration of Course",10
+wp_postmeta,814,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,814,vibe_students,"Total number of Students in Course",1
+wp_postmeta,814,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,814,vibe_course_offline,"Offline Course",H
+wp_postmeta,814,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,814,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,814,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,814,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,814,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,814,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,814,vibe_start_date,"Course Start Date",
+wp_postmeta,814,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,814,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,814,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,814,vibe_course_badge_title,"Badge Title",
+wp_postmeta,814,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,814,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,814,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,814,vibe_course_drip,"Drip Feed",H
+wp_postmeta,814,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,814,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,814,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,814,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,814,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,814,vibe_course_curriculum,"Course Curriculum","Heat s1|808|810|812"
+wp_postmeta,814,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,814,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,814,vibe_forum,"Course Forum",
+wp_postmeta,814,vibe_group,"Course Group",
+wp_postmeta,814,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,814,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,814,vibe_course_free,"Vibe course free",S
+wp_postmeta,814,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,814,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,814,vibe_product,"Vibe product",
+wp_terms,814,course-cat,Terms,Meditations
+wp_user,1,"User Details",talal.danoun@gmail.com,wow.shop100
+wp_usermeta,814,"User Timestamp",1,1599595856
+wp_postmeta,814,1,"User status",0
+wp_usermeta,course_status814,"COURSE STATUS",1,2
+wp_posts,808,post_type,Type,unit
+wp_posts,808,post_title,Title,"Heat 1"
+wp_posts,808,post_date,Date,"2020-08-29 19:09:06"
+wp_posts,808,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,808,post_author,"Author ID",1
+wp_posts,808,post_excerpt,Excerpt,
+wp_posts,808,post_status,Status,publish
+wp_posts,808,post_name,Slug,heat-1
+wp_posts,808,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,808,_edit_lock," edit lock",1598732034:1
+wp_postmeta,808,_edit_last," edit last",1
+wp_postmeta,808,slide_template,"Slide template",
+wp_postmeta,808,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,808,vibe_subtitle,"Unit Description"," "
+wp_postmeta,808,vibe_type,"Unit Type",music-file-1
+wp_postmeta,808,vibe_free,"Free Unit",H
+wp_postmeta,808,vibe_duration,"Unit Duration",
+wp_postmeta,808,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,808,vibe_forum,"Unit Forum",
+wp_postmeta,808,vibe_assignment,"Connect Assignments",
+wp_postmeta,808,vibe_unit_attachments,Attachments,
+wp_posts,810,post_type,Type,unit
+wp_posts,810,post_title,Title,"Heat 2"
+wp_posts,810,post_date,Date,"2020-08-29 19:09:46"
+wp_posts,810,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,810,post_author,"Author ID",1
+wp_posts,810,post_excerpt,Excerpt,
+wp_posts,810,post_status,Status,publish
+wp_posts,810,post_name,Slug,heat-2
+wp_posts,810,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,810,_edit_lock," edit lock",1598728051:1
+wp_postmeta,810,_edit_last," edit last",1
+wp_postmeta,810,slide_template,"Slide template",
+wp_postmeta,810,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,810,vibe_subtitle,"Unit Description"," "
+wp_postmeta,810,vibe_type,"Unit Type",music-file-1
+wp_postmeta,810,vibe_free,"Free Unit",H
+wp_postmeta,810,vibe_duration,"Unit Duration",
+wp_postmeta,810,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,810,vibe_forum,"Unit Forum",
+wp_postmeta,810,vibe_assignment,"Connect Assignments",
+wp_postmeta,810,vibe_unit_attachments,Attachments,
+wp_posts,812,post_type,Type,unit
+wp_posts,812,post_title,Title,"Heat 3"
+wp_posts,812,post_date,Date,"2020-08-29 19:10:28"
+wp_posts,812,post_content,Content,
+wp_posts,812,post_author,"Author ID",1
+wp_posts,812,post_excerpt,Excerpt,
+wp_posts,812,post_status,Status,publish
+wp_posts,812,post_name,Slug,heat-3
+wp_posts,812,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,812,_edit_lock," edit lock",1598728118:1
+wp_postmeta,812,_edit_last," edit last",1
+wp_postmeta,812,slide_template,"Slide template",
+wp_postmeta,812,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,812,vibe_subtitle,"Unit Description"," "
+wp_postmeta,812,vibe_type,"Unit Type",music-file-1
+wp_postmeta,812,vibe_free,"Free Unit",S
+wp_postmeta,812,vibe_duration,"Unit Duration",
+wp_postmeta,812,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,812,vibe_forum,"Unit Forum",
+wp_postmeta,812,vibe_assignment,"Connect Assignments",
+wp_postmeta,812,vibe_unit_attachments,Attachments,
+wp_posts,806,post_type,Type,course
+wp_posts,806,post_title,Title,Spirit
+wp_posts,806,post_date,Date,"2020-08-29 19:06:38"
+wp_posts,806,post_content,Content,
+wp_posts,806,post_author,"Author ID",1
+wp_posts,806,post_excerpt,Excerpt,
+wp_posts,806,post_status,Status,publish
+wp_posts,806,post_name,Slug,spirit
+wp_posts,806,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,806,_edit_lock," edit lock",1598732502:1
+wp_postmeta,806,_edit_last," edit last",1
+wp_postmeta,806,_wp_page_template," wp page template",default
+wp_postmeta,806,slide_template,"Slide template",
+wp_postmeta,806,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,806,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,806,vibe_duration,"Total Duration of Course",10
+wp_postmeta,806,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,806,vibe_students,"Total number of Students in Course",1
+wp_postmeta,806,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,806,vibe_course_offline,"Offline Course",H
+wp_postmeta,806,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,806,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,806,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,806,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,806,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,806,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,806,vibe_start_date,"Course Start Date",2020-08-28
+wp_postmeta,806,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,806,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,806,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,806,vibe_course_badge_title,"Badge Title",
+wp_postmeta,806,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,806,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,806,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,806,vibe_course_drip,"Drip Feed",H
+wp_postmeta,806,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,806,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,806,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,806,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,806,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,806,vibe_course_curriculum,"Course Curriculum","Spirit s1|800|791|793"
+wp_postmeta,806,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,806,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,806,vibe_forum,"Course Forum",
+wp_postmeta,806,vibe_group,"Course Group",
+wp_postmeta,806,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,806,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,806,vibe_course_free,"Vibe course free",S
+wp_postmeta,806,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,806,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,806,vibe_product,"Vibe product",
+wp_postmeta,806,_thumbnail_id," thumbnail id",787
+wp_terms,806,course-cat,Terms,Meditations
+wp_user,1,"User Details",talal.danoun@gmail.com,wow.shop100
+wp_usermeta,806,"User Timestamp",1,1599595924
+wp_postmeta,806,1,"User status",0
+wp_usermeta,course_status806,"COURSE STATUS",1,2
+wp_posts,800,post_type,Type,unit
+wp_posts,800,post_title,Title,Spirit12
+wp_posts,800,post_date,Date,"2020-08-29 19:01:13"
+wp_posts,800,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,800,post_author,"Author ID",1
+wp_posts,800,post_excerpt,Excerpt,
+wp_posts,800,post_status,Status,publish
+wp_posts,800,post_name,Slug,spirit-1-2
+wp_posts,800,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,800,_edit_lock," edit lock",1598731999:1
+wp_postmeta,800,_edit_last," edit last",1
+wp_postmeta,800,slide_template,"Slide template",
+wp_postmeta,800,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,800,vibe_subtitle,"Unit Description"," "
+wp_postmeta,800,vibe_type,"Unit Type",music-file-1
+wp_postmeta,800,vibe_free,"Free Unit",H
+wp_postmeta,800,vibe_duration,"Unit Duration",
+wp_postmeta,800,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,800,vibe_forum,"Unit Forum",
+wp_postmeta,800,vibe_assignment,"Connect Assignments",
+wp_postmeta,800,vibe_unit_attachments,Attachments,
+wp_posts,791,post_type,Type,unit
+wp_posts,791,post_title,Title,"Spirit 2"
+wp_posts,791,post_date,Date,"2020-08-29 18:11:51"
+wp_posts,791,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,791,post_author,"Author ID",1
+wp_posts,791,post_excerpt,Excerpt,
+wp_posts,791,post_status,Status,publish
+wp_posts,791,post_name,Slug,spirit-2
+wp_posts,791,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,791,_edit_lock," edit lock",1598724596:1
+wp_postmeta,791,_edit_last," edit last",1
+wp_postmeta,791,slide_template,"Slide template",
+wp_postmeta,791,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,791,vibe_subtitle,"Unit Description"," "
+wp_postmeta,791,vibe_type,"Unit Type",music-file-1
+wp_postmeta,791,vibe_free,"Free Unit",H
+wp_postmeta,791,vibe_duration,"Unit Duration",
+wp_postmeta,791,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,791,vibe_forum,"Unit Forum",
+wp_postmeta,791,vibe_assignment,"Connect Assignments",
+wp_postmeta,791,vibe_unit_attachments,Attachments,
+wp_posts,793,post_type,Type,unit
+wp_posts,793,post_title,Title,"Spirit 3"
+wp_posts,793,post_date,Date,"2020-08-29 18:13:19"
+wp_posts,793,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,793,post_author,"Author ID",1
+wp_posts,793,post_excerpt,Excerpt,
+wp_posts,793,post_status,Status,publish
+wp_posts,793,post_name,Slug,spirit-3
+wp_posts,793,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,793,_edit_lock," edit lock",1598724662:1
+wp_postmeta,793,_edit_last," edit last",1
+wp_postmeta,793,slide_template,"Slide template",
+wp_postmeta,793,rs_page_bg_color,"Rs page bg color",
+wp_postmeta,793,vibe_subtitle,"Unit Description"," "
+wp_postmeta,793,vibe_type,"Unit Type",music-file-1
+wp_postmeta,793,vibe_free,"Free Unit",S
+wp_postmeta,793,vibe_duration,"Unit Duration",
+wp_postmeta,793,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,793,vibe_forum,"Unit Forum",
+wp_postmeta,793,vibe_assignment,"Connect Assignments",
+wp_postmeta,793,vibe_unit_attachments,Attachments,
+wp_posts,715,post_type,Type,course
+wp_posts,715,post_title,Title,PRE-WellNESS
+wp_posts,715,post_date,Date,"2020-08-25 19:19:48"
+wp_posts,715,post_content,Content,"<img class=""alignnone size-full wp-image-255"" src=""https://wow-ae.com/wp-content/uploads/2020/07/636833605956849220.jpg"" alt="""" width=""288"" height=""288"" />"
+wp_posts,715,post_author,"Author ID",1
+wp_posts,715,post_excerpt,Excerpt,
+wp_posts,715,post_status,Status,publish
+wp_posts,715,post_name,Slug,pre-wellness
+wp_posts,715,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,715,_edit_lock," edit lock",1598391283:1
+wp_postmeta,715,_edit_last," edit last",1
+wp_postmeta,715,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,715,vibe_duration,"Total Duration of Course",10
+wp_postmeta,715,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,715,vibe_students,"Total number of Students in Course",0
+wp_postmeta,715,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,715,vibe_course_offline,"Offline Course",H
+wp_postmeta,715,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,715,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,715,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,715,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,715,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,715,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,715,vibe_start_date,"Course Start Date",
+wp_postmeta,715,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,715,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,715,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,715,vibe_course_badge_title,"Badge Title",
+wp_postmeta,715,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,715,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,715,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,715,vibe_course_drip,"Drip Feed",H
+wp_postmeta,715,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,715,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,715,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,715,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,715,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,715,vibe_course_curriculum,"Course Curriculum",About|706|Video|708|708|Audio|711|711|711|Article|713|713
+wp_postmeta,715,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,715,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,715,vibe_forum,"Course Forum",
+wp_postmeta,715,vibe_group,"Course Group",
+wp_postmeta,715,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,715,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,715,vibe_course_free,"Vibe course free",H
+wp_postmeta,715,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,715,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,715,_thumbnail_id," thumbnail id",255
+wp_terms,715,course-cat,Terms,Programmes
+wp_posts,706,post_type,Type,unit
+wp_posts,706,post_title,Title,About
+wp_posts,706,post_date,Date,"2020-08-25 19:00:28"
+wp_posts,706,post_content,Content,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum turpis eu nunc volutpat vestibulum. Donec scelerisque arcu ac ante tristique iaculis. Morbi vulputate mauris sit amet faucibus feugiat. Curabitur ullamcorper dignissim suscipit. Nulla turpis nisi, fermentum sodales tincidunt id, accumsan sed orci. Donec et venenatis leo. Phasellus scelerisque, nisl vitae sollicitudin euismod, quam nisl tristique urna, mattis laoreet tellus tortor ac nibh.
+
+Nullam nec lacus nisl. Nam bibendum, sem at commodo dignissim, sem elit iaculis libero, in sollicitudin metus velit ut nisl. Cras pharetra, mi ac placerat vehicula, nisl dolor commodo libero, vitae molestie est quam quis massa. Fusce molestie lorem at diam fermentum tempus.
+
+Aliquam convallis elit ut felis iaculis, eget mattis erat laoreet. Pellentesque mollis purus justo, ut commodo lectus pretium non. Maecenas sed arcu congue, rutrum elit eget, tempus urna. Duis accumsan porttitor dolor, et pharetra mi ullamcorper non. Mauris in ullamcorper felis, in fermentum massa. Nulla facilisi. Suspendisse semper odio eleifend nisl aliquet sollicitudin. Aenean porta lorem eu nulla ullamcorper consequat. Vivamus ac porta sapien. Nulla facilisi.
+
+Mauris in ligula eget est elementum porta. Integer sollicitudin erat ut elit laoreet, a hendrerit risus luctus. Vestibulum id enim vel arcu suscipit dictum ac nec tellus. Integer suscipit pulvinar odio, a rutrum tortor tincidunt in. Pellentesque consequat sapien non massa ultrices condimentum et lacinia orci."
+wp_posts,706,post_author,"Author ID",1
+wp_posts,706,post_excerpt,Excerpt,
+wp_posts,706,post_status,Status,publish
+wp_posts,706,post_name,Slug,about
+wp_posts,706,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,706,_edit_lock," edit lock",1598724612:1
+wp_postmeta,706,_edit_last," edit last",1
+wp_postmeta,706,vibe_subtitle,"Unit Description"," "
+wp_postmeta,706,vibe_type,"Unit Type",text-document
+wp_postmeta,706,vibe_free,"Free Unit",S
+wp_postmeta,706,vibe_duration,"Unit Duration",
+wp_postmeta,706,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,706,vibe_forum,"Unit Forum",
+wp_postmeta,706,vibe_assignment,"Connect Assignments",
+wp_postmeta,706,vibe_unit_attachments,Attachments,
+wp_posts,708,post_type,Type,unit
+wp_posts,708,post_title,Title,"Video P1"
+wp_posts,708,post_date,Date,"2020-08-25 19:07:19"
+wp_posts,708,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,708,post_author,"Author ID",1
+wp_posts,708,post_excerpt,Excerpt,
+wp_posts,708,post_status,Status,publish
+wp_posts,708,post_name,Slug,video-p1
+wp_posts,708,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,708,_edit_lock," edit lock",1598382318:1
+wp_postmeta,708,_edit_last," edit last",1
+wp_postmeta,708,vibe_subtitle,"Unit Description"," "
+wp_postmeta,708,vibe_type,"Unit Type",text-document
+wp_postmeta,708,vibe_free,"Free Unit",S
+wp_postmeta,708,vibe_duration,"Unit Duration",
+wp_postmeta,708,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,708,vibe_forum,"Unit Forum",
+wp_postmeta,708,vibe_assignment,"Connect Assignments",
+wp_postmeta,708,vibe_unit_attachments,Attachments,
+wp_posts,708,post_type,Type,unit
+wp_posts,708,post_title,Title,"Video P1"
+wp_posts,708,post_date,Date,"2020-08-25 19:07:19"
+wp_posts,708,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,708,post_author,"Author ID",1
+wp_posts,708,post_excerpt,Excerpt,
+wp_posts,708,post_status,Status,publish
+wp_posts,708,post_name,Slug,video-p1
+wp_posts,708,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,708,_edit_lock," edit lock",1598382318:1
+wp_postmeta,708,_edit_last," edit last",1
+wp_postmeta,708,vibe_subtitle,"Unit Description"," "
+wp_postmeta,708,vibe_type,"Unit Type",text-document
+wp_postmeta,708,vibe_free,"Free Unit",S
+wp_postmeta,708,vibe_duration,"Unit Duration",
+wp_postmeta,708,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,708,vibe_forum,"Unit Forum",
+wp_postmeta,708,vibe_assignment,"Connect Assignments",
+wp_postmeta,708,vibe_unit_attachments,Attachments,
+wp_posts,711,post_type,Type,unit
+wp_posts,711,post_title,Title,"Audio P1"
+wp_posts,711,post_date,Date,"2020-08-25 19:12:26"
+wp_posts,711,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,711,post_author,"Author ID",1
+wp_posts,711,post_excerpt,Excerpt,
+wp_posts,711,post_status,Status,publish
+wp_posts,711,post_name,Slug,audio-p1
+wp_posts,711,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,711,_edit_lock," edit lock",1598382630:1
+wp_postmeta,711,_edit_last," edit last",1
+wp_postmeta,711,vibe_subtitle,"Unit Description"," "
+wp_postmeta,711,vibe_type,"Unit Type",text-document
+wp_postmeta,711,vibe_free,"Free Unit",S
+wp_postmeta,711,vibe_duration,"Unit Duration",
+wp_postmeta,711,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,711,vibe_forum,"Unit Forum",
+wp_postmeta,711,vibe_assignment,"Connect Assignments",
+wp_postmeta,711,vibe_unit_attachments,Attachments,
+wp_posts,711,post_type,Type,unit
+wp_posts,711,post_title,Title,"Audio P1"
+wp_posts,711,post_date,Date,"2020-08-25 19:12:26"
+wp_posts,711,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,711,post_author,"Author ID",1
+wp_posts,711,post_excerpt,Excerpt,
+wp_posts,711,post_status,Status,publish
+wp_posts,711,post_name,Slug,audio-p1
+wp_posts,711,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,711,_edit_lock," edit lock",1598382630:1
+wp_postmeta,711,_edit_last," edit last",1
+wp_postmeta,711,vibe_subtitle,"Unit Description"," "
+wp_postmeta,711,vibe_type,"Unit Type",text-document
+wp_postmeta,711,vibe_free,"Free Unit",S
+wp_postmeta,711,vibe_duration,"Unit Duration",
+wp_postmeta,711,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,711,vibe_forum,"Unit Forum",
+wp_postmeta,711,vibe_assignment,"Connect Assignments",
+wp_postmeta,711,vibe_unit_attachments,Attachments,
+wp_posts,711,post_type,Type,unit
+wp_posts,711,post_title,Title,"Audio P1"
+wp_posts,711,post_date,Date,"2020-08-25 19:12:26"
+wp_posts,711,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,711,post_author,"Author ID",1
+wp_posts,711,post_excerpt,Excerpt,
+wp_posts,711,post_status,Status,publish
+wp_posts,711,post_name,Slug,audio-p1
+wp_posts,711,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,711,_edit_lock," edit lock",1598382630:1
+wp_postmeta,711,_edit_last," edit last",1
+wp_postmeta,711,vibe_subtitle,"Unit Description"," "
+wp_postmeta,711,vibe_type,"Unit Type",text-document
+wp_postmeta,711,vibe_free,"Free Unit",S
+wp_postmeta,711,vibe_duration,"Unit Duration",
+wp_postmeta,711,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,711,vibe_forum,"Unit Forum",
+wp_postmeta,711,vibe_assignment,"Connect Assignments",
+wp_postmeta,711,vibe_unit_attachments,Attachments,
+wp_posts,713,post_type,Type,unit
+wp_posts,713,post_title,Title,Article
+wp_posts,713,post_date,Date,"2020-08-25 19:13:19"
+wp_posts,713,post_content,Content,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum turpis eu nunc volutpat vestibulum. Donec scelerisque arcu ac ante tristique iaculis. Morbi vulputate mauris sit amet faucibus feugiat. Curabitur ullamcorper dignissim suscipit. Nulla turpis nisi, fermentum sodales tincidunt id, accumsan sed orci. Donec et venenatis leo. Phasellus scelerisque, nisl vitae sollicitudin euismod, quam nisl tristique urna, mattis laoreet tellus tortor ac nibh.
+
+Nullam nec lacus nisl. Nam bibendum, sem at commodo dignissim, sem elit iaculis libero, in sollicitudin metus velit ut nisl. Cras pharetra, mi ac placerat vehicula, nisl dolor commodo libero, vitae molestie est quam quis massa. Fusce molestie lorem at diam fermentum tempus.
+
+Aliquam convallis elit ut felis iaculis, eget mattis erat laoreet. Pellentesque mollis purus justo, ut commodo lectus pretium non. Maecenas sed arcu congue, rutrum elit eget, tempus urna. Duis accumsan porttitor dolor, et pharetra mi ullamcorper non. Mauris in ullamcorper felis, in fermentum massa. Nulla facilisi. Suspendisse semper odio eleifend nisl aliquet sollicitudin. Aenean porta lorem eu nulla ullamcorper consequat. Vivamus ac porta sapien. Nulla facilisi.
+
+Mauris in ligula eget est elementum porta. Integer sollicitudin erat ut elit laoreet, a hendrerit risus luctus. Vestibulum id enim vel arcu suscipit dictum ac nec tellus. Integer suscipit pulvinar odio, a rutrum tortor tincidunt in. Pellentesque consequat sapien non massa ultrices condimentum et lacinia orci."
+wp_posts,713,post_author,"Author ID",1
+wp_posts,713,post_excerpt,Excerpt,
+wp_posts,713,post_status,Status,publish
+wp_posts,713,post_name,Slug,article
+wp_posts,713,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,713,_edit_lock," edit lock",1598382684:1
+wp_postmeta,713,_edit_last," edit last",1
+wp_postmeta,713,vibe_subtitle,"Unit Description"," "
+wp_postmeta,713,vibe_type,"Unit Type",text-document
+wp_postmeta,713,vibe_free,"Free Unit",H
+wp_postmeta,713,vibe_duration,"Unit Duration",
+wp_postmeta,713,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,713,vibe_forum,"Unit Forum",
+wp_postmeta,713,vibe_assignment,"Connect Assignments",
+wp_postmeta,713,vibe_unit_attachments,Attachments,
+wp_posts,713,post_type,Type,unit
+wp_posts,713,post_title,Title,Article
+wp_posts,713,post_date,Date,"2020-08-25 19:13:19"
+wp_posts,713,post_content,Content,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum turpis eu nunc volutpat vestibulum. Donec scelerisque arcu ac ante tristique iaculis. Morbi vulputate mauris sit amet faucibus feugiat. Curabitur ullamcorper dignissim suscipit. Nulla turpis nisi, fermentum sodales tincidunt id, accumsan sed orci. Donec et venenatis leo. Phasellus scelerisque, nisl vitae sollicitudin euismod, quam nisl tristique urna, mattis laoreet tellus tortor ac nibh.
+
+Nullam nec lacus nisl. Nam bibendum, sem at commodo dignissim, sem elit iaculis libero, in sollicitudin metus velit ut nisl. Cras pharetra, mi ac placerat vehicula, nisl dolor commodo libero, vitae molestie est quam quis massa. Fusce molestie lorem at diam fermentum tempus.
+
+Aliquam convallis elit ut felis iaculis, eget mattis erat laoreet. Pellentesque mollis purus justo, ut commodo lectus pretium non. Maecenas sed arcu congue, rutrum elit eget, tempus urna. Duis accumsan porttitor dolor, et pharetra mi ullamcorper non. Mauris in ullamcorper felis, in fermentum massa. Nulla facilisi. Suspendisse semper odio eleifend nisl aliquet sollicitudin. Aenean porta lorem eu nulla ullamcorper consequat. Vivamus ac porta sapien. Nulla facilisi.
+
+Mauris in ligula eget est elementum porta. Integer sollicitudin erat ut elit laoreet, a hendrerit risus luctus. Vestibulum id enim vel arcu suscipit dictum ac nec tellus. Integer suscipit pulvinar odio, a rutrum tortor tincidunt in. Pellentesque consequat sapien non massa ultrices condimentum et lacinia orci."
+wp_posts,713,post_author,"Author ID",1
+wp_posts,713,post_excerpt,Excerpt,
+wp_posts,713,post_status,Status,publish
+wp_posts,713,post_name,Slug,article
+wp_posts,713,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,713,_edit_lock," edit lock",1598382684:1
+wp_postmeta,713,_edit_last," edit last",1
+wp_postmeta,713,vibe_subtitle,"Unit Description"," "
+wp_postmeta,713,vibe_type,"Unit Type",text-document
+wp_postmeta,713,vibe_free,"Free Unit",H
+wp_postmeta,713,vibe_duration,"Unit Duration",
+wp_postmeta,713,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,713,vibe_forum,"Unit Forum",
+wp_postmeta,713,vibe_assignment,"Connect Assignments",
+wp_postmeta,713,vibe_unit_attachments,Attachments,

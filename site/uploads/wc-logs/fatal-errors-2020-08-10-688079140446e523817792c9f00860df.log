@@ -1,0 +1,62 @@
+2020-08-10T20:46:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function llms_price(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php on line 165 and at least 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.currency.php:809
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php(165): llms_price()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require('/home/u92542874...')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp- in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.currency.php on line 809
+
+2020-08-10T20:53:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php:165
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/shortcodes/class.llms.shortcode.courses.php(203): lifterlms_loop(Object(WP_Query))
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/abstracts/abstract.llms.shortcode.php(201): LLMS_Shortcode_Courses->get_output()
+#5 /home/u925428748/domains/wow-ae.com/public_ht in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php on line 165
+
+2020-08-10T20:53:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php:165
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/shortcodes/class.llms.shortcode.courses.php(203): lifterlms_loop(Object(WP_Query))
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/abstracts/abstract.llms.shortcode.php(201): LLMS_Shortcode_Courses->get_output()
+#5 /home/u925428748/domains/wow-ae.com/public_ht in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php on line 165
+
+2020-08-10T20:53:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/models/model.llms.access.plan.php:428
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php(165): LLMS_Access_Plan::get_price('llms_plan_get_p...')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require('/home/u92542874...')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/shortcodes/class.llms.shortcode.courses.php(203): lifterlms_loop(Object(WP_Query))
+#5 /home/u925428748 in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/models/model.llms.access.plan.php on line 428
+
+2020-08-10T21:05:25+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/models/model.llms.access.plan.php:428
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php(165): LLMS_Access_Plan::get_price('llms_plan_get_p...')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require('/home/u92542874...')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/shortcodes/class.llms.shortcode.courses.php(203): lifterlms_loop(Object(WP_Query))
+#5 /home/u925428748 in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/models/model.llms.access.plan.php on line 428
+
+2020-08-10T21:05:40+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/models/model.llms.access.plan.php:428
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php(165): LLMS_Access_Plan::get_price('llms_plan_get_p...')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require('/home/u92542874...')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/shortcodes/class.llms.shortcode.courses.php(203): lifterlms_loop(Object(WP_Query))
+#5 /home/u925428748 in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/models/model.llms.access.plan.php on line 428
+
+2020-08-10T21:36:00+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php:165
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/shortcodes/class.llms.shortcode.courses.php(203): lifterlms_loop(Object(WP_Query))
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/abstracts/abstract.llms.shortcode.php(201): LLMS_Shortcode_Courses->get_output()
+#5 /home/u925428748/domains/wow-ae.com/public_h in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php on line 165
+
