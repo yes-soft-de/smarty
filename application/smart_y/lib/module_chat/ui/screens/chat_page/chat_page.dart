@@ -101,7 +101,7 @@ class ChatPageState extends State<ChatPage> {
   }
 
   Future<void> buildMessagesList(List<ChatModel> chatList) async {
-    var newMessagesList = [];
+    var newMessagesList = <ChatBubbleWidget>[];
     String uid = await widget._preferencesHelper.getUserId();
     chatList.forEach((element) {
       newMessagesList.add(ChatBubbleWidget(

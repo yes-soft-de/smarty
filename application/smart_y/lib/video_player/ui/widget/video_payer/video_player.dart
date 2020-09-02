@@ -11,7 +11,7 @@ class SmartyVideoPlayer extends StatefulWidget {
   State<StatefulWidget> createState() => _SmartyVideoPlayerState(videoUrl);
 }
 
-class _SmartyVideoPlayerState extends State<VideoPlayer> {
+class _SmartyVideoPlayerState extends State<SmartyVideoPlayer> {
   String videoUrl;
   FlickManager flickManager;
 

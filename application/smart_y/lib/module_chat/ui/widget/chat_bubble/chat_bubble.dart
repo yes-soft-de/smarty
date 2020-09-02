@@ -37,9 +37,22 @@ class ChatBubbleWidgetState extends State<ChatBubbleWidget> {
           ),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(
-              widget.message ?? 'Empty Text?!!',
-              style: TextStyle(color: widget.me ? Colors.white : Colors.black),
+            child: Flex(
+              direction: Axis.vertical,
+              children: [
+                Text(
+                  widget.senderName,
+                  style: TextStyle(
+                      color: widget.me ? Colors.white : Colors.black,
+                      fontSize: 12,
+                  ),
+                ),
+                Text(
+                  widget.message ?? 'Empty Text?!!',
+                  style:
+                      TextStyle(color: widget.me ? Colors.white : Colors.black),
+                ),
+              ],
             ),
           ),
         ),

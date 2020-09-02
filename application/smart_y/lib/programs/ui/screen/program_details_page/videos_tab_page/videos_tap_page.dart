@@ -30,8 +30,8 @@ class _VideosTabPageState extends State<VideosTabPage> {
                   name: widget.videos[index].name,
                   avatar: widget.videos[index].instructorAvatar,
                   instructorName: widget.videos[index].instructorName,
-                  commentNumber: "7Comment",
-                  loveNumber: "10Likes",
+                  commentNumber: "7 Comment",
+                  loveNumber: "10 Likes",
                 ),
               );
             }),
