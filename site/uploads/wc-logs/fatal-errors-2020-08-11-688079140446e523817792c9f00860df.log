@@ -1,0 +1,9 @@
+2020-08-11T11:55:14+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php:165
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template.php(725): require()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.template.php(41): load_template('/home/u92542874...', false)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/functions/llms.functions.templates.loop.php(101): llms_get_template_part('loop/content', 'course')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/shortcodes/class.llms.shortcode.courses.php(203): lifterlms_loop(Object(WP_Query))
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/includes/abstracts/abstract.llms.shortcode.php(201): LLMS_Shortcode_Courses->get_output()
+#5 /home/u925428748/domains/wow-ae.com/public_h in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/lifterlms/templates/loop/content.php on line 165
+

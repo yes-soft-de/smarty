@@ -1,0 +1,219 @@
+wp_posts,715,post_type,Type,course
+wp_posts,715,post_title,Title,PRE-WellNESS
+wp_posts,715,post_date,Date,"2020-08-25 19:19:48"
+wp_posts,715,post_content,Content,"<img class=""alignnone size-full wp-image-255"" src=""https://wow-ae.com/wp-content/uploads/2020/07/636833605956849220.jpg"" alt="""" width=""288"" height=""288"" />"
+wp_posts,715,post_author,"Author ID",1
+wp_posts,715,post_excerpt,Excerpt,
+wp_posts,715,post_status,Status,publish
+wp_posts,715,post_name,Slug,pre-wellness
+wp_posts,715,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,715,_edit_lock," edit lock",1598391283:1
+wp_postmeta,715,_edit_last," edit last",1
+wp_postmeta,715,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,715,vibe_duration,"Total Duration of Course",10
+wp_postmeta,715,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,715,vibe_students,"Total number of Students in Course",0
+wp_postmeta,715,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,715,vibe_course_offline,"Offline Course",H
+wp_postmeta,715,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,715,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,715,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,715,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,715,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,715,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,715,vibe_start_date,"Course Start Date",
+wp_postmeta,715,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,715,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,715,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,715,vibe_course_badge_title,"Badge Title",
+wp_postmeta,715,vibe_course_certificate,"Completion Certificate",H
+wp_postmeta,715,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,715,vibe_course_passing_percentage,"Passing Percentage",
+wp_postmeta,715,vibe_course_drip,"Drip Feed",H
+wp_postmeta,715,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,715,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,715,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,715,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,715,vibe_drip_duration_parameter,"Drip Duration parameter",86400
+wp_postmeta,715,vibe_course_curriculum,"Course Curriculum",About|706|Video|708|708|Audio|711|711|711|Article|713|713
+wp_postmeta,715,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,715,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,715,vibe_forum,"Course Forum",
+wp_postmeta,715,vibe_group,"Course Group",
+wp_postmeta,715,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,715,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,715,vibe_course_free,"Vibe course free",H
+wp_postmeta,715,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,715,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,715,_thumbnail_id," thumbnail id",255
+wp_terms,715,course-cat,Terms,Programmes
+wp_posts,706,post_type,Type,unit
+wp_posts,706,post_title,Title,About
+wp_posts,706,post_date,Date,"2020-08-25 19:00:28"
+wp_posts,706,post_content,Content,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum turpis eu nunc volutpat vestibulum. Donec scelerisque arcu ac ante tristique iaculis. Morbi vulputate mauris sit amet faucibus feugiat. Curabitur ullamcorper dignissim suscipit. Nulla turpis nisi, fermentum sodales tincidunt id, accumsan sed orci. Donec et venenatis leo. Phasellus scelerisque, nisl vitae sollicitudin euismod, quam nisl tristique urna, mattis laoreet tellus tortor ac nibh.
+
+Nullam nec lacus nisl. Nam bibendum, sem at commodo dignissim, sem elit iaculis libero, in sollicitudin metus velit ut nisl. Cras pharetra, mi ac placerat vehicula, nisl dolor commodo libero, vitae molestie est quam quis massa. Fusce molestie lorem at diam fermentum tempus.
+
+Aliquam convallis elit ut felis iaculis, eget mattis erat laoreet. Pellentesque mollis purus justo, ut commodo lectus pretium non. Maecenas sed arcu congue, rutrum elit eget, tempus urna. Duis accumsan porttitor dolor, et pharetra mi ullamcorper non. Mauris in ullamcorper felis, in fermentum massa. Nulla facilisi. Suspendisse semper odio eleifend nisl aliquet sollicitudin. Aenean porta lorem eu nulla ullamcorper consequat. Vivamus ac porta sapien. Nulla facilisi.
+
+Mauris in ligula eget est elementum porta. Integer sollicitudin erat ut elit laoreet, a hendrerit risus luctus. Vestibulum id enim vel arcu suscipit dictum ac nec tellus. Integer suscipit pulvinar odio, a rutrum tortor tincidunt in. Pellentesque consequat sapien non massa ultrices condimentum et lacinia orci."
+wp_posts,706,post_author,"Author ID",1
+wp_posts,706,post_excerpt,Excerpt,
+wp_posts,706,post_status,Status,publish
+wp_posts,706,post_name,Slug,about
+wp_posts,706,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,706,_edit_lock," edit lock",1598381923:1
+wp_postmeta,706,_edit_last," edit last",1
+wp_postmeta,706,vibe_subtitle,"Unit Description"," "
+wp_postmeta,706,vibe_type,"Unit Type",text-document
+wp_postmeta,706,vibe_free,"Free Unit",S
+wp_postmeta,706,vibe_duration,"Unit Duration",
+wp_postmeta,706,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,706,vibe_forum,"Unit Forum",
+wp_postmeta,706,vibe_assignment,"Connect Assignments",
+wp_postmeta,706,vibe_unit_attachments,Attachments,
+wp_posts,708,post_type,Type,unit
+wp_posts,708,post_title,Title,"Video P1"
+wp_posts,708,post_date,Date,"2020-08-25 19:07:19"
+wp_posts,708,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,708,post_author,"Author ID",1
+wp_posts,708,post_excerpt,Excerpt,
+wp_posts,708,post_status,Status,publish
+wp_posts,708,post_name,Slug,video-p1
+wp_posts,708,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,708,_edit_lock," edit lock",1598382318:1
+wp_postmeta,708,_edit_last," edit last",1
+wp_postmeta,708,vibe_subtitle,"Unit Description"," "
+wp_postmeta,708,vibe_type,"Unit Type",text-document
+wp_postmeta,708,vibe_free,"Free Unit",S
+wp_postmeta,708,vibe_duration,"Unit Duration",
+wp_postmeta,708,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,708,vibe_forum,"Unit Forum",
+wp_postmeta,708,vibe_assignment,"Connect Assignments",
+wp_postmeta,708,vibe_unit_attachments,Attachments,
+wp_posts,708,post_type,Type,unit
+wp_posts,708,post_title,Title,"Video P1"
+wp_posts,708,post_date,Date,"2020-08-25 19:07:19"
+wp_posts,708,post_content,Content,"[video width=""480"" height=""270"" mp4=""https://wow-ae.com/wp-content/uploads/2020/08/file_example_MP4_480_1_5MG.mp4""][/video]"
+wp_posts,708,post_author,"Author ID",1
+wp_posts,708,post_excerpt,Excerpt,
+wp_posts,708,post_status,Status,publish
+wp_posts,708,post_name,Slug,video-p1
+wp_posts,708,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,708,_edit_lock," edit lock",1598382318:1
+wp_postmeta,708,_edit_last," edit last",1
+wp_postmeta,708,vibe_subtitle,"Unit Description"," "
+wp_postmeta,708,vibe_type,"Unit Type",text-document
+wp_postmeta,708,vibe_free,"Free Unit",S
+wp_postmeta,708,vibe_duration,"Unit Duration",
+wp_postmeta,708,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,708,vibe_forum,"Unit Forum",
+wp_postmeta,708,vibe_assignment,"Connect Assignments",
+wp_postmeta,708,vibe_unit_attachments,Attachments,
+wp_posts,711,post_type,Type,unit
+wp_posts,711,post_title,Title,"Audio P1"
+wp_posts,711,post_date,Date,"2020-08-25 19:12:26"
+wp_posts,711,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,711,post_author,"Author ID",1
+wp_posts,711,post_excerpt,Excerpt,
+wp_posts,711,post_status,Status,publish
+wp_posts,711,post_name,Slug,audio-p1
+wp_posts,711,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,711,_edit_lock," edit lock",1598382630:1
+wp_postmeta,711,_edit_last," edit last",1
+wp_postmeta,711,vibe_subtitle,"Unit Description"," "
+wp_postmeta,711,vibe_type,"Unit Type",text-document
+wp_postmeta,711,vibe_free,"Free Unit",S
+wp_postmeta,711,vibe_duration,"Unit Duration",
+wp_postmeta,711,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,711,vibe_forum,"Unit Forum",
+wp_postmeta,711,vibe_assignment,"Connect Assignments",
+wp_postmeta,711,vibe_unit_attachments,Attachments,
+wp_posts,711,post_type,Type,unit
+wp_posts,711,post_title,Title,"Audio P1"
+wp_posts,711,post_date,Date,"2020-08-25 19:12:26"
+wp_posts,711,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,711,post_author,"Author ID",1
+wp_posts,711,post_excerpt,Excerpt,
+wp_posts,711,post_status,Status,publish
+wp_posts,711,post_name,Slug,audio-p1
+wp_posts,711,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,711,_edit_lock," edit lock",1598382630:1
+wp_postmeta,711,_edit_last," edit last",1
+wp_postmeta,711,vibe_subtitle,"Unit Description"," "
+wp_postmeta,711,vibe_type,"Unit Type",text-document
+wp_postmeta,711,vibe_free,"Free Unit",S
+wp_postmeta,711,vibe_duration,"Unit Duration",
+wp_postmeta,711,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,711,vibe_forum,"Unit Forum",
+wp_postmeta,711,vibe_assignment,"Connect Assignments",
+wp_postmeta,711,vibe_unit_attachments,Attachments,
+wp_posts,711,post_type,Type,unit
+wp_posts,711,post_title,Title,"Audio P1"
+wp_posts,711,post_date,Date,"2020-08-25 19:12:26"
+wp_posts,711,post_content,Content,"[audio mp3=""https://wow-ae.com/wp-content/uploads/2020/07/2019-04-20_-_Quiet_Time_-_David_Fesliyan-mp3cut.net_.mp3""][/audio]"
+wp_posts,711,post_author,"Author ID",1
+wp_posts,711,post_excerpt,Excerpt,
+wp_posts,711,post_status,Status,publish
+wp_posts,711,post_name,Slug,audio-p1
+wp_posts,711,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,711,_edit_lock," edit lock",1598382630:1
+wp_postmeta,711,_edit_last," edit last",1
+wp_postmeta,711,vibe_subtitle,"Unit Description"," "
+wp_postmeta,711,vibe_type,"Unit Type",text-document
+wp_postmeta,711,vibe_free,"Free Unit",S
+wp_postmeta,711,vibe_duration,"Unit Duration",
+wp_postmeta,711,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,711,vibe_forum,"Unit Forum",
+wp_postmeta,711,vibe_assignment,"Connect Assignments",
+wp_postmeta,711,vibe_unit_attachments,Attachments,
+wp_posts,713,post_type,Type,unit
+wp_posts,713,post_title,Title,Article
+wp_posts,713,post_date,Date,"2020-08-25 19:13:19"
+wp_posts,713,post_content,Content,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum turpis eu nunc volutpat vestibulum. Donec scelerisque arcu ac ante tristique iaculis. Morbi vulputate mauris sit amet faucibus feugiat. Curabitur ullamcorper dignissim suscipit. Nulla turpis nisi, fermentum sodales tincidunt id, accumsan sed orci. Donec et venenatis leo. Phasellus scelerisque, nisl vitae sollicitudin euismod, quam nisl tristique urna, mattis laoreet tellus tortor ac nibh.
+
+Nullam nec lacus nisl. Nam bibendum, sem at commodo dignissim, sem elit iaculis libero, in sollicitudin metus velit ut nisl. Cras pharetra, mi ac placerat vehicula, nisl dolor commodo libero, vitae molestie est quam quis massa. Fusce molestie lorem at diam fermentum tempus.
+
+Aliquam convallis elit ut felis iaculis, eget mattis erat laoreet. Pellentesque mollis purus justo, ut commodo lectus pretium non. Maecenas sed arcu congue, rutrum elit eget, tempus urna. Duis accumsan porttitor dolor, et pharetra mi ullamcorper non. Mauris in ullamcorper felis, in fermentum massa. Nulla facilisi. Suspendisse semper odio eleifend nisl aliquet sollicitudin. Aenean porta lorem eu nulla ullamcorper consequat. Vivamus ac porta sapien. Nulla facilisi.
+
+Mauris in ligula eget est elementum porta. Integer sollicitudin erat ut elit laoreet, a hendrerit risus luctus. Vestibulum id enim vel arcu suscipit dictum ac nec tellus. Integer suscipit pulvinar odio, a rutrum tortor tincidunt in. Pellentesque consequat sapien non massa ultrices condimentum et lacinia orci."
+wp_posts,713,post_author,"Author ID",1
+wp_posts,713,post_excerpt,Excerpt,
+wp_posts,713,post_status,Status,publish
+wp_posts,713,post_name,Slug,article
+wp_posts,713,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,713,_edit_lock," edit lock",1598382684:1
+wp_postmeta,713,_edit_last," edit last",1
+wp_postmeta,713,vibe_subtitle,"Unit Description"," "
+wp_postmeta,713,vibe_type,"Unit Type",text-document
+wp_postmeta,713,vibe_free,"Free Unit",H
+wp_postmeta,713,vibe_duration,"Unit Duration",
+wp_postmeta,713,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,713,vibe_forum,"Unit Forum",
+wp_postmeta,713,vibe_assignment,"Connect Assignments",
+wp_postmeta,713,vibe_unit_attachments,Attachments,
+wp_posts,713,post_type,Type,unit
+wp_posts,713,post_title,Title,Article
+wp_posts,713,post_date,Date,"2020-08-25 19:13:19"
+wp_posts,713,post_content,Content,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum turpis eu nunc volutpat vestibulum. Donec scelerisque arcu ac ante tristique iaculis. Morbi vulputate mauris sit amet faucibus feugiat. Curabitur ullamcorper dignissim suscipit. Nulla turpis nisi, fermentum sodales tincidunt id, accumsan sed orci. Donec et venenatis leo. Phasellus scelerisque, nisl vitae sollicitudin euismod, quam nisl tristique urna, mattis laoreet tellus tortor ac nibh.
+
+Nullam nec lacus nisl. Nam bibendum, sem at commodo dignissim, sem elit iaculis libero, in sollicitudin metus velit ut nisl. Cras pharetra, mi ac placerat vehicula, nisl dolor commodo libero, vitae molestie est quam quis massa. Fusce molestie lorem at diam fermentum tempus.
+
+Aliquam convallis elit ut felis iaculis, eget mattis erat laoreet. Pellentesque mollis purus justo, ut commodo lectus pretium non. Maecenas sed arcu congue, rutrum elit eget, tempus urna. Duis accumsan porttitor dolor, et pharetra mi ullamcorper non. Mauris in ullamcorper felis, in fermentum massa. Nulla facilisi. Suspendisse semper odio eleifend nisl aliquet sollicitudin. Aenean porta lorem eu nulla ullamcorper consequat. Vivamus ac porta sapien. Nulla facilisi.
+
+Mauris in ligula eget est elementum porta. Integer sollicitudin erat ut elit laoreet, a hendrerit risus luctus. Vestibulum id enim vel arcu suscipit dictum ac nec tellus. Integer suscipit pulvinar odio, a rutrum tortor tincidunt in. Pellentesque consequat sapien non massa ultrices condimentum et lacinia orci."
+wp_posts,713,post_author,"Author ID",1
+wp_posts,713,post_excerpt,Excerpt,
+wp_posts,713,post_status,Status,publish
+wp_posts,713,post_name,Slug,article
+wp_posts,713,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,713,_edit_lock," edit lock",1598382684:1
+wp_postmeta,713,_edit_last," edit last",1
+wp_postmeta,713,vibe_subtitle,"Unit Description"," "
+wp_postmeta,713,vibe_type,"Unit Type",text-document
+wp_postmeta,713,vibe_free,"Free Unit",H
+wp_postmeta,713,vibe_duration,"Unit Duration",
+wp_postmeta,713,vibe_unit_duration_parameter,"Unit Duration parameter",60
+wp_postmeta,713,vibe_forum,"Unit Forum",
+wp_postmeta,713,vibe_assignment,"Connect Assignments",
+wp_postmeta,713,vibe_unit_attachments,Attachments,
