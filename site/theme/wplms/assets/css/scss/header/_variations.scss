@@ -1,0 +1,615 @@
+/**
+ * File: header.scss
+ * Description : Contains all styling for the WPLMS Headers
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULTS
+/*    02. LOGO
+/*    03. MENU
+/*    04. LOGIN & SEARCH
+/*    05. CART
+/*    06. RESPONSIVE
+/*
+/*========================================================================*/
+/*   01. DEFAULTS
+/*========================================================================*/
+
+
+header{
+	&.generic{
+		background:none;
+    	background-color:transparent;
+    	border:none;
+    	position:absolute;
+    	left:0;
+    	&.fixed{
+    		position:fixed;
+    		top:0;
+    	    z-index:9999;
+    	    #header_logo{display:none;}
+    	    #header_alt_logo{display:block;}
+    	}
+	}
+	&.sleek:not(.transparent),&.mooc,&.standard{
+		transition: all 0.6s ease-in-out;
+		&.fixed{
+	    	position:fixed;
+	    	left:0;
+	    	top:-40px;
+			z-index:9999;
+			transform: translateY(40px); 
+	    }
+	}
+	&.sleek{
+	    &.transparent{
+	    	background:none;
+	    	background-color:transparent;
+	    	transition: all 0.6s ease-in-out;
+	    	position:absolute;
+	    	left:0;
+	    	top:0;
+	    	&.fixed{
+	    		position:fixed;
+	    	    background: #212b2d;
+	    	    z-index:9999;
+	    	}
+	    	&:not(.fixed).light nav>.menu>li>a{
+	    		color:#fff;
+	    	}
+	    	&:not(.fixed).dark nav>.menu>li>a{
+	    		color:#222;
+	    	}
+	    }
+	}
+	&.standard{
+		#alt_logo{display:none;}
+		&.center{
+			text-align:center;
+			nav{
+				display:inline-block;
+				float:none;
+			}
+			#alt_logo{display:none;}
+		}
+	}
+	&.app{
+		padding:0 72px;
+		text-align:center;
+		#login_trigger{
+		    border-right: 1px solid rgba(0,0,0,.1);
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    font-size: 24px;
+		    color: #444;
+		    width: 72px;
+		    height: 72px;
+		    line-height: 2.8;
+		    img{
+	    	    width: 45px;
+			    height: 45px;
+			    border-radius: 50%;
+		    }
+		}
+		.topmenu{
+			li{
+				a{
+					cursor:pointer;
+					i+span{
+					    background: #009dd8;
+					    font-size: 10px;
+					    color: #fff;
+					    padding: 4px;
+					    border-radius: 2px;
+					    line-height: 1;
+					    position: absolute;
+					    top: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	&.univ {
+		.header_univ{
+		    .logo_container{
+		    	display: grid;
+    			margin-top: -48px;
+    			#logo{
+				    align-self: center;
+				    justify-self: center;
+    			}
+		    }
+		    .header_main{
+		    	.header_main_content{
+		    		display:grid;
+		    		grid-template-columns:240px 1fr;
+		    		nav{
+			    		float:none;
+		    		    grid-column: 2/3;
+			    		&>ul{
+		    			    display: grid;
+		    				grid-template-columns: repeat( auto-fit, minmax(120px, 1fr) );
+			    		}
+			    	}
+		    	}
+		    	
+		    }
+		    .header_top_main{
+	    	    display: grid;
+	    		grid-template-columns: 240px 1fr 200px;
+	    		ul.topmenu{
+	    			display: grid;
+				    grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+				    justify-items: center;
+				    grid-column: 2/3;
+				    justify-content: center;
+	    			li{
+	    				margin:0;
+	    				float:none;
+	    				padding:8px;
+	    			}
+	    			&:last-child{
+	    				justify-self:flex-end;
+					    grid-column: 3/4;
+					    display:block;
+	    			}
+	    		}
+		    }
+		}
+	}
+}
+
+.login_sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    visibility: hidden;
+    width: 220px;
+    height: 100vh;
+    text-align:center;
+    background:$pagesidebarbg;
+    color: $pagesidebarcolor;
+	transition: all 0.5s;
+	.login_content{
+		position:relative;
+		padding:30px;
+		overflow-y:auto;
+		#vbp-login-form{
+			label{
+			    text-align: left;
+			    font-size: 11px;
+			    letter-spacing:1px;
+			    text-transform: uppercase;
+			    margin-bottom:10px;
+			    width:100%;
+			    .tip{
+			    	float:right;
+			    	color:rgba(255,255,255,0.4);
+			    }
+				input[type="text"],input[type="password"]{
+				    margin-top: 5px;
+				    width:100%;
+    				padding: 8px;
+					border-radius:2px;
+					background:rgba(0,0,0,0.1);
+					border:1px solid rgba(255,255,255,0.1);
+				}
+			}
+			#sidebar-wp-submit,
+			.vbpregister{
+				display:inline-block;
+				padding:15px;
+				width:100%;
+				line-height:1;
+				background:$primarybg;
+				color:$primarycolor;
+				border:none;
+				font-size:11px;
+				text-transform:uppercase;
+				border-radius:2px;
+				font-weight:600;
+			}
+			.vbpregister{background:$secondarybg;}
+		}
+		
+		.bp_social_connect{
+			a{
+			    padding: 10px;
+			    width:100%;
+			    min-width:0;
+			}
+		} 
+		#sidebar-me{
+			#bpavatar{
+				img{
+				    width: 120px;
+				    height: 120px;
+				    border-radius: 50%;
+				    margin-bottom:15px;
+				}
+				& + ul{
+				    min-height: auto;
+				    display: inline-block;
+				    text-align: center;
+				    border-bottom: 1px solid rgba(255,255,255,0.1);
+					li{
+						float:left;
+						text-align:center;
+						min-height:auto;
+						margin-bottom: 10px;
+					    display: inline-block;
+					    width: 100%;
+						&#username a{
+							float:none;
+							font-size:14px;
+							color:#FFF;
+							opacity:1;
+						}
+						a{
+							font-size:11px;
+							letter-spacing:1px;
+							text-transform:uppercase;
+							color:#FFF;
+							font-weight:600;
+							margin-right:10px;
+							opacity:0.9;
+							i{
+								display:none;
+							}
+						}
+						
+					}
+					& + ul{
+						clear:both;
+						margin: 0 -30px;
+						li{
+							clear:both;
+							display:block;
+							text-align:left;
+							display:inline-block;width:100%;
+							clear:both;
+							opacity:0.8;
+							border-left:3px solid transparent;
+							a{
+								font-size:11px;
+								font-weight:600;
+								padding:20px;display:inline-block;
+								letter-spacing:1px;
+								text-transform:uppercase;
+								color:#FFF;
+								i{
+									float:left;
+									margin-right:10px;
+								    font-size: 15px;
+    								margin-top: 2px;
+								}
+								span{
+								    padding: 3px 5px;
+								    background: rgba(255,255,255,0.2);
+								    line-height: 1;
+								    border-radius: 2px;
+								    float: right;
+								    margin-top: 2px;
+								}
+							}
+							&:hover{
+								opacity:1;
+								background:rgba(0,0,0,0.2);
+								border-color:#25A6F7;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.login_open{
+	.login_sidebar{
+		visibility:visible;
+		z-index:1;
+	}
+	.pusher{
+		z-index:2;
+	}
+}
+
+/*========================================================================*/
+/*   02. LOGO
+/*========================================================================*/
+
+.sleek{
+	#logo{
+		float:left;
+	}
+	#header_logo{display:block;}
+	#header_alt_logo{display:none;}
+	&.center{
+		#logo{
+			width:100%;
+			text-align:center;
+			a{
+				display:inline-block;
+			}
+		}
+		#vibe_bp_login:after{border:none;}
+	}
+	&.fixed{
+		#header_logo{display:none;}
+		#header_alt_logo{display:block !important;}
+	}
+}
+
+.generic{
+	#header_alt_logo{display:none;}
+}
+.mooc{
+	#logo{
+		text-align:center;
+		float:left;
+		margin-right:30px;
+		a{
+			display:inline-block;
+		}
+	}
+	&.app{
+		#mooc_searchform:before{
+			top:0;
+		}
+	}
+	#vibe_bp_login.default_login{
+		top:76px;
+	}
+	&.fixed{
+		&.app{
+			#header_logo{display:none;}
+			#header_alt_logo{display:block !important;}
+		}
+		
+	}
+}
+
+
+/*========================================================================*/
+/*   03. MENU
+/*========================================================================*/
+.sleek{
+
+	nav>.menu>li>a,
+	.topmenu>li>a{
+		font-weight: 600;
+	    margin: 0 10px;
+	    padding: 30px 6px;
+	    font-size:13px;
+	    display: inline-block;
+	    text-transform: uppercase;
+	    color: #FFF;
+	    opacity:1;
+	}
+	.topmenu>li{
+	    float: left;
+    	display: inline-block;
+    	&:first-child{
+    		a > span{
+    			display: inline-block;
+			    max-width: 90px;line-height:1;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow:ellipsis;
+    		}
+    	}
+	}
+	nav .menu-item-has-children:hover > a:before{
+		border: 10px solid;
+		border-color: transparent transparent #48575a transparent;
+	}
+}
+
+.mooc{
+	.topmenu{
+		float:right;
+		text-align:left;
+		& > li{
+			float: left;
+    		display: inline-block;
+		}
+	}
+	nav>.menu>li>a,
+	.topmenu>li>a{
+		font-weight: 600;
+	    margin: 0 10px;
+	    padding: 30px 6px;
+	    display: inline-block;
+	    font-size: 13px;
+	    text-transform: uppercase;
+	    color: #FFF;
+	    opacity:1;
+	}
+	#mooc_menu{
+		position:relative;
+		float:left;
+		text-align:left;
+	}
+	#mooc_searchform{
+		float:right;
+		margin:24px 0 0 20px;
+		display:inline-block;
+	}
+}
+
+
+/*========================================================================*/
+/*   04. LOGIN & SEARCH
+/*========================================================================*/
+
+.sleek{
+	#vibe_bp_login{
+	    top: 78px;
+    	right:30px;
+    	text-align:left;
+    	&:after{
+    		left:30px;
+    		right:auto;
+    	}
+    	label{
+    		text-transform:uppercase;
+    	}
+	}
+	#searchdiv.active{
+		padding:0;
+	}
+}
+
+
+/*========================================================================*/
+/*   05. CART
+/*========================================================================*/
+
+.sleek,.mooc{
+	.vbpcart{
+		cursor:pointer;
+		position:relative;
+		span{
+			position:relative;
+			em{
+				background: rgba(0,0,0,0.2);
+			    padding: 4px;
+			    font-size: 10px;
+			    line-height:1;
+			    position: absolute;
+			    top: -10px;
+			    font-style: normal;
+			    border-radius: 2px;
+			}
+		}
+		&.active:after {
+		    border: 7px solid;
+		    border-color: transparent transparent #FFF transparent;
+		    content: '';
+		    bottom: -4px;
+		    right: 0;
+		    position: absolute;
+		}
+	}
+	.woocart{
+		display:none;
+		transition: all 0.6s ease-in-out;
+		&.active{
+			display:block;
+		}
+	    position: absolute;
+        right: 0;
+    	top: 100%;
+	    z-index: 9;
+	    background: #FFF;
+	    width:240px;
+	    border-bottom-right-radius: 4px;
+	    border-bottom-left-radius: 4px;
+	    .cart_list.product_list_widget{
+	    	padding:10px 15px 0;
+	    	.mini_cart_item{
+	    		display:inline-block;
+	    		width:100%;
+    		    display: inline-block;
+    			padding: 10px;
+    			a,span{
+    				color: #666;
+    				font-weight:600;
+				    font-size: 11px;
+				    text-transform: uppercase;
+    			}
+    			.remove{
+    				float:right;
+    				color:red;
+    			}
+    			img{
+				    width: 48px;
+				    border-radius: 2px;
+				    margin: 0 10px 0 0;
+				    float: left;
+    			}
+	    	}
+	    	.empty{
+    		    padding: 10px 10px 20px;
+				color: #666;
+	    	}
+	    }
+	    .total{
+	    	border-top:1px solid rgba(0,0,0,0.1);
+	    	border-bottom:1px solid rgba(0,0,0,0.1);
+	    	padding:10px 15px;
+	    	font-size: 12px;
+	    	margin:10px 0 0;
+	    	text-align:left;
+    		text-transform: uppercase;
+	    	.amount{
+	    		float:right;
+	    	}
+	    }
+	    .buttons{
+	    	background:rgba(0,0,0,0.1);
+	    	text-align:center;
+	    	display:inline-block;
+	    	width:100%;
+	    	margin:0 0 -5px;
+	    	padding:10px 15px;
+	    	.button{
+	    		margin:0;
+	    		float:left;
+	    		float:left;
+	    		font-size:10px;
+	    		letter-spacing:1px;
+	    		color:#FFF;
+	    		text-transform:uppercase;
+	    		padding:7px 12px;
+	    		background-image:none;
+	    		&+.button{
+	    			margin-left:10px;
+	    			float:right;
+	    		}
+	    	}
+	    }
+	}
+}
+
+.mooc{
+	.topmenu{
+		li{
+			position:relative;
+			.woocart.active{
+				left:auto;
+				right:0;
+			}
+		}
+	}
+}
+
+
+/*
+SPECIAL CASE
+ */
+
+.single-course.c4 header.transparent + #title,
+.single-course.c4 header.generic + #title{
+	#item-meta{
+		.course-star-rating{
+			float:left;
+			&+strong{
+				float:left;margin-right:10px;
+			}
+		}
+	}
+	&+#content #item-header #item-header-avatar{margin-top:0 !important;}
+}

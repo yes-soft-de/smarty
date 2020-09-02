@@ -1,0 +1,111 @@
+/**
+ * File: General.scss
+ * Description : Contains all general styling for the WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. TYPOGRAPHY STYLING
+/*    03. FORMS STYLING
+/*    04. SELECT DROPDOWN
+/*    05. LINKS STYLING
+/*    06. LISTS STYLING
+/*    07. PAGE BLOCKS
+/*    08. MISCELLANEOUS
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+#buddypress{
+	#item-nav{
+		clear:both;
+		.item-list-tabs{
+			border-radius:0;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			padding:0;
+			line-height:0;
+			li{
+				a{
+					padding:12px 20px;
+					line-height:1.6;
+					display:inline-block;
+					width: 100%;
+					text-transform: uppercase;
+					span{margin-top:-2px;}
+				}
+				&.loading{
+					a{
+						background-position: 88% 50%;
+					}
+				}
+				.flexMenu-popup{
+					li a{width:100%;}
+				}
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   01. BUDDYDRIVE NAV
+/*========================================================================*/
+#item-body{
+	#buddydrive-item-nav{
+		font-size:11px;
+		text-transform:uppercase;
+		i.icon{
+			font-size:16px;
+			line-height:1.8;
+			width:auto;
+			height:auto;
+		}
+	}
+	#buddydrive-forms{
+		.buddydrive-crumbs{
+			clear:none;
+		}
+	}
+	table#buddydrive-dir{
+		width:100%;
+		border:1px solid $bordercolor;
+		tr{
+			border-bottom:1px solid $bordercolor;
+			th,td{
+				padding:8px;
+				.buddydrive-file-content{
+					i{
+						font-size:16px;
+						line-height:1.8;
+						width:auto;
+						height:auto;
+						float:left;
+					}
+				}
+			}
+		}
+	}
+}
+#send_message_form,
+#whats-new-submit{
+	#buddydrive-btn{
+	    padding: 7px 10px;
+	    height:36px;
+	    font-size: 14px;
+	    margin:0;line-height:1.6;
+	}
+}
+
+.buddydrive-share-url{color:#444;}
+.bp-uploader-window{
+	display:inline-block;
+	width:100%;
+}

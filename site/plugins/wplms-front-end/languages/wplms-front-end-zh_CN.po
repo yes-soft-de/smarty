@@ -1,0 +1,2853 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Front End\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-01 12:29+0530\n"
+"PO-Revision-Date: 2017-05-01 12:29+0530\n"
+"Last-Translator: Vibethemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "请输入您的 Envato Marketplace 用户名。"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "请输入您的 Envato Marketplace API Key。"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" 为必填参数。"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace ”item ID“ 是必填参数。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "API 请求期间出现预期外的 HTTP 错误。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "重试"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "出现未知错误"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr "插件已更新，但未被激活。请手动激活。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "插件已成功激活。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "更新插件"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "用户名："
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "邮箱："
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Key："
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>插件更新已<span style=\"color:green\">启用</span></p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>您的输入<span style=\"color:red\">无效</span>，自动更新<span style="
+"\"color:red\">无法启用</span>。</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "编辑 Key"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>激活升级无法被验证。</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "添加 Key"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "用户名"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "邮箱"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest 用户名 (用于自动更新)"
+
+#: includes/class.generate_fields.php:45
+msgid "Set Course Memberships"
+msgstr "设置课程成员资格"
+
+#: includes/class.generate_fields.php:72
+msgid "EDIT COURSE"
+msgstr "编辑课程"
+
+#: includes/class.generate_fields.php:72 includes/class.generate_fields.php:128
+msgid "CREATE COURSE"
+msgstr "创建课程"
+
+#: includes/class.generate_fields.php:73
+msgid "Start building a course"
+msgstr "开始构建课程"
+
+#: includes/class.generate_fields.php:76
+msgid "Course title"
+msgstr "课程标题"
+
+#: includes/class.generate_fields.php:82
+msgid "ENTER A COURSE TITLE"
+msgstr "输入一个课程标题"
+
+#: includes/class.generate_fields.php:83
+msgid ""
+"This is the title of the course which is displayed on top of every course"
+msgstr "这是显示在每个课程顶部的课程标题"
+
+#: includes/class.generate_fields.php:86
+msgid "Course Category"
+msgstr "课程分类"
+
+#: includes/class.generate_fields.php:93
+msgid "Select a Course Category"
+msgstr "选择一个课程分类"
+
+#: includes/class.generate_fields.php:96
+msgid "Course Image"
+msgstr "课程图片"
+
+#: includes/class.generate_fields.php:100
+msgid "Upload a Course Image"
+msgstr "上传一个课程图片"
+
+#: includes/class.generate_fields.php:101
+msgid "Set as Course Image"
+msgstr "设置为课程图片"
+
+#: includes/class.generate_fields.php:108
+msgid "Course Short Description"
+msgstr "课程简短描述"
+
+#: includes/class.generate_fields.php:114
+msgid "Add full description"
+msgstr "添加完整描述"
+
+#: includes/class.generate_fields.php:115
+msgid "Enter a short description of the course."
+msgstr "为课程添加一个简短描述。"
+
+#: includes/class.generate_fields.php:118
+msgid "Full Description"
+msgstr "完整描述"
+
+#: includes/class.generate_fields.php:125
+msgid "Enter full description of the course."
+msgstr "输入课程的完整描述。"
+
+#: includes/class.generate_fields.php:128
+msgid "SAVE COURSE"
+msgstr "保存课程"
+
+#: includes/class.generate_fields.php:136 includes/class.process_fields.php:590
+msgid "SETTINGS"
+msgstr "设置"
+
+#: includes/class.generate_fields.php:137
+#: includes/class.generate_fields.php:465
+msgid "Course settings"
+msgstr "课程设置"
+
+#: includes/class.generate_fields.php:140
+msgid "Course duration"
+msgstr "课程持续时间"
+
+#: includes/class.generate_fields.php:141
+msgid "Maximum Course Duration"
+msgstr "最大课程持续时间"
+
+#: includes/class.generate_fields.php:148
+#, php-format
+msgid ""
+"Enter the maximum duration for the course in %s. This is the maximum "
+"duration within which the student should complete the course. Use 9999 for "
+"unlimited access to course."
+msgstr ""
+"在 %s 中输入课程的最大持续时间。这是学生可以完成课程的最长时间。输入 9999 以"
+"不做限制。"
+
+#: includes/class.generate_fields.php:151
+msgid "Course duration parameter"
+msgstr "课程持续时间参数"
+
+#: includes/class.generate_fields.php:152
+msgid "Set Course Duration parameter"
+msgstr "设定课程持续时间参数"
+
+#: includes/class.generate_fields.php:158
+msgid "Set course duration parameter for this course."
+msgstr "给本课程关联一个自定义的证书模板。"
+
+#: includes/class.generate_fields.php:161
+msgid "Prerequisite Course"
+msgstr "前置课程"
+
+#: includes/class.generate_fields.php:162
+msgid "Set a prerequisite Course"
+msgstr "设置一个前置课程"
+
+#: includes/class.generate_fields.php:167
+msgid "Enter first 4 letters of course for search"
+msgstr "输入课程的前 4 个字母来搜索"
+
+#: includes/class.generate_fields.php:169
+msgid ""
+"Pre-required course which the user needs to complete before subscribing to "
+"this course."
+msgstr "用户订阅本课程前需要完成的前置课程。"
+
+#: includes/class.generate_fields.php:172
+msgid "Previous Unit Completion Lock"
+msgstr ""
+
+#: includes/class.generate_fields.php:173
+msgid "Previous Units/Quiz must be Complete before next unit/quiz access"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:175
+#: includes/class.generate_fields.php:208
+#: includes/class.generate_fields.php:230
+#: includes/class.generate_fields.php:241
+#: includes/class_wplms_front_end.php:962
+#: includes/class_wplms_front_end.php:1785
+msgid "NO"
+msgstr "否"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:175
+#: includes/class.generate_fields.php:208
+#: includes/class.generate_fields.php:230
+#: includes/class.generate_fields.php:241
+#: includes/class_wplms_front_end.php:964
+#: includes/class_wplms_front_end.php:1783
+msgid "YES"
+msgstr "是"
+
+#: includes/class.generate_fields.php:180
+msgid "Force previous unit access lock."
+msgstr ""
+
+#: includes/class.generate_fields.php:183
+msgid "Course Type"
+msgstr "课程标题"
+
+#: includes/class.generate_fields.php:184
+msgid "Set Course Type"
+msgstr "设置一个课程群组"
+
+#: includes/class.generate_fields.php:186
+msgid "ONLINE"
+msgstr "在线"
+
+#: includes/class.generate_fields.php:186
+msgid "OFFLINE"
+msgstr "下线"
+
+#: includes/class.generate_fields.php:191
+msgid "Offline Courses can be filtered in the Course directory."
+msgstr ""
+
+#: includes/class.generate_fields.php:194
+msgid "Unit Content (Offline Courses)"
+msgstr ""
+
+#: includes/class.generate_fields.php:195
+msgid "Full units in Curriculum"
+msgstr "构建课程体系"
+
+#: includes/class.generate_fields.php:197
+#: includes/class.generate_fields.php:219
+msgid "HIDE"
+msgstr "隐藏"
+
+#: includes/class.generate_fields.php:197
+#: includes/class.generate_fields.php:219
+msgid "SHOW"
+msgstr "显示："
+
+#: includes/class.generate_fields.php:202
+msgid ""
+"Full Unit content is available for users subscribed to the course, directly "
+"from Course curriculum. Recommended for Offline Courses."
+msgstr ""
+
+#: includes/class.generate_fields.php:205
+msgid "Course Button (Offline Courses)"
+msgstr "课程已下线。"
+
+#: includes/class.generate_fields.php:206
+msgid "Hide Course Button after subscription"
+msgstr "课程简短描述"
+
+#: includes/class.generate_fields.php:213
+msgid "Hide the Course button after user is subscribed to the Course."
+msgstr ""
+
+#: includes/class.generate_fields.php:216
+msgid "Course Progress (Offline Courses)"
+msgstr ""
+
+#: includes/class.generate_fields.php:217
+msgid "Progress on Course home"
+msgstr ""
+
+#: includes/class.generate_fields.php:224
+msgid "Display Course progress on Course home page."
+msgstr ""
+
+#: includes/class.generate_fields.php:227
+msgid "Auto Progress (Offline Courses)"
+msgstr ""
+
+#: includes/class.generate_fields.php:228
+msgid "Time based Course progress"
+msgstr "设置为课程图片"
+
+#: includes/class.generate_fields.php:235
+msgid ""
+"Automatically calculate progress based on Time elapsed in Course / Total "
+"course duration."
+msgstr ""
+
+#: includes/class.generate_fields.php:238
+msgid "Post Reivews (Offline Courses)"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:239
+msgid "Post Course reviews from Course Home"
+msgstr "文章已从修订版本 %s 中恢复"
+
+#: includes/class.generate_fields.php:246
+msgid "Enable course subscribed students to post reviews from Course home."
+msgstr ""
+
+#: includes/class.generate_fields.php:249
+msgid "Course Evaluation"
+msgstr "课程评估"
+
+#: includes/class.generate_fields.php:250
+msgid "Course Evaluation Mode"
+msgstr "课程评估模式"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:252
+#: includes/class_wplms_front_end.php:1369
+msgid "MANUAL"
+msgstr "手动"
+
+#: includes/class.generate_fields.php:252
+msgid "AUTOMATIC"
+msgstr "自动"
+
+#: includes/class.generate_fields.php:257
+msgid "User gets the course result instantly upon submission."
+msgstr "用户提交后立刻获得课程结果。"
+
+#: includes/class.generate_fields.php:260
+msgid "Drip Feed"
+msgstr "滴注"
+
+#: includes/class.generate_fields.php:261
+msgid "Course Drip Feed"
+msgstr "课程滴注"
+
+#: includes/class.generate_fields.php:264
+#: includes/class.generate_fields.php:331
+#: includes/class.generate_fields.php:365 includes/class.process_fields.php:602
+msgid "DISABLE"
+msgstr "禁用"
+
+#: includes/class.generate_fields.php:264
+#: includes/class.generate_fields.php:331
+#: includes/class.generate_fields.php:365 includes/class.process_fields.php:602
+msgid "ENABLE"
+msgstr "启用"
+
+#: includes/class.generate_fields.php:269
+msgid ""
+"Drip Feed courses, units are released one by one after certain duration of "
+"time."
+msgstr "滴注课程，单元在一定持续时间后一个接一个的发布。"
+
+#: includes/class.generate_fields.php:272
+#: includes/class.generate_fields.php:273
+msgid "Drip Feed Origin"
+msgstr "滴注"
+
+#: includes/class.generate_fields.php:275
+msgid "PREVIOUS UNIT"
+msgstr "上一个单元"
+
+#: includes/class.generate_fields.php:275
+msgid "STARTING POINT"
+msgstr ""
+
+#: includes/class.generate_fields.php:280
+msgid ""
+"Drip Feed origin, count time from Previous Unit Access Time (default) OR "
+"Course starting date/time (if start date not set) ."
+msgstr ""
+
+#: includes/class.generate_fields.php:283
+#: includes/class.generate_fields.php:284
+msgid "Drip Feed Type"
+msgstr "滴注类型"
+
+#: includes/class.generate_fields.php:286
+msgid "UNIT"
+msgstr "单元"
+
+#: includes/class.generate_fields.php:286
+msgid "SECTION"
+msgstr "章节"
+
+#: includes/class.generate_fields.php:291
+msgid "Drip Feed type, release units or sections."
+msgstr ""
+
+#: includes/class.generate_fields.php:294
+#: includes/class.generate_fields.php:295
+msgid "Drip Feed Duration Type"
+msgstr "滴注类型"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:298
+#: includes/class_wplms_front_end.php:1378
+msgid "STATIC"
+msgstr "静态"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:298
+msgid "UNIT DURATION"
+msgstr "单元持续时间"
+
+#: includes/class.generate_fields.php:303
+msgid "Time gap between adjacent Units/Sections release."
+msgstr ""
+
+#: includes/class.generate_fields.php:306
+msgid "Drip Duration"
+msgstr "滴注持续时间"
+
+#: includes/class.generate_fields.php:307
+msgid "Set Duration between two successive Course elements"
+msgstr "使用邻近的两个课程单元之间的持续时间"
+
+#: includes/class.generate_fields.php:314
+#, php-format
+msgid ""
+"Enter the drip duration for the course in %s. This is the duration after "
+"which the next unit/section unlocks for the user after viewing the previous "
+"unit/section."
+msgstr ""
+"在 %s 中输入课程的滴注时间。这是用户查看前一个单元/章节后，后一个单元/章节解"
+"锁之前的持续时间。"
+
+#: includes/class.generate_fields.php:317
+msgid "Drip Feed duration parameter"
+msgstr ""
+
+#: includes/class.generate_fields.php:318
+msgid "Set Drip Duration parameter"
+msgstr "滴注持续时间"
+
+#: includes/class.generate_fields.php:324
+msgid "Set course drip feed duration parameter for this course."
+msgstr "给本课程关联一个自定义的证书模板。"
+
+#: includes/class.generate_fields.php:327
+#: includes/class.generate_fields.php:328
+msgid "Course Certificate"
+msgstr "课程证书"
+
+#: includes/class.generate_fields.php:336
+msgid "Award Course completion Certificates to student on course completion."
+msgstr "在学生完成课程时授予课程毕业证书。"
+
+#: includes/class.generate_fields.php:339
+msgid "Passing Percentage"
+msgstr "通过率"
+
+#: includes/class.generate_fields.php:340
+msgid "Set Certificate Percentage"
+msgstr "设置证书比率"
+
+#: includes/class.generate_fields.php:345
+#: includes/class.generate_fields.php:379
+msgid " out of 100"
+msgstr "/100"
+
+#: includes/class.generate_fields.php:347
+msgid ""
+"Any user achieving more marks (weighted average of Quizzes/assignments in "
+"course) than this gets the Course certificate."
+msgstr "任何达到更高分数 (课程中测试/作业的权重平均) 的用户可以获得课程证书。"
+
+#: includes/class.generate_fields.php:350
+msgid "Certificate Template"
+msgstr "证书模板"
+
+#: includes/class.generate_fields.php:351
+msgid "Select Certificate template"
+msgstr "选择证书模板"
+
+#: includes/class.generate_fields.php:356
+msgid "Enter first 3 letters to search course template"
+msgstr "输入课程模板的前 3 个字母来搜索"
+
+#: includes/class.generate_fields.php:358
+msgid "Connect a custom Certificate template for this Course."
+msgstr "给本课程关联一个自定义的证书模板。"
+
+#: includes/class.generate_fields.php:361
+#: includes/class.generate_fields.php:362
+#: includes/class.generate_fields.php:394
+msgid "Course Badge"
+msgstr "课程徽章"
+
+#: includes/class.generate_fields.php:370
+msgid "Award Excellence badges to student on course completion."
+msgstr "在学生完成课程时授予优秀徽章。"
+
+#: includes/class.generate_fields.php:373
+msgid "Badge Percentage"
+msgstr "徽章比例"
+
+#: includes/class.generate_fields.php:374
+msgid "Set Excellence Badge Percentage"
+msgstr "设置优秀徽章的比例"
+
+#: includes/class.generate_fields.php:381
+msgid ""
+"Any user achieving more marks (weighted average of Quizzes/assignments in "
+"course) than this gets the Course Badge."
+msgstr ""
+"任何达到更高分数 (课程中测试/作业的权重平均) 的用户可以得到这个课程徽章。"
+
+#: includes/class.generate_fields.php:384
+msgid "Badge Title"
+msgstr "徽章标题"
+
+#: includes/class.generate_fields.php:385
+msgid "Set Badge title"
+msgstr "设置徽章标题"
+
+#: includes/class.generate_fields.php:390
+#: includes/class.generate_fields.php:391
+msgid "Course Badge Title"
+msgstr "课程徽章标题"
+
+#: includes/class.generate_fields.php:395
+msgid "Upload Course Badge"
+msgstr "上传课程徽章"
+
+#: includes/class.generate_fields.php:398
+msgid "Select or Upload a Course badge."
+msgstr "选择或上传一个课程徽章。"
+
+#: includes/class.generate_fields.php:399
+msgid "Add Course badge."
+msgstr "添加课程徽章。"
+
+#: includes/class.generate_fields.php:403
+msgid "Upload a course badge."
+msgstr "上传一个课程徽章。"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:406
+msgid "Course Retakes"
+msgstr "重新学习课程"
+
+#: includes/class.generate_fields.php:407
+msgid "Student Course Retakes"
+msgstr "设置课程成员资格"
+
+#: includes/class.generate_fields.php:413
+msgid "Set number of times a student can re-take the course (0 to disable)"
+msgstr "设置学生可以重新学习课程的次数 (0 表示禁用)"
+
+#: includes/class.generate_fields.php:416
+msgid "Maxium Seats in Course"
+msgstr ""
+
+#: includes/class.generate_fields.php:417
+msgid "Maximum students that can join the Course"
+msgstr ""
+
+#: includes/class.generate_fields.php:423
+msgid "Maximum number of seats in course (blank to disable, 9999 for infinite)"
+msgstr ""
+
+#: includes/class.generate_fields.php:426
+msgid "Course Start Date"
+msgstr "课程开始时间"
+
+#: includes/class.generate_fields.php:427
+msgid "Start date"
+msgstr "开始时间"
+
+#: includes/class.generate_fields.php:433
+msgid "Set a Course start date."
+msgstr "设置一个课程开始时间。"
+
+#: includes/class.generate_fields.php:436
+msgid "Course Instructions"
+msgstr "课程说明"
+
+#: includes/class.generate_fields.php:437
+msgid "Add Course specific instructions"
+msgstr "添加课程专属的说明"
+
+#: includes/class.generate_fields.php:443
+msgid "Course instructions are displayed when the user starts a course."
+msgstr "课程说明会在用户开始一门课程时显示。"
+
+#: includes/class.generate_fields.php:446
+msgid "Course Completion Message"
+msgstr "课程完成信息"
+
+#: includes/class.generate_fields.php:447
+msgid "Completion Message"
+msgstr "完成信息"
+
+#: includes/class.generate_fields.php:453
+msgid ""
+"Completion message is shown to the student when she finishes the course."
+msgstr "完成信息会在学生完成课程时显示。"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:456
+#: includes/class_wplms_front_end.php:1863
+msgid "SAVE SETTINGS"
+msgstr "保存设置"
+
+#: includes/class.generate_fields.php:464
+msgid "COMPONENTS"
+msgstr "组件"
+
+#: includes/class.generate_fields.php:468
+msgid "Course Group"
+msgstr "课程群组"
+
+#: includes/class.generate_fields.php:469
+msgid "Set a Course Group"
+msgstr "设置一个课程群组"
+
+#: includes/class.generate_fields.php:474
+msgid "Set a course specific group."
+msgstr "设置一个课程专属群组。"
+
+#: includes/class.generate_fields.php:477
+msgid "Course Forum"
+msgstr "课程论坛"
+
+#: includes/class.generate_fields.php:478
+msgid "Set a Course Forum"
+msgstr "设置一个课程论坛"
+
+#: includes/class.generate_fields.php:483
+msgid "Set a course forum."
+msgstr "设置一个课程论坛。"
+
+#: includes/class.generate_fields.php:487
+msgid "SAVE COMPONENTS"
+msgstr "保存组件"
+
+#: includes/class.generate_fields.php:495
+msgid "SET CURRICULUM"
+msgstr "设置课程体系"
+
+#: includes/class.generate_fields.php:496
+msgid "Add Units and Quizzes"
+msgstr "添加单元和测试"
+
+#: includes/class.generate_fields.php:499
+msgid "Curriculum"
+msgstr "课程体系"
+
+#: includes/class.generate_fields.php:501
+msgid "ADD SECTION"
+msgstr "添加章节"
+
+#: includes/class.generate_fields.php:501
+msgid "ADD UNIT"
+msgstr "添加单元"
+
+#: includes/class.generate_fields.php:501
+msgid "ADD QUIZ"
+msgstr "添加测试"
+
+#: includes/class.generate_fields.php:505
+msgid "Build Course curriculum"
+msgstr "构建课程体系"
+
+#: includes/class.generate_fields.php:511
+msgid "PRICING"
+msgstr "定价"
+
+#: includes/class.generate_fields.php:512
+msgid "Set Price for Course"
+msgstr "设置课程的价格"
+
+#: includes/class.generate_fields.php:515
+msgid "Course Pricing"
+msgstr "课程定价"
+
+#: includes/class.generate_fields.php:519
+msgid "Free "
+msgstr "免费"
+
+#: includes/class.generate_fields.php:520
+msgid "Free Course"
+msgstr "免费课程"
+
+#: includes/class.generate_fields.php:522
+msgid "No"
+msgstr "否"
+
+#: includes/class.generate_fields.php:522
+msgid "Yes"
+msgstr "是"
+
+#: includes/class.generate_fields.php:527
+msgid "By pass any purchase process."
+msgstr "跳过任何购买过程。"
+
+#: includes/class.generate_fields.php:530
+msgid "Product "
+msgstr "商品"
+
+#: includes/class.generate_fields.php:531
+msgid "Set a Course Product"
+msgstr "设置一个课程商品"
+
+#: includes/class.generate_fields.php:538
+msgid "Connect a Product with this course."
+msgstr "为本课程关联一个商品。"
+
+#: includes/class.generate_fields.php:541
+msgid "SAVE PRICING"
+msgstr "保存定价"
+
+#: includes/class.generate_fields.php:549
+msgid "MODIFY COURSE"
+msgstr "修改课程"
+
+#: includes/class.generate_fields.php:549
+msgid "PUBLISH COURSE"
+msgstr "发布课程"
+
+#: includes/class.generate_fields.php:550
+msgid "Change Course status"
+msgstr "改变课程状态"
+
+#: includes/class.generate_fields.php:550
+msgid "Go Live !"
+msgstr "上线！"
+
+#: includes/class.generate_fields.php:553
+msgid "Take Offline"
+msgstr "下线"
+
+#: includes/class.generate_fields.php:599
+msgid "Edit in WP Admin"
+msgstr "在 WP 管理面版编辑"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:604
+#: includes/class_wplms_front_end.php:791
+msgid "View Course"
+msgstr "查看课程"
+
+#: includes/class.generate_fields.php:747
+msgid "Add new"
+msgstr "添加新的"
+
+#: includes/class.generate_fields.php:770
+msgid "Enter a new"
+msgstr "输入一个新的"
+
+#: includes/class.generate_fields.php:912
+#: includes/class.generate_fields.php:956 includes/class.process_fields.php:223
+#: includes/class.process_fields.php:227
+msgid "edit"
+msgstr "编辑"
+
+#: includes/class.generate_fields.php:912
+#: includes/class.generate_fields.php:956 includes/class.process_fields.php:223
+#: includes/class.process_fields.php:227
+msgid "change"
+msgstr "change"
+
+#: includes/class.generate_fields.php:919
+msgid "Select Existing Group"
+msgstr "选择已有群组"
+
+#: includes/class.generate_fields.php:921
+msgid "Select a Group"
+msgstr "选择一个群组"
+
+#: includes/class.generate_fields.php:923
+#: includes/class.generate_fields.php:966
+msgid "Set"
+msgstr "设置"
+
+#: includes/class.generate_fields.php:927
+#: includes/class.generate_fields.php:936
+msgid "Create New Group"
+msgstr "创建新群组"
+
+#: includes/class.generate_fields.php:929
+msgid "Group Name"
+msgstr "群组名称"
+
+# @ default
+#: includes/class.generate_fields.php:931
+#: includes/class.generate_fields.php:974
+msgid "Public"
+msgstr "公开"
+
+# @ default
+#: includes/class.generate_fields.php:932
+#: includes/class.generate_fields.php:975
+msgid "Private"
+msgstr "私人"
+
+#: includes/class.generate_fields.php:933
+#: includes/class.generate_fields.php:976
+msgid "Hidden"
+msgstr "隐藏"
+
+#: includes/class.generate_fields.php:935
+msgid "Group Description"
+msgstr "群组说明"
+
+#: includes/class.generate_fields.php:962
+msgid "Select Existing Forum"
+msgstr "选择已有论坛"
+
+#: includes/class.generate_fields.php:964
+msgid "Select a Forum"
+msgstr "选择一个论坛"
+
+#: includes/class.generate_fields.php:970
+#: includes/class.generate_fields.php:979
+msgid "Create New Forum"
+msgstr "创建新论坛"
+
+#: includes/class.generate_fields.php:972
+msgid "Forum Name"
+msgstr "论坛名称"
+
+#: includes/class.generate_fields.php:978
+msgid "Forum Description"
+msgstr "论坛描述"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1133
+#: includes/class_wplms_front_end.php:1940
+msgid "Seconds"
+msgstr "秒"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1134
+#: includes/class_wplms_front_end.php:1941
+msgid "Minutes"
+msgstr "分"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1135
+#: includes/class_wplms_front_end.php:1942
+msgid "Hours"
+msgstr "小时"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1136
+#: includes/class_wplms_front_end.php:1943
+msgid "Days"
+msgstr "天"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1137
+#: includes/class_wplms_front_end.php:1944
+msgid "Weeks"
+msgstr "周"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1138
+#: includes/class_wplms_front_end.php:1945
+msgid "Months"
+msgstr "月"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1139
+#: includes/class_wplms_front_end.php:1946
+msgid "Years"
+msgstr "年"
+
+# @ default
+#: includes/class.generate_fields.php:1168
+#: includes/class.process_fields.php:532 includes/class.process_fields.php:866
+#: includes/class.process_fields.php:1130
+msgid "Title"
+msgstr "标题"
+
+#: includes/class.generate_fields.php:1169
+#: includes/class.process_fields.php:1131
+msgid "Product Title"
+msgstr "商品名称"
+
+#: includes/class.generate_fields.php:1174
+#: includes/class.process_fields.php:1136
+msgid "Product title is useful to identify courses connected to this product."
+msgstr "商品名称可以方便的确定和此商品关联的课程。"
+
+#: includes/class.generate_fields.php:1177
+#: includes/class.generate_fields.php:1178
+#: includes/class.process_fields.php:1139
+#: includes/class.process_fields.php:1140
+msgid "Price"
+msgstr "价格"
+
+#: includes/class.generate_fields.php:1183
+#: includes/class.process_fields.php:1145
+msgid "Set price of the course"
+msgstr "设置本课程的价格"
+
+#: includes/class.generate_fields.php:1186
+#: includes/class.process_fields.php:1148
+msgid "Sale"
+msgstr "出售"
+
+#: includes/class.generate_fields.php:1187
+#: includes/class.process_fields.php:1149
+msgid "Sale Price"
+msgstr "出售价格"
+
+#: includes/class.generate_fields.php:1192
+#: includes/class.process_fields.php:1154
+msgid "Blank if product not in sale"
+msgstr "如果商品未在出售中则留空"
+
+#: includes/class.generate_fields.php:1195
+#: includes/class.process_fields.php:1157
+msgid "Subscription"
+msgstr "订阅"
+
+#: includes/class.generate_fields.php:1197
+#: includes/class.process_fields.php:1159
+msgid "Subscription Type"
+msgstr "订阅类型"
+
+#: includes/class.generate_fields.php:1199
+#: includes/class.process_fields.php:1161
+msgid "FULL DURATION"
+msgstr "整个持续时间"
+
+#: includes/class.generate_fields.php:1199
+#: includes/class.process_fields.php:1161
+msgid "LIMITED"
+msgstr "限时"
+
+#: includes/class.generate_fields.php:1203
+#: includes/class.process_fields.php:1165
+msgid "Set subscription type of product."
+msgstr "选择商品的订阅类型。"
+
+#: includes/class.generate_fields.php:1206
+#: includes/class.process_fields.php:1168
+msgid "Subscription Duration"
+msgstr "订阅持续时间"
+
+#: includes/class.generate_fields.php:1208
+#: includes/class.process_fields.php:1170
+msgid "Set subscription duration"
+msgstr "设置订阅持续时间"
+
+#: includes/class.generate_fields.php:1212
+#: includes/class.process_fields.php:1174
+msgid "Must not be 0"
+msgstr "不能为 0"
+
+#: includes/class.generate_fields.php:1215
+#: includes/class.process_fields.php:1177
+msgid "Subscription Duration Parameter"
+msgstr "订阅持续时间"
+
+#: includes/class.generate_fields.php:1216
+#: includes/class.process_fields.php:1178
+msgid "Set subscription duration parameter"
+msgstr "订阅持续时间"
+
+#: includes/class.generate_fields.php:1228
+#: includes/class.generate_fields.php:1232
+#: includes/class.generate_fields.php:1243
+msgid "Set Product"
+msgstr "设置商品"
+
+#: includes/class.generate_fields.php:1229
+#: includes/class.process_fields.php:1289
+msgid "Change"
+msgstr "变更"
+
+# @ default
+#: includes/class.generate_fields.php:1229
+#: includes/class.generate_fields.php:1520
+#: includes/class.generate_fields.php:1535
+#: includes/class.generate_fields.php:1576
+#: includes/class.generate_fields.php:1595
+#: includes/class.generate_fields.php:1708
+#: includes/class.process_fields.php:1104
+#: includes/class.process_fields.php:1289
+#: includes/class.process_fields.php:1375
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/class.generate_fields.php:1239
+msgid "Select existing product"
+msgstr "选择已有商品"
+
+#: includes/class.generate_fields.php:1241
+msgid "Search a product"
+msgstr "查找一个商品"
+
+#: includes/class.generate_fields.php:1247
+msgid "Create new product"
+msgstr "创建新商品"
+
+#: includes/class.generate_fields.php:1258
+msgid "Create Product"
+msgstr "创建商品"
+
+#: includes/class.generate_fields.php:1277
+#: includes/class.process_fields.php:1199
+msgid "Edit Product"
+msgstr "编辑商品"
+
+#: includes/class.generate_fields.php:1318
+msgid "Modify Course"
+msgstr "修改课程"
+
+#: includes/class.generate_fields.php:1318
+msgid "Back to course"
+msgstr "返回课程"
+
+#: includes/class.generate_fields.php:1325
+msgid "TAKE OFFLINE"
+msgstr "下线"
+
+#: includes/class.generate_fields.php:1327
+#: includes/class.generate_fields.php:1334
+#: includes/class.generate_fields.php:1386
+msgid "SEND FOR APPROVAL"
+msgstr "发送并等待批准"
+
+#: includes/class.generate_fields.php:1332
+#: includes/class.generate_fields.php:1384
+msgid "GO LIVE"
+msgstr "上线"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1339 wplms-front-end.php:102
+msgid "DELETE COURSE"
+msgstr "删除课程"
+
+#: includes/class.generate_fields.php:1340
+msgid "SHOW OPTIONS"
+msgstr "显示选项"
+
+#: includes/class.generate_fields.php:1343
+msgid "Delete Units"
+msgstr "删除单元"
+
+#: includes/class.generate_fields.php:1348
+msgid "Delete Quizzes"
+msgstr "删除测试"
+
+#: includes/class.generate_fields.php:1353
+msgid "Delete Assignments"
+msgstr "删除作业"
+
+#: includes/class.generate_fields.php:1358
+msgid "Delete Product"
+msgstr "设置商品"
+
+#: includes/class.generate_fields.php:1373
+msgid "Course not set"
+msgstr "未设置课程"
+
+#: includes/class.generate_fields.php:1381
+msgid "Go Live"
+msgstr "上线"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1421
+msgid "ADD DYNAMIC QUESTION SECTION TAGS"
+msgstr "保存问题设置"
+
+#: includes/class.generate_fields.php:1424
+msgctxt "dynamic quiz settings"
+msgid "Question Tags"
+msgstr ""
+
+#: includes/class.generate_fields.php:1424
+msgctxt "dynamic quiz settings"
+msgid "Number"
+msgstr ""
+
+#: includes/class.generate_fields.php:1424
+msgctxt "dynamic quiz settings"
+msgid "per Marks"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1458
+#: includes/class.generate_fields.php:1476
+#: includes/class.generate_fields.php:1522
+#: includes/class.generate_fields.php:1537
+#: includes/class.generate_fields.php:1578
+#: includes/class.generate_fields.php:1597
+#: includes/class.generate_fields.php:1677
+#: includes/class.generate_fields.php:1686
+#: includes/class.generate_fields.php:1695
+#: includes/class.generate_fields.php:1710
+#: includes/class_wplms_front_end.php:473
+#: includes/class_wplms_front_end.php:528
+#: includes/class_wplms_front_end.php:999
+#: includes/class_wplms_front_end.php:1019
+#: includes/class_wplms_front_end.php:1036
+#: includes/class_wplms_front_end.php:1254
+#: includes/class_wplms_front_end.php:1292
+#: includes/class_wplms_front_end.php:1448
+msgid "Remove"
+msgstr "移除"
+
+#: includes/class.generate_fields.php:1478
+msgctxt "Total question count in quiz"
+msgid "Total Question Count"
+msgstr ""
+
+#: includes/class.generate_fields.php:1479
+msgctxt "total marks label"
+msgid "Total Marks"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1490
+#: includes/class_wplms_front_end.php:1615
+msgid "ADD OPTION"
+msgstr "添加选项"
+
+#: includes/class.generate_fields.php:1521
+#: includes/class.generate_fields.php:1536
+#: includes/class.generate_fields.php:1577
+#: includes/class.generate_fields.php:1596
+#: includes/class.generate_fields.php:1676
+#: includes/class.generate_fields.php:1685
+#: includes/class.generate_fields.php:1709
+msgid "Preview"
+msgstr "预览"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1523
+#: includes/class.generate_fields.php:1538
+#: includes/class.generate_fields.php:1579
+#: includes/class.generate_fields.php:1598
+#: includes/class.generate_fields.php:1678
+#: includes/class.generate_fields.php:1687
+#: includes/class.generate_fields.php:1711
+#: includes/class_wplms_front_end.php:474
+#: includes/class_wplms_front_end.php:529
+#: includes/class_wplms_front_end.php:1000
+#: includes/class_wplms_front_end.php:1020
+#: includes/class_wplms_front_end.php:1255
+#: includes/class_wplms_front_end.php:1449
+msgid "Delete"
+msgstr "删除"
+
+#: includes/class.generate_fields.php:1544
+msgid "Select existing assignment"
+msgstr "选择已有作业"
+
+#: includes/class.generate_fields.php:1546
+msgid "Search an assignment"
+msgstr "查找一个作业"
+
+#: includes/class.generate_fields.php:1548
+msgid "Set Assignment"
+msgstr "设置作业"
+
+#: includes/class.generate_fields.php:1552
+msgid "Create new Assignment"
+msgstr "创建新作业"
+
+#: includes/class.generate_fields.php:1554
+#: includes/class.generate_fields.php:1618
+msgid "Reference title"
+msgstr "参考标题"
+
+#: includes/class.generate_fields.php:1555
+msgid "Create Assignment"
+msgstr "创建作业"
+
+#: includes/class.generate_fields.php:1583
+#: includes/class.generate_fields.php:1602
+msgid "Marks"
+msgstr "分数"
+
+#: includes/class.generate_fields.php:1608
+msgid "Select existing question"
+msgstr "选择已有问题"
+
+#: includes/class.generate_fields.php:1610
+msgid "Search a question"
+msgstr "查找一个问题"
+
+#: includes/class.generate_fields.php:1612
+msgid "Set Question"
+msgstr "设置问题"
+
+#: includes/class.generate_fields.php:1616
+msgid "Create new Question"
+msgstr "创建新问题"
+
+#: includes/class.generate_fields.php:1621
+msgid "Question Tags"
+msgstr "问题标签"
+
+#: includes/class.generate_fields.php:1628
+msgid "Select a Tag"
+msgstr "选择一个标签"
+
+#: includes/class.generate_fields.php:1634
+#: includes/class_wplms_front_end.php:1590
+msgid "True or False"
+msgstr "是非"
+
+#: includes/class.generate_fields.php:1635
+#: includes/class_wplms_front_end.php:1591
+msgid "Multiple Choice"
+msgstr "单选题"
+
+#: includes/class.generate_fields.php:1636
+#: includes/class_wplms_front_end.php:1592
+msgid "Multiple Correct"
+msgstr "多选题"
+
+#: includes/class.generate_fields.php:1637
+#: includes/class_wplms_front_end.php:1593
+msgid "Sort Answers"
+msgstr "排序题"
+
+#: includes/class.generate_fields.php:1638
+#: includes/class_wplms_front_end.php:1594
+msgid "Match Answers"
+msgstr "匹配题"
+
+#: includes/class.generate_fields.php:1639
+#: includes/class_wplms_front_end.php:1595
+msgid "Fill in the Blank"
+msgstr "填空题"
+
+#: includes/class.generate_fields.php:1640
+#: includes/class_wplms_front_end.php:1596
+msgid "Dropdown Select"
+msgstr "下拉选择题"
+
+#: includes/class.generate_fields.php:1641
+#: includes/class_wplms_front_end.php:1597
+msgid "Small Text"
+msgstr "短文本作答"
+
+#: includes/class.generate_fields.php:1642
+#: includes/class_wplms_front_end.php:1598
+msgid "Large Text"
+msgstr "长文本作答"
+
+#: includes/class.generate_fields.php:1643
+msgid "Survey Type"
+msgstr "课程标题"
+
+#: includes/class.generate_fields.php:1653
+msgid "Create question"
+msgstr "创建问题"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1675
+#: includes/class_wplms_front_end.php:471
+msgid "Edit Unit"
+msgstr "编辑单元"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1684
+#: includes/class_wplms_front_end.php:527
+msgid "Edit Quiz"
+msgstr "编辑测试"
+
+#: includes/class.generate_fields.php:1717
+msgid "Enter Section Title"
+msgstr "输入章节标题"
+
+#: includes/class.generate_fields.php:1723
+msgid "Select existing unit"
+msgstr "选择已有单元"
+
+#: includes/class.generate_fields.php:1725
+msgid "Search a unit"
+msgstr "查找一个单元"
+
+#: includes/class.generate_fields.php:1727
+msgid "Set Unit"
+msgstr "设置单元"
+
+#: includes/class.generate_fields.php:1731
+msgid "Create new unit"
+msgstr "创建新单元"
+
+#: includes/class.generate_fields.php:1733
+msgid "Unit title"
+msgstr "单元标题"
+
+#: includes/class.generate_fields.php:1736
+msgid "Create Unit"
+msgstr "创建单元"
+
+#: includes/class.generate_fields.php:1745
+msgid "Select existing quiz"
+msgstr "选择已有测试"
+
+#: includes/class.generate_fields.php:1747
+msgid "Search a quiz"
+msgstr "查找一个测试"
+
+#: includes/class.generate_fields.php:1749
+msgid "Set Quiz"
+msgstr "设置测试"
+
+#: includes/class.generate_fields.php:1753
+msgid "Create new quiz"
+msgstr "创建新测试"
+
+#: includes/class.generate_fields.php:1755
+msgid "Quiz title"
+msgstr "测试标题"
+
+#: includes/class.generate_fields.php:1757
+msgid "Create Quiz"
+msgstr "创建测试"
+
+#: includes/class.generate_fields.php:1774
+msgid "SAVE CURRICULUM"
+msgstr "保存课程体系"
+
+#: includes/class.generate_fields.php:1807
+#: includes/class.generate_fields.php:1833
+msgid "Add Attachments"
+msgstr ""
+
+#: includes/class.generate_fields.php:1835
+msgid "Add Attachment"
+msgstr ""
+
+#: includes/class.generate_fields.php:1915
+msgid "Course Level"
+msgstr "课程级别"
+
+#: includes/class.generate_fields.php:1922
+msgid "Select a Course Level"
+msgstr "选择一个课程级别"
+
+#: includes/class.generate_fields.php:1929
+msgid "Course Location"
+msgstr "课程地点"
+
+#: includes/class.generate_fields.php:1936
+msgid "Select a Course location"
+msgstr "选择一个课程地点"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:64 includes/class.process_fields.php:95
+#: includes/class.process_fields.php:118 includes/class.process_fields.php:144
+#: includes/class.process_fields.php:184 includes/class.process_fields.php:216
+#: includes/class.process_fields.php:237 includes/class.process_fields.php:307
+#: includes/class.process_fields.php:386 includes/class.process_fields.php:433
+#: includes/class.process_fields.php:470 includes/class.process_fields.php:511
+#: includes/class.process_fields.php:722 includes/class.process_fields.php:836
+#: includes/class.process_fields.php:857 includes/class.process_fields.php:927
+#: includes/class.process_fields.php:974 includes/class.process_fields.php:1027
+#: includes/class.process_fields.php:1053
+#: includes/class.process_fields.php:1085
+#: includes/class.process_fields.php:1115
+#: includes/class.process_fields.php:1209
+#: includes/class.process_fields.php:1301
+#: includes/class_wplms_front_end.php:148
+#: includes/class_wplms_front_end.php:220
+#: includes/class_wplms_front_end.php:317
+#: includes/class_wplms_front_end.php:441
+#: includes/class_wplms_front_end.php:499
+#: includes/class_wplms_front_end.php:554
+#: includes/class_wplms_front_end.php:582
+#: includes/class_wplms_front_end.php:616
+#: includes/class_wplms_front_end.php:766
+#: includes/class_wplms_front_end.php:807
+#: includes/class_wplms_front_end.php:834
+#: includes/class_wplms_front_end.php:1116
+#: includes/class_wplms_front_end.php:1430
+#: includes/class_wplms_front_end.php:1484
+#: includes/class_wplms_front_end.php:1555
+#: includes/class_wplms_front_end.php:1684
+#: includes/class_wplms_front_end.php:1711
+#: includes/class_wplms_front_end.php:1904
+msgid "Security check Failed. Contact Administrator."
+msgstr "安全检查失败，请联系管理员。"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:297 includes/class.process_fields.php:376
+#: includes/class_wplms_front_end.php:201
+#: includes/class_wplms_front_end.php:285
+msgid "Unable to create course, contact admin !"
+msgstr "无法创建课程，联系管理员！"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:313 includes/class.process_fields.php:392
+#: includes/class.process_fields.php:439 includes/class.process_fields.php:1057
+#: includes/class.process_fields.php:1089
+#: includes/class.process_fields.php:1213
+#: includes/class.process_fields.php:1307
+#: includes/class_wplms_front_end.php:226
+#: includes/class_wplms_front_end.php:322
+#: includes/class_wplms_front_end.php:446
+#: includes/class_wplms_front_end.php:504
+#: includes/class_wplms_front_end.php:559
+#: includes/class_wplms_front_end.php:587
+#: includes/class_wplms_front_end.php:621
+#: includes/class_wplms_front_end.php:772
+#: includes/class_wplms_front_end.php:813
+#: includes/class_wplms_front_end.php:840
+#: includes/class_wplms_front_end.php:1121
+msgid "Invalid Course id, please edit a course"
+msgstr "课程 ID 无效，请编辑课程"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:321 includes/class.process_fields.php:399
+#: includes/class.process_fields.php:446 includes/class.process_fields.php:1063
+#: includes/class.process_fields.php:1094
+#: includes/class.process_fields.php:1120
+#: includes/class.process_fields.php:1218
+#: includes/class.process_fields.php:1313
+#: includes/class_wplms_front_end.php:232
+#: includes/class_wplms_front_end.php:328
+#: includes/class_wplms_front_end.php:452
+#: includes/class_wplms_front_end.php:510
+#: includes/class_wplms_front_end.php:593
+#: includes/class_wplms_front_end.php:627
+#: includes/class_wplms_front_end.php:778
+msgid "Invalid Course Instructor"
+msgstr "课程的教师设置无效"
+
+#: includes/class.process_fields.php:488 includes/class.process_fields.php:950
+msgid "FULL PREVIEW & STATS"
+msgstr "完整的预览 & 状态"
+
+#: includes/class.process_fields.php:494 includes/class.process_fields.php:702
+#: includes/class.process_fields.php:910 includes/class.process_fields.php:956
+msgid "Close"
+msgstr "关闭"
+
+#: includes/class.process_fields.php:521
+msgctxt "access denied message when user is not instructor of element"
+msgid "Access denied for element"
+msgstr ""
+
+#: includes/class.process_fields.php:529
+msgid "CONTENT"
+msgstr "内容"
+
+#: includes/class.process_fields.php:533 includes/class.process_fields.php:867
+msgid "Enter title"
+msgstr "输入标题"
+
+#: includes/class.process_fields.php:545
+msgid "Category"
+msgstr "分类"
+
+#: includes/class.process_fields.php:553
+msgid "Select Category"
+msgstr "选择分类"
+
+#: includes/class.process_fields.php:561 includes/class.process_fields.php:870
+msgid "Content"
+msgstr "内容"
+
+#: includes/class.process_fields.php:597
+msgid "Dynamic Quiz"
+msgstr "动态测试"
+
+#: includes/class.process_fields.php:598
+msgid "Dynamic quiz automatically selects questions."
+msgstr "动态测试会自动选择问题。"
+
+#: includes/class.process_fields.php:636
+msgid "Assignments"
+msgstr "作业"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:640 includes/class_wplms_front_end.php:978
+msgid "Unit assignments"
+msgstr "单元作业"
+
+#: includes/class.process_fields.php:641
+msgid "Select assignment for Unit"
+msgstr "给单元选择作业"
+
+#: includes/class.process_fields.php:646
+msgid "ADD ASSIGNMENT"
+msgstr "添加作业"
+
+#: includes/class.process_fields.php:660
+msgid "QUESTIONS"
+msgstr "问题"
+
+#: includes/class.process_fields.php:664
+msgid "Quiz Questions"
+msgstr "测试问题"
+
+#: includes/class.process_fields.php:665
+msgid "Static Quiz questions"
+msgstr "静态的测试问题"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:670
+#: includes/class_wplms_front_end.php:1237
+msgid "ADD QUESTION"
+msgstr "添加问题"
+
+#: includes/class.process_fields.php:684 includes/class.process_fields.php:892
+msgid "SAVE"
+msgstr "保存"
+
+#: includes/class.process_fields.php:690 includes/class.process_fields.php:898
+msgid "EDIT IN ADMIN"
+msgstr "在管理界面编辑"
+
+#: includes/class.process_fields.php:696
+msgid "PREVIEW"
+msgstr "预览"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:827
+#: includes/class_wplms_front_end.php:1208
+msgid "Settings Saved"
+msgstr "设置已保存"
+
+#: includes/class.process_fields.php:848
+msgid "Can not delete element"
+msgstr "无法删除元素"
+
+#: includes/class.process_fields.php:904
+msgid "PREVIEW & STATS"
+msgstr "预览 & 状态"
+
+#: includes/class.process_fields.php:979 includes/class.process_fields.php:1032
+msgid "Empty title."
+msgstr "空标题。"
+
+#: includes/class.process_fields.php:1377
+msgid "Course Edit slug"
+msgstr "课程标题"
+
+#: includes/class.templates.php:42
+msgid "Question Statement : Which is the largest continent in the World ?"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "Asia"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "America"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "Europe"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "Australia"
+msgstr ""
+
+#: includes/class.templates.php:47
+msgid "Continent with Russia"
+msgstr ""
+
+#: includes/class.templates.php:48
+msgid ""
+"A continent is one of several very large landmasses on Earth. They are "
+"generally identified by convention rather than any strict criteria, with up "
+"to seven regions commonly regarded as continents."
+msgstr ""
+
+#: includes/class.templates.php:52
+msgid "Question Statement : This question can have multiple answers."
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 1"
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 2"
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 3"
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 4"
+msgstr ""
+
+#: includes/class.templates.php:57
+msgid " The answer to this quesiton is 2,3"
+msgstr ""
+
+#: includes/class.templates.php:58 includes/class.templates.php:67
+#: includes/class.templates.php:77 includes/class.templates.php:87
+#: includes/class.templates.php:97 includes/class.templates.php:107
+#: includes/class.templates.php:117 includes/class.templates.php:137
+msgid "Some explaination to this question."
+msgstr "选择已有问题"
+
+#: includes/class.templates.php:62
+msgid "Question Statement : True and False question type."
+msgstr ""
+
+#: includes/class.templates.php:66
+msgid " True"
+msgstr "真"
+
+#: includes/class.templates.php:71
+msgid "Question Statement : Select correct answer out of the following"
+msgstr ""
+
+#: includes/class.templates.php:74
+msgid "Option 5"
+msgstr ""
+
+#: includes/class.templates.php:74
+msgid "Option 6"
+msgstr ""
+
+#: includes/class.templates.php:76
+msgid " Option 1 and Option 4"
+msgstr ""
+
+#: includes/class.templates.php:81 includes/class.templates.php:91
+msgid ""
+"Question Statement : Arrange the below options in following order: 4,3,2,1"
+msgstr ""
+
+#: includes/class.templates.php:91
+msgid "First Order"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.templates.php:91
+msgid "Second Order"
+msgstr "秒"
+
+#: includes/class.templates.php:91
+msgid "Third order"
+msgstr ""
+
+#: includes/class.templates.php:91
+msgid "Fourth Order"
+msgstr ""
+
+#: includes/class.templates.php:101
+msgid "Question Statement : Fill in the blank"
+msgstr ""
+
+#: includes/class.templates.php:106
+msgid "some value"
+msgstr ""
+
+#: includes/class.templates.php:111
+msgid "Question Statement : Enter the answer in below text box"
+msgstr ""
+
+#: includes/class.templates.php:115 includes/class.templates.php:135
+msgid "some answer"
+msgstr ""
+
+#: includes/class.templates.php:116
+msgid "some hint"
+msgstr ""
+
+#: includes/class.templates.php:121
+msgid ""
+"Survey Question : How likely are you to going to pick the number 7 out of 0 "
+"to 10 ?"
+msgstr ""
+
+#: includes/class.templates.php:126
+msgid "Help text for survey question. Each choice has marks used to end result"
+msgstr ""
+
+#: includes/class.templates.php:127
+msgid "Scores are connected with the marked answer"
+msgstr ""
+
+#: includes/class.templates.php:131
+msgid "Question Statement :Enter the answer in below text area"
+msgstr ""
+
+# @ vibe
+#: includes/class_wplms_front_end.php:77
+msgid "Create a Course"
+msgstr "创建一门课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:84
+msgid "COURSE CREATION ONLY ALLOWED FOR INSTRUCTORS & ADMINISTRATORS"
+msgstr "只允许教师 & 管理员创建课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:95
+msgid "Unable to edit Course, please contact Site Administrator"
+msgstr "无法编辑课程，请联系管理员"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:98
+msgid "Incorrect Action, please contact Site Administrator"
+msgstr "操作不正确，请联系管理员"
+
+# @ vibe
+#: includes/class_wplms_front_end.php:129
+msgid "Edit Course"
+msgstr "编辑课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:172
+#: includes/class_wplms_front_end.php:257
+msgid "Unable to create a new Course Category. Contact Admin !"
+msgstr "无法创建新的课程分类。联系管理员！"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:436
+msgid "Can not have a blank Unit "
+msgstr "不能有空白单元"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:472
+msgid "Preview Unit"
+msgstr "预览单元"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:494
+msgid "Can not have a Blank Quiz"
+msgstr "不能有空白测试"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:549
+#: includes/class_wplms_front_end.php:1550
+msgid "Can not delete"
+msgstr "无法删除"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:565
+#: includes/class_wplms_front_end.php:1561
+msgid "Instructor can not delete this unit/quiz"
+msgstr "教师无法删除本单元/测试"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:573
+#: includes/class_wplms_front_end.php:1569
+msgid "Unable to delete"
+msgstr "无法删除"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:700
+msgid "Invalid Product specs"
+msgstr "商品规格无效"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:752
+msgid "Unable to create product and pricing for course"
+msgstr "无法为课程创建商品和定价"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:790
+msgid "Course successfully updated."
+msgstr "课程已成功更新。"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:794
+#: includes/class_wplms_front_end.php:822
+#: includes/class_wplms_front_end.php:898
+msgid "Unable to update Course, contact Site admin"
+msgstr "无法更新课程，请联系管理员"
+
+#: includes/class_wplms_front_end.php:820
+msgid "Course Offline."
+msgstr "课程已下线。"
+
+#: includes/class_wplms_front_end.php:845
+msgid "Course deletion not allowed"
+msgstr "不允许删除课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:856
+msgid "Unable to delete curriclum"
+msgstr "无法删除课程体系"
+
+# @ default
+#: includes/class_wplms_front_end.php:889
+msgid "Course Deleted."
+msgstr "课程已删除。"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:939
+msgid "Unit Settings"
+msgstr "单元设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:942
+msgid "Unit Type"
+msgstr "单元类型"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:943
+msgid "Select Unit Type"
+msgstr "选择单元类型"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:947
+msgid "Video"
+msgstr "视频"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:948
+msgid "Audio"
+msgstr "音频"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:949
+msgid "Podcast"
+msgstr "播客"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:950
+msgid "General"
+msgstr "常规"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:958
+msgid "Free Unit"
+msgstr "免费单元"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:959
+msgid "Make Unit Free"
+msgstr "设置免费单元"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:970
+msgid "Unit Duration"
+msgstr "单元持续时间"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:971
+msgid "Duration of Unit"
+msgstr "单元的持续时间"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:979
+msgid "Connect Assignments"
+msgstr "关联作业"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:997
+#: includes/class_wplms_front_end.php:1017
+msgid "Edit Assignment"
+msgstr "编辑作业"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:998
+#: includes/class_wplms_front_end.php:1018
+msgid "Preview Assignment"
+msgstr "预览作业"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1008
+#: includes/class_wplms_front_end.php:1050
+#: includes/class_wplms_front_end.php:1267
+#: includes/class_wplms_front_end.php:1793
+msgid "None"
+msgstr "无"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1029
+msgid "ADD EXISTING ASSIGNMENT"
+msgstr "增加已存在的作业"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1030
+msgid "ADD NEW ASSIGNMENT"
+msgstr "增加新作业"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1031
+msgid "Add the Assignment title"
+msgstr "添加作业标题"
+
+# @ default
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1035
+msgid "Publish"
+msgstr "发布"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1047
+msgid "Unit Forum"
+msgstr "单元论坛"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1048
+msgid "Connect a Forum"
+msgstr "链接一个论坛"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1051
+msgid "Add new child forum in Course forum"
+msgstr "在课程论坛中添加子论坛"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1052
+msgid "Add new forum"
+msgstr "添加新论坛"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1072
+msgid "SAVE UNIT SETTINGS"
+msgstr "保存单元设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1126
+msgid "Invalid Unit id, please edit a course"
+msgstr "单元 ID 无效，请编辑课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1132
+msgid "Invalid Unit Instructor"
+msgstr "单元的教师设置无效"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1210
+msgid "Unable to save settings"
+msgstr "无法保存设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1234
+msgid "Manage Quiz Questions"
+msgstr "管理测试问题"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1248
+#: includes/class_wplms_front_end.php:1443
+msgid "Question "
+msgstr "问题"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1252
+#: includes/class_wplms_front_end.php:1447
+msgid "Edit Question"
+msgstr "编辑问题"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1253
+msgid "Preview Question"
+msgstr "预览问题"
+
+# @ default
+#: includes/class_wplms_front_end.php:1258
+#: includes/class_wplms_front_end.php:1452
+msgid "MARKS : "
+msgstr "分数："
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1268
+msgid "ADD A NEW QUESTION"
+msgstr "添加一个新问题"
+
+# @ default
+#: includes/class_wplms_front_end.php:1284
+msgid "Marks : "
+msgstr "分数："
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1286
+msgid "Question Title : "
+msgstr "问题标题："
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1287
+msgid "Enter title for reference"
+msgstr "输入标题以供参考"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1291
+msgid "Publish Question"
+msgstr "发布问题"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1298
+#: includes/class_wplms_front_end.php:1421
+msgid "SAVE QUIZ SETTINGS"
+msgstr "保存测试设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1321
+msgid "Enter a Quiz sub-title"
+msgstr "输入一个测试副标题"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1331
+msgid "Enter a Quiz Completion message"
+msgstr "输入一个测试完成信息"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1337
+msgid "Quiz Settings"
+msgstr "测试设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1341
+msgid "QUIZ SUB-TITLE"
+msgstr "测试副标题"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1346
+msgid "CONNECTED COURSE"
+msgstr "关联的课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1361
+msgid "QUIZ DURATION"
+msgstr "测试持续时间"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1364
+msgid "QUIZ EVALUATION"
+msgstr "测试评估"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1367
+msgid "AUTO"
+msgstr "自动"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1373
+msgid "QUIZ QUESTIONS TYPE"
+msgstr "测试问题类型"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1376
+msgid "DYNAMIC"
+msgstr "动态"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1382
+msgid "SELECT QUESTION TAGS"
+msgstr "选择问题标签"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1393
+msgid "NUMER OF QUESTIONS"
+msgstr "问题数目"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1396
+msgid "MARKS PER QUESTION"
+msgstr "每题分数"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1399
+msgid "QUIZ RETAKES"
+msgstr "可重新测试次数"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1400
+msgid " Retakes"
+msgstr "重新测试"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1402
+msgid "QUESTIONS ORDER"
+msgstr "问题排序"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1405
+msgid "RANDOM"
+msgstr "随机"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1407
+msgid "SEQUENTIAL"
+msgstr "顺序"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1411
+msgid "QUIZ COMPLETION MESSAGE"
+msgstr "测试完成信息"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1436
+#, php-format
+msgid "Add Content for %s"
+msgstr "给 %s 添加内容"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1489
+msgid "Invalid Quiz"
+msgstr "无效测试"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1527
+msgid "Quiz Settings saved"
+msgstr "测试设置已保存"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1602
+msgid "QUESTION SETTINGS"
+msgstr "问题设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1604
+msgid "Question Type"
+msgstr "问题类型"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1625
+msgid "Click to select as Correct answer"
+msgstr "点击选为正确答案"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1634
+msgid "Correct Answer"
+msgstr "正确答案"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1635
+msgid "Answer Hint"
+msgstr "答案提示"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1636
+msgid "Answer Explanation"
+msgstr "答案解析"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1644
+msgid "SAVE QUESTION SETTINGS"
+msgstr "保存问题设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1679
+msgid "Unable to save, incorrect question"
+msgstr "无法保存，问题不正确"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1704
+msgid "Question settings successfully saved"
+msgstr "问题设置已成功保存"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1718
+msgid "Unable to save, incorrect unit"
+msgstr "无法保存，错误的单元"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1762
+msgid "ASSIGNMENT SETTINGS"
+msgstr "作业设置"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1766
+msgid "ASSIGNMENT SUB-TITLE"
+msgstr "作业副标题"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1772
+msgid "ASSIGNMENT MARKS"
+msgstr "作业分数"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1773
+msgid "Assignment Maximum Marks"
+msgstr "作业最高分"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1773
+msgid "MARKS"
+msgstr "分数"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1776
+msgid "ASSIGNMENT DURATION"
+msgstr "作业持续时间"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1777
+msgid "Enter Assignment Duration"
+msgstr "输入作业持续时间"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1779
+msgid "ASSIGNMENT EVALUATION"
+msgstr "作业评估"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1780
+msgid "Include in Course Evaluation"
+msgstr "包含到课程评估中"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1790
+msgid "ASSIGNMENT COURSE"
+msgstr "作业课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1791
+msgid "Select Assignment Course"
+msgstr "选择作业课程"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1808
+msgid "ASSIGNMENT SUBMISISON TYPE"
+msgstr "作业提交类型"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1810
+msgid "UPLOAD"
+msgstr "上传"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1811
+msgid "TEXTAREA"
+msgstr "文本区"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1814
+msgid "ATTACHMENT TYPE"
+msgstr "附件类型"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1859
+msgid "Attachment Size"
+msgstr "附件大小"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1860
+msgid "Maximum attachment size"
+msgstr "附件最大容量"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1860
+msgid " MBs"
+msgstr "MBs"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1909
+msgid "Invalid details"
+msgstr "无效的细节"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1915
+msgid "Invalid Assignment author"
+msgstr "提交作业的用户无效"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1924
+msgid "SETTINGS SAVED"
+msgstr "设置已保存"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1936
+msgid "ADD PACKAGE"
+msgstr "添加附件"
+
+# @ vibe
+#: wplms-front-end.php:79
+msgid "Please change the course title"
+msgstr "请更改课程标题"
+
+# @ vibe
+#: wplms-front-end.php:80
+msgid "This will create a new course in the site, do you want to continue ?"
+msgstr "这将创建一门新课程，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:81
+msgid "Yes, create a new course"
+msgstr "是，创建一门新课程"
+
+# @ vibe
+#: wplms-front-end.php:82
+msgid ""
+"This will overwrite the previous course settings, do you want to continue ?"
+msgstr "这会覆盖原有的课程设置，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:83
+msgid "Save course"
+msgstr "保存课程"
+
+# @ vibe
+#: wplms-front-end.php:84
+msgid "This will create a new unit in the site, do you want to continue ?"
+msgstr "这将创建一个新的单元，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:85
+msgid "Yes, create a new unit"
+msgstr "是，创建一个新单元"
+
+# @ vibe
+#: wplms-front-end.php:86
+msgid ""
+"This will overwrite the existing unit settings, do you want to continue ?"
+msgstr "这将覆盖现有的单元设置，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:87
+msgid "Yes, save unit settings"
+msgstr "是，保存单元设置"
+
+# @ vibe
+#: wplms-front-end.php:88
+msgid "This will create a new question in the site, do you want to continue ?"
+msgstr "这将创建一个新的问题，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:89
+msgid "Yes, create a new question"
+msgstr "是，创建一个新问题"
+
+# @ vibe
+#: wplms-front-end.php:90
+msgid "This will create a new quiz in the site, do you want to continue ?"
+msgstr "这将创建一个新的测试，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:91
+msgid "Yes, create a new quiz"
+msgstr "是，创建一个新测试"
+
+# @ vibe
+#: wplms-front-end.php:92
+msgid ""
+"This will overwrite the existing quiz settings, do you want to continue ?"
+msgstr "这将覆盖现有的测试设置，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:93
+msgid "Yes, save quiz settings"
+msgstr "是，保存测试设置"
+
+#: wplms-front-end.php:94
+msgid "This will delete the element from your site, do you want to continue ?"
+msgstr "这会删除您站点的元素，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:95
+msgid "Continue"
+msgstr "继续"
+
+# @ vibe
+#: wplms-front-end.php:96
+msgid "This will overwrite the previous settings, do you want to continue ?"
+msgstr "这将覆盖以前的设置，您要继续吗？"
+
+# @ default
+# @ wplms-front-end
+#: wplms-front-end.php:97
+msgid "Save"
+msgstr "保存"
+
+# @ vibe
+#: wplms-front-end.php:98
+msgid ""
+"This will create a new assignment in the site, do you want to continue ?"
+msgstr "这将创建一个新的作业，您要继续吗？"
+
+# @ wplms-front-end
+#: wplms-front-end.php:99
+msgid "Yes, create a new assignment"
+msgstr "是，创建一个新作业"
+
+#: wplms-front-end.php:100
+msgid ""
+"Are you sure you want to take course offline, this will remove the course "
+"from course directory and it will not be visible to your students"
+msgstr "您确定要下线课程么，这会从课程目录中移除课程并且让它对您的学生不可见"
+
+#: wplms-front-end.php:101
+msgid "Are you sure you want to delete this course ?"
+msgstr "您确定要删除课程么？"
+
+#: wplms-front-end.php:103
+msgid "This will create a new group in the site, do you want to continue ?"
+msgstr "这将创建一个新群组，您要继续么？"
+
+#: wplms-front-end.php:104
+msgid "This will create a new forum in the site, do you want to continue ?"
+msgstr "这将创建一个新论坛，您要继续么？"
+
+# @ default
+#~ msgid ""
+#~ "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was "
+#~ "deleted?"
+#~ msgstr "您正在试图编辑一个不存在的项目，该项目可能已被删除？"
+
+# @ default
+#~ msgid "You are not allowed to edit this item."
+#~ msgstr "您无权限更改此项。"
+
+# @ default
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+# @ default
+#~ msgid "LOCKED"
+#~ msgstr "已锁定"
+
+#~ msgid "Error while saving."
+#~ msgstr "保存时出现错误。"
+
+#~ msgid "g:i:s a"
+#~ msgstr "g:i:s a"
+
+#~ msgid "Draft saved at %s."
+#~ msgstr "草稿已保存于 %s。"
+
+#~ msgid "ERROR: invalid post data."
+#~ msgstr "错误：无效的文章数据。"
+
+# @ default
+#~ msgid "OK"
+#~ msgstr "OK"
+
+# @ default
+#~ msgid "Publish on:"
+#~ msgstr "发布于："
+
+# @ default
+#~ msgid "Schedule for:"
+#~ msgstr "计划于："
+
+# @ default
+#~ msgid "Published on:"
+#~ msgstr "发布于："
+
+# @ default
+#~ msgid "%1$s %2$s, %3$s @ %4$s : %5$s"
+#~ msgstr "%1$s %2$s, %3$s @ %4$s : %5$s"
+
+# @ default
+#~ msgid "Show more comments"
+#~ msgstr "显示更多评论"
+
+# @ default
+#~ msgid "No more comments found."
+#~ msgstr "未找到更多评论。"
+
+# @ default
+#~ msgid "Schedule"
+#~ msgstr "计划"
+
+# @ default
+#~ msgid "Update"
+#~ msgstr "更新"
+
+# @ default
+#~ msgid "Save as Pending"
+#~ msgstr "保存为待定状态"
+
+# @ default
+#~ msgid "Save Draft"
+#~ msgstr "保存为草稿"
+
+# @ default
+#~ msgid "Public, Sticky"
+#~ msgstr "公开，置顶"
+
+# @ default
+#~ msgid "Password Protected"
+#~ msgstr "带密码保护"
+
+# @ default
+#~ msgid "Privately Published"
+#~ msgstr "私有发布"
+
+# @ default
+#~ msgid "Published"
+#~ msgstr "已发布"
+
+# @ default
+#~ msgctxt "tag delimiter"
+#~ msgid ","
+#~ msgstr ","
+
+# @ default
+#~ msgid "Saving Draft&#8230;"
+#~ msgstr "保存草稿...."
+
+# @ default
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr "如果您离开这个页面，您所做的更改将丢失。"
+
+# @ default
+#~ msgid "Insert/edit link"
+#~ msgstr "插入/编辑链接"
+
+# @ default
+#~ msgid "Add Link"
+#~ msgstr "增加新连接"
+
+# @ default
+#~ msgid "(no title)"
+#~ msgstr "(无标题)"
+
+# @ default
+#~ msgid "No matches found."
+#~ msgstr "没有找到匹配项。"
+
+#~ msgid ""
+#~ "Could not load the preview image. Please reload the page and try again."
+#~ msgstr "不能加载预览图像。请重新加载该页面，然后重试。"
+
+# @ default
+#~ msgid "Publishing&hellip;"
+#~ msgstr "发布中..."
+
+# @ default
+#~ msgid "Saving&hellip;"
+#~ msgstr "保存中..."
+
+# @ default
+#~ msgid "Updating&hellip;"
+#~ msgstr "更新中..."
+
+#~ msgid "Add a featured image"
+#~ msgstr "添加一张特色图片"
+
+#~ msgid "Set featured image"
+#~ msgstr "添加特色图片"
+
+#~ msgid "Remove featured image"
+#~ msgstr "移除特色图片"
+
+# @ default
+#~ msgid "Post updated. <a href=\"%s\">View post</a>"
+#~ msgstr "文章已更新。<a href=\"%s\">查看文章</a>"
+
+# @ default
+#~ msgid "Custom field updated."
+#~ msgstr "自定义字段已更新。"
+
+# @ default
+#~ msgid "Custom field deleted."
+#~ msgstr "自定义字段已删除。"
+
+# @ default
+#~ msgid "Post updated."
+#~ msgstr "文章已更新。"
+
+# @ default
+#~ msgid "Post restored to revision from %s"
+#~ msgstr "文章已从修订版本 %s 中恢复"
+
+# @ default
+#~ msgid "Post published. <a href=\"%s\">View post</a>"
+#~ msgstr "文章已发布。<a href=\"%s\">查看文章</a>"
+
+# @ default
+#~ msgid "Post saved."
+#~ msgstr "文章已保存。"
+
+# @ default
+#~ msgid "Post submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+#~ msgstr "文章已提交。<a target=\"_blank\" href=\"%s\">预览文章</a>"
+
+# @ default
+#~ msgid ""
+#~ "Post scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview post</a>"
+#~ msgstr ""
+#~ "文章计划发布于：<strong>%1$s</strong>。<a target=\"_blank\" href=\"%2$s\">"
+#~ "预览文章</a>"
+
+# @ default
+#~ msgid "M j, Y @ G:i"
+#~ msgstr "M j, Y @ G:i"
+
+# @ default
+#~ msgid ""
+#~ "Post draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+#~ msgstr "文章草稿已更新。<a target=\"_blank\" href=\"%s\">预览文章</a>"
+
+# @ default
+#~ msgid "Page updated. <a href=\"%s\">View page</a>"
+#~ msgstr "页面更新。<a href=\"%s\">查看页面</a>"
+
+# @ default
+#~ msgid "Page updated."
+#~ msgstr "页面已更新。"
+
+# @ default
+#~ msgid "Page restored to revision from %s"
+#~ msgstr "页面已从修订版本 %s 中恢复"
+
+# @ default
+#~ msgid "Page published. <a href=\"%s\">View page</a>"
+#~ msgstr "页面已发布。<a href=\"%s\">查看页面</a>"
+
+# @ default
+#~ msgid "Page saved."
+#~ msgstr "页面已保存。"
+
+# @ default
+#~ msgid "Page submitted. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+#~ msgstr "页面已提交。<a target=\"_blank\" href=\"%s\">预览页面</a>"
+
+# @ default
+#~ msgid ""
+#~ "Page scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview page</a>"
+#~ msgstr ""
+#~ "页面计划发布于：<strong>%1$s</strong>。<a target=\"_blank\" href=\"%2$s\">"
+#~ "预览页面</a>"
+
+# @ default
+#~ msgid ""
+#~ "Page draft updated. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+#~ msgstr "页面草稿已更新。<a target=\"_blank\" href=\"%s\">预览页面</a>"
+
+# @ default
+#~ msgid "Media attachment updated."
+#~ msgstr "媒体附件已更新。"
+
+# @ default
+#~ msgid ""
+#~ "There is an autosave of this post that is more recent than the version "
+#~ "below. <a href=\"%s\">View the autosave</a>"
+#~ msgstr "自动保存的版本比当前版本更新。<a href=\"%s\">查看自动保存</A>"
+
+# @ default
+#~ msgid "Revisions"
+#~ msgstr "修订"
+
+# @ default
+#~ msgctxt "post format"
+#~ msgid "Format"
+#~ msgstr "格式"
+
+# @ default
+#~ msgid "Page Attributes"
+#~ msgstr "页面属性"
+
+# @ default
+#~ msgid "Attributes"
+#~ msgstr "属性"
+
+# @ default
+#~ msgid "Excerpt"
+#~ msgstr "摘要"
+
+# @ default
+#~ msgid "Send Trackbacks"
+#~ msgstr "发送引用通告"
+
+# @ default
+#~ msgid "Custom Fields"
+#~ msgstr "自定义字段"
+
+# @ default
+#~ msgid "Discussion"
+#~ msgstr "讨论"
+
+# @ default
+#~ msgid "Status:"
+#~ msgstr "状态："
+
+# @ default
+#~ msgid "Scheduled"
+#~ msgstr "列入计划"
+
+# @ default
+#~ msgid "Pending Review"
+#~ msgstr "等待批阅"
+
+# @ default
+#~ msgid "Draft"
+#~ msgstr "草稿"
+
+# @ default
+#~ msgid "Visibility:"
+#~ msgstr "可见性："
+
+# @ default
+#~ msgid "Password protected"
+#~ msgstr "受密码保护"
+
+# @ default
+#~ msgid "Stick this post to the front page"
+#~ msgstr "将此文章列为首页头条"
+
+# @ default
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+# @ default
+#~ msgid "Scheduled for: <b>%1$s</b>"
+#~ msgstr "计划于：<b>%1$s</b>"
+
+# @ default
+#~ msgid "Published on: <b>%1$s</b>"
+#~ msgstr "发布于：<b>%1$s</b>"
+
+# @ default
+#~ msgid "Publish <b>immediately</b>"
+#~ msgstr "<b>立刻</b>发布"
+
+# @ default
+#~ msgid "Schedule for: <b>%1$s</b>"
+#~ msgstr "计划于：<b>%1$s</b>"
+
+# @ default
+#~ msgid "Publish on: <b>%1$s</b>"
+#~ msgstr "发布于：<b>%1$s</b>"
+
+# @ default
+#~ msgid "Slug"
+#~ msgstr "别名"
+
+# @ default
+#~ msgid "Author"
+#~ msgstr "作者"
+
+# @ default
+#~ msgid "Enter the destination URL"
+#~ msgstr "输入目标网址的 URL"
+
+# @ default
+#~ msgid "URL"
+#~ msgstr "URL"
+
+# @ default
+#~ msgid "Open link in a new window/tab"
+#~ msgstr "在新窗口/标签中打开链接"
+
+# @ default
+#~ msgid "Or link to existing content"
+#~ msgstr "或链接到现有的内容"
+
+# @ default
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+# @ default
+#~ msgid "No search term specified. Showing recent items."
+#~ msgstr "没有指定搜索条目。显示最近的条目。"
+
+# @ default
+#~ msgid ""
+#~ "<strong>Connection lost.</strong> Saving has been disabled until "
+#~ "you&#8217;re reconnected."
+#~ msgstr "<strong>连接丢失</strong>。在您重新连接前保存都会禁用。"
+
+# @ default
+#~ msgid "We&#8217;re backing up this post in your browser, just in case."
+#~ msgstr "以防万一，我们正在您的浏览器中备份这篇文章。"
+
+#~ msgid ""
+#~ "Drip Feed courses, units are released one by one after certain duration "
+#~ "to the user."
+#~ msgstr "滴注课程，单元在一定持续时间后一个接一个的提供给用户。"

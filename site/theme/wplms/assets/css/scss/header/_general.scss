@@ -1,0 +1,470 @@
+/**
+ * File: header.scss
+ * Description : Contains all styling for the WPLMS Headers
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULTS
+/*    02. TOP HEADER 
+/*    02. MAIN HEADER 
+/*    03. HEADER VARIATION 1
+/*    04. HEADER VARIATION 2
+/*    05. HEADER VARIATION 3
+/*
+/*========================================================================*/
+/*   01. DEFAULTS
+/*========================================================================*/
+
+
+header{
+	display:block;
+	padding:0;
+	margin:0;
+	z-index: 99;
+	background: $headerbg;
+	width:100%;
+	transition: all 0.6s ease-in-out;
+
+	.smallimg{
+		display:-ms-grid !important;
+		display:grid !important;
+		grid-template-columns:20px 1fr;
+		-ms-grid-columns:20px 1fr;
+		grid-gap:5px;
+		align-items: center;
+		img{
+			border-radius:50%;
+		}
+	} 
+	#header_alt_logo,
+	#header_mobile_logo{
+		display:none;
+	}
+}
+
+
+.admin-bar{
+	#headertop.fix,header.fix{
+		&.fixed{
+			top:-10px;
+		}
+	}
+}
+
+
+/*========================================================================*/
+/*   01. HEADER & NAVIGATION
+/*========================================================================*/
+#searchdiv{
+	display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: 99;
+    padding:10%;
+	transition: all 0.5s;
+    transform: translateY(100%);
+    input[type="text"]{
+        background: none;
+	    border: none;
+	    border-bottom: 3px solid rgba(255,255,255,0.2);
+	    font-size: 6rem;
+	    color:#fff;
+    }
+
+	& > span{
+		width: 64px;
+	    height: 64px;
+	    display: block;
+	    margin: 20vh auto 0;
+	    cursor:pointer;
+	    &:before{
+		    content: "\f00d";
+		    font-family: fontawesome;
+		    font-size: 48px;
+		    color: #fff;
+	    }
+	}
+}
+
+#new_searchicon{
+	cursor:pointer;
+}
+	
+.search_active #searchdiv{display:block;transform: translateY(0);}
+
+
+.nav_search {
+	display: inline-block;
+    border: 1px solid rgba(0,0,0,0.08);
+    margin: 30px 6px;
+    width:100%;
+    select,
+    input{
+    	border:none;
+    	
+    }
+    input{padding-right:20px;}
+    form{
+    	position:relative;
+	    &:after{
+	    	content: "\f002";
+	    	position: absolute;
+		    right: 8px;
+		    top: 6px;
+		    font-family: fontawesome;
+	    }
+    }
+}
+
+
+/*========================================================================*/
+/*   01. TOP HEADER
+/*========================================================================*/
+
+#headertop{
+	background:#232b2d;
+	padding:8px 0;
+	font-size:11px;
+	text-transform: uppercase;
+	color:rgba(255,255,255,0.6);
+	.homeicon{
+		display: none;
+	}
+	.smallimg{
+		display:-ms-grid !important;
+		display:grid !important;
+		grid-template-columns:20px 1fr;
+		-ms-grid-columns:20px 1fr;
+		
+		grid-gap:5px;
+		align-items: center;
+		img{
+			border-radius:50%;
+		}
+	} 
+
+	&.fixed{
+		position: fixed;
+		width:100%;
+		top:0;
+		left:0;
+		z-index:9999;
+		-webkit-transition: all 0.5s;
+		-webkit-transform: translateZ(0); 
+		transition: all 0.5s;
+		.homeicon{
+			display: block; 
+			float:left;
+			img{
+				max-height: 20px;
+			}
+		}
+	}
+	li{
+		float:left;
+		margin-left:10px;
+		padding-left:10px;
+		border-left:1px solid #576972;
+		&:first-child{
+			border:none;
+		}
+	}
+	a{
+		color:rgba(255,255,255,0.6);
+	}
+	#username a{
+		word-break: break-all;
+	}
+
+	&.fixed + header{
+		margin-top:36px;
+	}
+	// Headertop variation
+	.socialicons{
+		float:right;
+		li{
+			padding:8px 0;
+		}
+	}
+}
+
+.topmenu{
+	float:right;
+	.vbplogin{
+		position: relative;
+		em{
+		    position: absolute;
+		    top: -3px;
+		    left: -3px;
+		    width: 6px;
+		    height: 6px;
+		    background: #78c8c9;
+		    border-radius: 50%;
+		}
+	}
+}
+.sleek,.mooc{
+	.topmenu{
+		.vbplogin{
+			em{
+			    top: 22px;
+			    left: 3px;
+			}
+		}
+	}
+}
+/*========================================================================*/
+/*   01. MOBILE MENU TRIGGER
+/*========================================================================*/
+
+#trigger{
+	cursor:pointer;
+	display: none;
+	position:absolute;
+	top:22px;
+	right:32px;
+	line-height:1;
+	padding: 0 10px 10px;
+	border:none;
+	z-index: 99;
+	user-select: none;
+	background:transparent;
+	.lines {
+	  display: inline-block;
+	  position: relative;	
+	  width: 24px;
+	  height: 2px;
+	  background: #FFF;
+	  color: #FFF;
+	  transition: 0.3s;
+	  	&:before, &:after {
+			display: inline-block;
+			width: 24px;
+			height: 2px;
+			background: #FFF;
+			transition: 0.3s;
+			position: absolute;
+			left: 0;
+			content: '';
+			-webkit-transform-origin: 5px center;
+			transform-origin: 5px center;
+		}
+		&:after {
+			top: -5px;
+		}
+
+		&:before {
+			top: 5px;
+		}
+	}
+}
+
+.open #trigger{
+	.lines{
+		background:transparent !important;
+		&:before, 
+		&:after {
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			top: 0;
+			width: 32px;
+		}
+
+		&:before {
+			-webkit-transform: rotate3d(0, 0, 1, 45deg);
+			transform: rotate3d(0, 0, 1, 45deg);
+		}
+		&:after {
+			-webkit-transform: rotate3d(0, 0, 1, -45deg);
+			transform: rotate3d(0, 0, 1, -45deg);
+		}
+	}
+}
+
+#close_menu_sidebar{
+	text-align:center;
+	position:relative;
+	display:block;
+	cursor:pointer;
+	span:after{
+		content:"\f00d";
+	    font-family:fontawesome;
+	    font-size:48px;
+	    display:inline;
+	}
+}
+/*========================================================================*/
+/*   01. MAIN HEADER
+/*========================================================================*/
+
+
+
+
+.pusher {
+	position: relative;
+	left: 0;
+	width: 100%;
+	display:block;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	&::after{
+	    position: absolute;
+		top: 0;
+		right: 0;
+		width: 0;
+		height: 0;
+		content: '';
+		opacity: 0;
+		over-y:hidden;
+		transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	}
+}
+
+.open{
+	.pusher {
+		transform: translate3d(-220px, 0, 0);
+		&::after{
+			width: 100%;
+		    height:100%;
+		    opacity: 1;
+			transition: opacity 0.5s;
+		}
+	}
+}
+.login_open{
+	.pusher {
+		transform: translate3d(220px, 0, 0);
+		&::after{
+			width: 100%;
+		    height:100%;
+		    opacity: 1;
+			transition: opacity 0.5s;
+		}
+	}
+}
+/*========================================================================*/
+/*   03. SIDE LOGO
+/*========================================================================*/
+
+
+.pagesidebar {
+	z-index: 1;
+	overflow-y:auto;
+	overflow-x:hidden;
+    color:#eee;
+    &::after {
+		display: none;
+	}
+	.widget li > a{
+	    padding:4px 0;
+	    display: inline-block;
+	}
+}
+
+.open .pagesidebar {
+	visibility: visible;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	box-shadow: inset 1px 0 0px rgba(0,0,0,0.1);
+    overflow-y:auto;
+}
+
+
+
+
+/*========================================================================*/
+/*   03. LOGO
+/*========================================================================*/
+
+
+#logo{
+	margin:6px 0 0;
+	padding:0;
+	transition: all 0.6s ease-in-out;
+	img{
+			max-height:48px;	
+			width:auto;
+	}
+}
+
+#vibe_bp_login {
+	text-align:left;
+	text-transform:uppercase;
+	#bpavatar+ul{
+		position: relative;
+		min-height: 102px;
+	}
+
+	li#admin_panel_icon{
+		position: absolute;
+		bottom: 0;
+		font-size: 16px;
+		right: 0;
+		text-align: right;
+		i{
+			padding: 4px 8px;
+			line-height: 0;
+		}
+	}
+}	
+
+
+/*========================================================================*/
+/*   03. SIDE LOGO
+/*========================================================================*/
+
+
+h2#sidelogo{
+	text-align: center;
+	max-height:32px;
+	margin-bottom:30px;
+	img{
+		display: inline-block;
+		max-height:32px;
+		opacity:0.2;
+	}
+	&:hover img{
+		opacity:1;
+	}
+}
+
+.standard #alt_logo img{height:48px;padding:10px 0;}
+
+.mobile_icons{
+	text-align:center;
+	display:inline-block;
+	width:100%;color:#fff;
+	background: $bordercolor;
+	& > a{
+		padding: 15px 0;
+		float:left;
+		width:50%;color:#fff;
+		&:first-child{
+			&:nth-last-child(1){
+	    		width:100%;
+	    	}
+	    	&:nth-last-child(2),
+	    	:nth-last-child(2) ~ li{
+	    		width:50%;
+	    	}
+	    }
+	    em{padding:5px;}
+	}
+}
+/*========================================================================*/
+/*   03. RESPONSIVE FIXES
+/*========================================================================*/
+header#blank_header{
+	background:transparent;position:fixed;
+	&+#title{display:none;}
+}

@@ -1,0 +1,16 @@
+.vibebp_sidebars .vibebp_left_sidebar_wrapper{
+	margin:-4.85rem -1.5rem 0 1.5rem;
+}
+
+.vibebp_sidebars .vibebp_left_sidebar {
+    margin: -1.5rem 1.5rem 0 -1.5rem;
+}
+
+.vibebp_myprofile .profile_grid .profile_grid_header .end_block .vibebp_profile_menu_wrapper{
+	right:auto;
+	left:0;
+}
+.vibebp_myprofile .profile_grid .profile_grid_header .end_block .vibebp_profile_menu_wrapper:after{
+    right: auto;
+    left: 10px;
+}

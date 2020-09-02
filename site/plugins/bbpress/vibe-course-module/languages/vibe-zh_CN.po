@@ -1,0 +1,5494 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Course Module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-09 17:01+0530\n"
+"PO-Revision-Date: 2017-08-09 17:01+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: vibethemes <vibethemes@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "请输入您的 Envato Marketplace 用户名。"
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "请输入您的 Envato Marketplace API Key。"
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" 为必填参数。"
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"item ID\" 为必填参数。"
+
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "API 请求时出现预期外的 HTTP 错误"
+
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "再试"
+
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "出现未知错误"
+
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr "插件已更新，但无法激活。请手动激活。"
+
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "插件已成功激活。"
+
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "升级插件"
+
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "用户名："
+
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "邮箱："
+
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Key："
+
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>您的插件更新已<span style=\"color:green\">激活</span></p>"
+
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>你的输入<span style=\"color:red\">无效</span>，自动更新<span style="
+"\"color:red\">无法启动</span>。</p>"
+
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "编辑 Key"
+
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>无法对更新激活进行验证。</p>"
+
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "添加 Key"
+
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "用户名"
+
+#: autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "邮箱"
+
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest 用户名 (用于自动更新)"
+
+#: includes/api/class-api-controller.php:160
+msgctxt "error message"
+msgid "The post could not be found"
+msgstr ""
+
+#: includes/api/class-api-controller.php:175
+msgctxt "error message"
+msgid "No items could be found"
+msgstr ""
+
+#: includes/api/class-api-controller.php:190
+msgctxt "error message"
+msgid "No item could be found"
+msgstr ""
+
+#: includes/api/class-api-controller.php:205
+msgctxt "error message"
+msgid "The request format is invalid"
+msgstr ""
+
+#: includes/api/class-api-controller.php:242
+#: includes/api/class-api-controller.php:253
+#, php-format
+msgid "Method '%s' not implemented. Must be over-ridden in subclass."
+msgstr ""
+
+#: includes/api/class-api-controller.php:355
+msgid "Current page of the collection."
+msgstr ""
+
+#: includes/api/class-api-controller.php:363
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: includes/api/class-api-controller.php:372
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: includes/api/class-api-controller.php:390
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:395
+msgid "Invalid post id."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:593
+msgctxt "REST API FREE course label"
+msgid "FREE"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:765
+#: includes/api/class-api-course-controller.php:766
+msgid "Placeholder"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1525
+msgid "A unique alphanumeric ID for the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1531
+msgid "The ID for the creator of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1536
+msgid "The permalink to this object on the site."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1542
+msgid "The vibe component the object relates to."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1548
+msgid "The activity type of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1554
+msgid "HTML title of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1559
+msgid "HTML content of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1563
+msgid "The date the object was published, in the site's timezone."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1570
+msgid "Whether the object has been marked as spam or not."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1575
+msgid "The ID of the parent of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1679
+msgid "Unable to send message! Please check email id.."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1701
+msgid "Message sent!"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1703
+msgid "Unable to send message! Please try again later.."
+msgstr ""
+
+#: includes/api/class-api-tracker-controller.php:347
+#: includes/api/class-api-tracker-controller.php:375
+msgid "Update sent!"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:302
+msgctxt "api"
+msgid "Announcements"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:308
+msgctxt "api"
+msgid "Courses"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:314
+msgctxt "api"
+msgid "Quizzes"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:321
+msgctxt "api"
+msgid "Badges"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:327
+msgctxt "api"
+msgid "Certificates"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:336
+msgctxt "api"
+msgid "Dashboard"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:342
+msgctxt "api"
+msgid "Profile"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:348
+msgctxt "api"
+msgid "My Courses"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:354
+msgctxt "api"
+msgid "Results"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:360
+msgctxt "api"
+msgid "Gradebook"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:366
+msgctxt "api"
+msgid "Notifications"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:372
+msgctxt "api"
+msgid "Activity"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:378
+msgctxt "api"
+msgid "Settings"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1119
+msgctxt "API message failure to add review"
+msgid "Please add more words to the review message !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1137
+msgctxt "API message failure to add review"
+msgid "Review successfully added !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1140
+msgctxt "API message failure to add review"
+msgid "Failed to add review"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1223
+msgctxt "incorrect credentials"
+msgid "Invalid login username/email"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1260
+msgctxt "error message on api registration"
+msgid "Username successfully registered"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1262
+msgctxt "error message on api registration"
+msgid "Username/Email already registered"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1272
+msgctxt " message on api registration"
+msgid "Registration complete !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1291
+msgctxt "app verification"
+msgid "Email exists !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1299
+msgctxt "app verification"
+msgid "Username exists !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1400
+msgctxt "course subscribe via app"
+msgid "Successfully  subscribed to course!"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1403
+msgctxt "course subscribe via app"
+msgid "Failed to subscribe to course"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1501
+msgctxt "api message"
+msgid "Successfully Changed !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1503
+msgctxt "api message"
+msgid "Unable to save changes"
+msgstr ""
+
+#: includes/bp-course-actions.php:140
+msgid "Unlimited Retakes"
+msgstr ""
+
+#: includes/bp-course-actions.php:142
+msgid "Number of retakes remaining"
+msgstr ""
+
+#: includes/bp-course-actions.php:142 includes/bp-course-ajax.php:498
+#: includes/bp-course-ajax.php:788 includes/bp-course-template.php:3043
+msgid " out of "
+msgstr "之"
+
+#: includes/bp-course-actions.php:145
+msgctxt "retake course label below course button"
+msgid "Retake course"
+msgstr ""
+
+#: includes/bp-course-actions.php:160 includes/bp-course-actions.php:173
+#: includes/bp-course-actions.php:285 includes/bp-course-actions.php:312
+#: includes/bp-course-actions.php:320 includes/bp-course-ajax.php:96
+#: includes/bp-course-ajax.php:156 includes/bp-course-ajax.php:2062
+#: includes/bp-course-ajax.php:2277 includes/bp-course-ajax.php:2415
+#: includes/bp-course-ajax.php:2422 includes/bp-course-ajax.php:2516
+#: includes/bp-course-ajax.php:2679 includes/bp-course-ajax.php:2692
+#: includes/bp-course-ajax.php:2748 includes/bp-course-ajax.php:2791
+#: includes/bp-course-ajax.php:2854 includes/bp-course-ajax.php:2960
+#: includes/bp-course-ajax.php:2975 includes/bp-course-ajax.php:2997
+#: includes/bp-course-tour.php:341 includes/bp-course-tour.php:371
+msgid "Security check Failed. Contact Administrator."
+msgstr "安全检查失败，请联系管理员。"
+
+#: includes/bp-course-actions.php:302
+msgid "Update News"
+msgstr ""
+
+#: includes/bp-course-actions.php:359
+msgid "INCORRECT COURSE VALUE. CONTACT ADMIN"
+msgstr ""
+
+#: includes/bp-course-actions.php:400 includes/bp-course-ajax.php:2187
+msgid "Unlimited"
+msgstr ""
+
+#: includes/bp-course-actions.php:426 includes/bp-course-functions.php:996
+msgid "Course Curriculum Not Set."
+msgstr "未设置课程体系。"
+
+#: includes/bp-course-actions.php:447
+msgid "Course Curriculum Not Set"
+msgstr ""
+
+#: includes/bp-course-actions.php:457 includes/bp-course-actions.php:1089
+#: includes/bp-course-screens.php:222
+msgid "Start Course"
+msgstr "开始课程"
+
+#: includes/bp-course-actions.php:477 includes/bp-course-ajax.php:2213
+msgid "Previous Quiz"
+msgstr "上一个测试"
+
+#: includes/bp-course-actions.php:479 includes/bp-course-ajax.php:2215
+msgid "Previous Unit"
+msgstr "上一个单元"
+
+#: includes/bp-course-actions.php:493 includes/bp-course-actions.php:510
+#: includes/bp-course-actions.php:515 includes/bp-course-ajax.php:2228
+msgid "Check Results"
+msgstr "检查结果"
+
+#: includes/bp-course-actions.php:495 includes/bp-course-actions.php:512
+#: includes/bp-course-ajax.php:2231
+msgid "Continue Quiz"
+msgstr "继续测试"
+
+#: includes/bp-course-actions.php:498 includes/bp-course-ajax.php:2235
+msgid "Start Quiz"
+msgstr "开始测试"
+
+#: includes/bp-course-actions.php:501 includes/bp-course-ajax.php:2238
+msgid "Mark this Unit Complete"
+msgstr "标记这个单元完成"
+
+#: includes/bp-course-actions.php:547
+msgid "Next Quiz"
+msgstr ""
+
+#: includes/bp-course-actions.php:552 includes/bp-course-actions.php:556
+#: includes/bp-course-ajax.php:2262
+msgid "Next Unit"
+msgstr "下一个单元"
+
+#: includes/bp-course-actions.php:572
+msgid "SEE ALL"
+msgstr ""
+
+#: includes/bp-course-actions.php:588
+#: includes/templates/course/single/news.php:106
+msgid "Edit"
+msgstr ""
+
+#: includes/bp-course-actions.php:589
+msgid "Make Public"
+msgstr ""
+
+#: includes/bp-course-actions.php:590 includes/bp-course-cssjs.php:106
+msgid "Make Private"
+msgstr "变为私有"
+
+#: includes/bp-course-actions.php:591
+msgid "Reply"
+msgstr ""
+
+#: includes/bp-course-actions.php:592
+msgid "Request Instructor reply"
+msgstr ""
+
+#: includes/bp-course-actions.php:593
+msgid "Open in Popup"
+msgstr ""
+
+#: includes/bp-course-actions.php:594 includes/bp-course-actions.php:612
+msgid "Remove"
+msgstr ""
+
+#: includes/bp-course-actions.php:600
+msgid "Add a Note"
+msgstr ""
+
+#: includes/bp-course-actions.php:603
+msgid "YOU"
+msgstr ""
+
+#: includes/bp-course-actions.php:607
+msgid "Add your Comment"
+msgstr ""
+
+#: includes/bp-course-actions.php:611
+msgid "Post"
+msgstr ""
+
+#: includes/bp-course-actions.php:647 includes/bp-course-template.php:2729
+msgid "BACK TO COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:655 includes/bp-course-actions.php:1238
+msgid "REVIEW COURSE "
+msgstr "评价课程"
+
+#: includes/bp-course-actions.php:657
+msgid "FINISH COURSE "
+msgstr ""
+
+#: includes/bp-course-actions.php:775
+#, php-format
+msgid "Certificate for User %s"
+msgstr ""
+
+#: includes/bp-course-actions.php:804
+msgid "Removed a student from Course"
+msgstr "从课程移除一个学生"
+
+#: includes/bp-course-actions.php:805
+msgid "Student submitted a Course"
+msgstr "学生提交了一门课程"
+
+#: includes/bp-course-actions.php:806
+msgid "Student started a Course"
+msgstr "学生开始了一门课程"
+
+#: includes/bp-course-actions.php:807
+msgid "Student submitted a Quiz"
+msgstr "学生提交了一个测试"
+
+#: includes/bp-course-actions.php:808
+msgid "Student started a Quiz"
+msgstr ""
+
+#: includes/bp-course-actions.php:809
+msgid "Student completed a unit"
+msgstr ""
+
+#: includes/bp-course-actions.php:810
+msgid "Course reset for Student"
+msgstr "为学生重置课程"
+
+#: includes/bp-course-actions.php:811
+msgid "Bulk action by instructor"
+msgstr "教师的批量操作"
+
+#: includes/bp-course-actions.php:812
+msgid "Course Evaluated for student"
+msgstr "已为学生评估课程"
+
+#: includes/bp-course-actions.php:813
+msgid "Student got a Badge"
+msgstr "学生获得了一枚徽章"
+
+#: includes/bp-course-actions.php:814
+msgid "Student got a certificate"
+msgstr "学生获得了一张证书"
+
+#: includes/bp-course-actions.php:815
+msgid "Quiz Evaluated for student"
+msgstr "已为学生评估测试"
+
+#: includes/bp-course-actions.php:816
+msgid "Student subscribed for course"
+msgstr "学生订阅了课程"
+
+#: includes/bp-course-actions.php:838 includes/bp-course-actions.php:840
+msgid "per"
+msgstr "每"
+
+#: includes/bp-course-actions.php:859
+msgid "SUBSCRIPTION FOR"
+msgstr "订阅了"
+
+#: includes/bp-course-actions.php:1065
+#, php-format
+msgid "All Instructors <span>%s</span>"
+msgstr "所有教师 <span>%s</span>"
+
+#: includes/bp-course-actions.php:1090 includes/bp-course-screens.php:223
+msgid "Continue Course"
+msgstr "继续课程"
+
+#: includes/bp-course-actions.php:1091 includes/bp-course-ajax.php:482
+#: includes/bp-course-screens.php:224
+msgid "Under Evaluation"
+msgstr "评估中"
+
+#: includes/bp-course-actions.php:1092
+msgid "Course Finished"
+msgstr "已完成的课程"
+
+#: includes/bp-course-actions.php:1095
+msgid "Active"
+msgstr ""
+
+#: includes/bp-course-actions.php:1096
+msgid "Expired"
+msgstr ""
+
+#: includes/bp-course-actions.php:1099 includes/bp-course-actions.php:1104
+msgid "Filter by Status"
+msgstr "根据状态过滤"
+
+#: includes/bp-course-actions.php:1110
+msgid "Enter student name/email"
+msgstr "输入学生姓名/邮箱"
+
+#: includes/bp-course-actions.php:1123
+#, php-format
+msgid "EXPIRED %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1131
+#, php-format
+msgid "START %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1134
+#, php-format
+msgid "CONTINUE %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1137
+#, php-format
+msgid "UNDER %s EVALUATION"
+msgstr ""
+
+#: includes/bp-course-actions.php:1140
+#, php-format
+msgid "FINISHED %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1143
+#, php-format
+msgid "COURSE %s ENABLED"
+msgstr ""
+
+#: includes/bp-course-actions.php:1149
+msgid "START"
+msgstr "开始"
+
+#: includes/bp-course-actions.php:1149 includes/bp-course-actions.php:1152
+#: includes/bp-course-actions.php:1158
+msgid "COURSE"
+msgstr "课程"
+
+#: includes/bp-course-actions.php:1152
+msgid "CONTINUE"
+msgstr "继续"
+
+#: includes/bp-course-actions.php:1155
+msgid "UNDER"
+msgstr "正在"
+
+#: includes/bp-course-actions.php:1155
+msgid "EVALUATION"
+msgstr "评估"
+
+#: includes/bp-course-actions.php:1158
+msgid "FINISHED"
+msgstr "已完成"
+
+#: includes/bp-course-actions.php:1229
+msgid "This Course can not be taken. Contact Administrator."
+msgstr "无法选择这门课。请联系管理员。"
+
+#: includes/bp-course-actions.php:1339
+msgctxt "Course status"
+msgid "Pending evaluation"
+msgstr ""
+
+#: includes/bp-course-actions.php:1340
+msgctxt "Course status"
+msgid "Evaluation complete"
+msgstr ""
+
+#: includes/bp-course-actions.php:1343 includes/bp-course-actions.php:1403
+msgctxt "get quiz submissions button"
+msgid "Get"
+msgstr ""
+
+#: includes/bp-course-actions.php:1399
+msgctxt "Quiz status"
+msgid "Pending evaluation"
+msgstr ""
+
+#: includes/bp-course-actions.php:1400
+msgctxt "Quiz status"
+msgid "Evaluation complete"
+msgstr ""
+
+#: includes/bp-course-actions.php:1435
+msgctxt "No quizzes in course, error on course submissions"
+msgid "No Quiz found !"
+msgstr ""
+
+#: includes/bp-course-actions.php:1452
+msgctxt "reject user application for course"
+msgid "Reject"
+msgstr ""
+
+#: includes/bp-course-actions.php:1453
+msgctxt "approve user application for course"
+msgid "Approve"
+msgstr ""
+
+#: includes/bp-course-actions.php:1461
+msgctxt "No applications found in course, error on course submissions"
+msgid "No applications found !"
+msgstr ""
+
+#: includes/bp-course-actions.php:1490
+msgid "Quiz Results"
+msgstr ""
+
+#: includes/bp-course-actions.php:1504 includes/bp-course-ajax.php:128
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr ""
+
+#: includes/bp-course-actions.php:1544
+msgid "Results Available"
+msgstr ""
+
+#: includes/bp-course-actions.php:1546
+msgid "Results Awaited"
+msgstr ""
+
+#: includes/bp-course-actions.php:1554
+msgid "Submitted "
+msgstr ""
+
+#: includes/bp-course-actions.php:1554
+msgid " ago"
+msgstr ""
+
+#: includes/bp-course-actions.php:1556
+msgid " Pending Submission"
+msgstr ""
+
+#: includes/bp-course-actions.php:1585
+#, php-format
+msgctxt ""
+"Back to course button in quiz results area in profile - course - results "
+"section"
+msgid "Back to course %s"
+msgstr ""
+
+#: includes/bp-course-actions.php:1739
+msgid "Check Answer"
+msgstr ""
+
+#: includes/bp-course-actions.php:1751 includes/bp-course-ajax.php:197
+#: includes/bp-course-ajax.php:233 includes/bp-course-ajax.php:303
+#: includes/bp-course-ajax.php:514 includes/bp-course-ajax.php:528
+#: includes/bp-course-ajax.php:558 includes/bp-course-ajax.php:646
+#: includes/bp-course-ajax.php:688 includes/bp-course-ajax.php:764
+#: includes/bp-course-ajax.php:816 includes/bp-course-ajax.php:1447
+#: includes/bp-course-ajax.php:1655
+msgid "Security check failed !"
+msgstr "安全检查失败！"
+
+#: includes/bp-course-actions.php:1809
+msgid ""
+"There was issue in retaking this course for the user. Please contact admin."
+msgstr ""
+
+#: includes/bp-course-activity.php:209 includes/bp-course-loader.php:66
+#: includes/bp-course-notifications.php:251
+msgid "Course"
+msgstr "课程"
+
+#: includes/bp-course-activity.php:246
+#, php-format
+msgid "Announcement for Course %s "
+msgstr "课程 %s 的公告"
+
+#: includes/bp-course-activity.php:261
+#, php-format
+msgid "News published for Course %s "
+msgstr "课程 %s 的最新消息"
+
+#: includes/bp-course-activity.php:275 includes/bp-course-mailer.php:429
+#: includes/bp-course-notifications.php:685
+#, php-format
+msgid "Student subscribed for course %s"
+msgstr "学生订阅了课程 %s"
+
+#: includes/bp-course-activity.php:276
+#, php-format
+msgid "Student %s subscribed for course %s"
+msgstr "学生 %s 订阅了课程 %s"
+
+#: includes/bp-course-activity.php:300
+msgid "Student started course "
+msgstr "学生开始了课程"
+
+#: includes/bp-course-activity.php:301
+#, php-format
+msgctxt "Recoreded activity message"
+msgid "Student %s started the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:318
+#, php-format
+msgid "Student %s finished and submitted the course %s"
+msgstr "学生 %s 完成并提交了课程 %s"
+
+#: includes/bp-course-activity.php:320
+msgid "Student Submitted the course "
+msgstr "学生提交了课程"
+
+#: includes/bp-course-activity.php:333
+msgid "Instructor evaluated Course for student"
+msgstr ""
+
+#: includes/bp-course-activity.php:334
+#: includes/bp-course-notifications.php:1061
+#, php-format
+msgid "Student %s got %s in course %s"
+msgstr "学生 %1$s 在课程 %3$s 中获得了 %2$s"
+
+#: includes/bp-course-activity.php:353
+msgid "Course reset for student "
+msgstr "为学生重置课程"
+
+#: includes/bp-course-activity.php:354
+#, php-format
+msgid "Course %s is reset for student %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:364
+msgid "Student retake Course "
+msgstr "学生重新学习课程"
+
+#: includes/bp-course-activity.php:365
+#, php-format
+msgid "Course %s is retaken by student %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:375
+msgid "Student got a Badge in the course "
+msgstr "学生在课程中获得一枚徽章"
+
+#: includes/bp-course-activity.php:376
+#, php-format
+msgid "Student %s got a badge in the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:385
+msgid "Student got a Certificate in course"
+msgstr "学生在课程中获得一张证书"
+
+#: includes/bp-course-activity.php:386
+#, php-format
+msgid "Student %s got a certificate in the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:396
+#, php-format
+msgid "Student reviewed Course %s"
+msgstr "学生评价了课程 %s"
+
+#: includes/bp-course-activity.php:397
+#, php-format
+msgid "Student %s reviewed the Course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:410
+msgid "Student unsubsribed from course "
+msgstr "学生退订了课程"
+
+#: includes/bp-course-activity.php:411
+#, php-format
+msgid "Student %s is removed from the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:421
+msgid "Course code applied"
+msgstr "课程代码已应用"
+
+#: includes/bp-course-activity.php:422
+#, php-format
+msgid "Student %s applied Course code for course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:437
+msgid "Student renewed a course"
+msgstr "学生续费了一门课程"
+
+#: includes/bp-course-activity.php:438
+#, php-format
+msgid "Student %s renewed the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:448
+msgid "Student started a unit"
+msgstr "学生开始了一个单元"
+
+#: includes/bp-course-activity.php:449
+#, php-format
+msgid "Student started the unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:459
+msgid "Student finished unit "
+msgstr "学生完成了单元"
+
+#: includes/bp-course-activity.php:460
+#, php-format
+msgid "Student %s finished the unit %s in course %s"
+msgstr "学生 %1$s 完成了课程 %3$s 中的单元 %2$s"
+
+#: includes/bp-course-activity.php:476
+msgid "Instructor completed a unit for Student "
+msgstr ""
+
+#: includes/bp-course-activity.php:477
+#: includes/bp-course-notifications.php:1455
+#, php-format
+msgid "Instructor %s completed unit %s for Student %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:489
+msgid "Instructor uncompleted a unit for Student "
+msgstr ""
+
+#: includes/bp-course-activity.php:490
+#: includes/bp-course-notifications.php:1511
+#, php-format
+msgid "Instructor %s uncompleted unit %s for Student %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:502
+msgid "Student posted comment on unit "
+msgstr "学生在单元中发布了评论"
+
+#: includes/bp-course-activity.php:503
+#, php-format
+msgid "Student %s posted comment on unit %s"
+msgstr "学生 %s 在单元 %s 上发布了评论"
+
+#: includes/bp-course-activity.php:514
+msgid "Student started a quiz"
+msgstr "学生开始了一个测试"
+
+#: includes/bp-course-activity.php:515 includes/bp-course-mailer.php:608
+#: includes/bp-course-notifications.php:2514
+#, php-format
+msgid "Student %s started the quiz %s"
+msgstr "学生 %s 开始了测试 %s"
+
+#: includes/bp-course-activity.php:526
+msgid "Student submitted the Quiz"
+msgstr "学生提交了测试"
+
+#: includes/bp-course-activity.php:527
+#, php-format
+msgid "Quiz %s was submitted by student %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:539
+msgid "Instructor evaluated Quiz for student "
+msgstr "教师为学生评估了测试"
+
+#: includes/bp-course-activity.php:541
+#, php-format
+msgid "Student %s got %s out of %s in Quiz %s"
+msgstr "学生 %1$s 在课程 %4$s 中获得了 %2$s/%3$s"
+
+#: includes/bp-course-activity.php:566
+msgid "Quiz retake by Student"
+msgstr "学生重新进行测试"
+
+#: includes/bp-course-activity.php:567
+#, php-format
+msgid "Student %s  initiated retake for quiz %s"
+msgstr "学生 %s 开始重新进行测试 %s"
+
+#: includes/bp-course-activity.php:579
+msgid "Instructor Reseted the Quiz for User"
+msgstr "教师为用户重置测试"
+
+#: includes/bp-course-activity.php:580
+#, php-format
+msgid "Quiz %s  was reset by the Instructor for user %s"
+msgstr "教师为用户 %2$s 重置了测试 %1$s"
+
+#: includes/bp-course-activity.php:592
+msgid "Instructor added students in course  "
+msgstr "教师将学生添加到了课程中"
+
+#: includes/bp-course-activity.php:593
+#, php-format
+msgid "Instructor added %s students in course "
+msgstr "教师将 %s 个学生添加到了课程"
+
+#: includes/bp-course-activity.php:600
+msgid "Instructor changed course status  "
+msgstr "教师改变了课程状态"
+
+#: includes/bp-course-activity.php:601
+#, php-format
+msgid "Instructor changed Course Status for %s students in course "
+msgstr "教师为课程中的 %s 个学生改变了课程状态"
+
+#: includes/bp-course-activity.php:608
+msgid "Instructor sent Bulk message to students"
+msgstr "教师给学生发送了批量消息"
+
+#: includes/bp-course-activity.php:609
+#, php-format
+msgid "Bulk Message sent to %s students "
+msgstr "批量消息已送至 %s 个学生"
+
+#: includes/bp-course-activity.php:616
+msgid "Instructor extended Course subscription"
+msgstr "教师延长了课程订阅持续时间"
+
+#: includes/bp-course-activity.php:617
+#, php-format
+msgid "Course subscription extended for %s students "
+msgstr "%s 个学生的课程订阅持续时间被延长"
+
+#: includes/bp-course-activity.php:627
+msgid "Instructor assigned/removed Certificate/Badges"
+msgstr "教师颁发/移除了证书/徽章"
+
+#: includes/bp-course-activity.php:628
+#, php-format
+msgid "Instructor added/removed Badges/Certificates from %s students in course"
+msgstr "教师从课程的 %s 个学生中颁发/移除了徽章/证书"
+
+#: includes/bp-course-activity.php:650
+#: includes/bp-course-notifications.php:1972
+#, php-format
+msgid "Student started assignment %s"
+msgstr "学生开始了作业 %s"
+
+#: includes/bp-course-activity.php:651 includes/bp-course-mailer.php:658
+#: includes/bp-course-notifications.php:2544
+#, php-format
+msgid "Student %s started the assignment %s"
+msgstr "学生 %s 开始了作业 %s"
+
+#: includes/bp-course-activity.php:669
+msgid "Student submitted assignment "
+msgstr "学生提交了作业"
+
+#: includes/bp-course-activity.php:670 includes/bp-course-mailer.php:668
+#: includes/bp-course-notifications.php:2550
+#, php-format
+msgid "Student %s submitted the assignment %s"
+msgstr "学生 %s 提交了作业 %s"
+
+#: includes/bp-course-activity.php:687 includes/bp-course-mailer.php:672
+#: includes/bp-course-notifications.php:2001
+#, php-format
+msgid "Results available for assignment %s"
+msgstr "作业 %s 的结果可用"
+
+#: includes/bp-course-activity.php:688
+#, php-format
+msgid "Student %s got marks %s out of %s in assignment %s "
+msgstr "学生 %1$s 在作业 %4$s 中获得了 %2$s/%3$s"
+
+#: includes/bp-course-activity.php:706
+msgid "Instructor Reseted the Assignment for User"
+msgstr "教师为用户重置了作业"
+
+#: includes/bp-course-activity.php:707
+#, php-format
+msgid "Assignment %s was reset by the Instructor for user %s"
+msgstr "教师为用户 %2$s 重置了作业 %1$s"
+
+#: includes/bp-course-activity.php:727
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s, on the site %4$s"
+msgstr "%1$s 在站点 %4$s 写了一个新的 %2$s，%3$s"
+
+#: includes/bp-course-activity.php:729
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s"
+msgstr "%1$s 写了一个新的 %2$s，%3$s"
+
+#: includes/bp-course-activity.php:739
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s 在站点 %4$s 评价了 %2$s，%3$s"
+
+#: includes/bp-course-activity.php:741
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s"
+msgstr "%1$s 评价了 %2$s, %3$s"
+
+#: includes/bp-course-activity.php:745
+#, php-format
+msgid "%1$s answered the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s 在站点 %4$s 回答了 %2$s，%3$s"
+
+#: includes/bp-course-activity.php:747
+#, php-format
+msgid "%1$s answered the %2$s, %3$s"
+msgstr "%1$s 回答了 %2$s，%3$s"
+
+#: includes/bp-course-activity.php:754
+#, php-format
+msgid "User applied for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:755
+#, php-format
+msgid "User %s applied for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:765
+#, php-format
+msgid "User application %s for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:766
+#, php-format
+msgid "User %s application %s for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:777
+#, php-format
+msgid "Instructor Published the course Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:778
+#, php-format
+msgid "Instructor %s published the Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:786
+#, php-format
+msgid "Instructor submitted the Course %s for approval"
+msgstr ""
+
+#: includes/bp-course-activity.php:787
+#, php-format
+msgid "Instructor %s submitted the Course %s for approval"
+msgstr ""
+
+#: includes/bp-course-admin.php:25
+msgid "WPLMS Course"
+msgstr ""
+
+#: includes/bp-course-admin.php:26
+msgid ""
+"\n"
+"\t\t\tForum for Course :"
+msgstr ""
+
+#: includes/bp-course-admin.php:31
+msgid "Select a Course"
+msgstr "选择一门课程"
+
+#: includes/bp-course-ajax.php:292
+msgid "Answer Reset"
+msgstr "重置回答"
+
+#: includes/bp-course-ajax.php:294
+msgid "Unable to Reset"
+msgstr "无法重置"
+
+#: includes/bp-course-ajax.php:308
+msgid "Incorrect Course selected."
+msgstr "选择了不正确的课程。"
+
+#: includes/bp-course-ajax.php:408
+msgid "Statistics successfully calculated. Reloading..."
+msgstr "成功算完统计数据。重新载入中..."
+
+#: includes/bp-course-ajax.php:410
+msgid "Unable to calculate Average."
+msgstr "无法计算平均值。"
+
+#: includes/bp-course-ajax.php:426
+msgid "SHOW STATS"
+msgstr "显示统计"
+
+#: includes/bp-course-ajax.php:426
+msgid "HIDE"
+msgstr "隐藏"
+
+#: includes/bp-course-ajax.php:430
+msgid "Incorrect User selected."
+msgstr "选择了不正确的用户。"
+
+#: includes/bp-course-ajax.php:441
+msgid "This User has not started the course."
+msgstr "这个用户还没有开始课程。"
+
+#: includes/bp-course-ajax.php:445
+msgid "This User has completed the course."
+msgstr "这个用户已经完成了课程。"
+
+#: includes/bp-course-ajax.php:446
+msgid "Student Score for Course "
+msgstr "课程的学生分数"
+
+#: includes/bp-course-ajax.php:446
+msgid " out of 100"
+msgstr "/100"
+
+#: includes/bp-course-ajax.php:455
+msgid "Course Started : "
+msgstr "已开始课程："
+
+#: includes/bp-course-ajax.php:462
+msgid "Curriculum :"
+msgstr "课程体系："
+
+#: includes/bp-course-ajax.php:463
+msgid "Quizes"
+msgstr "测试"
+
+#: includes/bp-course-ajax.php:482
+msgctxt " marks obtained in quiz result"
+msgid "Marks Obtained : "
+msgstr ""
+
+#: includes/bp-course-ajax.php:498
+msgid "Units Completed "
+msgstr "单元已完成"
+
+#: includes/bp-course-ajax.php:533 includes/bp-course-ajax.php:563
+#: includes/bp-course-ajax.php:651 includes/bp-course-ajax.php:769
+#: includes/bp-course-ajax.php:821 includes/bp-course-functions.php:823
+msgid " Incorrect User selected."
+msgstr "选择了错误的用户。"
+
+#: includes/bp-course-ajax.php:544
+msgid "User removed from the Course"
+msgstr "用户已从课程中移除"
+
+#: includes/bp-course-ajax.php:630
+msgid "Course Reset for User"
+msgstr "为用户重置课程"
+
+#: includes/bp-course-ajax.php:635
+msgid ""
+"There was issue in resetting this course for the user. Please contact admin."
+msgstr "为用户重置课程时出现错误。请联系管理员。"
+
+#: includes/bp-course-ajax.php:665
+msgid "Quiz Reset for Selected User"
+msgstr "为选择的用户重置课程"
+
+#: includes/bp-course-ajax.php:736
+msgid "COURSE MARKED COMPLETE"
+msgstr "课程已标记为完成"
+
+#: includes/bp-course-ajax.php:772
+#, php-format
+msgctxt "Course submission by User in course - admin - submissions"
+msgid "%s submission by %s"
+msgstr ""
+
+#: includes/bp-course-ajax.php:788
+msgid "MARKS: "
+msgstr "分数："
+
+#: includes/bp-course-ajax.php:788 includes/bp-course-ajax.php:793
+msgid " PENDING"
+msgstr "待处理"
+
+#: includes/bp-course-ajax.php:793
+msgid "DONE"
+msgstr "完成"
+
+#: includes/bp-course-ajax.php:802 includes/bp-course-ajax.php:944
+msgid "Total"
+msgstr "总计"
+
+#: includes/bp-course-ajax.php:803
+msgid "Course Percentage (Out of 100)"
+msgstr "课程比例 (百分比)"
+
+#: includes/bp-course-ajax.php:803
+msgid "Course Percentage out of 100"
+msgstr "课程比例 (百分比)"
+
+#: includes/bp-course-ajax.php:804
+msgid "Mark Course Complete"
+msgstr "标记课程完成"
+
+#: includes/bp-course-ajax.php:826
+msgid " Incorrect Quiz Id."
+msgstr "不正确的测试 ID。"
+
+#: includes/bp-course-ajax.php:832
+msgctxt "Quiz submission \"by\" user"
+msgid "submission by"
+msgstr ""
+
+#: includes/bp-course-ajax.php:854 includes/bp-course-template.php:2776
+#: includes/bp-course-template.php:2861
+msgid "Marked Answer :"
+msgstr "打分的答案："
+
+#: includes/bp-course-ajax.php:917 includes/bp-course-template.php:2965
+msgid "Correct Answer :"
+msgstr "正确答案："
+
+#: includes/bp-course-ajax.php:923 includes/bp-course-ajax.php:931
+msgctxt "Unattempted question warning in Course - Admin - Submissions area"
+msgid "Unattempted question ! Marks can not be assigned for this question."
+msgstr ""
+
+#: includes/bp-course-ajax.php:925 includes/bp-course-ajax.php:933
+#: includes/bp-course-template.php:2798 includes/bp-course-template.php:2982
+msgid "Marks Obtained"
+msgstr "获得的分数"
+
+#: includes/bp-course-ajax.php:925 includes/bp-course-ajax.php:933
+msgid "Give marks"
+msgstr "打分"
+
+#: includes/bp-course-ajax.php:926
+msgid "Update Marks"
+msgstr "更新分数"
+
+#: includes/bp-course-ajax.php:934
+msgid "Give Marks"
+msgstr "打分"
+
+#: includes/bp-course-ajax.php:938 includes/bp-course-template.php:3009
+msgid "Total Marks"
+msgstr "总分"
+
+#: includes/bp-course-ajax.php:945
+msgid "Mark Quiz as Checked"
+msgstr "标记测试为已检查"
+
+#: includes/bp-course-ajax.php:1073 includes/bp-course-template.php:1298
+#: includes/templates/course/single/admin.php:143
+#, php-format
+msgid "Viewing page %d of %d "
+msgstr "查看页面 %d/%d"
+
+#: includes/bp-course-ajax.php:1094
+msgctxt "no user found in live search in course admin"
+msgid "No user found !"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1116 includes/bp-course-ajax.php:1121
+msgid "Set a Subject for the message"
+msgstr "为消息设置一个标题"
+
+#: includes/bp-course-ajax.php:1130
+msgid "Messages Sent to "
+msgstr "消息发送至"
+
+#: includes/bp-course-ajax.php:1130 includes/bp-course-ajax.php:1317
+#: includes/bp-course-ajax.php:1431
+msgid " members"
+msgstr "成员"
+
+#: includes/bp-course-ajax.php:1132 includes/bp-course-ajax.php:1325
+#: includes/bp-course-ajax.php:1346 includes/bp-course-ajax.php:1437
+msgid "Please select members"
+msgstr "请选择成员"
+
+#: includes/bp-course-ajax.php:1176
+msgctxt "No users found in Course - admin - add users area"
+msgid "No Users found !"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1221 includes/bp-course-functions.php:1862
+#: includes/templates/course/single/admin.php:110
+msgid "Reset Course for User"
+msgstr "为用户重置课程"
+
+#: includes/bp-course-ajax.php:1222 includes/bp-course-functions.php:1863
+#: includes/templates/course/single/admin.php:111
+msgid "See Course stats for User"
+msgstr "查看用户课程状态"
+
+#: includes/bp-course-ajax.php:1223 includes/bp-course-functions.php:1881
+#: includes/templates/course/single/admin.php:129
+msgid "Remove User from this Course"
+msgstr "从课程中移除用户"
+
+#: includes/bp-course-ajax.php:1247
+msgid "Select Assign Value"
+msgstr "选择给予的值"
+
+#: includes/bp-course-ajax.php:1317
+msgid "Action assigned to "
+msgstr "操作被赋予"
+
+#: includes/bp-course-ajax.php:1322 includes/bp-course-ajax.php:1434
+msgid "Could not assign action to members"
+msgstr "无法赋予用户操作"
+
+#: includes/bp-course-ajax.php:1341
+msgid "Please enter extension amount"
+msgstr "请输入延长量"
+
+#: includes/bp-course-ajax.php:1369
+#, php-format
+msgid "Subscription extended for %d students, unable to extend for %d students"
+msgstr "已为 %d 个学生延长订阅，无法为 %d 个学生延长订阅"
+
+#: includes/bp-course-ajax.php:1371
+#, php-format
+msgid "Subscription extended for %d students"
+msgstr "已为 %d 个学生延长订阅"
+
+#: includes/bp-course-ajax.php:1391
+msgid "Select Course Status"
+msgstr "选择课程状态"
+
+#: includes/bp-course-ajax.php:1431
+msgid "Course status changed for "
+msgstr "课程状态已改变"
+
+#: includes/bp-course-ajax.php:1451 includes/bp-course-ajax.php:1659
+msgid "User does not have capability to download stats !"
+msgstr "用户无权下载统计！"
+
+#: includes/bp-course-ajax.php:1491 includes/bp-course-ajax.php:1693
+msgid "START DATE"
+msgstr "开始日期"
+
+#: includes/bp-course-ajax.php:1499 includes/bp-course-ajax.php:1511
+#: includes/bp-course-ajax.php:1558 includes/bp-course-ajax.php:1709
+#: includes/bp-course-ajax.php:1726 includes/bp-course-ajax.php:2001
+msgid "N.A"
+msgstr "N/A"
+
+#: includes/bp-course-ajax.php:1503 includes/bp-course-ajax.php:1712
+msgid "COMPLETION DATE"
+msgstr "完成日期"
+
+#: includes/bp-course-ajax.php:1514 includes/bp-course-ajax.php:1730
+#: includes/bp-course-ajax.php:2028
+msgid "ID"
+msgstr "ID"
+
+#: includes/bp-course-ajax.php:1521 includes/bp-course-ajax.php:1737
+msgid "NAME"
+msgstr "姓名"
+
+#: includes/bp-course-ajax.php:1567
+msgid "BADGE"
+msgstr "徽章"
+
+#: includes/bp-course-ajax.php:1579
+msgid "CERTIFICATE"
+msgstr "证书 "
+
+#: includes/bp-course-ajax.php:1591 includes/bp-course-ajax.php:1854
+msgid "SCORE"
+msgstr "分数"
+
+#: includes/bp-course-ajax.php:1937
+msgid "User not allowed to access stats"
+msgstr "用户不能查看统计"
+
+#: includes/bp-course-ajax.php:1968
+msgid "No data available"
+msgstr "无可用数据"
+
+#: includes/bp-course-ajax.php:1977 includes/bp-course-loader.php:342
+msgid "Stats"
+msgstr "统计"
+
+#: includes/bp-course-ajax.php:1997
+msgid "Average"
+msgstr "平均"
+
+#: includes/bp-course-ajax.php:1998
+msgid "Max"
+msgstr "最大"
+
+#: includes/bp-course-ajax.php:1999
+msgid "Min"
+msgstr "最小"
+
+#: includes/bp-course-ajax.php:2004
+msgid "Leaderboard"
+msgstr "排行榜"
+
+#: includes/bp-course-ajax.php:2023
+msgid "Download Stats"
+msgstr "下载统计"
+
+#: includes/bp-course-ajax.php:2026
+msgid "Start Date/Time"
+msgstr "开始日期/时间"
+
+#: includes/bp-course-ajax.php:2027
+msgid "End Date/Time"
+msgstr "完成日期/时间"
+
+#: includes/bp-course-ajax.php:2029
+msgid "Student Name"
+msgstr "学生姓名"
+
+#: includes/bp-course-ajax.php:2030
+msgid "Score"
+msgstr "分数"
+
+#: includes/bp-course-ajax.php:2033
+msgid "Question scores (* for static quizzes only)"
+msgstr "问题分数 (* 仅用于静态测试)"
+
+#: includes/bp-course-ajax.php:2034
+msgid "Question Answers (* for static quizzes only, useful for surveys)"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2045
+msgid "All students"
+msgstr "所有学生"
+
+#: includes/bp-course-ajax.php:2046
+msgid "Students who finished"
+msgstr "完成的学生"
+
+#: includes/bp-course-ajax.php:2049
+msgid "Process Stats"
+msgstr "正在处理统计"
+
+#: includes/bp-course-ajax.php:2069
+msgid "Unit not in Course"
+msgstr "单元不在课程中"
+
+#: includes/bp-course-ajax.php:2087
+msgid "Course Expired."
+msgstr "课程已过期。"
+
+#: includes/bp-course-ajax.php:2087 includes/bp-course-functions.php:325
+msgid "Click to renew"
+msgstr "点击续费"
+
+#: includes/bp-course-ajax.php:2135 includes/bp-course-ajax.php:2158
+#: includes/bp-course-ajax.php:2163 includes/bp-course-ajax.php:2167
+#: includes/bp-course-template.php:2556 includes/bp-course-template.php:2578
+#: includes/bp-course-template.php:2583 includes/bp-course-template.php:2589
+msgid "Unit"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2136 includes/bp-course-ajax.php:2159
+#: includes/bp-course-template.php:2558 includes/bp-course-template.php:2581
+#, php-format
+msgid "%s will be available in %s"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2164 includes/bp-course-ajax.php:2168
+#: includes/bp-course-template.php:2586 includes/bp-course-template.php:2592
+#, php-format
+msgid "%s can not be accessed."
+msgstr ""
+
+#: includes/bp-course-ajax.php:2259
+msgid "Proceed to Quiz"
+msgstr "进入测试"
+
+#: includes/bp-course-ajax.php:2283 includes/bp-course-ajax.php:2335
+msgid "Invalid submission time."
+msgstr "无效的提交时间。"
+
+#: includes/bp-course-ajax.php:2328
+msgid "security check failed."
+msgstr ""
+
+#: includes/bp-course-ajax.php:2399 includes/bp-course-ajax.php:2477
+#: includes/bp-course-ajax.php:2503
+msgid "Quiz Timed Out ."
+msgstr "测试时间到。"
+
+#: includes/bp-course-ajax.php:2400 includes/bp-course-ajax.php:2478
+#: includes/bp-course-ajax.php:2504 includes/bp-course-ajax.php:2508
+msgid "If you want to attempt again, Contact Instructor to reset the quiz."
+msgstr "如果您想再次尝试，请联系教师重置测试。"
+
+#: includes/bp-course-ajax.php:2407
+msgid "Quiz Already Attempted."
+msgstr "已进行过测试。"
+
+#: includes/bp-course-ajax.php:2408
+msgid "Security Check Failed. Contact Site Admin."
+msgstr "安全检查失败。请联系管理员。"
+
+#: includes/bp-course-ajax.php:2482
+msgid "Start Quiz to begin quiz."
+msgstr "开始测试。"
+
+#: includes/bp-course-ajax.php:2483
+msgid "Click \"Start Quiz\" button to start the Quiz."
+msgstr "点击“开始测试”按钮以启动测试。"
+
+#: includes/bp-course-ajax.php:2487
+msgid "Quiz not active."
+msgstr "测试未激活。"
+
+#: includes/bp-course-ajax.php:2488
+msgid "Contact your instructor or site admin."
+msgstr "联系您的教师或管理员。"
+
+#: includes/bp-course-ajax.php:2507
+msgid "Quiz Already Attempted ."
+msgstr "已进行过测试。"
+
+#: includes/bp-course-ajax.php:2525
+msgid "Questions not set."
+msgstr "没有设置问题。"
+
+#: includes/bp-course-ajax.php:2566 includes/bp-course-functions.php:425
+msgid "SHOW HINT"
+msgstr "显示提示"
+
+#: includes/bp-course-ajax.php:2567 includes/bp-course-functions.php:426
+msgid "HINT"
+msgstr "提示"
+
+#: includes/bp-course-ajax.php:2587 includes/bp-course-functions.php:475
+#: includes/bp-course-template.php:2870
+msgid "FALSE"
+msgstr "假"
+
+#: includes/bp-course-ajax.php:2587 includes/bp-course-functions.php:475
+#: includes/bp-course-template.php:2870
+msgid "TRUE"
+msgstr "真"
+
+#: includes/bp-course-ajax.php:2643 includes/bp-course-ajax.php:2646
+msgid "Type Answer"
+msgstr "输入答案"
+
+#: includes/bp-course-ajax.php:2654
+msgid "PAGES"
+msgstr "页面"
+
+#: includes/bp-course-ajax.php:2696 includes/bp-course-ajax.php:2739
+msgid "Unable to add message"
+msgstr "无法添加消息"
+
+#: includes/bp-course-ajax.php:2730
+msgid "JUST NOW"
+msgstr "刚刚"
+
+#: includes/bp-course-ajax.php:2730
+msgctxt "when unit comment is not approved"
+msgid "Sent for Approval."
+msgstr ""
+
+#: includes/bp-course-ajax.php:2836
+#: includes/templates/course/single/submissions.php:106
+msgid "Reset Quiz for User"
+msgstr "为用户重置测试"
+
+#: includes/bp-course-ajax.php:2837
+#: includes/templates/course/single/submissions.php:107
+msgid "Evaluate Quiz for User"
+msgstr "为用户评估测试"
+
+#: includes/bp-course-ajax.php:2844
+msgctxt "Quiz submission not found"
+msgid "No submissions found"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2896
+#: includes/templates/course/single/submissions.php:153
+msgid "Evaluate Course for User"
+msgstr "为用户评估课程"
+
+#: includes/bp-course-ajax.php:2911
+msgctxt "No course submissions found in Course - Admin - submissions seciton"
+msgid "No course submissions !"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2923
+msgid "Invalid Course or Unit ID"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2930
+msgid "Unit not found in Course"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2966
+msgctxt "Apply for Course confirmation message."
+msgid "Applied for Course"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3003
+msgid "Question answer already marked"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3011
+msgid "Question not included in quiz."
+msgstr ""
+
+#: includes/bp-course-ajax.php:3015
+msgid "Unable to fetch quiz questions."
+msgstr ""
+
+#: includes/bp-course-ajax.php:3046 includes/bp-course-ajax.php:3064
+#: includes/bp-course-cssjs.php:122 includes/bp-course-template.php:2911
+#: includes/bp-course-template.php:2936
+msgid "and"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3055
+msgid "True"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3055
+msgid "False"
+msgstr ""
+
+#: includes/bp-course-api.php:127
+#, php-format
+msgid "REST API not active ! Please update WordPress %d or greater version."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:74
+msgctxt "displayed to suer when quiz times out."
+msgid "TIMEOUT"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:75
+msgctxt "Quiz answer being marked very fast"
+msgid "Too Fast or Answer not marked."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:76
+msgctxt "Save answer on every question, confirmation message"
+msgid "Answer Saved."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:77
+msgctxt "Quiz question anwer save under progress"
+msgid "Processing..."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:78
+msgctxt "Saving quiz answers under progress"
+msgid "Saving Answer...please wait"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:79
+msgid ""
+"This step is irreversible. Are you sure you want to remove the User from the "
+"course ?"
+msgstr "这个步骤不可逆。您确定要从课程中移除用户？"
+
+#: includes/bp-course-cssjs.php:80
+msgid "Confirm, Remove User from Course"
+msgstr "确定，从课程中移除用户"
+
+#: includes/bp-course-cssjs.php:81
+msgctxt "Confirm button for various popup confirmation messages"
+msgid "Confirm"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:82
+msgctxt "Cancel button for various popup confirmation messages"
+msgid "Cancel"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:83
+msgid ""
+"This step is irreversible. All Units, Quiz results would be reset for this "
+"user. Are you sure you want to Reset the Course for this User?"
+msgstr ""
+"这个步骤不可逆。用户的所有单元和测试结果会被重置。您确定要为此用户重置课程？"
+
+#: includes/bp-course-cssjs.php:84
+msgid "Confirm, Reset Course for this User"
+msgstr "确定，为用户重置课程"
+
+#: includes/bp-course-cssjs.php:85
+msgid ""
+"This step is irreversible. All Questions answers would be reset for this "
+"user. Are you sure you want to Reset the Quiz for this User? "
+msgstr "这个步骤不可逆。用户的所有问题答案会被重置。您确定要为此用户重置测试？"
+
+#: includes/bp-course-cssjs.php:86
+msgid "Confirm, Reset Quiz for this User"
+msgstr "确定，为用户重置测试"
+
+#: includes/bp-course-cssjs.php:87
+msgid "Marks Saved"
+msgstr "分数已保存"
+
+#: includes/bp-course-cssjs.php:88
+msgid "Quiz Marks Saved"
+msgstr "测试分数已保存"
+
+#: includes/bp-course-cssjs.php:89
+msgid "Save Quiz progress"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:90
+msgid "Saved"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:91
+msgid "Submit Quiz"
+msgstr "提交测试"
+
+#: includes/bp-course-cssjs.php:92
+msgid "Sending Messages ..."
+msgstr "正在发消息..."
+
+#: includes/bp-course-cssjs.php:93
+msgid "Adding Students to Course ..."
+msgstr "正在添加学生到课程中..."
+
+#: includes/bp-course-cssjs.php:94
+msgid "Students successfully added to Course"
+msgstr "学生已成功添加到课程中"
+
+#: includes/bp-course-cssjs.php:95
+msgid "Unable to Add students to Course"
+msgstr "无法添加学生到课程中"
+
+#: includes/bp-course-cssjs.php:96
+msgid "Please select fields to download"
+msgstr "请选择要下载的字段"
+
+#: includes/bp-course-cssjs.php:97
+msgid "Download"
+msgstr "下载"
+
+#: includes/bp-course-cssjs.php:98
+msgid "TIMEOUT"
+msgstr "超时"
+
+#: includes/bp-course-cssjs.php:101
+msgid "for Course"
+msgstr "给课程 "
+
+#: includes/bp-course-cssjs.php:102
+msgid "Active Filters"
+msgstr "活动的过滤器"
+
+#: includes/bp-course-cssjs.php:103
+msgid "Clear all filters"
+msgstr "清除所有过滤器"
+
+#: includes/bp-course-cssjs.php:104
+msgid "Are you sure you want to remove this note?"
+msgstr "您确定要移除这个笔记？"
+
+#: includes/bp-course-cssjs.php:105
+msgid "Confirm, remove note"
+msgstr "确定，移除笔记"
+
+#: includes/bp-course-cssjs.php:107
+msgid "Add your note"
+msgstr "添加您的笔记"
+
+#: includes/bp-course-cssjs.php:108
+msgid "Please add questions or retake the quiz !"
+msgstr "请添加问题或者重新开始测试！"
+
+#: includes/bp-course-cssjs.php:109
+msgid "Are you sure you want to remove this Annoucement?"
+msgstr "您确定要移除这个公告？"
+
+#: includes/bp-course-cssjs.php:110
+msgid "You're about to start the Quiz. Please click confirm to begin the quiz."
+msgstr "您即将开始测试。请点击确认以开始测试。"
+
+#: includes/bp-course-cssjs.php:111
+msgid ""
+"Are you sure you want to submit the quiz. Submitting the quiz will freeze "
+"all your answers, you can not change them.  Please confirm."
+msgstr ""
+"您确定要提交测试么。提交测试会冻结您的全部答案，您无法更改它们。请确认。"
+
+#: includes/bp-course-cssjs.php:112
+msgid "Check results"
+msgstr "检查结果"
+
+#: includes/bp-course-cssjs.php:113
+msgid "Correct"
+msgstr "正确"
+
+#: includes/bp-course-cssjs.php:114
+msgid "Incorrect"
+msgstr "不正确"
+
+#: includes/bp-course-cssjs.php:115
+msgctxt "confirmation message when user clicks on apply for course"
+msgid "Are you sure you want to apply for this Course ?"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:116
+msgctxt ""
+"Popup confirmation message when instructor marks the unit uncomplete for the "
+"user."
+msgid "Are you sure you want mark this unit \"incomplete\" for the user ?"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:117
+msgctxt "Popup confirmation message "
+msgid "Are you sure you want to mark this unit \"complete\" for the user ?"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:118
+msgid "You have few unanswered questions. Are you sure you want to continue ?"
+msgstr "您有一些没有回答的问题。您确定要继续？"
+
+#: includes/bp-course-cssjs.php:119
+msgid "Please enter 4 or more characters ..."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:120
+msgid "Correct Answer"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:121
+msgid "Explanation"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:124
+msgctxt "tour"
+msgid "Go"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:126
+msgctxt "retake confrim"
+msgid "Are you sure you want to retake course?"
+msgstr ""
+
+#: includes/bp-course-filters.php:115
+msgctxt "news permalink in course"
+msgid "news"
+msgstr ""
+
+#: includes/bp-course-filters.php:119
+msgid "News"
+msgstr ""
+
+#: includes/bp-course-filters.php:292
+msgctxt "Unit details link anchor for full unit content"
+msgid "Details"
+msgstr ""
+
+#: includes/bp-course-filters.php:541
+msgctxt "No courses in current filter"
+msgid "No courses found !"
+msgstr ""
+
+#: includes/bp-course-filters.php:628
+msgid "No Courses found."
+msgstr "未找到课程。"
+
+#: includes/bp-course-filters.php:911
+msgctxt "Apply for Course label for course"
+msgid "Apply for Course"
+msgstr ""
+
+#: includes/bp-course-filters.php:936
+msgctxt "Apply for Course label for course"
+msgid "Applied for Course"
+msgstr ""
+
+#: includes/bp-course-filters.php:986
+#, php-format
+msgctxt "Apply for course applicants in Course - admin - Submissions"
+msgid "Applications <span>%d</span>"
+msgstr ""
+
+#: includes/bp-course-filters.php:994
+msgid "Section"
+msgstr ""
+
+#: includes/bp-course-functions.php:52
+msgid "Course Directory"
+msgstr "课程目录"
+
+#: includes/bp-course-functions.php:53
+msgid "All Courses by all instructors"
+msgstr "全部教师的全部课程"
+
+#: includes/bp-course-functions.php:87 includes/bp-course-loader.php:373
+#: includes/templates/course/single/home.php:39
+msgid "Home"
+msgstr "首页"
+
+#: includes/bp-course-functions.php:93
+#: includes/templates/course/single/home.php:40
+msgid "Curriculum"
+msgstr "课程体系"
+
+#: includes/bp-course-functions.php:95
+msgid "curriculum"
+msgstr ""
+
+#: includes/bp-course-functions.php:100
+#: includes/templates/course/single/home.php:41
+msgid "Members"
+msgstr "成员"
+
+#: includes/bp-course-functions.php:102
+msgid "members"
+msgstr ""
+
+#: includes/bp-course-functions.php:110
+msgid "Activity"
+msgstr "活动"
+
+#: includes/bp-course-functions.php:112
+msgid "activity"
+msgstr ""
+
+#: includes/bp-course-functions.php:125
+#: includes/templates/course/single/home.php:49
+msgid "Group"
+msgstr "群组"
+
+#: includes/bp-course-functions.php:138
+#: includes/templates/course/single/home.php:55
+msgid "Forum"
+msgstr "论坛"
+
+#: includes/bp-course-functions.php:188
+msgctxt "course admin slug"
+msgid "admin"
+msgstr ""
+
+#: includes/bp-course-functions.php:191
+#: includes/templates/course/single/home.php:60
+msgid "Admin"
+msgstr "管理"
+
+#: includes/bp-course-functions.php:221 includes/bp-course-widgets.php:678
+msgid "Search"
+msgstr "搜索"
+
+#: includes/bp-course-functions.php:240 includes/bp-course-functions.php:343
+msgid "TAKE THIS COURSE"
+msgstr "选择这门课"
+
+#: includes/bp-course-functions.php:280
+msgid "START COURSE"
+msgstr "开始课程"
+
+#: includes/bp-course-functions.php:284
+msgid "CONTINUE COURSE"
+msgstr "继续课程"
+
+#: includes/bp-course-functions.php:288
+msgid "COURSE UNDER EVALUATION"
+msgstr "正在评估课程"
+
+#: includes/bp-course-functions.php:294
+msgid "FINISHED COURSE"
+msgstr "已完成课程"
+
+#: includes/bp-course-functions.php:297 includes/bp-course-offline.php:172
+msgid "COURSE FINISHED"
+msgstr "已完成课程"
+
+#: includes/bp-course-functions.php:301 includes/bp-course-functions.php:312
+msgid "COURSE ENABLED"
+msgstr "课程已启用"
+
+#: includes/bp-course-functions.php:301 includes/bp-course-functions.php:312
+msgid "CONTACT ADMIN TO ENABLE"
+msgstr "联系管理员来启用"
+
+#: includes/bp-course-functions.php:325
+msgid "Course Expired"
+msgstr "课程已过期"
+
+#: includes/bp-course-functions.php:345
+msgid "PRIVATE COURSE"
+msgstr "私人课程"
+
+#: includes/bp-course-functions.php:389
+msgid "* REQUIRES"
+msgstr "* 必要"
+
+#: includes/bp-course-functions.php:393
+msgid "SEATS"
+msgstr "座位"
+
+#: includes/bp-course-functions.php:394
+msgid "Course Badge"
+msgstr "课程徽章"
+
+#: includes/bp-course-functions.php:396
+msgid "Course Certificate"
+msgstr "课程证书"
+
+#: includes/bp-course-functions.php:547 includes/bp-course-functions.php:555
+msgid "Type answer"
+msgstr "输入答案"
+
+#: includes/bp-course-functions.php:591
+msgid "Unlimited Time"
+msgstr "无限制时间"
+
+#: includes/bp-course-functions.php:595 includes/bp-course-functions.php:891
+msgid "EXPIRED"
+msgstr "已过期"
+
+#: includes/bp-course-functions.php:628 includes/bp-course-functions.php:636
+msgid "Next Question"
+msgstr "下一个问题"
+
+#: includes/bp-course-functions.php:632 includes/bp-course-functions.php:635
+msgid "Previous Question"
+msgstr "上一个问题"
+
+#: includes/bp-course-functions.php:683 includes/bp-course-functions.php:718
+msgid "Duration not Set"
+msgstr "没有设置持续时间"
+
+#: includes/bp-course-functions.php:691 includes/bp-course-functions.php:1212
+msgid "Time Remaining"
+msgstr "剩余时间"
+
+#: includes/bp-course-functions.php:692
+msgid "Hour"
+msgstr ""
+
+#: includes/bp-course-functions.php:692 includes/bp-course-functions.php:693
+msgid "Mins"
+msgstr "分"
+
+#: includes/bp-course-functions.php:693
+msgid "Secs"
+msgstr "秒"
+
+#: includes/bp-course-functions.php:725
+msgid "Progress"
+msgstr "进度"
+
+#: includes/bp-course-functions.php:765
+msgid "Please set questions in quiz or reset quiz !"
+msgstr "请为测试设置问题或者重置测试！"
+
+#: includes/bp-course-functions.php:805
+msgid "QUESTION"
+msgstr "问题"
+
+#: includes/bp-course-functions.php:823
+msgid "Security Error"
+msgstr "安全错误"
+
+#: includes/bp-course-functions.php:863
+msgctxt "displayed to user when quiz times out."
+msgid "ENDED"
+msgstr ""
+
+#: includes/bp-course-functions.php:874
+msgid "year"
+msgstr "年"
+
+#: includes/bp-course-functions.php:874
+msgid "years"
+msgstr "年"
+
+#: includes/bp-course-functions.php:876
+msgid "month"
+msgstr "月"
+
+#: includes/bp-course-functions.php:876
+msgid "months"
+msgstr "月"
+
+#: includes/bp-course-functions.php:878
+msgid "week"
+msgstr "周"
+
+#: includes/bp-course-functions.php:878
+msgid "weeks"
+msgstr "周"
+
+#: includes/bp-course-functions.php:880
+msgid "day"
+msgstr "天"
+
+#: includes/bp-course-functions.php:880
+msgid "days"
+msgstr "天"
+
+#: includes/bp-course-functions.php:882
+msgid "hour"
+msgstr "小时"
+
+#: includes/bp-course-functions.php:882
+msgid "hours"
+msgstr "小时"
+
+#: includes/bp-course-functions.php:884
+msgid "minute"
+msgstr "分钟"
+
+#: includes/bp-course-functions.php:884
+msgid "minutes"
+msgstr "分钟"
+
+#: includes/bp-course-functions.php:886
+msgid "second"
+msgstr "秒"
+
+#: includes/bp-course-functions.php:886
+msgid "seconds"
+msgstr "秒"
+
+#: includes/bp-course-functions.php:1054
+msgid "Have Questions ? Ask in the Unit Forums"
+msgstr "有问题？在单元论坛中提问"
+
+#: includes/bp-course-functions.php:1079 includes/bp-course-functions.php:1108
+msgid "Attachments"
+msgstr "附件"
+
+#: includes/bp-course-functions.php:1164 includes/bp-course-mailer.php:307
+#: includes/bp-course-notifications.php:283
+msgid "Instructor"
+msgstr "教师"
+
+#: includes/bp-course-functions.php:1543 includes/bp-course-functions.php:1546
+msgid "Certificate not valid for user"
+msgstr "用户的证书无效"
+
+#: includes/bp-course-functions.php:1697
+msgid "Evaluate course submissions"
+msgstr "评估提交的课程"
+
+#: includes/bp-course-functions.php:1709
+msgid "Evaluate Quiz submissions"
+msgstr "评估提交的测试"
+
+#: includes/bp-course-functions.php:1715
+msgid "Manage Students"
+msgstr "管理学生"
+
+#: includes/bp-course-functions.php:1716
+msgid "See Stats"
+msgstr "查看座位"
+
+#: includes/bp-course-functions.php:1717
+msgid "See all Activity"
+msgstr "查看所有活动"
+
+#: includes/bp-course-functions.php:1743
+msgid "Seconds"
+msgstr "秒"
+
+#: includes/bp-course-functions.php:1744
+msgid "Minutes"
+msgstr "分"
+
+#: includes/bp-course-functions.php:1745
+msgid "Hours"
+msgstr "小时"
+
+#: includes/bp-course-functions.php:1746
+msgid "Days"
+msgstr "天"
+
+#: includes/bp-course-functions.php:1747
+msgid "Weeks"
+msgstr "周"
+
+#: includes/bp-course-functions.php:1748
+msgid "Months"
+msgstr "月"
+
+#: includes/bp-course-functions.php:1749
+msgid "Years"
+msgstr "年"
+
+#: includes/bp-course-functions.php:1880
+#: includes/templates/course/single/admin.php:128
+msgid "See User Activity in Course"
+msgstr "查看课程中的用户活动"
+
+#: includes/bp-course-functions.php:1916
+msgctxt "Instructor earned commission activity"
+msgid "You earned commission"
+msgstr ""
+
+#: includes/bp-course-functions.php:1917
+#, php-format
+msgctxt "Instructor earned commission activity"
+msgid "%s commission earned for course %s"
+msgstr ""
+
+#: includes/bp-course-loader.php:267
+msgctxt "Course directory title"
+msgid "Course Directory"
+msgstr ""
+
+#: includes/bp-course-loader.php:269
+msgid "Search courses ..."
+msgstr ""
+
+#: includes/bp-course-loader.php:291
+#, php-format
+msgid "Courses <span>%s</span>"
+msgstr "课程<span>%s</span>"
+
+#: includes/bp-course-loader.php:322
+msgid "My Courses"
+msgstr "我的课程"
+
+#: includes/bp-course-loader.php:332
+msgid "Results"
+msgstr "结果"
+
+#: includes/bp-course-loader.php:352 includes/templates/course/index.php:65
+#, php-format
+msgid "Instructing Courses <span>%s</span>"
+msgstr "指导的课程 <span>%s</span>"
+
+#: includes/bp-course-loader.php:457 includes/bp-course-loader.php:463
+#: includes/bp-course-loader.php:473
+#, php-format
+msgid "Please Update the %s theme to latest version %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:165
+#, php-format
+msgid ""
+"%sMigrate WPLMS email templates to BuddyPress Emails.%s  %s mail templates "
+"will be migrated. Refer %s more information & tutorial%s   %s Migrate all "
+"email templates to BuddyPress %s %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:245
+msgctxt "Migrate WPLMS emails to BuddyPress success message"
+msgid "Migration complete."
+msgstr ""
+
+#: includes/bp-course-mailer.php:305
+msgid "Profile"
+msgstr "资料"
+
+#: includes/bp-course-mailer.php:305
+msgid "Courses"
+msgstr "课程"
+
+#: includes/bp-course-mailer.php:307
+msgid "Link"
+msgstr "链接"
+
+#: includes/bp-course-mailer.php:402
+msgid "Student : Announcement in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:403 includes/bp-course-mailer.php:408
+#: includes/bp-course-notifications.php:478
+#: includes/bp-course-notifications.php:506
+#: includes/bp-course-notifications.php:2405
+#: includes/bp-course-notifications.php:2408
+#, php-format
+msgid "Announcement for Course %s"
+msgstr "课程 %s 的公告"
+
+#: includes/bp-course-mailer.php:407
+msgid "Instructor : Announcement in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:412
+msgid "Student : News in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:413 includes/bp-course-mailer.php:418
+#: includes/bp-course-notifications.php:524
+#: includes/bp-course-notifications.php:569
+#: includes/bp-course-notifications.php:611
+#, php-format
+msgid "News for Course %s"
+msgstr "课程 %s 的最新消息"
+
+#: includes/bp-course-mailer.php:417
+msgid "Instructor : News in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:423
+msgid "Student : Student subscribes to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:424
+#, php-format
+msgid "Subscribed for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:425 includes/bp-course-notifications.php:624
+#: includes/bp-course-notifications.php:647
+#, php-format
+msgid "You're subscribed for course : %s"
+msgstr "您订阅了课程：%s"
+
+#: includes/bp-course-mailer.php:428
+msgid "Instructor : Student subscribes to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:430 includes/bp-course-notifications.php:661
+#: includes/bp-course-notifications.php:686
+#, php-format
+msgid "Student %s subscribed for course : %s"
+msgstr "学生 %s 订阅了课程：%s"
+
+#: includes/bp-course-mailer.php:434
+msgid "Student : Student added to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:435 includes/bp-course-notifications.php:732
+#, php-format
+msgid "Added to course %s"
+msgstr "被加入课程 %s"
+
+#: includes/bp-course-mailer.php:436 includes/bp-course-notifications.php:733
+#, php-format
+msgid "You've been added to course : %s"
+msgstr "您已被加入课程：%s"
+
+#: includes/bp-course-mailer.php:439
+msgid "Instructor : Instructor adds Student to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:440
+#, php-format
+msgid "Student added to course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:441
+#, php-format
+msgid "%s student added to course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:445
+msgid "Student : Student started a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:446 includes/bp-course-notifications.php:821
+#, php-format
+msgid "You started course %s"
+msgstr "您开始了课程 %s"
+
+#: includes/bp-course-mailer.php:447 includes/bp-course-notifications.php:822
+#, php-format
+msgid "You've started the course : %s"
+msgstr "您已开始课程：%s"
+
+#: includes/bp-course-mailer.php:450
+msgid "Instructor : Student started a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:451 includes/bp-course-notifications.php:858
+#, php-format
+msgid "Student started course %s"
+msgstr "学生开始了课程 %s"
+
+#: includes/bp-course-mailer.php:452 includes/bp-course-notifications.php:834
+#: includes/bp-course-notifications.php:859
+#, php-format
+msgid "Student %s started the course : %s"
+msgstr "学生 %s 开始了课程：%s"
+
+#: includes/bp-course-mailer.php:456
+msgid "Student : Student finishes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:457 includes/bp-course-notifications.php:889
+#, php-format
+msgid "Course %s submitted"
+msgstr "课程 %s 已提交"
+
+#: includes/bp-course-mailer.php:458 includes/bp-course-notifications.php:868
+#: includes/bp-course-notifications.php:890
+#, php-format
+msgid "You've submitted the course : %s"
+msgstr "您已提交课程：%s"
+
+#: includes/bp-course-mailer.php:461
+msgid "Instructor : Student finishes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:462 includes/bp-course-notifications.php:922
+#, php-format
+msgid "Student submitted course %s"
+msgstr "学生提交了课程 %s"
+
+#: includes/bp-course-mailer.php:463 includes/bp-course-notifications.php:900
+#: includes/bp-course-notifications.php:923
+#, php-format
+msgid "Student %s submitted the course : %s"
+msgstr "学生 %s 提交了课程：%s"
+
+#: includes/bp-course-mailer.php:467
+msgid "Student : Instructor resets course for a Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:468 includes/bp-course-notifications.php:950
+#, php-format
+msgid "Course %s reset"
+msgstr "课程 %s 被重置"
+
+#: includes/bp-course-mailer.php:469 includes/bp-course-notifications.php:951
+#, php-format
+msgid "%s Course was reset by Instructor"
+msgstr "%s 课程被教师重置"
+
+#: includes/bp-course-mailer.php:472
+msgid "Instructor : Instructor resets course for a Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:473 includes/bp-course-notifications.php:976
+#, php-format
+msgid "Course %s reset for Student"
+msgstr "为学生重置课程 %s"
+
+#: includes/bp-course-mailer.php:474 includes/bp-course-notifications.php:977
+#, php-format
+msgid "Course %s was reset for student %s "
+msgstr "已为学生 %2$s 重置课程 %1$s"
+
+#: includes/bp-course-mailer.php:478
+msgid "Student : Student retakes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:479
+#, php-format
+msgid "You retook the course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:480 includes/bp-course-notifications.php:1002
+#, php-format
+msgid "You've retaken the Course %s"
+msgstr "您已重新学习课程 %s"
+
+#: includes/bp-course-mailer.php:483
+msgid "Instructor : Student retakes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:484 includes/bp-course-notifications.php:1027
+#, php-format
+msgid "Course %s retaken by the Student"
+msgstr "学生重新了学习课程 %s"
+
+#: includes/bp-course-mailer.php:485 includes/bp-course-notifications.php:1028
+#, php-format
+msgid "Course %s was retaken by the student %s "
+msgstr "课程 %s 被学生 %s 重新学习"
+
+#: includes/bp-course-mailer.php:489
+msgid "Student : Course evaluated for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:490 includes/bp-course-mailer.php:495
+#: includes/bp-course-notifications.php:1054
+#, php-format
+msgid "Course %s results available"
+msgstr "课程 %s 的结果已可用"
+
+#: includes/bp-course-mailer.php:491 includes/bp-course-notifications.php:1037
+#: includes/bp-course-notifications.php:1055
+#, php-format
+msgid "You've obtained %s  in Course : %s"
+msgstr "您已在课程 %2$s 中获得 %1$s"
+
+#: includes/bp-course-mailer.php:494
+msgid "Instructor : Course evaluated for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:496
+#, php-format
+msgid "Student %s got %s out of 100 in course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:500
+msgid "Student : Student obtained course badge"
+msgstr ""
+
+#: includes/bp-course-mailer.php:501 includes/bp-course-notifications.php:1110
+#, php-format
+msgid "You got a Badge in Course %s"
+msgstr "您在课程 %s 中获得一枚徽章"
+
+#: includes/bp-course-mailer.php:502 includes/bp-course-notifications.php:1111
+#, php-format
+msgid "You've obtained a Badge in Course : %s"
+msgstr "您已在课程 %s 中获得了一枚徽章"
+
+#: includes/bp-course-mailer.php:505
+msgid "Instructor : Student obtained course badge"
+msgstr ""
+
+#: includes/bp-course-mailer.php:506 includes/bp-course-notifications.php:1121
+#: includes/bp-course-notifications.php:1141
+#, php-format
+msgid "Student got a Badge in Course %s"
+msgstr "学生在课程 %s 中获得了一枚徽章"
+
+#: includes/bp-course-mailer.php:507 includes/bp-course-notifications.php:1142
+#: includes/bp-course-notifications.php:2462
+#, php-format
+msgid "Student %s got a Badge in Course %s"
+msgstr "学生 %s 在课程 %s 中获得了一枚徽章"
+
+#: includes/bp-course-mailer.php:511
+msgid "Student : Student obtained course certificate"
+msgstr ""
+
+#: includes/bp-course-mailer.php:512 includes/bp-course-notifications.php:1172
+#, php-format
+msgid "You got a Certificate in Course %s"
+msgstr "您在课程 %s 中获得了一张证书"
+
+#: includes/bp-course-mailer.php:513
+#, php-format
+msgid "You've obtained a certificate in Course : %s"
+msgstr "您已在课程 %s 中获得了一张证书"
+
+#: includes/bp-course-mailer.php:516
+msgid "Instructor : Student obtained course certificate"
+msgstr ""
+
+#: includes/bp-course-mailer.php:517 includes/bp-course-notifications.php:1183
+#: includes/bp-course-notifications.php:1203
+#, php-format
+msgid "Student got a Certificate in Course %s"
+msgstr "学生在课程 %s 中获得了一张证书"
+
+#: includes/bp-course-mailer.php:518 includes/bp-course-notifications.php:1204
+#: includes/bp-course-notifications.php:2468
+#, php-format
+msgid "Student %s got a Certificate in Course %s"
+msgstr "学生 %s 在课程 %s 中获得了一张证书"
+
+#: includes/bp-course-mailer.php:522
+msgid "Student : Student reviewed course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:523
+#, php-format
+msgid "You submitted a %s star review for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:524
+#, php-format
+msgid "You submitted a %s star review Course %s - %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:527
+msgid "Instructor : Student reviewed course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:528
+#, php-format
+msgid "Student submitted a %s star review for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:529
+#, php-format
+msgid "Student %s submitted a %s star review for the Course %s - %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:533
+msgid "Student : Student unsubscribed from course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:534 includes/bp-course-notifications.php:1285
+#, php-format
+msgid "You're unsubscribed from course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:535 includes/bp-course-notifications.php:1286
+#, php-format
+msgid "You're unsubscribed from the Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:538
+msgid "Instructor : Student unsubscribed from course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:539 includes/bp-course-notifications.php:1294
+#: includes/bp-course-notifications.php:1310
+#, php-format
+msgid "Student unsubscribed from Course %s"
+msgstr "学生退订了课程 %s"
+
+#: includes/bp-course-mailer.php:540 includes/bp-course-notifications.php:1311
+#, php-format
+msgid "Student %s unsubscribed from Course %s"
+msgstr "学生 %s 退订了课程 %s"
+
+#: includes/bp-course-mailer.php:544
+msgid "Student : Student applied course code to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:545 includes/bp-course-notifications.php:1335
+#, php-format
+msgid "You applied course code in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:546
+#, php-format
+msgid "You've applied the code %s on the course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:549
+msgid "Instructor : Student applied course code to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:550 includes/bp-course-notifications.php:1361
+#, php-format
+msgid "Student applied code for Course %s"
+msgstr "学生对课程 %s 使用了课程代码"
+
+#: includes/bp-course-mailer.php:551 includes/bp-course-notifications.php:1362
+#, php-format
+msgid "Student %s applied code %s for Course %s"
+msgstr "学生 %1$s 对课程 %3$s 使用了代码 %2$s"
+
+#: includes/bp-course-mailer.php:555
+msgid "Student : Student completed a unit in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:556
+#, php-format
+msgid "You completed unit %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:557 includes/bp-course-notifications.php:1391
+#, php-format
+msgid "You completed a unit %s in Course %s"
+msgstr "您完成了课程 %2$s 中的单元 %1$s"
+
+#: includes/bp-course-mailer.php:560
+msgid "Instructor : Student completed a unit in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:561 includes/bp-course-notifications.php:1418
+#, php-format
+msgid "Student completed unit in Course %s"
+msgstr "学生完成了课程 %s 中的单元"
+
+#: includes/bp-course-mailer.php:562 includes/bp-course-notifications.php:1419
+#, php-format
+msgid "Student %s completed unit %s in Course %s"
+msgstr "学生 %1$s 完成了课程 %3$s 中的单元 %2$s"
+
+#: includes/bp-course-mailer.php:566
+msgid "Student : Instructor marked unit complete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:567
+#, php-format
+msgid "Instructor marked unit complete in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:568 includes/bp-course-notifications.php:1448
+#, php-format
+msgid "Unit %s was marked complete by Instructor %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:571
+msgid "Instructor : Instructor marked unit complete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:572 includes/bp-course-notifications.php:1474
+#: includes/bp-course-notifications.php:1530
+#, php-format
+msgid "Instructor marked unit %s comple for Student in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:573 includes/bp-course-notifications.php:1475
+#, php-format
+msgid "Instructor %s completed the unit %s for Student %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:576
+msgid "Student : Instructor marked unit incomplete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:577
+#, php-format
+msgid "Instructor marked unit incomplete in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:578
+#, php-format
+msgid "Unit %s was marked incomplete by Instructor %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:581
+msgid "Instructor : Instructor marked unit incomplete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:582
+#, php-format
+msgid "Instructor marked unit %s incomplete for Student in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:583
+#, php-format
+msgid "Instructor %s marked the unit %s incomplete for Student %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:586
+msgid "Student : Student added a comment in unit in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:587
+#, php-format
+msgid "You added a comment in unit %s"
+msgstr "您在单元 %s 上添加了一个评论"
+
+#: includes/bp-course-mailer.php:588
+#, php-format
+msgid "Comment \"%s\" was added to unit %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:591
+msgid "Student : Reply posted on your comment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:592
+#, php-format
+msgid "Reply posted on your comment in %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:593
+#, php-format
+msgid "%s replied on your comment in Unit %s : %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:596
+msgid "Instructor : Student added a comment on Unit"
+msgstr ""
+
+#: includes/bp-course-mailer.php:597
+#, php-format
+msgid "Student added a comment in unit %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:598
+#, php-format
+msgid "Student %s added a comment \"%s\" in unit %s in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:601
+msgid "Student : You started the quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:602
+#, php-format
+msgid "You started the  quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:603
+#, php-format
+msgid "You started the quiz %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:606
+msgid "Instructor : Student started a quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:607 includes/bp-course-notifications.php:1673
+#, php-format
+msgid "Student started the quiz %s"
+msgstr "学生开始了测试 %s"
+
+#: includes/bp-course-mailer.php:611
+msgid "Student : Quiz submitted"
+msgstr ""
+
+#: includes/bp-course-mailer.php:612 includes/bp-course-notifications.php:1782
+#: includes/bp-course-notifications.php:1783
+#, php-format
+msgid "You submitted quiz %s"
+msgstr "您提交了测试 %s"
+
+#: includes/bp-course-mailer.php:613 includes/bp-course-notifications.php:1765
+#, php-format
+msgid "You submitted quiz %s "
+msgstr "您提交了测试 %s"
+
+#: includes/bp-course-mailer.php:616
+msgid "Instructor : Student submitted quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:617 includes/bp-course-notifications.php:1814
+#, php-format
+msgid "Student submitted quiz %s"
+msgstr "学生提交了测试 %s"
+
+#: includes/bp-course-mailer.php:618 includes/bp-course-notifications.php:1815
+#, php-format
+msgid "Student %s submitted quiz %s"
+msgstr "学生 %s 提交了测试 %s"
+
+#: includes/bp-course-mailer.php:621
+msgid "Student : Results available for quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:622 includes/bp-course-notifications.php:1722
+#, php-format
+msgid "Results available for quiz %s"
+msgstr "测试 %s 的结果可用"
+
+#: includes/bp-course-mailer.php:623
+#, php-format
+msgid "You obtained %s out of %s in quiz %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:626
+msgid "Instructor : Student results available for quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:627 includes/bp-course-notifications.php:1751
+#, php-format
+msgid "Quiz %s evaluated for Student"
+msgstr "已为学生评估测试 %s"
+
+#: includes/bp-course-mailer.php:628
+#, php-format
+msgid "Student %s got %s from %s in quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:631
+msgid "Student : Quiz retake"
+msgstr ""
+
+#: includes/bp-course-mailer.php:632 includes/bp-course-mailer.php:633
+#: includes/bp-course-notifications.php:2535
+#, php-format
+msgid "You retook the quiz %s"
+msgstr "您重新开始了测试 %s"
+
+#: includes/bp-course-mailer.php:636
+msgid "Instructor : Student retook quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:637 includes/bp-course-notifications.php:1864
+#, php-format
+msgid "Student retook the quiz %s"
+msgstr "学生重新开始了测试 %s"
+
+#: includes/bp-course-mailer.php:638 includes/bp-course-notifications.php:1865
+#, php-format
+msgid "Student %s retook the quiz %s"
+msgstr "学生 %s 重新开始了测试 %s"
+
+#: includes/bp-course-mailer.php:641
+msgid "Student : Quiz reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:642
+#, php-format
+msgid "Quiz %s has been reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:643 includes/bp-course-notifications.php:1872
+#: includes/bp-course-notifications.php:1890
+#, php-format
+msgid "Quiz %s was reset by Instructor"
+msgstr "测试 %s 被教师重置"
+
+#: includes/bp-course-mailer.php:646
+msgid "Instructor : Quiz reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:647 includes/bp-course-notifications.php:1898
+#: includes/bp-course-notifications.php:1916
+#, php-format
+msgid "Quiz %s reset for Student"
+msgstr "为学生重置测试 %s"
+
+#: includes/bp-course-mailer.php:648 includes/bp-course-notifications.php:1917
+#, php-format
+msgid "Quiz %s was reset for Student %s"
+msgstr "已为学生 %2$s 重置测试 %1$s"
+
+#: includes/bp-course-mailer.php:651
+msgid "Student : Student started Assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:652 includes/bp-course-mailer.php:653
+#: includes/bp-course-notifications.php:1944
+#: includes/bp-course-notifications.php:2541
+#, php-format
+msgid "You started the assignment %s"
+msgstr "您开始了作业 %s"
+
+#: includes/bp-course-mailer.php:656
+msgid "Instructor : Student started an assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:657
+#, php-format
+msgid "Student started the assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:661 includes/bp-course-mailer.php:671
+msgid "Student : Results available for assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:662 includes/bp-course-notifications.php:2547
+#, php-format
+msgid "You submitted the assignment %s"
+msgstr "您提交了作业 %s"
+
+#: includes/bp-course-mailer.php:663 includes/bp-course-notifications.php:2044
+#, php-format
+msgid "You submitted the assignment %s "
+msgstr "您提交了作业 %s"
+
+#: includes/bp-course-mailer.php:666
+msgid "Instructor : Student submitted assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:667
+#, php-format
+msgid "Student submitted the assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:673
+#, php-format
+msgid "You obtained %s out of %s in assignment %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:676
+msgid "Instructor : Student results available for assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:677 includes/bp-course-notifications.php:2029
+#, php-format
+msgid "Assignment %s evaluated for Student"
+msgstr "已为学生评估作业 %s"
+
+#: includes/bp-course-mailer.php:678
+#, php-format
+msgid "Student %s got %s from %s in assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:681
+msgid "Student : assignment reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:682
+#, php-format
+msgid "Assignment %s was reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:683 includes/bp-course-notifications.php:2101
+#: includes/bp-course-notifications.php:2119
+#, php-format
+msgid "Assignment %s was reset by Instructor"
+msgstr "作业 %s 被教师重置"
+
+#: includes/bp-course-mailer.php:686
+msgid "Instructor : assignment reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:687
+#, php-format
+msgid "assignment %s reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:688
+#, php-format
+msgid "assignment %s was reset for Student %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:691
+msgid "Student : Applied for Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:692 includes/bp-course-notifications.php:2571
+#, php-format
+msgid "You applied for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:693
+#, php-format
+msgid "You applied for course %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:696 includes/bp-course-mailer.php:706
+msgid "Instructor : Student applied for course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:697
+#, php-format
+msgid "Student applied for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:698
+#, php-format
+msgid "Student %s applied for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:701
+msgid "Student : Manage application Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:702 includes/bp-course-mailer.php:703
+#, php-format
+msgid "Your application was %s for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:707
+#, php-format
+msgid "Student applied %s for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:708
+#, php-format
+msgid "Student %s application was %s for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:711
+msgid "Instructor : Go Live/Publish a Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:712
+#, php-format
+msgid "You %s the course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:713
+#, php-format
+msgid "You  %s the course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:716
+msgid "Administrator : Go Live/Publish a Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:717
+#, php-format
+msgid "Instructor set the course %s to %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:718
+#, php-format
+msgid "Instructor %s set the course  %s to status %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:721
+msgid "Student : Drip Course Unit available "
+msgstr ""
+
+#: includes/bp-course-mailer.php:722
+#, php-format
+msgid "Unit %s now available in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:723
+#, php-format
+msgid "Unit %s is now available in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:726
+msgid "Student : Course about to expire "
+msgstr ""
+
+#: includes/bp-course-mailer.php:727
+#, php-format
+msgid "Subscription for course %s will expire soon"
+msgstr ""
+
+#: includes/bp-course-mailer.php:728
+#, php-format
+msgid "Your subscription to course %s will expire soon"
+msgstr ""
+
+#: includes/bp-course-mailer.php:731
+msgid "Forgot password "
+msgstr ""
+
+#: includes/bp-course-mailer.php:732
+msgid " Password Reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+msgid ""
+"Someone requested that the password be reset for the following account: "
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+#, php-format
+msgid "To reset your password, visit the following address: %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:736
+msgid "User is inactive on website for a long time "
+msgstr ""
+
+#: includes/bp-course-mailer.php:737
+msgid "Inactive user"
+msgstr ""
+
+#: includes/bp-course-mailer.php:738
+#, php-format
+msgid ""
+"You are inactive on our website for more than %s days. Please visit the "
+"website %s and continue learning."
+msgstr ""
+
+#: includes/bp-course-mailer.php:741
+msgid "Contact email sent in contact form "
+msgstr ""
+
+#: includes/bp-course-mailer.php:742
+msgid "Contact Form Submission"
+msgstr ""
+
+#: includes/bp-course-mailer.php:743
+#, php-format
+msgid " User contacted via contact form on your site <br> %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:746
+msgid ""
+"Course Review email sent when user finish the course but does not review the "
+"course "
+msgstr ""
+
+#: includes/bp-course-mailer.php:747
+#, php-format
+msgid "Review pending for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:748
+#, php-format
+msgid ""
+" You have successfully finished the course %s. Now please take a moment and "
+"review this course. "
+msgstr ""
+
+#: includes/bp-course-notifications.php:252
+#: includes/bp-course-notifications.php:284
+#: includes/bp-course-notifications.php:344
+msgid "Yes"
+msgstr "是"
+
+#: includes/bp-course-notifications.php:253
+#: includes/bp-course-notifications.php:285
+#: includes/bp-course-notifications.php:345
+msgid "No"
+msgstr "否"
+
+#: includes/bp-course-notifications.php:265
+#: includes/bp-course-notifications.php:297
+#: includes/bp-course-notifications.php:358
+msgid "Yes, send email"
+msgstr ""
+
+#: includes/bp-course-notifications.php:266
+#: includes/bp-course-notifications.php:298
+#: includes/bp-course-notifications.php:360
+msgid "No, do not send email"
+msgstr ""
+
+#: includes/bp-course-notifications.php:325
+msgctxt "Drip feed email label in profile email settings"
+msgid "Schedule drip feed email"
+msgstr ""
+
+#: includes/bp-course-notifications.php:326
+msgctxt "Course expiry email label in profile email settings"
+msgid "Schedule course expiry email"
+msgstr ""
+
+#: includes/bp-course-notifications.php:327
+msgctxt "User inactivity email label in profile email settings"
+msgid "Schedule user inactivity email"
+msgstr ""
+
+#: includes/bp-course-notifications.php:343
+msgid "Schedule Emails"
+msgstr ""
+
+#: includes/bp-course-notifications.php:375
+#: includes/bp-course-notifications.php:488
+#, php-format
+msgid "Announcement for course %s"
+msgstr "课程 %s 的公告"
+
+#: includes/bp-course-notifications.php:522
+#: includes/bp-course-notifications.php:570
+#: includes/bp-course-notifications.php:582
+#: includes/bp-course-notifications.php:612
+msgid "Read more"
+msgstr "阅读更多"
+
+#: includes/bp-course-notifications.php:581
+#, php-format
+msgid "News for course %s"
+msgstr "课程 %s 的最新消息"
+
+#: includes/bp-course-notifications.php:626
+#: includes/bp-course-notifications.php:646
+#: includes/bp-course-notifications.php:663
+msgid "Subscribed for Course"
+msgstr "订阅了课程"
+
+#: includes/bp-course-notifications.php:701
+#, php-format
+msgid "You're added to course : %s"
+msgstr "您被加入课程：%s"
+
+#: includes/bp-course-notifications.php:703
+msgid "Added to Course"
+msgstr "被加入课程"
+
+#: includes/bp-course-notifications.php:748
+#, php-format
+msgid "Student %s added to course : %s"
+msgstr "学生 %s 被加入课程：%s"
+
+#: includes/bp-course-notifications.php:750
+msgid "Student added to Course"
+msgstr "学生被加入课程"
+
+#: includes/bp-course-notifications.php:789
+#, php-format
+msgid "Students added to course %s"
+msgstr "学生被加入课程 %s"
+
+#: includes/bp-course-notifications.php:790
+#, php-format
+msgid "%d students added to course : %s , %s"
+msgstr "%d 个学生被加入课程：%s，%s"
+
+#: includes/bp-course-notifications.php:800
+#, php-format
+msgid "You started the course : %s"
+msgstr "您开始了课程：%s"
+
+#: includes/bp-course-notifications.php:802
+msgid "Started a Course"
+msgstr "开始了一门课程"
+
+#: includes/bp-course-notifications.php:836
+#, php-format
+msgid "Student started the course %s"
+msgstr "学生开始了课程 %s"
+
+#: includes/bp-course-notifications.php:870
+msgid "Course submitted"
+msgstr "课程已提交"
+
+#: includes/bp-course-notifications.php:902
+#, php-format
+msgid "Student submitted the course %s"
+msgstr "学生提交了课程 %s"
+
+#: includes/bp-course-notifications.php:932
+#, php-format
+msgid "The Course %s was reset by Course instructor "
+msgstr "课程 %s 被教师重置"
+
+#: includes/bp-course-notifications.php:934
+msgid "Course reset"
+msgstr "课程重置"
+
+#: includes/bp-course-notifications.php:957
+#, php-format
+msgid "%s course reset for student : %s"
+msgstr "为学生 %2$s 重置课程 %1$s"
+
+#: includes/bp-course-notifications.php:959
+#: includes/bp-course-notifications.php:1010
+#, php-format
+msgid "Course %s reset for student"
+msgstr "为学生重置课程 %s"
+
+#: includes/bp-course-notifications.php:984
+#, php-format
+msgid "You retook the Course %s "
+msgstr "您重新学习了课程 %s"
+
+#: includes/bp-course-notifications.php:986
+msgid "Course retake"
+msgstr "重新学习课程"
+
+#: includes/bp-course-notifications.php:1001
+#, php-format
+msgid "You retook the course Course %s"
+msgstr "您重新了学习课程 %s"
+
+#: includes/bp-course-notifications.php:1008
+#, php-format
+msgid "Student %s retook the course %s"
+msgstr "学生 %s 重新学习了课程 %s"
+
+#: includes/bp-course-notifications.php:1039
+msgid "Course results available"
+msgstr "课程结果可用"
+
+#: includes/bp-course-notifications.php:1063
+#, php-format
+msgid "Course %s evaluated for student"
+msgstr "已为学生评估课程 %s"
+
+#: includes/bp-course-notifications.php:1079
+#, php-format
+msgid "Course %s evaluated for Student"
+msgstr "已为学生评估课程 %s"
+
+#: includes/bp-course-notifications.php:1080
+#, php-format
+msgid "Student %s got %s in Course %s"
+msgstr "学生 %1$s 在课程 %3$s 中获得了 %2$s"
+
+#: includes/bp-course-notifications.php:1089
+#, php-format
+msgid "Congratulations ! You've obtained a badge in Course : %s"
+msgstr "恭喜！您已在课程 %s 中获得了一枚徽章"
+
+#: includes/bp-course-notifications.php:1091
+msgid "You got a new Badge !"
+msgstr "您获得了一枚新徽章！"
+
+#: includes/bp-course-notifications.php:1119
+#, php-format
+msgid "Student %s got a Badge in course %s"
+msgstr "学生 %s 在课程 %s 中获得了一枚徽章"
+
+#: includes/bp-course-notifications.php:1151
+#, php-format
+msgid "Congratulations ! You've obtained a Certificate in Course : %s"
+msgstr "恭喜！您已在课程 %s 中获得一张证书"
+
+#: includes/bp-course-notifications.php:1153
+msgid "You got a new Certificate !"
+msgstr "您获得了一张新证书！"
+
+#: includes/bp-course-notifications.php:1173
+#, php-format
+msgid "You've obtained a certificate in Course : %s . %s View Certificate %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1181
+#, php-format
+msgid "Student %s got a Certificate in course %s"
+msgstr "学生 %s 在课程 %s 中获得了一张证书"
+
+#: includes/bp-course-notifications.php:1212
+#, php-format
+msgid "You've submitted a review of Course : %s"
+msgstr "您已为课程 %s 提交了一个评价"
+
+#: includes/bp-course-notifications.php:1214
+msgid "You submitted a course review"
+msgstr "您提交了一个课程评价"
+
+#: includes/bp-course-notifications.php:1231
+#: includes/bp-course-notifications.php:2471
+#, php-format
+msgid "You submitted a review for Course %s"
+msgstr "您为课程 %s 提交了一个评价"
+
+#: includes/bp-course-notifications.php:1232
+#, php-format
+msgid "You submitted a review Course : %s"
+msgstr "您为课程 %s 提交了一个评价"
+
+#: includes/bp-course-notifications.php:1239
+#, php-format
+msgid "Student %s submitted a review for the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1241
+#, php-format
+msgid "Student submitted a review for the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1259
+#, php-format
+msgid "Student submitted a review for Course %s"
+msgstr "学生为课程 %s 提交了一个评价"
+
+#: includes/bp-course-notifications.php:1260
+#, php-format
+msgid "Student %s submitted a review for the Course %s"
+msgstr "学生 %s 为课程 %s 提交了一个评价"
+
+#: includes/bp-course-notifications.php:1268
+#, php-format
+msgid "You're unsubscribed from Course : %s"
+msgstr "您退订了课程：%s"
+
+#: includes/bp-course-notifications.php:1270
+msgid "You unsubscribed from course"
+msgstr "您退订了课程"
+
+#: includes/bp-course-notifications.php:1292
+#, php-format
+msgid "Student %s unsubscribed course %s"
+msgstr "学生 %s 退订了课程 %s"
+
+#: includes/bp-course-notifications.php:1318
+#, php-format
+msgid "You applied a code for Course : %s"
+msgstr "您对课程 %s 使用了一个课程代码"
+
+#: includes/bp-course-notifications.php:1320
+msgid "You applied a course code"
+msgstr "您使用了一个课程代码"
+
+#: includes/bp-course-notifications.php:1336
+#, php-format
+msgid "You've applied Course Code in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1343
+#, php-format
+msgid "Student %s used course code %s for course %s"
+msgstr "学生 %1$s 对课程 %3$s 使用了课程代码 %2$s"
+
+#: includes/bp-course-notifications.php:1345
+#, php-format
+msgid "Student applied Course code for Course %s"
+msgstr "学生对课程 %s 使用了课程代码"
+
+#: includes/bp-course-notifications.php:1370
+#, php-format
+msgid "You've completed the unit %s in Course : %s"
+msgstr "您已完成课程 %2$s 中的单元 %1$s"
+
+#: includes/bp-course-notifications.php:1372
+msgid "You completed a unit"
+msgstr "您完成了一个单元"
+
+#: includes/bp-course-notifications.php:1390
+msgid "You completed unit"
+msgstr "您完成了单元"
+
+#: includes/bp-course-notifications.php:1398
+#, php-format
+msgid "Student %s completed the unit %s in course %s"
+msgstr "学生 %1$s 完成了课程 %3$s 中的单元 %2$s"
+
+#: includes/bp-course-notifications.php:1400
+#: includes/bp-course-notifications.php:1457
+#, php-format
+msgid "Student completed a unit in Course %s"
+msgstr "学生完成了课程 %s 中的一个单元"
+
+#: includes/bp-course-notifications.php:1427
+#, php-format
+msgid "Instructor %s marked the unit %s complete in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1429
+#, php-format
+msgid "Instructor marked a unit complete in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1447
+#, php-format
+msgid "Instructor marked unit %s complete "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1483
+#, php-format
+msgid "Instructor %s marked the unit %s incomplete in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1485
+#, php-format
+msgid "Instructor marked a unit uncomplete in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1503
+#, php-format
+msgid "Instructor marked unit %s uncompleted "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1504
+#, php-format
+msgid "Unit %s was marked uncomplete by Instructor %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1513
+#, php-format
+msgid "Student uncompleted a unit in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1531
+#, php-format
+msgid "Instructor %s uncompleted the unit %s for Student %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1540
+#, php-format
+msgid "You've submitted a comment on unit : %s"
+msgstr "您已在单元 %s 上提交了一个评论"
+
+#: includes/bp-course-notifications.php:1542
+msgid "You added a comment in Unit"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1552
+#, php-format
+msgid "%s replied on your comment in unit \"%s\" : %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1554
+msgid "Reply on your comment"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1590
+#: includes/bp-course-notifications.php:1591
+#, php-format
+msgid "You added a comment on Unit %s"
+msgstr "您在单元 %s 上添加了一个评论"
+
+#: includes/bp-course-notifications.php:1603
+#, php-format
+msgid "You received a reply on your comment in Unit %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1604
+#, php-format
+msgid "Reply from %s on Unit %s : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1613
+#, php-format
+msgid "Student %s submitted a comment on unit %s "
+msgstr "学生 %s 在单元 %s 上提交了一个评论"
+
+#: includes/bp-course-notifications.php:1615
+msgid "Student submitted a comment on Unit"
+msgstr "学生在单元上提交了一个评论"
+
+#: includes/bp-course-notifications.php:1637
+#, php-format
+msgid "Student added comment in unit %s"
+msgstr "学生在单元 %s 上添加了评论"
+
+#: includes/bp-course-notifications.php:1638
+#, php-format
+msgid "Student %s added a comment in unit %s "
+msgstr "学生 %s 在单元 %s 上添加了一个评论"
+
+#: includes/bp-course-notifications.php:1647
+#, php-format
+msgid "You've started the quiz : %s"
+msgstr "您已开始测试：%s"
+
+#: includes/bp-course-notifications.php:1649
+msgid "You started a Quiz"
+msgstr "您开始了一个测试"
+
+#: includes/bp-course-notifications.php:1664
+#, php-format
+msgid "You started quiz %s"
+msgstr "您开始了测试 %s"
+
+#: includes/bp-course-notifications.php:1665
+#, php-format
+msgid "You started a quiz %s"
+msgstr "您开始了一个测试 %s"
+
+#: includes/bp-course-notifications.php:1671
+#: includes/bp-course-notifications.php:1694
+#, php-format
+msgid "Student %s started the quiz %s "
+msgstr "学生 %s 开始了测试 %s"
+
+#: includes/bp-course-notifications.php:1693
+#, php-format
+msgid "Student started quiz %s"
+msgstr "学生开始了测试 %s"
+
+#: includes/bp-course-notifications.php:1704
+#: includes/bp-course-notifications.php:1723
+#, php-format
+msgid "You obtained %d out of %s in Quiz : "
+msgstr "您在如下测试中获得了 %d/%s ："
+
+#: includes/bp-course-notifications.php:1706
+msgid "Quiz results available"
+msgstr "测试结果可用"
+
+#: includes/bp-course-notifications.php:1729
+#: includes/bp-course-notifications.php:1752
+#, php-format
+msgid "Student %s got %s from %s in quiz %s "
+msgstr "学生 %1$s 在测试 %4$s 中获得了 %2$s/%3$s"
+
+#: includes/bp-course-notifications.php:1731
+#, php-format
+msgid "Quiz %s evaluated for student"
+msgstr "已为学生评估测试 %s"
+
+#: includes/bp-course-notifications.php:1763
+#, php-format
+msgid "You submitted the Quiz : %s"
+msgstr "您提交了测试：%s"
+
+#: includes/bp-course-notifications.php:1796
+#, php-format
+msgid "Quiz %s submitted by student %s"
+msgstr "测试 %s 已由学生 %s 提交"
+
+#: includes/bp-course-notifications.php:1798
+#, php-format
+msgid "Quiz %s submitted by Student"
+msgstr "测试 %s 已由学生提交"
+
+#: includes/bp-course-notifications.php:1822
+#, php-format
+msgid "You retook the Quiz : %s"
+msgstr "您重新开始了测试：%s"
+
+#: includes/bp-course-notifications.php:1824
+msgid "You retook a Quiz"
+msgstr "您重新开始了一个测试"
+
+#: includes/bp-course-notifications.php:1839
+#: includes/bp-course-notifications.php:1840
+#, php-format
+msgid "You retook quiz %s"
+msgstr "您重新开始了测试 %s"
+
+#: includes/bp-course-notifications.php:1846
+#, php-format
+msgid "Student %s retook the Quiz : %s"
+msgstr "学生 %s 重新开始了测试：%s"
+
+#: includes/bp-course-notifications.php:1848
+#, php-format
+msgid "Student retook the Quiz %s"
+msgstr "学生重新开始了测试 %s"
+
+#: includes/bp-course-notifications.php:1874
+msgid "Quiz reset by Instructor"
+msgstr "测试被教师重置"
+
+#: includes/bp-course-notifications.php:1889
+#, php-format
+msgid "Quiz %s reset"
+msgstr "测试 %s 被重置"
+
+#: includes/bp-course-notifications.php:1896
+#, php-format
+msgid "Quiz %s reset for Student %s"
+msgstr "为学生 %2$s 重置测试 %1$s"
+
+#: includes/bp-course-notifications.php:1926
+#, php-format
+msgid "You've started the assignemtn : %s"
+msgstr "您已开始作业：%s"
+
+#: includes/bp-course-notifications.php:1928
+#: includes/bp-course-notifications.php:1943
+#, php-format
+msgid "You started assignment %s"
+msgstr "您开始了作业 %s"
+
+#: includes/bp-course-notifications.php:1950
+#: includes/bp-course-notifications.php:1973
+#, php-format
+msgid "Student %s started the assignment %s "
+msgstr "学生 %s 开始了作业 %s"
+
+#: includes/bp-course-notifications.php:1952
+#, php-format
+msgid "Student started an assignment %s "
+msgstr "学生开始了一份作业 %s"
+
+#: includes/bp-course-notifications.php:1983
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s "
+msgstr "您在作业 %3$s 中获得了 %1$d/%2$s"
+
+#: includes/bp-course-notifications.php:1985
+msgid "Assignment results available"
+msgstr "作业结果可用"
+
+#: includes/bp-course-notifications.php:2002
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s"
+msgstr "您在作业 %3$s 中获得了 %1$d/%2$s"
+
+#: includes/bp-course-notifications.php:2008
+#: includes/bp-course-notifications.php:2030
+#, php-format
+msgid "Student %s got %s from %s in assignment %s "
+msgstr "学生 %1$s 在作业 %4$s 中获得了 %2$s/%3$s"
+
+#: includes/bp-course-notifications.php:2010
+#, php-format
+msgid "Assignment %s evaluated for student"
+msgstr "已为学生评估作业 %s"
+
+#: includes/bp-course-notifications.php:2042
+#, php-format
+msgid "You submitted the assignment : %s"
+msgstr "您提交了作业：%s"
+
+#: includes/bp-course-notifications.php:2061
+#: includes/bp-course-notifications.php:2062
+#, php-format
+msgid "You submitted assignment %s"
+msgstr "您提交了作业 %s"
+
+#: includes/bp-course-notifications.php:2074
+#, php-format
+msgid "Assignment %s submitted by student %s"
+msgstr "作业 %s 已由学生 %s 提交 "
+
+#: includes/bp-course-notifications.php:2076
+#, php-format
+msgid "Assignment %s submitted by Student"
+msgstr "作业 %s 已由学生提交"
+
+#: includes/bp-course-notifications.php:2092
+#, php-format
+msgid "Student submitted assignment %s"
+msgstr "学生提交了作业 %s"
+
+#: includes/bp-course-notifications.php:2093
+#, php-format
+msgid "Student %s submitted assignment %s"
+msgstr "学生 %s 提交了作业 %s"
+
+#: includes/bp-course-notifications.php:2103
+msgid "Assignment reset by Instructor"
+msgstr "作业被教师重置"
+
+#: includes/bp-course-notifications.php:2118
+#, php-format
+msgid "Assignment %s reset"
+msgstr "作业 %s 被重置"
+
+#: includes/bp-course-notifications.php:2125
+#, php-format
+msgid "Assignment %s reset for Student %s"
+msgstr "为学生 %2$s 重置作业 %1$s"
+
+#: includes/bp-course-notifications.php:2127
+#: includes/bp-course-notifications.php:2145
+#, php-format
+msgid "Assignment %s reset for Student"
+msgstr "为学生重置作业 %s"
+
+#: includes/bp-course-notifications.php:2146
+#, php-format
+msgid "Assignment %s was reset for Student %s"
+msgstr "已为学生 %2$s 重置作业 %1$s"
+
+#: includes/bp-course-notifications.php:2154
+#: includes/bp-course-notifications.php:2173
+#, php-format
+msgid "You applied to course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2156
+msgid "You applied for Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2174
+#, php-format
+msgid "You have applied to Course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2182
+#, php-format
+msgid "Student %s applied to course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2184
+msgid "Student applied for Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2202
+#, php-format
+msgid "Application for course %s was submitted by Student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2203
+#, php-format
+msgid "Student %s submitted an application for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2211
+#: includes/bp-course-notifications.php:2235
+#: includes/bp-course-notifications.php:2253
+#: includes/bp-course-notifications.php:2278
+msgctxt "course application status in email"
+msgid "Approved"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2213
+#: includes/bp-course-notifications.php:2237
+#: includes/bp-course-notifications.php:2255
+#: includes/bp-course-notifications.php:2280
+msgctxt "course application status in email"
+msgid "Rejected"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2217
+#: includes/bp-course-notifications.php:2258
+#, php-format
+msgid "Application %s for course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2219
+#: includes/bp-course-notifications.php:2260
+#, php-format
+msgid "Application %s by Instructor"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2242
+#, php-format
+msgid "Application %s to course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2244
+#, php-format
+msgid "Your application was %s for Course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2284
+#, php-format
+msgid "Student application for course %s was %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2285
+#, php-format
+msgid "Application by Student %s was %s for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2297
+#: includes/bp-course-notifications.php:2322
+#, php-format
+msgid "You published the course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2299
+#: includes/bp-course-notifications.php:2325
+#, php-format
+msgid "Course %s sent for approval from admin"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2303
+msgid "Course status updated"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2321
+#, php-format
+msgid "Course %s published"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2324
+#, php-format
+msgid "Course %s sent for Admin approval"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2328
+msgctxt "course status when instructor sends for approval"
+msgid "published"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2328
+msgctxt "course status when instructor sends for approval"
+msgid "drafted"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2344
+#, php-format
+msgid "Instructor published the course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2346
+#, php-format
+msgid "Instructor %s sent the Course %s for approval"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2350
+msgid "Instructor changed the Course status"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2388
+#, php-format
+msgid "Instructor changed status for Course %s to %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2389
+#, php-format
+msgid "Instructor %s changed status for Course %s to %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2391
+msgctxt "course status when instructor sends for approval"
+msgid "Approved"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2391
+msgctxt "course status when instructor sends for approval"
+msgid "Under review"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2411
+#: includes/bp-course-notifications.php:2417
+#, php-format
+msgid "Added to Course %s"
+msgstr "已添加到课程 %s"
+
+#: includes/bp-course-notifications.php:2414
+#: includes/bp-course-notifications.php:2420
+#, php-format
+msgid "Student %s added to Course %s"
+msgstr "学生 %s 被添加到课程 %s"
+
+#: includes/bp-course-notifications.php:2423
+#, php-format
+msgid "You've subscribed to Course %s"
+msgstr "您已订阅课程 %s"
+
+#: includes/bp-course-notifications.php:2426
+#, php-format
+msgid "Student %s subscribed to Course %s"
+msgstr "学生 %s 订阅了课程 %s"
+
+#: includes/bp-course-notifications.php:2429
+#, php-format
+msgid "You started the course %s"
+msgstr "您开始了课程 %s"
+
+#: includes/bp-course-notifications.php:2432
+#, php-format
+msgid "Student %s started course %s"
+msgstr "学生 %s 开始了课程 %s"
+
+#: includes/bp-course-notifications.php:2435
+#, php-format
+msgid "You submitted the course %s"
+msgstr "您提交了课程 %s"
+
+#: includes/bp-course-notifications.php:2438
+#: includes/bp-course-notifications.php:2441
+#, php-format
+msgid "Student %s submitted course %s"
+msgstr "学生 %s 提交了课程 %s"
+
+#: includes/bp-course-notifications.php:2444
+#, php-format
+msgid "Course %s was reset for Student %s"
+msgstr "已为学生 %2$s 重置了课程 %1$s"
+
+#: includes/bp-course-notifications.php:2447
+#, php-format
+msgid "Student %s retook the course course %s"
+msgstr "学生 %s 重新学习了课程 %s"
+
+#: includes/bp-course-notifications.php:2450
+#, php-format
+msgid "Course %s was retaken by Student %s"
+msgstr "课程 %s 已被学生 %s 重新学习"
+
+#: includes/bp-course-notifications.php:2453
+#: includes/bp-course-notifications.php:2456
+#, php-format
+msgid "Course %s evaluated for Student %s"
+msgstr "已为学生 %2$s 评估了课程 %1$s"
+
+#: includes/bp-course-notifications.php:2459
+#, php-format
+msgid "Congratulations ! You got a badge in Course %s"
+msgstr "恭喜！您在课程 %s 中获得了一个徽章"
+
+#: includes/bp-course-notifications.php:2465
+#, php-format
+msgid "Congratulations ! You got a certificate in Course %s"
+msgstr "恭喜！您在课程 %s 中获得了一张证书"
+
+#: includes/bp-course-notifications.php:2474
+#, php-format
+msgid "Student %s submitted a review for Course %s"
+msgstr "学生 %s 对课程 %s 提交了一个新评价"
+
+#: includes/bp-course-notifications.php:2477
+#, php-format
+msgid "You're unsubscribed from Course %s"
+msgstr "您退订了课程 %s"
+
+#: includes/bp-course-notifications.php:2480
+#, php-format
+msgid "Student %s is unsubscribed from Course %s"
+msgstr "学生 %s 退订了课程 %s"
+
+#: includes/bp-course-notifications.php:2483
+#, php-format
+msgid "You completed the unit %s in course %s"
+msgstr "您完成了课程 %2$s 中的单元 %1$s"
+
+#: includes/bp-course-notifications.php:2486
+#, php-format
+msgid "Student %s completed the unit %s"
+msgstr "学生 %s 完成了单元 %s"
+
+#: includes/bp-course-notifications.php:2489
+#, php-format
+msgid "Instructor marked Unit %s complete for you."
+msgstr ""
+
+#: includes/bp-course-notifications.php:2492
+#, php-format
+msgid "Instructor marked Unit %s complete for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2495
+#, php-format
+msgid "Instructor marked Unit %s incomplete for you."
+msgstr ""
+
+#: includes/bp-course-notifications.php:2498
+#, php-format
+msgid "Instructor marked Unit %s incomplete for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2501
+#, php-format
+msgid "You added a comment in unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2504
+#, php-format
+msgid "Student %s added a comment in unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2508
+#, php-format
+msgid "%s replied on your comment in unit \"%s\" in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2511
+#, php-format
+msgid "You started the quiz %s"
+msgstr "您开始了测试 %s"
+
+#: includes/bp-course-notifications.php:2517
+#, php-format
+msgid "You submitted the quiz %s"
+msgstr "您提交了测试 %s"
+
+#: includes/bp-course-notifications.php:2520
+#, php-format
+msgid "Student %s submitted the quiz %s"
+msgstr "学生 %s 提交了测试 %s"
+
+#: includes/bp-course-notifications.php:2523
+#, php-format
+msgid "Quiz %s results available"
+msgstr "测试 %s 的结果可用"
+
+#: includes/bp-course-notifications.php:2526
+#, php-format
+msgid "Quiz %s results available for student %s"
+msgstr "测试 %s 的结果对学生 %s 可用"
+
+#: includes/bp-course-notifications.php:2529
+#, php-format
+msgid "Quiz %s reset by Instructor"
+msgstr "测试 %s 被教师重置"
+
+#: includes/bp-course-notifications.php:2532
+#, php-format
+msgid "Quiz %s reset for student %s"
+msgstr "为学生 %2$s 重置测试 %1$s"
+
+#: includes/bp-course-notifications.php:2538
+#, php-format
+msgid "Student %s retook the Quiz %s"
+msgstr "学生 %s 重新开始了测试 %s"
+
+#: includes/bp-course-notifications.php:2553
+#, php-format
+msgid "Assignment %s results available"
+msgstr "作业 %s 的结果可用"
+
+#: includes/bp-course-notifications.php:2556
+#, php-format
+msgid "Assignment %s results available for student %s"
+msgstr "作业 %s 的结果对学生 %s 可用"
+
+#: includes/bp-course-notifications.php:2559
+#, php-format
+msgid "Assignment %s reset by Instructor"
+msgstr "作业 %s 被教师重置"
+
+#: includes/bp-course-notifications.php:2562
+#, php-format
+msgid "Assignment %s reset for student %s"
+msgstr "为学生 %2$s 重置作业 %1$s"
+
+#: includes/bp-course-notifications.php:2565
+#, php-format
+msgid "Latest News : %s for Course : %s"
+msgstr "最新消息：课程 %2$s 的最新消息 %1$s"
+
+#: includes/bp-course-notifications.php:2568
+#, php-format
+msgid "News : %s was published for your course : %s"
+msgstr "最新消息：%s 已发布到您的课程中 %s"
+
+#: includes/bp-course-notifications.php:2574
+#, php-format
+msgid "Student %s applied for course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2577
+#, php-format
+msgid "Application approved for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2580
+#, php-format
+msgid "Student %s application approved for course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2583
+#, php-format
+msgid "Application rejected for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2586
+#, php-format
+msgid "Student %s application rejected for course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2589
+#, php-format
+msgid "You published the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2592
+#, php-format
+msgid "You sent the course %s for approval"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2595
+#, php-format
+msgid "Instructor %s published the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2598
+#, php-format
+msgid "Instructor %s sent the course %s for approval"
+msgstr ""
+
+#: includes/bp-course-screens.php:96
+msgid "Course Settings Header"
+msgstr "课程设置顶部"
+
+#: includes/bp-course-screens.php:100
+msgid "Course Settings"
+msgstr "课程设置"
+
+#: includes/bp-course-screens.php:108
+msgid "Changes Saved."
+msgstr "修改已保存。"
+
+#: includes/bp-course-screens.php:114
+msgid "Do you love clicking checkboxes?"
+msgstr "您喜欢点击选框么？"
+
+#: includes/bp-course-screens.php:116
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: includes/bp-course-screens.php:148
+msgid "Send Bulk Message"
+msgstr "发送批量消息"
+
+#: includes/bp-course-screens.php:158
+#, php-format
+msgid "Enter extend amount ( in %s"
+msgstr "输入延长量 (%s"
+
+#: includes/bp-course-screens.php:159
+msgid "Extend Subscription"
+msgstr "延长订阅"
+
+#: includes/bp-course-screens.php:170
+msgid "Type Message Subject"
+msgstr "输入消息标题"
+
+#: includes/bp-course-screens.php:171
+msgid "Type Message"
+msgstr "输入消息"
+
+#: includes/bp-course-screens.php:173
+msgid "All Students"
+msgstr ""
+
+#: includes/bp-course-screens.php:175
+msgid "Send Message"
+msgstr "发送消息"
+
+#: includes/bp-course-screens.php:188
+msgid "Enter Student Usernames/Emails, separated by comma"
+msgstr "输入学生用户名/密码，并用逗号分隔"
+
+#: includes/bp-course-screens.php:190
+msgid "Add Students"
+msgstr "添加学生"
+
+#: includes/bp-course-screens.php:204
+msgid "ASSIGN COURSE BADGE"
+msgstr "颁发课程徽章"
+
+#: includes/bp-course-screens.php:205
+msgid "ASSIGN COURSE CERTIFICATE"
+msgstr "颁发课程证书"
+
+#: includes/bp-course-screens.php:206
+msgid "REMOVE COURSE BADGE"
+msgstr "移除课程徽章"
+
+#: includes/bp-course-screens.php:207
+msgid "REMOVE COURSE CERTIFICATE"
+msgstr "移除课程证书"
+
+#: includes/bp-course-screens.php:209
+msgid "Assign Action"
+msgstr "指定操作"
+
+#: includes/bp-course-screens.php:225
+msgid "Finished Course"
+msgstr "已完成的课程"
+
+#: includes/bp-course-screens.php:227
+msgid "Enter marks"
+msgstr "输入分数"
+
+#: includes/bp-course-screens.php:228
+msgid "Change Course Status"
+msgstr "改变课程状态"
+
+#: includes/bp-course-template.php:98
+msgid "REVIEWS"
+msgstr "评价"
+
+#: includes/bp-course-template.php:103
+msgid "STUDENTS"
+msgstr "学生"
+
+#: includes/bp-course-template.php:141 includes/bp-course-template.php:1401
+msgid "FREE"
+msgstr "免费"
+
+#: includes/bp-course-template.php:184
+msgid "Price Options +"
+msgstr "价格选项 +"
+
+#: includes/bp-course-template.php:815
+#, php-format
+msgid "Viewing page %1$s of %2$s"
+msgstr "查看页面 %1$s/%2$s"
+
+#: includes/bp-course-template.php:1157
+msgid "PRIVATE"
+msgstr "私人"
+
+#: includes/bp-course-template.php:1407
+msgctxt "Unlimited unit duration label"
+msgid "Unlimited"
+msgstr ""
+
+#: includes/bp-course-template.php:2319
+msgid "COURSE EVALUATED "
+msgstr "课程已评估"
+
+#: includes/bp-course-template.php:2356
+msgid "Congratulations ! You've earned the "
+msgstr "恭喜！您已获得"
+
+#: includes/bp-course-template.php:2356
+msgid "Badge"
+msgstr "徽章"
+
+#: includes/bp-course-template.php:2380
+msgid ""
+"Congratulations ! You've successfully passed the course and earned the "
+"Course Completion Certificate !"
+msgstr "恭喜！您已成功通过课程并得到了课程毕业证书！"
+
+#: includes/bp-course-template.php:2380
+msgid "View Certificate"
+msgstr "查看证书"
+
+#: includes/bp-course-template.php:2389
+#, php-format
+msgid "You've obtained %s in course %s "
+msgstr "您已在课程 %2$s 中获得了 %1$s"
+
+#: includes/bp-course-template.php:2395
+msgid "COURSE SUBMITTED FOR EVALUATION"
+msgstr "课程已提交并等待评估"
+
+#: includes/bp-course-template.php:2408
+msgid "UNIT"
+msgstr "单元"
+
+#: includes/bp-course-template.php:2411
+msgid "ASSIGNMENT"
+msgstr "作业"
+
+#: includes/bp-course-template.php:2414
+msgid "QUIZ"
+msgstr "测试"
+
+#: includes/bp-course-template.php:2417
+msgid "PLEASE COMPLETE THE "
+msgstr "请填写"
+
+#: includes/bp-course-template.php:2421
+msgid "COURSE CURRICULUM NOT SET"
+msgstr "课程体系未设置"
+
+#: includes/bp-course-template.php:2767 includes/bp-course-template.php:2849
+msgid "Marked Choice :"
+msgstr ""
+
+#: includes/bp-course-template.php:2767 includes/bp-course-template.php:2849
+msgctxt "survery question score awarded"
+msgid "Score"
+msgstr ""
+
+#: includes/bp-course-template.php:2769 includes/bp-course-template.php:2852
+msgid "View explanation"
+msgstr ""
+
+#: includes/bp-course-template.php:2779
+msgid "Correct Answer : "
+msgstr ""
+
+#: includes/bp-course-template.php:2781 includes/bp-course-template.php:2966
+msgid "View answer explanation"
+msgstr "查看答案解析"
+
+#: includes/bp-course-template.php:2786 includes/bp-course-template.php:2971
+msgid "Total Marks :"
+msgstr "总分："
+
+#: includes/bp-course-template.php:2792 includes/bp-course-template.php:2794
+#: includes/bp-course-template.php:2975 includes/bp-course-template.php:2977
+msgid "MARKS OBTAINED"
+msgstr "得到的分数"
+
+#: includes/bp-course-template.php:3042
+msgid "RETAKE QUIZ"
+msgstr ""
+
+#: includes/bp-course-template.php:3043
+msgid "Number of retakes "
+msgstr ""
+
+#: includes/bp-course-template.php:3048
+msgid "Previous Results for Quiz "
+msgstr ""
+
+#: includes/bp-course-template.php:3065
+msgid "Results not Available"
+msgstr ""
+
+#: includes/bp-course-tour.php:57
+msgctxt " tour label "
+msgid "Course Pursue Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:66
+msgctxt " tour label "
+msgid "Quiz Pursue Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:86
+msgctxt " tour label "
+msgid "Course admin tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:140
+msgctxt " title title"
+msgid "Read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:141
+msgctxt "vibe"
+msgid "Please read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:157
+msgid "Tours Settings"
+msgstr ""
+
+#: includes/bp-course-tour.php:162
+msgid "Enable all tours by default for users"
+msgstr ""
+
+#: includes/bp-course-tour.php:164
+msgid "Will enable all tours by default for all users"
+msgstr ""
+
+#: includes/bp-course-tour.php:176
+msgid "Tours"
+msgstr ""
+
+#: includes/bp-course-tour.php:289
+msgctxt "tour"
+msgid "End tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:302
+msgctxt "my tours label"
+msgid "My tours"
+msgstr ""
+
+#: includes/bp-course-tour.php:312
+msgctxt ""
+msgid "Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:312
+msgctxt ""
+msgid "Status"
+msgstr ""
+
+#: includes/bp-course-tour.php:312
+msgctxt ""
+msgid "Action"
+msgstr ""
+
+#: includes/bp-course-tour.php:317
+msgctxt "status lable tours"
+msgid "Ongoing"
+msgstr ""
+
+#: includes/bp-course-tour.php:319
+msgctxt "status lable tours"
+msgid "Ended"
+msgstr ""
+
+#: includes/bp-course-tour.php:321
+msgctxt "status lable tours"
+msgid "Not started Yet"
+msgstr ""
+
+#: includes/bp-course-tour.php:325
+msgctxt ""
+msgid "Started"
+msgstr ""
+
+#: includes/bp-course-tour.php:327
+msgctxt ""
+msgid "Start"
+msgstr ""
+
+#: includes/bp-course-tour.php:329
+msgctxt ""
+msgid "End Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:467
+msgctxt "creation tour label "
+msgid "Course Creation Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:516
+msgctxt "edit course tour course title title"
+msgid "Enter course title"
+msgstr ""
+
+#: includes/bp-course-tour.php:517
+msgctxt "edit course tour course title content"
+msgid "Enter title here"
+msgstr ""
+
+#: includes/bp-course-tour.php:525
+msgctxt "edit course tour course category title"
+msgid "Select course category"
+msgstr ""
+
+#: includes/bp-course-tour.php:526
+msgctxt "edit course tour course category content"
+msgid "Select course category here or add new"
+msgstr ""
+
+#: includes/bp-course-tour.php:533
+msgctxt "edit course tour course category title"
+msgid "click"
+msgstr ""
+
+#: includes/bp-course-tour.php:534 includes/bp-course-tour.php:541
+#: includes/bp-course-tour.php:550 includes/bp-course-tour.php:558
+msgctxt "edit course tour course category content"
+msgid "click f"
+msgstr ""
+
+#: includes/bp-course-tour.php:540
+msgctxt "edit course tour course category title"
+msgid "vibe_vibe_course_curriculum"
+msgstr ""
+
+#: includes/bp-course-tour.php:549
+msgctxt "edit course tour course category title"
+msgid "data_links"
+msgstr ""
+
+#: includes/bp-course-tour.php:557
+msgctxt "edit course tour course category title"
+msgid "post_title"
+msgstr ""
+
+#: includes/bp-course-tour.php:655
+msgctxt " tour title"
+msgid "Welcome to Course Pursue tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:656
+msgctxt "tour step description"
+msgid ""
+"This tour will guide you through the steps on how to pursue a course in this "
+"site."
+msgstr ""
+
+#: includes/bp-course-tour.php:666
+msgctxt "tour title"
+msgid "Read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:667
+msgctxt "tour step description"
+msgid "Please read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:679
+msgctxt " title title"
+msgid "Course introduction page"
+msgstr ""
+
+#: includes/bp-course-tour.php:680
+msgctxt " content"
+msgid "Read the instructions and start the course"
+msgstr ""
+
+#: includes/bp-course-tour.php:693
+msgctxt " title title"
+msgid "Read the content of your unit"
+msgstr ""
+
+#: includes/bp-course-tour.php:694
+msgctxt "vibe"
+msgid "Please read the content of unit "
+msgstr ""
+
+#: includes/bp-course-tour.php:708
+msgctxt " title title"
+msgid "Mark complete the unit"
+msgstr ""
+
+#: includes/bp-course-tour.php:709
+msgctxt " content"
+msgid "Please mark complete the unit"
+msgstr ""
+
+#: includes/bp-course-tour.php:722
+msgctxt " title title"
+msgid "Lets goto next unit of this course"
+msgstr ""
+
+#: includes/bp-course-tour.php:723
+msgctxt " content"
+msgid "click to load next unit of this course"
+msgstr ""
+
+#: includes/bp-course-tour.php:737
+msgctxt " title title"
+msgid "Please complete the media"
+msgstr ""
+
+#: includes/bp-course-tour.php:738
+msgctxt "vibe"
+msgid "Please complete the media to mark this unit as complete"
+msgstr ""
+
+#: includes/bp-course-tour.php:751
+msgctxt " title title"
+msgid "Please complete the assignment"
+msgstr ""
+
+#: includes/bp-course-tour.php:752
+msgctxt "vibe"
+msgid "Please complete the assignment to mark this unit as complete"
+msgstr ""
+
+#: includes/bp-course-widgets.php:43 includes/bp-course-widgets.php:45
+msgid "Member Types Navigation"
+msgstr ""
+
+#: includes/bp-course-widgets.php:145
+msgid "Member Types"
+msgstr ""
+
+#: includes/bp-course-widgets.php:159 includes/bp-course-widgets.php:298
+msgid "Title:"
+msgstr ""
+
+#: includes/bp-course-widgets.php:164
+msgid "Exclude member types slugs (comma saperated):"
+msgstr ""
+
+#: includes/bp-course-widgets.php:181 includes/bp-course-widgets.php:183
+msgid "Group Types Navigation"
+msgstr ""
+
+#: includes/bp-course-widgets.php:284
+msgid "Group Types"
+msgstr ""
+
+#: includes/bp-course-widgets.php:303
+msgid "Exclude group types slugs (comma saperated):"
+msgstr ""
+
+#: includes/bp-course-widgets.php:318
+msgid "BuddyPress Course Widget"
+msgstr "BuddyPress 课程小工具"
+
+#: includes/bp-course-widgets.php:398 includes/bp-course-widgets.php:549
+msgid "by"
+msgstr "由"
+
+#: includes/bp-course-widgets.php:455 includes/bp-course-widgets.php:578
+#: includes/bp-course-widgets.php:725 includes/bp-course-widgets.php:848
+#: includes/bp-course-widgets.php:1298 includes/bp-course-widgets.php:1504
+msgid "Widget Title"
+msgstr "小工具标题"
+
+#: includes/bp-course-widgets.php:456 includes/bp-course-widgets.php:1302
+msgid "Style"
+msgstr "样式"
+
+#: includes/bp-course-widgets.php:458 includes/bp-course-widgets.php:1304
+msgid "Single"
+msgstr "单独"
+
+#: includes/bp-course-widgets.php:459 includes/bp-course-widgets.php:1305
+msgid "List"
+msgstr "列表"
+
+#: includes/bp-course-widgets.php:460
+msgid "Ratings List"
+msgstr "评分列表"
+
+#: includes/bp-course-widgets.php:461 includes/bp-course-widgets.php:1306
+msgid "Carousel"
+msgstr "轮播"
+
+#: includes/bp-course-widgets.php:464 includes/bp-course-widgets.php:613
+msgid "Select Course Category"
+msgstr "选择课程分类"
+
+#: includes/bp-course-widgets.php:466
+msgid "None"
+msgstr "无"
+
+#: includes/bp-course-widgets.php:474 includes/bp-course-widgets.php:1309
+msgid "Order By"
+msgstr "排列方式"
+
+#: includes/bp-course-widgets.php:476 includes/bp-course-widgets.php:1312
+msgid "Random"
+msgstr "随机"
+
+#: includes/bp-course-widgets.php:477
+msgid "Name"
+msgstr "姓名"
+
+#: includes/bp-course-widgets.php:478
+msgid "Course Title"
+msgstr "课程标题"
+
+#: includes/bp-course-widgets.php:479
+msgid "Number of Reviews"
+msgstr "评价数目"
+
+#: includes/bp-course-widgets.php:480
+msgid "Date Published"
+msgstr "发布日期"
+
+#: includes/bp-course-widgets.php:481 includes/bp-course-widgets.php:1313
+msgid "Rating"
+msgstr "评分"
+
+#: includes/bp-course-widgets.php:482
+msgid "Number of Students"
+msgstr "学生人数"
+
+#: includes/bp-course-widgets.php:483
+msgid "Upcoming Courses (Start Date)"
+msgstr ""
+
+#: includes/bp-course-widgets.php:486 includes/bp-course-widgets.php:1316
+msgid "Sort "
+msgstr "排序"
+
+#: includes/bp-course-widgets.php:488 includes/bp-course-widgets.php:1318
+msgid "Ascending"
+msgstr "升序"
+
+#: includes/bp-course-widgets.php:489 includes/bp-course-widgets.php:1319
+msgid "Decending"
+msgstr "降序"
+
+#: includes/bp-course-widgets.php:492
+msgid "Specific Courses (enter comma saperated ids)"
+msgstr "特定课程 (输入逗号分隔的 ID)"
+
+#: includes/bp-course-widgets.php:493
+msgid "Number of Courses to show"
+msgstr "要显示的课程数"
+
+#: includes/bp-course-widgets.php:503
+msgid "BuddyPress Instructor Widget"
+msgstr "BuddyPress 教师小工具"
+
+#: includes/bp-course-widgets.php:526
+msgid "Check all Courses created by "
+msgstr "查看所有由以下用户创建的课程"
+
+#: includes/bp-course-widgets.php:527
+msgid "More Courses by "
+msgstr "以下用户的更多课程："
+
+#: includes/bp-course-widgets.php:579
+msgid "Fallback Instructor ID"
+msgstr "备选教师的 ID"
+
+#: includes/bp-course-widgets.php:580
+msgid "Number of Courses by the Instructor to show"
+msgstr "要显示的来自该教师的课程数"
+
+#: includes/bp-course-widgets.php:590
+msgid "BuddyPress Course Search Widget"
+msgstr "BuddyPress 课程搜索小工具 "
+
+#: includes/bp-course-widgets.php:646
+msgid "Select Instructor"
+msgstr "选择教师"
+
+#: includes/bp-course-widgets.php:659
+msgid "Select Course Location"
+msgstr "选择课程地点"
+
+#: includes/bp-course-widgets.php:670
+msgid "Select Course Level"
+msgstr "选择课程级别"
+
+#: includes/bp-course-widgets.php:677
+msgid "Type Keywords.."
+msgstr "输入关键字..."
+
+#: includes/bp-course-widgets.php:726
+msgid "Show Course Category Dropdown"
+msgstr "显示课程分类下拉列表"
+
+#: includes/bp-course-widgets.php:727
+msgid "Show Instructor Dropdown"
+msgstr "显示教师下拉列表"
+
+#: includes/bp-course-widgets.php:731
+msgid "Show Location Dropdown"
+msgstr "显示地点下拉列表"
+
+#: includes/bp-course-widgets.php:736
+msgid "Show Level Dropdown"
+msgstr "显示级别下拉列表"
+
+#: includes/bp-course-widgets.php:747
+msgid "BuddyPress Course Stats Widget"
+msgstr "BuddyPress 课程状态小工具"
+
+#: includes/bp-course-widgets.php:816
+msgid "TOTAL STUDENTS"
+msgstr "学生总数"
+
+#: includes/bp-course-widgets.php:818
+msgid "BADGES"
+msgstr "徽章"
+
+#: includes/bp-course-widgets.php:819
+msgid "CERTIFICATES"
+msgstr "证书"
+
+#: includes/bp-course-widgets.php:849
+msgid "Select Course"
+msgstr "选择课程"
+
+#: includes/bp-course-widgets.php:851 includes/bp-course-widgets.php:1016
+#: includes/bp-course-widgets.php:1034
+msgid "All"
+msgstr "全部"
+
+#: includes/bp-course-widgets.php:852
+msgid "Current Course (defaults to all)"
+msgstr "当前课程 (默认为全部)"
+
+#: includes/bp-course-widgets.php:863
+msgid "Show Students Stats"
+msgstr "显示学生统计"
+
+#: includes/bp-course-widgets.php:864
+msgid "Show Badge/Certificates Stats"
+msgstr "显示徽章/证书统计"
+
+#: includes/bp-course-widgets.php:874
+msgid "BuddyPress Course Filter Widget"
+msgstr "BuddyPress 课程过滤小工具"
+
+#: includes/bp-course-widgets.php:1017
+msgid "Online"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1018
+msgid "Offline"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1026
+msgid "Start Date"
+msgstr "开始日期"
+
+#: includes/bp-course-widgets.php:1027
+msgid "End Date"
+msgstr "结束日期"
+
+#: includes/bp-course-widgets.php:1035
+msgid "Free"
+msgstr "免费"
+
+#: includes/bp-course-widgets.php:1036
+msgid "Paid"
+msgstr "付费"
+
+#: includes/bp-course-widgets.php:1040
+msgid "Filter Results"
+msgstr "过滤结果"
+
+#: includes/bp-course-widgets.php:1074
+msgid "Course Categories"
+msgstr "课程分类"
+
+#: includes/bp-course-widgets.php:1076
+msgid "Location"
+msgstr "地点"
+
+#: includes/bp-course-widgets.php:1078
+msgid "Levels"
+msgstr "级别"
+
+#: includes/bp-course-widgets.php:1080
+msgid "Type"
+msgstr "类型"
+
+#: includes/bp-course-widgets.php:1082
+msgid "Price"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1084
+#: includes/templates/course/single/course-header.php:40
+msgid "Instructors"
+msgstr "教师"
+
+#: includes/bp-course-widgets.php:1086
+msgid "Upcoming Courses"
+msgstr "即将到来的课程"
+
+#: includes/bp-course-widgets.php:1114
+msgid "Show Course category filter"
+msgstr "显示课程分类过滤器"
+
+#: includes/bp-course-widgets.php:1115
+msgid "Course Categories Label"
+msgstr "课程分类标签"
+
+#: includes/bp-course-widgets.php:1117
+msgid "Show Free/Paid/All filter"
+msgstr "显示免费/付费/全部过滤器"
+
+#: includes/bp-course-widgets.php:1118
+msgid "Free/Paid Label"
+msgstr "免费/付费标签"
+
+#: includes/bp-course-widgets.php:1120
+msgid "Show Offline/Online filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1121
+msgid "Online/Offline Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1123
+msgid "Show Upcoming/Past Courses filter"
+msgstr "显示即将到来/过去课程的过滤器"
+
+#: includes/bp-course-widgets.php:1124
+msgid "Upcoming courses Label"
+msgstr "即将到来课程的标签"
+
+#: includes/bp-course-widgets.php:1132
+msgid "Show Location filter"
+msgstr "显示地点过滤器"
+
+#: includes/bp-course-widgets.php:1133
+msgid "Location Label"
+msgstr "地点标签"
+
+#: includes/bp-course-widgets.php:1144
+msgid "Show Levels filter"
+msgstr "显示级别过滤器"
+
+#: includes/bp-course-widgets.php:1145
+msgid "Levels Label"
+msgstr "级别标签"
+
+#: includes/bp-course-widgets.php:1149
+msgid "Show Instructor filter"
+msgstr "显示教师过滤器"
+
+#: includes/bp-course-widgets.php:1150
+msgid "Instructor Label"
+msgstr "教师标签"
+
+#: includes/bp-course-widgets.php:1151
+msgid "Exclude Category/Level Slugs (comma saperated)"
+msgstr "要排除的分类/级别别名 (逗号分隔)"
+
+#: includes/bp-course-widgets.php:1152
+msgid "Auto Click on input select (hides filter button)"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1153
+msgid "Show course count"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1163
+msgid "Course Reviews Widget"
+msgstr "课程评价小工具"
+
+#: includes/bp-course-widgets.php:1231 includes/bp-course-widgets.php:1252
+msgid "Default avatar"
+msgstr "默认头像"
+
+#: includes/bp-course-widgets.php:1299
+msgid "Course ID (optional)"
+msgstr "课程 ID (可选)"
+
+#: includes/bp-course-widgets.php:1311
+msgid "Recent"
+msgstr "最近"
+
+#: includes/bp-course-widgets.php:1322
+msgid "Specific Reviews/Comments (enter comma saperated ids)"
+msgstr "特定评价/评论 (输入逗号分隔的特定 ID)"
+
+#: includes/bp-course-widgets.php:1323
+msgid "Number of Reviews to show"
+msgstr "要显示的评价数目"
+
+#: includes/bp-course-widgets.php:1334
+msgid "BuddyPress Related Courses Widget"
+msgstr "BuddyPress 相关课程小工具"
+
+#: includes/bp-course-widgets.php:1456
+msgid "No related courses found !"
+msgstr "没有发现相关课程！"
+
+#: includes/bp-course-widgets.php:1505
+msgid "Show from same Course Category"
+msgstr "显示相同分类的课程"
+
+#: includes/bp-course-widgets.php:1506
+msgid "Show from same Instructor"
+msgstr "显示相同教师的课程"
+
+#: includes/bp-course-widgets.php:1510
+msgid "Show from same Course location"
+msgstr "显示相同地点的课程"
+
+#: includes/bp-course-widgets.php:1515
+msgid "Show from same Course Level"
+msgstr "显示相同级别的课程"
+
+#: includes/bp-course-widgets.php:1520
+msgid "Show from same Linkage"
+msgstr "显示相同链接的课程"
+
+#: includes/bp-course-widgets.php:1524
+msgid "Numer of Courses"
+msgstr "课程数目"
+
+#: includes/bp-course-widgets.php:1525
+msgid "Block Style"
+msgstr "区块样式"
+
+#: includes/bp-course-widgets.php:1541
+msgid "Comma saperated courses"
+msgstr "逗号分隔的课程"
+
+#: includes/templates/course/course-loop.php:93
+#: includes/templates/course/my-courses.php:98
+msgid "You have not subscribed to any courses."
+msgstr "您还没有订阅任何课程。"
+
+#: includes/templates/course/index.php:58
+#, php-format
+msgid "All Courses <span>%s</span>"
+msgstr "所有课程 <span>%s</span>"
+
+#: includes/templates/course/index.php:62
+#, php-format
+msgid "My Courses <span>%s</span>"
+msgstr "我的课程 <span>%s</span>"
+
+#: includes/templates/course/index.php:83
+msgid "Order By:"
+msgstr "排列方式："
+
+#: includes/templates/course/index.php:85
+msgid "Select Order"
+msgstr "选择顺序"
+
+#: includes/templates/course/index.php:86
+msgid "Newly Published"
+msgstr "最新发布"
+
+#: includes/templates/course/index.php:87
+msgid "Alphabetical"
+msgstr "字母顺序"
+
+#: includes/templates/course/index.php:88
+msgid "Most Members"
+msgstr "最多成员"
+
+#: includes/templates/course/index.php:89
+msgid "Highest Rated"
+msgstr "最高评价"
+
+#: includes/templates/course/instructor-courses.php:89
+msgid "You have not created any Course."
+msgstr "您还没有创建任何课程。"
+
+#: includes/templates/course/single/activity.php:53
+msgid "All Activity"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:57
+msgid "My Activity"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:60
+msgid "Show:"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:62
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:95
+msgid "Load More"
+msgstr "载入更多"
+
+#: includes/templates/course/single/activity.php:109
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr "抱歉，未找到活动。请尝试不同的过滤器。"
+
+#: includes/templates/course/single/admin.php:20
+msgctxt "Course admin tab name"
+msgid "Members"
+msgstr ""
+
+#: includes/templates/course/single/admin.php:21
+msgctxt "Course admin tab name"
+msgid "Submissions"
+msgstr ""
+
+#: includes/templates/course/single/admin.php:22
+msgctxt "Course admin tab name"
+msgid "Stats"
+msgstr ""
+
+#: includes/templates/course/single/admin.php:64
+#: includes/templates/course/single/members.php:19
+msgid "Total number of Students in course"
+msgstr "课程中的学生总数"
+
+#: includes/templates/course/single/admin.php:139
+msgid "No Students found."
+msgstr "未找到学生。"
+
+#: includes/templates/course/single/admin.php:144
+msgctxt "pagination number course admin"
+msgid "1"
+msgstr ""
+
+#: includes/templates/course/single/admin.php:161
+msgid "BULK ACTIONS"
+msgstr "批量操作"
+
+#: includes/templates/course/single/curriculum.php:28
+msgid "Course Curriculum"
+msgstr "课程体系"
+
+#: includes/templates/course/single/curriculum.php:76
+msgctxt "Error message for no curriculum found in course curriculum "
+msgid "No curriculum found !"
+msgstr ""
+
+#: includes/templates/course/single/events.php:18
+msgid " Events"
+msgstr "事件"
+
+#: includes/templates/course/single/front.php:33
+msgid " STUDENTS ENROLLED"
+msgstr "登记的学生"
+
+#: includes/templates/course/single/front.php:64
+msgid "READ MORE"
+msgstr "阅读更多"
+
+#: includes/templates/course/single/front.php:76
+msgid "LESS"
+msgstr "更少"
+
+#: includes/templates/course/single/members.php:20
+msgid "Students Currently taking this course"
+msgstr "正在进行课程的学生"
+
+#: includes/templates/course/single/news.php:23
+msgid "Course News"
+msgstr ""
+
+#: includes/templates/course/single/news.php:47
+#: includes/templates/course/single/news.php:83
+msgid "Cancel"
+msgstr ""
+
+#: includes/templates/course/single/news.php:47
+#: includes/templates/course/single/news.php:82
+msgid "Add News"
+msgstr ""
+
+#: includes/templates/course/single/news.php:54
+msgid "News Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:55
+msgid "Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:58
+msgid "News Sub-Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:59
+msgid "Sub Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:62
+msgid "News Format"
+msgstr ""
+
+#: includes/templates/course/single/news.php:64
+msgid "Standard"
+msgstr ""
+
+#: includes/templates/course/single/news.php:65
+msgid "Aside"
+msgstr ""
+
+#: includes/templates/course/single/news.php:66
+msgid "Image"
+msgstr ""
+
+#: includes/templates/course/single/news.php:67
+msgid "Quote"
+msgstr ""
+
+#: includes/templates/course/single/news.php:68
+msgid "Status"
+msgstr ""
+
+#: includes/templates/course/single/news.php:69
+msgid "Video"
+msgstr ""
+
+#: includes/templates/course/single/news.php:70
+msgid "Audio"
+msgstr ""
+
+#: includes/templates/course/single/news.php:71
+msgid "Chat"
+msgstr ""
+
+#: includes/templates/course/single/news.php:72
+msgid "Gallery"
+msgstr ""
+
+#: includes/templates/course/single/news.php:76
+msgid "News Content"
+msgstr ""
+
+#: includes/templates/course/single/news.php:107
+msgid "Are You sure, you want to delete this news"
+msgstr ""
+
+#: includes/templates/course/single/news.php:107
+msgid "Delete"
+msgstr ""
+
+#: includes/templates/course/single/news.php:109
+msgid "Read More"
+msgstr ""
+
+#: includes/templates/course/single/news.php:115
+msgid "No news available for Course"
+msgstr ""
+
+#: includes/templates/course/single/stats.php:22
+msgid "Total Number of Students who took this course"
+msgstr "选过这门课的学生总数"
+
+#: includes/templates/course/single/stats.php:23
+msgid "Average Percentage obtained by Students"
+msgstr "学生得到的平均分百分比"
+
+#: includes/templates/course/single/stats.php:23
+msgid "out of 100"
+msgstr "/100"
+
+#: includes/templates/course/single/stats.php:24
+#: includes/templates/course/single/stats.php:31
+msgid "Number of Students who got a Badge"
+msgstr "获得徽章的学生数"
+
+#: includes/templates/course/single/stats.php:25
+#: includes/templates/course/single/stats.php:30
+msgid "Number of Passed Students"
+msgstr "通过的学生数"
+
+#: includes/templates/course/single/stats.php:26
+msgid "Number of Students who did not pass "
+msgstr "未通过的学生数"
+
+#: includes/templates/course/single/stats.php:29
+msgid "Average Marks obtained by Students"
+msgstr "学生获得的平均分数"
+
+#: includes/templates/course/single/stats.php:38
+msgid "No curriculum defined"
+msgstr "未定义课程体系"
+
+#: includes/templates/course/single/stats.php:63
+msgid "Average Marks in Quiz "
+msgstr "测试的平均分数"
+
+#: includes/templates/course/single/stats.php:71
+msgid "Calculate :"
+msgstr "计算："
+
+#: includes/templates/course/single/stats.php:72
+msgid "Calculate Statistics for Course"
+msgstr "计算课程的统计数据"
+
+#: includes/templates/course/single/submissions.php:20
+msgid "ASSIGNMENTS SUBMISSIONS"
+msgstr "作业提交"
+
+#: includes/templates/course/single/submissions.php:51
+msgid "Reset Assignment for User"
+msgstr "为用户重置作业"
+
+#: includes/templates/course/single/submissions.php:52
+msgid "Evaluate Assignment : "
+msgstr "评估作业："
+
+#: includes/templates/course/single/submissions.php:69
+msgid "QUIZ SUBMISSIONS"
+msgstr "测试提交"
+
+#: includes/templates/course/single/submissions.php:124
+msgid "COURSE SUBMISSIONS"
+msgstr "课程提交"
+
+#~ msgid "Instructing Courses"
+#~ msgstr "指导课程"
+
+#~ msgid "Click %s to Activate account."
+#~ msgstr "点击 %s 以激活账户。"
+
+#~ msgid "this link"
+#~ msgstr "这个链接"
+
+#~ msgid "ENABLED"
+#~ msgstr "已启用"
+
+#~ msgid "Student %s added a comment in unit %s"
+#~ msgstr "学生 %s 在单元 %s 上添加了一个评论"
+
+#~ msgid " Hours"
+#~ msgstr "小时"
+
+#~ msgid "You submitted a question/comment"
+#~ msgstr "您提交了一个问题/评论"
+
+#~ msgid "Student "
+#~ msgstr "学生"
+
+#~ msgid " started the course "
+#~ msgstr "开始了课程"
+
+#~ msgid "Course "
+#~ msgstr "课程"
+
+#~ msgid " reset for student "
+#~ msgstr "为学生重置"
+
+#~ msgid " retake by student "
+#~ msgstr "由学生重新学习"
+
+#~ msgid " got a badge in the course "
+#~ msgstr "在课程中获得了一枚徽章"
+
+#~ msgid " got a certificate in the course "
+#~ msgstr "获得了一张证书"
+
+#~ msgid " removed from the course "
+#~ msgstr "被从课程中移除"
+
+#~ msgid "Student started the unit "
+#~ msgstr "学生开始了单元"
+
+#~ msgid " in course "
+#~ msgstr "在课程中"
+
+#~ msgid "Could not find Quiz results for User. Contact Admin."
+#~ msgstr "无法找到用户的测试结果。请联系管理员。"
+
+#~ msgid " Minutes"
+#~ msgstr "分"
+
+#~ msgid " seconds"
+#~ msgstr "秒"
+
+#~ msgid " minutes"
+#~ msgstr "分"
+
+#~ msgid " Days"
+#~ msgstr "天"
+
+#~ msgid " hours"
+#~ msgstr "小时"
+
+#~ msgid "Save Course Settings"
+#~ msgstr "保存课程设置"
+
+#~ msgid "Connect with Course"
+#~ msgstr "与课程关联"
+
+#~ msgid "You're unsubscribed from course"
+#~ msgstr "您退订了课程"
+
+#~ msgid "You're unsubscribed from course Course %s"
+#~ msgstr "您退订了课程 %s"

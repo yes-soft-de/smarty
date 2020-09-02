@@ -1,0 +1,351 @@
+*3.8
+*version update
+*color picker
+*color type field
+*multiple instructors to edit course
+*instructor admin check in frot end
+*filter support for instructor course template privacy
+*blankside on assets
+*show video value
+*unable to rmeove course video fix
+*course video settings
+*3.7
+*update files
+*has text area fix
+*grab index and story files from package
+*date & time format filter
+*3.6.1
+*instructor premium course check
+*call_user_fund_array fix
+*3.6
+*version updated(3.5)
+*highlight the calendar date
+*post content saving as meta field
+*upload type courses check finish complete handled
+*3.5
+*Front end curriculum buttons
+*3.4
+*woocomerce pricing option not appearing if woocommerce activated multisite
+*3.3
+*3.2
+*changes
+*Select 2 enter more characters string added in new front end .js file
+*hook for custom question type
+*3.1
+*Duplicate setting for making first section free removed.
+*Add switch for partial free course in course price section
+*Partial free course setting removed.
+*Partial free course setting added in front end
+*changelog
+*3.0
+*2.9.2
+*extra class to identify post edit overlay
+*2.9.1
+*2.9.0.2
+*2.9.0.1
+*eventon front end edit not working fixed.
+*styling changes in course templates
+*2.9
+*2.9
+*translations updated
+*handle course curriculum not set
+*conditional switch show child containers
+*conditional date and reverseconditional type field settings apply
+*radio button fix for course templates
+*hide course template option on edit course and shift active tab to first tab when template is applied
+*change in course id coz generate_fields called two times fix
+*wp database error fix for attachments
+*changelog updated
+*2.8.1
+*unit tag in front end gets selected as select category fix
+*Wrong text domain in front end questions types bug fixed.
+*Wrong text domain in custom attachement bug fixed.
+*2.8
+*conditional fixes in the front end
+*Translation Files Updated.
+*front end improvements
+*style fixes in the popup
+*media popup add button fix
+*version update in plugins
+*fix : double click on edit unit
+*unit attachments handler
+*Text domain missing bug fixed for some strings.
+*2.7.1
+*remove select2 as it is already included in theme.
+*Error class on Course title if not filled
+*Instructor premium courses filter added.
+*Admin courses is also going for approval bug fixed
+*2.6
+*restrict one question edit in quiz to avoid content overwrite
+*fixes
+*2.5.2
+*dynamic quiz tags marks
+*changelog updated
+*2.5.0
+*translations updated
+*Edit quiz changed in template to edit
+*Delete product with course deletion from front end added.
+*2.4.1
+*2.4
+*translations updated
+*WP Media attachments browser fix
+*save button fix for sub elements
+*Fillblank and Select question templates modified for multiple use
+*Survey question template added.
+*Filter to check correct author
+*Wrong set, is_string instead of Isset
+*Add disabled class on edit icon so that user do not edit it multiple times.
+*2.3.1.1
+*Latex support from front end.
+*Latex shortcode accepted in question content
+*accept Latex and Dynamic quiz fixes
+*shortinput message
+*node modules ignore
+*remove node modules
+*Dynamic Quiz v 2 Front end.
+*2.3.1
+*Course creation button disabled while ajax request is on.
+*duplicate course creation bug fix
+*min.js cache fix
+*2.3
+*translation files updated
+*liveeditor call removed
+*notices & warning messages fixed
+*function users groups_get_group/s
+*Match quesntion type template fix
+*php7 fix
+*create course check typo
+*translation and drip fixes
+*attachment sizes fix in course front end creation
+*subscribe instructor to course forum
+*2.2.2
+*removed FEE
+*Debug notices fixed
+*2.2
+*action added : wplms_course_curriculum_front_end_generator
+*Course creation on editing
+*2.1.1
+*Create course and then go back to edit bug
+*2.1
+*Testing failed fixes 1
+*confirm dependency
+*taxonomy fix
+*2.0.9.1
+*2.0.9
+*version compare
+*Force admin approval moved to custom types
+*Instructor permission implementation
+*Product gets updated with course title on edit
+*2.0.8
+*2.0.8
+*translation files updated
+*PHP7 fix and get_product ajax call
+*Translation in question templates
+*Confimation Popup click outside bug
+*styling fixes
+*Pmpro memberships
+*2.0.7.1
+*Instructor privacy in Front end incorrect filter name
+*Default question marks  0
+*quesiton tags fix
+*2.0.7
+*translation fixes
+*2.0.6.1
+*get_groups function
+*previous unit completion check
+*script fixes
+*Firefox issue fix, not complete
+*firefox issue
+*Firefox error
+*2.0.6
+*Pre fill fields from other sources
+*Course product saved settings.
+*css fixes
+*chosen removed from group/forum select
+*Group description not saving
+*course components select styling
+*select2 bug in assignments
+*Front end validation on Edit course page
+*Components group and forum alignment.
+*Max students set as Product stock option.
+*2.0.2
+*Delete unit fix
+*Course Live hook
+*version2.0.1
+*version2.0.1
+*Error warning when questions not set
+*allow clear in select2
+*changelog
+*translation files
+*Maximum seats in course
+*version1.9.9.6
+*Jquery triggers and activation fixes
+*TinyMCE error fix
+*Element deletion
+*new taxonomy filter
+*small fixes
+*version1.9.9.3
+*1.9.9.5
+*CSS and js changes
+*wp-core-ui fix
+*TinyMCE trigger multiple times
+*Group and Forum edit option
+*version1.9.4
+*Media modal Fixes
+*text domain fixes
+*translation bug fixes
+*TinyMCE ajax load bug fix
+*version1.9.9.3
+*version1.9.9.3
+*WP Editor issue
+*Save curriculum fix
+*version update
+*Invalid course instructor bug fix
+*current user id missing
+*version1.9.9.1
+*trigger save
+*TinyMce trigger save
+*datepicker bug fix
+*Old Front end active bug
+*1.9.9
+*language
+*revamp2
+*bower
+*1.9.9
+*revamp
+*Revamp
+*Getoption : Theme shortname fix for front end
+*verison1.9.8
+*WPML compatible links
+*WPLMS Front end compatibility with WPML
+*version1.9.7
+*language files
+*Save course pricing action
+*Add action to extend third party plugins
+*FE added
+*Live edit dependency
+*Unable to update curriculum
+*version1.9.6.2
+*style changes
+*Restructuring fields
+*Update post meta bug fix
+*Removed live editor css
+*True and false bug fix
+*Liveedit fix
+*Removed Live edit
+*version1.9.6
+*translations updated
+*conditional loading of scripts
+*Live editor css changes merged
+*Products meta bug fix
+*version1.9.5
+*Translation files
+*New Assignments addition code
+*Css fixes in edit screens
+*Plugin update fix
+*version1.9.4
+*New language files
+*Remove default text on click
+*coming soon courses
+*coming soon option
+*esc_url in add_query_arg
+*Group creation fix
+*Child forum creation fix
+*version1.9.3
+*language files updated
+*Translation files updated
+*version 1.9.2
+*Preview unit/quiz in front end
+*version1.9.1
+*Language files updated
+*Fixed featured images in units, quizzes, questions etc.
+*Delete Course/Modify Course option
+*version1.9
+*translation files
+*Course retakes in front end.
+*Quiz dynamic front end fix
+*Actions added
+*FEE Changes
+*postnow fix
+*Label fixes
+*version1.8.4
+*Translation files added
+*Course Title remove on click
+*Live Edit Updated
+*version1.8.3
+*Added : Level in front end
+*FIXED : CSS for Tablet and mobile layout
+*Updated Translation files
+*version1.8.2.1
+*Fixed Front End uploader issue
+*ADDED : Course specific instructions
+*Updated Changelog
+*version1.8.2
+*Unit type bug fix.
+*Changes in Pricing for MyCred
+*updated translation files
+*version1.8.1
+*css fixes
+*edit course translation
+*product duration bug fix
+*Fixed : Translation strings
+*Updated : Language files
+*version1.8
+*Added Border in New Category/Linkage
+*Create a Course translation issue
+*Fixed : Course completion message issue
+*Language files
+*version1.7.5
+*FEE UPDATE
+*Roll backed WPFEE
+*version1.7.4
+*UPDATED : Language Files
+*FIXED : TRanslation bugs
+*1.7.3.1
+*FIX : New product pricing bug.
+*version1.7.3
+*FIXED : RTL Fixes
+*version1.7.2
+*FIXED : RTL Fixes
+*UPDATED : Language files
+*FIXED:  Border on text areas
+*ADDED : Support for Codestlying localization
+*FIXED : Course pricing saving membership issue
+*UPDATED : Language files
+*version1.7.1
+*ADDED : A booted border outside the required content area
+*FIXED : Course Badge Bug
+*version1.7
+*UPDATED : Language files
+*ADDED : Attachment Size in assignments
+*version 1.6.5
+*ADDED : Wrapper on front end elements
+*ADDED : Multiple assignments per unit.
+*version1.6.4
+*FIXED : Automatic reload
+*ADDED : Dynamic Quiz front end
+*FIXED : FIREFOX Issues
+*UPDATED : Language files
+*version 1.6.3
+*ADDED : Check for default Enter a course title for course
+*UPDATED : Language files
+*ADDED : ADD PACKAGE controls
+*FIXED : Changed Live to 'on'
+*version 1.6.2
+*Updated : Language files
+*ADDED : Linkage in front end course
+*FIXED : Save button in jquery Live edit
+*ADDED : Front End Assignment settings
+*FIXED : IE Bug for menu
+*ADDED : Front end Assignment Creation
+*UPDATED : Front end script dependency in jQuery UI
+*ADDED : Brazilian translation files
+*version 1.6.1.1
+*version 1.6
+*Fixed : Css fix for remove icon
+*FIXED : Added Unit type filter
+*FIXED : Front end firefox fix
+*0.1
+*Init 0.1
+*Init
+*Including Repo

@@ -1,0 +1,695 @@
+/**
+ * File: Elegant.scss
+ * Description : Contains all styling for Elegent Skin for WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. HEADER STYLING
+/*
+/*========================================================================*/
+/*   01. GLOBAL STYLING
+/*========================================================================*/
+
+@import '../defaults';
+
+.elegant{
+	.pusher{
+		background:#FFF;
+		#title,#coursestitle,#grouptitle,#activitytitle{
+			background:$light-border-color;
+			padding-bottom:30px;
+		}
+		.courseheader,.member_header,.group_header{
+			background:$light-border-color;
+		}
+	}
+	.padder.content,
+	.content,.unit_content,
+	&.page .content, 
+	&.single .content,
+	#item-body,
+	.activity_content{
+		padding:0;	
+	}
+	.mfp-content #item-body{
+		padding:30px;
+	}
+}
+
+/*========================================================================*/
+/*   02. HEADER STYLING
+/*========================================================================*/
+
+.elegant{
+	header{
+		nav>.menu>li>a{
+			border-top:2px solid transparent;			
+		}
+		nav>.menu>li.current-menu-item>a,
+		nav>.menu>li.current_page_item>a,
+		nav>.menu>li:hover>a{
+			color: #48575a;
+			border-top-color: #48575a;
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. ELEMENTS STYLING
+/*========================================================================*/
+
+.elegant{
+	#title,#coursestitle,#grouptitle,#activitytitle,#memberstitle{
+		background:$light-border-color;
+		color:$titlecolor;
+		padding:30px 0;
+		border-top: 1px solid $bordercolor;
+    	border-bottom: 1px solid $bordercolor;
+		h1,h5{
+			color:$titlecolor;
+		}
+	}
+	.heading,
+	#buddypress .widget_title, 
+	.widget .widget_title{
+		border:none;
+		&:after{content:none;}
+	}
+}
+
+
+/*========================================================================*/
+/*   02. SIDEBAR STYLING
+/*========================================================================*/
+
+.elegant{
+	.widget{
+		.widget_title{
+			&:after{
+				content:'';
+				display:block;
+				width:48px;
+				height:2px;
+				background:$primarybg;
+				position:absolute;
+				bottom:0;
+				left:0;
+			}
+		}
+		.course_filters{
+			background:$light-border-color;
+			border:1px solid $bordercolor;
+		}
+		&.pricing{
+			background:$light-border-color;
+			border:1px solid $bordercolor;
+			a{
+				color:#444;
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. BUDDYPRESS STYLING
+/*========================================================================*/
+
+.elegant{
+	.widget .course_cat_nav,
+	.widget .item-options, 
+	.quiz_bar{
+		background:$light-border-color;
+		border:1px solid $bordercolor;
+		li{ 
+			a{
+				color:#444;
+			}
+			&.current-cat,
+			&.selected{
+				a{color:$primarycolor;}
+			}
+		}
+	}
+	&.directory.d4,
+	&.archive.d4{
+		.pagetitle{
+			background:$light-border-color;
+			border:1px solid $bordercolor;
+		}
+
+		.dir-form div.item-list-tabs#subnav{
+		    padding: 30px 0 !important;
+		    background: none !important;
+		    border: none !important;
+		}
+	}
+	#buddypress {
+		div.item-list-tabs{
+			li{
+				border:none;
+				border-bottom:none;
+				a{
+					color:#444;
+					border:1px solid $bordercolor;
+					border-bottom:none;
+				}
+				&.selected{
+					a{
+						color:$primarycolor;
+						background:$light-border-color;
+						&:after {
+						    position: absolute;
+						    content: '';
+						    top:0;
+						    right: -1px;
+						    height: 100%;
+						    width: 2px;
+						    background: #FFF;
+						}
+						&:before {
+							position: absolute;
+						    content: '';
+						    left: 0;
+						    top: 0;
+						    width: 2px;
+						    height: 100%;
+						    background: $primarybg;
+						}
+					}
+				}
+			}
+		}
+	}
+	#buddypress{
+		.dir-form{
+			div.item-list-tabs{
+				display:block;
+			    overflow: visible;
+    			ul{
+    				li{
+    					a{ color: #444;}
+    					&.selected{
+    					    a{
+    					    	border: 1px solid $bordercolor;
+							    color: $primarybg;
+							    background: $light-border-color;
+							    &:after {
+								    left:0;
+								    right:auto;
+								    top:auto;
+								    bottom: -1px;
+								    height: 2px;
+								    width: 100%;
+								    background: $light-border-color;
+								}
+								&:before {
+									position: absolute;
+								    content: '';
+								    left: 0;
+								    right:auto;
+								    top: 0;
+								    bottom:auto;
+								    width: 100%;
+								    height: 2px;
+								}
+    					    }
+    					}
+    				}
+    			}
+				&#subnav{
+					background:$light-border-color;
+					border:1px solid $bordercolor;
+				}
+			}
+		}
+		.dir-list{
+			padding:0 0 30px;
+		}
+		#item-header{
+			border:1px solid $bordercolor;
+			border-bottom:none;
+		}
+
+		#group-create-tabs.item-list-tabs{
+			li{
+				span{
+					background:$light-border-color;
+					color:#444;
+				}
+			}
+		}
+		#item-nav{
+			background:$light-border-color;
+			border:1px solid $bordercolor;
+			div.item-list-tabs#object-nav{
+				background:$light-border-color;
+				overflow:visible;
+				li{
+				 	a{
+						color:#444;
+						border:1px solid transparent;
+						border-bottom:none;
+						&:hover{
+							background:$light-border-color;
+							color:$primarybg;
+						}
+					}
+					&.current{
+						a{
+							background:#FFF;
+							color:$primarybg;
+							border:1px solid $bordercolor;
+							&:after {
+							    position: absolute;
+							    content: '';
+							    right: -1px;
+							    top: 0;
+							    height: 100%;
+							    width: 2px;
+							    background: #FFF;
+							}
+							&:before {
+								position: absolute;
+							    content: '';
+							    left: -1px;
+							    top: 0;
+							    width: 2px;
+							    height: 100%;
+							    background: $primarybg;
+							}
+						}
+					}
+				}
+			} 
+		}
+
+		.item-list-tabs#subnav{
+		    overflow: visible;
+			ul{
+				li{
+					a{
+						background:$light-border-color;
+					}
+					&.current,&.selected{
+						a{
+							background:#FFF !important;
+							border-color:$bordercolor !important;
+							color:$primarybg;
+							&:after {
+							    position: absolute;
+							    content: '';
+							    bottom: -1px;
+							    top:auto;
+							    left: 0;
+							    right:auto;
+							    width: 100%;
+							    height: 2px;
+							    background: #FFF;
+							}
+							&:before {
+								position: absolute;
+							    content: '';
+							    top: 0;
+							    bottom:auto;
+							    left: 0;
+							    right:auto;
+							    width: 100%;
+							    height: 2px;
+							    background: $primarybg;
+							}
+						}
+					}
+				}
+			}
+		}
+		#activityform{
+		    background: $light-border-color;
+    		margin-bottom: 30px;
+    		border: 1px solid $bordercolor;;
+		}
+	}
+	&:not(.d3){
+		#buddypress{
+			.dir-form div.item-list-tabs ul li{
+				&:first-child{
+					a{border-right:none;} 
+				}
+				&:last-child{
+					a{border-left:none;} 
+				}
+			}
+		}
+	}
+}
+
+.elegant
+{
+
+	&.single-item.groups.g2 #buddypress,
+	&.single-item.groups.g3 #buddypress,
+	&.single-item.groups.g4 #buddypress,
+	&.bp-user.p2 #buddypress,
+	&.bp-user.p3 #buddypress,
+	&.bp-user.p4 #buddypress,
+	&.single-course.c2,
+	&.single-course.c3,
+	&.single-course.c5{		
+		#item-nav{
+			line-height:0;
+			background: $light-border-color;
+    		border: 1px solid $bordercolor;;
+			a{line-height: 1.6;}
+			border-left:none;
+			border-right:none;
+			div.item-list-tabs#object-nav{
+				li{
+					a{
+						color:#444;
+					}
+				
+					&.current a{
+						background:#fff;
+						border-bottom:none;
+					    border-left: 1px solid $bordercolor;
+    					border-right: 1px solid $bordercolor;
+						&:before {
+						    position: absolute;
+						    content: '';
+						    top: 0;
+						    bottom:auto;
+						    width: 100%;
+						    left: 0;
+						    right:auto;
+						    height: 2px;
+						}
+						&:after {
+						    position: absolute;
+						    content: '';
+						    top:auto;
+						    bottom: -2px;
+						    width: 100%;
+						    left: 0;
+						    right:auto;
+						    background: #FFF;
+						    height: 2px;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.bp-user.p2 #buddypress,
+	&.bp-user.p3 #buddypress,
+	&.bp-user.p4 #buddypress,
+	&.single-item.groups.g3 #buddypress,
+	&.single-course.c4 #buddypress,
+	&.single-course.c5 #buddypress{
+		#item-body{
+			margin-top:30px;
+		}
+	}
+
+	&.single-item.groups.g4 #buddypress,
+	&.single-course.c4 #buddypress,
+	&.single-course.c5 #buddypress{
+		.item-list-tabs#object-nav{
+			background:$light-border-color;
+			border-bottom:1px solid $bordercolor;
+			li{
+				a{
+					color:#444;
+				}
+				&.current{
+					a{
+						background:#FFF;
+						color:$primarybg;
+						border-bottom:none;
+					    border-left: 1px solid $bordercolor;
+    					border-right: 1px solid $bordercolor;
+						&:before {
+						    position: absolute;
+						    content: '';
+						    top: 0;
+						    bottom:auto;
+						    width: 100%;
+						    left: 0;
+						    right:auto;
+						    height: 2px;
+						    background:$primarybg;
+						}
+						&:after {
+						    position: absolute;
+						    content: '';
+						    top:auto;
+						    bottom: -2px;
+						    width: 100%;
+						    left: 0;
+						    right:auto;
+						    background: #FFF;
+						    height: 2px;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.single-item.groups.g3 #buddypress,
+	&.bp-user.p3 #buddypress{
+		.item-list-tabs#subnav{
+			li{
+				a{
+					border-right:1px solid $bordercolor;
+					padding:15px;
+				}
+				&.current{
+					a{
+						border:1px solid $bordercolor;
+						&:before {
+						    position: absolute;
+						    content: '';
+						    top: 0;
+						    bottom:auto;
+						    left: 0;
+						    right:auto;
+						    width: 2px;
+						    height: 100%;
+						    z-index:1;
+						}
+						&:after {
+						    position: absolute;
+						    content: '';
+						    top:0;
+						    bottom: auto;
+						    width: 2px;
+						    right: -1px;
+						    left:auto;
+						    background: #FFF;
+						    height: 100%;
+						    z-index:1;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.single-item.groups.g4 #buddypress,
+	&.bp-user.p4 #buddypress{
+
+		.item-list-tabs#subnav{
+			margin-top:30px;
+		    border-bottom: 1px solid $bordercolor;
+			li.selected.current{
+				a{
+					background:none !important;
+					color:$primarybg !important;
+					border-left:1px solid $bordercolor;
+					border-right:1px solid $bordercolor;
+				}
+			}
+			li.last{float:right;}
+		}
+	}
+
+	&.single #buddypress .item-list-tabs#subnav ul li.selected a{
+		background:#FFF;
+		border-color:$bordercolor;
+	}
+	&.archive.d3, 
+	&.directory.d3{
+		#buddypress{
+			.item-list-tabs#subnav{
+				margin-bottom:15px !important;
+			}
+			.item-list-tabs:not(#subnav){
+				ul li a{width:100%;}
+			}
+		}
+	}  
+	
+	&.directory.d2{
+		#buddypress{
+			div.item-list-tabs.activity-type-tabs{
+				margin-bottom:30px;overflow: visible;
+				border-bottom:1px solid $bordercolor;
+				li{
+					a{background:$light-border-color}
+					&.selected{
+						a{
+							background:none !important;
+							&:before{
+							    right: auto;
+							    left: 0;
+							    top:0;bottom:auto;
+							    width: 100%;
+							    height: 2px;
+							}
+							&:after{
+								top: auto;
+							    bottom: -2px;
+							    height: 2px;
+							    width: 100%;
+							    left: 0;
+							    right: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.archive.d5, 
+	&.directory.d5{
+		section#content,
+		section#title{
+			margin-top:0;
+			padding-bottom:0;
+		}
+	} 
+}
+
+.elegant,.minimal{
+	.quiz_timer,
+	li:not(.active):not(.done) .quiz_question span,
+	.ques_link{
+		color:#444;
+	}
+	.quiz_details{border:1px solid $bordercolor;}
+}
+/*========================================================================*/
+/*   02. DIRECTORY VARIATIONS
+/*========================================================================*/
+
+.elegant{
+	&.directory{
+		&.d3,&.d4{
+			#buddypress{
+				.activity-type-tabs.item-list-tabs,
+				.item-list-tabs{
+					li{
+						a{background:$light-border-color;}
+						&.selected{
+							a{
+								background:#fff;
+								color:$primarybg;
+								&:before {
+								    position: absolute;
+								    content: '';
+								    top: 0;
+								    bottom:auto;
+								    left: 0;
+								    right:auto ;
+								    width: 2px ;
+								    height: 100%;
+								    z-index:1;
+								}
+								&:after {
+								    position: absolute;
+								    content: '';
+								    top:0 ;
+								    bottom: auto ;
+								    width: 2px ;
+								    right: -1px ;
+								    left:auto ;
+								    background: #FFF;
+								    height: 100%;
+								    z-index:1;
+								}
+							}
+						}
+						&:last-child{
+							a{border-bottom:1px solid $bordercolor;}
+						}
+					}
+					&#subnav{
+					    padding: 0 0 15px;
+					    border: none;
+					    border-bottom: 1px solid $bordercolor;
+					    background: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. COURSE STYLING
+/*========================================================================*/
+.elegant{
+	&.single-course.c4,
+	&.single-course.c5,
+	&.single-item.g4 {
+		#buddypress #item-header{
+			border:none;
+			#item-header-content{
+				padding:0;margin-bottom:30px;
+			}
+		}
+		.item-list-tabs{
+			li{
+				border:none !important;
+				&.current{
+					a{
+						border-left:1px solid $bordercolor;
+						border-right:1px solid $bordercolor;
+					}
+				}
+			}
+		}
+	}
+	#buddypress #item-nav,
+	#buddypress .item-list-tabs#object-nav li,
+	.single-course.c2 .course_header, .single-course.c3 .course_header,
+	.single #buddypress .item-list-tabs#subnav ul li a, 
+	.single-item #buddypress .item-list-tabs#subnav ul li a{
+		background:$light-border-color;
+	}
+	
+	.course_description+.course_curriculum .course_title h2, .review_title,	
+	.total_students{
+		margin:0;
+	    background: none;
+    	padding: 15px 0;
+	}
+	
+	.unit_prevnext, 
+	.course_timeline h4{
+		border:1px solid $bordercolor;
+		color:#444;
+	    margin: 0;
+    	line-height: 2;
+	}
+	.unit_prevnext{margin-top:30px;}
+	.course_timeline li>a{color:#444;&:hover{color:$primarybg;}}
+	.course_timeline.accordion .section:after{top:20px;}
+}
+
+
+.elegant.single-course.c5 .course_header #item-header .widget.pricing{background:rgba(255,255,255,0.8);border:none;}

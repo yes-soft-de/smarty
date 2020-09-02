@@ -1,0 +1,331 @@
+*3.8
+*security missing issue fix
+*captcha php 7 error fix
+*js trigger when grid scrolling is done
+*3.7
+*grab index and story files from package
+*trigger event in form shortcode
+*3.6
+*3.6
+*checkbox in shortcode forms
+*3.5
+*alt in heading
+*popup.css do not load
+*zip button filter
+*wpml edit course fix
+*3.4.2
+*warning while registering
+*transaltions
+*3.4
+*Show explanation based on user answer is correct or not
+*custom activation email feature.
+*Hex color code not showing on button shortcode bug fixed.
+*Select options height increased in vibe form popup
+*Attchment id not fetching properly in vibe form fixed
+*Attachment hendled in vibe form
+*For event form nonce changed
+*Txt mime type added for plupload and a cross icon added after uploading file.
+*Plupload implemented for uploading files
+*Multiple select added for upload options in vibe form
+*multiselect and popup for Form uploads
+*hide_show values in popup
+*Upload type field added in vibe form shortcode.
+*3.3
+*changelog
+*3.2
+*wplms_login shortcode opens login popup of header
+*Wplms_login shortcode added
+*Unit id passed from sell_content shortcode for removing attachments
+*Unit id checked in sell_content shortcode to restrict unit attachments.
+*Unit attachments hidden in sell_content shortcode in case of units
+*quiz retake shortcode
+*vibe user field shortcode
+*Mailchimp check added in custom registration form
+*groups not assigning fix
+*hover color in button shortcode
+*Hover color added in button shortcode.
+*desc appearing twice fix
+*description appearing twice with bp 2.9 fix
+*reg form multisite fixes
+*2.9.2
+*translation files updated
+*name missing fix registration forms
+*translate google captcha
+*reg form join groups refined
+*group and member types
+*Pass fail shortcode returning undefined value bug fixed.
+*Default href added on register button.
+*hide default role and set member type meta
+*2.9
+*translation update
+*certificate expiry date query updated for getting latest certificate.
+*Bulk action check added for certificate expiry date.
+*Date attribute added in countdown shortcode.
+*Certificate Expiry shortcode fixed.
+*changlog updated
+*2.8.1
+*If empty instructors then return shortcode
+*course_instructor shortcode fix
+*Certificate Expiry date shortcode added
+*Timer exit and trigger event
+*ABSPATH check added in vibeshortcodes.class.php file
+*Translation Files Updated.
+*2.8
+*iframe allowfullscreen attribute
+*vibe_current_date shortcode added.
+*countdown labels
+*Registration Form autofilled by browser bug fixed
+*browser popup removed on registration
+*Empty check added in useronly and instructor only shortcode.
+*deprecated get_product function removed
+*warning with woocommerce 3.0 version while login fixed.
+*Browser popup on registration form submission removed
+*Instructor only shortcode added.
+*Hibrew language not working in contact form bug fixed.
+*2.7.1
+*UTF8 check on contact form strings
+*Arabic translation not showing for placeholder in contact form shortcode
+*contact form multiple email fix
+*2.6.1.2
+*hook change in menu
+*Vibe shortcodes not working bug fixed.
+*changelog updated
+*2.6.1.1
+*Multiple emails not sending in contact form bug fixed.
+*check if contact form mail is not migrated
+*Vibe_shortcode_icon_string not defined bug fixed.
+*line break issue in fillblank
+*2.6
+*course counter fix when some course are hidden fix
+*2.5.2
+*translations updated and fuzzy removed
+*dom change for error messages
+*changelog updated
+*2.5
+*show certificate author bug
+*show_certificates shortcode
+*data handling
+*fullblank double click bug fix
+*2.4.1.1
+*checkbox not recording, send mail with xtended profile not working
+*checkbox fix
+*2.4.1
+*2.4
+*Add required checks in Registration forms
+*Profile field group heading displayed only when profile fields are selected in registration form
+*remove error signs when registration form is resubmitted
+*translation files
+*Registration form fixes, validation and fields saving.
+*survey result shortcode added
+*updated shortcodes script
+*Role to be set in Forms
+*accordion scroll fix.
+*2.3.1.3
+*captcha enqueue
+*include recaptcha conditionally
+*bp_is_member for BP 2.7
+*check if g-recaptcha exists
+*2.3.1.2
+*radio and checkboxes fixes in custom registration forms
+*empty check added for meta query and tax query in Wp_query
+*infinite scroll duplicate posts fix
+*isRTL check for masonry
+*2.2
+*isRTL check in Insotope masonry layout
+*filter for front end include wplms_vibe_shortcodes
+*upload directory path in unzipper
+*knob.js fix
+*WP Admin Unit type selection bug
+*course finish date format option
+*2.1.1
+*Filter on certificate_course_field
+*loadscripts in footer
+*2.1
+*instructor emails fix
+*fillblank and text type in question shortcode
+*question shortcode fix
+*warning in upload handler when no directory exists
+*Certificate course duration, WPLMS Quiz Score, Course instructor emails shortcodes added
+*2.0.9.1
+*2.0.9
+*smalltext in question shortcode
+*2.0.8
+*translation files updated
+*Tabs shortcode now supports non latin languages
+*2.0.7
+*bloginfo bug fix
+*2.0.6.2
+*Loop when auto rotate enabled
+*2.0.6.1
+*course category shortcode
+*Progress bar shortcode update
+*Course category shortcode
+*Flexslider autocarousel
+*Nested tabs and accordions fix
+*2.0.6
+*Nested Tabs and Accordion fix
+*icon style
+*User only content shortcode
+*2.0.2
+*shortcodes class added
+*2.0.1
+*Question shortcode improvements.
+*Language changes
+*Masonry fixes
+*shortcode.css removed
+*version1.9.9.2
+*Course_search shortcode fix
+*Text domain fixes
+*1.9.9.1
+*wp-video width
+*remove icon
+*Language files updated
+*block media image css
+*version1.9.9
+*Live function
+*Hint bug fix
+*icons loaded in posts and edit only
+*version 1.9.8
+*Sell content shortcode
+*function exists Check on Tabs
+*version1.9.7
+*language files updated
+*Explaination fix
+*Certificate Date with Manual Fallback
+*Question shortcode the content fix
+*Calling Shortcodes script only on the shortcodes pages
+*version1.9.6.2
+*version1.9.6
+*Fetch avatar bug fix
+*Images loaded bugfix for isotope grip
+*version1.9.5
+*translation files
+*Upload handler fixes
+*Remove clert china
+*Date in i18 format
+*Parallax block code moved
+*Conditionally calling scripts
+*Plugin update fixes
+*version1.9.4
+*Translation fixes
+*Forms select box fix
+*Course Searchbox and pass_fail shortcode
+*CErtificate completion date
+*Responsive parallax
+*Counter shortcode popup fix
+*Language fix in popup
+*New Shortcodes : Question , Social sharing buttons
+*esc_url in add_query_arg
+*version1.9.3
+*translation fixes
+*Course Product shortcode
+*version1.9.2.3
+*Localise strings fix
+*version1.9.2.2
+*Counter shortcode with site stats shortcode
+*Instructor count
+*Counter script
+*Translation files updated
+*version1.9.2
+*Counter shortcode
+*Shortcodes added
+*Scroll counter added
+*version1.9.1
+*Language files updated
+*Open first and allow for direct link in accordions and tabs
+*Restructured upload handler
+*Vibe carousel dark option css added
+*Form security option
+*version1.9
+*social button shortcode
+*Czech language
+*Load grid more specific
+*Disabled custom media player skin
+*Container shortcode
+*version1.8.4
+*Error message fix
+*CSS Fixes
+*CSS changes
+*version1.8.3
+*User_only shortcode
+*CSS Changes for  Multi pricing for courses
+*Updated translation files
+*Version1.8.2.1
+*FIXED : Package uploader issues
+*Updated Changelog
+*version1.8.2
+*fix for certificate student photo
+*ADDED certificate_student_photo shortcode
+*ADDED Language files
+*version1.8.1
+*Popup Enhancements
+*Removed minified option
+*FIXED : CSS bug in grid
+*Fixed : Upload handler bug
+*Updated : Language files
+*version1.8
+*Added Filter for Certificate code validation
+*Added short code for images
+*version1.7.5
+*UPDATED : Language files
+*Captcha Added in forms
+*JS Translation strings added
+*Language fixes
+*version1.7.4
+*UPDATED : Translation files
+*FIXED: Boxed footer carousel widget
+*Sending email translation
+*FIXED : hide course filters
+*version1.7.3
+*UPDATED : Language files
+*FIXED : Accordion random id issue
+*ADDED : Iso-charset option in forms
+*FIXED : Upload handler issue
+*version1.7.2
+*UPDATED : Language files
+*FIXED: Instructor border issue
+*ADDED : Minified scripts
+*ADDED : CodeStyling localization compatibility
+*version1.7.1
+*version1.7
+*ADDED : Credits for upload handler
+*ADDED : Shortcode certificate_student_field to show a student field in certificate
+*version1.6.5
+*FIXED : Add package not opening WP media popup
+*version1.6.4
+*UPDATED : Language files
+*ADDED : Shortcodes for Fill in the Blank or Match question types and Select question types
+*FIXED : Zip upload form now appears when edit unit
+*version 1.6.3
+*ADDED :Translation files
+*ADDED : Package Upload handler
+*ADDED : Upload Zip package and manage from front end
+*ADDED : Iframe shortcode
+*FIXED : Post Grid infinite scroll issue
+*version 1.6.2
+*Update : Language files
+*ADDED : All Badges Shortcode with Current user status.
+*FIXED : Vibe Carousel in footer
+*version 1.6.1
+*Fixed : Background color in Course page in buttons
+*FIXED: Visual composer popup overlapping Vibe shortcodes
+*version 1.6
+*UPDATED : Language files [US]
+*FIXED : Remove Form field error on clicking the field.
+*FIXED : Visual compose issue with Vibe Shortcodes
+*Version 1.5.5
+*ADDED : Required Parameter
+*FIXED : TEAM MEMBER shortcodes bug
+*Version 1.5.4.1
+*FIXED : Team Social Icons fix
+*version 1.5.4
+*Updated : Translation files
+*FIXED : Flexslider  bug
+*FIXED : Translation bug
+*ADDED : Instructor Shortcode
+*FIXED : Mobile Layout fixes
+*version 1.5.3
+*ADDED : Student Email and Student Certificate Code
+*FIXED : 3.9 Support added
+*Base
+*Base 1.0

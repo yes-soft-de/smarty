@@ -1,0 +1,281 @@
+/**
+ * File: groups.scss
+ * Description : Contains all styling for the Groups in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. TYPOGRAPHY STYLING
+/*    03. FORMS STYLING
+/*    04. SELECT DROPDOWN
+/*    05. SUBSCRIPTION STYLING 
+/*    06. BUTTON STYLING 
+/*    07. PAGE BLOCKS
+/*    08. MISCELLANEOUS
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+.single-item.groups{
+	#item-body{
+		input[type="text"],
+		textarea{
+			width:100%;
+		}
+		.group_admins,.group_mods{
+			display:inline-block;
+			width:100%;
+			ul{
+				li{
+					float:left;
+					margin-right:15px;
+					img{
+						width:64px;
+						border-radius:50%;
+					}
+				}
+			}
+		}
+		.item-list{
+			li{
+				img.avatar{
+				    float: left;
+				    max-width: 64px;
+				    border-radius: 50%;
+				    margin-right: 15px;
+				}
+				span.activity{
+					text-align:left;
+				}
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   01. SUBSCRIPTION STYLING 
+/*========================================================================*/
+
+.group-sub{
+	background:none !important;
+	padding: none !important;
+	color:#78c8c9 !important;
+	float: right;
+	clear: both;
+}
+.group-subscription-div,
+.group-subscription-status-desc,
+.group-subscription-status,
+.group-subscription-options-link{font-size:11px;}
+.group-subscription-close{
+	clear: both;
+	display: inline-block;
+	float: right;
+}
+
+/*========================================================================*/
+/*   01. BUTTON STYLING 
+/*========================================================================*/
+
+.group-button.leave-group{
+	float:left;
+}
+
+/*========================================================================*/
+/*   01. GROUP ADMINS
+/*========================================================================*/
+
+#item-admins {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 20px;
+	h3{
+		font-size:18px;
+		margin-top:0;
+		padding:20px 20px 10px;
+		border-top:1px solid rgba(255,255,255,0.1);
+	}
+	h5,h5 a{
+		color:#FFF;
+	}
+}
+
+/*========================================================================*/
+/*   01. CREATE GROUP
+/*========================================================================*/
+#buddypress #create-group-form  div.item-list-tabs{
+	float:left;
+	margin:0 30px 0px 0;
+}
+
+#group-create-body{
+	background:#FFF;
+	padding:10px;
+	#group-name{
+		width:100%;
+	}
+}
+.boxed #group-create-body{padding:0;}
+
+/*========================================================================*/
+/*   01. GROUP LAYOUTS
+/*========================================================================*/
+
+
+.single-item.groups.g2,.single-item.groups.g3,.single-item.groups.g4{
+
+	#buddypress{
+		div.item-list-tabs#object-nav{
+			overflow:visible;
+			li{
+				width:auto;
+				border:none;
+				position:relative;
+				a{
+					padding:15px 20px;
+					letter-spacing:1px;
+					span{
+					    margin-left: 15px;
+					}
+					&:hover{
+						color:#fff;
+					}
+				}
+				.flexMenu-popup{
+					left:0;
+					top:100%;
+				    z-index: 99;
+				    background:#313B3D;
+				    margin: 0;
+				    padding: 0;
+					li{
+						width: 180px;
+						a{
+							width:100%;
+						}
+					}
+				}
+				&.flexMenu-viewMore > a:before {
+				    content: "\f0c9";
+				    font-family: 'fontawesome';
+				    padding-right: 5px;
+				}
+			}
+		} 
+		div#item-header{
+			overflow:visible;
+			#item-header-avatar{
+				border:none;
+				img{
+					border-radius:4px;
+				}
+			}
+		} 
+	}
+	#content #buddypress{
+		margin-top:0;
+		.group_header{
+			#item-header{
+				padding:30px 0;
+			}
+		}
+	}
+
+}
+
+.single-item.groups.g3{
+	#item-header-avatar{
+		a{
+			margin-bottom: -60px;
+    		display: inline-block;
+		}
+	}
+	#item-body{
+		position:relative;
+		padding-bottom:30px;
+		.item-list-tabs#subnav{
+			border:none;
+			ul{
+				li{
+					width:100%;
+					clear:both;
+					border:none;
+					a{
+						border: none;
+					    padding: 15px 0;
+					    letter-spacing:1px;
+					    text-align: start;
+					    width:100%;
+					}
+					&.current.selected{
+						a{
+							background:none;
+							color:$primarybg;
+						}
+					}
+					&.last{
+						text-align:start;
+					}
+				}
+			}
+		}
+	}
+}
+
+.single-item.groups.g4{
+	.group_header{
+		text-align:center;
+		#item-header-avatar{
+			a{
+				margin:0;
+				img{
+					border-radius:50% !important;
+				}
+			}
+		}
+	}
+}
+/*========================================================================*/
+/*   01. RESPONSIVE
+/*========================================================================*/
+
+.single-item.groups.g3{
+	#buddypress{
+		div#item-header{
+			#item-header-avatar{
+				overflow: visible;
+			}
+		}
+	} 
+}
+.single-item.groups.g4{
+	#buddypress{
+		#item-header{
+			margin-top:30px;
+			background:#FFF;
+			div#item-header-content{
+				color:#444;
+				h3,h3>a{color:#444;}
+			}
+		}
+	}
+}
+
+#group-admins{
+	a img{
+		width:64px;
+		border-radius:50%;
+	}
+}
+
+.groups.directory #buddypress ul.item-list li .item-meta {
+   clear: both;
+}

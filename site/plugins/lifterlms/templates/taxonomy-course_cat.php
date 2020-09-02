@@ -10,8 +10,4 @@
 
 defined( 'ABSPATH' ) || exit;
 
-if ( get_queried_object()->slug === 'meditations' ):
-	llms_get_template( 'category-meditations.php' );
-else:
-	llms_get_template( 'archive-course.php' );
-endif;
+llms_get_template( 'archive-course.php' );

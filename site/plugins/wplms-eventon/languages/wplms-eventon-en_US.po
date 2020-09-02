@@ -1,0 +1,497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS EventOn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-01 16:17+0530\n"
+"PO-Revision-Date: 2017-02-01 16:17+0530\n"
+"Last-Translator: Vibethemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wplms-eventon
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr ""
+
+# @ wplms-eventon
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:13
+msgid "Calendar for Dashboard"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:15
+msgid " DASHBOARD : Calendar Widget"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:60
+msgid "My Course Events"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:70
+msgid "Title:"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:74
+msgid "Select Width"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:76
+msgid "One Fourth"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:77
+msgid "One Third"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:78
+msgid "One Half"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:79
+msgid "Two Third"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:80
+msgid "Three Fourth"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/dashboard_widget.php:81
+msgid "Full"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/eventon-daily-view/includes/admin/class-admin_check.php:79
+#, php-format
+msgid "EventON %s is enabled but not effective. "
+msgstr ""
+
+#: includes/front_end.php:46 includes/front_end.php:50 includes/init.php:241
+msgid "Events"
+msgstr ""
+
+#: includes/front_end.php:47
+msgid "Add Course Events"
+msgstr ""
+
+#: includes/front_end.php:53
+msgid "Existing events"
+msgstr ""
+
+#: includes/front_end.php:56
+msgid "Save Events"
+msgstr ""
+
+#: includes/front_end.php:97 includes/front_end.php:116
+msgid "Edit Event"
+msgstr ""
+
+#: includes/front_end.php:98 includes/front_end.php:117
+msgid "Preview"
+msgstr ""
+
+#: includes/front_end.php:99 includes/front_end.php:118
+msgid "Remove"
+msgstr ""
+
+#: includes/front_end.php:100 includes/front_end.php:119
+msgid "Delete"
+msgstr ""
+
+#: includes/front_end.php:127
+msgid "Select existing event"
+msgstr ""
+
+#: includes/front_end.php:129
+msgid "Search an event"
+msgstr ""
+
+#: includes/front_end.php:131
+msgid "Set Event"
+msgstr ""
+
+#: includes/front_end.php:135
+msgid "Create new Event"
+msgstr ""
+
+#: includes/front_end.php:137
+msgid "Event title"
+msgstr ""
+
+#: includes/front_end.php:140
+msgid "Create Event"
+msgstr ""
+
+#: includes/front_end.php:148
+msgid "Add Event"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/front_end.php:464 includes/front_end.php:498
+#: includes/migrate.php:42
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/front_end.php:468 includes/front_end.php:502
+msgid "Invalid Course id, please edit a course"
+msgstr ""
+
+#: includes/front_end.php:474 includes/front_end.php:508
+msgid "Invalid Course Instructor"
+msgstr ""
+
+#: includes/front_end.php:607
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/front_end.php:615
+msgid "Event Type"
+msgstr ""
+
+#: includes/front_end.php:622
+msgid "Select Category"
+msgstr ""
+
+#: includes/front_end.php:628
+msgid "Event Location"
+msgstr ""
+
+#: includes/front_end.php:635
+msgid "Select Location"
+msgstr ""
+
+#: includes/front_end.php:639
+msgid "Event Organiser"
+msgstr ""
+
+#: includes/front_end.php:646
+msgid "Select Event Organiser"
+msgstr ""
+
+#: includes/front_end.php:711
+msgid "Event Sub-Title"
+msgstr ""
+
+#: includes/front_end.php:712
+msgid "Event Sub- Title."
+msgstr ""
+
+#: includes/front_end.php:719 includes/front_end.php:720
+msgid "All Day Event"
+msgstr ""
+
+#: includes/front_end.php:724 includes/front_end.php:749
+msgid "No"
+msgstr ""
+
+#: includes/front_end.php:724 includes/front_end.php:749
+msgid "Yes"
+msgstr ""
+
+#: includes/front_end.php:728
+msgid "Event Start date"
+msgstr ""
+
+#: includes/front_end.php:729
+msgid "Start date for Event"
+msgstr ""
+
+#: includes/front_end.php:736
+msgid "Event End date"
+msgstr ""
+
+#: includes/front_end.php:737
+msgid "End date for Event"
+msgstr ""
+
+#: includes/front_end.php:744 includes/front_end.php:745
+msgid "Repeating Event"
+msgstr ""
+
+#: includes/front_end.php:754
+msgid "Repeat Frequency"
+msgstr ""
+
+#: includes/front_end.php:755
+msgid "Event repeats after every Day/Week/Month"
+msgstr ""
+
+#: includes/front_end.php:758
+msgid "Daily"
+msgstr ""
+
+#: includes/front_end.php:758
+msgid "Weekly"
+msgstr ""
+
+#: includes/front_end.php:758
+msgid "Monthly"
+msgstr ""
+
+#: includes/front_end.php:758
+msgid "Yearly"
+msgstr ""
+
+#: includes/front_end.php:763
+msgid "Repeat Event By"
+msgstr ""
+
+#: includes/front_end.php:764
+msgid "Repeat Event By days of month or days of week"
+msgstr ""
+
+#: includes/front_end.php:767
+msgid "Day of Month"
+msgstr ""
+
+#: includes/front_end.php:767
+msgid "Day of Week"
+msgstr ""
+
+#: includes/front_end.php:773
+msgid "Days of Week"
+msgstr ""
+
+#: includes/front_end.php:774
+msgid "Event repeats on following days of week"
+msgstr ""
+
+#: includes/front_end.php:777
+msgid "Sunday"
+msgstr ""
+
+#: includes/front_end.php:777
+msgid "Monday"
+msgstr ""
+
+#: includes/front_end.php:777
+msgid "Tuesday"
+msgstr ""
+
+#: includes/front_end.php:777
+msgid "Wednesday"
+msgstr ""
+
+#: includes/front_end.php:777
+msgid "Thursday"
+msgstr ""
+
+#: includes/front_end.php:777
+msgid "Friday"
+msgstr ""
+
+#: includes/front_end.php:777
+msgid "Saturday"
+msgstr ""
+
+#: includes/front_end.php:782
+msgid "Repeat Gap"
+msgstr ""
+
+#: includes/front_end.php:783
+msgid "Event repeats and gaps for every Day/Week/Month"
+msgstr ""
+
+#: includes/front_end.php:790
+msgid "Maximum Repeat"
+msgstr ""
+
+#: includes/front_end.php:791
+msgid "Number of times event will repeat"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/init.php:66
+msgid "Events "
+msgstr ""
+
+# @ wplms-eventon
+#: includes/init.php:160
+msgid "WPLMS Courses"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/init.php:199
+msgid "Select a WPLMS Course"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/init.php:203
+msgid "Choose from published courses"
+msgstr ""
+
+#: includes/init.php:243
+msgid "Course Events slug"
+msgstr ""
+
+#: includes/init.php:307
+#, php-format
+msgid "Events in Course %s"
+msgstr ""
+
+#: includes/init.php:312
+msgid "WPLMS Course Events Settings"
+msgstr ""
+
+#: includes/init.php:316
+msgid "Course Events calendar display"
+msgstr ""
+
+#: includes/init.php:321
+msgid "Default, Daily Calendar"
+msgstr ""
+
+#: includes/init.php:322
+msgid "List Calendar"
+msgstr ""
+
+#: includes/init.php:324
+msgid "Course - Events display"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/migrate.php:144
+#, php-format
+msgid "Migrate all WPLMS Events to EventOn Events %s Start migration %s"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/migrate.php:158
+msgid ""
+"Migration Complete ! All WPLMS Events and settings have now been migrated to "
+"EventOn Events. Check WP Admin - Events section"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/migrate.php:160
+msgid "Deactivate WPLMS Events Plugin"
+msgstr ""
+
+# @ wplms-eventon
+#: includes/migrate.php:167
+msgid "WPLMS Events deactivated. Create new events with EventOn plugin."
+msgstr ""

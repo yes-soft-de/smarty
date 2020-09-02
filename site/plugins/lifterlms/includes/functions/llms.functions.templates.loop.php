@@ -56,9 +56,16 @@ if ( ! function_exists( 'lifterlms_archive_description' ) ) {
  */
 function lifterlms_loop( $query = null ) {
 
-	$request_uri = explode('/', $_SERVER['REQUEST_URI']);
+	global $wp_query;
+	$temp = null;
 
-	if ( in_array('meditations', $request_uri, false) ):
+	if ( $query ) {
+		$temp     = $wp_query;
+		$wp_query = $query;
+	}
+
+	if ( have_posts() ) {
+
 		/**
 		 * lifterlms_before_loop hook
 		 *
@@ -66,7 +73,10 @@ function lifterlms_loop( $query = null ) {
 		 */
 		do_action( 'lifterlms_before_loop' );
 
-		llms_get_template_part( 'loop/content_meditations', get_post_type() );
+		while ( have_posts() ) {
+			the_post();
+			llms_get_template_part( 'loop/content', get_post_type() );
+		}
 
 		/**
 		 * lifterlms_before_loop hook
@@ -77,50 +87,15 @@ function lifterlms_loop( $query = null ) {
 
 		llms_get_template_part( 'loop/pagination' );
 
-	else:
+	} else {
 
-		global $wp_query;
-		$temp = null;
+		llms_get_template( 'loop/none-found.php' );
+	}
 
-		if ( $query ) {
-			$temp     = $wp_query;
-			$wp_query = $query;
-		}
-
-		if ( have_posts() ) {
-
-			/**
-			 * lifterlms_before_loop hook
-			 *
-			 * @hooked lifterlms_loop_start - 10
-			 */
-			do_action( 'lifterlms_before_loop' );
-
-			while ( have_posts() ) {
-				the_post();
-				llms_get_template_part( 'loop/content', get_post_type() );
-			}
-
-			/**
-			 * lifterlms_before_loop hook
-			 *
-			 * @hooked lifterlms_loop_end - 10
-			 */
-			do_action( 'lifterlms_after_loop' );
-
-			llms_get_template_part( 'loop/pagination' );
-
-		} else {
-
-			llms_get_template( 'loop/none-found.php' );
-		}
-
-		if ( $query ) {
-			$wp_query = $temp;
-			wp_reset_postdata();
-		}
-
-	endif;
+	if ( $query ) {
+		$wp_query = $temp;
+		wp_reset_postdata();
+	}
 
 }
 

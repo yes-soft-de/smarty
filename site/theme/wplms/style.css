@@ -1,0 +1,30 @@
+/*
+Theme Name: WPLMS
+Theme URI: http://www.VibeThemes.com/
+Description: WPLMS is a Learning Management System for WordPress. The theme is deep integrated with BuddyPress and comes packed with the Course Module plugin. 
+Theme has very powerful features which are essential for a full fledges LMS. Theme utilizes maximum of both WordPress and BuddyPress and can be run on a large scale platform as well.
+Author: Mr.Vibe
+Author URI: http://www.VibeThemes.com/
+Version: 3.8
+License: Themeforest 
+License URI: http://themeforest.net/licenses
+Text Domain: vibe
+Tags: Education, LMS, eLearning, BuddyPress, WPLMS
+Domain Path: /languages/
+*/
+
+/*=== ADD Your Custom Changes here ===*/
+
+.block_media img{width:100%;}
+#basic-details-section h4:after{content:'';}
+.security-question-section input[type="number"]{border:1px solid #DDD;}
+.security-question-section+.submit{clear:both;}
+.content ul.question_options {
+clear: both;
+display: inline-block;
+width: 100%;
+list-style:none;
+}
+
+.block.courseitem span.amount{font-size:16px !important;}
+.live-edit-sidebar,.live-edit-sidebar + .text-options{display: none;}

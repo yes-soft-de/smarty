@@ -1,0 +1,82 @@
+/**
+ * File: pricing.scss
+ * Description : Contains all styling for the course pricing in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. CREDITS
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+.course_credits{
+	text-align: center;
+	text-transform: uppercase;
+	color: #70c989;
+	font-size: 18px;
+	float: right;
+	span{
+		display: block;
+		font-size: 11px;
+	}
+}
+
+/*========================================================================*/
+/*   02. CREDITS
+/*========================================================================*/
+
+#buddypress ul.item-list li .item-credits,
+.item-credits{
+	float:right;
+	position: relative;
+	a{
+		font-size:16px;
+		margin:12px 0 5px 0;
+		color:#79c989;
+		text-align: center;
+		&.button{
+			font-size:13px;
+		}
+	}
+	input[type="submit"]{
+		font-size:13px;
+	}
+	span.subs{
+		float:none;
+		display: block;
+		font-size:11px;
+		text-transform: uppercase;
+		font-weight:600;
+	}
+	del{opacity:0.3;}
+}
+
+.credits{
+	font-size:16px;
+	margin:0;
+	color:#70c989;
+	text-transform: uppercase;
+	ins{
+		float:left;
+		margin-right:5px;
+		opacity: 1;
+	}
+	del{opacity: 0.3;font-size: 16px;}
+	& > strong > span,
+	span.subs{
+		display: block;
+		font-size:11px;
+		font-family:sans-serif;
+		font-weight:600;
+		line-height: 1;
+	}
+}

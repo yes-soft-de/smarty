@@ -1,0 +1,250 @@
+{
+	"wplms": {
+		"last_tab": 10,
+		"header_fix": 1,
+		"course_search": 0,
+		"loop_number": 5,
+		"instructor_add_students": 1,
+		"instructor_assign_badges": 1,
+		"instructor_extend_subscription": 1,
+		"notes_style":1,
+		"certificate_page": "1997",
+		"course_status_template":"fullscreen",
+		"direct_checkout":3,
+		"thankyou_redirect":1,
+		"course_duration_display_parameter": 86400,
+		"default_course_block_style":"course3",
+		"related_courses":1,
+		"logo": "http://wplms.io/demos/childone/wp-content/themes/wplms/assets/images/logo.png",
+		"google_fonts": [
+			"Roboto",
+			"Raleway"
+		],
+		"page_loader": "pageloader2",
+		"top_footer_columns": "col-md-3 col-sm-6",
+		"bottom_footer_columns": "col-md-3 col-sm-6"
+	},
+	"wplms_version": "2.4.0",
+	"widget_wplms_course_codes": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_activity": {
+		"2": {
+			"title": "",
+			"number": "5",
+			"activity": "1",
+			"messages": "1",
+			"friends": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_course_progress": {
+		"2": {
+			"title": "Course Progress",
+			"number": "5",
+			"finished": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_contact_users": {
+		"2": {
+			"title": "Contact Instructors",
+			"users": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "Contact Instructors",
+			"users": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_text": {
+		"2": {
+			"title": "Instructor Gallery",
+			"content": "[gallery ids=\"1924,1922,1918,1916,1914,1926,1928,1930,1932,1956\"]",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_tasks": {
+		"2": {
+			"title": "To do List",
+			"date": "1",
+			"priority": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "To do List",
+			"date": "1",
+			"priority": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_student_stats": {
+		"2": {
+			"title": "Student Statistics",
+			"width": "col-md-12",
+			"course": "1",
+			"quiz": "1",
+			"assignments": "1",
+			"course_chart": "Area",
+			"quiz_chart": "Line",
+			"assignment_chart": "Line"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_stats": {
+		"2": {
+			"title": "",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"3": {
+			"title": "",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"4": {
+			"title": "",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"5": {
+			"title": "",
+			"stats": "units",
+			"width": "col-md-3 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_notes_discussion": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_mymodules": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_news": {
+		"2": {
+			"title": "News",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_line_break": {
+		"2": [],
+		"3": [],
+		"_multiwidget": 1
+	},
+	"widget_wplms_instructor_dash_stats": {
+		"2": {
+			"title": "",
+			"stats": "woo_commission",
+			"width": "col-md-3 col-sm-6"
+		},
+		"3": {
+			"title": "",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"4": {
+			"title": "",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"5": {
+			"title": "",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"7": {
+			"title": "",
+			"stats": "units",
+			"width": "col-md-3 col-sm-6"
+		},
+		"8": {
+			"title": "",
+			"stats": "badges",
+			"width": "col-md-3 col-sm-6"
+		},
+		"9": {
+			"title": "",
+			"stats": "certificates",
+			"width": "col-md-3 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_instructor_stats": {
+		"2": {
+			"title": "Instructor Statistics",
+			"width": "col-md-12",
+			"range": "10",
+			"max": "10"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_instructor_commission_stats": {
+		"2": {
+			"title": "Instructor Commissions",
+			"width": "col-md-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_announcement": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_instructing_modules": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_cal": {
+		"_multiwidget": 1
+	},
+	"vibe_course_permalinks": {
+		"course_base": "/course",
+		"quiz_base": "/quiz",
+		"unit_base": "/unit",
+		"curriculum_slug": "/curriculum",
+		"members_slug": "/members",
+		"activity_slug": "/activity",
+		"admin_slug": "/admin",
+		"submissions_slug": "/submissions",
+		"stats_slug": "/stats"
+	},
+	"vibe_customizer": {
+		"header_style": "transparent",
+		"logo_size": "48",
+		"custom_css": ".homethreesteps{position:relative;padding:60px 0 0 55px;font-size:13px;}.homethreesteps h4{font-size:16px;font-weight:600;margin:0 0 10px;padding:0;}.homethreesteps i{font-size:28px;color:#2299dc;position:absolute;left:0;top:75px;}.stripe.homesixsections{margin-top:-10px;box-shadow:0 -1px 0 rgba(0,0,0,.1);text-align:center;padding:60px 0;background:#f3f3f3;display:inline-block;width:100%;}.homesixsections h2{font-size:32px;font-weight:600;margin:0 0 20px;}.homesixsections h2+p{font-size:16px;color:#666;}.homesixsections .column_content{padding:30px;font-size:13px;}.homesixsections .column_content i{font-size:36px;}.homesixsections .column_content h4{font-size:18px;font-weight:600;margin:0 0 10px;}.home header + section#content{padding-top:0;}.parallaxhome{padding-bottom:0!important;}.parallaxhome .parallax_content{padding:120px 0 60px;}.parallaxhome h2{font-size:8em;line-height:1;font-weight:800;color:#fff;text-shadow:0 0 12px #444;padding:60px 0 0;}.parallaxhome h3{font-size:3em;font-weight:800;color:#fff;text-shadow:0 0 12px #444;padding:20px 0;}.parallaxhome a{padding:5px 10px;border:2px solid #FFF;color:#FFF;font-weight:800;border-radius:2px;font-size:24px;}.parallaxhome a:hover{background:#FFF;color:#444;}section.stripe.fullwidthwhite{padding-top:30px;}section.stripe.fullwidthwhite .heading{padding:60px 0 10px;}section.stripe.fullwidthwhite li{padding:15px 0;clear:both;}section.stripe.fullwidthwhite li i{font-size:32px;float:left;padding:0 30px 0 0;color:#2299dc;}section.stripe.fullwidthwhite li strong{font-size:16px;}section.stripe.fullwidthsteps{background:#2299dc;color:#FFF;margin-top:-5px;padding:60px 0;}.fullwidthsteps h3{font-weight:600;color:#FFF;margin-bottom:0;}.fullwidthsteps h3+p{margin-top:0;}.fullwidthsteps strong{font-size:4em;line-height:.9;font-weight:800;float:left;padding:0 10px 0 0;}.fullwidthsteps .one_fourth .column_content{position:relative;}.fullwidthsteps .one_fourth .column_content:after{content:'\\e093';font-family:'fonticon';float:right;font-size:52px;position:absolute;top:30px;line-height:0;right:30px;}.fullwidthsteps .one_fourth:last-child .column_content{content:'';}.homepagefilterable,.homepagefilterable .block.courseitem .block_title{text-align:center;}.homepagefilterable .block.courseitem .block_content{text-align:left;}.homepagefilterable .vibe_filterable{float:none;display:inline-block;}.vibe_filterable li a{background:none;}.course_filters{border:1px solid #EFEFEF;}.stripe.homemain{padding:30px 0 0;font-size:16px;color:#666;}.homemain h2{font-size:48px;font-weight:600;margin:0 0 20px;}.homemain img{margin-top:60px;}.homemain .button{color:#FFF;}.homecounter{padding:60px 0;text-align:center;color:#FFF;}.homecounter h3{font-size:40px;font-weight:800;padding-bottom:20px;color:#FFF;}.homecounter h4{font-size:42px;color:#FFF;}.homecounter .column_content{border:1px solid rgba(255,255,255,.1);}.homecounter h4+p{font-size:16px;}.heading{border-bottom:1px solid #EFEFEF;position:relative;}.heading:after{content:'';background:rgb(34,153,220);width:48px;height:1px;display:block;position:absolute;bottom:-1px;}.block.modern_course .course_block_instructor{position:absolute;width:48px;bottom:-24px;right:10px;border-radius:50%;overflow:hidden;border:2px solid rgba(255,255,255,0.7);}.block_content a{font-size:11px;font-weight:600;text-transform: uppercase;}.block.modern_course h4.block_title a{font-size:18px;text-transform:none;margin-right:48px;}.block.modern_course h4.block_title{padding:0;}.block .block_content{text-align:left;}#item-body{padding:0;}#buddypress div.item-list-tabs+div.item-list-tabs#subnav{padding:20px 0;}.total_students,.review_title{margin:10px 0;}.woocart .widget_shopping_cart,.widget.pricing{border:1px solid #EFEFEF;}#vibe_bp_login label{color:#FFF;text-transform:uppercase;}.primarycolored.stripe{background:#2299dc;padding:60px 0;}"
+	},
+	"lms_settings": {
+		"general": {
+			"vibe_display_course_curriculum": "on",
+			"vibe_display_course_events": "0",
+			"vibe_display_course_activity": "0",
+			"vibe_display_course_drive": "0",
+			"curriculum_accordion": "on",
+			"skip_course_status": "on",
+			"in_course_quiz": "on",
+			"course_curriculum_below_description": "on",
+			"in_course_quiz_paged": "5"
+		}
+	},
+	"widget_wplms_annoucement": {
+		"2": {
+			"title": "Annoucement",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_bp_emails": "2.4.1",
+	"wplms_site_style": "childone",
+	"woocommerce_cart_redirect_after_add": "yes",
+	"woocommerce_enable_ajax_add_to_cart": "no"
+}

@@ -1,0 +1,965 @@
+
+#course_creation_tabs{
+	display: inline-block;
+	width:100%;
+	margin:0;
+	background:#313b3d;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	li{
+		position: relative;
+		cursor: pointer;
+		padding:30px;
+		color:#fff;
+		opacity:0.8;
+		font-size:12px;
+		text-transform: uppercase;
+		font-weight:600;
+		display: block;
+		width:100%;
+		border-bottom:1px solid rgba(255,255,255,0.1);
+		i{
+			font-size:24px;
+			float:left;
+			margin-top:2px;
+			margin-right:10px;
+			line-height: 1;
+			color:#fff;
+			opacity:0.4;
+		}
+		a{
+			font-weight:600;
+			font-size:13px;
+			color:#fff;
+			opacity:0.4;
+			span{
+				display: block;
+				font-size:10px;
+				text-transform: uppercase;
+				font-weight:600;
+				opacity:inherit;
+			}
+		}
+		&:after{
+			content:'';
+			font-family: 'fonticon';
+			width:24px;
+			height:24px;
+			position: absolute;
+			display: block;
+			right:20px;
+			top:34px;
+			background:rgba(0,0,0,0.2);
+			border-radius:50%;
+		}
+		&.active:after{
+			content:'\e1a8';
+			color:#78c8c9;
+			padding:4px 6px;
+		}
+		&.active i,
+		&.active a{
+			color:#FFF;
+			opacity:1;
+		}
+		&.done:after{
+			content:'\e038';
+			color:#FFF;
+			background:#70c989;
+			padding:4px 6px;
+		}
+		&.selected{
+			background-color:#78c8c9;
+			background-image: url(../images/button.png);
+			a{
+				color:#FFF;
+				font-weight:600;
+			}
+
+		}
+	}
+}
+
+.edit_course_content,
+.create_course_content{
+
+	.button{
+		cursor:pointer;
+	}
+	.select2-container{min-width:200px;}
+	label{
+		color:#bbb;
+		margin-bottom:5px;
+		font-size:11px;
+	}
+	h1{
+		margin-top:0px;
+		line-height: 1;
+	}
+	.wplms-taxonomy,
+	#course-category, 
+	#course-linkage{
+		
+		& > li{
+			float:left;
+			margin-right:20px;
+			width:33%;
+			list-style: none !important;
+			p{
+				font-size:13px;
+				padding-top:10px;
+				opacity: 0;
+			}
+		}
+	} 
+
+
+	#create_course{
+		#course_short_description {
+		  display: inline-block;
+		  width: 100%;
+		  max-width: 315px;
+		}
+		#featured_image{
+			float:left;
+			max-width: 240px;
+			margin-right:30px;
+			display: block;
+			&> #course_image{
+				max-width: 164px;
+				min-width: 64px;
+				min-height: 64px;
+				background: #EFEFEF;
+				.default{
+					opacity: 0.2;
+				}
+			}
+			margin-bottom:30px;
+		}
+	}
+	#course_settings,
+	#course_pricing{
+		display: none;
+		article > ul li,
+		& > ul > li{
+			display: inline-block;
+			width:100%;
+			padding:10px 0 5px;
+			border-bottom:1px solid #EFEFEF;
+			img{
+				max-width:64px;
+			}
+			&> ul{
+				padding:15px 0 0;
+				&> li{
+					display: inline-block;
+					width:100%;
+					padding:6px 0;
+					border-bottom:1px dotted #EFEFEF;
+					&:last-child{
+						border:none;
+					}
+				}
+			}			
+		}
+		h3,h5{
+			margin:0 0 10px;
+			font-weight:400;
+			span{
+				float:right;
+			}
+			& + ul{
+				display: none;
+			}
+
+		}
+
+		.small_box,
+		.mid_box,
+		.large_box,
+		.very_large_box{
+			width:64px;
+			border:1px solid #EFEFEF;
+			border-radius:2px;
+			margin-right:10px;
+		}
+		.mid_box{
+			width:160px;
+		}
+		.col-md-6{
+			.mid_box{
+				width:100%;
+				margin:0;
+			}
+		}
+		.large_box{
+			width:240px;
+		}
+		.very_large_box{width:80%;line-height:24px;padding:6px;}
+	}
+	#course_settings{
+		select{
+			float:right;
+		}
+	}
+	#course_pricing{
+		.course_pricing{
+			& > li{
+				padding:15px 0;
+				display:inline-block;
+				width:100%;
+				.select2-container,
+				input[type="text"],select{
+					width:240px;
+					float:right;
+				}
+			}
+		}
+		&.active{
+			display:block;
+			h3,h5{
+				margin-top:12px;
+				& + ul{
+					display: block;
+				}
+			}
+		}
+	}
+	#course_curriculum{
+		display: none;
+		#add_course_section,
+		#add_question,
+		#add_course_unit,
+		#add_course_quiz,
+		#add_option,
+		#upload_zip_button{
+			margin: 20px 10px 0 0;
+			cursor:pointer;
+			padding-left:36px;
+			&:before{
+				content: "\e05d";
+				color: rgba(255,255,255,0.3);
+				font-family: 'fonticon';
+				font-size: 16px;
+				position: absolute;
+				left: 10px;
+				top: 5px;
+			}
+			&:hover:before{
+				color:#FFF;
+			}
+		}
+	}
+	.curriculum{
+		margin-top:20px;
+		li {
+			padding: 8px 0;
+			border-bottom: 1px solid #EFEFEF;
+			display: inline-block;
+			width: 100%;
+			&.new_section{
+				background:#f6f6f6;
+				border:none;
+			}
+		}
+		& > li:before,
+		.vibe_question_options > li:before {
+			content: "\e05a";
+			font-family: 'fonticon';
+			font-size: 20px;
+			line-height: 1;
+			position: relative;
+			float: left;
+			padding: 8px;
+			color: #bbb;
+		}
+		input{
+			border: 1px solid #EFEFEF;
+			padding: 7px 6px 8px;
+			border-radius: 2px;
+			width:200px;
+			&.section{
+				width:85%;
+				&+.rem{
+					float:right;
+					margin:10px;
+				}
+			}
+		}
+		
+		.new_unit_actions,
+		.new_quiz_actions{
+			display: none;
+			float:right;
+			padding-left:2px !important;
+			li{
+				float: left;
+				display: inline-block;
+				width: auto;
+				padding: 0;
+				border: none;
+				margin-left: 2px;
+				input{
+					float:right;
+				}
+				a{
+					i{
+						color: #78c8c9;
+						font-size: 28px;
+					}
+				}
+			}
+		}
+		.dropdown-menu{
+			min-width:100px;
+			&> li > a:hover,
+			&> li > a:focus{
+				background:#313b3d;
+			}
+		}
+	}
+
+	#create_course,#create_course_help,
+	#course_settings,#course_settings_help,
+	#course_curriculum,#course_curriculum_help,
+	#course_pricing,#course_pricing_help,
+	#course_live,#course_live_help{
+		display: none;
+		opacity: 0;
+		&.active{
+			display: block;
+			opacity: 1;
+		}
+	}
+
+	#vibe_course_message,
+	#vibe_course_instructions,
+	#course_short_description,
+	#vibe_quiz_message,
+	#vibe_question_explaination,
+	#vibe_subtitle{
+		border: 1px dotted #EFEFEF;
+		padding: 15px;
+	}
+	#course_short_description {
+	    display: inline-block;
+	    width: 100%;
+	    max-width: 315px;
+	}
+
+	#course_settings h3,
+	.course_pricing h3{
+		font-size:14px;
+		width:100%;
+		span{
+			float:right;
+		}
+	}
+
+	.curriculum {
+		li{
+			h3{
+				display: inline;
+				font-weight: 400;
+				margin:7px 40px 0 0;
+				font-size:14px;
+				& > i{
+					float: left;
+					font-size: 20px;
+					margin-right: 10px;
+				}
+			}
+			.btn-group{
+				float:right;
+			}
+		}
+		.dropdown-menu li{
+			padding:0;
+			border:none;
+		}
+		.btn-course {
+		  color: #ffffff;
+		  background-color: #70c989;
+		  border-color: #70c989;
+		}
+		.btn-course .caret{
+			border-top: 4px solid #FFF;
+		}
+	}
+}
+
+/*========================================================================*/
+/*   01. CONTENT BOX HELP
+/*========================================================================*/
+#create_course_help,
+#course_settings_help,
+#course_pricing_help,
+#course_live_help,
+#course_curriculum_help{
+	display: none;
+	&.active{
+		display:block;
+	}
+}
+
+.course-create-help{
+	margin-top:20px;
+	li{
+		padding:15px;
+		border-radius:2px;
+		background:#FFF;
+		border:1px solid #EFEFEF;
+		font-size:13px;
+		margin-bottom:20px;
+		opacity: 0.3;
+		height:75px;
+		overflow: hidden;
+		transition: all 0.2s ease-in-out;
+		&active{
+			opacity: 1;
+			height:auto;
+			transition: all 0.2s ease-in-out;
+		}
+		span{
+			font-size:48px;
+			font-weight:800;
+			color:#EFEFEF;
+			float:left;
+			padding:2px 25px 2px 10px;
+			line-height: 1;
+		}
+	}
+}
+/*========================================================================*/
+/*   01. CONTENT BOX HELP
+/*========================================================================*/
+
+.course-create-help{
+	margin-top:20px;
+}
+
+.course-create-help li{
+	padding:15px;
+	border-radius:2px;
+	background:#FFF;
+	border:1px solid #EFEFEF;
+	font-size:13px;
+	margin-bottom:20px;
+	opacity: 0.3;
+	height:75px;
+	overflow: hidden;
+	webkit-transition: all 0.2s ease-in-out;
+	  -moz-transition: all 0.2s ease-in-out;
+	  -o-transition: all 0.2s ease-in-out;
+	  transition: all 0.2s ease-in-out;
+}
+.course-create-help li.active{
+	opacity: 1;
+	height:auto;
+	-transition: all 0.2s ease-in-out;
+	  -moz-transition: all 0.2s ease-in-out;
+	  -o-transition: all 0.2s ease-in-out;
+	  transition: all 0.2s ease-in-out;
+}
+.course-create-help li span{
+	font-size:48px;
+	font-weight:800;
+	color:#EFEFEF;
+	float:left;
+	padding:2px 25px 2px 10px;
+	line-height: 1;
+}
+
+#course_settings_help,
+#course_pricing_help,
+#course_live_help{
+	display: none;
+}
+/*========================================================================*/
+/*   01. UNIT SETTINGS
+/*========================================================================*/
+.unit_settings,
+.assignment_settings{
+	label{
+		font-size:11px;
+		color:#bbb;
+		text-transform: uppercase;
+	}
+	& > li{
+		border-bottom:1px solid #EFEFEF;
+	}
+	h3{
+		margin-top: 0;
+		font-weight: 600;
+		font-size:14px;
+		text-transform: uppercase;
+		& > span{
+			display: block;
+			margin:5px 0;
+		}
+	}
+	.switch{
+		margin-top:0;
+		background:#FFF;
+	}
+} 
+
+#save_unit_settings{
+	cursor:pointer;
+}
+
+
+
+/*========================================================================*/
+/*   01. QUIZ
+/*========================================================================*/
+#questions{
+	list-style: none;
+	border-top:5px solid #EFEFEF;
+	margin-top:20px;
+	& > li{
+		padding:8px 0 8px 30px;
+		border-bottom:1px solid #EFEFEF;
+		position: relative;
+		display: inline-block;
+		width:100%;
+		list-style: none;
+		& > strong,
+		& > span{
+			padding-top: 8px;
+			display: inline-block;
+		}
+		& > span{
+			float:right;
+			font-size:11px;
+			text-transform: uppercase;
+			font-weight:600;
+			min-width:80px;
+		}
+		& > .btn-group{
+			float:right;
+		}
+	}
+}
+#hidden li,
+#questions > li:before{
+	content: "\e0e0";
+	color:#EFEFEF;
+	font-family: 'fonticon';
+	font-size: 24px;
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+
+
+
+#hidden{opacity: 0;}
+#hidden li h3 >span,
+#questions li h3 >span{
+	float:right;
+}
+
+#questions h3.new_q{padding-top:10px;border-top:1px solid #EFEFEF;}
+#questions li h3.new_q{display: none;}
+.new_q .btn-course{margin:0;}
+
+#save_quiz_settings{cursor: pointer;}
+
+.settings_quiz{
+	text-align: left;
+}
+
+.settings_quiz > li{
+	padding: 8px 0;
+	border-bottom: 1px solid #EFEFEF;
+}
+.settings_quiz > li > label{
+	font-size:11px;
+}
+
+.settings_quiz .switch{
+	margin:0;
+	background:#FFF;
+}
+
+.assignment_settings > li,
+.question_settings > li{
+	clear:both;
+	padding: 6px 0;
+	border-bottom: 1px solid #EFEFEF;
+}
+.vibe_question_options{margin-top:30px;}
+.vibe_question_options li{
+	padding:5px 0;
+}
+.vibe_question_options li > span{
+	padding: 9px 15px;
+	background: #EEE;
+}
+.vibe_question_options li.selected > span{
+	background:#70c989;
+	color:#FFF;
+}
+.rem{
+	color:#fa7252;
+}
+.new_unit_actions+.rem{margin-top:10px;}
+.new_quiz_actions+.rem{margin-top:10px;}
+.question_settings h3 span,
+.assignment_settings h3 span{
+	float:right;
+}
+.vibe_question_options li span{cursor: pointer;}
+
+.single-unit.wp-fee-body .featured,
+.single-quiz.wp-fee-body .featured,
+.single-question.wp-fee-body .featured,
+.single-wplms-assignment.wp-fee-body .featured{
+	display: none;
+}
+/*========================================================================*/
+/*   01. ASSIGNMENT SETTINGS
+/*========================================================================*/
+
+.new_assignment_actions > li:last-child{display: none;}
+
+.new_assignment_title{
+padding:6px;margin-bottom:10px;
+}
+
+#assignments_list li{
+  	display: inline-block;
+  	width: 100%;
+  	border-bottom: 1px solid #ddd;
+}
+
+#assignments_list li strong{
+  	padding: 10px 0;
+  	display: inline-block;
+}
+#assignments_list li strong i{
+	margin-right: 10px;
+  	float: left;
+  	font-size: 20px;
+}
+#assignments_list .btn-group{
+	  float: right;
+}
+/*========================================================================*/
+/*   01. FONTEND COURSE
+/*========================================================================*/
+
+.rtl #course_creation_tabs li i{
+	float:right;
+	margin-left:10px;
+}
+.rtl #course_creation_tabs li:after{right:auto;left:20px;}
+
+.rtl #course_settings h3 > span,
+.rtl #course_settings h5 > span,
+.rtl #course_pricing h3 > span,
+.rtl #course_pricing h5>span {
+float: left;
+}
+
+.rtl .curriculum li .btn-group {
+float: left;
+}
+.rtl .curriculum>li:before,
+.rtl .vibe_question_options>li:before{float:right;}
+
+.rtl #questions>li>.btn-group {
+float: left;
+}
+/*========================================================================*/
+/*   01. SWITCHES
+/*========================================================================*/
+
+.switch {
+  position: relative;
+  margin-top:-12px;
+  height: 32px;
+  max-width:200px;
+  background: #f6f6f6;
+  border-radius: 30px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100px;
+  line-height: 34px;
+  font-size: 13px;
+  color: #444;
+  text-align: center;
+  cursor: pointer;
+}
+.create_course_content label.switch-label{
+	font-size:11px;
+	text-transform: uppercase;
+}
+.switch-label:active {
+  font-weight: bold;
+  color:#FFF;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+/*
+  Note: using adjacent or general sibling selectors 
+  combined with pseudo classes doesn't work in Safari 
+  5.0 and Chrome 12.
+  See this article for more info and a potential fix: 
+  http://css-tricks.com/webkit-sibling-bug/
+*/
+
+.switch-input {
+  display: none;
+}
+
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: #FFF;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+.create_course_content .switch-input:checked + .switch-label {
+	color:#FFF !important;
+}
+.switch > .switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 100px;
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 32px;
+  border-radius: 30px;
+  background-color:#70c989;
+  border-color:#70c989;
+  background-image:url(../images/button.png);
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+.switch-blue .switch-selection {
+  background-color: #3aa2d0;
+  border-color: #3aa2d0;
+  background-image:url(../images/button.png);
+}
+
+.switch-yellow .switch-selection {
+  background-color: #c4bb61;
+  border-color: #c4bb61;
+  background-image:url(../images/button.png);
+
+}
+
+#new_course_linkage,
+#new_course_category{
+	border-bottom: 2px solid #EFEFEF;
+	padding-bottom: 5px;
+	min-width: 200px;
+}
+/*==== Datepicker ===*/
+
+  /* DatePicker Container */
+.ui-datepicker {
+    height: auto;
+    margin: 5px auto 0;
+    border: 2px solid #444;
+    font-size: 11px;
+    border-radius:2px;
+    background: #FFF
+}
+.ui-datepicker a {
+    text-decoration: none;
+}
+
+/* DatePicker Table */
+.ui-datepicker table {
+    width: 100%;
+}
+.ui-datepicker-header {
+    background: #444;
+    color: #e0e0e0;
+    font-weight: bold;
+    line-height: 30px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #111;
+}
+.ui-datepicker-title {
+    text-align: center;
+    font-weight:600;
+    font-size:12px;
+    color:#FFF;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    line-height: 600%;
+    overflow: hidden;
+    font-family:'dashicons';
+    position: relative;
+}
+.ui-datepicker-prev {
+    float: left;
+    background-position: center -30px;
+}
+.ui-datepicker-prev:before{
+    content: "\f341";
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -20px;
+    left: 0;
+}
+.ui-datepicker-next {
+    float: right;
+    background-position: center 0px;
+}
+.ui-datepicker-next:before{
+    content: "\f345";
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -20px;
+    right: 0;
+}
+.ui-datepicker thead {
+    background-color: #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+}
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px 0;
+    color: #444;
+}
+.ui-datepicker tbody td {
+    padding: 0;
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 0px;
+}
+.ui-datepicker tbody tr {
+    border-bottom: 1px solid #EFEFEF;
+}
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    color: #666666;
+}
+.ui-datepicker-calendar .ui-state-default {
+    border-right: 1px solid #EFEFEF;
+    font-weight:400;
+}
+.ui-datepicker-calendar .ui-state-hover {
+    background: #f7f7f7;
+}
+.ui-datepicker-calendar .ui-state-active {
+    background: #70C989;
+    color: #FFF;
+    font-weight:600;
+    position: relative;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+    background: #f4f4f4;
+    color: #b4b3b3;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 29px;
+    margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 29px;
+    margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+    height: 29px;
+    margin-bottom: 0;
+}
+
+
+/* === Timepicker ==== */
+div.time-picker {
+  position: absolute;
+  height: 191px;
+  width:4em; /* needed for IE */
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #aaa;
+  z-index: 99;
+  margin: 0;
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+		li {
+		  cursor: pointer;
+		  font: 12px/1 Helvetica, Arial, sans-serif;
+		  padding: 4px 3px;
+		&.selected {
+  			background: #0063CE;
+  			color: #fff;
+		}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   01. Media Queries
+/*========================================================================*/
+
+@media screen and (max-width: 1200px){
+	#course_creation_tabs li{
+		padding:30px 20px;
+	}
+	#course_creation_tabs li:after{right:10px;}
+	#course_settings h3 > span, #course_settings h5 > span, #course_pricing h3 > span, #course_pricing h5 > span{
+		margin-top:20px;
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 992px){
+#course_creation_tabs li i{display: none;}
+}
+@media screen and (max-width: 768px){
+	#course_creation_tabs li i{display: block;}
+	#course_creation_tabs li{
+		padding:30px;
+	}
+}

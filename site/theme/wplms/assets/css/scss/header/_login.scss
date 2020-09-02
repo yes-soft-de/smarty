@@ -1,0 +1,824 @@
+/**
+ * File: login.scss
+ * Description : Login drop styling for the WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULTS
+/*    02. DEFAULT DROPDOWN
+/*    03. FULLSCREEN LOGIN
+/*    04. POPUP LOGIN
+/*    05. APP STYLE LOGIN
+/*    06. RESPONSIVE
+/*
+/*========================================================================*/
+/*   01. DEFAULTS
+/*========================================================================*/
+
+
+/*========================================================================*/
+/*   02. DEFAULT DROPDOWN
+/*========================================================================*/
+
+#vibe_bp_login{
+	display: none;
+	width: 240px;
+	position: absolute;
+	right: 0;
+	top: 36px;
+	background: $topheaderbg;
+	border-radius:2px;
+	opacity: 1;
+	z-index: 100;
+	margin: 0;
+	padding: 20px;
+	border:none;
+	font-size:12px;
+	.inside_login_form{
+    	position:relative;
+    	overflow:hidden;
+	}
+	span{
+		background: #fa7252;
+		padding: 1px 6px;
+		font-size: 12px;
+		font-weight: 800;
+		border-radius: 20px;
+		margin-left: 10px;
+	}
+	&:after{
+		content:'';
+		position: absolute;
+		top:-14px;
+		right:30px;
+		border:7px solid;
+		border-color: transparent transparent $topheaderbg transparent;
+	}
+	input[type="text"],input[type="password"],input[type="email"]{
+		background: rgba(0,0,0,0.2);
+		border: 1px solid rgba(255,255,255,0.2);
+		padding: 6px;
+		border-radius: 2px;
+		margin: 4px 0 0 0;
+		width: 100%;
+		font-size: 14px;
+		color: $topheadercolor;
+		margin-bottom: 10px;
+		&.error{
+			text-transform:none;
+			border-color:#F16645 !important;
+		}
+	}
+	input[type="submit"]{
+		padding:7px 20px;
+		margin-right:12px;
+	    font-size:11px;
+	    font-weight:600;
+	    background-color: $primarybg;
+	    color:$primarycolor;
+	    border:none;
+	    border-radius:2px;
+	    text-transform: uppercase;
+	}
+	label{
+		font-size:11px;
+		width:100%;
+		color:#FFF;
+		input[type="checkbox"]{
+			margin-right: 5px;
+		}
+	}
+	#sidebar-me{
+		text-align:left;
+	}
+	.vbpregister{
+		padding:7px 20px;
+		font-size: 11px;
+		font-weight:600;
+		background-color: $secondarybg;
+	    color:$secondarycolor;
+	    border:none;
+	    border-radius:2px;
+	}
+
+	#vbp-login-form{
+		label{
+			& > a{
+				font-weight: 600;
+			    opacity: 0.3;
+			    float: right;
+			}
+		}
+		.checkbox{
+			label:before{
+				background:rgba(0,0,0,0.1);
+				float:left;
+				margin-top:2px;
+			}
+			label:after{margin-top:1px;}
+		}
+	} 
+
+	&.active{
+		#bpavatar{
+			float:left;
+			max-width:80px;
+			img{
+				width:64px;
+				height:auto;
+				margin:20px 10px 20px 20px;
+				border-radius:50%;
+			}
+		}
+		li{
+			margin:0;
+			padding:0;
+			border:none;
+			width:100%;
+		}
+	}
+	ul{
+		width: 146px;
+		float: right;
+		padding: 20px 20px 20px 10px;
+		& + ul{
+			width:100%;
+			text-align:start;
+			padding: 0px 20px;
+			background:#313B3D;
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+			li{ 
+				i{
+					float:right;
+				}
+				a{
+					padding: 6px 0;
+					font-size:12px;
+					display: inline-block;
+					width: 100%;
+					text-transform:uppercase;
+					font-weight:600;
+					border-bottom: 1px dotted rgba(255,255,255,0.2);
+				}
+				&:last-child{
+					border:none;
+				}
+			}
+		}
+		&:last-child{
+			padding-bottom:20px;
+		}
+		li{
+			position: relative;
+			a{color:#FFF;}
+			&#username{
+				font-size: 14px;
+				line-height: 1.2;
+				margin-bottom:3px;
+				text-transform: none;
+				&+li>a{text-transform: none;}
+			}
+			&#vbplogout a{
+				font-size:11px;
+				color:#FFF;
+			}
+		}
+	}
+	a:hover{
+		color:#FFF;
+	}
+	.bp_social_connect{
+	    display: inline-block;
+	    width: 100%;
+		a{
+		    padding: 12px !important;
+		    line-height:1.6 !important;
+		    min-width: auto;
+		    width: 100%;
+		    box-shadow: none;
+		    margin: 15px 0 0;
+		    color:#FFF;
+			&.bp_social_connect_facebook{
+				background:#3b5998;
+				color:#FFF !important;
+				font-size:11px;
+				&:before{
+					content: "\f09a";
+					float:left;
+					font-size:14px;
+					font-family:'fontawesome';
+					opacity:0.6;
+				}
+			}
+			&#bp_social_connect_google{
+				background:#DD4B39;
+				color:#FFF !important;
+				font-size:11px;
+				&:before{
+					content: "\f0d5";
+					opacity:0.6;
+					float:left;
+					font-size:14px;
+					font-family:'fontawesome';
+				}
+			}
+		}
+	}
+	#wplms_custom_registration_form,
+    #wplms_forgot_password_form{
+    	background:#232b2d;
+    }
+
+
+	#wplms_custom_registration_form,
+	#wplms_forgot_password_form{
+        transition: all 200ms ease-in;
+	    transform: translateX(100%);
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width:100%;
+	    ul{
+	    	width:100%;
+	    	li{
+	    		text-align:left;
+	    	}
+	    }
+	    &.active{
+	    	transform: translateX(0);
+	    }
+	    .message{display:inline-block;width:100%;}
+    }
+    #wplms_custom_registration_form{max-height:50vh;overflow-y:auto;}
+    #wplms_forgot_password_form{
+	    transform: translateX(-100%);
+	    button{
+	    	&.disabled{
+	    		opacity:0.9;
+	    	}
+	    }
+    }
+
+    .message_wrap{
+        position: absolute; 
+        left: 5px; bottom: 5px; 	
+        width: calc(100% - 10px); 
+        height: auto; 
+        padding: 15px; 
+        border: none; z-index:9;
+        background: rgba(0,0,0,.8); 
+        box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	    .message{
+	    	position:relative;
+	    	text-align: center;
+		    background: none;
+		    border: none;
+		    color: #fff;
+		    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	    	span{
+	    		position: absolute; 
+	    		top: -10px; 
+	    		right: -10px; 
+	    		width: 16px; 
+	    		height: 16px; 
+	    		background: 0 0;
+	    		&:before{
+	    			content:"\f00d";
+	    			font-family:fontawesome;
+	    			font-size:13px;
+	    			color:#fff;
+	    		}
+	    	}
+	    }
+	    
+    }
+}
+
+.logged-in{
+	#vibe_bp_login{
+		padding:0;
+	}
+}
+.admin-bar{
+	#vibe_bp_login{
+		top:66px;
+	}
+}
+
+/*========================================================================*/
+/*   03. FULLSCREEN
+/*========================================================================*/
+
+.logged-out{
+	#vibe_bp_login{
+		.fullscreen_login{
+		    position: fixed;
+		    top: 0;
+		    left: 0;
+		    width: 100vw;
+		    height: 100vh;
+		    z-index:2;
+		    background: #313b3d;
+		    #vbp-login-form{
+		        width: 360px;
+			    margin: 0 auto;
+			    margin-top:120px;
+			    padding: 60px;
+			    background: #232b2d;
+			    border-radius: 4px;
+			    .login_logo{
+			    	max-width: 240px;
+				    margin: 0 20px 20px;
+				    display: inline-block;
+				    padding: 0 20px;
+				    line-height: 1;
+			    }
+		    }
+		    #close_full_popup{
+		    	position:fixed;
+		    	top:30px;
+		    	right:30px;
+		    	&:before{
+	    		    content: "\f00d";
+	    		    font-family:'fontawesome';
+	    		    font-size:32px;
+	    		    color:#FFF;
+		    	}
+		    }
+		}
+		&:after{
+			right:90px;
+		}
+	}
+}
+
+
+/*========================================================================*/
+/*   04. POPUP
+/*========================================================================*/
+
+
+.logged-out{
+	#vibe_bp_login{
+		&.pop_login.active{
+			padding:0;
+			&:after{border:none;}
+			label{
+				width:auto;
+			}
+		}
+		.popup_overlay{
+			position: fixed;
+		    top: 0;
+		    left:0;
+		    width:100vw;
+		    height:100vh;
+		    background:rgba(0,0,0,0.7);
+			z-index:1;
+		}
+		.popup_login{
+		    position: fixed;
+		    top: 0;
+		    left:0;
+		    width:100vw;
+		    z-index:2;
+		    h3{
+		    	font-size:16px;
+		    	letter-spacing:2px;
+		    	padding:30px 0 0;
+		    	margin:0 0 10px;
+		    	color:#444;
+		    }
+		    #vbp-login-form{
+		        width: 360px;
+			    margin: 0 auto;
+			    margin-top:120px;
+			    padding: 0px;
+			    background: #FFF;
+			    color:#444;
+			    .inside_login_form{
+			    	position:relative;
+			    	overflow:hidden;
+			    	box-shadow:0 0 10px rgba(0,0,0,0.5);
+			    	letter-spacing:1px;
+			    	#close_full_popup{
+				    	position:absolute;
+				    	top:30px;
+				    	right:30px;
+				    	&:before{
+			    		    content: "\f00d";
+			    		    font-family:'fontawesome';
+			    		    font-size:16px;
+			    		    color:#444;
+				    	}
+				    }
+			    	.inside{
+			    		padding:0 30px 5px;
+			    		text-align:left;
+				    	input[type="text"],
+					    input[type="password"]{
+					    	border:none;
+					    	background:transparent;
+					    	color:#444;
+					    	font-size:11px;
+					    	text-transform:uppercase;
+					    	letter-spacing:1px;
+					    	border-bottom:2px solid #EEE;
+					    	transition: all 0.2s ease-in-out;
+					    	&:focus{
+					    		border-color:$primarybg;
+					    	}
+					    }
+					    a{
+				    	    color: #444;
+						    float: right;
+						    line-height: 1;
+						    font-size: 12px;
+						    padding-top: 10px;
+					    }
+					    .checkbox{display:inline-block;}
+					    label,.tip{
+					    	font-size:11px;
+					    	color: #444;
+					    	text-transform:uppercase;
+					    }
+					    .tip{
+					    	padding-top:12px;
+					    }
+			    	}
+				    .inside+ul{
+				    	padding:0;
+				    	margin:0;
+				    	clear: both;
+		    			width: 100%;
+				    	li{
+				    		list-style:none;
+				    		float: left;position:static;
+						    text-align: center;
+						    &:first-child:nth-last-child(1){
+						    	width:100%;
+						    }
+						    &:first-child:nth-last-child(2),
+						    &:first-child:nth-last-child(2) ~ li{
+						    	width:50%;
+						    }
+						    input[type="submit"],.vbpregister{
+					    	    width: 100%;
+							    border: none;
+							    border-radius: 0;
+							    padding: 15px;
+						        text-transform: uppercase;
+							    display: inline-block;
+							    opacity:0.9;
+							    height:48px;
+							    &:hover{
+							    	opacity:1;
+							    } 
+						    }
+				    	}
+				    }
+				    #wplms_custom_registration_form,
+					#wplms_forgot_password_form{
+						padding:30px;
+						background:#fff;
+						label{color:#444;}
+					}
+			    }
+		    }
+		}
+	}
+}
+
+/*========================================================================*/
+/*   05. BIG DROP STYLE
+/*========================================================================*/
+
+.logged-out{
+	#vibe_bp_login{
+		&.bigdrop_login{
+			width:460px;
+			&:after{
+				left: auto !important;
+	    		right: 60px !important;
+			}
+		    input[type=submit],
+		    .vbpregister{
+		    	padding:15px;
+		    	width:100%;
+		    	display: inline-block;
+				text-align: center;
+		    }
+		}
+	}
+}
+/*========================================================================*/
+/*   06. CHANGES
+/*========================================================================*/
+
+.mooc{
+	#vibe_bp_login:after{
+		left:60px;
+		right:auto;
+	}
+}
+
+.login_sidebar{
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+	.login_content{
+		overflow-x:hidden;
+		#vbp-login-form{
+			input[type="submit"],
+			.vbpregister{
+			    padding: 15px;
+			    width: 100%;
+			    margin-bottom: 15px;
+			}
+			.vbpregister{background:$secondarybg;}
+			#wplms_custom_registration_form,
+			#wplms_forgot_password_form{
+		        transition: all 200ms ease-in;
+			    transform: translateX(100%);
+			    position: absolute;
+			    left: 0;
+			    top: 0;
+			    padding:120px 15px 60px;
+			    width:100%;
+			    ul{
+			    	width:100%;
+			    	li{
+			    		text-align:left;
+			    	}
+			    }
+			    &.active{
+			    	transform: translateX(0);
+			    }
+			    .message{display:inline-block;width:100%;background: rgba(0,0,0,0.8); border: none; box-shadow: 0 0 5px rgba(0,0,0,0.8);}
+		    }
+		    #wplms_forgot_password_form{
+			    transform: translateX(-100%);
+			    button{
+			    	&.disabled{
+			    		opacity:0.9;
+			    	}
+			    }
+		    }
+		}
+		.bp_social_connect a{min-width:none;}
+	}
+}
+/*========================================================================*/
+/*   06. MODERN LOGIN
+/*========================================================================*/
+
+
+
+
+
+/*=== Login Modal ===*/
+
+#vibe_bp_login{
+
+  	
+	#wplogin-modal {
+	  	
+	  	display:none;	
+	  	z-index: 10000;
+	  	position: fixed;
+  	    left: 0;
+    	width: 100%;
+    	position: fixed;
+    	text-align: center;
+
+	  	transition: all 0.2s ease-in-out;
+	  	&.show{
+	  		display:block;
+	  		display: flex;
+			align-items: center;
+			justify-content: center;
+	  	}
+	  	
+  		.md-content{
+			width: 60%;
+    		display: inline-block;
+  			text-align:start;
+  		}
+  		.Aligner-item--top {
+		  align-self: flex-start;
+		}
+
+		.Aligner-item--bottom {
+		  align-self: flex-end;
+		}	
+	}
+
+	#wplogin-modal-overlay{
+		display:none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(255,255,255,0.97);
+		&.show{
+	  		display:block;
+	  	}
+	  	#close-modal{
+	  		float:right;
+	  		margin:0 30px 0 0;
+	  		color:rgba(0,0,0,0.9);
+	  		&:after{
+	  			content: "\f00d";
+	  			font-family: 'fontawesome';
+		        font-size: 48px;
+		        opacity: 0.4;
+	  		}
+	  	}
+	}
+
+	#wplogin-modal{
+		margin:auto;
+		max-height:100vh;
+		overflow-y:scroll;
+		h3{
+			text-align:center;
+			margin:10px 0;
+			font-size:18px;
+			text-transform:uppercase;
+		}
+		input.no-border{
+			border:none;
+			padding-left:0;
+			padding-right:0;
+			box-shadow:none;
+			background:none;
+			&.error{
+				border-bottom:2px solid #F16645;
+			}
+		}
+		.list-group{
+			margin-bottom:15px;
+		}
+		.list-group-item{
+			label{
+				font-size:11px;
+				text-transform:uppercase;
+			    color: #444;
+			}
+			input[type="text"],
+			input[type="password"],
+			input[type="email"]{
+				font-size:14px;
+				color:#444;
+			}
+		}
+		.checkbox,
+		#forgot_password_trigger{
+			font-size:11px;
+			text-transform:uppercase;
+			color:#aaa;
+			margin:0;
+			display:inline;
+			label{
+				display:inline;
+				color:#444;
+			}
+		}
+		#user_email.error{border:1px solid red;}
+		#rememberme{
+			margin:5px 10px 0 0;
+		}
+		.btn-block{
+			background-image:none;
+			font-size:14px;
+			font-weight:600;
+			text-transform:uppercase;
+		}
+		.remember_me {
+			label{
+				font-size: 11px;
+			    text-transform: uppercase;
+		   	    color: #bbb;
+			}
+			span{
+				margin-left:5px;
+			}
+		}
+		.btn-facebook,.bp_social_connect_facebook{
+			background:#3B5998;
+			color:#FFF;
+			&:before{
+				content: "\f09a";
+				float:left;
+				font-family:'fontawesome';
+				color:#FFF;
+				font-size:16px;
+			}
+		}
+		.btn-google,
+		#bp_social_connect_google,
+		.bp_social_connect_google{
+			background:#d34836;
+			color:#fff;
+			&:before{
+				content: "\f1a0";
+				float:left;
+				font-family:'fontawesome';
+				color:#FFF;
+				font-size:16px;
+			}
+		}
+		#user-submit{
+			margin-top:15px;
+			padding:12px 0;
+		}
+		.btn-facebook,.btn-google,.btn-default,
+		#bp_social_connect_google,
+		.bp_social_connect_google,
+		.bp_social_connect_facebook{
+			padding:28px 20px;
+			width: 100%;
+		    display: inline-block;
+		    text-align: center;
+		    margin:0 0 10px;
+		}
+		#login_register_form{
+			transform:translateX(0);
+			transition: all 0.5s ease-in-out;
+			.checkbox{
+				label{
+					&:before{
+						float:left;
+					}
+				}
+			}
+			.checkbox > label:after{
+			    top: -3px;
+	    		left: -23px;
+			}
+		}
+		#login_register_form.slidehide{
+			transform:translateX(-100vw);
+		}
+		#forgot_password{
+			position: absolute;
+			top: 0;
+			width: 100%;
+			transform:translateX(100vw);
+			transition: all 0.5s ease-in-out;
+			.link{
+				margin-top:10px;
+				display:block;
+				font-size:11px;
+				text-transform:uppercase;
+				color:#aaa;
+			}
+		}
+		#forgot_password.slideshow{
+			transform:translateX(0vw);
+		}
+		#wplms_custom_registration_form,
+		#wplms_forgot_password_form{
+
+			background:rgba(255,255,255,0.9);
+			padding:45px 2px;
+			label{
+				color:#444;
+			}
+			input{
+				background:#fff;
+				color:#444;
+				border-color:#ddd;
+			}
+			ul{
+			    padding: 10px 0;
+			}
+		}
+	}
+	&.active{
+		#wplogin-modal,
+		#wplogin-modal-overlay{
+			display:block;	
+		}
+	}
+}
+
+/*========================================================================*/
+/*   06. RESPONSIVE
+/*========================================================================*/
+
+@media(max-width:768px){
+	.bigdrop_login{
+		.inside_login_form{
+			margin-top:15px;
+		}
+	}
+}

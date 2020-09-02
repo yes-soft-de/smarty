@@ -27,8 +27,8 @@ var LLMS = window.LLMS || {};
 	 *
 	 * @package LifterLMS/Scripts
 	 *
-	 * @since    3.14.0
-	 * @version  3.14.0
+	 * @since 3.14.0
+	 * @version 4.3.1
 	 */
 	
 	LLMS.Achievements = {
@@ -36,16 +36,17 @@ var LLMS = window.LLMS || {};
 		/**
 		 * Init
 		 *
-		 * @return   void
-		 * @since    3.14.0
-		 * @version  3.14.0
+		 * @since 3.14.0
+		 *
+		 * @return void
 		 */
 		init: function() {
 	
-			var self = this;
-	
 			if ( $( '.llms-achievement' ) ) {
-				$( document ).on( 'ready', function() {
+	
+				var self = this;
+	
+				$( function() {
 					self.bind();
 					self.maybe_open();
 				} );
@@ -56,9 +57,9 @@ var LLMS = window.LLMS || {};
 		/**
 		 * Bind DOM events
 		 *
-		 * @return   void
-		 * @since    3.14.0
-		 * @version  3.14.0
+		 * @since 3.14.0
+		 *
+		 * @return void
 		 */
 		bind: function() {
 	
@@ -89,10 +90,10 @@ var LLMS = window.LLMS || {};
 		/**
 		 * Creates modal a modal for an achievement
 		 *
-		 * @param    obj   $el  jQuery selector for the modal card
-		 * @return   void
-		 * @since    3.14.0
-		 * @version  3.14.0
+		 * @since 3.14.0
+		 *
+		 * @param obj $el The jQuery selector for the modal card.
+		 * @return void
 		 */
 		create_modal: function( $el ) {
 	
@@ -132,9 +133,9 @@ var LLMS = window.LLMS || {};
 		/**
 		 * On page load, opens a modal if the URL contains an achievement in the location hash
 		 *
-		 * @return   void
-		 * @since    3.14.0
-		 * @version  3.14.0
+		 * @since 3.14.0
+		 *
+		 * @return void
 		 */
 		maybe_open: function() {
 	
@@ -1528,6 +1529,7 @@ var LLMS = window.LLMS || {};
 	 *
 	 * @since 3.36.0
 	 * @since 3.37.14 Use persistent reference to JS Cookies.
+	 * @since 4.2.0 Set sameSite to `strict` for cookies.
 	 *
 	 * @param string group Storage group id/name.
 	 */
@@ -1589,6 +1591,7 @@ var LLMS = window.LLMS || {};
 		 * Store an item in the group by key.
 		 *
 		 * @since 3.36.0
+		 * @since 4.2.0 Set sameSite to `strict` for cookies.
 		 *
 		 * @param string key Item key name.
 		 * @param mixed val Item value
@@ -1597,7 +1600,7 @@ var LLMS = window.LLMS || {};
 		this.set = function( key, val ) {
 			var data = self.getAll();
 			data[ key ] = val;
-			return store.set( group, data );
+			return store.set( group, data, { sameSite: 'strict' } );
 		};
 	
 	}
