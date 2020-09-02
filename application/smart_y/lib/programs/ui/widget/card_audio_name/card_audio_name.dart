@@ -64,14 +64,14 @@ class _CardAudioNameState extends State<CardAudioName> {
                             decoration: BoxDecoration(
                                 color: Color(0x8fB9F6CA),
                                 borderRadius: BorderRadius.all(Radius.circular(32))),
-                            child: widget.playerService.isPlaying(widget.track)
+                            child: AudioPlayerService().isPlaying(MediaItem(widget.name, widget.track))
                                 ? Icon(Icons.pause)
                                 : Icon(Icons.play_arrow),
                           ),
                           onTap: () {
-                            widget.playerService.isPlaying(widget.track)
+                            AudioPlayerService().isPlaying(MediaItem(widget.name, widget.track))
                                 ? widget.playerService.pause()
-                                : widget.playerService.play(widget.track);
+                                : widget.playerService.play(MediaItem(widget.name, widget.track));
                             setState(() {});
                           },
                           onLongPress: () {

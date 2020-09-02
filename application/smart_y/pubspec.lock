@@ -50,15 +50,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.5.0-nullsafety"
-  audio_service:
+  audio_manager:
     dependency: "direct main"
     description:
-      name: audio_service
+      name: audio_manager
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.14.1"
+    version: "0.5.5+3"
   audio_session:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: audio_session
       url: "https://pub.dartlang.org"
@@ -405,20 +405,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_cache_manager:
-    dependency: transitive
-    description:
-      name: flutter_cache_manager
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.4.1"
-  flutter_isolate:
-    dependency: transitive
-    description:
-      name: flutter_isolate
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0+14"
   flutter_localizations:
     dependency: "direct main"
     description: flutter

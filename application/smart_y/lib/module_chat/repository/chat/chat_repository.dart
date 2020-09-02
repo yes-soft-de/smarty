@@ -4,12 +4,12 @@ import 'package:smarty/module_chat/model/chat/chat_model.dart';
 
 @provide
 class ChatRepository {
-  final Firestore _firestore = Firestore.instance;
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
   Stream<QuerySnapshot> requestMessages(String chatRoomID) {
     return _firestore
         .collection('chat_rooms')
-        .document(chatRoomID)
+        .doc(chatRoomID)
         .collection('messages')
         .orderBy('sentDate', descending: false)
         .snapshots();

@@ -7,7 +7,6 @@ class VideoCardWidget extends StatefulWidget {
   final String image;
   final bool isPaid;
   final String text;
-  final AudioPlayerService playerService;
   final String track;
 
   VideoCardWidget(
@@ -15,7 +14,6 @@ class VideoCardWidget extends StatefulWidget {
       @required this.backgroundColor,
       @required this.image,
       @required this.isPaid,
-      @required this.playerService,
       @required this.text,
       @required this.track});
 
@@ -38,11 +36,24 @@ class _VideoCardWidgetState extends State<VideoCardWidget> {
   final String text;
   final String track;
 
+  bool playing = false;
+  AudioPlayerService audioService = AudioPlayerService();
+
   _VideoCardWidgetState(this.color, this.backgroundColor, this.image,
       this.isPaid, this.text, this.track);
 
   @override
   Widget build(BuildContext context) {
+    AudioPlayerService.playerEventStream.listen((event) {
+      print('Got Audio Event: ' + event);
+      if (event == widget.track) {
+        playing = true;
+      } else {
+        playing = false;
+      }
+      setState(() {});
+    });
+
     return Container(
       height: 100,
       child: Card(
@@ -81,19 +92,16 @@ class _VideoCardWidgetState extends State<VideoCardWidget> {
                 decoration: BoxDecoration(
                     color: Color(0x8fB9F6CA),
                     borderRadius: BorderRadius.all(Radius.circular(32))),
-                child: widget.playerService.isPlaying(track)
-                    ? Icon(Icons.pause)
-                    : Icon(Icons.play_arrow),
+                child: playing ? Icon(Icons.pause) : Icon(Icons.play_arrow),
               ),
               onTap: () {
-                widget.playerService.isPlaying(track)
-                    ? widget.playerService.pause()
-                    : widget.playerService.play(track);
-                setState(() {});
-              },
-              onLongPress: () {
-                widget.playerService.stop();
-                setState(() {});
+                if (playing) {
+                  print('Video Player Pausing!');
+                  audioService.pause();
+                } else {
+                  print("Video Player Playing");
+                  audioService.play(MediaItem(widget.text, widget.track));
+                }
               },
             )
           ],

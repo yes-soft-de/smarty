@@ -1,5 +1,6 @@
 //import 'package:firebase_analytics/firebase_analytics.dart';
 //import 'package:firebase_analytics/observer.dart';
+import 'package:audio_manager/audio_manager.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -17,10 +18,9 @@ import 'di/components/app.component.dart';
 import 'generated/l10n.dart';
 import 'meditation/Meditation_module.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp();
-  FlutterError.onError = Crashlytics.instance.recordFlutterError;
+  await Firebase.initializeApp();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]).then((_) async {
@@ -52,6 +52,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    FlutterError.onError = Crashlytics.instance.recordFlutterError;
+    
+    AudioManager.instance.onEvents((events, args) {
+      print("$events, $args");
+    });
+    
     Map<String, WidgetBuilder> fullRoutesList = Map();
 
     fullRoutesList.addAll(_homeModule.getRoutes());

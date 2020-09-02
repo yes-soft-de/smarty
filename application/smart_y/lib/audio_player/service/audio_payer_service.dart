@@ -1,49 +1,54 @@
+import 'package:audio_manager/audio_manager.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:inject/inject.dart';
-import 'package:just_audio/just_audio.dart';
 import 'package:rxdart/rxdart.dart';
 
 @provide
 class AudioPlayerService {
-  final AudioPlayer _player = AudioPlayer();
+  static PublishSubject<String> _playerEventSubject = PublishSubject<String>();
 
-  final PublishSubject _playerEventSubject = PublishSubject();
-  Stream<String> get playerEventStream => _playerEventSubject.stream;
+  static Stream<String> get playerEventStream => _playerEventSubject.stream;
 
-  String currentTrack;
+  AudioManager player = AudioManager.instance;
 
-  void play(String track) {
+  void play(MediaItem track) async {
     if (track == null) {
       return;
     }
-    currentTrack = track;
-    _playerEventSubject.add(track);
-    if (_player.playing) {
-      _player.stop();
-    }
-
-    String editedTrackUrl = track.replaceAll('https', 'http');
-    _player.load(AudioSource.uri(Uri.parse(editedTrackUrl)));
-    _player.play();
+    Fluttertoast.showToast(
+        msg: 'Buffering ' + track.name, toastLength: Toast.LENGTH_LONG);
+    _playerEventSubject.add(track.url);
+    player.stop();
+    player = AudioManager.instance;
+    await player.start(track.url, track.name,
+        desc: "Smart y", cover: 'assets/Logo.png');
+    player.playOrPause();
   }
 
   void stop() {
-    if (_player.playing) {
-      _playerEventSubject.add(null);
-      _player.stop();
-    }
+    player.stop();
+    player = AudioManager.instance;
+    _playerEventSubject.add('null');
   }
 
   void pause() {
-    if (_player.playing) {
-      _player.pause();
-    }
+    player.stop();
+    player = AudioManager.instance;
+    _playerEventSubject.add('null');
   }
 
-  bool isPlaying(String track) {
-    return currentTrack == track && _player.playing;
+  bool isPlaying(MediaItem track) {
+    return player.isPlaying;
   }
 
   void dispose() {
     _playerEventSubject.close();
   }
+}
+
+class MediaItem {
+  String url;
+  String name;
+
+  MediaItem(this.name, this.url);
 }

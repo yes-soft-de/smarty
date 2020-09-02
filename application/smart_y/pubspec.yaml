@@ -76,8 +76,7 @@ dependencies:
 
   # Audio Player
   just_audio: ^0.4.0
-  audio_service: ^0.14.1
-  audio_session: ^0.0.4
+  audio_manager: ^0.5.5+3
 
   # Video Player
   video_player: ^0.10.12+2

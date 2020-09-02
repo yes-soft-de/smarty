@@ -44,7 +44,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.smarty"
-        minSdkVersion 19
+        minSdkVersion 23
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

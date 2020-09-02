@@ -157,22 +157,20 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
             VideoCardWidget(
-              playerService: widget.audioPlayerService,
               track:
-                  'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                  'https://assets.penguinrandomhouse.com/wp-content/uploads/2018/08/30141413/01-Meditation-1-Mindfulness-Of-Body-And-Breath-11.mp3',
               color: Color(0xff3dd598),
               backgroundColor: Color(0xff286053),
-              text: 'Mindfulness',
+              text: 'Mindfulness 01',
               image: 'assets/Rectangle 2.png',
               isPaid: false,
             ),
             VideoCardWidget(
-              playerService: widget.audioPlayerService,
               track:
-                  'http://www.freemindfulness.org/FreeMindfulness3MinuteBreathing.mp3',
+                  'https://www.livingwell.org.au/mindfulness-exercises-3/8-mindfulness-of-thoughts',
               color: Color(0xff9a4614),
               backgroundColor: Color(0xff0a0219),
-              text: 'Mindfulness',
+              text: 'Mindfulness 02',
               image: 'assets/Rectangle 1.png',
               isPaid: true,
             ),
