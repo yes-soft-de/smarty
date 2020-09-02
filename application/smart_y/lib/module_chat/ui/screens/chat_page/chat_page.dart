@@ -53,9 +53,6 @@ class ChatPageState extends State<ChatPage> {
         // direction: Axis.vertical,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          AppBar(
-            title: Text('Chat Room'),
-          ),
           Expanded(
             child: chatsMessagesWidgets != null
                 ? ListView(
@@ -89,9 +86,9 @@ class ChatPageState extends State<ChatPage> {
                     height: 48,
                     width: 48,
                     decoration: BoxDecoration(
-                        color: Colors.greenAccent,
+                        color: Color(0xff5E239D),
                         borderRadius: BorderRadius.all(Radius.circular(90))),
-                    child: Icon(Icons.send),
+                    child: Icon(Icons.send, color: Colors.white),
                   ),
                 ),
               )

@@ -85,7 +85,7 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
 
   Widget getPageLayout() {
     return DefaultTabController(
-      length: 4,
+      length: 5,
       child: Scaffold(
           appBar: AppBar(
             title: Text(
@@ -97,75 +97,76 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
           body: Column(
             children: [
               Container(
-                height: MediaQuery.of(context).size.height * 0.1,
-                child: TabBar(
-                    indicatorColor: Color(0xff5E239D),
-                    labelPadding: EdgeInsetsDirectional.fromSTEB(0, 3, 0, 0),
-                    tabs: [
-                      Tab(
-                          child: Column(
-                        children: [
-                          Icon(
-                            Icons.calendar_today,
-                            size: 24,
-                          ),
-                          Text('About',
-                              style: TextStyle(
-                                  color: Color(0xff5E239D), fontSize: 10)),
-                        ],
-                      )),
-                      Tab(
-                          child: Column(
-                        children: [
-                          Icon(
-                            Icons.videocam,
-                            size: 24,
-                          ),
-                          Text('Videos',
-                              style: TextStyle(
-                                  color: Color(0xff5E239D), fontSize: 10)),
-                        ],
-                      )),
-                      Tab(
-                          child: Column(
-                        children: [
-                          Icon(
-                            Icons.mic,
-                            size: 24,
-                          ),
-                          Text('Audio',
-                              style: TextStyle(
-                                  color: Color(0xff5E239D), fontSize: 10)),
-                        ],
-                      )),
-                      Tab(
-                          child: Column(
-                        children: [
-                          Icon(
-                            Icons.library_books,
-                            size: 24,
-                          ),
-                          Text('Articles',
-                              style: TextStyle(
-                                  color: Color(0xff5E239D), fontSize: 10)),
-                        ],
-                      )),
-                      Tab(
-                          child: Column(
-                        children: [
-                          Icon(
-                            Icons.chat,
-                            size: 24,
-                          ),
-                          Text('Comments',
-                              style: TextStyle(
-                                  color: Color(0xff5E239D), fontSize: 10)),
-                        ],
-                      ))
-                    ]),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TabBar(
+                      indicatorColor: Color(0xff5E239D),
+                      labelPadding: EdgeInsetsDirectional.fromSTEB(0, 3, 0, 0),
+                      tabs: [
+                        Tab(
+                            child: Column(
+                          children: [
+                            Icon(
+                              Icons.calendar_today,
+                              size: 24,
+                            ),
+                            Text('About',
+                                style: TextStyle(
+                                    color: Color(0xff5E239D), fontSize: 10)),
+                          ],
+                        )),
+                        Tab(
+                            child: Column(
+                          children: [
+                            Icon(
+                              Icons.videocam,
+                              size: 24,
+                            ),
+                            Text('Videos',
+                                style: TextStyle(
+                                    color: Color(0xff5E239D), fontSize: 10)),
+                          ],
+                        )),
+                        Tab(
+                            child: Column(
+                          children: [
+                            Icon(
+                              Icons.mic,
+                              size: 24,
+                            ),
+                            Text('Audio',
+                                style: TextStyle(
+                                    color: Color(0xff5E239D), fontSize: 10)),
+                          ],
+                        )),
+                        Tab(
+                            child: Column(
+                          children: [
+                            Icon(
+                              Icons.library_books,
+                              size: 24,
+                            ),
+                            Text('Articles',
+                                style: TextStyle(
+                                    color: Color(0xff5E239D), fontSize: 10)),
+                          ],
+                        )),
+                        Tab(
+                            child: Column(
+                          children: [
+                            Icon(
+                              Icons.chat,
+                              size: 24,
+                            ),
+                            Text('Comments',
+                                style: TextStyle(
+                                    color: Color(0xff5E239D), fontSize: 10)),
+                          ],
+                        ))
+                      ]),
+                ),
               ),
-              Container(
-                height: MediaQuery.of(context).size.height * 0.7,
+              Expanded(
                 child: TabBarView(
                   children: [
                     AboutTabPage(_programDetailsModel.about),

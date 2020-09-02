@@ -4,7 +4,6 @@ import 'package:audio_manager/audio_manager.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -52,12 +51,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    FlutterError.onError = Crashlytics.instance.recordFlutterError;
-    
     AudioManager.instance.onEvents((events, args) {
       print("$events, $args");
     });
-    
+
     Map<String, WidgetBuilder> fullRoutesList = Map();
 
     fullRoutesList.addAll(_homeModule.getRoutes());
@@ -77,7 +74,9 @@ class MyApp extends StatelessWidget {
           GlobalCupertinoLocalizations.delegate,
         ],
         theme: ThemeData(
-            primaryColor: Colors.greenAccent, accentColor: Colors.greenAccent),
+          primaryColor: Colors.white,
+          accentColor: Color(0xff5E239D),
+        ),
         supportedLocales: S.delegate.supportedLocales,
         title: 'Smart Y',
         routes: fullRoutesList,

@@ -59,7 +59,6 @@ dependencies:
   firebase_core: ^0.5.0
   firebase_auth: ^0.18.0+1
   firebase_analytics: ^6.0.0
-  firebase_crashlytics: ^0.1.4+1
   cloud_firestore: ^0.14.0+2
 
   # Localization
@@ -75,7 +74,6 @@ dependencies:
   carousel_slider: ^2.2.1
 
   # Audio Player
-  just_audio: ^0.4.0
   audio_manager: ^0.5.5+3
 
   # Video Player
