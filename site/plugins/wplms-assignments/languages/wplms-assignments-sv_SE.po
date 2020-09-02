@@ -1,0 +1,534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Assignments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-23 16:11+0530\n"
+"PO-Revision-Date: 2017-02-23 16:11+0530\n"
+"Last-Translator: Vibethemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Skriv ditt användarnamn till Envato Marketplace"
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Skriv din Envato Marketplace API-nyckel"
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" är obligatorisk."
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"item ID\" är obligatorisk."
+
+#: autoupdate/class-plugin-update.php:377
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Ett okänt HTTP-fel inträffade under en API-förfrågan."
+
+#: autoupdate/class-plugin-update.php:377
+#: autoupdate/class-plugin-update.php:542
+msgid "Try again"
+msgstr "Försök igen"
+
+#: autoupdate/class-plugin-update.php:418
+msgid "An unknown error occurred"
+msgstr "Ett okänt fel inträffade"
+
+#: autoupdate/class-plugin-update.php:454
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"Tillägget har uppdaterats, men kunde inte återaktiveras. Återaktivera "
+"manuellt."
+
+#: autoupdate/class-plugin-update.php:455
+msgid "Plugin reactivated successfully. "
+msgstr "Tillägget återaktiverades."
+
+#: autoupdate/class-plugin-update.php:477
+msgid " Plugin Updates"
+msgstr "Tillägg uppdateringar"
+
+#: autoupdate/class-plugin-update.php:516
+msgid "Username: "
+msgstr "Användarnamn:"
+
+#: autoupdate/class-plugin-update.php:520
+msgid "Email: "
+msgstr "E-post:"
+
+#: autoupdate/class-plugin-update.php:526
+msgid "Key: "
+msgstr "Nyckel:"
+
+#: autoupdate/class-plugin-update.php:532
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>Ditt uppdaterade tillägg är <span style=\"color:green\">aktivt</span></p>"
+
+#: autoupdate/class-plugin-update.php:536
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Din input är <span style=\"color:red\">inte giltig</span>, automatiska "
+"uppdateringar är <span style=\"color:red\">inte aktiverade</span>.</p>"
+
+#: autoupdate/class-plugin-update.php:537
+msgid "Edit Key"
+msgstr "Ändra nyckel"
+
+#: autoupdate/class-plugin-update.php:541
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Kunde inte uppdatera aktiveringen.</p>"
+
+#: autoupdate/class-plugin-update.php:547
+msgid "Add Key"
+msgstr "Lägg till nyckel"
+
+#: autoupdate/class-plugin-update.php:633
+msgid "User name"
+msgstr "User name"
+
+#: autoupdate/class-plugin-update.php:639
+msgid "Email"
+msgstr "E-post"
+
+#: autoupdate/class-plugin-update.php:648
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest användarnamn (för automatiska uppdateringar)"
+
+#: includes/assignments.php:64 includes/assignments_functions.php:218
+#: includes/assignments_functions.php:294
+msgid "Security check failed !"
+msgstr "Wops! Säkerhetskollen misslyckades."
+
+#: includes/assignments.php:69 includes/assignments_functions.php:299
+msgid " Incorrect User selected."
+msgstr "Inkorrekt deltagare vald"
+
+#: includes/assignments.php:74 includes/assignments_functions.php:304
+msgid " Incorrect Assignment"
+msgstr "Inkorrekt kursuppgift"
+
+#: includes/assignments.php:82
+msgid "SUBMISSION"
+msgstr "INLÄMNING"
+
+#: includes/assignments.php:100 includes/assignments.php:103
+#: includes/assignments.php:771 includes/assignments.php:774
+msgid "Download Attachment"
+msgstr "Ladda ner bilaga"
+
+#: includes/assignments.php:112
+msgid "Enter marks out of "
+msgstr ""
+
+#: includes/assignments.php:113
+msgid "REMARKS (if any)"
+msgstr "Kommentarer (om några)"
+
+#: includes/assignments.php:118
+msgid "Attach File"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "Allowed file types"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "maximum file size"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "MB(s)"
+msgstr ""
+
+#: includes/assignments.php:129 includes/assignments.php:1701
+msgid "Drop files here"
+msgstr ""
+
+#: includes/assignments.php:139 includes/assignments.php:1711
+msgid "Please do not close the window until process is completed"
+msgstr ""
+
+#: includes/assignments.php:218
+msgid ""
+"There is a space in file name .Please remove space from your filename and "
+"try to re-upload"
+msgstr ""
+
+#: includes/assignments.php:242 includes/assignments.php:1839
+msgid "  already exists. Please rename the file and try again."
+msgstr ""
+
+#: includes/assignments.php:256 includes/assignments.php:1853
+msgid "Are you sure you want to quit uploading?"
+msgstr ""
+
+#: includes/assignments.php:315 includes/assignments.php:1910
+msgid "File type not allowed"
+msgstr ""
+
+#: includes/assignments.php:349
+msgid "GIVE MARKS"
+msgstr "GE POÄNG"
+
+#: includes/assignments.php:552
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/assignments.php:592
+msgid "Reset Assignment for User"
+msgstr ""
+
+#: includes/assignments.php:593
+msgid "Evaluate Assignment : "
+msgstr ""
+
+#: includes/assignments.php:601
+msgid "No submissions found !"
+msgstr ""
+
+#: includes/assignments.php:668
+msgid "Assignment Results"
+msgstr ""
+
+#: includes/assignments.php:683
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr ""
+
+#: includes/assignments.php:718
+msgid "Results Available"
+msgstr ""
+
+#: includes/assignments.php:720
+msgid "Results Awaited"
+msgstr ""
+
+#: includes/assignments.php:757
+msgid "My Submission"
+msgstr ""
+
+#: includes/assignments.php:793
+msgid "See Instructor Remarks"
+msgstr ""
+
+#: includes/assignments.php:796
+msgid "Marks Obtained"
+msgstr ""
+
+#: includes/assignments.php:818
+msgid "Assignment Attachment deleted."
+msgstr "Uppgiftsbilaga borttagen."
+
+#: includes/assignments.php:885
+msgid "Upload Assignment"
+msgstr "Ladda upp din uppgift"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+#: includes/assignments.php:2013 includes/assignments.php:2015
+#: includes/assignments.php:2017 includes/assignments.php:2019
+#: includes/assignments.php:2021 includes/assignments.php:2023
+#: includes/assignments.php:2025 includes/assignments.php:2029
+msgid "ERROR:"
+msgstr "FEL:"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid "File you upload must be valid file type"
+msgstr "Filen du laddar upp måste vara en giltig filtyp"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid ", and under "
+msgstr ", och under"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid "MB(s)!"
+msgstr ""
+
+#: includes/assignments.php:1501
+msgid "Security check failed contact administrator"
+msgstr ""
+
+#: includes/assignments.php:1594 includes/assignments_functions.php:272
+msgid "Invalid ID"
+msgstr "Ogiltigt ID"
+
+#: includes/assignments.php:1599
+msgid "Attachment removed!"
+msgstr ""
+
+#: includes/assignments.php:1601 includes/assignments.php:1605
+#: includes/assignments_functions.php:278
+msgid "Unable to remove previous submissions"
+msgstr "Det gick inte att ta bort tidigare inlämningar"
+
+#: includes/assignments.php:1677
+msgid "RECENTLY UPLOADED"
+msgstr ""
+
+#: includes/assignments.php:2013 includes/assignments.php:2029
+msgid "Please upload an Attachment."
+msgstr "Ladda upp en bilaga"
+
+#: includes/assignments.php:2015
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+"Den uppladdade filen överstiger direktivet för uppladdad_max_filstorlek i "
+"php.ini."
+
+#: includes/assignments.php:2017
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"Den uppladdade filen överstiger direktivet för MAX_FILSTORLEK som "
+"specificerades i HTLM-formuläret."
+
+#: includes/assignments.php:2019
+msgid "The uploaded file was only partially uploaded. Please try again later."
+msgstr "Den uppladdade filen blev bara delvis uppladdad. Försök igen senare."
+
+#: includes/assignments.php:2021
+msgid "Missing a temporary folder."
+msgstr "Saknar en tillfällig mapp."
+
+#: includes/assignments.php:2023
+msgid "Failed to write file to disk."
+msgstr "Lyckades inte skriva filen till disk."
+
+#: includes/assignments.php:2025
+msgid "A PHP extension stopped the file upload."
+msgstr "En PHP extension stoppade filuppladdningen."
+
+#: includes/assignments.php:2051 includes/assignments.php:2056
+msgid "Attachment:"
+msgstr ""
+
+#: includes/assignments.php:2176
+msgid "Download"
+msgstr ""
+
+#: includes/assignments.php:2250
+msgid "Delete Attachment"
+msgstr "Ta bort bilaga"
+
+#: includes/assignments.php:2284
+#, php-format
+msgid ""
+"Regarding WPLMS Assignments Upload Assignment Functionality : It seems like "
+"your PHP installation is missing \"mime_content_type\" or \"finfo_file\" "
+"functions which are crucial for detecting file types of uploaded "
+"attachments. Please update your PHP installation OR be very careful with "
+"allowed file types, so intruders won't be able to upload dangerous code to "
+"your website! | <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+
+#: includes/assignments_functions.php:28
+msgid "Submitted by"
+msgstr "Inskickat av"
+
+#: includes/assignments_functions.php:28
+msgid "<span>"
+msgstr "<span>"
+
+#: includes/assignments_functions.php:31
+msgid "Assignment awaiting moderation."
+msgstr ""
+
+#: includes/assignments_functions.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s vid %2$s"
+
+#: includes/assignments_functions.php:38
+msgid "(Edit)"
+msgstr "(Ändra)"
+
+#: includes/assignments_functions.php:95 includes/assignments_functions.php:103
+msgid "Time Remaining"
+msgstr "Återstående tid"
+
+#: includes/assignments_functions.php:96
+msgid "Days"
+msgstr "Dagar"
+
+#: includes/assignments_functions.php:104
+msgid "Hours"
+msgstr "Timmar"
+
+#: includes/assignments_functions.php:104
+msgid "Minutes"
+msgstr "Minuter"
+
+#: includes/assignments_functions.php:120
+msgid "ENDED"
+msgstr ""
+
+#: includes/assignments_functions.php:147
+msgid "START ASSIGNMENT"
+msgstr "BÖRJA UPPGIFT"
+
+#: includes/assignments_functions.php:169
+msgid "CONTINUE ASSIGNMENT"
+msgstr "FORTSÄTT UPPGIFT"
+
+#: includes/assignments_functions.php:190
+#: includes/assignments_functions.php:200
+msgid "SUBMIT ASSIGNMENT"
+msgstr "SKICKA IN UPPGIFT"
+
+#: includes/assignments_functions.php:195
+msgid "INACTIVE COURSE "
+msgstr "INAKTIVERA KURS"
+
+#: includes/assignments_functions.php:208
+msgid "CHECK RESULTS"
+msgstr "SE RESULTAT"
+
+#: includes/assignments_functions.php:232
+msgid "Assignment can not be re-started"
+msgstr "Uppgiften kan inte startas om"
+
+#: includes/assignments_functions.php:242
+msgid "TIME EXPIRED, PLEASE SUBMIT THE ASSIGNMENT"
+msgstr "TIDEN HAR GÅTT UT, SKICKA IN UPPGIFTEN"
+
+#: includes/assignments_functions.php:250
+msgid "Assignment "
+msgstr "Kursuppgift"
+
+#: includes/assignments_functions.php:250
+msgid " submitted by student "
+msgstr " inskickad av kursdeltagare"
+
+#: includes/assignments_functions.php:251
+msgid "Assignment submitted by Student"
+msgstr "Uppgift inskickad av kursdeltagare"
+
+#: includes/assignments_functions.php:276
+msgid " previous submissions removed ! Reloading page ..."
+msgstr " föregående inlämningar är borttagna ! Laddar om sidan ..."
+
+#: includes/assignments_functions.php:316
+msgid "Assignment Reset for Selected User"
+msgstr "Återställ uppgift för vald deltagare"
+
+#: includes/assignments_functions.php:318
+msgid "Could not find Assignment for User. Contact Admin."
+msgstr "Kunde inte hitta deltagarens uppgift . Kontakta Youngcubator"
+
+#: includes/assignments_functions.php:349
+msgid "Assignment results available"
+msgstr "Resultat på kursuppgiften finns tillgängliga"
+
+#: includes/assignments_functions.php:372
+msgid "Unlimited"
+msgstr ""
+
+#: includes/assignments_functions.php:377
+msgid " days"
+msgstr "dagar"
+
+#: includes/assignments_functions.php:380
+msgid "ASSIGNMENT : "
+msgstr "KURSUPPGIFT : "
+
+#: includes/assignments_functions.php:382
+msgid "MARKS : "
+msgstr "POÄNG : "
+
+#: includes/assignments_functions.php:382
+msgid "DURATION : "
+msgstr "TIDSPERIOD : "
+
+#: includes/assignments_functions.php:401
+msgid " out of "
+msgstr "av totalt"
+
+#: includes/assignments_functions.php:401
+msgid " PENDING"
+msgstr "VÄNTANDE"
+
+#: includes/assignments_functions.php:443
+msgid "Assignment scores"
+msgstr ""
+
+#: wplms-assignments.php:69
+msgid ""
+"This step is irreversible. All Assignment submissions would be reset for "
+"this user. Are you sure you want to Reset the Assignment for this User? "
+msgstr ""
+
+#: wplms-assignments.php:70
+msgid "Confirm, Assignment reset for this User"
+msgstr "Bekräfta, återställ uppgiften"
+
+#: wplms-assignments.php:71
+msgid "Marks Saved"
+msgstr "Poängen sparades"
+
+#: wplms-assignments.php:72
+msgid "Assignment Marks Saved"
+msgstr "Uppgiftspoäng sparades"
+
+#: wplms-assignments.php:73
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: wplms-assignments.php:74
+msgid "Incorrect file format "
+msgstr ""
+
+#: wplms-assignments.php:75
+msgid "File already selected "
+msgstr ""
+
+#~ msgid "You've obtained "
+#~ msgstr "Du har uppnått"
+
+#~ msgid " in Assignment :"
+#~ msgstr "på kursuppgiften :"
+
+#~ msgid "Check Results"
+#~ msgstr "Se resultat"
+
+#~ msgid "Additional Remarks form Instructor"
+#~ msgstr "Ytterligare kommentarer från kursledaren"
+
+#~ msgid "Student submitted assignment "
+#~ msgstr "Kursdeltagaren skickade in uppgiften"
+
+#~ msgid "Student "
+#~ msgstr "Kursdeltagare"
+
+#~ msgid " submitted the assignment  "
+#~ msgstr " skickade in uppgiften"
+
+#~ msgid "Student started assignment "
+#~ msgstr "Kursdeltagaren påbörjade uppgiften"
+
+#~ msgid " started the assignment  "
+#~ msgstr " påbörjade uppgiften"
+
+#~ msgid "Assignment %s was reset by the Instructor for user %s"
+#~ msgstr "Uppgiften %s återställdes av kursledaren för deltagaren %s"
+
+#~ msgid "Instructor Evaluated the Assignment for User"
+#~ msgstr "Kursledaren har utvärderat uppgiften för kursdeltagaren"
+
+#~ msgid " was evaluated by the Instructor for user"
+#~ msgstr " utvärderades av kursledaren för deltagare"

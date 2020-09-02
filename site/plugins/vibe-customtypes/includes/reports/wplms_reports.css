@@ -1,0 +1,23 @@
+.wplms_main_reports{
+	width: calc(100vw - 200px);
+} 	
+.wplms_reports_blocks{
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+	grid-gap:15px;
+	align-items: start;
+    justify-items: start;
+    width: 100%;
+}
+.report_block{
+	background:#fff;
+	transition:all 0.5s ease-in;
+	box-shadow:0 1px 5px rgba(0,0,0,0.2);
+	width:calc(100% - 30px);padding:15px;border-radius:5px;
+}
+.report_block h3{
+	font-size:32px;margin:0;display:block;
+}
+.report_block:hover{
+	box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}

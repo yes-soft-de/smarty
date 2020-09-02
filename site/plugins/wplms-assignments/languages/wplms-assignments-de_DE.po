@@ -1,0 +1,675 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Assignments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-23 16:12+0530\n"
+"PO-Revision-Date: 2017-02-23 16:12+0530\n"
+"Last-Translator: Vibethemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Bitte geben Sie Ihren Envato-Marktplatz Benutzernamen ein."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Bitte geben Sie Ihren Envato-Marktplatz API Key ein. "
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "Der API Parameter \"set\" ist erforderlich."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Der API Parameter \"item ID\" ist erforderlich"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:377
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Ein unerwarteter HTTP-Fehler trat während der API-Anfrage auf."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:377
+#: autoupdate/class-plugin-update.php:542
+msgid "Try again"
+msgstr "Bitte versuchen es erneut"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:418
+msgid "An unknown error occurred"
+msgstr "Ein unbekannter Fehler ist aufgetreten"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:454
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"Das Plugin wurde aktualisiert, aber konnte nicht wieder aktiviert werden. "
+"Bitte  aktivieren Sie es manuell."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:455
+msgid "Plugin reactivated successfully. "
+msgstr "Plugin wurde erfolgreich reaktiviert. "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:477
+msgid " Plugin Updates"
+msgstr " Plugin Updates"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:516
+msgid "Username: "
+msgstr "Benutzername: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:520
+msgid "Email: "
+msgstr "E-Mail: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:526
+msgid "Key: "
+msgstr "Key: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:532
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>Ihr Plugin-Update ist <span style=\"color: green \"> aktiv </span> </p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:536
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Ihre Eingabe ist <span style=\"color: red \"> ungültig </span>, "
+"automatische Updates sind <span style=\"color: red \"> nicht aktiv </ span> "
+"</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:537
+msgid "Edit Key"
+msgstr "Key bearbeiten"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:541
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Kann Update-Aktivierung nicht bestätigen. </p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:547
+msgid "Add Key"
+msgstr "Key hinzufügen"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:633
+msgid "User name"
+msgstr "Benutzername"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:639
+msgid "Email"
+msgstr "E-Mail"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:648
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest Benutzername (für Auto-Updates)"
+
+# @ wplms-assignments
+#: includes/assignments.php:64 includes/assignments_functions.php:218
+#: includes/assignments_functions.php:294
+msgid "Security check failed !"
+msgstr "Sicherheits-Check ist fehlgeschlagen!"
+
+# @ wplms-assignments
+#: includes/assignments.php:69 includes/assignments_functions.php:299
+msgid " Incorrect User selected."
+msgstr " Falscher Teilnehmer ausgewählt."
+
+# @ wplms-assignments
+#: includes/assignments.php:74 includes/assignments_functions.php:304
+msgid " Incorrect Assignment"
+msgstr " Falsche Aufgabe"
+
+# @ wplms-assignments
+#: includes/assignments.php:82
+msgid "SUBMISSION"
+msgstr "EINREICHUNG"
+
+# @ wplms-assignments
+#: includes/assignments.php:100 includes/assignments.php:103
+#: includes/assignments.php:771 includes/assignments.php:774
+msgid "Download Attachment"
+msgstr "Anlage herunterladen"
+
+#: includes/assignments.php:110
+#, php-format
+msgctxt "Assignment submission by User"
+msgid "%s submission by %s"
+msgstr ""
+
+#: includes/assignments.php:112
+msgid "Enter marks out of "
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:113
+msgid "REMARKS (if any)"
+msgstr "ANMERKUNGEN (falls vorhanden)"
+
+# @ default
+#: includes/assignments.php:118
+msgid "Attach File"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "Allowed file types"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "maximum file size"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "MB(s)"
+msgstr ""
+
+#: includes/assignments.php:129 includes/assignments.php:1701
+msgid "Drop files here"
+msgstr ""
+
+#: includes/assignments.php:130 includes/assignments.php:1702
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr ""
+
+#: includes/assignments.php:139 includes/assignments.php:1711
+msgid "Please do not close the window until process is completed"
+msgstr ""
+
+#: includes/assignments.php:218
+msgid ""
+"There is a space in file name .Please remove space from your filename and "
+"try to re-upload"
+msgstr ""
+
+#: includes/assignments.php:242 includes/assignments.php:1839
+msgid "  already exists. Please rename the file and try again."
+msgstr ""
+
+#: includes/assignments.php:256 includes/assignments.php:1853
+msgid "Are you sure you want to quit uploading?"
+msgstr ""
+
+#: includes/assignments.php:315 includes/assignments.php:1910
+msgid "File type not allowed"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:349
+msgid "GIVE MARKS"
+msgstr "NOTEN VERGEBEN"
+
+# @ wplms-assignments
+#: includes/assignments.php:422
+msgctxt "assignments connected to the course, Course - admin - user - stats"
+msgid "Assignments"
+msgstr ""
+
+#: includes/assignments.php:456
+#, php-format
+msgctxt "Assignment Submissions in course/admin/submissions"
+msgid "Assignment Submissions <span>%d</span>"
+msgstr ""
+
+#: includes/assignments.php:505
+msgctxt "assignment status"
+msgid "Pending evaluation"
+msgstr ""
+
+#: includes/assignments.php:506
+msgctxt "assignment status"
+msgid "Evaluation complete"
+msgstr ""
+
+#: includes/assignments.php:509
+msgctxt "get assignment submissions button"
+msgid "Get"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:542
+msgctxt "No assignments in course, error on course submissions"
+msgid "No assignments found !"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:552
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+# @ vibe
+#: includes/assignments.php:592
+msgid "Reset Assignment for User"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:593
+msgid "Evaluate Assignment : "
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:601
+msgid "No submissions found !"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:668
+msgid "Assignment Results"
+msgstr ""
+
+#: includes/assignments.php:683
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:718
+msgid "Results Available"
+msgstr ""
+
+#: includes/assignments.php:720
+msgid "Results Awaited"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:737
+#, php-format
+msgctxt "assignment submission time"
+msgid "Submitted %s"
+msgstr ""
+
+#: includes/assignments.php:757
+msgid "My Submission"
+msgstr ""
+
+#: includes/assignments.php:793
+msgid "See Instructor Remarks"
+msgstr ""
+
+# @ vibe
+#: includes/assignments.php:796
+msgid "Marks Obtained"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:818
+msgid "Assignment Attachment deleted."
+msgstr "Der Aufgaben Anhang wurde gelöscht."
+
+# @ wplms-assignments
+#: includes/assignments.php:885
+msgid "Upload Assignment"
+msgstr "Aufgabe hochladen"
+
+# @ wplms-assignments
+#: includes/assignments.php:1419 includes/assignments.php:2009
+#: includes/assignments.php:2013 includes/assignments.php:2015
+#: includes/assignments.php:2017 includes/assignments.php:2019
+#: includes/assignments.php:2021 includes/assignments.php:2023
+#: includes/assignments.php:2025 includes/assignments.php:2029
+msgid "ERROR:"
+msgstr "FEHLER:"
+
+# @ wplms-assignments
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid "File you upload must be valid file type"
+msgstr "Die Datei, die Sie hochladen, muss einen erlaubten Dateityp haben"
+
+# @ wplms-assignments
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid ", and under "
+msgstr ", und unter "
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid "MB(s)!"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:1501
+msgid "Security check failed contact administrator"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:1594 includes/assignments_functions.php:272
+msgid "Invalid ID"
+msgstr "Ungültige ID"
+
+# @ default
+#: includes/assignments.php:1599
+msgid "Attachment removed!"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:1601 includes/assignments.php:1605
+#: includes/assignments_functions.php:278
+msgid "Unable to remove previous submissions"
+msgstr "Bisherigen Einreichungen konnten nicht entfernt werden"
+
+# @ vibe
+#: includes/assignments.php:1677
+msgid "RECENTLY UPLOADED"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments.php:2013 includes/assignments.php:2029
+msgid "Please upload an Attachment."
+msgstr "Bitte laden Sie einen Anhang hoch."
+
+# @ wplms-assignments
+#: includes/assignments.php:2015
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+"Die hochgeladene Datei überschreitet die upload_max_filesize Richtlinie in "
+"der php.ini."
+
+# @ wplms-assignments
+#: includes/assignments.php:2017
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"Die hochgeladene Datei überschreitet die MAX_FILE_SIZE Richtlinie, die im "
+"HTML-Formular angegeben wurde."
+
+# @ wplms-assignments
+#: includes/assignments.php:2019
+msgid "The uploaded file was only partially uploaded. Please try again later."
+msgstr ""
+"Die Datei wurde nur teilweise hochgeladen. Bitte versuchen Sie es später "
+"noch einmal."
+
+# @ wplms-assignments
+#: includes/assignments.php:2021
+msgid "Missing a temporary folder."
+msgstr "Es fehlt ein temporärer Ordner."
+
+# @ wplms-assignments
+#: includes/assignments.php:2023
+msgid "Failed to write file to disk."
+msgstr "Die Date konnte nicht auf die Festplatte geschrieben werden."
+
+# @ wplms-assignments
+#: includes/assignments.php:2025
+msgid "A PHP extension stopped the file upload."
+msgstr "Eine PHP-Erweiterung stoppte den Datei-Upload."
+
+# @ default
+#: includes/assignments.php:2051 includes/assignments.php:2056
+msgid "Attachment:"
+msgstr ""
+
+#: includes/assignments.php:2176
+msgid "Download"
+msgstr ""
+
+# @ default
+#: includes/assignments.php:2250
+msgid "Delete Attachment"
+msgstr "Anhang löschen"
+
+#: includes/assignments.php:2284
+#, php-format
+msgid ""
+"Regarding WPLMS Assignments Upload Assignment Functionality : It seems like "
+"your PHP installation is missing \"mime_content_type\" or \"finfo_file\" "
+"functions which are crucial for detecting file types of uploaded "
+"attachments. Please update your PHP installation OR be very careful with "
+"allowed file types, so intruders won't be able to upload dangerous code to "
+"your website! | <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:28
+msgid "Submitted by"
+msgstr ""
+
+#: includes/assignments_functions.php:28
+msgid "<span>"
+msgstr ""
+
+# @ default
+#: includes/assignments_functions.php:31
+msgid "Assignment awaiting moderation."
+msgstr ""
+
+# @ default
+#: includes/assignments_functions.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+# @ default
+#: includes/assignments_functions.php:38
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:95 includes/assignments_functions.php:103
+msgid "Time Remaining"
+msgstr "Verbleibende Zeit"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:96
+msgid "Days"
+msgstr "Tage"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:104
+msgid "Hours"
+msgstr "Stunden"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:104
+msgid "Minutes"
+msgstr "Minuten"
+
+#: includes/assignments_functions.php:120
+msgid "ENDED"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:147
+msgid "START ASSIGNMENT"
+msgstr "STARTE AUFGABE"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:169
+msgid "CONTINUE ASSIGNMENT"
+msgstr "AUFGABE FORTSETZEN"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:190
+#: includes/assignments_functions.php:200
+msgid "SUBMIT ASSIGNMENT"
+msgstr "AUFGABE SENDEN"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:195
+msgid "INACTIVE COURSE "
+msgstr "INAKTIVER KURS "
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:208
+msgid "CHECK RESULTS"
+msgstr "ERGEBNISSE PRÜFEN"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:232
+msgid "Assignment can not be re-started"
+msgstr "Die Aufgabe kann nicht neu gestartet werden"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:242
+msgid "TIME EXPIRED, PLEASE SUBMIT THE ASSIGNMENT"
+msgstr "ZEIT ABGELAUFEN, BITTE VERSENDEN SIE DIE AUFGABE"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:250
+msgid "Assignment "
+msgstr "Aufgabe "
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:250
+msgid " submitted by student "
+msgstr " von Teilnehmer eingereicht "
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:251
+msgid "Assignment submitted by Student"
+msgstr "Aufgabe von Teilnehmer eingereicht"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:276
+msgid " previous submissions removed ! Reloading page ..."
+msgstr " Früheren Einreichungen wurden entfernt! Lade die Seite neu ..."
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:316
+msgid "Assignment Reset for Selected User"
+msgstr "Aufgabe für ausgewählten Teilnehmer zurücksetzen"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:318
+msgid "Could not find Assignment for User. Contact Admin."
+msgstr ""
+"Konnte die Aufgabe des Teilnehmers nicht finden. Kontaktieren Sie den Admin."
+
+#: includes/assignments_functions.php:344
+#, php-format
+msgctxt "wplms-assignments"
+msgid ""
+"You've obtained %s our of %s in Assignment : %s Check Results %s. %s "
+"Additional Remarks from Instructor %s %s %s"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:349
+msgid "Assignment results available"
+msgstr "Aufgabenergebnisse verfügbar"
+
+#: includes/assignments_functions.php:372
+msgid "Unlimited"
+msgstr ""
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:377
+msgid " days"
+msgstr " Tage"
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:380
+msgid "ASSIGNMENT : "
+msgstr "AUFGABE: "
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:382
+msgid "MARKS : "
+msgstr "NOTEN: "
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:382
+msgid "DURATION : "
+msgstr "DAUER: "
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:401
+msgid " out of "
+msgstr " ausverkauft "
+
+# @ wplms-assignments
+#: includes/assignments_functions.php:401
+msgid " PENDING"
+msgstr " IN BEARBEITUNG"
+
+# @ vibe
+#: includes/assignments_functions.php:443
+msgid "Assignment scores"
+msgstr ""
+
+# @ vibe
+#: wplms-assignments.php:69
+msgid ""
+"This step is irreversible. All Assignment submissions would be reset for "
+"this user. Are you sure you want to Reset the Assignment for this User? "
+msgstr ""
+
+# @ vibe
+#: wplms-assignments.php:70
+msgid "Confirm, Assignment reset for this User"
+msgstr "Bestätigen Sie das Zurücksetzen der Aufgabe"
+
+# @ vibe
+#: wplms-assignments.php:71
+msgid "Marks Saved"
+msgstr "Noten gespeichert"
+
+# @ vibe
+#: wplms-assignments.php:72
+msgid "Assignment Marks Saved"
+msgstr "Aufgaben Noten gespeichert"
+
+# @ vibe
+#: wplms-assignments.php:73
+msgid "Cancel"
+msgstr "Abbrechen"
+
+# @ wplms-assignments
+#: wplms-assignments.php:74
+msgid "Incorrect file format "
+msgstr ""
+
+#: wplms-assignments.php:75
+msgid "File already selected "
+msgstr ""
+
+#: wplms-assignments.php:76
+msgctxt "Notification when user removes the attachment from assignment"
+msgid "Are you sure you want to remove this attachment ?"
+msgstr ""
+
+# @ wplms-assignments
+#~ msgid "You've obtained "
+#~ msgstr "Sie haben bekommen "
+
+# @ wplms-assignments
+#~ msgid " in Assignment :"
+#~ msgstr " in der Aufgabe:"
+
+# @ default
+#~ msgid "Check Results"
+#~ msgstr "Überprüfe Ergebnisse"
+
+# @ wplms-assignments
+#~ msgid "Additional Remarks form Instructor"
+#~ msgstr "Zusätzliche Bemerkungen vom Trainer"

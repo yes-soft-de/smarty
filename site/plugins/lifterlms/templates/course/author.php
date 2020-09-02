@@ -19,27 +19,22 @@ if ( ! $instructors ) {
 $count = count( $instructors );
 ?>
 
-<?php $request_uri = explode('/', $_SERVER['REQUEST_URI']);
-	if ( ! in_array('prewelness', $request_uri, false) ): ?>
-
-    <section class="llms-instructor-info">
-      <h3 class="llms-meta-title"><?php echo _n( 'Course Instructor', 'Course Instructors', count( $instructors ), 'lifterlms' ); ?></h3>
-      <div class="llms-instructors llms-cols">
-        <?php foreach ( $instructors as $instructor ) : ?>
-          <div class="llms-col-<?php echo $count <= 4 ? $count : 4; ?>">
-            <?php
-            echo llms_get_author(
-              array(
-                'avatar_size' => 100,
-                'bio'         => true,
-                'label'       => $instructor['label'],
-                'user_id'     => $instructor['id'],
-              )
-            );
-            ?>
-          </div>
-        <?php endforeach; ?>
-      </div>
-    </section>
-
-<?php endif; ?>
+<section class="llms-instructor-info">
+	<h3 class="llms-meta-title"><?php echo _n( 'Course Instructor', 'Course Instructors', count( $instructors ), 'lifterlms' ); ?></h3>
+	<div class="llms-instructors llms-cols">
+		<?php foreach ( $instructors as $instructor ) : ?>
+			<div class="llms-col-<?php echo $count <= 4 ? $count : 4; ?>">
+				<?php
+				echo llms_get_author(
+					array(
+						'avatar_size' => 100,
+						'bio'         => true,
+						'label'       => $instructor['label'],
+						'user_id'     => $instructor['id'],
+					)
+				);
+				?>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</section>

@@ -1,0 +1,73 @@
+{
+  "page": [
+    {
+      "type_title": "Pages",
+      "post_id": 327,
+      "post_title": "Groups Directory",
+      "post_status": "publish",
+      "post_name": "groups-directory",
+      "post_content": "<input type=\"text\" placeholder=\"Type to search\" />\n\t\t\t\t\t\t<select>\n\t\t\t\t\t\t\t<option value=\"active\">Active</option><option value=\"newest\">Recently Added</option><option value=\"alphabetical\">Alphabetical</option><option value=\"random\">Random</option><option value=\"popular\">Popular</option>\t\t\t\t\t\t</select>\n\t\t\t\t<a href=\"https://demos.wplms.io/groups/join-chemistry-movement/\"><img src=\"https://demos.wplms.io/wp-content/uploads/group-avatars/4/5efc4c01bc105-bpfull.jpg\" /></a><a href=\"https://demos.wplms.io/groups/ai/\"><img src=\"https://demos.wplms.io/wp-content/plugins/buddypress/bp-core/images/mystery-group.png\" /></a><a href=\"https://demos.wplms.io/groups/dude/\"><img src=\"https://demos.wplms.io/wp-content/plugins/buddypress/bp-core/images/mystery-group.png\" /></a><a href=\"https://demos.wplms.io/groups/ux-basics/\"><img src=\"https://demos.wplms.io/wp-content/plugins/buddypress/bp-core/images/mystery-group.png\" /></a>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2020-07-06 03:18:26",
+      "post_date_gmt": "2020-07-06 03:18:26",
+      "guid": "https://demos.wplms.io/?page_id=327",
+      "post_mime_type": "",
+      "meta_input": {
+        "vibe_title": "S",
+        "vibe_subtitle": " ",
+        "vibe_breadcrumbs": "S",
+        "vibe_sidebar": "vibebp-dashboard",
+        "vibe_title_bg": " ",
+        "_elementor_edit_mode": "builder",
+        "_elementor_template_type": "wp-page",
+        "_elementor_version": "2.9.13",
+        "_wp_page_template": "default",
+        "_elementor_data": "[{\"id\":\"a1c35db\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"f7f3915\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"84f449a\",\"elType\":\"widget\",\"settings\":{\"groups_per_page\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"groups_pagination\":\"1\",\"full_avatar\":\"1\",\"card_style\":\"card\",\"search_groups\":\"1\",\"sort_groups\":\"1\"},\"elements\":[],\"widgetType\":\"groups_directory\"}],\"isInner\":false}],\"isInner\":false}]",
+        "_elementor_controls_usage": {
+          "groups_directory": {
+            "count": 1,
+            "control_percent": 3,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "groups_per_page": 1,
+                  "groups_pagination": 1,
+                  "full_avatar": 1,
+                  "card_style": 1,
+                  "search_groups": 1,
+                  "sort_groups": 1
+                }
+              }
+            }
+          },
+          "column": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "layout": {
+                  "_inline_size": 1
+                }
+              }
+            }
+          },
+          "section": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": []
+          }
+        },
+        "_elementor_css": {
+          "0": "",
+          "time": 1594005566,
+          "fonts": [],
+          "icons": [],
+          "status": "file"
+        }
+      },
+      "terms": []
+    }
+  ]
+}

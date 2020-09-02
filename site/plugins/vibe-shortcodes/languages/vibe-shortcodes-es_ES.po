@@ -1,0 +1,1492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe ShortCodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-21 13:29+0530\n"
+"PO-Revision-Date: 2017-07-21 13:29+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe-shortcodes
+#: ajaxcalls.php:72 ajaxcalls.php:133
+msgid "Unable to send message! Please try again later.."
+msgstr ""
+"No se ha podido enviar el mensaje! Por favor intenta de nuevo más tarde.."
+
+# @ vibe-shortcodes
+#: ajaxcalls.php:90
+msgid "Contact Form Submission"
+msgstr "﻿Formulario de Contacto Envios"
+
+# @ vibe-shortcodes
+#: ajaxcalls.php:131
+msgid "Message sent!"
+msgstr "Mensaje enviado!"
+
+#: ajaxcalls.php:274
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: ajaxcalls.php:284
+msgctxt "error message when name missing"
+msgid "Invalid Submission, name missing"
+msgstr ""
+
+#: ajaxcalls.php:290
+msgid "Auto generate username from email"
+msgstr ""
+
+#: ajaxcalls.php:291 shortcodes.php:2589
+msgid "Show password meter"
+msgstr ""
+
+#: ajaxcalls.php:292 shortcodes.php:2590
+msgid "Show Field group labels"
+msgstr ""
+
+#: ajaxcalls.php:293 shortcodes.php:2591
+msgid "Google Captcha"
+msgstr ""
+
+#: ajaxcalls.php:294
+msgid "Register & Login simultaneously"
+msgstr ""
+
+#: ajaxcalls.php:295
+msgid "Skip Mail verification"
+msgstr ""
+
+#: ajaxcalls.php:392
+msgctxt "error message when group is not valid"
+msgid "Invalid Group selection"
+msgstr ""
+
+#: ajaxcalls.php:416
+msgctxt "error message when registration form is empty"
+msgid "Invalid Email/Password !"
+msgstr ""
+
+#: ajaxcalls.php:422
+msgctxt "error message"
+msgid "Email already registered."
+msgstr ""
+
+#: ajaxcalls.php:431 ajaxcalls.php:435
+msgctxt "error message"
+msgid "Username already registered."
+msgstr ""
+
+#: ajaxcalls.php:482
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: ajaxcalls.php:486 ajaxcalls.php:488
+#, php-format
+msgid "%s is not of type %s"
+msgstr ""
+
+#: ajaxcalls.php:541
+msgid "Congratulations ! you have been successfully registered !"
+msgstr ""
+
+#: ajaxcalls.php:579
+msgid ""
+"Congratulations ! you have been successfully registered, Please check your "
+"email to activate the account"
+msgstr ""
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Por favor introduzca su nombre de usuario de Envato Marketplace."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Por favor, introduzca su clave de API Envato Marketplace."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "La API \"set\" es un parámetro obligatorio."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "El Envato Marketplace \"ID de Artículo\" es un parámetro obligatorio."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Un error HTTP inesperado ocurrió durante la solicitud de la API."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "Inténtelo de nuevo"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "Ocurrió un error desconocido"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"El plugin ha sido actualizado, pero no pudo ser reactivado. Por favor, "
+"reactívelo manualmente. "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "Plugin reactivado con éxito."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "Actualizaciones del plugin"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "﻿Nombre usuario:"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "Email:"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Clave:"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>Su actualización del plugin está <span style=\"color:green\">activa</"
+"span></p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Su entrada <span style=\"color:red\">no es válida</span>, las "
+"actualizaciones automáticas <span style=\"color:red\">no están activas</"
+"span>.</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "Editar clave"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p> No se puede validar la activación de actualización. </ p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "Añadir clave"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "Nombre de usuario"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:638 shortcodes.php:2458
+msgid "Email"
+msgstr "Email"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Nombre de usuario Themeforest (para actualizaciones automáticas)"
+
+# @ vibe-shortcodes
+#: classes/vibeshortcodes.class.php:47
+msgid "Sending mail"
+msgstr "Enviando Mensajes..."
+
+# @ vibe-shortcodes
+#: classes/vibeshortcodes.class.php:48
+msgid "Error :"
+msgstr "Error :"
+
+# @ vibe-shortcodes
+#: classes/vibeshortcodes.class.php:49
+msgid "Invalid "
+msgstr "Inválido"
+
+# @ vibe-shortcodes
+#: classes/vibeshortcodes.class.php:50
+msgid "Captcha Mismatch"
+msgstr "Captcha Incorrecto"
+
+#: shortcodes.php:146 shortcodes.php:164
+#, php-format
+msgid ""
+"You do not have access to this content. <a href=\"%s\" class=\"button\"> "
+"Puchase </a> content for %s"
+msgstr ""
+
+#: shortcodes.php:149 shortcodes.php:167
+msgid "You do not have access to this content"
+msgstr ""
+
+#: shortcodes.php:266
+msgctxt "countdown shortcode"
+msgid "Days"
+msgstr ""
+
+#: shortcodes.php:282
+msgctxt "countdown shortcode"
+msgid "Hours"
+msgstr ""
+
+#: shortcodes.php:298
+msgctxt "countdown shortcode"
+msgid "Minutes"
+msgstr ""
+
+#: shortcodes.php:313
+msgctxt "countdown shortcode"
+msgid "Seconds"
+msgstr ""
+
+# @ vibe-shortcodes
+#: shortcodes.php:664
+msgid "EARNED"
+msgstr "Conseguido"
+
+# @ vibe-shortcodes
+#: shortcodes.php:685
+msgid "Check all Courses created by "
+msgstr "Revisar todos los cursos creados por"
+
+# @ vibe-shortcodes
+#: shortcodes.php:686
+msgid "More Courses by "
+msgstr "Más cursos de"
+
+#: shortcodes.php:1533
+#, php-format
+msgid "%d out of %d"
+msgstr ""
+
+#: shortcodes.php:1535 shortcodes.php:1538
+msgid "N.A"
+msgstr ""
+
+#: shortcodes.php:2118
+msgid "MEMBERS"
+msgstr "MIEMBROS"
+
+#: shortcodes.php:2121
+msgid "COURSES"
+msgstr "CURSOS"
+
+#: shortcodes.php:2124
+msgid "INSTRUCTORS"
+msgstr "PROFESORES"
+
+#: shortcodes.php:2127
+msgid "GROUPS"
+msgstr "GRUPOS"
+
+#: shortcodes.php:2130
+msgid "SUBSCRIPTIONS"
+msgstr "SUSCRIPCIONES"
+
+#: shortcodes.php:2133
+msgid "SALES"
+msgstr "VENTAS"
+
+#: shortcodes.php:2136
+msgid "EARNINGS"
+msgstr "GANANCIAS"
+
+#: shortcodes.php:2170
+msgid "SHOW HINT"
+msgstr ""
+
+#: shortcodes.php:2171
+msgid "HINT"
+msgstr ""
+
+#: shortcodes.php:2183
+msgid "FALSE"
+msgstr ""
+
+#: shortcodes.php:2183
+msgid "TRUE"
+msgstr ""
+
+#: shortcodes.php:2236 shortcodes.php:2239
+msgid "Type Answer"
+msgstr ""
+
+#: shortcodes.php:2247
+msgid "Check Answer"
+msgstr ""
+
+# @ vibe-shortcodes
+#: shortcodes.php:2262
+msgid "Explanation"
+msgstr ""
+
+#: shortcodes.php:2336
+msgid "Type Keywords.."
+msgstr ""
+
+#: shortcodes.php:2337
+msgid "Search"
+msgstr ""
+
+# @ text-domain
+#: shortcodes.php:2455
+msgid "Username"
+msgstr ""
+
+# @ text-domain
+#: shortcodes.php:2455
+msgid "Login Username"
+msgstr ""
+
+#: shortcodes.php:2460
+msgid "Password"
+msgstr ""
+
+#: shortcodes.php:2462
+msgid "Member type"
+msgstr ""
+
+#: shortcodes.php:2462 shortcodes.php:2485 shortcodes.php:2491
+msgctxt ""
+msgid "None"
+msgstr ""
+
+#: shortcodes.php:2485 shortcodes.php:2491
+msgid "Group"
+msgstr ""
+
+#: shortcodes.php:2542
+#, php-format
+msgid "This field can be seen by: %s"
+msgstr ""
+
+#: shortcodes.php:2557
+msgid "Who can see this field?"
+msgstr ""
+
+#: shortcodes.php:2620
+msgid "Register"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:13
+msgid "Open first"
+msgstr "Abrir el primero"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:14
+msgid "First accordion will be open by default"
+msgstr "Primer acordeón estará abierta por defecto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:16
+msgid "No"
+msgstr "No"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:17
+msgid "Yes"
+msgstr "Sí"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:22
+msgid "Insert Accordion Shortcode"
+msgstr "Inserte Acordeón Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:27
+msgid "Accordion Title 1"
+msgstr "Acordeón Titulo 1"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:28
+msgid "Add the title of the accordion"
+msgstr "Añadir el título del acordeón"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:34
+msgid "Accordion Content"
+msgstr "Acordeón contenido"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:35 tinymce/config.php:962
+msgid "Add the content. Accepts HTML & other Shortcodes."
+msgstr "Añadir el contenido. Acepta HTML & otros códigos cortos."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:39
+msgid "Add Accordion Toggle"
+msgstr "Añadir Acordeón Toggle"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:53
+msgid "Link URL"
+msgstr "Enlace URL"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:54
+msgid "Add the button's url eg http://www.example.com"
+msgstr "Añadir url del botón por ejemplo http://www.example.com"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:59
+msgid "Button Style"
+msgstr "Estilo del botón"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:60
+msgid "Select button style"
+msgstr "Seleccionar estilo de botón"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:72 tinymce/config.php:369
+msgid "Background color"
+msgstr "Color Fondo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:73
+msgid "Select the button's size"
+msgstr "Seleccione el tamaño del botón"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:77
+msgid "Hover Bg color"
+msgstr "Color al pasar el puntero"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:78
+msgid "Select the button's on hover background color "
+msgstr "Seleccione Color de fondo del botón al pasar el puntero"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:82
+msgid "Text color"
+msgstr "Color del texto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:83
+msgid "Select the button's text color"
+msgstr "Seleccione el color del texto del botón"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:87
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:94
+msgid "Width"
+msgstr "Ancho"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:101
+msgid "Height"
+msgstr "Altura"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:108
+msgid "Border Radius"
+msgstr "Borde Radio"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:115
+msgid "Button Target"
+msgstr "Botón Target"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:116
+msgid "_self = open in same window. _blank = open in new window"
+msgstr "_self = Abrir en la misma ventana. _blank = abre en ventana nueva"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:125
+msgid "Button Anchor"
+msgstr "Ancla de botón"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:126
+msgid "Replace button label with the text you enter."
+msgstr "Reemplazar botón etiqueta con el texto que introduzca."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:130
+msgid "Insert Button Shortcode"
+msgstr "Inserte Botón Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:141
+msgid "Insert Columns Shortcode"
+msgstr "Insertar columnas Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:149 tinymce/config.php:165
+msgid "Column Type"
+msgstr "Tipo de columna"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:150 tinymce/config.php:166
+msgid "Select the type, ie width of the column."
+msgstr "Seleccionar el tipo, es decir, la anchura de la columna."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:175
+msgid "Column Content"
+msgstr "Columna contenido"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:176
+msgid "Add the column content."
+msgstr "Añadir el contenido de la columna."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:180
+msgid "Add Column"
+msgstr "Añadir columna"
+
+#: tinymce/config.php:194
+msgid "Start value of counter"
+msgstr "Valor inicial del contador"
+
+#: tinymce/config.php:195
+msgid "Add a starting number"
+msgstr "Agregar número de inicio"
+
+#: tinymce/config.php:200
+msgid "Maximum value of counter"
+msgstr "Máximo valor del contador"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:201 tinymce/config.php:404
+msgid "Add the Tooltip text"
+msgstr "Añadir el text Tooltip"
+
+#: tinymce/config.php:206
+msgid "Total delay in finishing counter"
+msgstr "Demora total en finalizar contador"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:207
+msgid "Add the total duration of counter increment"
+msgstr "Añadir la duración total del incremento del contador"
+
+#: tinymce/config.php:212
+msgid "Increment unit"
+msgstr "Unidad de Incremento"
+
+#: tinymce/config.php:213
+msgid "Increment the counter by this value"
+msgstr "Incrementar el contador en este valor"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:217
+msgid "Insert Counter Shortcode"
+msgstr "Insertar Shortcode del Contador"
+
+#: tinymce/config.php:230
+msgid "Countdown Date"
+msgstr ""
+
+#: tinymce/config.php:231
+msgid "Date until the countdown timer will run"
+msgstr ""
+
+#: tinymce/config.php:236
+msgid "Countdown Days"
+msgstr ""
+
+#: tinymce/config.php:237
+msgid "Number of days in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:242
+msgid "Countdown hours"
+msgstr ""
+
+#: tinymce/config.php:243
+msgid "Number of hours in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:248
+msgid "Countdown minutes"
+msgstr ""
+
+#: tinymce/config.php:249
+msgid "Number of minutes in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:254
+msgid "Countdown seconds"
+msgstr ""
+
+#: tinymce/config.php:255
+msgid "Number of seconds in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:260
+msgid "Timer Size"
+msgstr ""
+
+#: tinymce/config.php:261
+msgid "Size of the timer"
+msgstr ""
+
+#: tinymce/config.php:265
+msgid "Insert Countdown Shortcode"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:276
+msgid "Icon type"
+msgstr "Tipo de icono"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:277 tinymce/config.php:568
+msgid "Select Icon type"
+msgstr "Seleccionar tipo de icono"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:282 tinymce/config.php:283
+msgid "Icon Size"
+msgstr "Tamaño de Icono"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:292
+msgid "Custom Style"
+msgstr "Estilo personalizado"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:293
+msgid "icon style"
+msgstr "icon style"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:302 tinymce/config.php:303 tinymce/config.php:314
+msgid "Icon Color"
+msgstr "Icono Color"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:308
+msgid "Icon Bg Color"
+msgstr "Icono Bg color"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:309 tinymce/config.php:320
+msgid "Icon Background color"
+msgstr "Color de fondo del icono"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:313
+msgid "Icon Hover Color"
+msgstr "Color al pasar el puntero"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:319
+msgid "Icon Hover Bg Color"
+msgstr "Color al pasar el puntero"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:324
+msgid "Icon padding"
+msgstr "Icono de fondo acolchado"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:325
+msgid "Icon Background padding"
+msgstr "Icono de fondo acolchado"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:332
+msgid "Icon Bg Radius"
+msgstr "Icono Bg Radio"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:333
+msgid "Icon Background radius"
+msgstr "Icono de fondo radio "
+
+# @ vibe-shortcodes
+#: tinymce/config.php:342
+msgid "Insert Icon Shortcode"
+msgstr "Inserte Icono Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:355
+msgid "Alert Style"
+msgstr "Alerta Estilo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:356
+msgid "Select the alert's style, ie the alert colour"
+msgstr "Seleccione el estilo de la alerta, es decir, el color de alerta"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:368
+msgid "Alert Bg Color"
+msgstr "Alerta Bg Color"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:373
+msgid "Alert Border Color"
+msgstr "Alerta Borde Color"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:374
+msgid "Border color"
+msgstr "Color del borde"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:378
+msgid "Text Color"
+msgstr "Color del texto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:379
+msgid "Alert Text color"
+msgstr "Alerta Color texto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:384
+msgid "Alert Text"
+msgstr "Alerta Texto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:385
+msgid "Add the alert's text"
+msgstr "Añadir el texto de la alerta"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:390
+msgid "Insert Alert Shortcode"
+msgstr "Insertar Alerta Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:403
+msgid "Tooltip Text"
+msgstr "Texto Tooltip"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:409
+msgid "Tooltip Anchor"
+msgstr "Ancla Tooltip"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:410
+msgid "Add the Tooltip anchor"
+msgstr "Añadir el ancla Tooltip"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:415
+msgid "Insert Tooltip Shortcode"
+msgstr "Inserte Tooltip Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:429 tinymce/config.php:487
+msgid "Percentage Cover"
+msgstr "Porcentaje Cubierto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:430 tinymce/config.php:488
+msgid "Only number eg:20"
+msgstr "Sólo Número por ejemplo: 20"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:435
+msgid "Style"
+msgstr "Style"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:436
+msgid "Tron or Custom"
+msgstr "Tron o Personalizado"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:445
+msgid "Circle Diameter"
+msgstr "Diámetro del círculo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:446
+msgid "In pixels eg: 100"
+msgstr "En píxeles, por ejemplo: 100"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:451
+msgid "Circle Thickness"
+msgstr "Círculo grueso"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:452
+msgid "In percentage"
+msgstr "En porcentaje"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:456
+msgid "Progress  Text Color"
+msgstr "Progreso Color del texto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:457
+msgid "Progress  Text color"
+msgstr "Progreso Color del texto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:461
+msgid "Progress Circle Color"
+msgstr "Progreso color del círculo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:462
+msgid "Progress Circle color"
+msgstr "Progreso color del círculo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:467 tinymce/config.php:494
+msgid "Some Content"
+msgstr "Algunos Contenidos"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:468 tinymce/config.php:495
+msgid "like : 20% Skill, shortcodes/html allowed"
+msgstr "como : 20% Skill, shortcodes/html permitido"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:473
+msgid "Insert Round Progress Shortcode"
+msgstr "Inserte Ronda Progreso Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:499
+msgid "Color"
+msgstr "Color"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:500
+msgid "Select progressbar color"
+msgstr "Seleccione color progressbar"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:510
+msgid "Bar Color"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:511
+msgid "Bar color"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:515
+msgid "Bar Background Color"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:516
+msgid "Bar Background color"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:520
+msgid "Insert Progressbar Shortcode"
+msgstr "Inserte Progressbar Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:535
+msgid "Tabs Style"
+msgstr "Estilo de Pestañas"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:536
+msgid "select a style"
+msgstr "Seleccione estilo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:546
+msgid "Tabs theme"
+msgstr "Tema Tabs"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:547
+msgid "select a theme"
+msgstr "Selecciona un tema."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:555
+msgid "Insert Tab Shortcode"
+msgstr "Inserte Tab Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:562
+msgid "Tab Title"
+msgstr "Titulo de la pestaña"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:563
+msgid "Title of the tab"
+msgstr "Titulo de la pestaña"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:567
+msgid "Title Icon"
+msgstr "Titulo Icono"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:573
+msgid "Tab Content"
+msgstr "﻿Contenido de la pestaña"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:574
+msgid "Add the tabs content"
+msgstr "Añadir el contenido de las fichas"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:578
+msgid "Add Tab"
+msgstr "Añadir Tab"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:595
+msgid "Background Color"
+msgstr "Color fondo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:596
+msgid "Background color & theme of note"
+msgstr "Color de fondo & tema de la nota"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:621 tinymce/config.php:800
+msgid "Content"
+msgstr "Contenido"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:622
+msgid "Note Content, supports HTML/Shortcodes"
+msgstr "Nota de contenido, soporte HTML / Shortcodes"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:627
+msgid "Insert Note Shortcode"
+msgstr "Insertar Nota Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:642
+msgid "Divider Class"
+msgstr "Divisor Clase"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:643
+msgid ""
+"clear : To begin form new line. Change Size using : one_third,one_fourth,"
+"one_fifth,two_third. Use multiple styles space saperated"
+msgstr ""
+"Aclaración: para empezar forma nueva línea. Cambiar tamaño usando: "
+"one_third, one_fourth, one_fifth, two_third. Uso de múltiples estilos "
+"espacio saperated"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:648
+msgid "Insert Divider Shortcode"
+msgstr "Insertar Divisor Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:660
+msgid "Tagline Style"
+msgstr "estiloTagline"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:661
+msgid "Select the Tagline style"
+msgstr "Seleccione el estilo de Tagline"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:692
+msgid "Tagline"
+msgstr "Tagline"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:693
+msgid "Supports HTML content"
+msgstr "Soporta contenido HTML"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:698
+msgid "Insert Tagline Shortcode"
+msgstr "Inserte Tagline Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:713
+msgid "Enter Popup ID"
+msgstr "Introduzca  ID Popup"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:717
+msgid "Anchor Style"
+msgstr "Ancla Estilo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:727
+msgid "Popup/Modal Anchor"
+msgstr "Popups / Modal Ancla"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:728
+msgid "Supports HTML & Shortcodes"
+msgstr "Soporta HTML y Shortcodes"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:733
+msgid "Show Popup on Page-load"
+msgstr "Mostrar ventana emergente en la página de carga"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:739
+msgid "Insert Popups Shortcode"
+msgstr "Insertar Popups Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:752
+msgid "Enter Testimonial ID"
+msgstr "Introduzca Testimonial ID"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:757
+msgid "Number of Characters to show"
+msgstr "Número de caracteres para mostrar"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:758
+msgid ""
+"If number of characters entered above is less than Testimonial Post length, "
+"Read more link will appear"
+msgstr ""
+"Si el número de caracteres introducidos anteriormente es menor que la "
+"longitud Testimonial Post, aparecerá Más enlace"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:762
+msgid "Insert Testimonial Shortcode"
+msgstr "Inserte Testimonial Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:775
+msgid "Enter Course ID"
+msgstr "Introduzca ID curso"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:779
+msgid "Insert Course Shortcode"
+msgstr "Inserte Curso Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:792
+msgid "Select Side"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:804
+msgid "Insert PullQuote Shortcode"
+msgstr "Inserte PullQuote Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:818
+msgid "Member Image"
+msgstr "Imagen miembro"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:819
+msgid "Image url of team member"
+msgstr "Imagen URL de los miembros del equipo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:824
+msgid "Member Name"
+msgstr "Nombre del miembro"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:825
+msgid "Name of team member (HTML allowed)"
+msgstr "Nombre del miembro del equipo (HTML permitido)"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:830
+msgid "Designation"
+msgstr "Denominación"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:831
+msgid "Designation of Team Member (HTML allowed)"
+msgstr "Designación de integrante del equipo (HTML permitido)"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:835
+msgid "Insert Team Member Shortcode"
+msgstr "Inserte Team Member Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:840 tinymce/config.php:918
+msgid "Social Icon"
+msgstr "Icono Social"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:845
+msgid "Icon Link"
+msgstr "Icono Enlace"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:849
+msgid "Add Social Information"
+msgstr "Agregar Información Social"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:864
+msgid "End Map Iframe code"
+msgstr "Código End Mapa Iframe"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:865
+msgid "Enter your map iframce code including iframe tags"
+msgstr "Ingrese su código de mapa iframce incluyendo etiquetas iframe"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:870
+msgid "Insert Google Maps Shortcode"
+msgstr "Inserte Google Mapas Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:885
+msgid "Select Thumb Size"
+msgstr "Seleccionar Thumb Size"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:886
+msgid "Image size"
+msgstr " Tamaño de Imagen"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:899
+msgid "Attachment Ids"
+msgstr "Ids de Adjuntos "
+
+# @ vibe-shortcodes
+#: tinymce/config.php:900
+msgid "Attachment Ids separated by comma"
+msgstr "Ingresar Ids Adjuntos separado por coma."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:905
+msgid "Insert Gallery Shortcode"
+msgstr "Insertar Galería Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:919
+msgid "Select Elastic Social Icon, takes size/color of text it is inserted in:"
+msgstr ""
+"Seleccione Icono Social elástico, tiene el tamaño / el color del texto se "
+"inserta en:"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:924
+msgid "Size in pixels"
+msgstr "Tamaño en píxeles"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:925
+msgid "Enter Elastic font size in pixels "
+msgstr "Introduzca el tamaño de fuente elástico en píxeles"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:930
+msgid "Insert Social Icon Shortcode"
+msgstr "Inserte Icono Social Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:944
+msgid "Enter email"
+msgstr "Introducir correo electrónico"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:945
+msgid "Email is sent to this email. Use comma for multiple entries"
+msgstr ""
+"El correo electrónico se enviará a esta dirección de correo electrónico. Use "
+"comas para múltiples entradas"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:950
+msgid "Email Subject"
+msgstr "Asunto eMail"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:951
+msgid "Subject of email"
+msgstr "Asunto eMail"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:955
+msgid "Generate Contact Form Shortcode"
+msgstr ""
+
+# @ vibe-shortcodes
+#: tinymce/config.php:961
+msgid "Label Text"
+msgstr "Etiquetas de Texto"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:966
+msgid "Form Element"
+msgstr "Elemento Formulario"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:967 tinymce/config.php:985
+msgid "select Form element type"
+msgstr "seleccione Formulario tipo de elemento"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:979
+msgid "Enter Select Options"
+msgstr "Ingrese Seleccione Opciones"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:980
+msgid "Comma seperated options."
+msgstr "Opciones separadas por comas."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:984
+msgid "Validation"
+msgstr "Validación"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:997
+msgid "Add Form Element"
+msgstr "Añadir elemento Form"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1012
+msgid "Enter Heading"
+msgstr "Ingresar Título"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1013
+msgid "Enter heading."
+msgstr "Ingresar titulo"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1017
+msgid "Insert Heading Shortcode"
+msgstr "Insertar Titulo Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1030
+msgid "Enter Video iframe Code"
+msgstr "Introduzca Vídeo Código iframe"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1031
+msgid "For Responsive iframe videos form Youtube, Vimeo,bliptv etc..."
+msgstr ""
+"Para los vídeos iframe Responsive forman Youtube, Vimeo, BlipTV etc ..."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1035
+msgid "Insert iFrame Video Shortcode"
+msgstr "Inserte iFrame Vídeo Shortcode"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1048
+msgid "Enter Iframe Height"
+msgstr "Introduzca Iframe Altura"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1049
+msgid "Set iframe height"
+msgstr "Ajuste la altura del iframe"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1054
+msgid "Enter iframe URL"
+msgstr "Introducir URL iframe"
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1055
+msgid ""
+"For Responsive iframe based content, like Articulate storyline, iSpring "
+"content etc..."
+msgstr ""
+"Para Responsive contenido basado iframe, como argumento Articular, iSpring "
+"contenido etc ..."
+
+# @ vibe-shortcodes
+#: tinymce/config.php:1059
+msgid "Insert iFrame Shortcode"
+msgstr "Insertar iFrame Shortcode"
+
+#: tinymce/config.php:1072
+msgid "Enter Quiz id (optional)"
+msgstr ""
+
+#: tinymce/config.php:1073
+msgid "Quiz id for which Survey results are to be displayed."
+msgstr ""
+
+#: tinymce/config.php:1078
+msgid "Enter User id (optional)"
+msgstr ""
+
+#: tinymce/config.php:1079
+msgid "User id for which Survey results are to be displayed."
+msgstr ""
+
+#: tinymce/config.php:1084
+msgid "Enter result Upper limit "
+msgstr ""
+
+#: tinymce/config.php:1085
+msgid "Message to be displayed if survey score is less than this value"
+msgstr ""
+
+#: tinymce/config.php:1090
+msgid "Enter result Lower limit "
+msgstr ""
+
+#: tinymce/config.php:1091
+msgid "Message to be displayed if survey score is more than this value"
+msgstr ""
+
+#: tinymce/config.php:1096
+msgid "Enter Survey result message"
+msgstr ""
+
+#: tinymce/config.php:1097
+msgid "Enter message for result"
+msgstr ""
+
+#: tinymce/config.php:1101
+msgid "Insert Survey Result Shortcode in Quiz completion message"
+msgstr ""
+
+# @ vibe-shortcodes
+#: upload_handler.php:17
+msgid "Upload ZIP"
+msgstr "Subir ZIP"
+
+# @ vibe-shortcodes
+#: upload_handler.php:38 upload_handler.php:336
+msgid "Upload Library"
+msgstr "Subir Biblioteca"
+
+# @ vibe-shortcodes
+#: upload_handler.php:39 upload_handler.php:240 upload_handler.php:327
+msgid "Upload File"
+msgstr "Subir Archivo"
+
+# @ vibe-shortcodes
+#: upload_handler.php:94
+msgid "Iframe source"
+msgstr "Fuente de iframe"
+
+# @ vibe-shortcodes
+#: upload_handler.php:103
+msgid "Maximum height of iFrame"
+msgstr "Altura máxima de iFrame"
+
+# @ vibe-shortcodes
+#: upload_handler.php:104
+msgid "Insert Into Post"
+msgstr "Insertar en Publicar"
+
+# @ vibe-shortcodes
+#: upload_handler.php:130
+#, php-format
+msgid "Showing Content %d - %d from %d"
+msgstr "Mostrando contenido %d - %d de %d"
+
+# @ vibe-shortcodes
+#: upload_handler.php:155
+msgid "No packages available"
+msgstr "No hay paquetes disponibles"
+
+# @ vibe-shortcodes
+#: upload_handler.php:223
+msgid "Please upload a Zip package with index.html file"
+msgstr "Por favor, elija un archivo de paquete .zip con el archivo index.html"
+
+# @ vibe-shortcodes
+#: upload_handler.php:224
+msgid "No data found!"
+msgstr "No hay datos"
+
+# @ vibe-shortcodes
+#: upload_handler.php:225
+msgid "Are you sure you want to remove this package?"
+msgstr "¿Está seguro que desea eliminar este paquete?"
+
+# @ vibe-shortcodes
+#: upload_handler.php:239
+msgid "Choose a file to upload"
+msgstr "Seleccione un archivo para cargarlo"
+
+# @ vibe-shortcodes
+#: upload_handler.php:243
+msgid "Please choose a .zip package file"
+msgstr "Por favor, elija un archivo de paquete .zip"
+
+# @ vibe-shortcodes
+#: upload_handler.php:267
+msgid "The Upload file must be zip archive"
+msgstr "Por favor, elija un archivo de paquete .zip"
+
+# @ vibe-shortcodes
+#: upload_handler.php:277
+msgid "File too big"
+msgstr "Archivo demasiado grande"
+
+# @ vibe-shortcodes
+#: upload_handler.php:298
+msgid "Please upload zip file, Index.html file not found in package"
+msgstr ""
+"Por favor, sube el archivo zip, archivo Index.html no se encuentra en el "
+"paquete"
+
+# @ vibe-shortcodes
+#: upload_handler.php:302
+msgid "Upload failed !"
+msgstr "Error en la carga."

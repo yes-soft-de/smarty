@@ -310,9 +310,7 @@ Release and roadmap notes are available on the [WooCommerce Developers Blog](htt
 - Tweak: Onboarding - Add Skip Step link on Themes Step. #3490 (Onboarding) 
 - Bug: Add SelectControl debouncing and keyboard fixes #3507 (Components, Packages) 
 - Tweak: Included RegExp for JS files in examples.config.js #3510 (Build, Extensibility) ðŸ‘ @yash-webkul
-- Bug: Onboarding: Don't show skip link if no plugins exist to skip #3485 (Onboarding) 
-- Fix: Make package-based load inert when plugin is active. #3555 (On Merge to WC Core) 
-- Dev: Onboarding: Add purchase products task list item #3472 (Onboarding) 
+- Bug: Onboarding: Don't show skip link if no plugins exist to skip #3485 (Onboa P­V   P­V                   NyV          `aƒV  ˆP­V          @P­V   @      @P­V          : Onboarding: Add purchase products task list item #3472 (Onboarding) 
 - Fix: Properly style theme selection button in Site Profiler #3489  
 - Dev: Onboarding: Add tracks to extension purchase task and modal #3493 (Onboarding) 
 - Tweak: Change Refunds to Returns on the dashboard. #3514  
@@ -556,9 +554,7 @@ Release and roadmap notes are available on the [WooCommerce Developers Blog](htt
 - Fix: Location of unread indicators in activity panel. #2662
 - Bug: Fix missing nav on connected admin pages. #2676
 - Task: Add priority 2 Tracks events #2633 (Components, Packages)
-- Dev: Replace 'stringifyQuery' with 'addQueryArgs' #2655 (Build, Components, Packages)
-- Task: Add priority 3 Tracks events #2638 (Components, Packages)
-- Fix: Z-index issue in empty message on chart #2646 (Components, Packages)
+- Dev: Replace 'stringifyQuery' with 'addQueryArgs' #2655 (Bu P­V   P­V                   NyV          `aƒV  ˆP­V          @P­V  *>      @P­V          index issue in empty message on chart #2646 (Components, Packages)
 - Dev: Tests setup: bring in Woo Core dependencies #2640 (Build)
 - Fix: Disable placeholder animation when prefers-reduced-motion is set #2645 (Accessibility)
 - Task: Add instructions for translating to contributing docs. #2618 (Documentation)

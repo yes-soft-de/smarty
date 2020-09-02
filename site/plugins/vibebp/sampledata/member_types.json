@@ -1,0 +1,17 @@
+[
+	{
+		"id":"product_designer",
+		"sname":"Product Designer",
+		"pname":"Product Designers"
+	},
+	{
+		"id":"technical_analyst",
+		"sname":"Technical Analyst",
+		"pname":"Technical Analysts"
+	},
+	{
+		"id":"digital_marketer",
+		"sname":"Digital Marketer",
+		"pname":"Digital Marketers"
+	}
+]

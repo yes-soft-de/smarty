@@ -1,0 +1,805 @@
+*3.8
+*WPML redirect on create course in instructor profile
+*filter to add more options for expiry schedule in lms settings
+*co author not showing activated in addons section fix
+*removed extra line from profile_menu.php file
+*dynamic profile menu
+*Update includes/profile_menu.php
+*chat to push notificaiton license key
+*edit links in unit in curriculum drag
+*wpml related fix disable ajax
+*guest user changes
+*guest user checkout and profile blocking.
+*free trials fix
+*3.7.1.1
+*free trial fix
+*$ to jQuery
+*login as guest button at course button and stop unit complete , progress and quiz retakes for guest user
+*guest user stop activity recording and allow infinite retakes in quizzes
+*Guest User Login
+*guest user login
+*show link for completed units
+*new pot file
+*new featured block
+*filter in featured component function
+*Administrator Report statistics
+*Admnistrator statistics Tab using react
+*Administrator statistics tab removed
+*3.7.1
+*settings in class added again
+*3.7
+*member grid
+*member4 type feature block
+*expire course duration calculated from start course fix
+*free trial fix
+*musettings with new envato token
+*grid-blocks
+*Pie Chart Added
+*Adding Block for the courses listed with the completion date
+*version to 3
+*auto mark unit complete wpml page check
+*added action in touch points settings html
+*3.6.0.2
+*apply_for_course bug fix
+*3.6.0.1
+*wpdb global fix
+*3.6
+*chat $39 to $29
+*images loaded library error fix in VC pages
+*testimonials and not posts found issue fix
+*3.5
+*free courses filter
+*thumb_heading filter missing
+*course limit exceed fix
+*custom post type difinition spelling mistake fix
+*randomize question options
+*order by Popular courses in course directory bug fixed.
+*Coming soon free courses are subsribed when clicked bug fixed
+*Wplms grade book addon added in addons.
+*different setting if want to enable login popup for free courses only
+*filter for allowed posttypes in page builder
+*v_slider not working when added in main page editor fix
+*3.4.1
+*Error in customtypes removed
+*Unit timings addon added in lms addons section.
+*tranlsation updated
+*3.4
+*Filter added for extending default order in course directory
+*Wplms application forms addon added in lms addons
+*drop not working in page builder fix
+*Mail content key removed from form
+*custom activation email feature
+* import issue unit comments (using Notes and discussion) don't have any student link fix
+*jquery error on pay via paypal button fix
+*user activity link
+*update wallet amount
+*pagination search in lms api wallet
+*item information increased
+*app_version
+*app version
+*enable wallet settings
+*settings for show quiz results right after quiz completion feature
+*button text change
+*pagination and serach in connected clients
+*3.2.1
+*multisite VC check bug fixed
+*changelog
+*3.2
+*Duration passed in course unit and quiz duration filter
+*course details tips not working fixed
+*Adding support for subscrioptions in Enable Course Duration from Start Course in lms settings
+*vibe_thumb_featured_image filter added in testimonials also
+*WPML check added for create course page in accordion style
+*course news touch points not working fixed.
+*exported file not downloading bug fixed
+*changelog
+*3.1
+*remove all trackers when version upgraded
+*form generation updated for custom registration form
+*Add switch for partial free course in course price section
+*empty check to isset if answer is 0
+*negative marking quiz results issue fix
+*3.0.3
+*paralax image fix
+*3.0.2
+*parallax background image fix
+*Partial free couse setting removed.
+*quiz lock setting
+*Partial free course setting added in backend
+*Text domain issue fixed in course menu.
+*potfile updated
+*redundant settings.
+*different alert for clear expired clients
+*3.0.1
+*notice fix
+*3.0
+*translation files
+*featured course action
+*notice fixes
+*custom Url in course details section not working properly fixed.
+*member types and groups types tabs issue
+*updates styling
+*global update blank validation
+*delivered update timestamp
+*remove updates for users
+*send to all updates
+*app updates
+*apps
+*api version and security
+*enable registration option
+*secret should not contain special chars
+*BadgeSize filter
+*Auth server
+*oAuth connections in Admin
+*restructuring and api init
+*Partial marking setting added in lms settings.
+*2.9.2
+*translation files updated
+*Do not show number of unit if 0
+*total unit duration fix
+*Removed comment causing issue with minification
+*Dashboard slug redefined in logged in menu
+*2.9.1.1
+*Dashboard not opening from logged in menu bug fixed.
+*2.9.1
+*course menu custom section privacy fix
+*Revert "member types v re-initialized"
+*revert member types development
+*member types v re-initialized
+*member types initialized
+*changelog
+*2.9
+*translation updated
+*multiple select support
+*Notices fixed
+*course menus finished
+*course menu done
+*course menus re-intialized
+*unit link in course status redirect
+*Show Current unit Title and Link in Course Status help link added
+*unit title fix
+*special chars decoded in show unit title and url course status
+*show unit url and title in course status
+*changelog updated
+*translations
+*2.8.1
+*Addons submenu added in lms.
+*Addons added in lms-> settings-> addons.
+*Course Menu toggle edit.
+*Course menu translation fix.
+*Course menu -> links, action hidden to users
+*Course Menu Sorting fixed.
+*Start date added course widget
+*Course Settings custom field <li> tag added
+*Course menu - Hide component and id fields
+*Course menu tutorial link added.
+*Email set for course review
+*Course review schdeule email option added in schedule emails.
+*Course menu settings privacy unset fixed.
+*Course Menu Unset item fixed, Duplicate select items Fixed, Privacy select fixed.
+*body admin class
+*2.8
+*updated certificate shortcodes
+*translation update
+*Print_r in permalinks removed.
+*Notice fix
+*Logged in Menu wpml fixed
+*Bulk import user badge and certificate not working bug fixed.
+*Inactivity emails according to No. of days, weeks and months added
+*Set Course duration from start course switch added
+*Login popup on course button for non logged users added
+*changes logic of exclude quiz if not connected to course
+*exclude quizzes not connected to course from course evaluation
+*check if ID exists
+*unit attachments handler
+*option name and post field edit option added in ad hoc
+*loggedin menu with wpml
+*changelog
+*Layer slider settings not showing in page builder use case fixed
+*2.7.3
+*changelog
+*get_product to wc_get_product
+*New featured block
+*gift course
+*loggedin_menu fix
+*Logged in menu regex and action loop fixed.
+*2.6.1.1
+*init custom meta box
+*Logged in menu empty fix.
+*logged in menu fixed.
+*Logged in menu customisable fixed.
+*Logged in menu wishlist slug fixed.
+*logged in Dropdown wishlist fix.
+*Added membership and my orders to logged in menu
+*Profile menu Component fixes.
+*Profile dropdown menu fixed.
+*Customise profile menu dropdown fixed.
+*Customise Profile dropdown logic fix.
+*featured courses and refactoring code
+*changelog
+*Translations updated.
+*fixes to profie menu dropdown
+*fixes for profile menu drop down
+*Profile Menu dropdown empty checks.
+*Custom Dropdown menu empty checks added.
+*Customise Profile dropdown links bug fixed.
+*changes in logic
+*Pot file synced
+*Level array Notice fixed.
+*Customise Course details Notices Fixed.
+*2.6 version
+*revslider fix for height error
+*2.5.2.1
+*hook in statistics download reports.
+*Testing new remote.
+*success notice on save settings
+*answer switch position changed
+*styling issue custom course details fix
+*2.5.2
+*component checks
+*fixed notices
+*Dynamic Quiz tags with marks
+*instance of check instead of is_a (deprecated)
+*Number of  Assignments function defined for course details Widget.
+*privay options added
+*'wplms_course_thumb_extras' filter added for other course blocks also
+*filter added on restricted forums query
+*2.5
+*translation files updates
+*Upload field type updated
+*Author display fixed in related course widget.
+*free course auto allocation disable fix with expired courses
+*cron remove was not working fix
+*Fix Course Menu on Scroll for c2,c3 and c5 layout
+*Term & Condition page fix for multi-language.
+*Hide next unit fix.
+*Next unit hides bug fixed.
+*auto mark unit complete script change on unit load
+*confirm alert while removing cron
+*2.4.1.5
+*scheduled email feature
+*2.4.1.4
+*catch_vars priority bug fix for drive
+*post_types filter for vibe customtypes scripts
+*2.4.1.3
+*scripts.js classes not defined
+*permalinks fix for course directory
+*testimonial default avatar fix
+*2.4.1.2
+*Free course auto subscription fix
+*2.4.1.1
+*Permalinks use case fix
+*Years added in Time parameter
+*testimonial carousel fix
+*2.4.1
+*removed my cred addon
+*Curriculum visibility fix.
+*Revert "Curriculum visibility fix."
+*Curriculum visibility fix.
+*click to copy function in registration from shortcode
+*Fix overlapping classes in filterable
+*Load select2 in Forums
+*CSS changes in the select switch
+*Teximonial block can be used for regular posts
+*Skip course status page in Course start continue
+*Instructor display switch
+*Enable instructor switch
+*course directory permalinks in the course
+*tips fixes
+*select button update
+*WooCommerce endpoints fix in BuddyPress account.
+*Permalinks fix when Course slug is Course directory,
+*Add https in Social profile links.
+*bulk import fix Comma separeted only allowed for quiz_questions
+*Survey question type
+*2.3.1.1
+*Logical error in Courase Activity accessibility
+*Unit forum & Course forum bug
+*fix registration forms Space in name and field names
+*Notices fixed in PAgebuilder
+*Dynamic Quiz v 2
+*2.3.1
+*free courses auto-assignment fix.
+*changelog
+*2.3
+*0 commission fix
+*translation files updated
+*assignment time bug fix
+*lms settings registration forums display
+*Assignment duration
+*Order for Start date sort
+*check for instructors and admins
+*fixes in registration forms
+*groups_get_groups instead of BP_Groups_Group::get
+*registration forums tutorial link
+*php7 page builder fix
+*Tips and account activation checks
+*Course drip origin feature added
+*allignment
+*Student Quiz results, Course forums sync options
+*disable certificate screenshot switch
+*grid number in posts
+*Vibe carousels & member carousel
+*Admin functions update and sync options
+*new featured block
+*show nav menus repeated in custom types
+*Enqueue media in Terms
+*Clear page builder code and then re-save to avoid any conflicts.
+*User role setting in Form settings
+*Registration Form settings
+*Fix : instructor message and mail icon removed on ajax
+*2.2.2
+*2.2.2
+*New featured block
+*2.2.1.1
+*Profile not opening for first timer
+*New General block
+*admin check for course forum privacy
+*2.2.1
+*non-latin languages excerpt fix in carousel,post grids fix
+*db error fixes for instructor stats
+*quiz passing score fix
+*2.1.1
+*wishlists and courseware migration plugin in addons
+*addon blocks css
+*linkage filter backend cpt fix
+*load scripts in footer
+*Notice fixes
+*2.1
+*Sort by date implementation
+*page builder fixes
+*Remove marked answers fix
+*Tutorial link in settings
+*Quiz post status draft & publish for course selection
+*revslider and layerslider in multisite detection
+*top margin in select2
+*arguments in unit_expander
+*featured bug fix "array"
+*2.0.9.1
+*Filterable categories missing.
+*text
+*changelog
+*2.0.9
+*check quiz pass fail
+*Upcoming courses default order in Course directory
+*Force admin approval setting
+*Hide show in translatable files
+*type for breadcrumbs field
+*Default featured block now accomodates products
+*Filterable changes
+*2.0.8.2
+*Batches feature
+*2.0.8.1
+*select2 fix for download manager
+*select2 on select
+*select2 call
+*metabox fix for select2
+*2.0.8
+*translation files updated
+*select2 bug fix
+*Course Category sort order
+*passing post_ID for linkage property
+*Skip question in negative marking
+*Import BP emails function
+*commission class updated
+*LMS out of translation
+*2.0.7.1
+*Translation files updated
+*STD 0  in forums for blank forum un units
+*select2 in product bug fix
+*2.0.7
+*changelog
+*function exists check on get_template_part
+*Comment out bp emails for next update
+*Select2 if not enqueued should be enqueued.
+*Force Quiz avaiability to course students only
+*WP Engine fix for redirect on same page
+*2.0.6.2
+*License Activation and Deactivation for AddOns
+*Yoast SEO fix
+*2.0.6.1
+*WooCommerce & PMpro check for multisite
+*Removed Mandrill recommedation because it is now paid.
+*Time bug in submissions
+*Yoast SEO compatibility
+*Course news added
+*Unit completion lock per course
+*Testimonial Slug
+*Pre required course status check
+*Learn more link in touch points section
+*Course redirect loop fix
+*Sort by Free courses in Page Builder
+*Random Course directory order option
+*Testiminial2 block
+*Tanke this course button extras for free course
+*Assignments in Curriculum bug fix
+*abspath added
+*php5.3 bug
+*New Testimonial block
+*Carousel auto-rotate fix
+*scripts loaded in correct place
+*Customtypes fonts
+*translation files
+*Page builder not saving
+*changelog
+*2.0.6
+*member check
+*Course code message
+*Course Codes fix
+*Remove finished course setting
+*featured content blocks in vibe builder
+*on demand enqueue_scripts
+*Course Module Visibility controls
+*Featured content
+*removing .ds_store
+*buf fixes and new features
+*Course Codes activity update and Bug fix
+*function exists check
+*changelog
+*2.0.5
+*Groups and Forums bug fix
+*2.0.4
+*custom_excerpt function
+*Revert permalinks fix
+*select2 not loading when woocommerce deactivated
+*version 2.0.3
+*Ninja forms ID
+*touch point admin
+*Seconds in WP Admin unit duration parameter
+*Notices removed removed
+*Widget improvements
+*Removed notifications and warnings
+*version2.0.1
+*Builder shortcode update fix
+*dngling a links
+*Dynamic enqueue scripts
+*changelog
+*translation files
+*dashicon changed
+*permalink and slugs settings
+*Duration type
+*New featured block funciton
+*Yoast SEO js app for pagebuilder
+*chosen removed
+*Unit description option
+*Featured block fixes
+*Issue on 2.0 activated on default
+*All courses slug in permalinks
+*PAssing post ID with parameter
+*layout_html removed
+*layouthtml removed from saving
+*fix for 1.9.9.3
+*Default image bug fix in related courses widget
+*version1.9.9.3
+*Commission merge and WPLMS S3 addon
+*Addon block colors
+*settings addon
+*version1.9.9.2
+*fix to Non ajax courses
+*terms and conditions
+*Language files updated
+*Terms and conditions
+*translation file fixes
+*WPLMS AddOns Tab
+*addons css
+*Terms and conditions added, Unit key check for non-ajax
+*Addons
+*version 1.9.9.1
+*Unit id echo bug in non-ajax courses
+*LMS - Payments History visible to instructor bug
+*language files
+*Front end course instructor creation limit check
+*assignment timelimit
+*permalink bug fix
+*version1.9.9
+*post_status in metabox select
+*Start date in vibe editor
+*Course Post status and multicpt for pre-course
+*optimisation of tipcs class
+*WPLMS Tips functions
+*Permalinks
+*Disable ajax function , Unit wise drip
+*v_1_4_2 shortcode
+*google maps in admin
+*updated error handle
+*singleton lms class
+*metabox filters
+*version1.9.8.1
+*Save box priority change
+*Pmpro active check
+*styling issues
+*LMS Tree post per page
+*Linkage and Levels in export file
+*LMS Tree
+*chosen jquery fix
+*check if first unit in section is a quiz
+*version1.9.8
+*timestamp fix for start datetime units
+*Options panel get_option bug fix
+*Pay via PayPal for instructors bug fix
+*version1.9.7
+*Language files updated
+*Coming soon bug fix
+*hardcoded table name in caching fixed.
+*fixing filter names
+*Submission meta feature in WPLMS
+*Chosen jquery fix
+*version1.9.6.2
+*isset bug fix for custom css
+*Chosen bug fix when woocommerce not active
+*bug fixes
+*Email Template fix
+*version1.9.6
+*Translations updated
+*Free Course Prerequisite course bug fix
+*BBPress 404 page fix
+*Statistics extra closing div
+*Activation mail default content
+*Emails and Scheduler
+*Select boxes fix
+*Removing chosen select from admin
+*Revert "Merge branch 'feature/Emails' into develop"
+*version1.9.5.1
+*Visual composer bug
+*Import/Export files
+*version1.9.5
+*Translation files
+*Assignment fix
+*Include masonry only where required
+*New Options added
+*Repeatable
+*Quiz type taxonomy added
+*Spelling correction
+*Plugin update fixes
+*version1.9.4.1
+*Coming soon fix
+*version1.9.4
+*Translation changes
+*PDF print option in certificates
+*Section drip fix
+*post per page in post ids
+*Astrik issue
+*Display all courses in set commissions
+*Certificate height & width
+*Responsive parallax
+*5 More settings
+*Updated Certificate shortcode notification
+*version1.9.3.1
+*Add more in translation
+*Exclude from search
+*Forum Privacy
+*Remove instructor access to student courses
+*version1.9.3
+*Translation fixes
+*FAtal error on course categories statistics
+*get message slug function check
+*Student Instructor menus
+*Pagination fix on filterable
+*Orderby fix
+*1.9.2.2
+*New Parallax style
+*language update
+*Instructor icon
+*Regexp fix in mysql query
+*homepage pagination error in postgrid
+*tooltip on instructor icons
+*changelog
+*version1.9.2.1
+*Warnings on statistics page due to terms
+*Course Codes fixed
+*version1.9.2
+*Translation files updated
+*Featuerd image added in Events
+*In Course quiz , Ninja forms integration
+*Show progress bar in course admin
+*version1.9.1.2
+*1.9.1.1
+*Return if default orderby is set
+*version1.9.1.1
+*Login redirect fix
+*Fixed : Login redirect issue
+*Pmpro account in logged in menu
+*version1.9.1
+*Language files updated
+*Full width post template for Posts
+*Disable auto free and default sort order in course directory tips added
+*Front end Course delete and WooCommerce account
+*Pay via Paypal button added on commissions
+*Course Codes
+*Course Unit start datetime featre
+*Specific ID fix
+*prefix issue
+*version1.9
+*Translation files updated
+*Vibe get option fix
+*Parallax BG Fix
+*version1.8.4
+*Testimonial loop bug fix
+*Translation files updated
+*Bug fixes
+*Version1.8.3.1
+*Delete Cache Bug
+*version1.8.3
+*ADDED  : Caching in Admin panel
+*ADDED  : Generated shortcode feature
+*Updated  Language files
+*Course 2 Featured block
+*FIXED : 0 in number support
+*Cache Reset Conditions
+*Check Cache enabled
+*WP Cache in featured blocks
+*Featured blocks Caching
+*Caching in featured blocks
+*Fixed Fatal errors
+*Course specific instructions
+*FIXED : Added inbuilt Caching
+*Comments translation fix
+*Updated Changelog
+*version1.8.2
+*Units/ Quizzes/Quesiton now support authors
+*Filterable special characters in categories fix
+*language change
+*Show in LMS for Linkage
+*Adding/Fixing comments
+*version1.8.1
+*Language files updated
+*FIXED : Question types translated
+*Fixed : Quiz timeline issue
+*CSS Changes for Page builder
+*Added Popups metabox
+*1.8.0.1
+*Updated : Language files
+*1.8
+*version1.8
+*Backend Commission calculation corrections
+*Fixed : Translation issue
+*FIXED : Parallax background issue
+*FIXED : Passing id in backend cpt query
+*Fixed : Instructor commissions for CoAuthors plus
+*version1.7.5
+*Translation update
+*ADDED : Adjustment parameter in Parallax
+*version1.7.4
+*UPDATED : Language files
+*FIXED : Translation bugs
+*Filters added to hide courses from site.
+*FREE Translated
+*Shifted the Vibe_GET_Option function
+*version1.7.3
+*UPDATED : Language  files
+*FIXED : Translation line
+*ADDED : Get option function to avoid fatal errors on Multi site
+*FIXED : Warning on Course Style not being set
+*REMOVED : Redundant Tax_select option
+*UPDATED : Language files hook
+*version1.7.2
+*UPDATED : Language Files
+*FIXED : Google maps static in admin pages
+*ADDED : CodeStyling localization compatibility
+*version1.7.1
+*FIXED : Private label bug in PMPro memberships
+*FIXED : Linkage for products
+*version 1.7
+*UPDATED : Language files
+*ADDED: Variable Assignment Upload limit
+*version1.6.5
+*ADDED :  Calculate duration function
+*ADDED : Duration parameters
+*ADDED : Level taxonomy
+*UPDATED : Assignments to multi cpt
+*ADDED : Fallback for selectcpt in selectmulticpt
+*version1.6.4
+*UPDATED : Translation files
+*ADDED : Page Attributes in courses for Custom Ordering
+*FIXED : Set a default value for course in course creation
+*ADDED : Thumbnail style output filter
+*ADDED : Event Card and Thumb Style filter
+*ADDED : Dynamic Taxonomy select for dynamic quiz
+*version 1.6.3.1
+*FIXED : Vibe Custom types plugin multicpt metabox issue
+*version1.6.3
+*FIXED : All featured block images now link to their respective posts
+*version 1.6.2.1
+*Added : pt_BR language files
+*FIXED : Product settings Course selection issue
+*FIXED : Enable CPT Quiz in Page builder
+*version 1.6.2
+*Updated  : Language files
+*ADDED : Linkage taxonomy
+*ADDED : Filters for each meta box , to extend the metaboxes
+*ADDED : French language files
+*FIXED : Check on array validity. Course Bug in Products
+*FIXED : Post ids bug in Page Builder
+*Added: Spanish language files
+*ADDED : Linkage
+*ADDED : Course Start date & Number of Seats in course
+*version 1.6.1
+*ADDED : Unit type hook for more unit types
+*version 1.6
+*UPDATED : Language Files [US]
+*UPDATED : Added filter for all backend queries
+*Version 1.5.5
+*UPDATED : Translation files
+*ADDED : Event Access and Product integration
+*Version 1.5.4.1
+*FIXED : Add Units in Course
+*version 1.5.4
+*UPDATED : Translation files
+*FIXED : Translation bug
+*FIXED : Quiz Repeatable questions bug
+*FIXED : Pagebuilder Flexslider bug
+*FIXED: Quiz multiple repeating questions bug
+*FIXED : Refactored Course credits filter
+*FIXED : Spelling mistake in Assignment
+*Version 1.5.3
+*Fixed : Load_textdomain to load_plugin_textodmain
+*UPDATED : Translation files
+*FIXED : Translation of "reviews"
+*UPDATED : Certificate Shortcodes added
+*ADDED :Hooks for custom admin functions
+*1.5.2.3
+*FIXED : WP 3.9 compatibility
+*version 1.5.2.1
+*FIXED : WP 3.9 Page Builder issue
+*FIXED : Active Check for WooCommerce on Network sites
+*version 1.5.2
+*FIXED: Meta box warning
+*FIXED: Animation effects on Page builder blocks
+*Updated version 1.5.1.2
+*Fixed : Animation Effects
+*FIXED: Price Bug in Course Thumbnail style
+*FIXED : Page builder bug fix
+*Fixed : Get Price fix
+*UPDATED : Language files updated
+*FIXED : WooCommerce Coupons bug fix
+*FIXED : Page Builder Post grid actual image widths bug
+*UPDATED : PMPro multi level support for Courses
+*Fix : PHP Warning on meta box saving Yes/No , Show/Hide
+*Fix : Added a hook to hide/show student count in Course Thumbnail
+*ADDED : Assignment Connect in Units
+*Updated : Removed the WooCommerce endpoints temporary fix. Everything works fine now.
+*Fix : PMPro in Featured Thumbnail
+*version 1.4.1
+*Fix: Updated Language Files
+*ADDED : PMPRO Support
+*Fix: Quiz connected Course hook.
+*FIX : Testimonial Default Image fix.
+*Timepicker
+*v 1.4
+*Comments in Translation files
+*Front end editor changes
+*Active plugin check for events
+*ADDED : Event Card featured thumbnail style
+*Fix: WooCommerce End point fixes
+*Enabling events
+*Script Bug fix occurs only in rare case
+*Flush rewrite rules permalink fix
+*Language files updated
+*v 1.3.4
+*WPLMS Multi Site Fix.
+*Instructor Stats
+*Disabling events for 1.3.4 version
+*Adding Sort Question type
+*Show Course Categories in Admin menu
+*Events, Testimonials label fix
+*Events Post Type metabox
+*Registering Events Post type
+*Adding Time Picker files and field tipe
+*Adding Time Picker
+*Events Metabox
+*v 1.3.3
+*Language Translation Files and fixes
+*Direct access fix
+*Retake Quiz option
+*Several Filters for Thumbnail styles
+*Certificate BG Image bug fix
+*version 1.3.2
+*Certificate Generator
+*Version 1.3.1
+*Course Meta Query Controls added in standard Page builder blocks
+*Course Auto Evaluation
+*Page Builder Conflict with InfuseWoo pro
+*Finishing Instructor Commission Payments
+*Adding Provision for Recording payments
+*Starting with history
+*Initializing Repo

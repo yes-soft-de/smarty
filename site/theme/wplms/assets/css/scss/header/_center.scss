@@ -1,0 +1,37 @@
+/**
+ * File: center.scss
+ * Description : Contains all styling for the Center Header
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULTS
+/*
+/*========================================================================*/
+/*   01. DEFAULTS
+/*========================================================================*/
+
+
+header{
+	&.sleek.center{
+		.col-md-9.col-sm-6.col-xs-12{
+			#logo{
+				float:none;
+			}
+			nav{
+				float:left;
+			}
+		}
+		.topmenu{
+			float:right;
+		}
+		nav{
+			float:left;
+		}
+	}
+}

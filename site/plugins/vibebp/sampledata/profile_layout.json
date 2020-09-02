@@ -1,0 +1,350 @@
+{
+  "member-profile": [
+    {
+      "type_title": "Member Profiles",
+      "post_id": 179,
+      "post_title": "Default",
+      "post_status": "publish",
+      "post_name": "default",
+      "post_content": "<a href=\"https://demos.wplms.io/members/wplms_demos_admin/\"><img src=\"https://demos.wplms.io/wp-content/uploads/avatars/1/5ef62a4254b54-bpfull.png\" style=\"width:420px;border-radius:5px;\" /></a>\t\t\n\t\t\t\t\t\tJohn Doe\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg>\t\t\t\n\t\t\t\t\t\tAE\n\t\t\tProduct Designer\t\t\n\t\t\t<b>RATINGS</b>\t\t\n\t\t\t0\t\t\n\t\t\t<b>Followers</b>\t\t\n\t\t\t1\t\t\n\t\t\t<b>Students</b>\t\t\n\t\t\t0\t\t\n\t\t\tCoURSES\t\t\n\t\t\t0\t\t\n\t\t\t<label></label>\t\t\t<a href=\"https://yahoo.com\" target=\"_blank\" style=\"color:;font-size:20px\" rel=\"noopener noreferrer\"></a><a href=\"https://live.com\" target=\"_blank\" style=\"color:;font-size:20px\" rel=\"noopener noreferrer\"></a><a href=\"https://facebook.com\" target=\"_blank\" style=\"color:;font-size:20px\" rel=\"noopener noreferrer\"></a>\n\t\t\t<h5>WORK EXPERIENCE</h5>\t\t\n\t\t\t<label>Current Position</label>\t\t\t<strong>CoFounder Alexa</strong>\nDirector Operations, Brand equity\nDelivery Management &amp; CRM\n\t\t\t<label>Job Experience</label>\t\t\t<strong>Product Evangelist</strong>\nNetflix, Product Management,\nUI/UX, Brand management &amp; Digital Marketing\n\t\t\t<h5>SKILLS</h5>\t\t\n\t\t\t<label>Skills</label>\t\t\tBrandingUI/UXWeb - DesignPackagingPrint &amp; Editorial\n\t\t\t<h5>CONTACT INFORMATION</h5>\t\t\n\t\t\t<label>E-mail</label>\t\t\thello@johndoe.com\n\t\t\t<label>Phone</label>\t\t\t<a href=\"tel://12312345\" rel=\"nofollow\">12312345</a>\n\t\t\t<label>Address</label>\t\t\t525, 128th Street\nNew York, NY 10666087 123-187-60\n\t\t\t<label>Site</label>\t\t\t<a href=\"http://www.johndoe.com\" rel=\"nofollow\">www.johndoe.com</a>\n\t\t\t<h5>ABOUT INSTRUCTOR</h5>\t\t\n\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac fringilla mauris. Sed ultricies, justo in ornare convallis, augue felis faucibus nulla, maximus vehicula est est id sapien. Nam at lacinia neque. Duis vitae massa nec ipsum maximus rhoncus. Fusce vitae libero suscipit, rutrum dolor sit amet, fringilla purus. Aenean pharetra vestibulum aliquam. Cras venenatis turpis sed auctor interdum. Nam id nibh nec lacus accumsan aliquet. Nulla sodales accumsan tortor et lobortis. Proin laoreet odio ut posuere dapibus. Sed ut nunc auctor, convallis turpis id, dapibus ex. Nam ipsum ex, eleifend viverra odio non, gravida ultricies elit. Nunc hendrerit est dolor, sit amet egestas orci tincidunt et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;\nAliquam erat volutpat. In condimentum molestie elit ut blandit. Ut sed sapien finibus, fringilla urna in, suscipit justo. In hac habitasse platea dictumst. In faucibus dolor massa, vitae euismod dui ornare nec. Fusce efficitur lacinia nisi, et rutrum nunc ultricies eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam sit amet pharetra odio.",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2020-06-26 14:41:52",
+      "post_date_gmt": "2020-06-26 14:41:52",
+      "guid": "https://demos.wplms.io/?post_type=member-profile&#038;p=179",
+      "post_mime_type": "",
+      "meta_input": {
+        "_wp_page_template": "default",
+        "_elementor_template_type": "wp-post",
+        "_elementor_version": "2.9.13",
+        "_elementor_edit_mode": "builder",
+        "_elementor_data": "[{\"id\":\"2e6110a\",\"elType\":\"section\",\"settings\":{\"structure\":\"21\"},\"elements\":[{\"id\":\"84bcf5d\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null},\"elements\":[{\"id\":\"18d291d\",\"elType\":\"widget\",\"settings\":{\"width\":{\"unit\":\"px\",\"size\":420,\"sizes\":[]},\"border-radius\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"member_avatar\"}],\"isInner\":false},{\"id\":\"7198e9b\",\"elType\":\"column\",\"settings\":{\"_column_size\":66,\"_inline_size\":null},\"elements\":[{\"id\":\"aae441f\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"1\",\"font-size\":{\"unit\":\"px\",\"size\":32,\"sizes\":[]},\"style\":\"nolabel\",\"font_size\":{\"unit\":\"px\",\"size\":35,\"sizes\":[]},\"text_color\":\"#475F7B\",\"_element_width\":\"auto\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"808a5d3\",\"elType\":\"widget\",\"settings\":{\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/demos.wplms.io\\/wp-content\\/uploads\\/2020\\/06\\/map-pin.svg\",\"id\":240},\"library\":\"svg\"},\"size\":{\"unit\":\"px\",\"size\":24,\"sizes\":[]},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\",\"primary_color\":\"rgba(90, 141, 238, 0.35)\"},\"elements\":[],\"widgetType\":\"icon\"},{\"id\":\"d33cac9\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"26\",\"font-size\":{\"unit\":\"px\",\"size\":32,\"sizes\":[]},\"style\":\"nolabel\",\"font_size\":{\"unit\":\"px\",\"size\":15,\"sizes\":[]},\"text_color\":\"rgba(71, 95, 123, 0.64)\",\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"5a6ba8e\",\"elType\":\"widget\",\"settings\":{\"data\":\"member_type\",\"font_Size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#5BA5FB\"},\"elements\":[],\"widgetType\":\"member_profile_data\"},{\"id\":\"1de2a31\",\"elType\":\"widget\",\"settings\":{\"title\":\"<b>RATINGS<\\/b>\",\"header_size\":\"span\",\"align\":\"left\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Muli\",\"typography_font_size\":{\"unit\":\"px\",\"size\":11,\"sizes\":[]},\"typography_font_weight\":\"600\",\"typography_text_transform\":\"uppercase\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"typography_letter_spacing\":{\"unit\":\"px\",\"size\":0.59999999999999997779553950749686919152736663818359375,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"c104cdc\",\"elType\":\"widget\",\"settings\":{\"data\":\"avarage_rating\",\"font_size\":{\"unit\":\"rem\",\"size\":1.399999999999999911182158029987476766109466552734375,\"sizes\":[]},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\"},\"elements\":[],\"widgetType\":\"wplms_instructor_data\"},{\"id\":\"84bdda2\",\"elType\":\"widget\",\"settings\":{\"data\":\"review_count\",\"font_size\":{\"unit\":\"rem\",\"size\":2.70000000000000017763568394002504646778106689453125,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\"},\"elements\":[],\"widgetType\":\"wplms_instructor_data\"},{\"id\":\"7e66a42\",\"elType\":\"section\",\"settings\":{\"structure\":\"30\",\"hide_mobile\":\"hidden-phone\"},\"elements\":[{\"id\":\"8ff8cbe\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":17.297000000000000596855898038484156131744384765625},\"elements\":[{\"id\":\"d4ef7a7\",\"elType\":\"widget\",\"settings\":{\"title\":\"<b>Followers<\\/b>\",\"header_size\":\"span\",\"align\":\"left\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Muli\",\"typography_font_size\":{\"unit\":\"px\",\"size\":11,\"sizes\":[]},\"typography_font_weight\":\"600\",\"typography_text_transform\":\"uppercase\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"typography_letter_spacing\":{\"unit\":\"px\",\"size\":0.59999999999999997779553950749686919152736663818359375,\"sizes\":[]},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"-10\",\"left\":\"0\",\"isLinked\":false},\"_element_vertical_align\":\"flex-start\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"d3963e7\",\"elType\":\"widget\",\"settings\":{\"data\":\"count_followers\",\"font_Size\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"text_color\":\"#475F7B\",\"font_size\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"member_profile_data\"}],\"isInner\":true},{\"id\":\"4da4b77\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":16.891999999999999459987520822323858737945556640625},\"elements\":[{\"id\":\"38f425d\",\"elType\":\"widget\",\"settings\":{\"title\":\"<b>Students<\\/b>\",\"header_size\":\"span\",\"align\":\"left\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Muli\",\"typography_font_size\":{\"unit\":\"px\",\"size\":11,\"sizes\":[]},\"typography_font_weight\":\"600\",\"typography_text_transform\":\"uppercase\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"typography_letter_spacing\":{\"unit\":\"px\",\"size\":0.59999999999999997779553950749686919152736663818359375,\"sizes\":[]},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"-10\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"4443aec\",\"elType\":\"widget\",\"settings\":{\"data\":\"student_count\",\"font_size\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\"},\"elements\":[],\"widgetType\":\"wplms_instructor_data\"}],\"isInner\":true},{\"id\":\"9d72f8b\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":65.3709999999999951114659779705107212066650390625},\"elements\":[{\"id\":\"66f08d6\",\"elType\":\"widget\",\"settings\":{\"title\":\"CoURSES\",\"header_size\":\"span\",\"align\":\"left\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Muli\",\"typography_font_size\":{\"unit\":\"px\",\"size\":11,\"sizes\":[]},\"typography_font_weight\":\"600\",\"typography_text_transform\":\"uppercase\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"typography_letter_spacing\":{\"unit\":\"px\",\"size\":0.59999999999999997779553950749686919152736663818359375,\"sizes\":[]},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"-10\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"536ef42\",\"elType\":\"widget\",\"settings\":{\"data\":\"course_count\",\"font_size\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\"},\"elements\":[],\"widgetType\":\"wplms_instructor_data\"}],\"isInner\":true}],\"isInner\":true},{\"id\":\"7c16ba8\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"25\",\"font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"style\":\"icon\"},\"elements\":[],\"widgetType\":\"member_field\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"9468990\",\"elType\":\"section\",\"settings\":{\"structure\":\"21\"},\"elements\":[{\"id\":\"3e05c8d\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null,\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false}},\"elements\":[{\"id\":\"86117dc\",\"elType\":\"widget\",\"settings\":{\"title\":\"WORK EXPERIENCE\",\"header_size\":\"h5\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Vollkorn\",\"typography_font_size\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"typography_font_weight\":\"400\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"1\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\",\"align\":\"left\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"8256c68\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"12\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#475F7B\",\"style\":\"stacked\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"d9e3b52\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"11\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#475F7B\",\"style\":\"stacked\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"bceb58c\",\"elType\":\"widget\",\"settings\":{\"title\":\"SKILLS\",\"header_size\":\"h5\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Vollkorn\",\"typography_font_size\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"typography_font_weight\":\"400\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"1\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\",\"align\":\"left\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"f7d89e6\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"13\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#475F7B\",\"style\":\"stacked\"},\"elements\":[],\"widgetType\":\"member_field\"}],\"isInner\":false},{\"id\":\"7c2beba\",\"elType\":\"column\",\"settings\":{\"_column_size\":66,\"_inline_size\":null},\"elements\":[{\"id\":\"475509b\",\"elType\":\"widget\",\"settings\":{\"title\":\"CONTACT INFORMATION\",\"header_size\":\"h5\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Vollkorn\",\"typography_font_size\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"typography_font_weight\":\"400\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"1\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\",\"align\":\"left\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"53644ba\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"7\",\"font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"text_color\":\"#475F7B\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"015a0cb\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"8\",\"font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"text_color\":\"#475F7B\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"6e583cc\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"9\",\"font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"text_color\":\"#475F7B\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"e9bbbd8\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"10\",\"font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"text_color\":\"#475F7B\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"ca37667\",\"elType\":\"widget\",\"settings\":{\"title\":\"ABOUT INSTRUCTOR\",\"header_size\":\"h5\",\"title_color\":\"#BFBFBF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Vollkorn\",\"typography_font_size\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"typography_font_weight\":\"400\",\"typography_line_height\":{\"unit\":\"em\",\"size\":2.29999999999999982236431605997495353221893310546875,\"sizes\":[]},\"_border_border\":\"solid\",\"_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"1\",\"left\":\"0\",\"isLinked\":false},\"_border_color\":\"#E0E0E0\",\"align\":\"left\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"4a043a8\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"27\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#5F6B79\",\"style\":\"nolabel\"},\"elements\":[],\"widgetType\":\"member_field\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"6a0f49a\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"f936d23\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"3943775\",\"elType\":\"widget\",\"settings\":{\"space\":{\"unit\":\"px\",\"size\":60,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"spacer\"}],\"isInner\":false}],\"isInner\":false}]",
+        "_elementor_controls_usage": {
+          "member_avatar": {
+            "count": 1,
+            "control_percent": 2,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "width": 1,
+                  "border-radius": 1
+                }
+              },
+              "advanced": {
+                "_section_style": {
+                  "_padding": 1
+                }
+              }
+            }
+          },
+          "column": {
+            "count": 8,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "layout": {
+                  "_inline_size": 8
+                }
+              },
+              "advanced": {
+                "section_advanced": {
+                  "padding": 1
+                }
+              }
+            }
+          },
+          "member_field": {
+            "count": 11,
+            "control_percent": 2,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "field_id": 11,
+                  "style": 7,
+                  "font_size": 11,
+                  "text_color": 10
+                }
+              },
+              "advanced": {
+                "_section_position": {
+                  "_element_width": 2,
+                  "_element_vertical_align": 1
+                }
+              }
+            }
+          },
+          "icon": {
+            "count": 1,
+            "control_percent": 3,
+            "controls": {
+              "content": {
+                "section_icon": {
+                  "selected_icon": 1
+                }
+              },
+              "style": {
+                "section_style_icon": {
+                  "size": 1,
+                  "primary_color": 1
+                }
+              },
+              "advanced": {
+                "_section_style": {
+                  "_padding": 1
+                },
+                "_section_position": {
+                  "_element_width": 1,
+                  "_element_vertical_align": 1
+                }
+              }
+            }
+          },
+          "member_profile_data": {
+            "count": 2,
+            "control_percent": 2,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "data": 2,
+                  "text_color": 2,
+                  "font_size": 1
+                }
+              }
+            }
+          },
+          "heading": {
+            "count": 8,
+            "control_percent": 6,
+            "controls": {
+              "content": {
+                "section_title": {
+                  "title": 8,
+                  "header_size": 8,
+                  "align": 8
+                }
+              },
+              "style": {
+                "section_title_style": {
+                  "title_color": 8,
+                  "typography_typography": 8,
+                  "typography_font_family": 8,
+                  "typography_font_size": 8,
+                  "typography_font_weight": 8,
+                  "typography_text_transform": 4,
+                  "typography_line_height": 8,
+                  "typography_letter_spacing": 4
+                }
+              },
+              "advanced": {
+                "_section_style": {
+                  "_margin": 4
+                },
+                "_section_border": {
+                  "_border_border": 8,
+                  "_border_width": 8,
+                  "_border_color": 8
+                },
+                "_section_position": {
+                  "_element_vertical_align": 1
+                }
+              }
+            }
+          },
+          "wplms_instructor_data": {
+            "count": 4,
+            "control_percent": 3,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "data": 4,
+                  "font_size": 4
+                }
+              },
+              "advanced": {
+                "_section_style": {
+                  "_padding": 4,
+                  "_margin": 3
+                },
+                "_section_position": {
+                  "_element_width": 4,
+                  "_element_vertical_align": 4
+                }
+              }
+            }
+          },
+          "section": {
+            "count": 4,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "section_structure": {
+                  "structure": 3
+                }
+              },
+              "advanced": {
+                "_section_responsive": {
+                  "hide_mobile": 1
+                }
+              }
+            }
+          },
+          "spacer": {
+            "count": 1,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "section_spacer": {
+                  "space": 1
+                }
+              }
+            }
+          }
+        },
+        "_elementor_css": {
+          "0": "",
+          "time": 1593278842,
+          "fonts": {
+            "0": "Muli",
+            "4": "Vollkorn"
+          },
+          "icons": [
+            "svg"
+          ],
+          "status": "file"
+        }
+      },
+      "terms": []
+    }
+  ],
+  "member-card": [
+    {
+      "type_title": "Member Cards",
+      "post_id": 220,
+      "post_title": "Default",
+      "post_status": "publish",
+      "post_name": "default",
+      "post_content": "<a href=\"https://demos.wplms.io/members/wplms_demos_admin/\"><img src=\"https://demos.wplms.io/wp-content/uploads/avatars/1/5ef62a4254b54-bpfull.png\" style=\"width:420px;border-radius:5px;\" /></a>\t\t\n\t\t\t\t\t\tJohn Doe\n\t\t\t<label></label>\t\t\t<a href=\"https://yahoo.com\" target=\"_blank\" style=\"color:#394C62;font-size:16px\" rel=\"noopener noreferrer\"></a><a href=\"https://live.com\" target=\"_blank\" style=\"color:#394C62;font-size:16px\" rel=\"noopener noreferrer\"></a><a href=\"https://facebook.com\" target=\"_blank\" style=\"color:#394C62;font-size:16px\" rel=\"noopener noreferrer\"></a>\n\t\t<p>Followers</p>\t\t\n\t\t\t1\t\t\n\t\t<p>Followers</p>\t\t\n\t\t\t0\t\t\n\t\t<p>Groups</p>\t\t\n\t\t\t0\t\t\n\t\t<p>Friends</p>\t\t\n\t\t\t1\t\t\n\t\t\t\t\t\tBrandingUI/UXWeb - DesignPackagingPrint &amp; Editorial\n\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac fringilla mauris. Sed ultricies, justo in ornare convallis, augue felis faucibus nulla, maximus vehicula est est id sapien. Nam at lacinia neque.",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2020-06-27 06:54:33",
+      "post_date_gmt": "2020-06-27 06:54:33",
+      "guid": "https://demos.wplms.io/?post_type=member-card&#038;p=220",
+      "post_mime_type": "",
+      "meta_input": {
+        "_wp_page_template": "default",
+        "_elementor_edit_mode": "builder",
+        "_elementor_template_type": "wp-post",
+        "_elementor_version": "2.9.13",
+        "_elementor_data": "[{\"id\":\"b93aee4\",\"elType\":\"section\",\"settings\":{\"structure\":\"21\"},\"elements\":[{\"id\":\"de7d977\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null},\"elements\":[{\"id\":\"5c00c6a\",\"elType\":\"widget\",\"settings\":{\"width\":{\"unit\":\"px\",\"size\":420,\"sizes\":[]},\"border-radius\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"member_avatar\"}],\"isInner\":false},{\"id\":\"d7c9496\",\"elType\":\"column\",\"settings\":{\"_column_size\":66,\"_inline_size\":null},\"elements\":[{\"id\":\"aadae8d\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"1\",\"font_size\":{\"unit\":\"px\",\"size\":32,\"sizes\":[]},\"text_color\":\"#394C62\",\"style\":\"nolabel\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"f256bee\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"25\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#394C62\",\"style\":\"icon\",\"_margin\":{\"unit\":\"px\",\"top\":\"-10\",\"right\":\"0\",\"bottom\":\"-10\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"7aa8ba6\",\"elType\":\"section\",\"settings\":{\"structure\":\"40\",\"hide_mobile\":\"hidden-phone\"},\"elements\":[{\"id\":\"4e2d1e4\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null},\"elements\":[{\"id\":\"280067b\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Followers<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"1320e1c\",\"elType\":\"widget\",\"settings\":{\"data\":\"count_followers\",\"font_Size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"text_color\":\"#394C62\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"member_profile_data\"}],\"isInner\":true},{\"id\":\"3a96881\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null},\"elements\":[{\"id\":\"5d90b04\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Followers<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"76ad7fa\",\"elType\":\"widget\",\"settings\":{\"data\":\"count_following\",\"font_Size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"text_color\":\"#394C62\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"member_profile_data\"}],\"isInner\":true},{\"id\":\"a33f4c3\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null},\"elements\":[{\"id\":\"7675443\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Groups<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"111d785\",\"elType\":\"widget\",\"settings\":{\"data\":\"count_groups\",\"font_Size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"text_color\":\"#394C62\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"member_profile_data\"}],\"isInner\":true},{\"id\":\"7a86b1c\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null},\"elements\":[{\"id\":\"9be0c5c\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Friends<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"d6fc8da\",\"elType\":\"widget\",\"settings\":{\"data\":\"count_friends\",\"font_Size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"text_color\":\"#394C62\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"member_profile_data\"}],\"isInner\":true}],\"isInner\":true},{\"id\":\"d4b1f44\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"13\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#394C62\",\"style\":\"nolabel\",\"hide_tablet\":\"hidden-tablet\",\"hide_mobile\":\"hidden-phone\"},\"elements\":[],\"widgetType\":\"member_field\"},{\"id\":\"c344806\",\"elType\":\"widget\",\"settings\":{\"field_id\":\"28\",\"font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#394C62\",\"style\":\"nolabel\"},\"elements\":[],\"widgetType\":\"member_field\"}],\"isInner\":false}],\"isInner\":false}]",
+        "_elementor_controls_usage": {
+          "member_avatar": {
+            "count": 1,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "width": 1,
+                  "border-radius": 1
+                }
+              }
+            }
+          },
+          "column": {
+            "count": 6,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "layout": {
+                  "_inline_size": 6
+                }
+              }
+            }
+          },
+          "member_field": {
+            "count": 4,
+            "control_percent": 2,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "field_id": 4,
+                  "font_size": 4,
+                  "text_color": 4,
+                  "style": 4
+                }
+              },
+              "advanced": {
+                "_section_style": {
+                  "_margin": 1
+                },
+                "_section_responsive": {
+                  "hide_tablet": 1,
+                  "hide_mobile": 1
+                }
+              }
+            }
+          },
+          "text-editor": {
+            "count": 4,
+            "control_percent": 0,
+            "controls": {
+              "content": {
+                "section_editor": {
+                  "editor": 4
+                }
+              }
+            }
+          },
+          "member_profile_data": {
+            "count": 4,
+            "control_percent": 4,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "data": 4,
+                  "text_color": 4,
+                  "font_size": 4
+                }
+              },
+              "advanced": {
+                "_section_style": {
+                  "_margin": 4,
+                  "_padding": 4
+                },
+                "_section_position": {
+                  "_element_width": 4,
+                  "_element_vertical_align": 4
+                }
+              }
+            }
+          },
+          "section": {
+            "count": 2,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "section_structure": {
+                  "structure": 2
+                }
+              },
+              "advanced": {
+                "_section_responsive": {
+                  "hide_mobile": 1
+                }
+              }
+            }
+          }
+        },
+        "_elementor_css": {
+          "0": "",
+          "time": 1593251017,
+          "fonts": [],
+          "icons": [],
+          "status": "file"
+        }
+      },
+      "terms": []
+    }
+  ]
+}

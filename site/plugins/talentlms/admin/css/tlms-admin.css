@@ -1,0 +1,311 @@
+
+/*
+ * TalentLMS Admin CSS
+ **************************************************************/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.tl-admin-content{
+    height: auto;
+    margin: 0;
+    width: 100%;
+}
+.tl-admin-header {
+
+}
+
+.tl-admin-options {
+    margin: 0 auto;
+    max-width: 950px;
+    text-align: center;
+}
+
+.tl-admin-options a{
+    text-decoration: none;
+}
+
+.tl-admin-options-grid h2 {
+    margin-top: 0.61111em;
+    color: #5d6d74;
+    font: 300 2.57143em/1.4em "proxima-nova", "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+@media (max-width: 900px) {
+    .tl-admin-options-grid h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 782px) {
+    .tl-admin-options-grid h2 {
+        font-size: 28px;
+    }
+}
+
+.tl-admin-options-grid h2 {
+    color: #5d6d74;
+    font: 300 2.57143em/1.4em "proxima-nova","Open Sans",Helvetica,Arial,sans-serif!important;
+    margin-top: 0.61111em;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.tl-admin-option {
+    cursor: pointer;
+    display: block;
+    padding: 0.71429em 1.07143em 1em;
+    text-align: left;
+    border: 1px solid #dae0e2;
+    background: #fff;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.03);
+    -webkit-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+    text-align: center;
+}
+
+.tl-admin-option{
+    margin: 0 5px 10px;
+    padding-top: 45px;
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 170px;
+}
+.tl-admin-option:hover {
+    border-color: #8ac9e8;
+    background: #f8fcfe;
+}
+.tl-admin-option:nth-of-type(n+10) {
+    display: none;
+}
+.tl-admin-option h3 {
+    margin: 0 0 0.5em;
+    color: #1a8dba;
+    font-size: 1.14286em;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+.tl-admin-option p {
+    margin: 0;
+    color: #686f72;
+    font-size: 0.85714em;
+}
+.tl-admin-option:hover, .tl-admin-option:focus {
+    border-color: #8ac9e8;
+    background: #f8fcfe;
+}
+.tl-admin-option:nth-of-type(n+10) {
+    display: none;
+}
+.tl-admin-option.active {
+    border-color: #2ea2cc;
+    box-shadow: inset 4px 0 0 #2ea2cc;
+}
+.tl-admin-option.active:hover {
+    border-color: #69bedd;
+    box-shadow: inset 4px 0 0 #69bedd;
+}
+@media (max-width: 900px) {
+    .tl-admin-option {
+        margin: 1% 0 1% 2%;
+    }
+}
+@media (max-width: 530px) {
+    .tl-admin-option {
+        margin: 5px 20%;
+    }
+}
+@media (max-width: 900px) {
+    .tl-admin-option {
+        margin: 1% 0 1% 2%;
+        width: 49%;
+        margin: 5px 20%;
+    }
+}
+@media (max-width: 530px) {
+    .tl-admin-option {
+        margin: 5px 20%;
+    }
+}
+
+
+
+
+
+
+.tl-admin-footer {
+
+}
+
+/*
+ * modal
+ */
+@media (max-width: 900px) {
+    .modal {
+        margin-left: 36px;
+        padding-left: 0;
+    }
+}
+@media (max-width: 782px) {
+    .modal {
+        margin-left: 0;
+    }
+}
+
+.modal {
+    background: #fff;
+    position: fixed;
+    top: 52px;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    margin-left: 160px;
+    display: none;
+    box-shadow: 0 1px 20px 5px rgba(0, 0, 0, 0.1);
+    z-index: 500;
+}
+.modal .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font: 300 1.71429em "genericons" !important;
+    color: #777;
+    content: '\f405';
+    display: inline-block;
+    padding: 0.28571em 0.71429em 0.42857em;
+    z-index: 5;
+}
+.modal .close:hover {
+    background: #eee;
+    opacity: 0.8;
+}
+.modal .close:active {
+    background: #eee;
+    opacity: 0.4;
+}
+.modal #jp-post-flair {
+    display: none;
+}
+.modal .content-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    padding: 2.14286em;
+}
+.modal .content {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+}
+.modal h2 {
+    text-align: left;
+    margin-top: 0;
+    color: #5d6d74;
+    font: 300 32px "proxima-nova", "Open Sans", Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 1px #fff;
+}
+@media (max-width: 530px) {
+    .modal h2 {
+        font-size: 26px;
+    }
+}
+.modal p {
+    font-size: 1.23077em;
+}
+.modal footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 20px;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    text-align: right;
+}
+.modal footer ul {
+    margin: 0;
+}
+.modal footer li {
+    display: inline-block;
+    margin: 0;
+}
+.modal .button-secondary,
+.modal .button-primary:active {
+    vertical-align: baseline;
+}
+@media (max-width: 900px) {
+    .modal {
+        bottom: 5%;
+        margin-left: 36px;
+        font-size: 80%;
+    }
+    .modal .content {
+        top: 38px;
+    }
+}
+@media (max-width: 782px) {
+    .modal {
+        top: 66px;
+        margin-left: 0;
+    }
+    .tl-sync-info {
+        min-height: 135px;
+    }
+}
+@media (max-width: 600px) {
+    .modal {
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+    .tl-sync-info {
+        min-height: 135px;
+    }
+}
+
+.modal input[type='text'] {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid;
+    border-style: none none groove;
+    width: 100%;
+    max-width: 350px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.modal label {
+    display: inline-block;
+    max-width: 250px;
+    width: 100%;
+}
+
+.tl-sync-container {
+    width: 100%;
+}
+.tl-sync-info{
+    background: #FFFFFF;
+    border: 1px solid activeborder;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 48%;
+    max-width:45%;
+}
+.tl-sync-info p{
+
+}
+.tl-user-num{
+    font-size: 35px;
+}
+
+

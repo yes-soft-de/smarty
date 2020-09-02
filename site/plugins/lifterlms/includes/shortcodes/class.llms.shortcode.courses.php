@@ -4,7 +4,7 @@
  *
  * [lifterlms_courses]
  *
- * @package LifterLMS/Classes/Shortcodes
+ * @package LifterLMS/Shortcodes/Classes
  *
  * @since 3.14.0
  * @version 3.31.0
@@ -183,6 +183,7 @@ class LLMS_Shortcode_Courses extends LLMS_Shortcode {
 		$this->enqueue_script( 'llms-jquery-matchheight' );
 
 		ob_start();
+
 		// If we're outputting a "My Courses" list and we don't have a student output login info.
 		if ( 'no' !== $this->get_attribute( 'mine' ) && ! llms_get_student() ) {
 

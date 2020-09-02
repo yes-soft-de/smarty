@@ -1,0 +1,89 @@
+/**
+ * File: admin.scss
+ * Description : Contains all styling for the Course Admin in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GENERAL STYLING
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+.course_message{
+	display: none;
+}
+
+.course_bulk_actions{
+	clear:both;
+	padding:8px 0;
+	border-top:1px solid $bordercolor;
+	border-bottom:1px solid $bordercolor;
+	font-size:12px;
+	color:#bbb;
+	display: inline-block;
+	width: 100%;
+ 	a{
+		font-size:12px;
+		font-weight:600;
+		text-transform: uppercase;
+		float:right;
+		i{
+			font-size: 16px;
+			float: left;
+			margin-right: 5px;
+		}
+	}
+}
+
+#course_user_ajax_search_results{
+	margin:15px 0;
+	#search_course_member{
+	    position:relative;
+	    input{
+		    height: 36px;
+		    margin: 10px;
+		    padding-right: 45px;
+	    }
+	    &:after{
+	    	content:"\f002";
+	    	font-family:'fontawesome';
+	    	position:absolute;
+	    	color:$light-text-color;
+	    	font-size:14px;
+	    	right:25px;top:0;
+	    }
+	}
+	&.loading{
+		#search_course_member{
+			&:after{
+				content: "\f110";
+				animation: spin 2s infinite linear;
+			}
+		}
+	}
+}
+
+
+.course_students{
+	li{
+		.progress{
+			max-width:128px;
+			margin:10px 0 0 85px;
+			clear: both;overflow: hidden;
+			&:hover{
+				overflow:visible;
+			}
+			.bar{
+				padding:2px 1px;
+			}
+		}
+	}
+}
+

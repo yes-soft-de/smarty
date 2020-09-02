@@ -1,0 +1,820 @@
+/*========================================================================*/
+/*   01. CHARTS JS
+/*========================================================================*/
+.morris-hover{position:absolute;z-index:1000}.morris-hover.morris-default-style{border-radius:10px;padding:6px;color:#666;background:rgba(255,255,255,0.8);border:solid 2px rgba(230,230,230,0.8);font-family:sans-serif;font-size:12px;text-align:center}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0}
+.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}
+/* FOR REGULAR WIDGETS INSERTED IUN DASHBOARD */
+.wplms-dashboard.row .widget,
+.wplms-dashboard.row .widget_display_topics {
+    margin: 0 15px 30px;
+    clear: both;
+    padding: 20px;
+    background:#fff;
+    border: 1px solid #eee;
+}
+
+/*========================================================================*/
+/*   01. DASHBOARD
+/*========================================================================*/
+
+.wplms-dashboard{
+	display: inline-block;
+	width: 100%;
+}
+.dash-widget{
+	padding:20px;
+	background:#FFF;
+	border-radius:2px;
+	margin-bottom:30px;
+	position: relative;
+}
+.dash-widget.notitle{padding:0;}
+.dash_widget_title{
+	margin:-20px -20px 10px;
+	padding:8px 20px;
+	font-size: 18px;
+	background: #DDD;
+	font-weight:600;
+}
+
+.wplms-dashboard .col-md-12{
+	clear:both;
+}
+.commission_reload {
+	position: absolute;
+	cursor: pointer;
+	top: 10px;
+	right: 15px;
+	color: rgba(0,0,0,0.3);
+}
+
+.dash-widget .select2-container,.dash-widget textarea,
+.dash-widget select{width:100% !important;margin-bottom:15px;}
+/*========================================================================*/
+/*   01. ACTIVITY WIDGET
+/*========================================================================*/
+
+/*.dash-widget.activity{
+	padding:0;
+	background:none;
+} */
+.dash-widget .nav.nav-tabs > li > a {
+padding: 8px 12px;
+}
+.dash-widget .button.small{
+	font-size: 10px !important;
+	padding: 3px 6px !important;
+	float: right;
+	margin:0;
+}
+.dash-activities{
+	margin-left: 5px;
+	padding: 10px 20px;
+	border-left: 1px solid #ddd;
+	webkit-transition: all 0.2s ease-in-out;
+	  -moz-transition: all 0.2s ease-in-out;
+	  -o-transition: all 0.2s ease-in-out;
+	  transition: all 0.2s ease-in-out;
+}
+
+.dash-activities li{
+	margin: 10px 0;
+	position: relative;
+}
+
+.dash-activity-time{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #888;
+	display: block;
+}
+
+.dash-activity strong{
+	font-size:14px;
+	font-weight:400;
+}
+
+.dash-activity > p{
+	font-size:11px;
+	 display: block;
+	-webkit-transition: opacity 1s ease-out;
+	opacity: 0; 
+	height: 0;
+	overflow: hidden;
+}
+.dash-activity:hover > p{
+	opacity: 1;
+    height: auto;
+	webkit-transition: all 0.2s ease-in-out;
+	  -moz-transition: all 0.2s ease-in-out;
+	  -o-transition: all 0.2s ease-in-out;
+	  transition: all 0.2s ease-in-out;
+}
+
+
+.dash-activity strong:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: -25px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	background: #FFF;
+}
+
+.dash-activity:hover strong:before {
+	border-color:#78c8c9;
+}
+.dash-content-form select{
+	width: 100%;
+    margin-bottom: 15px;
+}
+
+.dash-user-friends > li,
+.dash-unread-messages > li{
+	display: inline-block;
+	width: 100%;
+	padding: 6px 0;
+	border-bottom: 1px dotted #EFEFEF;
+}
+.dash-user-friends > li > img,
+.dash-unread-messages > li > img{
+	float: left;
+	border-radius: 50%;
+	max-width: 48px;
+}
+.dash-user-friends span,
+.dash-unread-messages > li > a+a{
+	font-size: 11px;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 600;
+	color: #bbb;
+}
+
+#tab-messages h4,
+#tab-activity h4,
+#tab-friends h4{
+	margin: 0;
+	font-size: 12px;
+	padding: 15px 0;
+	text-transform: uppercase;
+	font-weight:600;
+}
+
+/*========================================================================*/
+/*   01. COURSE PROGRESS
+/*========================================================================*/
+
+.course_progress.progress{
+	margin:10px 0;
+	overflow:visible;
+}
+.course_progress strong{
+	font-weight:400;
+	font-size:12px;
+}
+.course_progress strong a{
+	font-weight:600;
+}
+
+.course_progress.progress .bar{
+	padding:3px 0;
+}
+.course_progress strong > span{
+	float:right;
+	font-weight:600;
+	font-size:11px;
+	text-transform: uppercase;
+	color:#888;
+	line-height:2;
+}
+
+.course_progress strong > span > a{
+	color:#c9c878;
+}
+
+.dash-courses-progress li:last-child .course_progress.progress{margin-bottom:0;}
+ul.dash-courses-progress li{
+   clear:both;
+}
+/*========================================================================*/
+/*   01. CONTACT FORM
+/*========================================================================*/
+
+.dash-widget .chosen-container.chosen-container-single-nosearch{
+	width:100% !important;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.dash-content-form .button{
+	margin-bottom:0;
+}
+
+.dash-content-form .form-control{
+	margin-bottom:10px;
+	border-radius:2px;
+	border-color:#EFEFEF;
+}
+.dash-content-form .ms-ctn .ms-trigger:hover{background-color:#EFEFEF;}
+.dash-content-form .ms-ctn .ms-trigger{border-color:#EFEFEF;}
+
+.select_elemet{padding: 5px; overflow:hidden;}
+.select_thumb{float:left;max-width:36px; border-radius:2px;}
+.select_member{float: left; margin-left: 5px;}
+.select_member_name{ font-size: 14px; line-height: 2;}
+
+#dash_contact_form_submit{cursor: pointer;}
+/*========================================================================*/
+/*   01. TASKS
+/*========================================================================*/
+
+.task_list{
+	min-height:222px;
+}
+.dash-task-list li{
+	padding:8px 0;
+	border-bottom:1px dotted #EFEFEF;
+	position: relative;
+}
+
+.add_new_task{
+	border: none;
+	padding-left: 10px;
+}
+.dash-task-list li span{
+	position: absolute;
+	right:0;
+	top:10px;
+	opacity:0.4;
+	font-size:11px;
+	text-transform: uppercase;
+}
+.dash-task-list li > a.high,
+.dash-task-list li > a.normal,
+.dash-task-list li > a.low,
+.dash-task-list li > a.done,
+.dash-task-list li > a.remove{
+	margin-top:2px;
+	width:18px;
+	height:18px;
+	display: inline-block;
+	float:left;
+	background:#EFEFEF;
+	border-radius:50%;
+	margin-right:8px;
+}
+.dash-task-list li > a.high{background:#f05050;}
+.dash-task-list li > a.normal{background:#7266ba;}
+.dash-task-list li > a.low{background:#23b7e5;}
+.dash-task-list li > a.done{background:#27c24c;position: relative;z-index: 9;}
+.dash-task-list li > a.remove{background:#bbb;position: relative;z-index: 9;}
+
+
+.dash-task-list li > a.done:before,
+.dash-task-list li > a.remove:before{
+	position: absolute;
+	content: "\e038";
+	font-family: 'fonticon';
+	font-size: 11px;
+	color: #FFF;
+	top: 2px;
+	left: 3px;
+}
+.dash-task-list li > a.remove:before{
+	content:"\e036";	
+}
+
+
+.dash-task-list li p{
+	padding: 0 45px 0 30px;
+	margin: 0;
+}
+.dash-task-list li > a.task-status{cursor: pointer;}
+.dash-task-list li > a.done+ p{
+	text-decoration: line-through;
+	opacity:0.4;
+}
+
+.dash-task-list li.add_new{font-weight: 600;font-size:12px;color:#888;}
+.dash-task-list li.add_new > a{float:left;}
+.dash-task-list li.add_new > a > i{
+	cursor:pointer;
+	padding: 1px 2px 0px;
+	font-size: 11px;
+	border: 2px solid #888;
+	line-height: 0;
+	color: #888;
+	border-radius: 50%;
+}
+.select-task-status{
+	display: none;
+	max-width: 24px;
+	position: absolute;
+	bottom: 5px;
+	z-index: 99;
+	background: #EFEFEF;
+	padding: 2px;border-radius:2px;
+	border: 1px solid #DDD;
+}
+.select-task-status li{padding: 0;border: none;}
+.task_list li > .select-task-status{display: block;}
+
+.save_tasks{
+	cursor: pointer;
+	margin: 0 !important;
+	padding: 2px 6px !important;
+	position: absolute !important;
+	top: 10px;
+	right: 20px;
+}
+.save_tasks.loading,
+.save_tasks:hover{
+	background:#FFF !important;
+}
+
+
+/*========================================================================*/
+/*   01. NEWS
+/*========================================================================*/
+.dash-widget.notitle{
+	background:none;
+}
+.dash-news,.news_block{
+	display: inline-block;
+	width: 100%;
+}
+.dash-news .heading{
+	margin-top:0;
+}
+
+.news_thumb{
+	margin: 0 10px 10px 0;
+}
+.news_thumb:after{
+	content:'';
+	clear:both;
+	display: block;
+}
+.dash-news.slides li{
+	background:#FFF;
+	position: relative;
+}
+.dash-news p:last-child{
+	margin-bottom:0;
+}
+.news_block{margin-top: 10px;}
+.notitle .news_block{margin:0;}
+.news_block .small.button.withtitle{
+	right: 65px;
+	padding: 3px 5px 2px 6px!important;
+}
+
+.news_block .flex-direction-nav a.flex-prev{
+	position: absolute;
+	top: 10px;
+	right: 42px;
+	display: inline-block;
+	z-index: 1;
+}
+
+.notitle .news_block .flex-direction-nav{text-align: center;}
+.notitle .news_block .flex-direction-nav a.flex-prev,
+.notitle .news_block .flex-direction-nav a.flex-next{
+	
+}
+.news_block .flex-direction-nav a.flex-prev.flex-disabled,
+.news_block .flex-direction-nav a.flex-next.flex-disabled{
+	opacity: 0.6;
+}
+.notitle .flex-active-slide img{
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.dash-news .gallery-block{
+	padding:15px;
+}
+.image-block{
+	position: absolute;
+	top:0;
+	left:0;
+	max-width:100%;
+	padding: 20px 20px 10px;
+	background: rgba(0,0,0,0.1);
+	color:#FFF;
+}
+.image-block h4{
+	font-weight:600;
+	color:#FFF;
+	font-size:24px;
+}
+
+.video-block .wp-video{
+	height:auto !important;
+}
+
+.notitle .news_block .small.button{
+	position: absolute;
+	right:65px;
+	top:10px;
+	background:rgba(255,255,255,0.8) !important;
+	padding: 3px 5px 2px 6px!important;
+	color:rgba(0,0,0,0.8) !important;
+}
+.notitle .news_block .small.button.add_news{
+	right:92px;
+}
+.news_block .flex-direction-nav a {
+font-size: 12px;
+box-shadow: none;
+width: auto;
+height: auto;
+opacity: 1;
+padding: 3px;
+line-height: 1;
+background: #78c8ce;
+color: #FFF;
+text-shadow: none;
+border-radius: 2px;
+}
+.notitle .news_block .flex-direction-nav a{
+	background:rgba(255,255,255,0.8);
+	color:rgba(0,0,0,0.8);
+}
+.news_block .flex-direction-nav a.flex-next{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	display: inline-block;
+	z-index: 1;
+}
+.news_block .standard-block,
+.news_block .aside-block{
+	padding:20px;
+}
+.news_block .quote-block,
+.news_block .status-block,
+.news_block .chat-block{
+	padding:30px;
+	background: #7266ba;
+	color:#FFF;
+}
+.notitle .news_block .quote-block,
+.notitle .news_block .status-block,
+.notitle .news_block .chat-block{
+	padding-top:45px;
+}
+.news_block .status-block{
+	background:#23b7e5;
+}
+.news_block .chat-block{
+	background:#f05050;
+}
+
+.news_author{
+	border-top: 1px solid rgba(0,0,0,0.1);
+	margin-top: 10px;
+	padding-top: 10px;
+	display: inline-block;
+	width:100%;
+}
+.news_author > ul{
+	float:right;
+	max-width:200px;
+}
+.news_author > ul a{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.2);
+	font-weight: 600;
+	margin: 0 5px;
+}
+.news_author > ul > li{background:none !important;float:left;}
+.news_author > ul a::before {
+	content:'\e025';
+	font-family: 'Fonticon';
+	font-size: 8px;
+}
+.news_author > img{
+	max-width: 40px;
+	float: left;
+	border-radius: 50% !important;
+	border: 2px solid rgba(0,0,0,0.1);
+	margin: 0 10px 0 0;
+}
+.news_author h5{
+	margin:0;
+	float:left;
+}
+.news_author h5 a {font-weight:600;}
+.news_author h5 a > span{
+		display: block;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.4);
+}
+
+.video-block .news_author{
+	padding:10px 20px 0;
+	margin-top:0;
+}
+
+.chat_comments{
+	color: rgba(255,255,255,0.4);
+	font-weight: 600;
+	font-size: 11px;
+	float: right;
+}
+.chat_comments:hover{color:#FFF;}
+
+.chat_comments i{
+	margin-left: 5px;
+	font-size: 16px;
+}
+
+.image-block .news_author,
+.quote-block .news_author,
+.status-block .news_author,
+.chat-block .news_author{
+	border-color:rgba(255,255,255,0.1);
+}
+.image-block .news_author > img,
+.quote-block .news_author > img,
+.status-block .news_author > img,
+.chat-block .news_author > img{
+	border-color:rgba(255,255,255,0.1);
+}
+.image-block .news_author h5 a,
+.quote-block .news_author h5 a,
+.status-block .news_author h5 a,
+.chat-block .news_author h5 a{
+	color:#FFF;
+}
+
+.image-block  .news_author h5 a > span,
+.quote-block  .news_author h5 a > span,
+.status-block  .news_author h5 a > span,
+.image-block  .news_author > ul a,
+.quote-block  .news_author > ul a,
+.status-block .news_author > ul a,
+.chat-block .news_author > ul a{
+	color:rgba(255,255,255,0.6);
+}
+
+
+
+/*========================================================================*/
+/*   01. DASH STATS
+/*========================================================================*/
+
+.dash-widget.courses{
+	background: #23b7e5;
+	color: #FFF;
+	padding:15px 0;
+}
+.dash-widget.course_ratio{
+	background: #23b7e5 !important;
+	color: #FFF;
+	padding:15px 0;
+}
+.dash-widget.students{
+	background: #009dd8;
+	color: #FFF;
+	padding:15px 0;
+}
+.dash-widget.quizes{
+	background: #7266ba;
+	color: #FFF;
+	padding:15px 0;
+}
+.dash-widget.assignments{
+	background: #f05050;
+	color: #FFF;
+	padding:15px 0;
+}
+.dash-widget.units{
+	background: #fad733;
+	color: #FFF;
+	padding:15px 0;
+}
+.dash-stats{
+	text-align: center;
+}
+.dash-stats h3{
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 1.5;
+	margin: 0;
+	color:#FFF;
+}
+.dash-stats h3 > span{
+	font-size: 11px;
+	text-transform: uppercase;
+	max-width: 50%;
+	display: inline-block;
+	color:#FFF;
+}
+/*========================================================================*/
+/*   01. DASH WIDGET woo_commission
+/*========================================================================*/
+.dash-widget.woo_commission{
+	background:#7266ba;
+	padding:36px 0;
+}
+.dash-widget.woo_commission h3 span{
+	margin-bottom:20px;
+}
+.dash-widget.questions{
+	background:#27c24c;
+	padding:15px 0;
+}
+.dash-widget.badges{
+	background:#27c24c;
+	padding:15px 0;
+	width:100%;
+}
+.dash-widget.certificates{
+	background:#fa7252;
+	padding:15px 0;
+}
+.woo_commission .dash-stats h3{
+	line-height: 1;
+}
+/*========================================================================*/
+/*   01. DASH WIDGET INSTRUCTOR STATS
+/*========================================================================*/
+#stats-title{
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom:1px solid #EFEFEF;
+	padding-bottom:10px;
+	width:100%;
+}
+
+.dash-widget.instructor-stats{
+	display: inline-block;
+	padding: 20px 10px;
+	width:100%;
+}
+.instructor-stats-courses{
+	border-right: 1px solid #EFEFEF;
+}
+.instructor-stats-courses > li{
+	clear:both;
+	padding: 6px 0;
+	border-bottom: 1px dotted #EFEFEF;
+	cursor: pointer;
+	display: inline-block;
+	width:100%;
+}
+.instructor-stats-courses li>p.message{
+	padding: 5px !important;
+	margin: 0;
+}
+.instructor-stats-courses li > ul{margin-left:10px;}
+.instructor-stats-courses li > ul > li{
+	float: left;
+	margin-right: 5px;
+	font-size: 11px;
+}
+.instructor-stats-courses li > ul > li i{
+	color: #bbb;
+}
+.instructor-stats-courses li > ul > li.list-recalculate-stats.unable i{
+	color:#fa7252;
+}
+.instructor-stats-courses li > ul > li.list-recalculate-stats.success i{
+	color:#27c24c;
+}
+.list-stats.active i{
+	color:#444;
+}
+.instructor-stats-courses li > ul{
+	display: inline-block;
+	float: right;
+}
+.instructor-stats-courses li > ul.qa_list{
+	float:none;
+	width:100%;
+}
+.qa_list li{
+	font-size: 11px;
+	width: 100%;
+	padding: 2px 20px 0 0;
+}
+.quiz_label{
+	color:#fa7252;
+}
+.assignment_label{
+	color:#27c24c;
+}
+.qa_list li>span{
+	float:right;
+}
+
+/*========================================================================*/
+/*   01. DASH WIDGET INSTRUCTOR COMMISSION
+/*========================================================================*/
+.course_sales_list{
+	width:100%;
+}
+.course_sales_list li,
+.my_anouncements li{
+	padding:6px 10px;
+	width:100%;
+	display: inline-block;
+	border-bottom:1px dotted #EFEFEF;
+}
+label strong,
+.course_sales_list li strong{
+	float:right;
+}
+label.sales_labels{
+	background:#efefef;
+	padding:6px 10px;
+	width:100%;
+	display: inline-block;
+}
+#submit_announcement{cursor: pointer;}
+#course_list_chosen {
+	width: 100% !important;
+	margin: 10px 0 0;
+}
+
+.course_list{
+	max-height: 360px;
+	overflow-y: scroll;
+}
+.remove_announcement{
+	float:right;
+	color:#bbb;
+}
+/*========================================================================*/
+/*   01. ANNOUNCEMENTS
+/*========================================================================*/
+.my_anouncements{
+	padding:10px 0;
+}
+.my_anouncements li strong{
+	float:left;margin-right:10px;
+	color:#23b7e5;
+}
+.announcement_message{margin-bottom:30px;}
+.announcement_message > ul.announcements{display: none;}
+.announcement_message > span,.announcements li>span{
+	float: right;cursor: pointer;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #d49315;
+	line-height: 1.8;
+}
+.announcements li{
+	font-weight: 400;
+	font-size: 13px;
+	clear: both;
+	border-bottom: 1px dotted #f0c36d;
+	padding: 4px 0;
+}
+.announcements strong{font-weight:600;
+	float:left;text-transform: uppercase;
+	margin-right:20px;
+}
+
+/*========================================================================*/
+/*   01. WPLMS MYMODULES
+/*========================================================================*/
+
+.wplms_dash_mymodules .tab-pane li,
+.wplms_dash_instructing_modules .tab-pane li {
+  padding: 6px 0;
+  border-bottom: 1px solid #EFEFEF;
+  font-size: 12px;
+}
+
+/*========================================================================*/
+/*   01. Notes & Discussion
+/*========================================================================*/
+#vibe-tabs-notes_discussion .tab-content{padding-top:10px;}
+#vibe-tabs-notes_discussion .view_all_notes{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	font-size: 11px;
+	font-weight: 600;
+	color: #bbb;
+}
+#vibe-tabs-notes_discussion .view_all_notes:hover{color:#78c8c9;}
+
+/*========================================================================*/
+/*   01. Instructor Students
+/*========================================================================*/
+
+.instructor_students_widget_students_list .student_item{
+	display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    align-items: center;
+}

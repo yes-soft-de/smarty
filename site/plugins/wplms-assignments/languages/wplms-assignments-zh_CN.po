@@ -1,0 +1,527 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Assignments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-23 16:11+0530\n"
+"PO-Revision-Date: 2017-02-23 16:11+0530\n"
+"Last-Translator: Vibethemes <vibethemes@gmail.com>\n"
+"Language-Team: partyfave <service@partyfave.me>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "请输入您 Envato Marketplace 用户名"
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "请输入您  Envato Marketplace API秘钥"
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr " API  \"set\"  为必需参数"
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"item ID\" 为必需参数."
+
+#: autoupdate/class-plugin-update.php:377
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "API请求期间，出现意外的HTTP错误"
+
+#: autoupdate/class-plugin-update.php:377
+#: autoupdate/class-plugin-update.php:542
+msgid "Try again"
+msgstr "再试一次"
+
+#: autoupdate/class-plugin-update.php:418
+msgid "An unknown error occurred"
+msgstr "出现未知错误"
+
+#: autoupdate/class-plugin-update.php:454
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr "该插件已经更新但无法激活，请手动激活它"
+
+#: autoupdate/class-plugin-update.php:455
+msgid "Plugin reactivated successfully. "
+msgstr "插件成功启用"
+
+#: autoupdate/class-plugin-update.php:477
+msgid " Plugin Updates"
+msgstr "升级插件"
+
+#: autoupdate/class-plugin-update.php:516
+msgid "Username: "
+msgstr "用户名:"
+
+#: autoupdate/class-plugin-update.php:520
+msgid "Email: "
+msgstr "邮箱:"
+
+#: autoupdate/class-plugin-update.php:526
+msgid "Key: "
+msgstr "密码:"
+
+#: autoupdate/class-plugin-update.php:532
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>插件更新已 <span style=\"color:green\">启用</span></p>"
+
+#: autoupdate/class-plugin-update.php:536
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>你输入的<span style=\"color:red\">无效</span>, 自动更新 <span style="
+"\"color:red\">无法启动</span>.</p>"
+
+#: autoupdate/class-plugin-update.php:537
+msgid "Edit Key"
+msgstr "编辑密码"
+
+#: autoupdate/class-plugin-update.php:541
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p> 无法验证更新已启用 </ p>"
+
+#: autoupdate/class-plugin-update.php:547
+msgid "Add Key"
+msgstr "添加密码"
+
+#: autoupdate/class-plugin-update.php:633
+msgid "User name"
+msgstr "用户名"
+
+#: autoupdate/class-plugin-update.php:639
+msgid "Email"
+msgstr "邮件"
+
+#: autoupdate/class-plugin-update.php:648
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr " Themeforest 用户名(用于自动更新)"
+
+#: includes/assignments.php:64 includes/assignments_functions.php:218
+#: includes/assignments_functions.php:294
+msgid "Security check failed !"
+msgstr "安全检查失败！"
+
+#: includes/assignments.php:69 includes/assignments_functions.php:299
+msgid " Incorrect User selected."
+msgstr "用户选择错误"
+
+#: includes/assignments.php:74 includes/assignments_functions.php:304
+msgid " Incorrect Assignment"
+msgstr "作业选择错误"
+
+#: includes/assignments.php:82
+msgid "SUBMISSION"
+msgstr "提交"
+
+#: includes/assignments.php:100 includes/assignments.php:103
+#: includes/assignments.php:771 includes/assignments.php:774
+msgid "Download Attachment"
+msgstr "下载附件"
+
+#: includes/assignments.php:112
+msgid "Enter marks out of "
+msgstr ""
+
+#: includes/assignments.php:113
+msgid "REMARKS (if any)"
+msgstr "备注"
+
+#: includes/assignments.php:118
+msgid "Attach File"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "Allowed file types"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "maximum file size"
+msgstr ""
+
+#: includes/assignments.php:122 includes/assignments.php:1672
+msgid "MB(s)"
+msgstr ""
+
+#: includes/assignments.php:129 includes/assignments.php:1701
+msgid "Drop files here"
+msgstr ""
+
+#: includes/assignments.php:139 includes/assignments.php:1711
+msgid "Please do not close the window until process is completed"
+msgstr ""
+
+#: includes/assignments.php:218
+msgid ""
+"There is a space in file name .Please remove space from your filename and "
+"try to re-upload"
+msgstr ""
+
+#: includes/assignments.php:242 includes/assignments.php:1839
+msgid "  already exists. Please rename the file and try again."
+msgstr ""
+
+#: includes/assignments.php:256 includes/assignments.php:1853
+msgid "Are you sure you want to quit uploading?"
+msgstr ""
+
+#: includes/assignments.php:315 includes/assignments.php:1910
+msgid "File type not allowed"
+msgstr ""
+
+#: includes/assignments.php:349
+msgid "GIVE MARKS"
+msgstr "打分"
+
+#: includes/assignments.php:552
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/assignments.php:592
+msgid "Reset Assignment for User"
+msgstr ""
+
+#: includes/assignments.php:593
+msgid "Evaluate Assignment : "
+msgstr ""
+
+#: includes/assignments.php:601
+msgid "No submissions found !"
+msgstr ""
+
+#: includes/assignments.php:668
+msgid "Assignment Results"
+msgstr ""
+
+#: includes/assignments.php:683
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr ""
+
+#: includes/assignments.php:718
+msgid "Results Available"
+msgstr ""
+
+#: includes/assignments.php:720
+msgid "Results Awaited"
+msgstr ""
+
+#: includes/assignments.php:757
+msgid "My Submission"
+msgstr ""
+
+#: includes/assignments.php:793
+msgid "See Instructor Remarks"
+msgstr ""
+
+#: includes/assignments.php:796
+msgid "Marks Obtained"
+msgstr ""
+
+#: includes/assignments.php:818
+msgid "Assignment Attachment deleted."
+msgstr "作业附件已删除"
+
+#: includes/assignments.php:885
+msgid "Upload Assignment"
+msgstr "上传作业"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+#: includes/assignments.php:2013 includes/assignments.php:2015
+#: includes/assignments.php:2017 includes/assignments.php:2019
+#: includes/assignments.php:2021 includes/assignments.php:2023
+#: includes/assignments.php:2025 includes/assignments.php:2029
+msgid "ERROR:"
+msgstr "错误:"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid "File you upload must be valid file type"
+msgstr "上传文件必须是有效的文件类型"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid ", and under "
+msgstr ",和以下"
+
+#: includes/assignments.php:1419 includes/assignments.php:2009
+msgid "MB(s)!"
+msgstr ""
+
+#: includes/assignments.php:1501
+msgid "Security check failed contact administrator"
+msgstr ""
+
+#: includes/assignments.php:1594 includes/assignments_functions.php:272
+msgid "Invalid ID"
+msgstr "ID 无效"
+
+#: includes/assignments.php:1599
+msgid "Attachment removed!"
+msgstr ""
+
+#: includes/assignments.php:1601 includes/assignments.php:1605
+#: includes/assignments_functions.php:278
+msgid "Unable to remove previous submissions"
+msgstr "无法删除先前提交"
+
+#: includes/assignments.php:1677
+msgid "RECENTLY UPLOADED"
+msgstr ""
+
+#: includes/assignments.php:2013 includes/assignments.php:2029
+msgid "Please upload an Attachment."
+msgstr "请上传附件"
+
+#: includes/assignments.php:2015
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "上传文件超过了php.ini中upload_max_filesize限制"
+
+#: includes/assignments.php:2017
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr "上传文件超过了HTML表单中指定的MAX_FILE_SIZE值"
+
+#: includes/assignments.php:2019
+msgid "The uploaded file was only partially uploaded. Please try again later."
+msgstr "上传的文件只有部分被上传，请稍后再试。"
+
+#: includes/assignments.php:2021
+msgid "Missing a temporary folder."
+msgstr "缺少一个临时文件夹"
+
+#: includes/assignments.php:2023
+msgid "Failed to write file to disk."
+msgstr "文件无法写入到磁盘"
+
+#: includes/assignments.php:2025
+msgid "A PHP extension stopped the file upload."
+msgstr "PHP扩展停止了文件上传"
+
+#: includes/assignments.php:2051 includes/assignments.php:2056
+msgid "Attachment:"
+msgstr ""
+
+#: includes/assignments.php:2176
+msgid "Download"
+msgstr ""
+
+#: includes/assignments.php:2250
+msgid "Delete Attachment"
+msgstr "删除附件"
+
+#: includes/assignments.php:2284
+#, php-format
+msgid ""
+"Regarding WPLMS Assignments Upload Assignment Functionality : It seems like "
+"your PHP installation is missing \"mime_content_type\" or \"finfo_file\" "
+"functions which are crucial for detecting file types of uploaded "
+"attachments. Please update your PHP installation OR be very careful with "
+"allowed file types, so intruders won't be able to upload dangerous code to "
+"your website! | <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+
+#: includes/assignments_functions.php:28
+msgid "Submitted by"
+msgstr "提交"
+
+#: includes/assignments_functions.php:28
+msgid "<span>"
+msgstr "<span>"
+
+#: includes/assignments_functions.php:31
+msgid "Assignment awaiting moderation."
+msgstr ""
+
+#: includes/assignments_functions.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 在 %2$s"
+
+#: includes/assignments_functions.php:38
+msgid "(Edit)"
+msgstr "(编辑)"
+
+#: includes/assignments_functions.php:95 includes/assignments_functions.php:103
+msgid "Time Remaining"
+msgstr "距离结束时间"
+
+#: includes/assignments_functions.php:96
+msgid "Days"
+msgstr "天"
+
+#: includes/assignments_functions.php:104
+msgid "Hours"
+msgstr "小时"
+
+#: includes/assignments_functions.php:104
+msgid "Minutes"
+msgstr "分"
+
+#: includes/assignments_functions.php:120
+msgid "ENDED"
+msgstr ""
+
+#: includes/assignments_functions.php:147
+msgid "START ASSIGNMENT"
+msgstr "开始作业"
+
+#: includes/assignments_functions.php:169
+msgid "CONTINUE ASSIGNMENT"
+msgstr "继续写作业"
+
+#: includes/assignments_functions.php:190
+#: includes/assignments_functions.php:200
+msgid "SUBMIT ASSIGNMENT"
+msgstr "提交作业"
+
+#: includes/assignments_functions.php:195
+msgid "INACTIVE COURSE "
+msgstr "休息课程"
+
+#: includes/assignments_functions.php:208
+msgid "CHECK RESULTS"
+msgstr "检查答案"
+
+#: includes/assignments_functions.php:232
+msgid "Assignment can not be re-started"
+msgstr "作业无法重新开始"
+
+#: includes/assignments_functions.php:242
+msgid "TIME EXPIRED, PLEASE SUBMIT THE ASSIGNMENT"
+msgstr "时间到，请提交作业"
+
+#: includes/assignments_functions.php:250
+msgid "Assignment "
+msgstr "作业"
+
+#: includes/assignments_functions.php:250
+msgid " submitted by student "
+msgstr "提交的学员"
+
+#: includes/assignments_functions.php:251
+msgid "Assignment submitted by Student"
+msgstr "提交作业的学员"
+
+#: includes/assignments_functions.php:276
+msgid " previous submissions removed ! Reloading page ..."
+msgstr "先前提交已删除！刷新页面..."
+
+#: includes/assignments_functions.php:316
+msgid "Assignment Reset for Selected User"
+msgstr "测试已为选择的用户重置"
+
+#: includes/assignments_functions.php:318
+msgid "Could not find Assignment for User. Contact Admin."
+msgstr "无法为用户搜索到测验，请联系管理员"
+
+#: includes/assignments_functions.php:349
+msgid "Assignment results available"
+msgstr "作业结果有效"
+
+#: includes/assignments_functions.php:372
+msgid "Unlimited"
+msgstr ""
+
+#: includes/assignments_functions.php:377
+msgid " days"
+msgstr "天"
+
+#: includes/assignments_functions.php:380
+msgid "ASSIGNMENT : "
+msgstr "作业:"
+
+#: includes/assignments_functions.php:382
+msgid "MARKS : "
+msgstr "成绩:"
+
+#: includes/assignments_functions.php:382
+msgid "DURATION : "
+msgstr "时限:"
+
+#: includes/assignments_functions.php:401
+msgid " out of "
+msgstr "分之"
+
+#: includes/assignments_functions.php:401
+msgid " PENDING"
+msgstr "待定"
+
+#: includes/assignments_functions.php:443
+msgid "Assignment scores"
+msgstr ""
+
+#: wplms-assignments.php:69
+msgid ""
+"This step is irreversible. All Assignment submissions would be reset for "
+"this user. Are you sure you want to Reset the Assignment for this User? "
+msgstr ""
+
+#: wplms-assignments.php:70
+msgid "Confirm, Assignment reset for this User"
+msgstr "确认，给该用户重置作业"
+
+#: wplms-assignments.php:71
+msgid "Marks Saved"
+msgstr "打分已保存"
+
+#: wplms-assignments.php:72
+msgid "Assignment Marks Saved"
+msgstr "作业成绩已保存"
+
+#: wplms-assignments.php:73
+msgid "Cancel"
+msgstr "取消"
+
+#: wplms-assignments.php:74
+msgid "Incorrect file format "
+msgstr ""
+
+#: wplms-assignments.php:75
+msgid "File already selected "
+msgstr ""
+
+#~ msgid "You've obtained "
+#~ msgstr "您已获得"
+
+#~ msgid " in Assignment :"
+#~ msgstr "作业："
+
+#~ msgid "Check Results"
+#~ msgstr "检查结果"
+
+#~ msgid "Additional Remarks form Instructor"
+#~ msgstr "讲师已附加说明的形式"
+
+#~ msgid "Student submitted assignment "
+#~ msgstr "学员已提交作业"
+
+#~ msgid "Student "
+#~ msgstr "学员"
+
+#~ msgid " submitted the assignment  "
+#~ msgstr "作业已提交"
+
+#~ msgid "Student started assignment "
+#~ msgstr "学员开始作业"
+
+#~ msgid " started the assignment  "
+#~ msgstr "已开始写作业"
+
+#~ msgid "Assignment %s was reset by the Instructor for user %s"
+#~ msgstr "讲师已为用户 %s 重置作业 %s"
+
+#~ msgid "Instructor Evaluated the Assignment for User"
+#~ msgstr "讲师为用户进行批改作业"
+
+#~ msgid " was evaluated by the Instructor for user"
+#~ msgstr "已被讲师进行批改"

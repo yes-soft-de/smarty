@@ -1,0 +1,87 @@
+*3.8
+*3.7
+*3.6
+*3.4
+*3.3
+*changelog
+*3.2
+*changelog
+*3.1
+*Batch events bug
+*3.0
+*edit event not working fix
+*2.9.2
+*2.9
+*translation files updated
+*Text domain missing fixed
+*2.8.1
+*2.8
+*2.7.1
+*add_eventon shortcode now works with WPLMS Courses
+*List style in Course - Events
+*2.7
+*2.6.1
+*check if WPLMS course is initialised
+*function construct for PHP 7 compatibility
+*notice fixes
+*Warning fixed
+*2.5.2
+*Fuzzy Translation Fixed.
+*changelog updated
+*translations updated
+*2.5
+*eventon logic upgrade
+*2.4.1
+*2.4
+*translations update
+*Global Events should show in course events
+*Events list option
+*2.3.1
+*2.3
+*2.2.2
+*Debug notices resolved
+*2.2
+*2.1.2
+*function defined changed to function exists
+*2.1.1
+*2.1
+*function defined check.
+*2.0.9.1
+*2.0.9
+*Batch events fixes
+*PHP 7 improvements
+*2.0.8
+*remove print r in events front end.
+*2.0.7
+*Event start date translation label
+*2.0.6.1
+*removed console.log
+*Migrate notice only shown when events is active.
+*2.0.6
+*migrate notice removed
+*Front end Event creation with course fix
+*Event creation removed for Course creation
+*Events Course Slug bug fix
+*Permalink configuration
+*chosen dependency removed
+*front end content and title saving
+*changelog
+*Filter for EventOn
+*Front end Event creation support
+*version update
+*Events Widget fix
+*changelog
+*version1.3
+*Migrate fixes
+*Month Day in calendar
+*changelog
+*translation fixes
+*version1.2
+*Instructors can create events in WP Admin
+*language files
+*remove files
+*version1.1
+*warnings fix
+*Auto update
+*EventOn Dashboard Widget
+*0.1

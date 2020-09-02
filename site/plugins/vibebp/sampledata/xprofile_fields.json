@@ -1,0 +1,66 @@
+[
+	{
+		"group":"Basic Information",
+		"field_group_id":1,
+		"fields":[
+			{
+				"name":"Gender",
+				"type":"radio",
+				"options":[
+					"Male","Female","Others"
+				]
+			},{
+				"name":"Birthday",
+				"type":"datebox"
+			},{
+				"name":"Skills",
+				"type":"checkboxes",
+				"options":[
+				"Branding","UI","UX","WebDesign","Packaging","Print","Editorial","Content Writing","SEO","Product","Analytics","IOT","Social Media"
+				]
+			},{
+				"name":"External Links",
+				"type":"social"
+			},{
+				"name":"Country",
+				"type":"country"
+			}
+		]
+	},{
+		"group":"Contact Information",
+		"fields":[
+			{
+				"name":"E-mail",
+				"type":"textbox"
+			},{
+				"name":"Phone",
+				"type":"telephone"
+			},{
+				"name":"Address",
+				"type":"textarea"
+			}
+		]
+	},{
+		"group":"Work",
+		"fields":[
+			{
+				"name":"Job Experience",
+				"type":"textarea"
+			},{
+				"name":"Current Position",
+				"type":"textarea"
+			}
+		]
+	},{
+		"group":"Bio",
+		"fields":[
+			{
+				"name":"Short Bio",
+				"type":"textarea"
+			},{
+				"name":"About",
+				"type":"textarea"
+			}
+		]
+	}
+]

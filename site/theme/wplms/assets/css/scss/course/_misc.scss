@@ -1,0 +1,276 @@
+/**
+ * File: misc.scss
+ * Description : Contains misc styling for the courses in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+
+ /*
+ COURSE ACTION ACONTROLS
+ */
+
+.course_action_controls{
+	margin-top:30px;
+    border: 1px solid $bordercolor;
+    ul{
+    	li{
+    		display:inline-block;
+    		a{
+    			padding:12px 0;
+    			text-align:center;
+    			width:45px;
+    			border-right:1px solid $bordercolor;
+			}
+    	}
+    }
+}
+/*========================================================================*/
+/*   01. REVIEWS
+/*========================================================================*/
+.course_reviews{
+		margin:60px 0;
+		.review_breakup{
+    		margin: 0 -15px;
+		    text-align:center;
+		    .rating_snapshot{
+		    	h2{
+			    	font-size:120px;
+			    	line-height:1.4;
+			    	font-weight:600;
+			    	margin:0;
+			    }
+			    .modern-star-rating{
+					display:inline-block;
+					.fa{
+						color:#FFCB10;
+						float:left;
+						font-size:20px;
+					}
+				}
+				span{
+					color:#aaa;
+					display:block;
+				}
+		    }
+		    ul.rating_breakup{
+		    	margin-top:20px;
+			    display: inline-block;
+			    width: 100%;
+			    li{
+			    	display:block;
+				    &>span{
+				    	float:left;
+				    	font-size:11px;
+				    	text-transform:uppercase;
+				    	letter-spacing:1px;
+				    	font-weight:600;
+				    	color:#aaa;
+				    	margin:15px 15px 0 0;
+				    }
+    				strong{
+					    border-bottom: 1px solid #FFF;
+			    	    background:#FAFAFA;
+	    				height: 40px;
+	    				border-radius:2px;
+	    				display:block;
+	    				overflow: hidden;
+					    &>span{
+					    	color:#FFF;
+					    	background: #79c989;
+					    	display: block;
+					    	font-weight:600;
+					    	height: 40px;
+					    	line-height: 2.8;
+					    }
+    				}
+			    }
+		    }
+		}
+		.show_course_reviews{
+		    padding: 30px 0;
+		    clear:both;
+		    position: relative;
+		    overflow: hidden;
+		    margin-top: 30px;
+		    border-radius: 2px;
+		    transition: all 0.2s ease-in-out;
+			.show_reviews{
+				position:absolute;
+				bottom:0;
+				width:100%;
+				cursor:pointer;
+				background:#FFF;
+			    padding: 15px 20px;
+			    text-align: center;
+			    font-size:11px;
+			    text-transform:uppercase;
+			    font-weight:bold;
+			    border-top: 1px solid #EEE;
+			    &:hover{
+			    	background:#EEE;
+			    }
+			}
+			&.active{
+				max-height:none;
+			}
+			.reviewlist.commentlist{
+				margin:0;
+				.comment{
+					padding:15px 0;
+					border-bottom:1px solid #EEE;
+				}
+				.comment-body{
+					.comment-avatar{
+						float:left;
+						img{
+							max-width:80px;
+							border-radius:50%;
+							margin-top:20px;
+						}
+					}
+					.comment-body-content{
+						margin-left: 100px;
+						.comment-meta{
+							margin:0;
+							display:block;
+							opacity:0;
+							font-size:11px;
+							text-transform:uppercase;
+							color:#aaa;
+							a,.comment-reply-link{
+								color:#aaa;
+								background:none;
+								padding:0;
+								&:before{
+									content: ' / ';
+								}
+							}
+						}
+						h3{
+							margin:0;
+						    font-size: 14px;
+						    text-transform: uppercase;
+						    letter-spacing: 1px;
+						    padding-bottom: 10px;
+						    font-weight: 600;
+						}
+						.modern-star-rating{
+							display:inline-block;
+							.fa{
+								color:#FFCB10;
+								float:left;
+							}
+						}
+					}
+					&:hover{
+						.comment-body-content{
+							.comment-meta{
+								opacity:1;
+							}
+						}
+					}
+				}
+			} 
+		}
+	}
+
+.commentratingbox{
+	.star{
+	    display:block;
+	    width:20px;
+        font-size: 18px;
+		line-height: 10px;
+	    float:left;
+	    cursor: pointer;
+	    zoom:1;
+	    &:after{
+	    	font-family:'fontawesome';
+	    	content:"\f006";
+	    	color:#FFCB10;
+	    }
+
+		&.fullStar{
+		   	&:after{
+		   		content:"\f005";
+		   		color:#FFCB10;
+		   	}
+		   	&.tmp_fs,&.tmp_es{color:#bbb;}
+		}
+
+		.stars{
+		    overflow: hidden;
+		    margin-left:10px;
+		}
+
+		&.tmp_es{
+			&:after{
+		   		content:"\f006";
+		   		color:#bbb;
+		   	}
+		}
+
+		&.tmp_fs{
+		    &:after{
+		   		content:"\f005";
+		   		color:#bbb;
+		   	}
+		}
+	}
+}
+/*========================================================================*/
+/*   01. DRIVE
+/*========================================================================*/
+.course_front_progressbar{
+    position: relative;
+    padding-right: 45px;	
+    margin-top:15px;
+	.progress{
+		background:none;
+	    margin: 0;
+	    box-shadow:none;
+	    border-radius: 10px;
+	    height: auto;
+	    border:1px solid $bordercolor;
+	    .bar{
+	    	border-radius:0;
+	    	padding:4px;
+	    }
+	}
+	& > span{
+	    position: absolute;
+	    right: 0;
+	    top: -4px;
+	    font-size: 11px;
+	    font-weight: 600;
+	    letter-spacing: 0.5px;
+	}
+}
+/*========================================================================*/
+/*   01. DRIVE
+/*========================================================================*/
+
+
+.drive.single-course{
+	#buddydrive-forms{
+		#buddydrive-file-uploader,
+		#buddydrive-folder-editor{
+			padding:30px;
+			border:1px solid $bordercolor;
+			textarea,input[type="text"],select{
+				width:100%;
+			}
+			.drag-drop{
+				position: relative;
+			    border: 5px dashed #EEE;
+			    padding: 30px;
+			    text-align: center;
+			    margin: 15px 0;
+			}
+			.buddydrive_course_step{
+				display:none;
+			}
+		}
+	}
+}

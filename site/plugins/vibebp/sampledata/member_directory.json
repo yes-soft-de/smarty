@@ -1,0 +1,146 @@
+{
+	"page": [{
+      "type_title": "Pages",
+      "post_id": 234,
+      "post_title": "Members Directory",
+      "post_status": "publish",
+      "post_name": "members-directory",
+      "post_content": "Gender\n\t\t\t\t\t\t\tSkills\t\t\t\t\t\n\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a>All</a></li><li><a>product-designer</a></li><li><a>technical-analyst</a></li><li><a>digital-marketing</a></li>\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t<select>\n\t\t\t\t\t\t\t\t<option value=\"active\">Active</option><option value=\"newest\">Recently Added</option><option value=\"alphabetical\">Alphabetical</option><option value=\"random\">Random</option><option value=\"popular\">Popular</option>\t\t\t\t\t\t\t</select>\n\t\t\t\t\t<a href=\"https://demos.wplms.io/members/wplms/\"><img src=\"https://demos.wplms.io/wp-content/uploads/avatars/3/5ef721f5d34ea-bpfull.png\" /></a><a href=\"https://demos.wplms.io/members/wplms_demos_admin/\"><img src=\"https://demos.wplms.io/wp-content/uploads/avatars/1/5ef62a4254b54-bpfull.png\" /></a><a href=\"https://demos.wplms.io/members/samplesample-com/\"><img src=\"https://demos.wplms.io/wp-content/uploads/avatars/2/5ef6bcf70165b-bpfull.png\" /></a>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2020-06-27 08:48:07",
+      "post_date_gmt": "2020-06-27 08:48:07",
+      "guid": "https://demos.wplms.io/?page_id=234",
+      "post_mime_type": "",
+      "meta_input": {
+        "_wp_page_template": "fullwidth.php",
+        "vibe_title": "S",
+        "vibe_subtitle": " ",
+        "vibe_breadcrumbs": "S",
+        "vibe_sidebar": "vibebp-dashboard",
+        "vibe_title_bg": " ",
+        "_elementor_edit_mode": "builder",
+        "_elementor_template_type": "wp-page",
+        "_elementor_version": "2.9.13",
+        "_elementor_data": "[{\"id\":\"d9eeb49\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"a509b31\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"0e1bb2e\",\"elType\":\"widget\",\"settings\":{\"members_per_page\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"per_row\":{\"unit\":\"px\",\"size\":760,\"sizes\":[]},\"order\":\"alphabetical\",\"members_pagination\":\"1\",\"member_directory_filters\":[\"2\",\"13\"],\"full_avatar\":\"1\",\"card_style\":\"card\",\"search_members\":\"1\",\"sort_members\":\"1\"},\"elements\":[],\"widgetType\":\"members_directory\"}],\"isInner\":false}],\"isInner\":false}]",
+        "_elementor_controls_usage": {
+          "members_directory": {
+            "count": 1,
+            "control_percent": 5,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "members_per_page": 1,
+                  "per_row": 1,
+                  "order": 1,
+                  "members_pagination": 1,
+                  "member_directory_filters": 1,
+                  "full_avatar": 1,
+                  "card_style": 1,
+                  "search_members": 1,
+                  "sort_members": 1
+                }
+              }
+            }
+          },
+          "column": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "layout": {
+                  "_inline_size": 1
+                }
+              }
+            }
+          },
+          "section": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": []
+          }
+        },
+        "_elementor_css": {
+          "0": "",
+          "time": 1593267733,
+          "fonts": [],
+          "icons": [],
+          "status": "file"
+        }
+      },
+      "terms": []
+    },
+    {
+      "type_title": "Pages",
+      "post_id": 209,
+      "post_title": "Members Page",
+      "post_status": "publish",
+      "post_name": "members-page",
+      "post_content": "<p></p>\n\n<!-- wp:paragraph -->\n</p><p>[vibebp_login]</p><p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n</p><p>[vibebp_profile]</p><p>\n<!-- /wp:paragraph -->\n\n<p></p>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2020-06-27 03:59:14",
+      "post_date_gmt": "2020-06-27 03:59:14",
+      "guid": "https://demos.wplms.io/?page_id=209",
+      "post_mime_type": "",
+      "meta": {
+        "vibe_title": "S",
+        "vibe_subtitle": " ",
+        "vibe_breadcrumbs": "S",
+        "vibe_sidebar": "vibebp-dashboard",
+        "vibe_title_bg": " ",
+        "_wp_page_template": "barebones.php",
+        "_elementor_template_type": "wp-page",
+        "_elementor_version": "2.9.13",
+        "_elementor_edit_mode": "builder",
+        "_elementor_data": "[{\"id\":\"2e2a4a8\",\"elType\":\"section\",\"settings\":{\"stretch_section\":\"section-stretched\",\"layout\":\"full_width\"},\"elements\":[{\"id\":\"2a7490a\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"2f9e185\",\"elType\":\"widget\",\"settings\":{\"editor\":\"[vibebp_login]\\n[vibebp_profile]\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false}]",
+        "_elementor_controls_usage": {
+          "text-editor": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": {
+              "content": {
+                "section_editor": {
+                  "editor": 1
+                }
+              }
+            }
+          },
+          "column": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "layout": {
+                  "_inline_size": 1
+                }
+              }
+            }
+          },
+          "section": {
+            "count": 1,
+            "control_percent": 1,
+            "controls": {
+              "layout": {
+                "section_layout": {
+                  "stretch_section": 1,
+                  "layout": 1
+                }
+              }
+            }
+          }
+        },
+        "_elementor_css": {
+          "0": "",
+          "time": 1593236028,
+          "fonts": [],
+          "icons": [],
+          "status": "empty",
+          "css": ""
+        }
+      },
+      "terms": []
+    }]
+}

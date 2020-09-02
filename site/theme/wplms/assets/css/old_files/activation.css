@@ -1,0 +1,167 @@
+.wplms-badge {
+	position: relative;
+	padding:30px;
+}
+.wplms-wrap .wplms-badge {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.wplms-wrap .wplms-feature {
+	padding:30px 0;
+	overflow: visible !important;
+	*zoom:1;
+}
+
+.wplms-wrap h3 + .wplms-feature {
+	margin-top: 0;
+}
+.wplms-wrap .wplms-feature:before,
+.wplms-wrap .wplms-feature:after {
+	content: " ";
+	display: table;
+}
+.wplms-wrap .wplms-feature:after {
+	clear: both;
+}
+.install_buttons{
+	width:100%;
+	text-align: center;
+	display: inline-block;
+	margin: 30px 0;
+}
+.col p{font-size:14px;}
+.install_buttons a,.install_buttons span{display: inline-block;clear:both;width:80%;padding: 10px 0;}
+.install_buttons span{color:#bbb;}
+.install_buttons span.success{padding: 30px;background: #70c989;color: #FFF;text-align: center;}
+
+
+.about-wrap.wplms-wrap .feature-rest div {
+	width: 47.6%;
+	margin-right: 4.799999999%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 !important;
+}
+.wplms-wrap .feature-rest div.install_buttons{max-width:100%;}
+.wplms-wrap .feature-rest div.last-feature {
+	padding-left: 50px !important;
+	padding-right: 0;
+}
+.about-text.wplms-about-text{font-size:16px;line-height: 1.6;}
+.about-integrations {
+	background: #fff;
+	margin: 20px 0;
+	padding: 1px 20px 10px;
+}
+.last-feature a{clear:both;float:left;}
+.wplms-wrap .last-feature span{color:#bbb;
+	float: left;clear: both;padding: 10px 80px;position: relative;
+}
+.wplms-wrap .feature-section h4{margin-top:0;font-size:18px;}
+.wplms-wrap .last-feature span:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 30%;
+	border: 1px solid #ddd;
+}
+.three-col > div{
+	max-width:33%;
+	float:left;
+}
+.three-col > div > *{
+	padding:0 10px;
+}
+.wplms-wrap .last-feature span:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 30%;
+	border: 1px solid #ddd;
+}
+.changelog h4 {
+	line-height: 1.4;
+}
+.wplms-conf {
+	background-color: #00204A;
+	background-size: cover;
+	padding: 11px 30px 20px;
+	color: #fff;
+	border-radius: 4px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wplms_status_table h4{margin:0;}
+.wplms-conf h3 {
+	color: #fff;
+}
+.changelog-description{max-height:600px;overflow-y:scroll;}
+.wplms-conf div {
+	width: 50%;
+}
+.sample_data_install{width:100%;display:inline-block;height:auto !important;}
+.sample_data_install>span{clear:both;display:block;font-size:80%;opacity:0.8;line-height: 1.2;}
+
+
+/* Loading effect*/
+
+#loading{
+	display: none;
+	text-align: center;
+    font-size: 20px; /* 1em */
+    width: 10em;
+    height: 1em;
+    position: relative;
+    margin: 10px auto;
+    /* Styles */
+    border-radius: .5em; /* Height/2 */
+    background: white; /* Fallback */
+    background: rgba(255,255,255,0.6);
+    box-shadow: 
+        0 0 0 .05em rgba(100,100,100,0.075), /* Subtle border */
+        0 0 0 .25em rgba(0,0,0,0.1),           /* Outter border */
+        inset 0 .1em .05em rgba(0,0,0,0.1),   /* Inset shadow */
+        0 .05em rgba(255,255,255,0.7);     /* Slight reflection */
+}
+#loading.active{display: block;}
+#loading:after {
+    /* Content and position */
+    content: "INSTALLING...";
+    position: absolute;
+    left: 35%;
+    top: 150%;font-weight: 800;
+    font-size: 12px;
+    color: #555;
+}
+
+#loading .sphere {
+    /* Size */
+    display: block;
+    width: 1em;
+    height: 100%;
+     
+    /* Styles */
+    border-radius: 50%;
+    background: linear-gradient(#eee, #ddd);
+    box-shadow:
+        inset 0 .15em .1em rgba(255,255,255,0.3), /* Top light */
+        inset 0 -.1em .15em rgba(0,0,0,0.15),      /* Bottom shadow */
+        0 0 .25em rgba(0,0,0,0.3);             /* Outter shadow */
+    -webkit-animation: toslide 1.75s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes toslide {
+    from { }
+    to { margin-left: 90%; }
+}
+
+@keyframes toslide {
+    from { }
+    to { margin-left: 90%; }
+}

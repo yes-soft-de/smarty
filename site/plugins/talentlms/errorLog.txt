@@ -1,0 +1,1 @@
+#August 18th 2020, 18:31: No API key provided. (HINT: set your API key using "TalentLMS::setApiKey('API-KEY')").

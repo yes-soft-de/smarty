@@ -1,0 +1,7485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Custom Types\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-10 22:53+0530\n"
+"PO-Revision-Date: 2018-09-10 22:53+0530\n"
+"Last-Translator: VibeThemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe-customtypes
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:638 includes/musettings.php:1484
+#: includes/musettings.php:1506 includes/musettings.php:1529
+#: includes/musettings.php:1546 metaboxes/meta_box.php:826
+msgid "Email"
+msgstr ""
+
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:17
+msgid "Learning Management System"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:18 includes/permalinks.php:203
+msgid "Statistics"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:19 custom_meta_boxes.php:1350
+#: includes/loggedin_menu.php:360 metaboxes/library/vibe-editor.php:3386
+#: metaboxes/library/vibe-editor.php:3408
+msgid "Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:20
+msgid "Lms Tree"
+msgstr ""
+
+#: custom-post-types.php:21 includes/musettings.php:101
+#: includes/musettings.php:1873
+msgid "Live"
+msgstr ""
+
+#: custom-post-types.php:22
+msgid "Add Ons"
+msgstr ""
+
+#: custom-post-types.php:56
+msgctxt "Testimonial slug in permalink"
+msgid "testimonial"
+msgstr ""
+
+#: custom-post-types.php:68
+msgctxt "News slug in permalink"
+msgid "news"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:86 metaboxes/library/vc-mapper/vc-mapper.php:47
+msgid "Course Category"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:87 custom-post-types.php:88
+msgid "Category"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:89
+msgid "Add New Course Category"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:90
+msgid "All Categories"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:109 custom-post-types.php:110
+#: includes/loggedin_menu.php:329 metaboxes/library/vc-mapper/vc-mapper.php:36
+msgid "Courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:111 custom_meta_boxes.php:912
+#: includes/class.export.php:14 includes/permalinks.php:100
+#: includes/statistics.php:19 includes/statistics.php:897
+msgid "Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:112
+msgid "Add New Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:113
+msgid "All Courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:133 custom-post-types.php:134
+msgid "Units"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:135 includes/class.export.php:15
+#: includes/permalinks.php:136
+msgid "Unit"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:136
+msgid "Add New Unit"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:137
+msgid "All Units"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:156 custom-post-types.php:157
+#: custom-post-types.php:158 custom-post-types.php:240
+#: custom-post-types.php:241
+msgid "Tag"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:159 custom-post-types.php:242
+#: custom-post-types.php:385
+msgid "Add New Tag"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:160 custom-post-types.php:243
+msgid "All Tags"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:175 custom-post-types.php:176
+msgid "Quizes"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:177 includes/class.export.php:16
+#: includes/permalinks.php:120 metaboxes/library/vc-mapper/vc-mapper.php:37
+msgid "Quiz"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:178
+msgid "All Quizes"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:197 custom-post-types.php:198
+#: custom-post-types.php:199
+msgid "Quiz type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:200
+msgid "Add New Quiz type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:201
+msgid "All Quiz types"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:217 custom-post-types.php:218
+msgid "Question Bank"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:219 includes/class.export.php:17
+msgid "Question"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:220
+msgid "All Questions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:239
+msgid "Question Tag"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:263 custom-post-types.php:264
+#: metaboxes/library/vc-mapper/vc-mapper.php:41
+msgid "Events"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:265
+msgid "Event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:266
+msgid "Add New Events"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:267
+msgid "All Events"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:286 custom-post-types.php:287
+#: custom-post-types.php:288
+msgid "Event type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:289
+msgid "Add New Event type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:290
+msgid "All Event types"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:311 custom-post-types.php:312
+#: metaboxes/library/vc-mapper/vc-mapper.php:38
+msgid "Assignments"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:313 includes/class.export.php:18
+#: includes/musettings.php:3733
+msgid "Assignment"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:314
+msgid "Add New Assignment"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:315
+msgid "All Assignments"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:335 custom-post-types.php:336
+#: custom-post-types.php:337
+msgid "Assignment type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:338
+msgid "Add New Assignment type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:339
+msgid "All Assignment types"
+msgstr ""
+
+#: custom-post-types.php:358 custom-post-types.php:359
+#: custom-post-types.php:362 metaboxes/library/vc-mapper/vc-mapper.php:42
+#: metaboxes/library/vibe-editor.php:1977
+msgid "Course News"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:360 includes/musettings.php:2044
+#: includes/permalinks.php:154 includes/permalinks.php:212
+msgid "News"
+msgstr ""
+
+#: custom-post-types.php:361
+msgid "Add News"
+msgstr ""
+
+#: custom-post-types.php:382 custom-post-types.php:383
+#: custom-post-types.php:384
+msgid "News Tag"
+msgstr ""
+
+#: custom-post-types.php:386
+msgid "All News Tags"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:402 custom-post-types.php:403
+msgid "Payments"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:404
+msgid "Payment"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:405
+msgid "Add New Payment"
+msgstr ""
+
+#: custom-post-types.php:406
+msgid "Payouts"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:425 custom-post-types.php:427
+#: custom_meta_boxes.php:348
+msgid "Certificate Template"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:426
+msgid "Certificates Template"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:428
+msgid "Add New Certificate"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:429
+msgid "Certificate Templates"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:449 custom-post-types.php:450
+#: custom-post-types.php:451
+msgid "Linkage"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:452
+msgid "Add New Link"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:453
+msgid "All Links"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:471 custom-post-types.php:472
+#: custom-post-types.php:473
+msgid "Level"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:474
+msgid "Add New Level"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:475
+msgid "All Levels"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:494 custom-post-types.php:495
+#: custom-post-types.php:496 custom_meta_boxes.php:975
+msgid "Location"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:497
+msgid "Add New Location"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:498
+msgid "All Locations"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:520 custom-post-types.php:521
+#: metaboxes/library/vc-mapper/vc-mapper.php:40
+msgid "Testimonials"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:522
+msgid "Testimonial"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:523
+msgid "All Testimonials"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:545 custom-post-types.php:546
+msgid "Popups"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:547
+msgid "Popup"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:548
+msgid "All Popups"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:31 custom_meta_boxes.php:849
+msgid "Post Sub-Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:32 custom_meta_boxes.php:850
+msgid "Post Sub- Title."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:39
+msgid "Post Template"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:40
+msgid "Select a post template for showing content."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:44
+msgid "Content on Left"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:45
+msgid "Content on Right"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:46
+msgid "Full Width"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:51 custom_meta_boxes.php:152
+#: custom_meta_boxes.php:163 custom_meta_boxes.php:1122
+#: metaboxes/library/vibe-editor.php:3064
+msgid "Sidebar"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:52 custom_meta_boxes.php:164
+#: custom_meta_boxes.php:1123
+msgid "Select a Sidebar | Default : mainsidebar"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:58 custom_meta_boxes.php:116
+msgid "Show Page Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:59 custom_meta_boxes.php:117
+msgid "Show Page/Post Title."
+msgstr ""
+
+#: custom_meta_boxes.php:64 custom_meta_boxes.php:77 custom_meta_boxes.php:91
+#: custom_meta_boxes.php:104 custom_meta_boxes.php:122
+#: custom_meta_boxes.php:145 custom_meta_boxes.php:198
+#: custom_meta_boxes.php:211 custom_meta_boxes.php:224
+#: custom_meta_boxes.php:238 custom_meta_boxes.php:252
+#: custom_meta_boxes.php:266 custom_meta_boxes.php:280
+#: custom_meta_boxes.php:294 custom_meta_boxes.php:340
+#: custom_meta_boxes.php:368 custom_meta_boxes.php:381
+#: custom_meta_boxes.php:394 custom_meta_boxes.php:407
+#: custom_meta_boxes.php:488 custom_meta_boxes.php:515
+#: custom_meta_boxes.php:586 custom_meta_boxes.php:718
+#: custom_meta_boxes.php:745 custom_meta_boxes.php:758
+#: custom_meta_boxes.php:771 custom_meta_boxes.php:806
+#: custom_meta_boxes.php:881 custom_meta_boxes.php:968
+#: custom_meta_boxes.php:999 custom_meta_boxes.php:1012
+#: custom_meta_boxes.php:1070 custom_meta_boxes.php:1156
+msgid "Hide"
+msgstr ""
+
+#: custom_meta_boxes.php:66 custom_meta_boxes.php:79 custom_meta_boxes.php:93
+#: custom_meta_boxes.php:106 custom_meta_boxes.php:124
+#: custom_meta_boxes.php:147 custom_meta_boxes.php:200
+#: custom_meta_boxes.php:213 custom_meta_boxes.php:226
+#: custom_meta_boxes.php:240 custom_meta_boxes.php:254
+#: custom_meta_boxes.php:268 custom_meta_boxes.php:282
+#: custom_meta_boxes.php:296 custom_meta_boxes.php:342
+#: custom_meta_boxes.php:370 custom_meta_boxes.php:383
+#: custom_meta_boxes.php:396 custom_meta_boxes.php:409
+#: custom_meta_boxes.php:490 custom_meta_boxes.php:517
+#: custom_meta_boxes.php:588 custom_meta_boxes.php:720
+#: custom_meta_boxes.php:747 custom_meta_boxes.php:760
+#: custom_meta_boxes.php:773 custom_meta_boxes.php:808
+#: custom_meta_boxes.php:883 custom_meta_boxes.php:970
+#: custom_meta_boxes.php:1001 custom_meta_boxes.php:1014
+#: custom_meta_boxes.php:1072 custom_meta_boxes.php:1158
+msgid "Show"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:71
+msgid "Show Author Information"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:72
+msgid "Author information below post content."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:85 custom_meta_boxes.php:139
+msgid "Show Breadcrumbs"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:86 custom_meta_boxes.php:140
+msgid "Show breadcrumbs."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:98
+msgid "Show Prev/Next Arrows"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:99
+msgid "Show previous/next links on top below the Subheader."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:131
+msgid "Page Sub-Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:132
+msgid "Page Sub- Title."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:153
+msgid "Select Sidebar | Sidebar : mainsidebar"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:171
+msgid "Total Duration of Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:172
+#, php-format
+msgid "Duration of Course (in %s)"
+msgstr ""
+
+#: custom_meta_boxes.php:178
+msgid "Course Duration parameter"
+msgstr ""
+
+#: custom_meta_boxes.php:179 custom_meta_boxes.php:421
+#: custom_meta_boxes.php:706 custom_meta_boxes.php:895
+#: custom_meta_boxes.php:1144
+msgid "Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:185
+msgid "Total number of Students in Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:186
+msgid "Total number of Students who have taken this Course."
+msgstr ""
+
+#: custom_meta_boxes.php:192
+msgid "Unit Completion Lock"
+msgstr ""
+
+#: custom_meta_boxes.php:193
+msgid "Previous Units/Quiz must be Complete before next unit/quiz access"
+msgstr ""
+
+#: custom_meta_boxes.php:205
+msgid "Offline Course"
+msgstr ""
+
+#: custom_meta_boxes.php:206
+msgid "Make this an Offline Course"
+msgstr ""
+
+#: custom_meta_boxes.php:218
+msgid "Show Unit content in Curriculum"
+msgstr ""
+
+#: custom_meta_boxes.php:219
+msgid ""
+"Display units content in Course Curriculum, unit content visible in "
+"curriculum. ( Recommended for Offline Courses )"
+msgstr ""
+
+#: custom_meta_boxes.php:232
+msgid "Hide Course Button after subscription"
+msgstr ""
+
+#: custom_meta_boxes.php:233
+msgid ""
+"Hide Start Course/Continue Course button after Course is subscribed by user. "
+"( Recommended for Offline Courses )"
+msgstr ""
+
+#: custom_meta_boxes.php:246
+msgid "Display Course Progress on Course home"
+msgstr ""
+
+#: custom_meta_boxes.php:247
+msgid ""
+"Display User Course progress on Course page. ( Recommended for Offline "
+"Courses )"
+msgstr ""
+
+#: custom_meta_boxes.php:260
+msgid "Time based Course Progress "
+msgstr ""
+
+#: custom_meta_boxes.php:261
+msgid ""
+"Automatically generate course progress based on duration (number of months/"
+"weeks/days/hours) passed in course.( Recommended for Offline Courses )"
+msgstr ""
+
+#: custom_meta_boxes.php:274
+msgid "Post Course Reviews from Course Home"
+msgstr ""
+
+#: custom_meta_boxes.php:275
+msgid ""
+"Allow subscribed users to post Course reviews from Course home page. "
+"( Recommended for Offline Courses )"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:288
+msgid "Auto Evaluation"
+msgstr ""
+
+#: custom_meta_boxes.php:289
+msgid ""
+"Evalute Courses based on Quizzes scores available in Course (* Requires at "
+"least 1 Quiz in course)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:301
+msgid "Course Start Date"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:302
+msgid "Date from which Course Begins"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:307
+msgid "Maximum Students in Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:308
+msgid "Maximum number of students who can pursue the course at a time."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:313
+msgid "Excellence Badge"
+msgstr ""
+
+#: custom_meta_boxes.php:314
+msgid "Upload badge image which Students receive upon course completion"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:320
+msgid "Badge Percentage"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:321
+msgid "Badge is given to people passing above percentage (out of 100)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:327
+msgid "Badge Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:328
+msgid "Title is shown on hovering the badge."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:334
+msgid "Completion Certificate"
+msgstr ""
+
+#: custom_meta_boxes.php:335
+msgid ""
+"Enable Certificate image which Students receive upon course completion (out "
+"of 100)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:349
+msgid "Select a Certificate Template"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:356
+msgid "Passing Percentage"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:357
+msgid "Course passing percentage, for completion certificate"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:362
+msgid "Drip Feed"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:363
+msgid "Enable Drip Feed course"
+msgstr ""
+
+#: custom_meta_boxes.php:375
+msgid "Course Starting Time as Drip Feed Origin"
+msgstr ""
+
+#: custom_meta_boxes.php:376
+#, php-format
+msgid ""
+"Drip feed time calculation from Course starting date/time vs previous unit "
+"access date/time (default), %s tutorial %s"
+msgstr ""
+
+#: custom_meta_boxes.php:388
+msgid "Section Drip Feed"
+msgstr ""
+
+#: custom_meta_boxes.php:389
+msgid "Enable Section Drip Feed (default ) course"
+msgstr ""
+
+#: custom_meta_boxes.php:401
+msgid "Drip Duration as Unit Duration"
+msgstr ""
+
+#: custom_meta_boxes.php:402
+msgid ""
+"Assume Drip duration same as Unit Duration. Duration between consecutive "
+"units."
+msgstr ""
+
+#: custom_meta_boxes.php:414
+msgid "Drip Feed Duration (Static)"
+msgstr ""
+
+#: custom_meta_boxes.php:415
+msgid ""
+"Static duration, if Drip duration not equals Unit duration. This is the "
+"duration between consecutive Drip feed units (in "
+msgstr ""
+
+#: custom_meta_boxes.php:420
+msgid "Drip Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:427
+msgid "Course Curriculum"
+msgstr ""
+
+#: custom_meta_boxes.php:428
+msgid ""
+"Set Course Curriculum, prepare units and quizzes before setting up curriculum"
+msgstr ""
+
+#: custom_meta_boxes.php:435
+msgid "Prerequisite Course"
+msgstr ""
+
+#: custom_meta_boxes.php:436
+msgid "Prerequisite courses for this course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:442
+msgid "Course Retakes"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:443
+msgid "Set number of times a student can re-take the course (0 to disable)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:449
+msgid "Course Forum"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:450
+msgid "Connect Forum with Course."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:457
+msgid "Course Group"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:458
+msgid "Connect a Group with Course."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:463
+msgid "Course specific instructions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:464
+msgid ""
+"Course specific instructions which would be shown in the Start course/Course "
+"status page"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:470
+msgid "Course Completion Message"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:471
+msgid "This message is shown to users when they Finish submit the course"
+msgstr ""
+
+#: custom_meta_boxes.php:474
+msgid "This message is shown to the user when she finishes the course."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:482
+msgid "Free Course"
+msgstr ""
+
+#: custom_meta_boxes.php:483
+msgid "Set Course free for all Members"
+msgstr ""
+
+#: custom_meta_boxes.php:495
+msgid "Make First Section Free"
+msgstr ""
+
+#: custom_meta_boxes.php:496
+msgid ""
+"Allows users to start the course for free, but can only see first section "
+"for free."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:501 includes/musettings.php:1477
+#: includes/musettings.php:1481 includes/musettings.php:1485
+#: includes/musettings.php:1499 includes/musettings.php:1503
+#: includes/musettings.php:1507 includes/musettings.php:1522
+#: includes/musettings.php:1526 includes/musettings.php:1530
+#: includes/musettings.php:1539 includes/musettings.php:1543
+#: includes/musettings.php:1547 includes/musettings.php:2446
+#: includes/musettings.php:2475 includes/musettings.php:2504
+#: includes/musettings.php:2544 metaboxes/library/vibe-editor.php:1939
+#: metaboxes/library/vibe-editor.php:2614
+msgid "No"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:503 includes/featured.php:514
+#: includes/musettings.php:1478 includes/musettings.php:1482
+#: includes/musettings.php:1486 includes/musettings.php:1500
+#: includes/musettings.php:1504 includes/musettings.php:1508
+#: includes/musettings.php:1523 includes/musettings.php:1527
+#: includes/musettings.php:1531 includes/musettings.php:1540
+#: includes/musettings.php:1544 includes/musettings.php:1548
+#: includes/musettings.php:2447 includes/musettings.php:2476
+#: includes/musettings.php:2505 includes/musettings.php:2545
+#: metaboxes/library/vibe-editor.php:1939
+#: metaboxes/library/vibe-editor.php:2615
+msgid "Yes"
+msgstr ""
+
+#: custom_meta_boxes.php:508
+msgid "Apply for Course"
+msgstr ""
+
+#: custom_meta_boxes.php:509
+msgid "Invite Student applications for Course"
+msgstr ""
+
+#: custom_meta_boxes.php:510
+msgid ""
+"Students are required to Apply for course and instructor would manually "
+"approve them to course. Do not enable \"Free\" course with this setting."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:531
+msgid "PMPro Membership"
+msgstr ""
+
+#: custom_meta_boxes.php:532
+msgid "Required Membership level for this course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:546
+msgid "Associated Product"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:547
+msgid "Associated Product with the Course."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:558
+msgid "Video"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:559
+msgid "Audio"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:560
+msgid "Podcast"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:561 includes/musettings.php:94
+msgid "General"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:565
+msgid "Unit Description"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:566
+msgid "Small Description."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:572
+msgid "Unit Type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:573
+msgid "Select Unit type from Video , Audio , Podcast, General , "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:580
+msgid "Free Unit"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:581
+msgid "Set Free unit, viewable to all"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:593
+msgid "Unit Duration"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:594
+msgid "Duration in "
+msgstr ""
+
+#: custom_meta_boxes.php:599 custom_meta_boxes.php:600
+msgid "Unit Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:606
+msgid "Unit Forum"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:607
+msgid "Connect Forum with Unit."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:614
+msgid "Connect Assignments"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:615
+msgid "Select an Assignment which you can connect with this Unit"
+msgstr ""
+
+#: custom_meta_boxes.php:621
+msgid "Attachments"
+msgstr ""
+
+#: custom_meta_boxes.php:622
+msgid "Display these attachments below units to be downloaded by students"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:631
+msgid "True or False"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:632
+msgid "Multiple Choice"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:633
+msgid "Multiple Correct"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:634
+msgid "Sort Answers"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:635
+msgid "Match Answers"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:636
+msgid "Fill in the Blank"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:637
+msgid "Dropdown Select"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:638
+msgid "Small Text"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:639
+msgid "Large Text"
+msgstr ""
+
+#: custom_meta_boxes.php:640
+msgid "Survey type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:644
+msgid "Question Type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:645
+msgid "Select Question type, "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:652
+msgid "Question Options (For Single/Multiple/Sort/Match Question types)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:653
+msgid "Single/Mutiple Choice question options"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:658
+msgid "Correct Answer"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:659
+msgid ""
+"Enter (1 = True, 0 = false ) or Choice Number (1,2..) or comma saperated "
+"Choice numbers (1,2..) or Correct Answer for small text (All possible "
+"answers comma saperated) | 0 for No Answer or Manual Check"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:665
+msgid "Answer Hint"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:666
+msgid "Add a Hint/clue for the answer to show to student"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:672
+msgid "Answer Explanation"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:673
+msgid "Add Answer explanation"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:683
+msgid "Quiz Subtitle"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:684
+msgid "Quiz Subtitle."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:690 custom_meta_boxes.php:1318
+msgid "Connected Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:695
+msgid ""
+"Connecting a quiz with a course would force the quiz to be available to "
+"users who have taken the course."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:698
+msgid "Quiz Duration"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:699
+msgid "Quiz duration in "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:699
+msgid " Enables Timer & auto submits on expire. 9999 to disable."
+msgstr ""
+
+#: custom_meta_boxes.php:705
+msgid "Quiz Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:712
+msgid "Auto Evaluate Results"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:713
+msgid ""
+"Evaluate results as soon as quiz is complete. (* No Large text questions ), "
+"Diable for manual evaluate"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:725
+msgid "Number of Extra Quiz Retakes"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:726
+msgid ""
+"Student can reset and start the quiz all over again. Number of Extra retakes "
+"a student can take."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:732
+msgid "Post Quiz Message"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:733
+msgid "This message is shown to users when they submit the quiz"
+msgstr ""
+
+#: custom_meta_boxes.php:739
+msgid "Show results after submission"
+msgstr ""
+
+#: custom_meta_boxes.php:740
+msgid ""
+"This will show the quiz results right after submitting the quiz below quiz "
+"completion message."
+msgstr ""
+
+#: custom_meta_boxes.php:752
+msgid "Add Check Answer Switch"
+msgstr ""
+
+#: custom_meta_boxes.php:753
+msgid "Instantly check answer answer when question is marked"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:765
+msgid "Dynamic Quiz"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:766
+msgid "Dynamic quiz automatically selects questions."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:778
+msgid "Dynamic Quiz Question tags"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:779
+msgid ""
+"Select Question tags from where questions will be selected for the quiz."
+"(required if dynamic enabled)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:800
+msgid "Randomize Quiz Questions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:801
+msgid "Random Question sequence for every quiz"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:813
+msgid "Quiz Questions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:814
+msgid "Quiz questions for Static Quiz only"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:826 includes/class.export.php:370
+msgid "Author Name"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:827
+msgid "Enter the name of the testimonial author."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:832
+msgid "Designation"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:833
+msgid "Enter the testimonial author's designation."
+msgstr ""
+
+#: custom_meta_boxes.php:842
+msgid "Share with students in Course"
+msgstr ""
+
+#: custom_meta_boxes.php:843
+msgid "Student having access to this courses will get the news"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:868
+msgid "Associated Courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:869
+msgid "Associated Courses with this product. Enables access to the course."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:875
+msgid "Subscription "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:876
+msgid "Enable if Product is Subscription Type (Price per month)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:888
+msgid "Subscription Duration"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:889
+msgid "Duration for Subscription Products (in "
+msgstr ""
+
+#: custom_meta_boxes.php:894
+msgid "Product Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:905
+msgid "Event Sub-Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:906
+msgid "Event Sub-Title."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:913
+msgid "Select Course for which the event is valid"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:919
+msgid "Connect an Assignment"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:920
+msgid "Select an Assignment which you can connect with this Event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:926
+msgid "Event Icon"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:927
+msgid "Click on icon to  select an icon for the event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:932
+msgid "Event Color"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:933
+msgid "Select color for Event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:938
+msgid "Start Date"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:939 custom_meta_boxes.php:951
+msgid "Date from which Event Begins"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:944
+msgid "End Date"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:945 custom_meta_boxes.php:957
+msgid "Date on which Event ends."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:950
+msgid "Start Time"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:956
+msgid "End Time"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:962
+msgid "Show Location"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:963
+msgid "Show Location and Google map with the event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:976
+msgid "Location of event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:981
+msgid "Additional Information"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:982
+msgid "Point wise Additional Information regarding the event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:987
+msgid "More Information"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:988
+msgid "Supports HTML and shortcodes"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:993
+msgid "All Day"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:994
+msgid "An all Day event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1006
+msgid "Private Event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1007
+msgid "Only Invited participants can see the Event"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1024
+msgid "Associated Product for Event Access"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1025
+msgid "Purchase of this product grants Event access to the member."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1036
+msgid "From"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1037 custom_meta_boxes.php:1043
+msgid "Date on which Payment was done."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1042
+msgid "To"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1048
+msgid "Instructor and Commissions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1049
+msgid "Instructor commissions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1058
+msgid "Background Image/Pattern"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1059
+msgid "Add background image"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1064
+msgid "Enable Print & PDF"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1065
+msgid ""
+"Displays a Print and Download as PDF Button on top right corner of "
+"certificate"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1077
+msgid "Certificate Width"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1078
+msgid "Add certificate width"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1083
+msgid "Certificate Height"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1084
+msgid "Add certificate height"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1089 custom_meta_boxes.php:1250
+msgid "Custom Class"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1090
+msgid "Add Custom Class over Certificate container."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1095
+msgid "Custom CSS"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1096
+msgid "Add Custom CSS for Certificate."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1101
+msgid "NOTE:"
+msgstr ""
+
+#: custom_meta_boxes.php:1102
+msgid ""
+" USE FOLLOWING SHORTCODES TO DISPLAY RELEVANT DATA : <br />1. "
+"<strong>[certificate_student_name]</strong> : Displays Students Name<br />2. "
+"<strong>[certificate_course]</strong> : Displays Course Name<br />3. "
+"<strong>[certificate_student_marks]</strong> : Displays Students Marks in "
+"Course<br />4. <strong>[certificate_student_date]</strong>: Displays date on "
+"which Certificate was awarded to the Student<br />5. "
+"<strong>[certificate_student_email]</strong>: Displays registered email of "
+"the Student<br />6. <strong>[certificate_code]</strong>: Generates unique "
+"code for Student which can be validated from Certificate page.<br />7. "
+"<strong>[course_completion_date]</strong>: Displays course completion date "
+"from course activity.<br />8. <strong>[certificate_student_photo]</strong> : "
+"Displays Students pic<br />9. <strong>[certificate_course_duration]</"
+"strong> : Students time spent on course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1115
+msgid "Assignment Sub-Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1116
+msgid "Assignment Sub-Title."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1129
+msgid "Assignment Maximum Marks"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1130
+msgid "Set Maximum marks for the assignment"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1136
+#, php-format
+msgid "Assignment Maximum Time limit %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1137
+msgid "Set Maximum Time limit for Assignment ( in "
+msgstr ""
+
+#: custom_meta_boxes.php:1143
+msgid "Assignment Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1150
+msgid "Include in Course Evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1151
+msgid "Include assignment marks in Course Evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1163
+msgid "Include in Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1164
+msgid "Assignments marks will be shown/used in course evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1171
+msgid "Assignment Submissions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1172
+msgid "Select type of assignment submissions"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1182
+msgid "Attachment Type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1183
+msgid "Select valid attachment types "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1224
+msgid "Attachment Size (in MB)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1225
+msgid "Set Maximum Attachment size for upload ( set less than "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1236
+msgid "Width (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1237
+msgid "Set Maximum width of popup"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1243
+msgid "Height (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1244
+msgid "Set Maximum height of popup "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1251
+msgid "Add custom class to popup "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1257
+msgid "Add Custom CSS"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1258
+msgid "Custom CSS for Popup"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1319
+msgid "Connect this question to a course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1325
+msgid "Connected Unit"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1326
+msgid "Connect this question to a Unit"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1334
+msgid "Post Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1335
+msgid "Page Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1337
+msgid "Course Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1339
+msgid "Course Product"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1341
+msgid "Course Membership"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1344
+msgid "Unit Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1346
+msgid "Question Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1347
+msgid "Quiz Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1352
+msgid "Testimonial Author Information"
+msgstr ""
+
+#: custom_meta_boxes.php:1356
+msgid "News Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1359
+msgid "Payments Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1360
+msgid "Certificate Template Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1361
+msgid "Popup Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1367
+msgid "Product Course Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1372
+msgid "WPLMS Events Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1377
+msgid "WPLMS Assignments Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1384
+msgid "Page Builder"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1450 includes/course_menu.php:33
+#: includes/course_menu.php:208 includes/group_types.php:338
+#: includes/group_types.php:362 includes/loggedin_menu.php:389
+#: includes/member_types.php:355 includes/member_types.php:379
+#: includes/musettings.php:3661 includes/musettings.php:3719
+#: includes/musettings.php:3750 includes/musettings.php:3766
+#: includes/musettings.php:3849 includes/musettings.php:3882
+#: includes/musettings.php:3893 includes/musettings.php:3920
+#: includes/musettings.php:3929 includes/musettings.php:3953
+#: includes/musettings.php:3962 includes/musettings.php:3982
+#: includes/tips.php:818 includes/tips.php:1660 metaboxes/meta_box.php:1517
+#: metaboxes/meta_box.php:1546
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/api/class-api-wp.php:31 includes/api/class-api-wp.php:52
+#: includes/api/class-apps.php:44
+msgctxt ""
+msgid "Security check failed"
+msgstr ""
+
+#: includes/api/class-api-wp.php:45 includes/api/class-api-wp.php:68
+msgctxt ""
+msgid "Removed!"
+msgstr ""
+
+#: includes/api/class-apps.php:76
+msgctxt "send update button "
+msgid "Send New Update"
+msgstr ""
+
+#: includes/api/class-apps.php:79
+msgctxt ""
+msgid "Send update to all app users."
+msgstr ""
+
+#: includes/api/class-apps.php:81
+msgctxt "contane label"
+msgid "Your update content."
+msgstr ""
+
+#: includes/api/class-apps.php:82
+msgctxt "contane label"
+msgid "Html tags supported."
+msgstr ""
+
+#: includes/api/class-apps.php:83
+msgctxt "send update button "
+msgid "Send Update"
+msgstr ""
+
+#: includes/api/class-apps.php:88
+msgctxt ""
+msgid "Sent Updates"
+msgstr ""
+
+#: includes/api/class-apps.php:92 includes/api/class-apps.php:107
+#: includes/api/class-apps.php:798 includes/api/class-apps.php:823
+msgctxt "content"
+msgid "Content"
+msgstr ""
+
+#: includes/api/class-apps.php:92 includes/api/class-apps.php:107
+#: includes/api/class-apps.php:798 includes/api/class-apps.php:823
+msgctxt "app table label"
+msgid "Time"
+msgstr ""
+
+#: includes/api/class-apps.php:92 includes/api/class-apps.php:107
+#: includes/api/class-apps.php:800 includes/api/class-apps.php:825
+msgctxt "app table label"
+msgid "Actions"
+msgstr ""
+
+#: includes/api/class-apps.php:102 includes/api/class-apps.php:818
+msgctxt ""
+msgid "Remove"
+msgstr ""
+
+#: includes/api/class-apps.php:112 includes/api/class-apps.php:831
+msgctxt ""
+msgid "No updates found."
+msgstr ""
+
+#: includes/api/class-apps.php:154 includes/api/class-apps.php:743
+msgctxt ""
+msgid "Are sure you want to remove this update?"
+msgstr ""
+
+#: includes/api/class-apps.php:157 includes/api/class-apps.php:746
+msgctxt "removing..."
+msgid "Removing..."
+msgstr ""
+
+#: includes/api/class-apps.php:180
+msgctxt ""
+msgid "Please enter some content."
+msgstr ""
+
+#: includes/api/class-apps.php:184
+msgctxt "sending..."
+msgid "Sending..."
+msgstr ""
+
+#: includes/api/class-apps.php:208 includes/api/class-apps.php:218
+msgctxt "new app button label"
+msgid "Create new app"
+msgstr ""
+
+#: includes/api/class-apps.php:213
+msgctxt "form title"
+msgid "Edit app"
+msgstr ""
+
+#: includes/api/class-apps.php:213
+msgctxt "form title"
+msgid "Create a new app"
+msgstr ""
+
+#: includes/api/class-apps.php:215
+msgctxt "wp admin form"
+msgid "App Name"
+msgstr ""
+
+#: includes/api/class-apps.php:216
+msgctxt "wp admin form"
+msgid "App Description"
+msgstr ""
+
+#: includes/api/class-apps.php:217
+msgctxt "wp admin form"
+msgid "Redirect URI"
+msgstr ""
+
+#: includes/api/class-apps.php:218
+msgctxt "new app button label"
+msgid "Edit app"
+msgstr ""
+
+#: includes/api/class-apps.php:218
+msgid "Close"
+msgstr ""
+
+#: includes/api/class-apps.php:237
+msgctxt "validation message"
+msgid "Empty Name/Descript/Redirect URI"
+msgstr ""
+
+#: includes/api/class-apps.php:255
+msgctxt "success message"
+msgid "App Updated successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:258
+msgctxt "success message"
+msgid "App Created successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:269
+msgctxt "app message"
+msgid "No apps found ! Create a new App"
+msgstr ""
+
+#: includes/api/class-apps.php:276 includes/api/class-apps.php:303
+msgctxt "app table label"
+msgid "App Name"
+msgstr ""
+
+#: includes/api/class-apps.php:276 includes/api/class-apps.php:303
+msgctxt "app table label"
+msgid "App Description"
+msgstr ""
+
+#: includes/api/class-apps.php:276 includes/api/class-apps.php:303
+msgctxt "app table label"
+msgid "App ID"
+msgstr ""
+
+#: includes/api/class-apps.php:287
+msgid "Edit"
+msgstr ""
+
+#: includes/api/class-apps.php:291
+msgid "Are you sure you want to delete this app ?"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/api/class-apps.php:291 metaboxes/meta_box.php:848
+#: metaboxes/meta_box.php:911 metaboxes/meta_box.php:990
+#: metaboxes/meta_box.php:1053 metaboxes/meta_box.php:1132
+#: metaboxes/meta_box.php:1195
+msgid "Delete"
+msgstr ""
+
+#: includes/api/class-apps.php:294
+msgid "Show Secret"
+msgstr ""
+
+#: includes/api/class-apps.php:363
+msgctxt "success message"
+msgid "Connected clients deleted successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:413
+msgctxt "success message"
+msgid "Connected expired clients deleted successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:527
+msgctxt "no clients found"
+msgid "No connected clients !"
+msgstr ""
+
+#: includes/api/class-apps.php:538 includes/musettings.php:4086
+msgid "&laquo;"
+msgstr ""
+
+#: includes/api/class-apps.php:539 includes/musettings.php:4087
+msgid "&raquo;"
+msgstr ""
+
+#: includes/api/class-apps.php:548 includes/musettings.php:4028
+msgctxt ""
+msgid "Latest"
+msgstr ""
+
+#: includes/api/class-apps.php:549 includes/musettings.php:4029
+msgctxt ""
+msgid "Oldest"
+msgstr ""
+
+#: includes/api/class-apps.php:566 includes/musettings.php:4189
+msgid "Enter Student Usernames/Emails, separated by comma"
+msgstr ""
+
+#: includes/api/class-apps.php:582 includes/musettings.php:4205
+msgctxt "search text api connected client"
+msgid "Order by"
+msgstr ""
+
+#: includes/api/class-apps.php:591 includes/musettings.php:4214
+msgctxt "go button label"
+msgid "Go"
+msgstr ""
+
+#: includes/api/class-apps.php:599 includes/api/class-apps.php:635
+msgctxt "app table label"
+msgid "Client ID"
+msgstr ""
+
+#: includes/api/class-apps.php:599 includes/api/class-apps.php:635
+msgctxt "app table label"
+msgid "User"
+msgstr ""
+
+#: includes/api/class-apps.php:599 includes/api/class-apps.php:635
+msgctxt "app table label"
+msgid "Access Token"
+msgstr ""
+
+#: includes/api/class-apps.php:599 includes/api/class-apps.php:635
+msgctxt "app table label"
+msgid "Expires"
+msgstr ""
+
+#: includes/api/class-apps.php:600 includes/api/class-apps.php:635
+msgctxt "app table label"
+msgid "Device Info"
+msgstr ""
+
+#: includes/api/class-apps.php:602
+msgctxt ""
+msgid "Send private update"
+msgstr ""
+
+#: includes/api/class-apps.php:603
+msgctxt ""
+msgid "View sent updates"
+msgstr ""
+
+#: includes/api/class-apps.php:603 includes/api/class-apps.php:626
+#: includes/api/class-apps.php:635
+msgctxt "app table label"
+msgid "Remove"
+msgstr ""
+
+#: includes/api/class-apps.php:617
+msgctxt ""
+msgid "Send private update to this user"
+msgstr ""
+
+#: includes/api/class-apps.php:618
+msgctxt ""
+msgid "View sent notices"
+msgstr ""
+
+#: includes/api/class-apps.php:623
+msgid "Send"
+msgstr ""
+
+#: includes/api/class-apps.php:644
+msgid "Actions"
+msgstr ""
+
+#: includes/api/class-apps.php:646
+msgid "Clear all"
+msgstr ""
+
+#: includes/api/class-apps.php:651
+msgid "Clear all expired clients"
+msgstr ""
+
+#: includes/api/class-apps.php:658
+msgctxt "app notice"
+msgid "Do you want to clear all clients ?"
+msgstr ""
+
+#: includes/api/class-apps.php:665
+msgctxt "app notice"
+msgid "Do you want to clear all expired clients ?"
+msgstr ""
+
+#: includes/api/class-apps.php:707 includes/musettings.php:4132
+msgctxt ""
+msgid "Please type atleast four characters"
+msgstr ""
+
+#: includes/api/class-apps.php:795
+#, php-format
+msgctxt ""
+msgid "All Updates sent to %s"
+msgstr ""
+
+#: includes/api/class-apps.php:799 includes/api/class-apps.php:824
+msgctxt "Delivered table label"
+msgid "Delivered"
+msgstr ""
+
+#: includes/api/class-apps.php:806
+msgctxt ""
+msgid "Not delivered yet"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:11 includes/statistics.php:895
+msgid "Select Module"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:21
+msgid "Select a WPLMS Module Type"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:24
+msgid "Set Taxonomy"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:26 includes/class.export.php:33
+#: includes/class.export.php:40 metaboxes/library/vibe-editor.php:1158
+msgid "All"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:28 includes/class.export.php:35
+msgid "Optional"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:31
+msgid "Set Taxonomy Term"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:38
+msgid "Specific Module/s Ids"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:42
+msgid "Optional, Enter comma saperated modules for more than one module"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:45
+msgid "Export content"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:48
+msgid "Export content of the module"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:51
+msgid "Export Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:54
+msgid "Export module settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:57
+msgid "Export Taxonomies"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:60
+msgid "Optional taxonomies and relationships"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:63
+msgid "Export Comments"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:66
+msgid "Exports reviews for courses, Answers for Questions and Assignments"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:69
+msgid "Export connected modules"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:72
+msgid ""
+"Export connected modules, like units,quizzes,assignments with courses, "
+"questions with quizzes etc."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:75
+msgid "Export Users"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:78
+msgid "Export user profiles"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:81
+msgid "Export Connected User data"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:84
+msgid "Export user statuses for module/sub-modules"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:87
+msgid "Start Point"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:91
+msgid "Starting Key count for module, recommended for larger exports"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:94
+msgid "Number of Modules"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:98
+msgid "Maximum number of modules to import"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:136
+msgid "Generate Export File"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:138
+msgid "Download Export File"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:184 includes/class.export.php:221
+#: includes/class.export.php:365
+msgid "Type"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:185 includes/class.export.php:222
+#: includes/tips.php:2426
+msgid "Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:186 includes/class.export.php:223
+#: includes/class.export.php:367
+msgid "Date"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:187 includes/class.export.php:224
+#: includes/class.export.php:366 metaboxes/library/vibe-editor.php:2425
+#: metaboxes/library/vibe-editor.php:2428
+#: metaboxes/library/vibe-editor.php:2469
+#: metaboxes/library/vibe-editor.php:2571
+msgid "Content"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:188 includes/class.export.php:225
+#: includes/class.export.php:369
+msgid "Author ID"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:189 includes/class.export.php:226
+msgid "Excerpt"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:190 includes/class.export.php:227
+msgid "Status"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:191 includes/class.export.php:228
+msgid "Slug"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:192 includes/class.export.php:229
+msgid "Review/Note/Answer Count"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:260
+msgid "Terms"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:272
+msgid "User Details"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:364
+msgid "Connected Post"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:368
+msgid "Parent ID"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:371
+msgid "Author Email"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:474
+msgid "User Timestamp"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.export.php:477
+msgid "User status"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:7
+msgid "IMPORT SETTINGS"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:9
+#, php-format
+msgid "Select File to upload [ Maximum upload size %s MB(s) ]"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:11
+msgid "Upload File"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:26
+msgid "Invalid parameters."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:34
+msgid "No file sent."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:37 includes/class.import.php:44
+msgid "Exceeded filesize limit."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:39
+msgid "Unknown errors."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:57
+msgid "Invalid file format."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:61
+msgid "Import Complete"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:63
+msgid "Import Failed"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/class.import.php:241
+msgid "Unable to Create user"
+msgstr ""
+
+#: includes/course_menu.php:37
+msgctxt ""
+msgid "Reset Done"
+msgstr ""
+
+#: includes/course_menu.php:67
+msgid "Home"
+msgstr ""
+
+#: includes/course_menu.php:74 includes/permalinks.php:185
+msgid "Members"
+msgstr ""
+
+#: includes/course_menu.php:76
+msgid "members"
+msgstr ""
+
+#: includes/course_menu.php:84 includes/permalinks.php:179
+msgid "Activity"
+msgstr ""
+
+#: includes/course_menu.php:86
+msgid "activity"
+msgstr ""
+
+#: includes/course_menu.php:96 includes/permalinks.php:173
+msgid "Curriculum"
+msgstr ""
+
+#: includes/course_menu.php:98
+msgid "curriculum"
+msgstr ""
+
+#: includes/course_menu.php:108
+msgid "Group"
+msgstr ""
+
+#: includes/course_menu.php:118
+msgid "Forum"
+msgstr ""
+
+#: includes/course_menu.php:150
+msgctxt "configure Course menu in LMS - Settings"
+msgid "Course Menu"
+msgstr ""
+
+#: includes/course_menu.php:214 includes/group_types.php:356
+#: includes/member_types.php:373
+msgctxt ""
+msgid "Saved"
+msgstr ""
+
+#: includes/course_menu.php:240
+msgctxt "saving text in save section button"
+msgid "Saving..."
+msgstr ""
+
+#: includes/course_menu.php:241
+msgctxt ""
+msgid "Are you sure you want to reset settings?"
+msgstr ""
+
+#: includes/course_menu.php:242
+msgctxt ""
+msgid "Resetting..."
+msgstr ""
+
+#: includes/course_menu.php:270
+msgctxt ""
+msgid "Privacy"
+msgstr ""
+
+#: includes/course_menu.php:283
+msgctxt ""
+msgid "Visibility on Courses"
+msgstr ""
+
+#: includes/course_menu.php:284
+msgid "Select Courses"
+msgstr ""
+
+#: includes/course_menu.php:294
+msgctxt "course menus"
+msgid "OR"
+msgstr ""
+
+#: includes/course_menu.php:295
+msgctxt "course menus"
+msgid "All courses"
+msgstr ""
+
+#: includes/course_menu.php:301
+msgctxt ""
+msgid "Edit privacy"
+msgstr ""
+
+#: includes/course_menu.php:308
+msgctxt "course menu"
+msgid "Save setings"
+msgstr ""
+
+#: includes/course_menu.php:309
+msgctxt "course menu"
+msgid "Reset setings"
+msgstr ""
+
+#: includes/course_menu.php:522
+msgctxt "privacy option for course menu"
+msgid "Everyone"
+msgstr ""
+
+#: includes/course_menu.php:523
+msgctxt "privacy option for course menu"
+msgid "Students"
+msgstr ""
+
+#: includes/course_menu.php:524
+msgctxt "privacy option for course menu"
+msgid "Course Students"
+msgstr ""
+
+#: includes/course_menu.php:525
+msgctxt "privacy option for course menu"
+msgid "Active Course Students"
+msgstr ""
+
+#: includes/course_menu.php:526
+msgctxt "privacy option for course menu"
+msgid "Instructors"
+msgstr ""
+
+#: includes/course_menu.php:527
+msgctxt "privacy option for course menu"
+msgid "Administrators"
+msgstr ""
+
+#: includes/course_settings.php:114
+msgctxt ""
+msgid "Course Settings"
+msgstr ""
+
+#: includes/course_settings.php:127
+msgid "Course Details"
+msgstr ""
+
+#: includes/course_settings.php:131
+msgid "Manage Course details"
+msgstr ""
+
+#: includes/course_settings.php:149
+msgctxt "save settings message"
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/course_settings.php:194
+msgctxt "Adds a new course detail in the course details widget"
+msgid "Add New Detail"
+msgstr ""
+
+#: includes/course_settings.php:261
+msgctxt "Adds a new course detail in the course details widget"
+msgid "Custom Label"
+msgstr ""
+
+#: includes/course_settings.php:262
+msgctxt "Adds a new course detail in the course details widget"
+msgid "Custom Text"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/course_settings.php:302 includes/musettings.php:1566
+msgid "Save Settings"
+msgstr ""
+
+#: includes/course_settings.php:309
+msgctxt "label in details array"
+msgid "Price"
+msgstr ""
+
+#: includes/course_settings.php:313
+msgctxt "label in details array"
+msgid "Pre-requisite Courses"
+msgstr ""
+
+#: includes/course_settings.php:317
+msgctxt "label in details array"
+msgid "Course Starts In"
+msgstr ""
+
+#: includes/course_settings.php:321
+msgctxt "label in details array"
+msgid "Course Duration"
+msgstr ""
+
+#: includes/course_settings.php:325
+msgctxt "label in details array"
+msgid "* Course Location (if enabled)"
+msgstr ""
+
+#: includes/course_settings.php:329
+msgctxt "label in details array"
+msgid "* Course Level (if enabled)"
+msgstr ""
+
+#: includes/course_settings.php:333
+msgctxt "label in details array"
+msgid "Course Seats (if set)"
+msgstr ""
+
+#: includes/course_settings.php:337
+msgctxt "label in details array"
+msgid "Course Badge (if set)"
+msgstr ""
+
+#: includes/course_settings.php:341
+msgctxt "label in details array"
+msgid "Course Certificate (if set)"
+msgstr ""
+
+#: includes/course_settings.php:345
+msgctxt "label in details array"
+msgid "Total Unit Duration"
+msgstr ""
+
+#: includes/course_settings.php:349
+msgctxt "label in details array"
+msgid "Number of Units"
+msgstr ""
+
+#: includes/course_settings.php:353
+msgctxt "label in details array"
+msgid "Number of Sections"
+msgstr ""
+
+#: includes/course_settings.php:357
+msgctxt "label in details array"
+msgid "Number of Quizes"
+msgstr ""
+
+#: includes/course_settings.php:361
+msgctxt "label in details array"
+msgid "Number of Students"
+msgstr ""
+
+#: includes/course_settings.php:365
+msgctxt "label in details array"
+msgid "Average Rating"
+msgstr ""
+
+#: includes/course_settings.php:373
+msgctxt "label in details array"
+msgid "Number Of Assignments"
+msgstr ""
+
+#: includes/course_settings.php:380
+msgctxt "label in details array"
+msgid "Gift this course"
+msgstr ""
+
+#: includes/course_settings.php:387
+msgctxt "label in details array"
+msgid "Wishlist"
+msgstr ""
+
+#: includes/course_settings.php:401
+msgctxt "privacy option for course details"
+msgid "All Users (logged in/logged out)"
+msgstr ""
+
+#: includes/course_settings.php:402
+msgctxt "privacy option for course details"
+msgid "Logged in Users (Students/Instructors)"
+msgstr ""
+
+#: includes/course_settings.php:403
+msgctxt "privacy option for course details"
+msgid " All Course users"
+msgstr ""
+
+#: includes/course_settings.php:405
+msgctxt "privacy option for course details"
+msgid " All Course pursuing users (excludes finished/not started)"
+msgstr ""
+
+#: includes/course_settings.php:407
+msgctxt "privacy option for course details"
+msgid " All instructors + Admins"
+msgstr ""
+
+#: includes/course_settings.php:441
+msgctxt "Course Detail Sidebar Number of Units"
+msgid "Number of Units"
+msgstr ""
+
+#: includes/course_settings.php:443
+msgctxt "Course Detail Sidebar Number of Units Completed"
+msgid "Units Completed"
+msgstr ""
+
+#: includes/course_settings.php:470
+msgctxt "Course Detail Sidebar Number of Quizzes"
+msgid "Number of Quizzes"
+msgstr ""
+
+#: includes/course_settings.php:472
+msgctxt "Course Detail Sidebar Number of Quizzes Completed"
+msgid "Quizzes Completed"
+msgstr ""
+
+#: includes/course_settings.php:500
+msgctxt "Course Detail Sidebar Unit Duration"
+msgid "Total Unit + Quiz duration in this course"
+msgstr ""
+
+#: includes/course_settings.php:516
+msgctxt "Course Detail Sidebar Number of Sections"
+msgid "Number of Sections"
+msgstr ""
+
+#: includes/course_settings.php:523
+msgctxt "Course Detail Sidebar Number of students"
+msgid "Number of students"
+msgstr ""
+
+#: includes/course_settings.php:534
+msgctxt "Course Detail Sidebar Average Rating"
+msgid "Average Rating"
+msgstr ""
+
+#: includes/course_settings.php:548
+msgctxt "Course Detail Sidebar Average Rating"
+msgid "Number Of Assignments"
+msgstr ""
+
+#: includes/course_settings.php:564
+msgctxt "Course Detail Sidebar Starts In"
+msgid "Starts In"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:19
+msgid "Unknown error."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:26
+msgid "Please save the changes again."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:27
+msgid "Some Uknown issue appeared, please contact us."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:28
+msgid "Please save the Page Builder changes !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:29
+msgid "Requested Slider was not found, Please check slider post id !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:30
+msgid "No Posts Id's found in given Custom Post Type."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:31
+msgid "Author Information missing."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:32
+msgid "You do not have permission to do that."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:33
+msgid "Unable to get tweets from Twitter !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:34
+msgid "No public tweets found on Twitter !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:35
+msgid "Term : Taxonomy Mismatch: Selected Term does not exist in Taxonomy !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:36
+msgid ""
+"Post Type : Taxonomy Mismatch: Selected Taxonomy does not exist in Post "
+"Type !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:37
+msgid "Featured Component does not Exist !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:38
+msgid "Incorrect or Incompatible Audio Format !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:39
+msgid "Incorrect or Incompatible Video Embed Code !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:40
+msgid "Modal ID Incorrect, please recheck !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:41
+msgid "Testimonial ID Incorrect, please recheck !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:42
+msgid "Post ID Incorrect, please recheck !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:55 metaboxes/meta_box.php:290
+msgid "Seconds"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:56 metaboxes/meta_box.php:291
+msgid "Minutes"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:57 metaboxes/meta_box.php:292
+msgid "Hours"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:58 metaboxes/meta_box.php:293
+msgid "Days"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:59 metaboxes/meta_box.php:294
+msgid "Weeks"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:60 metaboxes/meta_box.php:295
+msgid "Months"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:61 metaboxes/meta_box.php:296
+msgid "Years"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:8
+msgid "Read more"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:128
+msgid "REVIEWS"
+msgstr ""
+
+#: includes/featured.php:172 includes/featured.php:192
+#, php-format
+msgid "Course Author %s"
+msgstr ""
+
+#: includes/featured.php:245 includes/featured.php:258
+msgid "Course Author"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:394 includes/featured.php:706
+msgid " Comments"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:496
+msgid "Event "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:501
+msgid "Start Date "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:504
+msgid "End Date "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:508
+msgid "Start Time "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:511
+msgid "End Time "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:514
+msgid "All Day "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:517
+msgid "Frequency "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:517
+msgid "Every "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:517
+msgid "for "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:520
+msgid "Venue "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:523
+msgid "View full details"
+msgstr ""
+
+#: includes/group_types.php:27
+msgctxt "configure Course menu in LMS - Settings"
+msgid "Group Types"
+msgstr ""
+
+#: includes/group_types.php:95
+msgctxt "group types"
+msgid "Add another"
+msgstr ""
+
+#: includes/group_types.php:102 includes/member_types.php:119
+msgctxt ""
+msgid "Slug"
+msgstr ""
+
+#: includes/group_types.php:103 includes/member_types.php:120
+msgctxt ""
+msgid "Singular Name"
+msgstr ""
+
+#: includes/group_types.php:103
+msgctxt ""
+msgid "group type singular name"
+msgstr ""
+
+#: includes/group_types.php:105 includes/member_types.php:122
+msgctxt ""
+msgid "Plural Name"
+msgstr ""
+
+#: includes/group_types.php:105
+msgctxt ""
+msgid "group type plural name"
+msgstr ""
+
+#: includes/group_types.php:183 includes/group_types.php:184
+#: includes/group_types.php:205 includes/group_types.php:206
+msgctxt "group types"
+msgid "N.A"
+msgstr ""
+
+#: includes/group_types.php:196
+msgctxt "group types"
+msgid "Save setings"
+msgstr ""
+
+#: includes/group_types.php:197
+msgctxt "group types"
+msgid "Reset setings"
+msgstr ""
+
+#: includes/group_types.php:220
+msgctxt "group types"
+msgid "Please remove special characters."
+msgstr ""
+
+#: includes/group_types.php:296
+msgctxt "group types"
+msgid "Special Characters are not allowed"
+msgstr ""
+
+#: includes/group_types.php:368 includes/member_types.php:385
+msgctxt ""
+msgid "Reset"
+msgstr ""
+
+#: includes/loggedin_menu.php:124
+msgctxt "configure loggedin menu in LMS - Settings"
+msgid "Logged in Menu"
+msgstr ""
+
+#: includes/loggedin_menu.php:139
+#, php-format
+msgid "Profile Menu Dropdown %s tutorial %s"
+msgstr ""
+
+#: includes/loggedin_menu.php:144
+msgid "Manage Profile Menu Dropdown"
+msgstr ""
+
+#: includes/loggedin_menu.php:173
+msgctxt "abutton label"
+msgid "Add New Item"
+msgstr ""
+
+#: includes/loggedin_menu.php:195
+msgid "Select component"
+msgstr ""
+
+#: includes/loggedin_menu.php:203
+msgid "Custom link"
+msgstr ""
+
+#: includes/loggedin_menu.php:207
+msgid "Component"
+msgstr ""
+
+#: includes/loggedin_menu.php:207
+msgctxt "special chars"
+msgid "Add reference name (without spaces or special characters)"
+msgstr ""
+
+#: includes/loggedin_menu.php:209
+msgid "Label"
+msgstr ""
+
+#: includes/loggedin_menu.php:211
+msgid "Icon"
+msgstr ""
+
+#: includes/loggedin_menu.php:213
+msgid "Link"
+msgstr ""
+
+#: includes/loggedin_menu.php:215
+msgid "Privacy"
+msgstr ""
+
+#: includes/loggedin_menu.php:233
+msgctxt "save settings label"
+msgid "Save Settings"
+msgstr ""
+
+#: includes/loggedin_menu.php:298
+msgctxt "privacy option for profile drop down menu"
+msgid "All Users"
+msgstr ""
+
+#: includes/loggedin_menu.php:299
+msgctxt "privacy option for profile drop down menu"
+msgid "Students"
+msgstr ""
+
+#: includes/loggedin_menu.php:300
+msgctxt "privacy option for profile drop down menu"
+msgid "Instructors"
+msgstr ""
+
+#: includes/loggedin_menu.php:301
+msgctxt "privacy option for profile drop down menu"
+msgid "Administrators"
+msgstr ""
+
+#: includes/loggedin_menu.php:324
+msgid "Dashboard"
+msgstr ""
+
+#: includes/loggedin_menu.php:334
+msgid "Stats"
+msgstr ""
+
+#: includes/loggedin_menu.php:340
+msgid "Inbox{{inbox_count}}"
+msgstr ""
+
+#: includes/loggedin_menu.php:347
+msgid "Notifications{{notification_count}}"
+msgstr ""
+
+#: includes/loggedin_menu.php:354
+msgid "Groups"
+msgstr ""
+
+#: includes/loggedin_menu.php:418
+msgctxt "saved settings message"
+msgid "Settings saved"
+msgstr ""
+
+#: includes/member_types.php:41
+msgid "Assign member type"
+msgstr ""
+
+#: includes/member_types.php:41
+msgctxt "member types"
+msgid "None"
+msgstr ""
+
+#: includes/member_types.php:41
+msgctxt "member types"
+msgid "Enable User to select one"
+msgstr ""
+
+#: includes/member_types.php:52
+msgctxt "configure Course menu in LMS - Settings"
+msgid "Member Types"
+msgstr ""
+
+#: includes/member_types.php:112
+msgctxt "member types"
+msgid "Add another"
+msgstr ""
+
+#: includes/member_types.php:120
+msgctxt ""
+msgid "Member type singular name"
+msgstr ""
+
+#: includes/member_types.php:122
+msgctxt ""
+msgid "Member type plural name"
+msgstr ""
+
+#: includes/member_types.php:200 includes/member_types.php:201
+#: includes/member_types.php:222 includes/member_types.php:223
+msgctxt "member types"
+msgid "N.A"
+msgstr ""
+
+#: includes/member_types.php:213
+msgctxt "member types"
+msgid "Save setings"
+msgstr ""
+
+#: includes/member_types.php:214
+msgctxt "member types"
+msgid "Reset setings"
+msgstr ""
+
+#: includes/member_types.php:237
+msgctxt "member types"
+msgid "Please remove special characters."
+msgstr ""
+
+#: includes/member_types.php:313
+msgctxt "member types"
+msgid "Special Characters are not allowed"
+msgstr ""
+
+#: includes/musettings.php:95
+msgid "API"
+msgstr ""
+
+#: includes/musettings.php:96
+msgid "Commissions"
+msgstr ""
+
+#: includes/musettings.php:97
+msgid "Functions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:98
+msgid "Import/Export"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:99
+msgid "Touch Points"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:100
+msgid "Emails"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:102
+msgid "AddOns"
+msgstr ""
+
+#: includes/musettings.php:163 includes/musettings.php:202
+msgid "WPLMS API Settings"
+msgstr ""
+
+#: includes/musettings.php:164
+msgid "WPLMS API settings and configuration"
+msgstr ""
+
+#: includes/musettings.php:166 includes/musettings.php:366
+msgid "General Settings"
+msgstr ""
+
+#: includes/musettings.php:167
+msgid "Keys/Apps"
+msgstr ""
+
+#: includes/musettings.php:168
+msgid "Connected Clients"
+msgstr ""
+
+#: includes/musettings.php:169
+msgid "Notifications/Updates"
+msgstr ""
+
+#: includes/musettings.php:206
+msgid "Enable API"
+msgstr ""
+
+#: includes/musettings.php:209
+msgid ""
+"WPLMS API, enables Mobile apps, WebApps and unlimited possibilities in WPLMS."
+msgstr ""
+
+#: includes/musettings.php:212
+msgid "API Version"
+msgstr ""
+
+#: includes/musettings.php:215
+msgid "Version controls cached data in Apps."
+msgstr ""
+
+#: includes/musettings.php:219
+msgid "API Security State"
+msgstr ""
+
+#: includes/musettings.php:222
+msgid "API security, used in authentications, the bigger the better."
+msgstr ""
+
+#: includes/musettings.php:226
+msgid "Enable oAuth2 Server"
+msgstr ""
+
+#: includes/musettings.php:229
+msgid ""
+"WPLMS oAuth2 server for user registration and logins from Apps. Only "
+"required if your app supports login and registration."
+msgstr ""
+
+#: includes/musettings.php:232
+msgid "Enable Registrations via API"
+msgstr ""
+
+#: includes/musettings.php:235
+msgid "Registrations via Mobile apps and WebApps."
+msgstr ""
+
+#: includes/musettings.php:238
+msgid "Enable Quiz Lock on APP and Site"
+msgstr ""
+
+#: includes/musettings.php:241
+msgid "Avoid cheating in quizzes by enabling this option."
+msgstr ""
+
+#: includes/musettings.php:244
+msgid "App Version"
+msgstr ""
+
+#: includes/musettings.php:252
+msgid "WPLMS App version, required for App sold on codecanyon."
+msgstr ""
+
+#: includes/musettings.php:255
+msgid "Enable Wallet"
+msgstr ""
+
+#: includes/musettings.php:258
+msgid "Enable Wallet in App."
+msgstr ""
+
+#: includes/musettings.php:272
+msgid "WPLMS Apps"
+msgstr ""
+
+#: includes/musettings.php:273
+msgid "Connected clients with WPLMS oAuth server"
+msgstr ""
+
+#: includes/musettings.php:280
+msgid "Updates"
+msgstr ""
+
+#: includes/musettings.php:281
+msgid "Send updates to all of your app users"
+msgstr ""
+
+#: includes/musettings.php:288
+msgid "Clients"
+msgstr ""
+
+#: includes/musettings.php:289
+msgid "Clients with WPLMS oAuth server"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:345
+msgid "Settings Saved"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:347
+msgid "Unable to Save settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:362
+msgid "LMS General Settings"
+msgstr ""
+
+#: includes/musettings.php:363 includes/musettings.php:1237
+msgid "Import LMS functions can be managed from here."
+msgstr ""
+
+#: includes/musettings.php:367 includes/musettings.php:905
+msgid "Registration Forms"
+msgstr ""
+
+#: includes/musettings.php:389
+msgid "User Login & Registration Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:393
+msgid "Student Login redirect"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:398 includes/musettings.php:412
+#: includes/tips.php:1148
+msgid "Disable"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:399 includes/musettings.php:413
+msgid "Home page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:400 includes/musettings.php:414
+msgid "Profile page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:401 includes/musettings.php:415
+msgid "My Courses page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:402 includes/musettings.php:417
+msgid "Dashboard page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:403 includes/musettings.php:418
+msgid "Same page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:405 includes/musettings.php:420
+msgid "Default is home page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:408
+msgid "Instructor Login redirect"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:416
+msgid "Instructing Courses page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:423
+msgid "Enable One session per user"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:426
+msgid "A User can login from one unique user id (excludes administrators)"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:429
+msgid "Hide Administrators in Instructors"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:432
+msgid "Hide Administrator in all instructors page & elsewhere"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:435
+msgid "Enable message to Instructor in Course Page"
+msgstr ""
+
+#: includes/musettings.php:438
+#, php-format
+msgid ""
+"Enables a Message icon to send message to Instructor, see %s tutorial %s"
+msgstr ""
+
+#: includes/musettings.php:441
+msgid "Enable Create course button in instructor profile menu"
+msgstr ""
+
+#: includes/musettings.php:443
+msgid "Adds a create course link in intructor profile menu"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:447
+msgid "Show WooCommerce/Pmpro account in profile"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:449
+msgid "Display WooCommerce account in profile"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:453
+msgid "Set a terms and conditions page for BuddyPress registration"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:457
+msgid "Set a terms and conditions page in BuddPress registration."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:460
+msgid "Enable Student menus"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:462
+msgid "Adds New menu locations for Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:466
+msgid "Enable Instructor menus"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:468
+msgid "Adds New menu locations for Instructors"
+msgstr ""
+
+#: includes/musettings.php:472
+msgid "Assign Free courses to students on account activation"
+msgstr ""
+
+#: includes/musettings.php:474
+msgid ""
+"Enables auto-subscription to all the \"free\" courses in site to students "
+"when they signup/register and activate their account."
+msgstr ""
+
+#: includes/musettings.php:478
+msgid "Course Home Settings"
+msgstr ""
+
+#: includes/musettings.php:482
+msgid "Course Members Visibility"
+msgstr ""
+
+#: includes/musettings.php:487 includes/musettings.php:500
+#: includes/musettings.php:513 includes/musettings.php:526
+#: includes/musettings.php:539
+msgid "Everyone"
+msgstr ""
+
+#: includes/musettings.php:488 includes/musettings.php:501
+#: includes/musettings.php:514 includes/musettings.php:527
+#: includes/musettings.php:540
+msgid "Logged in Users"
+msgstr ""
+
+#: includes/musettings.php:489 includes/musettings.php:502
+#: includes/musettings.php:515 includes/musettings.php:528
+#: includes/musettings.php:541
+msgid "Course Users"
+msgstr ""
+
+#: includes/musettings.php:490 includes/musettings.php:503
+#: includes/musettings.php:516 includes/musettings.php:529
+#: includes/musettings.php:542
+msgid "Instructors and Admins"
+msgstr ""
+
+#: includes/musettings.php:492
+msgid "Set Course/Members Visibility"
+msgstr ""
+
+#: includes/musettings.php:495
+msgid "Course Curriculum Visibility"
+msgstr ""
+
+#: includes/musettings.php:505
+msgid "Set Course/Curriculum Visibility"
+msgstr ""
+
+#: includes/musettings.php:508
+msgid "Course Events Visibility"
+msgstr ""
+
+#: includes/musettings.php:518
+msgid "Set Course/Events Visibility"
+msgstr ""
+
+#: includes/musettings.php:521
+msgid "Course Activity Visibility"
+msgstr ""
+
+#: includes/musettings.php:531
+msgid "Set Course/Activity Visibility"
+msgstr ""
+
+#: includes/musettings.php:534
+msgid "Course Drive Visibility"
+msgstr ""
+
+#: includes/musettings.php:544
+msgid "Set Course/Drive Visibility"
+msgstr ""
+
+#: includes/musettings.php:547
+msgid "Hide Instructor in whole Site (single instructors)"
+msgstr ""
+
+#: includes/musettings.php:550
+msgid "Disables display of instructor in the site. Suitable for 1 instructors"
+msgstr ""
+
+#: includes/musettings.php:553
+msgid "Change Pre-Required Course Condition from submitted to Evaluated"
+msgstr ""
+
+#: includes/musettings.php:556
+msgid ""
+"After enabling this students will have to wait for course evaluation by the "
+"instructor to move on to courses which have pre-requisite course under "
+"evaluation. Default : Students get access on course finish."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:559
+msgid "Hide Members section in Single Course page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:562
+msgid " Hides member section in course pages"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:565
+msgid "Show curriculum below Course description"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:568
+msgid "Show curriculum below course description"
+msgstr ""
+
+#: includes/musettings.php:571
+msgid "Disable Course Certificate image mode"
+msgstr ""
+
+#: includes/musettings.php:573
+#, php-format
+msgid "Disable course certificate in image mode. %s tutorial %s"
+msgstr ""
+
+#: includes/musettings.php:577
+msgid "Free units should only be accessible to logged in members"
+msgstr ""
+
+#: includes/musettings.php:580
+msgid ""
+"Disable free unit access for the world, only logged in users can view free "
+"units."
+msgstr ""
+
+#: includes/musettings.php:583
+msgid "Remove Finished Courses from directory"
+msgstr ""
+
+#: includes/musettings.php:585
+msgid "Auto remove finished courses from course directory for user"
+msgstr ""
+
+#: includes/musettings.php:589
+msgid "Fix Course Menu on Scroll"
+msgstr ""
+
+#: includes/musettings.php:592
+msgid "Fix the course menu on scroll only in c2, c3 and c5 layout"
+msgstr ""
+
+#: includes/musettings.php:595
+msgid "Show Course Badge & Certificate in PopUp on course details"
+msgstr ""
+
+#: includes/musettings.php:598
+msgid ""
+"Display the course badge and certificate in popup in the course details "
+"section."
+msgstr ""
+
+#: includes/musettings.php:601
+msgid ""
+"Open Login popup for non logged in users when they click on take this course "
+"button(For all courses)"
+msgstr ""
+
+#: includes/musettings.php:604
+msgid ""
+"Open Login popup for non logged in users when they click on take this course "
+"button for paid courses also"
+msgstr ""
+
+#: includes/musettings.php:607
+msgid ""
+"Open Login popup for non logged in users when they click on take this course "
+"button(For Free courses only)"
+msgstr ""
+
+#: includes/musettings.php:610
+msgid ""
+"Open Login popup for non logged in users when they click on take this course "
+"button for free courses"
+msgstr ""
+
+#: includes/musettings.php:613
+msgid "Enable Course Duration from Start Course"
+msgstr ""
+
+#: includes/musettings.php:616
+msgid ""
+"The course duration will be calculated from the time the user clicks on "
+"start course button."
+msgstr ""
+
+#: includes/musettings.php:619
+msgid "Course Status Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:623
+msgid "Course Timeline Accordion style"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:626
+msgid "Show curriculum accordion style"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:629
+msgid "Disable ajax in Course unit load"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:632
+msgid "Ajax disabled in course unit loads"
+msgstr ""
+
+#: includes/musettings.php:636
+msgid "Show unit slug and title in Course Status page"
+msgstr ""
+
+#: includes/musettings.php:639
+msgid ""
+"Unit slug and title is displayed in the title of the course status page when "
+"user is viewing a unit"
+msgstr ""
+
+#: includes/musettings.php:642
+msgid "Auto-mark unit complete when user proceeds to next unit"
+msgstr ""
+
+#: includes/musettings.php:644
+msgid ""
+"Hides \"Mark Unit Complete\" button and auto marks the unit as completed "
+"when user proceeds to next unit."
+msgstr ""
+
+#: includes/musettings.php:648
+msgid "Auto trigger finish course button"
+msgstr ""
+
+#: includes/musettings.php:651
+msgid ""
+"Hides Finish course button and is automatically triggered on completion of "
+"all the units and quizzes."
+msgstr ""
+
+#: includes/musettings.php:654
+msgid "Skip Course status page"
+msgstr ""
+
+#: includes/musettings.php:656
+msgid ""
+"Skip the introductory page, course status description on course start or "
+"continue"
+msgstr ""
+
+#: includes/musettings.php:660
+msgid "Course Pricing Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:664
+msgid "Coming soon courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:666
+msgid "Enable coming soon option for courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:670
+msgid "Enable Course Codes"
+msgstr ""
+
+#: includes/musettings.php:672
+msgid ""
+"Student can purchase/access courses by using custom defined codes for "
+"courses in course pricing section. Requires BuddyPress Activity."
+msgstr ""
+
+#: includes/musettings.php:676
+msgid "Enable Course external link"
+msgstr ""
+
+#: includes/musettings.php:678
+msgid ""
+"Connect \"Take this Course\" button with an external link, defined in Course "
+"Pricing section."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:682
+msgid "Disable Auto allocation of Free courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:684
+msgid "Disables auto allocation of free courses"
+msgstr ""
+
+#: includes/musettings.php:688
+msgid "Unit settings"
+msgstr ""
+
+#: includes/musettings.php:693
+msgid "Show Unit Description in Course curriculum"
+msgstr ""
+
+#: includes/musettings.php:696
+msgid "Unit descriptions appear below Unit titles in Course curriculum"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:700
+msgid "Show User progress in Course Admin"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:703
+msgid ""
+"Small progress bar is displayed for every user below her name in course -> "
+"admin section"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:706
+msgid "Enable Unit/Quiz Start Date time"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:709
+msgid "Units and Quizzes start at a particular date and time"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:712
+msgid "Unit Comments/Notes"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:714
+msgid ""
+"Enable Unit Comments only where Unit comments are enabled in post settings."
+msgstr ""
+
+#: includes/musettings.php:719
+msgid "Quiz/Assignment Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:723
+msgid "Enable In-Course Quiz"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:726
+msgid "Quizzes open inside course like units"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:729
+msgid "In-Course Quiz questions per page"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:732
+msgid "set number of questions appearing per page in in-course quizzes"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:735
+msgid "Enable passing score for Quiz"
+msgstr ""
+
+#: includes/musettings.php:737
+msgid ""
+"Set a passing score for every quiz, Student progress to next unit/quiz is "
+"restricted if user fails in quiz"
+msgstr ""
+
+#: includes/musettings.php:741
+msgid "Enable partialy marking for Quiz"
+msgstr ""
+
+#: includes/musettings.php:743
+msgid "Enables the ability to give partial marks in quizzes."
+msgstr ""
+
+#: includes/musettings.php:747
+msgid "Force Quiz availability to Course students"
+msgstr ""
+
+#: includes/musettings.php:749
+msgid ""
+"Only Course students can take the quiz. Quiz must be connected to the course "
+"in quiz settings."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:753
+msgid "Hide correct answers"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:755
+msgid ""
+"Correct answers in quizzes are not displayed unless student has finished/"
+"submitted the course."
+msgstr ""
+
+#: includes/musettings.php:759
+msgid "Randomize Quiz Question Options(for multiple correct type)"
+msgstr ""
+
+#: includes/musettings.php:761
+msgid "Randomize Quiz question options"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:765
+msgid "Enable negative marking"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:767
+msgid "Enables negative marking for questions in quizzes"
+msgstr ""
+
+#: includes/musettings.php:771
+msgid "Exclude quizzes not connected to course from evaluation"
+msgstr ""
+
+#: includes/musettings.php:773
+msgid ""
+"Will not consider quizzes that are not connected to course in quiz settings "
+"in course evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:777
+msgid "Show Assignments in Course Curriculum"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:779
+msgid "Assignments will be displayed in Course Curriculum"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:783
+msgid "Display Submission time in Course/Quiz/Assignment submissions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:786
+msgid ""
+"Displays time (eg 2 hrs) with manual submissions, * requires activity to be "
+"enabled"
+msgstr ""
+
+#: includes/musettings.php:789
+msgid "Front End Settings"
+msgstr ""
+
+#: includes/musettings.php:793
+msgid "Force Administrator Approval on every setting"
+msgstr ""
+
+#: includes/musettings.php:795
+msgid ""
+"Instructors courses will go to pending mode when settings/pricing/curriculum "
+"is saved. *Requires Admin Approval enabled in WPLMS - Course Manager"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:799
+msgid "Enable Front end course deletion"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:801
+msgid ""
+"Instructors will be able to delete course and related content from front end"
+msgstr ""
+
+#: includes/musettings.php:806
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: includes/musettings.php:810
+msgid "Revert pretty permalinks for Courses"
+msgstr ""
+
+#: includes/musettings.php:813
+msgid "Revert permalinks from coursname/admin to coursename/?action-"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:817
+msgid "Enable Course forum privacy"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:819
+msgid "Only course students can access course forums"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:825
+msgid "Default order in course directory"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:829
+msgid "Recent"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:830 includes/musettings.php:846
+#: metaboxes/library/vc-mapper/vc-mapper.php:334
+#: metaboxes/library/vibe-editor.php:2990
+msgid "Alphabetical"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:831
+msgid "Number of Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:832
+msgid "Rating"
+msgstr ""
+
+#: includes/musettings.php:833
+msgid "Upcoming courses via Start date"
+msgstr ""
+
+#: includes/musettings.php:834 metaboxes/library/vc-mapper/vc-mapper.php:186
+#: metaboxes/library/vc-mapper/vc-mapper.php:657
+#: metaboxes/library/vc-mapper/vc-mapper.php:852
+msgid "Random"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:836 includes/musettings.php:848
+msgid "Default is menu order"
+msgstr ""
+
+#: includes/musettings.php:839
+msgid "Default order in Members directory (clear cookies to test)"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:843
+msgid "None"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:844
+msgid "Last active"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:845
+msgid "Newest registered"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:851
+msgid "Limit Number of Courses per Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:854
+msgid "( 0 for unlimited course per instructor )"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:857
+msgid "Limit Number of Units Created per Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:860
+msgid " ( 0 for unlimited )"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:863
+msgid "Limit Number of Quiz Created per Instructor "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:866
+msgid "(0 for unlimited course per instructor )"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:897
+msgid "You have reached your monthly post limit"
+msgstr ""
+
+#: includes/musettings.php:906
+#, php-format
+msgid ""
+"Build registration forms for Students and Instructors, refer %s tutorial %s"
+msgstr ""
+
+#: includes/musettings.php:908
+msgctxt ""
+"error message displayed in registration forms when xprofile are disabled"
+msgid "xProfile fields not enabled"
+msgstr ""
+
+#: includes/musettings.php:919
+msgctxt ""
+msgid "Select groups setting "
+msgstr ""
+
+#: includes/musettings.php:951
+msgctxt ""
+"error message displayed in registration forms when no xprofile fields exist"
+msgid "No fields found !"
+msgstr ""
+
+#: includes/musettings.php:970
+msgid "Disable activation email and manually approve accounts."
+msgstr ""
+
+#: includes/musettings.php:984
+msgid "Auto generate username from email"
+msgstr ""
+
+#: includes/musettings.php:985
+msgid "Show password meter"
+msgstr ""
+
+#: includes/musettings.php:986
+msgid "Show Field group labels"
+msgstr ""
+
+#: includes/musettings.php:987
+msgid "Google Captcha"
+msgstr ""
+
+#: includes/musettings.php:988
+msgid "Register & Login simultaneously"
+msgstr ""
+
+#: includes/musettings.php:989
+msgid "Skip Mail verification"
+msgstr ""
+
+#: includes/musettings.php:991
+msgid "Custom Activation Mail "
+msgstr ""
+
+#: includes/musettings.php:992
+msgctxt "registration form"
+msgid "Default activation email is sent"
+msgstr ""
+
+#: includes/musettings.php:996
+msgid "Assign User role"
+msgstr ""
+
+#: includes/musettings.php:997
+msgctxt "role in registration form"
+msgid "Default role"
+msgstr ""
+
+#: includes/musettings.php:1099
+msgctxt "Forms registered in site"
+msgid "Existing Registration forms"
+msgstr ""
+
+#: includes/musettings.php:1109
+msgid "field_meta for field description & visbility"
+msgstr ""
+
+#: includes/musettings.php:1109
+msgid "Default"
+msgstr ""
+
+#: includes/musettings.php:1109
+msgctxt "set a default registration form"
+msgid "Set as default"
+msgstr ""
+
+#: includes/musettings.php:1109
+msgctxt "delete button label"
+msgid "Settings"
+msgstr ""
+
+#: includes/musettings.php:1109
+msgctxt "delete button label"
+msgid "Delete"
+msgstr ""
+
+#: includes/musettings.php:1134
+msgid "Add to Buddypress group"
+msgstr ""
+
+#: includes/musettings.php:1137
+msgctxt ""
+msgid "All groups"
+msgstr ""
+
+#: includes/musettings.php:1138
+msgctxt ""
+msgid "Enable user to select from all groups"
+msgstr ""
+
+#: includes/musettings.php:1142
+msgctxt ""
+msgid "Selected Groups"
+msgstr ""
+
+#: includes/musettings.php:1153
+msgctxt "save form settings"
+msgid "Save"
+msgstr ""
+
+#: includes/musettings.php:1168
+msgid "Shortcode Copied !"
+msgstr ""
+
+#: includes/musettings.php:1174
+msgctxt "create registration form button label"
+msgid "Add Registration Form"
+msgstr ""
+
+#: includes/musettings.php:1175
+msgctxt "enter form name placeholder"
+msgid "Type the name of the form, avoid spaces and special characters"
+msgstr ""
+
+#: includes/musettings.php:1175
+msgctxt "Add form submit button label"
+msgid "Add Form"
+msgstr ""
+
+#: includes/musettings.php:1180
+msgctxt "warning message when no registration forms are found"
+msgid "No Registration forms found !"
+msgstr ""
+
+#: includes/musettings.php:1185
+msgctxt "connect form heading"
+msgid "Connect Forms with Fields"
+msgstr ""
+
+#: includes/musettings.php:1188
+msgctxt "field group prefix in registration form"
+msgid "Field Group"
+msgstr ""
+
+#: includes/musettings.php:1193
+msgctxt ""
+msgid "Field Name"
+msgstr ""
+
+#: includes/musettings.php:1205
+msgctxt "necessary fields for buddypress registration"
+msgid "Necessary"
+msgstr ""
+
+#: includes/musettings.php:1220
+msgid "There are no fields in this group."
+msgstr ""
+
+#: includes/musettings.php:1227
+msgctxt "save form fields label in registration forms lms - settings"
+msgid "Save Form fields"
+msgstr ""
+
+#: includes/musettings.php:1236
+msgid "LMS Functions [ For Ad-Hoc Management]"
+msgstr ""
+
+#: includes/musettings.php:1240
+msgid "Sync Areas"
+msgstr ""
+
+#: includes/musettings.php:1241
+msgid "Ad Hoc"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1251
+msgid "Custom Field Value"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1252
+msgid "Custom Field for Student Value"
+msgstr ""
+
+#: includes/musettings.php:1253
+msgid "Custom Field for Option"
+msgstr ""
+
+#: includes/musettings.php:1254
+msgid "Custom Field Value for Post"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1255
+msgid "Current Time Stamp "
+msgstr ""
+
+#: includes/musettings.php:1260
+msgid "Synchronise LMS Data"
+msgstr ""
+
+#: includes/musettings.php:1260
+msgid "Only required in special cases when data goes out of sync."
+msgstr ""
+
+#: includes/musettings.php:1266
+msgid "Course - Students"
+msgstr ""
+
+#: includes/musettings.php:1267
+msgid "Verify Course Student Status and expiry for all students and courses"
+msgstr ""
+
+#: includes/musettings.php:1271
+msgid "Unit - Students"
+msgstr ""
+
+#: includes/musettings.php:1272
+msgid "Verify student unit completion for reusability"
+msgstr ""
+
+#: includes/musettings.php:1276
+msgid "Quiz Results"
+msgstr ""
+
+#: includes/musettings.php:1277
+msgid "Verify Quiz Student Status and results for all students and quizzes"
+msgstr ""
+
+#: includes/musettings.php:1281
+msgid "Course Forums"
+msgstr ""
+
+#: includes/musettings.php:1282
+msgid "Auto-subscribe course users to course forums."
+msgstr ""
+
+#: includes/musettings.php:1292
+msgid "Sync Now"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1423 includes/musettings.php:1787
+#: metaboxes/meta_box.php:816
+msgid "Select"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1474
+msgid "STUDENT"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1476 includes/musettings.php:1498
+#: includes/musettings.php:1521 includes/musettings.php:1538
+msgid "Message"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1480 includes/musettings.php:1502
+#: includes/musettings.php:1525 includes/musettings.php:1542
+msgid "Notification"
+msgstr ""
+
+#: includes/musettings.php:1493 includes/musettings.php:1513
+#: includes/musettings.php:1533 includes/musettings.php:1550
+#, php-format
+msgid "%s Edit Email Template %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1496 includes/musettings.php:1519
+msgid "INSTRUCTOR"
+msgstr ""
+
+#: includes/musettings.php:1536
+msgid "ADMINISTRATOR"
+msgstr ""
+
+#: includes/musettings.php:1573
+msgid "Instructor Commissions"
+msgstr ""
+
+#: includes/musettings.php:1574
+msgid "Configure and pay commissions to instructors."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1577
+msgid "Set Commissions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1578
+msgid "Pay Commissions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1611
+msgid "Field Value Changed"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1613
+msgid "Error Field value not changed"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1615
+msgid "Error Field value not entered"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1628
+msgid "Student Value Changed"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1630
+msgid "Student value not changed"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1632
+msgid "Student value not entered"
+msgstr ""
+
+#: includes/musettings.php:1645
+msgid "Option Value Changed"
+msgstr ""
+
+#: includes/musettings.php:1647
+msgid "There was a problem"
+msgstr ""
+
+#: includes/musettings.php:1649
+msgid "Option value not entered"
+msgstr ""
+
+#: includes/musettings.php:1667
+msgid "Post Field Value Changed"
+msgstr ""
+
+#: includes/musettings.php:1669
+msgid "Error Post Field value not changed"
+msgstr ""
+
+#: includes/musettings.php:1672
+msgid "Error Post Field value not entered"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1681
+msgid "Set Instructor Commisions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1685
+msgid "Instructor Commissions Saved"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1687
+msgid "Instructor Commissions not saved, contact Site-Admin !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1696
+msgid "Course Name"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1696 includes/statistics.php:20
+#: includes/statistics.php:898 includes/tips.php:1462
+#: metaboxes/meta_box.php:826
+msgid "Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1696
+msgid "PERCENTAGE"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1738
+msgid "Set Commisions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1743
+msgid "Pay Instructor Commisions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1752
+#, php-format
+msgid "Commission Payments on %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1760
+msgid " Commission Payments Saved"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1762
+msgid "Commission payments not saved !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1772
+msgid "CHECK NOW"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1779
+msgid "SET TIME PERIOD"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1787
+msgid "Instructor Name"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1787 metaboxes/meta_box.php:826
+msgid "Commission"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1787
+msgid "PAYPAL EMAIL"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1787 includes/musettings.php:1809
+msgid "Pay via PayPal"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1817
+msgid "Instructor Commission"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1826
+msgid "Mark as Paid"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1847
+msgid "Import/Export WPLMS Elements"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1848
+msgid ""
+"Download and upload in CSV format. Import/Export WPLMS elements with user "
+"statuses: Courses, Quizzes, Units, Assignments, Questions and Events."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1850
+msgid "EXPORT SETTINGS"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1865
+msgid "User Touch Points"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1866
+msgid ""
+"Set touch points for Students and Instructors in WPLMS. Connect with Student "
+"or Instructor via following touch points"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1866 includes/musettings.php:2018
+#: includes/musettings.php:3035
+msgid "Learn more"
+msgstr ""
+
+#: includes/musettings.php:1874
+msgid "WPLMS Live settings and configuration"
+msgstr ""
+
+#: includes/musettings.php:1876
+msgid "Live addons"
+msgstr ""
+
+#: includes/musettings.php:1910
+msgid "Chat"
+msgstr ""
+
+#: includes/musettings.php:1911
+msgid "Live Chat in WPLMS."
+msgstr ""
+
+#: includes/musettings.php:1922
+msgid "Push Notifications"
+msgstr ""
+
+#: includes/musettings.php:1923
+msgid "Push Notifications for WPLMS."
+msgstr ""
+
+#: includes/musettings.php:1934
+msgid "White Board"
+msgstr ""
+
+#: includes/musettings.php:1935
+msgid "White boards in WPLMS."
+msgstr ""
+
+#: includes/musettings.php:1946
+msgid "Appointments"
+msgstr ""
+
+#: includes/musettings.php:1947
+msgid "Realtime Live appointments in WPLMS."
+msgstr ""
+
+#: includes/musettings.php:1958
+msgid "Video Conference"
+msgstr ""
+
+#: includes/musettings.php:1959
+msgid "Video Conferencing in WPLMS."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2000 includes/musettings.php:3007
+msgid "Enter License Key"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2014 includes/musettings.php:3021
+msgid "License Key"
+msgstr ""
+
+#: includes/musettings.php:2033
+msgid "Announcements"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2055
+msgid "Course Subscribed"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2066
+msgid "User added to Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2077
+msgid "User Starts a Course "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2089 includes/tips.php:2200
+msgid "Course Certificate"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2100 includes/tips.php:2176
+msgid "Course Badge"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2112
+msgid "Course Reset by Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2123
+msgid "Course Retake by User"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2134
+msgid "Course Submit"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2145
+msgid "Course Evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2156
+msgid "Course Reviews"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2167
+msgid "Unsubscribe Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2178
+msgid "Unit marked complete by User"
+msgstr ""
+
+#: includes/musettings.php:2189
+msgid "Unit marked complete by Instructor for Student"
+msgstr ""
+
+#: includes/musettings.php:2200
+msgid "Unit marked incomplete by Instructor for Student"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2211
+msgid "Unit comment added by User"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2222
+msgid "Quiz Start by user"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2233
+msgid "Quiz Submitted by user"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2244
+msgid "Quiz Reset by Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2255
+msgid "Quiz Retake by User"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2266
+msgid "Quiz Evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2277
+msgid "Assignment Start by user"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2288
+msgid "Assignment Submitted by user"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2299
+msgid "Assignment Evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2310
+msgid "Assignment Reset by Instructor"
+msgstr ""
+
+#: includes/musettings.php:2321
+msgid "Student applied for Course"
+msgstr ""
+
+#: includes/musettings.php:2332
+msgid "Instructor approves/rejects user application"
+msgstr ""
+
+#: includes/musettings.php:2343
+msgid "Instructor Publishes a Course or Sends for Approval"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2357
+msgid "Email Settings"
+msgstr ""
+
+#: includes/musettings.php:2358
+msgid "Configure email template for Emails."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2361
+msgid "Email Options"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2362
+msgid "Email Schedule"
+msgstr ""
+
+#: includes/musettings.php:2363
+msgid "Scheduled Emails"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2391
+msgid "FROM \"Name\""
+msgstr ""
+
+#: includes/musettings.php:2394
+msgid "Name from which the email will be sent"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2397
+msgid "FROM \"Email\""
+msgstr ""
+
+#: includes/musettings.php:2400
+msgid "Email from which the email will be sent"
+msgstr ""
+
+#: includes/musettings.php:2403
+msgid "Contact Form email"
+msgstr ""
+
+#: includes/musettings.php:2406 includes/musettings.php:2413
+#: includes/musettings.php:2420
+msgctxt "lms settings button"
+msgid "Edit email template"
+msgstr ""
+
+#: includes/musettings.php:2407
+msgid "Contact Form email sent when using contact form shortcode."
+msgstr ""
+
+#: includes/musettings.php:2410
+msgid "Edit Activation email"
+msgstr ""
+
+#: includes/musettings.php:2414
+msgid "Activation email sent by BuddyPress on user registration."
+msgstr ""
+
+#: includes/musettings.php:2417
+msgid "Edit Forgot Password email"
+msgstr ""
+
+#: includes/musettings.php:2421
+msgid ""
+"Forgot password email sent by WordPress when user clicks on forgot password "
+"link."
+msgstr ""
+
+#: includes/musettings.php:2424
+msgid "Enable welcome email"
+msgstr ""
+
+#: includes/musettings.php:2427
+msgid ""
+"Welcome email is sent when user activates his account or logs in the WPLMS "
+"site for the first time."
+msgstr ""
+
+#: includes/musettings.php:2437
+#, php-format
+msgid "Schedule Drip Feed Email %s Edit Email %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2442
+msgid "Enable Drip Feed Email"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2449
+msgid "Email students when the drip feed units are available"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2452 includes/musettings.php:2481
+msgid "Schedule Email"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2456
+msgid "Before 24 Hours of unit availability"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2457
+msgid "Before 12 Hours of unit availability"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2458
+msgid "Before 6 Hours of unit availability"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2459
+msgid "Before 1 Hours of unit availability"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2460
+msgid "When Unit is available"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2462 includes/musettings.php:2491
+#: includes/musettings.php:2513 includes/musettings.php:2553
+msgid "Accuracy of email depends upon site traffic and resources."
+msgstr ""
+
+#: includes/musettings.php:2466
+#, php-format
+msgid "Schedule Course Expiry Email %s Edit Email %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2471
+msgid "Enable Course Expire Email"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2478
+msgid "Email students when the course expires"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2485
+msgid "Before 24 Hours of Course expiry"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2486
+msgid "Before 12 Hours of Course expiry"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2487
+msgid "Before 6 Hours of Course expiry"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2488
+msgid "Before 1 Hours of Course expiry"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2489
+msgid "When Course expires"
+msgstr ""
+
+#: includes/musettings.php:2495
+#, php-format
+msgid "Schedule Inactive Users Email %s Edit Email %s"
+msgstr ""
+
+#: includes/musettings.php:2500
+msgid "Enable Inactive Users Email"
+msgstr ""
+
+#: includes/musettings.php:2507
+msgid ""
+"Email users when they are inactive on the website for a specifc time period"
+msgstr ""
+
+#: includes/musettings.php:2510
+msgid "Schedule Inactivity Email (in days)"
+msgstr ""
+
+#: includes/musettings.php:2516
+msgid "Number of days, email is to be sent daily"
+msgstr ""
+
+#: includes/musettings.php:2519
+msgid "Number of days the email will be sent daily."
+msgstr ""
+
+#: includes/musettings.php:2522
+msgid "Number of weeks, email is to be sent weekly"
+msgstr ""
+
+#: includes/musettings.php:2525
+msgid "Number of Weeks the email will be sent weekly."
+msgstr ""
+
+#: includes/musettings.php:2528
+msgid "Number of months, email is to be sent monthly"
+msgstr ""
+
+#: includes/musettings.php:2531
+msgid "Number of Months the email will be sent monthly."
+msgstr ""
+
+#: includes/musettings.php:2535
+#, php-format
+msgid "Schedule Course Review Email %s Edit Email %s"
+msgstr ""
+
+#: includes/musettings.php:2540
+msgid "Enable Course Review Email"
+msgstr ""
+
+#: includes/musettings.php:2547
+msgid ""
+"Email students when the course is finished and the user has not given any "
+"review to the course"
+msgstr ""
+
+#: includes/musettings.php:2550
+msgid "Schedule Course Review Email (in days)"
+msgstr ""
+
+#: includes/musettings.php:2581
+msgid "Cron removed."
+msgstr ""
+
+#: includes/musettings.php:2581 includes/musettings.php:2583
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/musettings.php:2583
+msgid "There was an error while removing cron."
+msgstr ""
+
+#: includes/musettings.php:2590
+msgid "Are you sure you want to remove this schedule?"
+msgstr ""
+
+#: includes/musettings.php:2605 includes/musettings.php:2618
+msgid "Remove Schedule"
+msgstr ""
+
+#: includes/musettings.php:2626
+msgid "Course Expiry mail"
+msgstr ""
+
+#: includes/musettings.php:2626
+msgid "Drip feed mail"
+msgstr ""
+
+#: includes/musettings.php:2626
+msgid "N.A"
+msgstr ""
+
+#: includes/musettings.php:2632 includes/musettings.php:2635
+msgid "No Scheduled emails"
+msgstr ""
+
+#: includes/musettings.php:2643
+msgid "WPLMS UNIT TIMINGS"
+msgstr ""
+
+#: includes/musettings.php:2644
+msgid "Know the time spent by users on the course."
+msgstr ""
+
+#: includes/musettings.php:2656
+msgid "WPLMS GRADE BOOK"
+msgstr ""
+
+#: includes/musettings.php:2657
+msgid "Find all the grades at one place and update them accordingly"
+msgstr ""
+
+#: includes/musettings.php:2669
+msgid "Video Vibe"
+msgstr ""
+
+#: includes/musettings.php:2670
+msgid "Upload videos directly from WP media panel to your Video account."
+msgstr ""
+
+#: includes/musettings.php:2682
+msgid "WPLMS Gift Course"
+msgstr ""
+
+#: includes/musettings.php:2683
+msgid "Gift Courses to users via emails in WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2695
+msgid "WPLMS Batches"
+msgstr ""
+
+#: includes/musettings.php:2696
+msgid "Course Batches for WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2708
+msgid "WPLMS S3"
+msgstr ""
+
+#: includes/musettings.php:2709
+msgid "Secure files using Amazon S3."
+msgstr ""
+
+#: includes/musettings.php:2721
+msgid "WPLMS Mailchimp"
+msgstr ""
+
+#: includes/musettings.php:2722
+msgid "Mailchimp Lists for WPLMS"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2734
+msgid "WPLMS WooCommerce"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2735
+msgid "Integrate WPLMS with WooCommerce."
+msgstr ""
+
+#: includes/musettings.php:2747
+msgid "WPLMS Wishlists"
+msgstr ""
+
+#: includes/musettings.php:2748
+msgid "Create unlimited, sharable wishlists."
+msgstr ""
+
+#: includes/musettings.php:2760
+msgid "WPLMS Application Forms"
+msgstr ""
+
+#: includes/musettings.php:2761
+msgid ""
+"Create application form which students can use for applying to a course."
+msgstr ""
+
+#: includes/musettings.php:2773
+msgid "WPLMS Custom Course Navigation"
+msgstr ""
+
+#: includes/musettings.php:2774
+msgid "Customise Course Sections"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2784
+msgid "WPLMS CoAuthors Plus"
+msgstr ""
+
+#: includes/musettings.php:2785
+msgid "Integrate  WP CoAuhors plus plugin"
+msgstr ""
+
+#: includes/musettings.php:2795
+msgid "WPLMS GA (Google Analytics)"
+msgstr ""
+
+#: includes/musettings.php:2796
+msgid "Integrate Google Analytics with WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2806
+msgid "WPLMS BBB (Big Blue Button)"
+msgstr ""
+
+#: includes/musettings.php:2807
+msgid "Integrate Big Blue Button with WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2817
+msgid "WPLMS H5P Plugin"
+msgstr ""
+
+#: includes/musettings.php:2818
+msgid "Integrate H5P with WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2828
+msgid "WP Courseware to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2829
+msgid "Migrate Courses from WP Courseware to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2839
+msgid "Clevercourse to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2840
+msgid "Migrate Courses from Clevercourse to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2850
+msgid "Academy to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2851
+msgid "Migrate Courses from Academy theme to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2861
+msgid "Woo Sensei to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2862
+msgid "Migrate Courses from Woo Sensei to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2872
+msgid "Learndash to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2873
+msgid "Migrate Courses from Learndash to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2883
+msgid "Learnpress to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2884
+msgid "Migrate Courses from Learnpress to WPLMS."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2894
+msgid "WPLMS BadgeOS"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2895
+msgid "Connect BadgeOS badges with WPLMS"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2905
+msgid "WPLMS DW Q&A"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2906
+msgid "Integrate DW Questions & Answer with WPLMS"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2916
+msgid "WPLMS Easy Digital Downloads"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2917
+msgid "Connect Easy Digital downloads with WPLMS"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2927
+msgid "BP Social Connect"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2928
+msgid "Connect your BuddyPress site with Social networks Login &  Registration"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2938
+msgid "BP Profile Cover"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2939
+msgid "Add cover images to Profiles"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2949
+msgid "WPLMS Custom Certificate Codes"
+msgstr ""
+
+#: includes/musettings.php:2950
+msgid "Define custom certificate codes for Certificates"
+msgstr ""
+
+#: includes/musettings.php:3029
+msgid "Free Trial"
+msgstr ""
+
+#: includes/musettings.php:3407
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: includes/musettings.php:3589
+msgctxt "updated wallet amount label"
+msgid "Updated!"
+msgstr ""
+
+#: includes/musettings.php:3633
+msgctxt "No users found in Course - admin - add users area"
+msgid "No Users found !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:3754
+msgid "Unable to update key."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:3758
+msgid "Key Updated."
+msgstr ""
+
+#: includes/musettings.php:3887
+#, php-format
+msgid "%s redundant records removed. Course Student verification completed."
+msgstr ""
+
+#: includes/musettings.php:3923
+msgid "Quiz results sync complete !"
+msgstr ""
+
+#: includes/musettings.php:3956
+msgid "Course - Units - Student sync complete !"
+msgstr ""
+
+#: includes/musettings.php:3985
+msgid "Course - Forums sync complete !"
+msgstr ""
+
+#: includes/musettings.php:3999
+msgid "Wallet"
+msgstr ""
+
+#: includes/musettings.php:4008
+msgid "User Wallets"
+msgstr ""
+
+#: includes/musettings.php:4009
+msgid "Manage user wallets for your APP"
+msgstr ""
+
+#: includes/musettings.php:4227 includes/musettings.php:4267
+msgctxt "wallet table"
+msgid "User"
+msgstr ""
+
+#: includes/musettings.php:4228 includes/musettings.php:4268
+msgctxt "wallet table"
+msgid "Wallet"
+msgstr ""
+
+#: includes/musettings.php:4229 includes/musettings.php:4269
+msgctxt "wallet table"
+msgid "Actions"
+msgstr ""
+
+#: includes/musettings.php:4250
+msgctxt "see user activity label"
+msgid "See user activity"
+msgstr ""
+
+#: includes/musettings.php:4256
+msgid "Update"
+msgstr ""
+
+#: includes/musettings.php:4273
+msgctxt "wallet"
+msgid "No users have created wallet in APP."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:35
+msgid "Courses permalink base"
+msgstr ""
+
+#: includes/permalinks.php:38
+msgid "Course category base"
+msgstr ""
+
+#: includes/permalinks.php:51
+msgctxt "slug"
+msgid "course-cat"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:70
+msgid ""
+"These settings control the permalinks used for courses. These settings only "
+"apply when <strong>not using \"default\" permalinks above</strong>."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:87
+msgctxt "default-slug"
+msgid "course"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:104
+msgid "Course Directory"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:109 includes/permalinks.php:125
+#: includes/permalinks.php:141 includes/permalinks.php:159
+msgid "Custom Base"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:111 includes/permalinks.php:127
+#: includes/permalinks.php:143 includes/permalinks.php:161
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:118
+msgid "Quiz Permalinks"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:134
+msgid "Unit Permalinks"
+msgstr ""
+
+#: includes/permalinks.php:152
+msgid "News Permalinks"
+msgstr ""
+
+#: includes/permalinks.php:168
+msgid "Course Action End points"
+msgstr ""
+
+#: includes/permalinks.php:169
+msgid ""
+"Course action points, these endpoints are appended to your course URLs to "
+"handle specific actions. They should be unique."
+msgstr ""
+
+#: includes/permalinks.php:175
+msgid "Course Curriculum slug"
+msgstr ""
+
+#: includes/permalinks.php:181
+msgid "Course Activity slug"
+msgstr ""
+
+#: includes/permalinks.php:187
+msgid "Course Members slug"
+msgstr ""
+
+#: includes/permalinks.php:191
+msgid "Admin"
+msgstr ""
+
+#: includes/permalinks.php:193
+msgid "Course Admin slug"
+msgstr ""
+
+#: includes/permalinks.php:197
+msgid "Submissions"
+msgstr ""
+
+#: includes/permalinks.php:199
+msgid "Course Admin - Submissions slug"
+msgstr ""
+
+#: includes/permalinks.php:205
+msgid "Course Admin - Statistics slug"
+msgstr ""
+
+#: includes/permalinks.php:214
+msgid "Course Admin - News slug"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:292
+msgctxt "slug"
+msgid "course"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:330
+msgctxt "default-slug"
+msgid "shop"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:18 includes/statistics.php:27
+#: includes/statistics.php:80 includes/statistics.php:86
+#: includes/statistics.php:90
+msgid "Overview"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:21 includes/statistics.php:899
+msgid "Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:22 includes/statistics.php:951
+msgid "Download Stats"
+msgstr ""
+
+#: includes/statistics.php:23
+msgid "Administrator Report"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:28
+msgid "My Courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:81
+msgid "Daily"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:82
+msgid "Monthly"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:83
+msgid "Custom"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:87 metaboxes/library/vc-mapper/vc-mapper.php:179
+#: metaboxes/library/vc-mapper/vc-mapper.php:650
+#: metaboxes/library/vc-mapper/vc-mapper.php:845
+msgid "Most Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:91
+msgid "Popular"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:148
+msgid "Subscriptions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:153
+msgid "Number of students"
+msgstr ""
+
+#: includes/statistics.php:190
+msgid "Custom Date Selection"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:246 includes/statistics.php:1199
+msgid "Total Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:247 includes/statistics.php:253
+#: includes/statistics.php:259 includes/statistics.php:265
+#: includes/statistics.php:271 includes/statistics.php:531
+#: includes/statistics.php:730 includes/statistics.php:736
+#: includes/statistics.php:742 includes/statistics.php:748
+#: includes/statistics.php:754 includes/statistics.php:1077
+#: includes/statistics.php:1083 includes/statistics.php:1089
+#: includes/statistics.php:1201 includes/statistics.php:1207
+#: includes/statistics.php:1213 includes/statistics.php:1317
+#: includes/statistics.php:1323 includes/statistics.php:1329
+#: includes/statistics.php:1575 includes/statistics.php:1581
+#: includes/statistics.php:1587 includes/statistics.php:1593
+msgid "n/a"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:252 includes/statistics.php:1075
+msgid "Total Instructors"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:258
+msgid "Total Course Taken"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:264
+msgid "Total Badges"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:270
+msgid "Total Certificates"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:278 includes/statistics.php:1336
+msgid "This year's monthly subscriptions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:280 includes/statistics.php:1338
+msgid "This month's daily subscriptions"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:376 includes/statistics.php:1422
+msgid "Number of Courses Started"
+msgstr ""
+
+#: includes/statistics.php:529
+msgid "Courses in Total:"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:728
+msgid "Total Students taking courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:734
+msgid "Courses Started By Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:740
+msgid "Total Courses Finished by Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:746
+msgid "Total Units Finished by Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:752
+msgid "Total Quiz Finished by Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:796 includes/statistics.php:1231
+msgid "Prev"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:805 includes/statistics.php:1240
+msgid "Next"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:892
+msgid "Download Standard Reports"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:953
+msgid "Generate report"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1081
+msgid "Total Courses Evaluated by Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1087
+msgid "Total Quiz Evaluated by Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1205
+msgid "Total Active Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1211
+msgid "Total Course Students "
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1315
+msgid "Total Students in My Courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1321
+msgid "Total Badges given in My Courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1327
+msgid "Total Certificates given in My Courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1573
+msgid "Total Students taking my courses"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1579
+msgid "My Courses Finished by Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1585
+msgid "My Units Finished by Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/statistics.php:1591
+msgid "My Quiz Finished by Students"
+msgstr ""
+
+#: includes/tips.php:473
+msgid "Take the Course to Start the Quiz"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:736
+msgid "Please Check Terms & Conditions"
+msgstr ""
+
+# @ vibe
+#: includes/tips.php:762
+msgid " I agree to these Terms and Conditions"
+msgstr ""
+
+#: includes/tips.php:888
+msgctxt "vibe-customtypes"
+msgid "UNLIMITED"
+msgstr ""
+
+#: includes/tips.php:913
+msgid "Quiz passing marks/score"
+msgstr ""
+
+#: includes/tips.php:914
+msgid ""
+"Passing marks/score for quiz. Combined with Prev.Unit/Quiz lock the user "
+"progress can be restricted."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:927
+msgid "SET QUIZ PASSING SCORE"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:972
+msgid "NEGATIVE MARKS PER QUESTION"
+msgstr ""
+
+#: includes/tips.php:987
+msgid "Clear marked answer"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1007
+msgid "Negative Marks per Question"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1008
+msgid "Deduct marks for a Wrong answer."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1101
+msgid "COMING SOON"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1116
+msgid "Coming soon Mode"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1117
+msgid "Enable Coming soon mode"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1145
+msgid "Coming Soon mode"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1150
+msgid "Enable"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1365
+msgid "Top Menu for Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1366
+msgid "Main Menu for Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1367
+msgid "Mobile Menu for Students"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1374
+msgid "Top Menu for Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1375
+msgid "Main Menu for Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1376
+msgid "Mobile Menu for Instructor"
+msgstr ""
+
+#: includes/tips.php:1388
+msgid "Create a Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1415
+msgid "Make Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1457
+msgid "There was some error"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1459
+msgid "Make Student"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1477
+msgid "Send Message"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1481
+msgid "Send Email"
+msgstr ""
+
+#: includes/tips.php:1576
+msgid "Congratulations ! You've been subscribed to the course"
+msgstr ""
+
+#: includes/tips.php:1580
+msgid "Course not available for subscription."
+msgstr ""
+
+#: includes/tips.php:1607
+msgid "TAKE THIS COURSE"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1626
+msgid "My Orders"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1637
+msgid "My Membership"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1666 includes/tips.php:1672
+msgid "Code does not exist. Please check the code."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1687 includes/tips.php:1698
+msgid "Congratulations! You are now added to the course."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1689 includes/tips.php:1700
+msgid "User already in course."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1692
+msgid "Maximum number of usage for course code exhausted"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1728
+msgid "Course Codes"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1729
+msgid "Enter Course codes (XXX|2,YYY|4)"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1744
+msgid "Set Course purchase codes"
+msgstr ""
+
+#: includes/tips.php:1745
+msgid ""
+"Student can gain access to Course using course codes (multiple codes comma "
+"separated, usage count pipe saperate eg : xxx|2,yyy|4)"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1754
+msgid "Access Date"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1755
+msgid "Date on which unit is accessible"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1760
+msgid "Access Time"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1761
+msgid "Time after which unit is accessible"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1795
+msgid "Unit access date"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1796
+msgid "Access date"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1798
+msgid "Unit access time"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1799
+msgid "Access time"
+msgstr ""
+
+#: includes/tips.php:1961
+msgid "No Description Found"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:2000
+msgid "<strong>ERROR</strong>: User already logged in."
+msgstr ""
+
+#: includes/tips.php:2010
+msgid "External Course button link"
+msgstr ""
+
+#: includes/tips.php:2011
+msgid "Connect Course button to an external page (Leave blank to skip)"
+msgstr ""
+
+#: includes/tips.php:2012
+msgid "Enter the external page url. Leave blank or 0 to skip"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:2372
+msgid "WPLMS Course codes widget"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:2374
+msgid "WPLMS Course Codes"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:2404
+msgid "Submit"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:2420
+msgid "Enter Course code"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:2421
+msgid "Place holder text"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:2427
+msgid "Course Codes input box text"
+msgstr ""
+
+#: includes/tips.php:2428
+msgid "Hide Course codes for Course members"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:33
+msgid "Select Post Type"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:34
+msgid "Post"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:35
+msgid "Page"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:39
+msgid "Certificates"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:48
+msgid "Course Location"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:49
+msgid "Course Level"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:52
+msgid "Quiz Type"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:55
+msgid "Assignment Type"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:94
+msgid "Vibe Carousel"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:96
+#: metaboxes/library/vc-mapper/vc-mapper.php:305
+#: metaboxes/library/vc-mapper/vc-mapper.php:430
+#: metaboxes/library/vc-mapper/vc-mapper.php:610
+#: metaboxes/library/vc-mapper/vc-mapper.php:805
+msgid "Vibe Builder"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:114
+#: metaboxes/library/vc-mapper/vc-mapper.php:313
+#: metaboxes/library/vc-mapper/vc-mapper.php:449
+#: metaboxes/library/vc-mapper/vc-mapper.php:628
+#: metaboxes/library/vibe-editor.php:2010
+#: metaboxes/library/vibe-editor.php:2662
+#: metaboxes/library/vibe-editor.php:2977
+msgid "Title/Heading"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:116
+#: metaboxes/library/vc-mapper/vc-mapper.php:315
+#: metaboxes/library/vc-mapper/vc-mapper.php:451
+#: metaboxes/library/vc-mapper/vc-mapper.php:630
+#: metaboxes/library/vc-mapper/vc-mapper.php:825
+#: metaboxes/library/vibe-editor.php:2012
+#: metaboxes/library/vibe-editor.php:2168
+#: metaboxes/library/vibe-editor.php:2278
+#: metaboxes/library/vibe-editor.php:2664
+#: metaboxes/library/vibe-editor.php:2794
+#: metaboxes/library/vibe-editor.php:2979
+msgid "Heading"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:136
+#: metaboxes/library/vc-mapper/vc-mapper.php:471
+msgid "More link"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:139
+#: metaboxes/library/vc-mapper/vc-mapper.php:474
+msgid "Static link to more units in carousel, plus sign"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:178
+#: metaboxes/library/vc-mapper/vc-mapper.php:649
+#: metaboxes/library/vc-mapper/vc-mapper.php:844
+msgid "Recently published"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:180
+#: metaboxes/library/vc-mapper/vc-mapper.php:651
+#: metaboxes/library/vc-mapper/vc-mapper.php:846
+msgid "Featured"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:181
+#: metaboxes/library/vc-mapper/vc-mapper.php:652
+#: metaboxes/library/vc-mapper/vc-mapper.php:847
+msgid "Highest Rated"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:182
+#: metaboxes/library/vc-mapper/vc-mapper.php:653
+#: metaboxes/library/vc-mapper/vc-mapper.php:848
+msgid "Most Reviews"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:183
+#: metaboxes/library/vc-mapper/vc-mapper.php:654
+#: metaboxes/library/vc-mapper/vc-mapper.php:849
+msgid "Upcoming Courses (Start Date)"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:184
+#: metaboxes/library/vc-mapper/vc-mapper.php:655
+#: metaboxes/library/vc-mapper/vc-mapper.php:850
+msgid "Expired Courses (Past Start Date)"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:185
+#: metaboxes/library/vc-mapper/vc-mapper.php:656
+#: metaboxes/library/vc-mapper/vc-mapper.php:851
+msgid "Free Courses"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:198
+#: metaboxes/library/vc-mapper/vc-mapper.php:669
+#: metaboxes/library/vc-mapper/vc-mapper.php:864
+msgid "Taxonomy "
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:201
+#: metaboxes/library/vc-mapper/vc-mapper.php:672
+#: metaboxes/library/vc-mapper/vc-mapper.php:867
+msgid "Optionally select a taxonomy to fetch post types from."
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:207
+#: metaboxes/library/vc-mapper/vc-mapper.php:678
+#: metaboxes/library/vc-mapper/vc-mapper.php:873
+msgid "Taxonomy Term"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:210
+#: metaboxes/library/vc-mapper/vc-mapper.php:681
+#: metaboxes/library/vc-mapper/vc-mapper.php:876
+msgid "Select a Term if taxonomy is selected"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:216
+#: metaboxes/library/vc-mapper/vc-mapper.php:687
+#: metaboxes/library/vc-mapper/vc-mapper.php:882
+msgid "Manually add Post IDs"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:219
+#: metaboxes/library/vc-mapper/vc-mapper.php:690
+#: metaboxes/library/vc-mapper/vc-mapper.php:885
+msgid "Comma saperated post ids, ignores taxonomy and terms."
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:242
+#: metaboxes/library/vc-mapper/vc-mapper.php:383
+#: metaboxes/library/vc-mapper/vc-mapper.php:553
+msgid "Carousel Block width"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:245
+#: metaboxes/library/vc-mapper/vc-mapper.php:386
+#: metaboxes/library/vc-mapper/vc-mapper.php:556
+msgid "Optionally set caoursel block width"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:250
+#: metaboxes/library/vc-mapper/vc-mapper.php:391
+#: metaboxes/library/vc-mapper/vc-mapper.php:561
+#: metaboxes/library/vibe-editor.php:2107
+#: metaboxes/library/vibe-editor.php:2741
+#: metaboxes/library/vibe-editor.php:3023
+msgid "Maximum Number of blocks in One screen"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:253
+#: metaboxes/library/vc-mapper/vc-mapper.php:394
+#: metaboxes/library/vc-mapper/vc-mapper.php:564
+msgid ""
+"Responsiveness, for Largest supported screen resolution, set maximum blocks "
+"in one screen"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:258
+#: metaboxes/library/vc-mapper/vc-mapper.php:399
+#: metaboxes/library/vc-mapper/vc-mapper.php:569
+msgid "Minimum Number of blocks in One screen"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:261
+#: metaboxes/library/vc-mapper/vc-mapper.php:402
+#: metaboxes/library/vc-mapper/vc-mapper.php:572
+msgid ""
+"Responsiveness, for smallest supported screen resolution, set minimum blocks "
+"in one screen"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:266
+#: metaboxes/library/vc-mapper/vc-mapper.php:407
+#: metaboxes/library/vc-mapper/vc-mapper.php:577
+msgid "Number of blocks in one slide"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:269
+#: metaboxes/library/vc-mapper/vc-mapper.php:410
+#: metaboxes/library/vc-mapper/vc-mapper.php:580
+msgid "Number of blocks to rotate in one carousel slide moves"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:274
+#: metaboxes/library/vc-mapper/vc-mapper.php:415
+#: metaboxes/library/vc-mapper/vc-mapper.php:585
+msgid "Total number of blocks in carousel"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:277
+#: metaboxes/library/vc-mapper/vc-mapper.php:418
+#: metaboxes/library/vc-mapper/vc-mapper.php:588
+msgid "Total blocks"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:282
+msgid "Carousel Excerpt length"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:285
+msgid "If carousel has excerpt then set the length of the excerpt"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:303
+msgid "Vibe Taxonomy Carousel"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:323
+#: metaboxes/library/vibe-editor.php:2982
+msgid "Include Term Slugs (optional, comma saperated)"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:326
+msgid "Comma saperated term slugs."
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:334
+#: metaboxes/library/vibe-editor.php:2990
+msgid "Description"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:334
+#: metaboxes/library/vibe-editor.php:2990
+msgid "Custom Order"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:428
+msgid "Vibe Member Carousel"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:502
+#: metaboxes/library/vibe-editor.php:2703
+msgid "Select member type"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:506
+#: metaboxes/library/vibe-editor.php:2705
+msgctxt "Select option in Member carousel"
+msgid "All"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:506
+#: metaboxes/library/vibe-editor.php:2705
+msgctxt "Select option in Member carousel"
+msgid "Student"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:506
+#: metaboxes/library/vibe-editor.php:2705
+msgctxt "Select option in Member carousel"
+msgid "Instructor"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:513
+#: metaboxes/library/vibe-editor.php:2710
+msgid "Or Enter Specific Member Ids"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:516
+msgid "Comma saperated Member ids"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:523
+#: metaboxes/library/vibe-editor.php:2715
+#: metaboxes/library/vibe-editor.php:2809
+msgid "Enter Profile fields (comma saperated field \"names\")"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:530
+#: metaboxes/library/vibe-editor.php:2720
+#: metaboxes/library/vibe-editor.php:2819
+msgid "Display Style"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:608
+msgid "Vibe Grid"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:733
+#: metaboxes/library/vibe-editor.php:2355
+msgid "Masonry Grid Column Width(in px)"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:736
+#: metaboxes/library/vc-mapper/vc-mapper.php:912
+msgid "Optionally set block width"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:745
+#: metaboxes/library/vibe-editor.php:2360
+#: metaboxes/library/vibe-editor.php:2852
+msgid "Spacing between Columns (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:752
+#: metaboxes/library/vibe-editor.php:2365
+#: metaboxes/library/vibe-editor.php:2857
+msgid "Total Number of Blocks in Grid"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:755
+#: metaboxes/library/vc-mapper/vc-mapper.php:920
+msgid "Blocks in grid screen/page"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:780
+#: metaboxes/library/vc-mapper/vc-mapper.php:935
+#: metaboxes/library/vibe-editor.php:2226
+#: metaboxes/library/vibe-editor.php:2385
+msgid "Excerpt Length (in characters)"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:783
+#: metaboxes/library/vc-mapper/vc-mapper.php:938
+msgid "Number of characters if featured block set has excerpt"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:803
+msgid "Vibe Filterable"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vc-mapper/vc-mapper.php:823
+#: metaboxes/library/vibe-editor.php:2166
+msgid "Filterable Block Title"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:909
+msgid "Column Width(in px)"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:917
+msgid "Total Number of Blocks in screen"
+msgstr ""
+
+#: metaboxes/library/vc-mapper/vc-mapper.php:970
+msgid "This is the custom shortcode"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:488 metaboxes/library/vibe-editor.php:571
+msgctxt "no user found in selection in page builder member block"
+msgid "No terms found."
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:645 metaboxes/library/vibe-editor.php:820
+#: metaboxes/library/vibe-editor.php:896 metaboxes/library/vibe-editor.php:971
+msgctxt "no user found in selection in page builder member block"
+msgid "No user found."
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1584
+msgid "Loading.."
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1585
+msgid "No more to load"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1939
+msgid "Confirm Delete?"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1939
+msgid "Saving..."
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1939
+msgid "Saved."
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2006
+msgid "Carousels/Rotating Blocks"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2016
+#: metaboxes/library/vibe-editor.php:2171
+#: metaboxes/library/vibe-editor.php:2281
+#: metaboxes/library/vibe-editor.php:2668
+#: metaboxes/library/vibe-editor.php:2797
+msgid "Show Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2023
+#: metaboxes/library/vibe-editor.php:2675
+msgid "Show more link"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2030
+#: metaboxes/library/vibe-editor.php:2682
+msgid "More Link (User redirected to this page on click)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2036
+#: metaboxes/library/vibe-editor.php:2688
+#: metaboxes/library/vibe-editor.php:2987
+#: metaboxes/library/vibe-editor.php:2994
+#: metaboxes/library/vibe-editor.php:3000
+msgid "Show Direction arrows"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2043
+#: metaboxes/library/vibe-editor.php:2695
+#: metaboxes/library/vibe-editor.php:3006
+msgid "Show Control dots"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2051
+msgid ""
+"Enter Post Type<br /><span style=\"font-size:11px;\">(Select Post Type from "
+"Posts/Courses/Clients/Products ...)</span>"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2054
+#: metaboxes/library/vibe-editor.php:2180
+#: metaboxes/library/vibe-editor.php:2290
+msgid "post"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2058
+#: metaboxes/library/vibe-editor.php:2294
+msgid ""
+"Enter Taxonomy Slug (optional)<br /><span style=\"font-size:11px;\">(A "
+"\"Taxonomy\" is a grouping mechanism for posts. Like Category for Posts, "
+"Tags for Posts, Portfolio Type for Portfolio etc.. <a href=\"http://codex."
+"wordpress.org/Taxonomies\">more</a>)</span> "
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2064
+msgid ""
+"Enter Taxonomy Term Slug (optional, only if above is selected, comma "
+"saperated for multiple terms): "
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2069
+msgid "Or Enter Specific Post Ids"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2074
+#: metaboxes/library/vibe-editor.php:2193
+#: metaboxes/library/vibe-editor.php:2311
+msgid "Course Types [Only for Post type = Course]"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2087
+#: metaboxes/library/vibe-editor.php:2206
+#: metaboxes/library/vibe-editor.php:2324
+msgid "recent"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2090
+msgid "Carousel/Rotating Block Style"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2093
+#: metaboxes/library/vibe-editor.php:2212
+#: metaboxes/library/vibe-editor.php:2330
+msgid "excerpt"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2096
+#: metaboxes/library/vibe-editor.php:2730
+#: metaboxes/library/vibe-editor.php:3012
+msgid "Auto slide/rotate"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2102
+#: metaboxes/library/vibe-editor.php:2736
+#: metaboxes/library/vibe-editor.php:3018
+msgid "Width each crousel block"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2104
+#: metaboxes/library/vibe-editor.php:2738
+#: metaboxes/library/vibe-editor.php:3020
+msgid "268"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2109
+#: metaboxes/library/vibe-editor.php:2743
+#: metaboxes/library/vibe-editor.php:3025
+msgid "4"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2112
+#: metaboxes/library/vibe-editor.php:2746
+#: metaboxes/library/vibe-editor.php:3028
+msgid "Minimum Number of blocks in one Screen"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2114
+#: metaboxes/library/vibe-editor.php:2748
+#: metaboxes/library/vibe-editor.php:3030
+msgid "2"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2117
+#: metaboxes/library/vibe-editor.php:2751
+#: metaboxes/library/vibe-editor.php:3033
+msgid "Move blocks in one slide"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2122
+#: metaboxes/library/vibe-editor.php:2756
+#: metaboxes/library/vibe-editor.php:3038
+msgid "Total Number of Blocks"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2124
+#: metaboxes/library/vibe-editor.php:2233
+#: metaboxes/library/vibe-editor.php:2367
+#: metaboxes/library/vibe-editor.php:2758
+#: metaboxes/library/vibe-editor.php:2859
+#: metaboxes/library/vibe-editor.php:3040
+msgid "6"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2128
+msgid "Excerpt Length in Block (in characters)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2130
+#: metaboxes/library/vibe-editor.php:2228
+#: metaboxes/library/vibe-editor.php:2387
+msgid "100"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2133
+#: metaboxes/library/vibe-editor.php:2761
+msgid "Show Link button on image hover"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2139
+#: metaboxes/library/vibe-editor.php:2249
+#: metaboxes/library/vibe-editor.php:2398
+#: metaboxes/library/vibe-editor.php:2433
+#: metaboxes/library/vibe-editor.php:2514
+#: metaboxes/library/vibe-editor.php:2630
+#: metaboxes/library/vibe-editor.php:2767
+#: metaboxes/library/vibe-editor.php:2864
+#: metaboxes/library/vibe-editor.php:2910
+#: metaboxes/library/vibe-editor.php:2953
+#: metaboxes/library/vibe-editor.php:3043
+#: metaboxes/library/vibe-editor.php:3073
+msgid "Show Advanced settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2144
+#: metaboxes/library/vibe-editor.php:2254
+#: metaboxes/library/vibe-editor.php:2403
+#: metaboxes/library/vibe-editor.php:2444
+#: metaboxes/library/vibe-editor.php:2525
+#: metaboxes/library/vibe-editor.php:2641
+#: metaboxes/library/vibe-editor.php:2772
+#: metaboxes/library/vibe-editor.php:2869
+#: metaboxes/library/vibe-editor.php:2915
+#: metaboxes/library/vibe-editor.php:2958
+#: metaboxes/library/vibe-editor.php:3048
+#: metaboxes/library/vibe-editor.php:3078
+#: metaboxes/library/vibe-editor.php:3174
+msgid "* Custom Class name (Add Custom Class to this Block)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2148
+#: metaboxes/library/vibe-editor.php:2258
+#: metaboxes/library/vibe-editor.php:2407
+#: metaboxes/library/vibe-editor.php:2448
+#: metaboxes/library/vibe-editor.php:2529
+#: metaboxes/library/vibe-editor.php:2645
+#: metaboxes/library/vibe-editor.php:2776
+#: metaboxes/library/vibe-editor.php:2873
+#: metaboxes/library/vibe-editor.php:2919
+#: metaboxes/library/vibe-editor.php:2962
+#: metaboxes/library/vibe-editor.php:3052
+#: metaboxes/library/vibe-editor.php:3082
+#: metaboxes/library/vibe-editor.php:3178
+msgid "* Class for on containing Layout column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2152
+#: metaboxes/library/vibe-editor.php:2262
+#: metaboxes/library/vibe-editor.php:2411
+#: metaboxes/library/vibe-editor.php:2452
+#: metaboxes/library/vibe-editor.php:2533
+#: metaboxes/library/vibe-editor.php:2649
+#: metaboxes/library/vibe-editor.php:2780
+#: metaboxes/library/vibe-editor.php:2877
+#: metaboxes/library/vibe-editor.php:2923
+#: metaboxes/library/vibe-editor.php:2966
+#: metaboxes/library/vibe-editor.php:3056
+#: metaboxes/library/vibe-editor.php:3086
+#: metaboxes/library/vibe-editor.php:3182
+msgid ""
+"* Add Custom CSS (Use <strong>.</strong> for class name, <strong>:hover</"
+"strong> for hover styles etc..)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2162
+msgid "Filterable Posts"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2177
+msgid "Select a Post Type"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2183
+msgid ""
+"Enter relevant Taxonomy name used for Filter buttons (example : course-cat,"
+"event-type..)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2188
+msgid "Enter terms (comma saperated term slugs) to be \"excluded\" in filters"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2209
+#: metaboxes/library/vibe-editor.php:2327
+msgid "Featured Media Block Style"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2215
+msgid "Show All link"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2221
+msgid "Column Width (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2231
+msgid "Total Number of blocks"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2236
+msgid "Show Pagination"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2243
+msgid "Show Link [Links to Post]"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2272
+msgid "Post Grid"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2276
+#: metaboxes/library/vibe-editor.php:2792
+msgid "Grid Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2287
+msgid "Custom Post Type"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2300
+msgid ""
+"Enter Taxonomy Term Slugs (optional, only if above is selected, comma "
+"saperated if multiple): "
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2306
+msgid "Or Enter Specific Post Ids (comma saperated)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2334
+msgid "Grid Masonry Layout"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2341
+msgid "Grid Columns"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2371
+msgid "Infinite Scroll"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2378
+msgid "Enable Pagination (If infinite scroll is off)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2391
+msgid "Show Link"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2420
+msgid "WP Editor"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2423
+#: metaboxes/library/vibe-editor.php:2464
+#: metaboxes/library/vibe-editor.php:2550
+msgid "Reference Title"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2438
+#: metaboxes/library/vibe-editor.php:2519
+#: metaboxes/library/vibe-editor.php:2635
+msgid ""
+"* On-Load CSS3 Animation effect on the block (<a href=\"http://vibethemes."
+"com/documentation/wplms/knowledge-base/css3-transitions-in-page-builder/\" "
+"target=\"_blank\">more</a>)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2461
+msgid "Parallax Content"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2466
+msgid "Parallax Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2474
+msgid "Upload Parallax Background image"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2479
+msgid "Background Effect"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2482
+msgid "Image Scrolls with scroll"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2483
+msgid "Image Static with Scroll"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2484
+msgid "Full Parallax Static with Scroll"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2489
+msgid "Parallax Block Height (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2494
+msgid "Parallax value (Scroll senstivity, lower value means higher scroll)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2499
+msgid "Adjust background (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2504
+msgid "Top Padding(in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2509
+msgid "Bottom Padding(in px)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2547
+msgid "Featured Content"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2552
+msgid "reference Title"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2555
+msgid "Content Style"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2561
+msgid "Upload Image (Optional)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2566
+msgid "Select Icon (Optional)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2576
+msgid "Style settings"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2581
+msgid "Icon Size/Image Width (in px)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2586
+msgid "Icon Color"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2591
+msgid "Top Padding / Top Spacing (in px)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2596
+msgid "Bottom Padding / Bottom Spacing (in px)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2601
+msgid "Background Color"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2606
+msgid "Text Color"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2611
+msgid "Border"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2620
+msgid "Border width"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2625
+msgid "border Color"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2658
+msgid "Member Carousels/Rotating Blocks"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2788
+msgid "Member Grid"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2803
+msgid "Member Type"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2814
+msgid "Exclude Specific Member Ids (comma saperated)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2831
+msgid "Grid Layout"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2846
+msgid ""
+"Block Size (in px) Or number of blocks in 1 row based on smallest block size "
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2902
+msgid "Revolution Slider"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2905
+#: metaboxes/library/vibe-editor.php:2948
+msgid "Select Slider"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2945
+msgid "Layer Slider"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2974
+msgid "Course Category Carousel"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2996
+msgid "Decending"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2996
+msgid "Ascending"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3067
+msgid "Select a Sidebar"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3070
+msgid "MainSidebar"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3094
+msgid "FlexSlider"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3097
+msgid "Slider ID (for reference & Css)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3102
+msgid "Slide Style"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3114
+msgid "Animation Effect"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3116
+msgid "fade"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3116
+msgid "slide"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3121
+msgid "Slider settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3126
+msgid "Auto slide Images"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3132
+msgid "Loop Slides"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3138
+msgid "Randomize Slides"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3144
+msgid "Show Slider Direction arrows"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3150
+msgid "Show Slider Control buttons"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3156
+msgid "Animation Duration (in ms)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3162
+msgid "Auto Animation Speed (in ms)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3167
+msgid "Pause Slider On Hover"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3199
+msgid "1/2 Column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3200
+msgid "1/3 Column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3201
+msgid "1/4 Column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3202
+msgid "1/4 Column & 1/2 Column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3203
+msgid "2/3 Column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3204
+msgid "3/4 Column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3205
+msgid "Full-Width Resizable Column"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3206
+msgid "FullScreen Stripe with Container"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3207
+msgid "FullScreen Stripe"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3232
+msgid "COLUMNS"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3233
+msgid "CONTENT"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3234
+msgid "SAVED LAYOUTS"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3285
+msgid "Enter name of Sample Layout"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3286
+msgid "Save Layout"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3296
+#: metaboxes/library/vibe-editor.php:3392
+#: metaboxes/library/vibe-editor.php:3519
+msgid "Save Changes"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3297
+msgid "Save as New Layout"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3298
+msgid "Generated Shortcode"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:3593
+msgid "Show Page Content"
+msgstr ""
+
+#: metaboxes/meta_box.php:381 metaboxes/meta_box.php:543
+#: metaboxes/meta_box.php:547
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: metaboxes/meta_box.php:392
+#, php-format
+msgid "Select multiple %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:470
+msgid "Latitude"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:471
+msgid "Longitude"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:472
+msgid "Closest Matching Address"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:475
+msgid "Street Address"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:476
+msgid "City"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:477
+msgid "State"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:478
+msgid "Zip/Pin Code"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:479
+msgid "Country"
+msgstr ""
+
+#: metaboxes/meta_box.php:487
+msgid "Select a group"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:496 metaboxes/meta_box.php:519
+msgid "Buddypress Groups is not Active"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:504
+msgid "Select groups"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:525
+msgid "Add Section"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:556
+msgid "Select "
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:567
+msgid "Select Taxonomy"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:585 metaboxes/meta_box.php:705
+#: metaboxes/meta_box.php:726 metaboxes/meta_box.php:744
+#: metaboxes/meta_box.php:764 metaboxes/meta_box.php:794
+msgid "Add More"
+msgstr ""
+
+#: metaboxes/meta_box.php:636 metaboxes/meta_box.php:651
+msgid "Number of questions to pull"
+msgstr ""
+
+#: metaboxes/meta_box.php:637
+msgid "Marks for pulled questions"
+msgstr ""
+
+#: metaboxes/meta_box.php:644
+msgid "Select Tag"
+msgstr ""
+
+#: metaboxes/meta_box.php:652
+msgid "Marks per question"
+msgstr ""
+
+#: metaboxes/meta_box.php:656
+msgid "Total Question Count :"
+msgstr ""
+
+#: metaboxes/meta_box.php:656
+msgid "Total Marks :"
+msgstr ""
+
+#: metaboxes/meta_box.php:678
+msgid "Choose Image"
+msgstr ""
+
+#: metaboxes/meta_box.php:679
+msgid "Remove Image"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:684
+msgid "Add Question"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:697 metaboxes/meta_box.php:698
+msgid "Type Question"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:809 metaboxes/meta_box.php:818
+msgid "Marks for a Correct answer"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:822
+msgid "Total marks for the Quiz :"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:848
+msgid "Delete image"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:862
+msgid "Add Gallery images"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:888
+msgid "Add Images to Gallery"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:890
+msgid "Add to Gallery"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:990
+msgid "Delete audio file"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:1004
+msgid "Add Audio Files"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:1030 metaboxes/meta_box.php:1032
+msgid "Add Audio"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:1132
+msgid "Delete video file"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:1146 metaboxes/meta_box.php:1172
+msgid "Add Video Files"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:1174
+msgid "Add Video"
+msgstr ""
+
+#: metaboxes/meta_box.php:1291 metaboxes/meta_box.php:1319
+msgid "Add Attachments"
+msgstr ""
+
+#: metaboxes/meta_box.php:1321
+msgid "Add Attachment"
+msgstr ""

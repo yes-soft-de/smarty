@@ -12,19 +12,13 @@
 
 defined( 'ABSPATH' ) || exit;
 ?>
-
 <?php get_header( 'llms_loop' ); ?>
 
 <?php do_action( 'lifterlms_before_main_content' ); ?>
 
 <?php if ( apply_filters( 'lifterlms_show_page_title', true ) ) : ?>
-	<div class="container-courses-header-image">
-		<div class="container">
-			<h1 class="page-title"><?php lifterlms_page_title(); ?></h1>
-			<h5>TAKE A DEEP BREATH</h5>
-		</div>
-	</div>
 
+	<h1 class="page-title"><?php lifterlms_page_title(); ?></h1>
 
 <?php endif; ?>
 

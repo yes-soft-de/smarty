@@ -1,0 +1,240 @@
+{
+	"group-layout": [
+    {
+      "type_title": "Group Layouts",
+      "post_id": 321,
+      "post_title": "Default",
+      "post_status": "publish",
+      "post_name": "default",
+      "post_content": "<a href=\"https://demos.wplms.io/groups/\"><img src=\"https://demos.wplms.io/wp-content/plugins/buddypress/bp-core/images/mystery-group.png\" style=\"width:320px;border-radius:5px;\" /></a>\t\t\n\t\t\t<h2 style=\"font-family: Muli font_size:32px;\"><a href=\"https://demos.wplms.io/groups/ux-basics/\">UX Basics</a></h2>\t\t\n\t\t<p>Created</p>\t\t\n\t\t\t50 years, 6 months ago\t\t\n\t\t<p>Type</p>\t\t\n\t\t<p>Last Active</p>\t\t\n\t\t\t1 week, 1 day ago\t\t\n\t\t<p>Total Members</p>\t\t\n\t\t\t0\t\t\n\t\t<p>About</p>\t\t\n\t\t\t <p>Groups for UX Basics</p>\n\t\t<p>Members</p>\t\t\n\t\t\t <a href=\"\"><img src=\"\" ></a><a href=\"\"><img src=\"\" ></a>",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2020-07-05 18:11:39",
+      "post_date_gmt": "2020-07-05 18:11:39",
+      "guid": "https://demos.wplms.io/?post_type=group-layout&#038;p=321",
+      "post_mime_type": "",
+      "meta_input": {
+        "_elementor_edit_mode": "builder",
+        "_elementor_template_type": "wp-post",
+        "_elementor_version": "2.9.13",
+        "_wp_page_template": "default",
+        "_elementor_data": "[{\"id\":\"e7c9aac\",\"elType\":\"section\",\"settings\":{\"structure\":\"21\"},\"elements\":[{\"id\":\"4e7a50e\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null},\"elements\":[{\"id\":\"1dd067d\",\"elType\":\"widget\",\"settings\":{\"border-radius\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"group_avatar\"}],\"isInner\":false},{\"id\":\"bff6aa2\",\"elType\":\"column\",\"settings\":{\"_column_size\":66,\"_inline_size\":null},\"elements\":[{\"id\":\"327bc92\",\"elType\":\"widget\",\"settings\":{\"font_size\":{\"unit\":\"px\",\"size\":32,\"sizes\":[]},\"font_family\":\"Muli\"},\"elements\":[],\"widgetType\":\"group_title\"},{\"id\":\"b6433da\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Created<\\/p>\",\"align\":\"left\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_element_width\":\"auto\",\"_element_vertical_align\":\"center\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"6614d27\",\"elType\":\"widget\",\"settings\":{\"data\":\"create_date\",\"_element_width\":\"auto\"},\"elements\":[],\"widgetType\":\"group_data\"},{\"id\":\"f2d96f2\",\"elType\":\"widget\",\"settings\":{\"data\":\"last_status_update\",\"_padding\":{\"unit\":\"px\",\"top\":\"20\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"group_data\"},{\"id\":\"a378244\",\"elType\":\"section\",\"settings\":{\"structure\":\"30\"},\"elements\":[{\"id\":\"ca69ba1\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null},\"elements\":[{\"id\":\"77e2cad\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Type<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"e540d4a\",\"elType\":\"widget\",\"settings\":{\"data\":\"group_status\"},\"elements\":[],\"widgetType\":\"group_data\"}],\"isInner\":true},{\"id\":\"a915138\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null},\"elements\":[{\"id\":\"81c5a2d\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Last Active<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"a18488a\",\"elType\":\"widget\",\"settings\":{\"data\":\"last_active\"},\"elements\":[],\"widgetType\":\"group_data\"}],\"isInner\":true},{\"id\":\"f9e59c0\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null},\"elements\":[{\"id\":\"9166888\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Total Members<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"f091fd4\",\"elType\":\"widget\",\"settings\":{\"data\":\"member_count\"},\"elements\":[],\"widgetType\":\"group_data\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false},{\"id\":\"1060b0f\",\"elType\":\"section\",\"settings\":{\"structure\":\"22\"},\"elements\":[{\"id\":\"98a5642\",\"elType\":\"column\",\"settings\":{\"_column_size\":66,\"_inline_size\":null},\"elements\":[{\"id\":\"ad771c3\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>About<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"087bef8\",\"elType\":\"widget\",\"settings\":{\"font_Size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"text_color\":\"#363636\"},\"elements\":[],\"widgetType\":\"group_description\"}],\"isInner\":false},{\"id\":\"5228e7b\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null},\"elements\":[{\"id\":\"0f6e42d\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Members<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"6c1de06\",\"elType\":\"widget\",\"settings\":[],\"elements\":[],\"widgetType\":\"group_members\"}],\"isInner\":false}],\"isInner\":false}]",
+        "_elementor_controls_usage": {
+          "group_avatar": {
+            "count": 1,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "border-radius": 1
+                }
+              }
+            }
+          },
+          "column": {
+            "count": 7,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "layout": {
+                  "_inline_size": 7
+                }
+              }
+            }
+          },
+          "group_title": {
+            "count": 1,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "font_size": 1,
+                  "font_family": 1
+                }
+              }
+            }
+          },
+          "text-editor": {
+            "count": 6,
+            "control_percent": 0,
+            "controls": {
+              "content": {
+                "section_editor": {
+                  "editor": 6
+                }
+              },
+              "style": {
+                "section_style": {
+                  "align": 1
+                }
+              },
+              "advanced": {
+                "_section_style": {
+                  "_margin": 1
+                },
+                "_section_position": {
+                  "_element_width": 1,
+                  "_element_vertical_align": 1
+                }
+              }
+            }
+          },
+          "group_data": {
+            "count": 5,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "data": 5
+                }
+              },
+              "advanced": {
+                "_section_position": {
+                  "_element_width": 1
+                },
+                "_section_style": {
+                  "_padding": 1
+                }
+              }
+            }
+          },
+          "section": {
+            "count": 3,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "section_structure": {
+                  "structure": 3
+                }
+              }
+            }
+          },
+          "group_description": {
+            "count": 1,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "font_Size": 1,
+                  "text_color": 1
+                }
+              }
+            }
+          },
+          "group_members": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": []
+          }
+        },
+        "_elementor_css": {
+          "0": "",
+          "time": 1594004490,
+          "fonts": [
+            "Muli"
+          ],
+          "icons": [],
+          "status": "file"
+        }
+      },
+      "terms": []
+    }
+  ],
+  "group-card": [
+    {
+      "type_title": "Group Card",
+      "post_id": 324,
+      "post_title": "Default",
+      "post_status": "publish",
+      "post_name": "default",
+      "post_content": "<a href=\"https://demos.wplms.io/groups/\"><img src=\"https://demos.wplms.io/wp-content/plugins/buddypress/bp-core/images/mystery-group.png\" style=\"width:320px;border-radius:5px;\" /></a>\t\t\n\t\t\t<h2 style=\"font-family: 'Open Sans', sans-serif font_size:24px;\"><a href=\"https://demos.wplms.io/groups/ux-basics/\">UX Basics</a></h2>\t\t\n\t\t<p>Last Active</p>\t\t\n\t\t\t1 week, 1 day ago\t\t\n\t\t<p>Members</p>\t\t\n\t\t\t0",
+      "post_excerpt": "",
+      "post_parent": 0,
+      "menu_order": 0,
+      "post_date": "2020-07-06 03:03:31",
+      "post_date_gmt": "2020-07-06 03:03:31",
+      "guid": "https://demos.wplms.io/?post_type=group-card&#038;p=324",
+      "post_mime_type": "",
+      "meta_input": {
+        "_elementor_edit_mode": "builder",
+        "_elementor_template_type": "wp-post",
+        "_elementor_version": "2.9.13",
+        "_wp_page_template": "default",
+        "_elementor_data": "[{\"id\":\"2195fe8\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"93eb1d2\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"6151f9a\",\"elType\":\"widget\",\"settings\":{\"border-radius\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"group_avatar\"},{\"id\":\"4e89697\",\"elType\":\"widget\",\"settings\":[],\"elements\":[],\"widgetType\":\"group_title\"},{\"id\":\"33343ee\",\"elType\":\"widget\",\"settings\":{\"data\":\"last_status_update\"},\"elements\":[],\"widgetType\":\"group_data\"},{\"id\":\"cdde7e8\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"e90ee1c\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"c844a16\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Last Active<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"c1ab15d\",\"elType\":\"widget\",\"settings\":{\"data\":\"last_active\"},\"elements\":[],\"widgetType\":\"group_data\"}],\"isInner\":true},{\"id\":\"d2cda07\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"b58d076\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Members<\\/p>\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"b5e3e5a\",\"elType\":\"widget\",\"settings\":{\"data\":\"member_count\"},\"elements\":[],\"widgetType\":\"group_data\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false}]",
+        "_elementor_controls_usage": {
+          "group_avatar": {
+            "count": 1,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "border-radius": 1
+                }
+              }
+            }
+          },
+          "group_title": {
+            "count": 1,
+            "control_percent": 0,
+            "controls": []
+          },
+          "group_data": {
+            "count": 3,
+            "control_percent": 1,
+            "controls": {
+              "content": {
+                "content_section": {
+                  "data": 3
+                }
+              }
+            }
+          },
+          "text-editor": {
+            "count": 2,
+            "control_percent": 0,
+            "controls": {
+              "content": {
+                "section_editor": {
+                  "editor": 2
+                }
+              }
+            }
+          },
+          "column": {
+            "count": 3,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "layout": {
+                  "_inline_size": 3
+                }
+              }
+            }
+          },
+          "section": {
+            "count": 2,
+            "control_percent": 0,
+            "controls": {
+              "layout": {
+                "section_structure": {
+                  "structure": 1
+                }
+              }
+            }
+          }
+        },
+        "_elementor_css": {
+          "0": "",
+          "time": 1594005573,
+          "fonts": [
+            "'Open Sans', sans-serif"
+          ],
+          "icons": [],
+          "status": "file"
+        }
+      },
+      "terms": []
+    }
+  ]
+}

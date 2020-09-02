@@ -15,14 +15,7 @@ if ( ! in_array( $title_tag, array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' ) ) ) {
 }
 ?>
 
-<?php $request_uri = explode('/', $_SERVER['REQUEST_URI']);
-	if ( in_array('prewelness', $request_uri, false) ):
-    $classDisplay = 'd-none';
-  else:
-	  $classDisplay = '';
-  endif;
-?>
-<div class="llms-meta-info <?php echo $classDisplay; ?>">
-  <<?php echo $title_tag; ?> class="llms-meta-title">
-    <?php echo apply_filters( 'llms_course_meta_info_title', _x( 'Course Information', 'course meta info title', 'lifterlms' ) ); ?>
-  </<?php echo $title_tag; ?>>
+<div class="llms-meta-info">
+	<<?php echo $title_tag; ?> class="llms-meta-title">
+		<?php echo apply_filters( 'llms_course_meta_info_title', _x( 'Course Information', 'course meta info title', 'lifterlms' ) ); ?>
+	</<?php echo $title_tag; ?>>

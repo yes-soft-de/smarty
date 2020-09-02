@@ -12,7 +12,6 @@ defined( 'ABSPATH' ) || exit;
  * @todo move these notices somewhere else
  * @var  LLMS_Course
  */
-
 $course = new LLMS_Course( get_the_ID() );
 
 if ( 'yes' === $course->get( 'time_period' ) ) {

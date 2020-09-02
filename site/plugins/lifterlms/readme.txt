@@ -1,20 +1,20 @@
-=== LifterLMS ===
+=== LMS by LifterLMS - Online Course, Membership & Learning Management System Plugin for WordPress ===
 Contributors: thomasplevy, chrisbadgett, d4z_c0nf, lifterlms, codeboxllc
 Donate link: https://lifterlms.com
 Tags: learning management system, LMS, membership, elearning, online courses, quizzes, sell courses, badges, gamification, learning, Lifter, LifterLMS
-Requires at least: 4.8
-Requires PHP: 7.2
-Tested up to: 5.4
-Stable tag: 4.1.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Requires at least: 4.8
+Tested up to: 5.5
+Requires PHP: 7.2
+Stable tag: 4.3.3
 
 LifterLMS is a powerful WordPress learning management system plugin that makes it easy to create, sell, and protect engaging online courses and training based membership websites.
 
 
 == Description ==
 
-**LifterLMS is a powerful [WordPress LMS plugin][home] that makes it easy to create, sell, and protect engaging online courses and training based membership websites.** LifterLMS works with any well-coded WordPress theme and all the popular WordPress page builders (like Elementor, Beaver Builder, Divi, etc.). As an engaged WordPress community member, LifterLMS actively encourages and helps other great plugins integrate with LifterLMS like Affiliate WP, Monster Insights, WP Fusion, the most popular form plugins, GamiPress, Astra Pro, the Course Scheduler, and many more. You can also connect your WordPress LMS website to 1,500+ other apps via Zapier. LifterLMS is one of only 11 WordPress plugins listed in the Zapier app directory. 
+**LifterLMS is a powerful [WordPress LMS plugin][home] that makes it easy to create, sell, and protect engaging online courses and training based membership websites.** LifterLMS works with any well-coded WordPress theme and all the popular WordPress page builders (like Elementor, Beaver Builder, Divi, etc.). As an engaged WordPress community member, LifterLMS actively encourages and helps other great plugins integrate with LifterLMS like Affiliate WP, Monster Insights, WP Fusion, the most popular form plugins, GamiPress, Astra Pro, the Course Scheduler, and many more. You can also connect your WordPress LMS website to 1,500+ other apps via Zapier. LifterLMS is one of only 11 WordPress plugins listed in the Zapier app directory.
 
 LifterLMS strikes a beautiful balance in being an **all-in-one solution** while also integrating with other best of breed technologies relevant to course creators and membership site owners.
 
@@ -31,7 +31,7 @@ LifterLMS is also known for having a thriving well supported user community thro
 
 ***
 
-> We encourage you to get to know us by signing up for a **[$1 temporary _30 Day_ website][try]** on our servers with the core LifterLMS plugin AND all the premium add-ons intalled. This demo allows you to test drive all the add-ons before you invest. You can even add your other favorite plugins & themes to your demo site so you can see them in action together. 
+> We encourage you to get to know us by signing up for a **[$1 temporary _30 Day_ website][try]** on our servers with the core LifterLMS plugin AND all the premium add-ons installed. This demo allows you to test drive all the add-ons before you invest. You can even add your other favorite plugins & themes to your demo site so you can see them in action together.
 
 > Are you ready to **[Try LifterLMS for $1][try]?** 🚀
 
@@ -70,7 +70,7 @@ The LifterLMS team is a **diverse group of talented course creators, developers,
 
 Because 5 years ago we couldn't find a plugin that provided a rock solid _all-in-one_ foundation for training websites, we decided to build LifterLMS and **contribute the core plugin to you and the WordPress community**.
 
-> LifterLMS is course & membership creation software built by course creators and a talented technical team. We understand WordPress, ecommerce, eLearning, engaegment, gamification, conversion optimization, the website building insudtry, and the needs of the online teacher coach, and training professional.
+> LifterLMS is course & membership creation software built by course creators and a talented technical team. We understand WordPress, ecommerce, eLearning, engagement, gamification, conversion optimization, the website building industry, and the needs of the online teacher coach, and training professional.
 
 You can learn more about **[the people behind LifterLMS here][team]**.
 
@@ -191,14 +191,14 @@ _LifterLMS plus one payment gateway like [Stripe][stripe] or [PayPal][pp] is pow
 + LMS Roles
 + Security
 + Require terms
-+ Scaleable
++ Scalable
 + Layout
 + Testing tools
 
 #### **Get Support**
 
 + Technical support
-+ 30 Days of live weekly onboading calls called [Liftoff Sessions][lift]
++ 30 Days of live weekly onboarding calls called [Liftoff Sessions][lift]
 + [Live office hours][oh]
 + [Free training courses][aca]
 + [Free training webinars][webinar]
@@ -208,14 +208,14 @@ _LifterLMS plus one payment gateway like [Stripe][stripe] or [PayPal][pp] is pow
 + Demo course
 + System analyzer
 + User community
-+ [REST API](https://developer.lifterlms.com/rest-api/) 
++ [REST API](https://developer.lifterlms.com/rest-api/)
 + [Developer ecosystem][devblog]
 + [Recommended Resources][resources] for course creators
 
 #### **Further Reading**
 
 + The [LifterLMS Official Homepage][home]
-+ The [LifterLMS Knowledgebase][docs]
++ The [LifterLMS Knowledge base][docs]
 + The [LifterLMS Blog][blog]
 + The [LifterLMS Podcast][podcast]
 + The [LifterLMS Academy][aca]
@@ -275,7 +275,7 @@ _Save money while unlocking the full potential of your learning platform_
 _There are many ways to take LifterLMS for a test drive_
 
 + Go ahead and install the free core LifterLMS plugin right now
-+ Get a temporary _30 Day_ website on our servers with the core LifterLMS plugin AND all the premium add-ons intalled. This demo website allows you to test drive all the add-ons before you invest. You can even add your other favorite plugins & themes, but this demo site is not something you get to keep after the 30 days are over. **[Try LifterLMS for $1][try]** now.
++ Get a temporary _30 Day_ website on our servers with the core LifterLMS plugin AND all the premium add-ons installed. This demo website allows you to test drive all the add-ons before you invest. You can even add your other favorite plugins & themes, but this demo site is not something you get to keep after the 30 days are over. **[Try LifterLMS for $1][try]** now.
 + Another way to test LifterLMS out is to see what the student experience is like. Take a **free** course on how to build a LifterLMS website in 20 minutes. [Take a Free Course][demo] now.
 
 
@@ -514,9 +514,72 @@ You can review our full security policy at [https://lifterlms.com/security-polic
 
 == Changelog ==
 
+= v4.3.3 - 2020-08-17 =
+
++ Fixed an issue causing legends of reporting charts to be truncated and only readable after a mouse hover.
++ Fixed an issue caused by passing `null` values to `wp_insert_post()`.
++ Fixed a javascript error encountered on LifterLMS settings screens.
+
+
+= v4.3.2 - 2020-08-10 =
+
++ WP 5.5 compatibility: Automatically deregister "protected" post types from wp-sitemap.xml.
+
+
+= v4.3.1 - 2020-08-06 =
+
++ When resetting tracking data cookies, set a "secure" cookie where possible.
++ Catch an unhandled error encountered when generating certificate exports.
++ When an error is encountered during certificate export generation, display an error notice instead of a general notice.
+
+
+= v4.3.0 - 2020-07-28 =
+
+##### Security Fix
+
++ Fixed an XSS issue on account edit and registration forms. Thanks to [Morningstar](https://twitter.com/0xMstar) for reporting this issue!
+
+##### Bug fixes
+
++ Fixed an error encountered during customizer live theme preview encountered when Twenty-twenty is the current theme.
++ The `$type` property of the `LLMS_Abstract_Database_Store` is now set to a default placeholder value (`_db_record_`) in favor of an empty string.
++ Set the `$type` property of the `LLMS_Event` class to `event`.
++ Set the `$type` property of the `LLMS_Quiz_Attempt` class to `quiz_attempt`.
++ Set the `$type` property of the `LLMS_User_Post_Meta` class to `user_postmeta`.
+
+##### Updates
+
++ Added a filter `llms_form_field_args` to allow extending form fields prior to HTML rendering.
+
+##### Deprecations
+
+The following filter hooks have been deprecated. These hooks were being called as the result of a bug (noted above) and should no longer be used. They will be removed in the next *major* version of LifterLMS.
+
++ `llms__created` has been deprecated, use `llms_{$type}_created` where `{$type}` is the database record type defined by the class property.
++ `llms__deleted` has been deprecated, use `llms_{$type}_deleted` where `{$type}` is the database record type defined by the class property.
++ `llms__updated` has been deprecated, use `llms_{$type}_updated` where `{$type}` is the database record type defined by the class property.
+
+
+= v4.2.0 - 2020-07-21 =
+
+##### Updates
+
++ Admins can now preview the checkout screen as visitors or students using the "View As" function from the WP Admin bar
++ Javascript cookies now set cookies with `sameSite` set to `strict` as recommended by Firefox/Mozilla.
++ Added filters to allow 3rd parties to use LifterLMS completion tracking APIs to "complete" external or non-LMS content.
++ Added "deep" orphan checks when checking the relationship between a quiz and a lesson.
++ Normalized the return structure in `LLMS_Post_Instructors::get_instructors()` when no instructor set, thanks [@nicolas-jaussaud](https://github.com/nicolas-jaussaud)!
++ Update LifterLMS rocket icon used in the WP Admin Bar in the "View As" area.
+
+##### Bug fixes
+
++ When deleting a quiz attempt the related lesson will now be automatically marked as "Incomplete" when appropriate.
++ `LLMS_Abstract_User_Data::get_id()` now always returns an integer.
++ Fixed a 404 error resulting from settings tooltips referencing a missing icon asset.
++ Added logic to set the order status to 'cancelled' when an enrollment linked to an order is deleted.
+
 
 = v4.1.0 - 2020-07-06 =
------------------------
 
 ##### LifterLMS REST 1.0.0-beta.14
 
@@ -525,7 +588,6 @@ You can review our full security policy at [https://lifterlms.com/security-polic
 
 
 = v4.0.0 - 2020-06-25 =
------------------------
 
 This is a *major* release. Many backwards incompatible changes have been made that may affect your site if you have custom code which rely on previously deprecated functions or methods. If you're not sure about your custom code, test the upgrade in a [staging site](https://lifterlms.com/docs/staging/).
 
@@ -741,19 +803,16 @@ These classes are not used by the LifterLMS core or add-ons and are a legacy cla
 
 
 = v3.41.1 - 2020-06-23 =
-------------------------
 
 + Apply restrictions to post content and excerpts during WP REST requests.
 
 
-v4.0.0-rc.1 - 2020-06-18
-----------------------------
+= v4.0.0-rc.1 - 2020-06-18 =
 
 View release notes at [https://make.lifterlms.com/2020/06/18/lifterlms-version-4-0-0-rc-1/](https://make.lifterlms.com/2020/06/18/lifterlms-version-4-0-0-rc-1/).
 
 
 = v3.41.0 - 2020-06-12 =
-------------------------
 
 ##### Bug Fixes
 
@@ -828,134 +887,4 @@ The following template file is deprecated:
 + `templates/loop/view-link.php`
 
 
-v4.0.0-beta.3 - 2020-06-10
-------------------------------
-
-View beta release notes at [https://make.lifterlms.com/2020/06/10/lifterlms-version-4-0-0-beta-3/](https://make.lifterlms.com/2020/06/10/lifterlms-version-4-0-0-beta-3/).
-
-
-= v3.40.0 - 2020-06-09 =
-------------------------
-
-##### Updates
-
-+ Adds a 1-click installation connector for the MailHawk email delivery plugin.
-
-##### Bugfixes
-
-+ Fixed an issue encountered during checkout when using a coupon against an access plan with a free trial.
-
-##### Deprecations
-
-+ `LLMS_SendWP::do_remote_install()` will be converted to a protected method and should no longer be called directly.
-+ `LLMS_Abstract_Email_Provider::output_css()`
-
-##### Templates updated
-
-+ templates/checkout/form-gateways.php
-
-
-v4.0.0-beta.2 - 2020-06-04
-------------------------------
-
-View beta release notes at [https://make.lifterlms.com/2020/06/04/lifterlms-version-4-0-0-beta-2/](https://make.lifterlms.com/2020/06/04/lifterlms-version-4-0-0-beta-2/).
-
-
-v4.0.0-beta.1 - 2020-06-01
-------------------------------
-
-View beta release notes at [https://make.lifterlms.com/2020/06/01/lifterlms-version-4-0-0-beta-1/](https://make.lifterlms.com/2020/06/01/lifterlms-version-4-0-0-beta-1/).
-
-
-= v3.39.0 - 2020-05-28 =
-------------------------
-
-+ Student Welcome notifications and user registered engagements now fire when users are created via the REST POST requests to the `/students` endpoint.
-+ Bugfix: Error encountered when printing full-page certificates on certain themes.
-
-##### LifterLMS REST 1.0.0-beta.12
-
-+ Feature: Added the ability to filter student and instructor collection list requests by various user information fields.
-+ Fix: Prevent infinite loops encountered when invalid API keys are utilized.
-+ Fix: Add an action used to fire LifterLMS core engagement and notification emails
-
-
-= v3.38.2 - 2020-05-19 =
-------------------------
-
-+ Added a default question type ("choice") to prevent malformed questions from being inadvertently stored in the database.
-+ When retrieving question data from the database, automatically fall back to the default question type value if no question type is saved.
-
-
-= v3.38.1 - 2020-05-11 =
-------------------------
-
-+ Update: Added methods for retrieving a list of posts associated with a membership.
-+ Bug fix: Fixed an issue causing certificate backgrounds to be cropped or cut in certain circumstances.
-+ Bug fix: Fixed an issue generating certificate downloads on servers where `mime_content_type()` does not exist.
-+ Bug fix: Fixed an issue which caused bbPress course forum restrictions to stop working.
-
-
-= v3.38.0 - 2020-04-29 =
-------------------------
-
-##### Updates
-
-+ The output of course restriction errors which may prevent enrollment is now displayed in it's own template in favor of the logic being included in the `product/pricing-table.php` template.
-+ The course progress bar shortcode will now only display the progress bar to enrolled users. An additional option has been added to the shortcode to allow showing a 0% progress bar to non-enrolled users. [Read more](https://lifterlms.com/docs/shortcodes/#lifterlms_course_progress).
-+ The "Course Progress" widget now has an option to optionally display the progress bar to non-enrolled users. By default it will display only to enrolled students.
-+ Updates LifterLMS Blocks to version 1.9.0
-
-##### Bug fixes
-
-+ Fixed an issue causing free access plans to bypass course enrollment restrictions like capacity and enrollment time periods.
-+ Fixed an issue causing custom checkout success redirects to fail when using gateways that require a payment confirmation step. This fixes an issue in the LifterLMS PayPal payment gateway.
-+ Fixed an issue causing deprecation theme-compatibility related deprecation notices to be incorrectly thrown.
-+ Fixed spelling error in variable passed to the `product/pricing-table.php` template. The misspelled variable is still being passed to the variable for backwards compatibility.
-+ Updated the way notification background processors are dispatched. This fixes an issue in the LifterLMS Twilio add-on.
-
-##### Deprecations
-
-+ `LLMS_Notifications::dispatch_processors()` is deprecated in favor of async dispatching via `LLMS_Notifications::schedule_processors_dispatch()`.
-
-##### Templates Updated
-
-+ templates/product/pricing-table.php
-
-##### LifterLMS Blocks
-
-+ Update: Improved script dependencies definitions.
-+ Update: Updated asset paths for consistency with other LifterLMS projects.
-+ Update: Updated various WP Core references that have been deprecated (maintains backwards compatibility).
-+ Update: The Lesson Progression block is no longer rendered server-side in the block editor (minor performance improvement).
-+ Update: Converted the course progress block into a dynamic block. Fixes an issue allowing the progress block to be visible to non-enrolled students.
-+ Update: Added a filter on the output of the Pricing Table block: `llms_blocks_render_pricing_table_block`.
-+ Bug fix: Fixed an issue encountered when using the WP Core "Table" block.
-+ Bug fix: Fixed a few areas where `class` was being used instead of `className` to define CSS classes on elements in the block editor.
-+ Bug fix: Fixed a user-experience issues encountered on the Course Information block when all possible information is disabled.
-+ Bug fix: Fixed an issue causing visibility attributes to render on blocks that don't support them.
-+ Bug fix: Fixed an issue preventing 3rd party blocks from modifying default block visibility settings.
-+ Bug fix: Fixed a spelling error visible inside the block editor.
-+ Bug fix: Fixed an issue causing the "Course Progress" block to be shown to non-enrolled students and visitors.
-+ Bug fix: Removed redundant CSS from frontend.
-+ Bug fix: Stop outputting editor CSS on the frontend.
-+ Bug fix: Dynamic blocks with no content to render will now only output their empty render messages inside the block editor, not on the frontend.
-+ Changes to the Classic Editor Block:
-  + The classic editor block will no longer show block visibility settings because it is impossible to use those settings to filter the block on the frontend.
-  + In order to apply visibility settings to the classic editor block, place the Classic Editor within a "Group" block and apply visibility settings to the Group.
-
-
-= v3.37.19 - 2020-04-20 =
--------------------------
-
-##### Updates
-
-+ Added a new debugging tool to clear pending batches created by background processors.
-+ Added a new method `LLMS_Abstract_Notification_View::get_object()` which can be used by notification views to override the loading of the post (or object) which triggered the notification.
-
-##### Bug Fixes
-
-+ Added localization to strings on the coupon admin screen. Thanks [parfilov](https://github.com/parfilov)!
-+ Fixed issue encountered in metaboxes when the `$post` global variable is not set.
-
-[View the full changelog](https://make.lifterlms.com/tag/lifterlms/)
+[Read the full changelog](https://make.lifterlms.com/tag/lifterlms/)

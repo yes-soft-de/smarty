@@ -1,0 +1,5182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Course Module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-09 17:00+0530\n"
+"PO-Revision-Date: 2017-08-09 17:00+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: vibethemes <vibethemes@gmail.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Vul uw Envato Marktplaats gebruikersnaam in."
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Vul uw Envato Marktplaats API Key in."
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "De API \"set\" is een vereiste parameter."
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "De Envato Marktplaats \"item ID\" is een vereiste parameter."
+
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Er is een onverwachte HTTP fout opgetreden tijdens het API verzoek."
+
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "Probeer opnieuw"
+
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "Er is een probleem"
+
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"De plugin is bijgewerkt, maar niet opnieuw geactiveerd. Reactiveer de plugin "
+"manueel aub."
+
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "De plugin is bijgewerkt."
+
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "Plugin Updates."
+
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "Gebruikersnaam:"
+
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "Email:"
+
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Sleutel:"
+
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>Uw plugin update is <span style=\"kleur: groen\">actief</span></p>"
+
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Uw invoer is <span style=\"kleur:rood\">niet geldig</span>, automatische "
+"updates is <span style=\"kleur:rood \">niet actief </span>.</p>"
+
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "Bewerk Sleutel"
+
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p> Kan updateactivering niet valideren. </ p>"
+
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "Voeg sleutel toe"
+
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "Gebruikersnaam"
+
+#: autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "E-mail"
+
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest Gebruikersnaam (voor automatische updates)"
+
+#: includes/api/class-api-controller.php:242
+#: includes/api/class-api-controller.php:253
+#, php-format
+msgid "Method '%s' not implemented. Must be over-ridden in subclass."
+msgstr ""
+
+#: includes/api/class-api-controller.php:355
+msgid "Current page of the collection."
+msgstr ""
+
+#: includes/api/class-api-controller.php:363
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: includes/api/class-api-controller.php:372
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: includes/api/class-api-controller.php:390
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:395
+msgid "Invalid post id."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:765
+#: includes/api/class-api-course-controller.php:766
+msgid "Placeholder"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1525
+msgid "A unique alphanumeric ID for the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1531
+msgid "The ID for the creator of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1536
+msgid "The permalink to this object on the site."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1542
+msgid "The vibe component the object relates to."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1548
+msgid "The activity type of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1554
+msgid "HTML title of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1559
+msgid "HTML content of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1563
+msgid "The date the object was published, in the site's timezone."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1570
+msgid "Whether the object has been marked as spam or not."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1575
+msgid "The ID of the parent of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1679
+msgid "Unable to send message! Please check email id.."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1701
+msgid "Message sent!"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1703
+msgid "Unable to send message! Please try again later.."
+msgstr ""
+
+#: includes/api/class-api-tracker-controller.php:347
+#: includes/api/class-api-tracker-controller.php:375
+msgid "Update sent!"
+msgstr ""
+
+#: includes/bp-course-actions.php:140
+msgid "Unlimited Retakes"
+msgstr ""
+
+#: includes/bp-course-actions.php:142
+msgid "Number of retakes remaining"
+msgstr ""
+
+#: includes/bp-course-actions.php:142 includes/bp-course-ajax.php:498
+#: includes/bp-course-ajax.php:788 includes/bp-course-template.php:3043
+msgid " out of "
+msgstr " van de"
+
+#: includes/bp-course-actions.php:160 includes/bp-course-actions.php:173
+#: includes/bp-course-actions.php:285 includes/bp-course-actions.php:312
+#: includes/bp-course-actions.php:320 includes/bp-course-ajax.php:96
+#: includes/bp-course-ajax.php:156 includes/bp-course-ajax.php:2062
+#: includes/bp-course-ajax.php:2277 includes/bp-course-ajax.php:2415
+#: includes/bp-course-ajax.php:2422 includes/bp-course-ajax.php:2516
+#: includes/bp-course-ajax.php:2679 includes/bp-course-ajax.php:2692
+#: includes/bp-course-ajax.php:2748 includes/bp-course-ajax.php:2791
+#: includes/bp-course-ajax.php:2854 includes/bp-course-ajax.php:2960
+#: includes/bp-course-ajax.php:2975 includes/bp-course-ajax.php:2997
+#: includes/bp-course-tour.php:341 includes/bp-course-tour.php:371
+msgid "Security check Failed. Contact Administrator."
+msgstr "Security check mislukt. Contact Administrator."
+
+#: includes/bp-course-actions.php:302
+msgid "Update News"
+msgstr ""
+
+#: includes/bp-course-actions.php:359
+msgid "INCORRECT COURSE VALUE. CONTACT ADMIN"
+msgstr ""
+
+#: includes/bp-course-actions.php:400 includes/bp-course-ajax.php:2187
+msgid "Unlimited"
+msgstr ""
+
+#: includes/bp-course-actions.php:426 includes/bp-course-functions.php:996
+msgid "Course Curriculum Not Set."
+msgstr "Cursusoverzicht is niet ingesteld."
+
+#: includes/bp-course-actions.php:447
+msgid "Course Curriculum Not Set"
+msgstr ""
+
+#: includes/bp-course-actions.php:457 includes/bp-course-actions.php:1089
+#: includes/bp-course-screens.php:222
+msgid "Start Course"
+msgstr "Start Cursus"
+
+#: includes/bp-course-actions.php:477 includes/bp-course-ajax.php:2213
+msgid "Previous Quiz"
+msgstr ""
+
+#: includes/bp-course-actions.php:479 includes/bp-course-ajax.php:2215
+msgid "Previous Unit"
+msgstr "Vorig lesonderdeel"
+
+#: includes/bp-course-actions.php:493 includes/bp-course-actions.php:510
+#: includes/bp-course-actions.php:515 includes/bp-course-ajax.php:2228
+msgid "Check Results"
+msgstr ""
+
+#: includes/bp-course-actions.php:495 includes/bp-course-actions.php:512
+#: includes/bp-course-ajax.php:2231
+msgid "Continue Quiz"
+msgstr ""
+
+#: includes/bp-course-actions.php:498 includes/bp-course-ajax.php:2235
+msgid "Start Quiz"
+msgstr "Start Test"
+
+#: includes/bp-course-actions.php:501 includes/bp-course-ajax.php:2238
+msgid "Mark this Unit Complete"
+msgstr "Unit voltooid"
+
+#: includes/bp-course-actions.php:547
+msgid "Next Quiz"
+msgstr ""
+
+#: includes/bp-course-actions.php:552 includes/bp-course-actions.php:556
+#: includes/bp-course-ajax.php:2262
+msgid "Next Unit"
+msgstr "Volgend Lesonderdeel"
+
+#: includes/bp-course-actions.php:572
+msgid "SEE ALL"
+msgstr ""
+
+#: includes/bp-course-actions.php:588
+#: includes/templates/course/single/news.php:106
+msgid "Edit"
+msgstr ""
+
+#: includes/bp-course-actions.php:589
+msgid "Make Public"
+msgstr ""
+
+#: includes/bp-course-actions.php:590 includes/bp-course-cssjs.php:106
+msgid "Make Private"
+msgstr ""
+
+#: includes/bp-course-actions.php:591
+msgid "Reply"
+msgstr ""
+
+#: includes/bp-course-actions.php:592
+msgid "Request Instructor reply"
+msgstr ""
+
+#: includes/bp-course-actions.php:593
+msgid "Open in Popup"
+msgstr ""
+
+#: includes/bp-course-actions.php:594 includes/bp-course-actions.php:612
+msgid "Remove"
+msgstr ""
+
+#: includes/bp-course-actions.php:600
+msgid "Add a Note"
+msgstr ""
+
+#: includes/bp-course-actions.php:603
+msgid "YOU"
+msgstr ""
+
+#: includes/bp-course-actions.php:607
+msgid "Add your Comment"
+msgstr ""
+
+#: includes/bp-course-actions.php:611
+msgid "Post"
+msgstr ""
+
+#: includes/bp-course-actions.php:647 includes/bp-course-template.php:2729
+msgid "BACK TO COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:655 includes/bp-course-actions.php:1238
+msgid "REVIEW COURSE "
+msgstr ""
+
+#: includes/bp-course-actions.php:657
+msgid "FINISH COURSE "
+msgstr ""
+
+#: includes/bp-course-actions.php:775
+#, php-format
+msgid "Certificate for User %s"
+msgstr ""
+
+#: includes/bp-course-actions.php:804
+msgid "Removed a student from Course"
+msgstr "Verwijder een student uit de cursus"
+
+#: includes/bp-course-actions.php:805
+msgid "Student submitted a Course"
+msgstr "De Student heeft een cursus toegevoegd "
+
+#: includes/bp-course-actions.php:806
+msgid "Student started a Course"
+msgstr "De Student heeft een cursus begonnen"
+
+#: includes/bp-course-actions.php:807
+msgid "Student submitted a Quiz"
+msgstr "De Student heeft een test ingediend"
+
+#: includes/bp-course-actions.php:808
+msgid "Student started a Quiz"
+msgstr ""
+
+#: includes/bp-course-actions.php:809
+msgid "Student completed a unit"
+msgstr ""
+
+#: includes/bp-course-actions.php:810
+msgid "Course reset for Student"
+msgstr "De Student heeft een cursus opnieuw ingesteld"
+
+#: includes/bp-course-actions.php:811
+msgid "Bulk action by instructor"
+msgstr "Bulkactie door de lesgever"
+
+#: includes/bp-course-actions.php:812
+msgid "Course Evaluated for student"
+msgstr "Cursus is nagezien voor een student"
+
+#: includes/bp-course-actions.php:813
+msgid "Student got a Badge"
+msgstr "De student heeft een badge verkregen"
+
+#: includes/bp-course-actions.php:814
+msgid "Student got a certificate"
+msgstr "De student heeft een certificaat verkregen"
+
+#: includes/bp-course-actions.php:815
+msgid "Quiz Evaluated for student"
+msgstr "De test is nagekeken voor de student"
+
+#: includes/bp-course-actions.php:816
+msgid "Student subscribed for course"
+msgstr "De student is ingeschreven voor de cursus"
+
+#: includes/bp-course-actions.php:838 includes/bp-course-actions.php:840
+msgid "per"
+msgstr "per"
+
+#: includes/bp-course-actions.php:859
+msgid "SUBSCRIPTION FOR"
+msgstr "INSCHRIJVING VOOR"
+
+#: includes/bp-course-actions.php:1065
+#, php-format
+msgid "All Instructors <span>%s</span>"
+msgstr "Alle lesgevers <span>% s </ span>"
+
+#: includes/bp-course-actions.php:1090 includes/bp-course-screens.php:223
+msgid "Continue Course"
+msgstr ""
+
+#: includes/bp-course-actions.php:1091 includes/bp-course-ajax.php:482
+#: includes/bp-course-screens.php:224
+msgid "Under Evaluation"
+msgstr "Wordt geëvalueerd"
+
+#: includes/bp-course-actions.php:1092
+msgid "Course Finished"
+msgstr "Cursus Beëindigd"
+
+#: includes/bp-course-actions.php:1095
+msgid "Active"
+msgstr ""
+
+#: includes/bp-course-actions.php:1096
+msgid "Expired"
+msgstr ""
+
+#: includes/bp-course-actions.php:1099 includes/bp-course-actions.php:1104
+msgid "Filter by Status"
+msgstr ""
+
+#: includes/bp-course-actions.php:1110
+msgid "Enter student name/email"
+msgstr ""
+
+#: includes/bp-course-actions.php:1123
+#, php-format
+msgid "EXPIRED %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1131
+#, php-format
+msgid "START %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1134
+#, php-format
+msgid "CONTINUE %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1137
+#, php-format
+msgid "UNDER %s EVALUATION"
+msgstr ""
+
+#: includes/bp-course-actions.php:1140
+#, php-format
+msgid "FINISHED %s COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1143
+#, php-format
+msgid "COURSE %s ENABLED"
+msgstr ""
+
+#: includes/bp-course-actions.php:1149
+msgid "START"
+msgstr ""
+
+#: includes/bp-course-actions.php:1149 includes/bp-course-actions.php:1152
+#: includes/bp-course-actions.php:1158
+msgid "COURSE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1152
+msgid "CONTINUE"
+msgstr ""
+
+#: includes/bp-course-actions.php:1155
+msgid "UNDER"
+msgstr ""
+
+#: includes/bp-course-actions.php:1155
+msgid "EVALUATION"
+msgstr ""
+
+#: includes/bp-course-actions.php:1158
+msgid "FINISHED"
+msgstr ""
+
+#: includes/bp-course-actions.php:1229
+msgid "This Course can not be taken. Contact Administrator."
+msgstr ""
+
+#: includes/bp-course-actions.php:1490
+msgid "Quiz Results"
+msgstr ""
+
+#: includes/bp-course-actions.php:1504 includes/bp-course-ajax.php:128
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr ""
+
+#: includes/bp-course-actions.php:1544
+msgid "Results Available"
+msgstr ""
+
+#: includes/bp-course-actions.php:1546
+msgid "Results Awaited"
+msgstr ""
+
+#: includes/bp-course-actions.php:1554
+msgid "Submitted "
+msgstr ""
+
+#: includes/bp-course-actions.php:1554
+msgid " ago"
+msgstr " geleden"
+
+#: includes/bp-course-actions.php:1556
+msgid " Pending Submission"
+msgstr ""
+
+#: includes/bp-course-actions.php:1739
+msgid "Check Answer"
+msgstr ""
+
+#: includes/bp-course-actions.php:1751 includes/bp-course-ajax.php:197
+#: includes/bp-course-ajax.php:233 includes/bp-course-ajax.php:303
+#: includes/bp-course-ajax.php:514 includes/bp-course-ajax.php:528
+#: includes/bp-course-ajax.php:558 includes/bp-course-ajax.php:646
+#: includes/bp-course-ajax.php:688 includes/bp-course-ajax.php:764
+#: includes/bp-course-ajax.php:816 includes/bp-course-ajax.php:1447
+#: includes/bp-course-ajax.php:1655
+msgid "Security check failed !"
+msgstr "Security check mislukt!"
+
+#: includes/bp-course-actions.php:1809
+msgid ""
+"There was issue in retaking this course for the user. Please contact admin."
+msgstr ""
+
+#: includes/bp-course-activity.php:209 includes/bp-course-loader.php:66
+#: includes/bp-course-notifications.php:251
+msgid "Course"
+msgstr "Cursus"
+
+#: includes/bp-course-activity.php:246
+#, php-format
+msgid "Announcement for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:261
+#, php-format
+msgid "News published for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:275 includes/bp-course-mailer.php:429
+#: includes/bp-course-notifications.php:685
+#, php-format
+msgid "Student subscribed for course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:276
+#, php-format
+msgid "Student %s subscribed for course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:300
+msgid "Student started course "
+msgstr ""
+
+#: includes/bp-course-activity.php:318
+#, php-format
+msgid "Student %s finished and submitted the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:320
+msgid "Student Submitted the course "
+msgstr ""
+
+#: includes/bp-course-activity.php:333
+msgid "Instructor evaluated Course for student"
+msgstr ""
+
+#: includes/bp-course-activity.php:334
+#: includes/bp-course-notifications.php:1061
+#, php-format
+msgid "Student %s got %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:353
+msgid "Course reset for student "
+msgstr "Cursus reset voor student "
+
+#: includes/bp-course-activity.php:354
+#, php-format
+msgid "Course %s is reset for student %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:364
+msgid "Student retake Course "
+msgstr ""
+
+#: includes/bp-course-activity.php:365
+#, php-format
+msgid "Course %s is retaken by student %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:375
+msgid "Student got a Badge in the course "
+msgstr "Student behaalde een badge in de cursus "
+
+#: includes/bp-course-activity.php:376
+#, php-format
+msgid "Student %s got a badge in the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:385
+msgid "Student got a Certificate in course"
+msgstr "Student kreeg een certificaat in de cursus"
+
+#: includes/bp-course-activity.php:386
+#, php-format
+msgid "Student %s got a certificate in the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:396
+#, php-format
+msgid "Student reviewed Course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:397
+#, php-format
+msgid "Student %s reviewed the Course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:410
+msgid "Student unsubsribed from course "
+msgstr ""
+
+#: includes/bp-course-activity.php:411
+#, php-format
+msgid "Student %s is removed from the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:421
+msgid "Course code applied"
+msgstr ""
+
+#: includes/bp-course-activity.php:422
+#, php-format
+msgid "Student %s applied Course code for course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:437
+msgid "Student renewed a course"
+msgstr ""
+
+#: includes/bp-course-activity.php:438
+#, php-format
+msgid "Student %s renewed the course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:448
+msgid "Student started a unit"
+msgstr "De student startte een lesonderdeel"
+
+#: includes/bp-course-activity.php:449
+#, php-format
+msgid "Student started the unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:459
+msgid "Student finished unit "
+msgstr "De student beëindigde lesonderdeel "
+
+#: includes/bp-course-activity.php:460
+#, php-format
+msgid "Student %s finished the unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:476
+msgid "Instructor completed a unit for Student "
+msgstr ""
+
+#: includes/bp-course-activity.php:477
+#: includes/bp-course-notifications.php:1455
+#, php-format
+msgid "Instructor %s completed unit %s for Student %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:489
+msgid "Instructor uncompleted a unit for Student "
+msgstr ""
+
+#: includes/bp-course-activity.php:490
+#: includes/bp-course-notifications.php:1511
+#, php-format
+msgid "Instructor %s uncompleted unit %s for Student %s in course %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:502
+msgid "Student posted comment on unit "
+msgstr ""
+
+#: includes/bp-course-activity.php:503
+#, php-format
+msgid "Student %s posted comment on unit %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:514
+msgid "Student started a quiz"
+msgstr "De student startte de Test"
+
+#: includes/bp-course-activity.php:515 includes/bp-course-mailer.php:608
+#: includes/bp-course-notifications.php:2514
+#, php-format
+msgid "Student %s started the quiz %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:526
+msgid "Student submitted the Quiz"
+msgstr "De Student heeft de Test verstuurd"
+
+#: includes/bp-course-activity.php:527
+#, php-format
+msgid "Quiz %s was submitted by student %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:539
+msgid "Instructor evaluated Quiz for student "
+msgstr "Evalutie van de test door de lesgever voor student "
+
+#: includes/bp-course-activity.php:541
+#, php-format
+msgid "Student %s got %s out of %s in Quiz %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:566
+msgid "Quiz retake by Student"
+msgstr "Test wordt opnieuw gemaakt door Student"
+
+#: includes/bp-course-activity.php:567
+#, php-format
+msgid "Student %s  initiated retake for quiz %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:579
+msgid "Instructor Reseted the Quiz for User"
+msgstr "De lesgever reseted de Test voor de gebruiker "
+
+#: includes/bp-course-activity.php:580
+#, php-format
+msgid "Quiz %s  was reset by the Instructor for user %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:592
+msgid "Instructor added students in course  "
+msgstr "Lesgever voegt studenten toe in cursus "
+
+#: includes/bp-course-activity.php:593
+#, php-format
+msgid "Instructor added %s students in course "
+msgstr ""
+
+#: includes/bp-course-activity.php:600
+msgid "Instructor changed course status  "
+msgstr ""
+
+#: includes/bp-course-activity.php:601
+#, php-format
+msgid "Instructor changed Course Status for %s students in course "
+msgstr ""
+
+#: includes/bp-course-activity.php:608
+msgid "Instructor sent Bulk message to students"
+msgstr ""
+
+#: includes/bp-course-activity.php:609
+#, php-format
+msgid "Bulk Message sent to %s students "
+msgstr ""
+
+#: includes/bp-course-activity.php:616
+msgid "Instructor extended Course subscription"
+msgstr ""
+
+#: includes/bp-course-activity.php:617
+#, php-format
+msgid "Course subscription extended for %s students "
+msgstr ""
+
+#: includes/bp-course-activity.php:627
+msgid "Instructor assigned/removed Certificate/Badges"
+msgstr ""
+
+#: includes/bp-course-activity.php:628
+#, php-format
+msgid "Instructor added/removed Badges/Certificates from %s students in course"
+msgstr ""
+
+#: includes/bp-course-activity.php:650
+#: includes/bp-course-notifications.php:1972
+#, php-format
+msgid "Student started assignment %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:651 includes/bp-course-mailer.php:658
+#: includes/bp-course-notifications.php:2544
+#, php-format
+msgid "Student %s started the assignment %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:669
+msgid "Student submitted assignment "
+msgstr ""
+
+#: includes/bp-course-activity.php:670 includes/bp-course-mailer.php:668
+#: includes/bp-course-notifications.php:2550
+#, php-format
+msgid "Student %s submitted the assignment %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:687 includes/bp-course-mailer.php:672
+#: includes/bp-course-notifications.php:2001
+#, php-format
+msgid "Results available for assignment %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:688
+#, php-format
+msgid "Student %s got marks %s out of %s in assignment %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:706
+msgid "Instructor Reseted the Assignment for User"
+msgstr ""
+
+#: includes/bp-course-activity.php:707
+#, php-format
+msgid "Assignment %s was reset by the Instructor for user %s"
+msgstr ""
+
+#: includes/bp-course-activity.php:727
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s, on the site %4$s"
+msgstr "%1$s schreef een nieuw %2$s, %3$s, op de site %4$s"
+
+#: includes/bp-course-activity.php:729
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s"
+msgstr "%1$s schreef een nieuw %2$s, %3$s"
+
+#: includes/bp-course-activity.php:739
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s beoordeeld de %2$s, %3$s, op de site %4$s"
+
+#: includes/bp-course-activity.php:741
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s"
+msgstr "%1$s beoordeeld de %2$s, %3$s"
+
+#: includes/bp-course-activity.php:745
+#, php-format
+msgid "%1$s answered the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s antwoordde de %2$s, %3$s, op de site %4$s"
+
+#: includes/bp-course-activity.php:747
+#, php-format
+msgid "%1$s answered the %2$s, %3$s"
+msgstr "%1$s antwoordde de %2$s, %3$s"
+
+#: includes/bp-course-activity.php:754
+#, php-format
+msgid "User applied for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:755
+#, php-format
+msgid "User %s applied for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:765
+#, php-format
+msgid "User application %s for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:766
+#, php-format
+msgid "User %s application %s for Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:777
+#, php-format
+msgid "Instructor Published the course Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:778
+#, php-format
+msgid "Instructor %s published the Course %s "
+msgstr ""
+
+#: includes/bp-course-activity.php:786
+#, php-format
+msgid "Instructor submitted the Course %s for approval"
+msgstr ""
+
+#: includes/bp-course-activity.php:787
+#, php-format
+msgid "Instructor %s submitted the Course %s for approval"
+msgstr ""
+
+#: includes/bp-course-admin.php:31
+msgid "Select a Course"
+msgstr ""
+
+#: includes/bp-course-ajax.php:292
+msgid "Answer Reset"
+msgstr "Reset antwoord"
+
+#: includes/bp-course-ajax.php:294
+msgid "Unable to Reset"
+msgstr "Reset is niet mogelijk"
+
+#: includes/bp-course-ajax.php:308
+msgid "Incorrect Course selected."
+msgstr "Verkeerde Cursus geselecteerd."
+
+#: includes/bp-course-ajax.php:408
+msgid "Statistics successfully calculated. Reloading..."
+msgstr "Statistieken succesvol berekend. Herladen ..."
+
+#: includes/bp-course-ajax.php:410
+msgid "Unable to calculate Average."
+msgstr "Niet in staat om het gemiddelde te berekenen."
+
+#: includes/bp-course-ajax.php:426
+msgid "SHOW STATS"
+msgstr "TOON STATISTIEKEN"
+
+#: includes/bp-course-ajax.php:426
+msgid "HIDE"
+msgstr "VERBERG"
+
+#: includes/bp-course-ajax.php:430
+msgid "Incorrect User selected."
+msgstr "Onjuiste gebruiker geselecteerd."
+
+#: includes/bp-course-ajax.php:441
+msgid "This User has not started the course."
+msgstr "Deze gebruiker is niet begonnen met de cursus."
+
+#: includes/bp-course-ajax.php:445
+msgid "This User has completed the course."
+msgstr "Deze gebruiker heeft de cursus afgerond."
+
+#: includes/bp-course-ajax.php:446
+msgid "Student Score for Course "
+msgstr "Score voor cursus "
+
+#: includes/bp-course-ajax.php:446
+msgid " out of 100"
+msgstr " van de 100"
+
+#: includes/bp-course-ajax.php:455
+msgid "Course Started : "
+msgstr "Cursus start op: "
+
+#: includes/bp-course-ajax.php:462
+msgid "Curriculum :"
+msgstr "Overzicht:"
+
+#: includes/bp-course-ajax.php:463
+msgid "Quizes"
+msgstr "Testen"
+
+#: includes/bp-course-ajax.php:498
+msgid "Units Completed "
+msgstr "Afgewerkte lesonderdelen: "
+
+#: includes/bp-course-ajax.php:533 includes/bp-course-ajax.php:563
+#: includes/bp-course-ajax.php:651 includes/bp-course-ajax.php:769
+#: includes/bp-course-ajax.php:821 includes/bp-course-functions.php:823
+msgid " Incorrect User selected."
+msgstr " Foute gebruiker geselecteerd"
+
+#: includes/bp-course-ajax.php:544
+msgid "User removed from the Course"
+msgstr "Gebruiker verwijderd uit de cursus"
+
+#: includes/bp-course-ajax.php:630
+msgid "Course Reset for User"
+msgstr "Cursus reset voor gebruiker"
+
+#: includes/bp-course-ajax.php:635
+msgid ""
+"There was issue in resetting this course for the user. Please contact admin."
+msgstr ""
+"Er was vraag in het resetten van deze cursus voor de gebruiker. Neem contact "
+"op met de administratie."
+
+#: includes/bp-course-ajax.php:665
+msgid "Quiz Reset for Selected User"
+msgstr "Reset Test voor deze gebruiker"
+
+#: includes/bp-course-ajax.php:736
+msgid "COURSE MARKED COMPLETE"
+msgstr "CURSUS IS VOLTOOID"
+
+#: includes/bp-course-ajax.php:788
+msgid "MARKS: "
+msgstr "PUNTEN: "
+
+#: includes/bp-course-ajax.php:788 includes/bp-course-ajax.php:793
+msgid " PENDING"
+msgstr " IN AFWACHTING VAN"
+
+#: includes/bp-course-ajax.php:793
+msgid "DONE"
+msgstr "AFGEWERKT"
+
+#: includes/bp-course-ajax.php:802 includes/bp-course-ajax.php:944
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/bp-course-ajax.php:803
+msgid "Course Percentage (Out of 100)"
+msgstr "Cursus Percentage (op 100)"
+
+#: includes/bp-course-ajax.php:803
+msgid "Course Percentage out of 100"
+msgstr "Cursus Percentage op 100"
+
+#: includes/bp-course-ajax.php:804
+msgid "Mark Course Complete"
+msgstr "Cursus voltooid"
+
+#: includes/bp-course-ajax.php:826
+msgid " Incorrect Quiz Id."
+msgstr " Foute test Id."
+
+#: includes/bp-course-ajax.php:854 includes/bp-course-template.php:2776
+#: includes/bp-course-template.php:2861
+msgid "Marked Answer :"
+msgstr "Aangeduid Antwoord :"
+
+#: includes/bp-course-ajax.php:917 includes/bp-course-template.php:2965
+msgid "Correct Answer :"
+msgstr "Juist Antwoord:"
+
+#: includes/bp-course-ajax.php:925 includes/bp-course-ajax.php:933
+#: includes/bp-course-template.php:2798 includes/bp-course-template.php:2982
+msgid "Marks Obtained"
+msgstr "Behaalde Punten"
+
+#: includes/bp-course-ajax.php:925 includes/bp-course-ajax.php:933
+msgid "Give marks"
+msgstr "Geef punten"
+
+#: includes/bp-course-ajax.php:926
+msgid "Update Marks"
+msgstr "Update Punten"
+
+#: includes/bp-course-ajax.php:934
+msgid "Give Marks"
+msgstr "Geef Punten"
+
+#: includes/bp-course-ajax.php:938 includes/bp-course-template.php:3009
+msgid "Total Marks"
+msgstr ""
+
+#: includes/bp-course-ajax.php:945
+msgid "Mark Quiz as Checked"
+msgstr "Markeer de Test als Nagekeken"
+
+#: includes/bp-course-ajax.php:1073 includes/bp-course-template.php:1298
+#: includes/templates/course/single/admin.php:143
+#, php-format
+msgid "Viewing page %d of %d "
+msgstr ""
+
+#: includes/bp-course-ajax.php:1116 includes/bp-course-ajax.php:1121
+msgid "Set a Subject for the message"
+msgstr "Stel een onderwerp voor het bericht in"
+
+#: includes/bp-course-ajax.php:1130
+msgid "Messages Sent to "
+msgstr "Berichten verzonden naar"
+
+#: includes/bp-course-ajax.php:1130 includes/bp-course-ajax.php:1317
+#: includes/bp-course-ajax.php:1431
+msgid " members"
+msgstr " leden"
+
+#: includes/bp-course-ajax.php:1132 includes/bp-course-ajax.php:1325
+#: includes/bp-course-ajax.php:1346 includes/bp-course-ajax.php:1437
+msgid "Please select members"
+msgstr "Selecteer aub leden"
+
+#: includes/bp-course-ajax.php:1221 includes/bp-course-functions.php:1862
+#: includes/templates/course/single/admin.php:110
+msgid "Reset Course for User"
+msgstr "Reset Cursus voor Gebruiker"
+
+#: includes/bp-course-ajax.php:1222 includes/bp-course-functions.php:1863
+#: includes/templates/course/single/admin.php:111
+msgid "See Course stats for User"
+msgstr "Bekijk Cursusstatistieken voor Gebruiker"
+
+#: includes/bp-course-ajax.php:1223 includes/bp-course-functions.php:1881
+#: includes/templates/course/single/admin.php:129
+msgid "Remove User from this Course"
+msgstr "Verwijder Gebruiker uit deze Cursus"
+
+#: includes/bp-course-ajax.php:1247
+msgid "Select Assign Value"
+msgstr "Selecteer wijs Waarde toe"
+
+#: includes/bp-course-ajax.php:1317
+msgid "Action assigned to "
+msgstr "Actie toegewezen aan "
+
+#: includes/bp-course-ajax.php:1322 includes/bp-course-ajax.php:1434
+msgid "Could not assign action to members"
+msgstr "Kan deze actie niet toewijzen aan leden"
+
+#: includes/bp-course-ajax.php:1341
+msgid "Please enter extension amount"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1369
+#, php-format
+msgid "Subscription extended for %d students, unable to extend for %d students"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1371
+#, php-format
+msgid "Subscription extended for %d students"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1391
+msgid "Select Course Status"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1431
+msgid "Course status changed for "
+msgstr ""
+
+#: includes/bp-course-ajax.php:1451 includes/bp-course-ajax.php:1659
+msgid "User does not have capability to download stats !"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1491 includes/bp-course-ajax.php:1693
+msgid "START DATE"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1499 includes/bp-course-ajax.php:1511
+#: includes/bp-course-ajax.php:1558 includes/bp-course-ajax.php:1709
+#: includes/bp-course-ajax.php:1726 includes/bp-course-ajax.php:2001
+msgid "N.A"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1503 includes/bp-course-ajax.php:1712
+msgid "COMPLETION DATE"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1514 includes/bp-course-ajax.php:1730
+#: includes/bp-course-ajax.php:2028
+msgid "ID"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1521 includes/bp-course-ajax.php:1737
+msgid "NAME"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1567
+msgid "BADGE"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1579
+msgid "CERTIFICATE"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1591 includes/bp-course-ajax.php:1854
+msgid "SCORE"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1937
+msgid "User not allowed to access stats"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1968
+msgid "No data available"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1977 includes/bp-course-loader.php:342
+msgid "Stats"
+msgstr "Statistieken"
+
+#: includes/bp-course-ajax.php:1997
+msgid "Average"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1998
+msgid "Max"
+msgstr ""
+
+#: includes/bp-course-ajax.php:1999
+msgid "Min"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2004
+msgid "Leaderboard"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2023
+msgid "Download Stats"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2026
+msgid "Start Date/Time"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2027
+msgid "End Date/Time"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2029
+msgid "Student Name"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2030
+msgid "Score"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2033
+msgid "Question scores (* for static quizzes only)"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2034
+msgid "Question Answers (* for static quizzes only, useful for surveys)"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2045
+msgid "All students"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2046
+msgid "Students who finished"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2049
+msgid "Process Stats"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2069
+msgid "Unit not in Course"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2087
+msgid "Course Expired."
+msgstr "De Cursus is afgelopen."
+
+#: includes/bp-course-ajax.php:2087 includes/bp-course-functions.php:325
+msgid "Click to renew"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2135 includes/bp-course-ajax.php:2158
+#: includes/bp-course-ajax.php:2163 includes/bp-course-ajax.php:2167
+#: includes/bp-course-template.php:2556 includes/bp-course-template.php:2578
+#: includes/bp-course-template.php:2583 includes/bp-course-template.php:2589
+msgid "Unit"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2136 includes/bp-course-ajax.php:2159
+#: includes/bp-course-template.php:2558 includes/bp-course-template.php:2581
+#, php-format
+msgid "%s will be available in %s"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2164 includes/bp-course-ajax.php:2168
+#: includes/bp-course-template.php:2586 includes/bp-course-template.php:2592
+#, php-format
+msgid "%s can not be accessed."
+msgstr ""
+
+#: includes/bp-course-ajax.php:2259
+msgid "Proceed to Quiz"
+msgstr "Naar de Evaluatie"
+
+#: includes/bp-course-ajax.php:2283 includes/bp-course-ajax.php:2335
+msgid "Invalid submission time."
+msgstr ""
+
+#: includes/bp-course-ajax.php:2328
+msgid "security check failed."
+msgstr ""
+
+#: includes/bp-course-ajax.php:2399 includes/bp-course-ajax.php:2477
+#: includes/bp-course-ajax.php:2503
+msgid "Quiz Timed Out ."
+msgstr "De Tetstijd is voorbij."
+
+#: includes/bp-course-ajax.php:2400 includes/bp-course-ajax.php:2478
+#: includes/bp-course-ajax.php:2504 includes/bp-course-ajax.php:2508
+msgid "If you want to attempt again, Contact Instructor to reset the quiz."
+msgstr ""
+"Als u opnieuw wilt proberen, contacteer de lesgever om de Test opnieuw in te "
+"stellen."
+
+#: includes/bp-course-ajax.php:2407
+msgid "Quiz Already Attempted."
+msgstr "U heeft deze Test al uitgevoerd."
+
+#: includes/bp-course-ajax.php:2408
+msgid "Security Check Failed. Contact Site Admin."
+msgstr "Security Check mislukt. Neem contact op met Administratie."
+
+#: includes/bp-course-ajax.php:2482
+msgid "Start Quiz to begin quiz."
+msgstr "Start de Test om te beginnen."
+
+#: includes/bp-course-ajax.php:2483
+msgid "Click \"Start Quiz\" button to start the Quiz."
+msgstr "Klik op \"Start Test \" knop om de test te starten."
+
+#: includes/bp-course-ajax.php:2487
+msgid "Quiz not active."
+msgstr "Test is niet actief."
+
+#: includes/bp-course-ajax.php:2488
+msgid "Contact your instructor or site admin."
+msgstr "Neem contact op met uw lesgever."
+
+#: includes/bp-course-ajax.php:2507
+msgid "Quiz Already Attempted ."
+msgstr "U heeft deze Test al uitgevoerd."
+
+#: includes/bp-course-ajax.php:2525
+msgid "Questions not set."
+msgstr ""
+
+#: includes/bp-course-ajax.php:2566 includes/bp-course-functions.php:425
+msgid "SHOW HINT"
+msgstr "TOON TIP"
+
+#: includes/bp-course-ajax.php:2567 includes/bp-course-functions.php:426
+msgid "HINT"
+msgstr "TIP"
+
+#: includes/bp-course-ajax.php:2587 includes/bp-course-functions.php:475
+#: includes/bp-course-template.php:2870
+msgid "FALSE"
+msgstr "FOUT"
+
+#: includes/bp-course-ajax.php:2587 includes/bp-course-functions.php:475
+#: includes/bp-course-template.php:2870
+msgid "TRUE"
+msgstr "JUIST"
+
+#: includes/bp-course-ajax.php:2643 includes/bp-course-ajax.php:2646
+msgid "Type Answer"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2654
+msgid "PAGES"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2696 includes/bp-course-ajax.php:2739
+msgid "Unable to add message"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2730
+msgid "JUST NOW"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2836
+#: includes/templates/course/single/submissions.php:106
+msgid "Reset Quiz for User"
+msgstr "Reset Test voor Gebruiker"
+
+#: includes/bp-course-ajax.php:2837
+#: includes/templates/course/single/submissions.php:107
+msgid "Evaluate Quiz for User"
+msgstr "Evalueer Test voor Gebruiker"
+
+#: includes/bp-course-ajax.php:2896
+#: includes/templates/course/single/submissions.php:153
+msgid "Evaluate Course for User"
+msgstr "Evalueer Cursus voor Gebruiker"
+
+#: includes/bp-course-ajax.php:2923
+msgid "Invalid Course or Unit ID"
+msgstr ""
+
+#: includes/bp-course-ajax.php:2930
+msgid "Unit not found in Course"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3003
+msgid "Question answer already marked"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3011
+msgid "Question not included in quiz."
+msgstr ""
+
+#: includes/bp-course-ajax.php:3015
+msgid "Unable to fetch quiz questions."
+msgstr ""
+
+#: includes/bp-course-ajax.php:3046 includes/bp-course-ajax.php:3064
+#: includes/bp-course-cssjs.php:122 includes/bp-course-template.php:2911
+#: includes/bp-course-template.php:2936
+msgid "and"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3055
+msgid "True"
+msgstr ""
+
+#: includes/bp-course-ajax.php:3055
+msgid "False"
+msgstr ""
+
+#: includes/bp-course-api.php:127
+#, php-format
+msgid "REST API not active ! Please update WordPress %d or greater version."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:79
+msgid ""
+"This step is irreversible. Are you sure you want to remove the User from the "
+"course ?"
+msgstr ""
+"Deze stap is onomkeerbaar. Bent u zeker dat u de Gebruiker wilt verwijderen "
+"uit de cursus?"
+
+#: includes/bp-course-cssjs.php:80
+msgid "Confirm, Remove User from Course"
+msgstr "Bevestig, Verwijder Gebruiker uit de Cursus"
+
+#: includes/bp-course-cssjs.php:83
+msgid ""
+"This step is irreversible. All Units, Quiz results would be reset for this "
+"user. Are you sure you want to Reset the Course for this User?"
+msgstr ""
+"Deze stap is onomkeerbaar. Voor alle Leseenheden worden de testresultaten "
+"voor deze gebruiker opnieuw ingesteld. Weet u zeker dat u de Cursus wil "
+"resetten voor deze Gebruiker?"
+
+#: includes/bp-course-cssjs.php:84
+msgid "Confirm, Reset Course for this User"
+msgstr "Bevestig, reset Cursus voor deze Gebruiker"
+
+#: includes/bp-course-cssjs.php:85
+msgid ""
+"This step is irreversible. All Questions answers would be reset for this "
+"user. Are you sure you want to Reset the Quiz for this User? "
+msgstr ""
+"Deze stap is onomkeerbaar. Alle antwoorden worden deze gebruiker opnieuw "
+"ingesteld. Weet u zeker dat u de Cursus wil resetten voor deze Gebruiker?"
+
+#: includes/bp-course-cssjs.php:86
+msgid "Confirm, Reset Quiz for this User"
+msgstr "Bevestig, reset Test voor deze Gebruiker"
+
+#: includes/bp-course-cssjs.php:87
+msgid "Marks Saved"
+msgstr "Punten Bewaard"
+
+#: includes/bp-course-cssjs.php:88
+msgid "Quiz Marks Saved"
+msgstr "Punten Test Bewaard"
+
+#: includes/bp-course-cssjs.php:89
+msgid "Save Quiz progress"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:90
+msgid "Saved"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:91
+msgid "Submit Quiz"
+msgstr "Bewaar deze evaluatie"
+
+#: includes/bp-course-cssjs.php:92
+msgid "Sending Messages ..."
+msgstr "Berichten verzenden..."
+
+#: includes/bp-course-cssjs.php:93
+msgid "Adding Students to Course ..."
+msgstr "Studenten worden toegevoegd aan Cursus ..."
+
+#: includes/bp-course-cssjs.php:94
+msgid "Students successfully added to Course"
+msgstr "Studenten zijn succesvol toegevoegd aan Cursus"
+
+#: includes/bp-course-cssjs.php:95
+msgid "Unable to Add students to Course"
+msgstr "Het is niet mogelijk om studenten toe te voegen aan de Cursus"
+
+#: includes/bp-course-cssjs.php:96
+msgid "Please select fields to download"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:97
+msgid "Download"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:98
+msgid "TIMEOUT"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:101
+msgid "for Course"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:102
+msgid "Active Filters"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:103
+msgid "Clear all filters"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:104
+msgid "Are you sure you want to remove this note?"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:105
+msgid "Confirm, remove note"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:107
+msgid "Add your note"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:108
+msgid "Please add questions or retake the quiz !"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:109
+msgid "Are you sure you want to remove this Annoucement?"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:110
+msgid "You're about to start the Quiz. Please click confirm to begin the quiz."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:111
+msgid ""
+"Are you sure you want to submit the quiz. Submitting the quiz will freeze "
+"all your answers, you can not change them.  Please confirm."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:112
+msgid "Check results"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:113
+msgid "Correct"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:114
+msgid "Incorrect"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:118
+msgid "You have few unanswered questions. Are you sure you want to continue ?"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:119
+msgid "Please enter 4 or more characters ..."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:120
+msgid "Correct Answer"
+msgstr ""
+
+#: includes/bp-course-cssjs.php:121
+msgid "Explanation"
+msgstr ""
+
+#: includes/bp-course-filters.php:119
+msgid "News"
+msgstr ""
+
+#: includes/bp-course-filters.php:628
+msgid "No Courses found."
+msgstr "Geen Cursussen gevonden."
+
+#: includes/bp-course-filters.php:994
+msgid "Section"
+msgstr ""
+
+#: includes/bp-course-functions.php:52
+msgid "Course Directory"
+msgstr "Cursus Overzicht"
+
+#: includes/bp-course-functions.php:53
+msgid "All Courses by all instructors"
+msgstr "Alle Cursussen door alle lesgevers"
+
+#: includes/bp-course-functions.php:87 includes/bp-course-loader.php:373
+#: includes/templates/course/single/home.php:39
+msgid "Home"
+msgstr "Home"
+
+#: includes/bp-course-functions.php:93
+#: includes/templates/course/single/home.php:40
+msgid "Curriculum"
+msgstr "Overzicht"
+
+#: includes/bp-course-functions.php:95
+msgid "curriculum"
+msgstr ""
+
+#: includes/bp-course-functions.php:100
+#: includes/templates/course/single/home.php:41
+msgid "Members"
+msgstr "Leden"
+
+#: includes/bp-course-functions.php:102
+msgid "members"
+msgstr ""
+
+#: includes/bp-course-functions.php:110
+msgid "Activity"
+msgstr ""
+
+#: includes/bp-course-functions.php:112
+msgid "activity"
+msgstr ""
+
+#: includes/bp-course-functions.php:125
+#: includes/templates/course/single/home.php:49
+msgid "Group"
+msgstr ""
+
+#: includes/bp-course-functions.php:138
+#: includes/templates/course/single/home.php:55
+msgid "Forum"
+msgstr ""
+
+#: includes/bp-course-functions.php:191
+#: includes/templates/course/single/home.php:60
+msgid "Admin"
+msgstr "Admin"
+
+#: includes/bp-course-functions.php:221 includes/bp-course-widgets.php:678
+msgid "Search"
+msgstr "Zoek"
+
+#: includes/bp-course-functions.php:240 includes/bp-course-functions.php:343
+msgid "TAKE THIS COURSE"
+msgstr "VOLG DEZE CURSUS"
+
+#: includes/bp-course-functions.php:280
+msgid "START COURSE"
+msgstr "START CURSUS"
+
+#: includes/bp-course-functions.php:284
+msgid "CONTINUE COURSE"
+msgstr "VERVOLG CURSUS"
+
+#: includes/bp-course-functions.php:288
+msgid "COURSE UNDER EVALUATION"
+msgstr "CURSUS IN ONTWIKKELING"
+
+#: includes/bp-course-functions.php:294
+msgid "FINISHED COURSE"
+msgstr "AFGEWERKTE CURSUS"
+
+#: includes/bp-course-functions.php:297 includes/bp-course-offline.php:172
+msgid "COURSE FINISHED"
+msgstr "CURSUS AFGEWERKT"
+
+#: includes/bp-course-functions.php:301 includes/bp-course-functions.php:312
+msgid "COURSE ENABLED"
+msgstr "CURSUS GEACTIVEERD"
+
+#: includes/bp-course-functions.php:301 includes/bp-course-functions.php:312
+msgid "CONTACT ADMIN TO ENABLE"
+msgstr "CONTACTEER ADMIN VOOR ACTIVATIE"
+
+#: includes/bp-course-functions.php:325
+msgid "Course Expired"
+msgstr ""
+
+#: includes/bp-course-functions.php:345
+msgid "PRIVATE COURSE"
+msgstr "BETALENDE CURSUS"
+
+#: includes/bp-course-functions.php:389
+msgid "* REQUIRES"
+msgstr "* VEREIST"
+
+#: includes/bp-course-functions.php:393
+msgid "SEATS"
+msgstr "DEELNEMERS"
+
+#: includes/bp-course-functions.php:394
+msgid "Course Badge"
+msgstr "Cursus Badge"
+
+#: includes/bp-course-functions.php:396
+msgid "Course Certificate"
+msgstr "Cursus Certificaat"
+
+#: includes/bp-course-functions.php:547 includes/bp-course-functions.php:555
+msgid "Type answer"
+msgstr ""
+
+#: includes/bp-course-functions.php:591
+msgid "Unlimited Time"
+msgstr ""
+
+#: includes/bp-course-functions.php:595 includes/bp-course-functions.php:891
+msgid "EXPIRED"
+msgstr ""
+
+#: includes/bp-course-functions.php:628 includes/bp-course-functions.php:636
+msgid "Next Question"
+msgstr "Volgende Vraag"
+
+#: includes/bp-course-functions.php:632 includes/bp-course-functions.php:635
+msgid "Previous Question"
+msgstr "Vorige Vraag"
+
+#: includes/bp-course-functions.php:683 includes/bp-course-functions.php:718
+msgid "Duration not Set"
+msgstr ""
+
+#: includes/bp-course-functions.php:691 includes/bp-course-functions.php:1212
+msgid "Time Remaining"
+msgstr "Resterende tijd"
+
+#: includes/bp-course-functions.php:692
+msgid "Hour"
+msgstr ""
+
+#: includes/bp-course-functions.php:692 includes/bp-course-functions.php:693
+msgid "Mins"
+msgstr "Min."
+
+#: includes/bp-course-functions.php:693
+msgid "Secs"
+msgstr "Sec."
+
+#: includes/bp-course-functions.php:725
+msgid "Progress"
+msgstr ""
+
+#: includes/bp-course-functions.php:765
+msgid "Please set questions in quiz or reset quiz !"
+msgstr ""
+
+#: includes/bp-course-functions.php:805
+msgid "QUESTION"
+msgstr "VRAAG"
+
+#: includes/bp-course-functions.php:823
+msgid "Security Error"
+msgstr "Beveiligingsfout"
+
+#: includes/bp-course-functions.php:874
+msgid "year"
+msgstr "jaar"
+
+#: includes/bp-course-functions.php:874
+msgid "years"
+msgstr "jaren"
+
+#: includes/bp-course-functions.php:876
+msgid "month"
+msgstr "maand"
+
+#: includes/bp-course-functions.php:876
+msgid "months"
+msgstr "maanden"
+
+#: includes/bp-course-functions.php:878
+msgid "week"
+msgstr "week"
+
+#: includes/bp-course-functions.php:878
+msgid "weeks"
+msgstr "weken"
+
+#: includes/bp-course-functions.php:880
+msgid "day"
+msgstr "dag"
+
+#: includes/bp-course-functions.php:880
+msgid "days"
+msgstr "dagen"
+
+#: includes/bp-course-functions.php:882
+msgid "hour"
+msgstr "uur"
+
+#: includes/bp-course-functions.php:882
+msgid "hours"
+msgstr "uren"
+
+#: includes/bp-course-functions.php:884
+msgid "minute"
+msgstr "minuut"
+
+#: includes/bp-course-functions.php:884
+msgid "minutes"
+msgstr "minuten"
+
+#: includes/bp-course-functions.php:886
+msgid "second"
+msgstr "seconde"
+
+#: includes/bp-course-functions.php:886
+msgid "seconds"
+msgstr "seconden"
+
+#: includes/bp-course-functions.php:1054
+msgid "Have Questions ? Ask in the Unit Forums"
+msgstr "Vragen? Stel ze in het lesonderdeel forum"
+
+#: includes/bp-course-functions.php:1079 includes/bp-course-functions.php:1108
+msgid "Attachments"
+msgstr "Bijlages"
+
+#: includes/bp-course-functions.php:1164 includes/bp-course-mailer.php:307
+#: includes/bp-course-notifications.php:283
+msgid "Instructor"
+msgstr "Lesgever"
+
+#: includes/bp-course-functions.php:1543 includes/bp-course-functions.php:1546
+msgid "Certificate not valid for user"
+msgstr "Certificaat is niet geldig voor gebruiker"
+
+#: includes/bp-course-functions.php:1697
+msgid "Evaluate course submissions"
+msgstr "Evalueer Cursus inzendingen"
+
+#: includes/bp-course-functions.php:1709
+msgid "Evaluate Quiz submissions"
+msgstr "Evalueer Test inzendingen"
+
+#: includes/bp-course-functions.php:1715
+msgid "Manage Students"
+msgstr "Studentenbeheer"
+
+#: includes/bp-course-functions.php:1716
+msgid "See Stats"
+msgstr "Bekijk statistieken"
+
+#: includes/bp-course-functions.php:1717
+msgid "See all Activity"
+msgstr "Bekijk alle activiteiten"
+
+#: includes/bp-course-functions.php:1743
+msgid "Seconds"
+msgstr ""
+
+#: includes/bp-course-functions.php:1744
+msgid "Minutes"
+msgstr ""
+
+#: includes/bp-course-functions.php:1745
+msgid "Hours"
+msgstr ""
+
+#: includes/bp-course-functions.php:1746
+msgid "Days"
+msgstr ""
+
+#: includes/bp-course-functions.php:1747
+msgid "Weeks"
+msgstr ""
+
+#: includes/bp-course-functions.php:1748
+msgid "Months"
+msgstr ""
+
+#: includes/bp-course-functions.php:1749
+msgid "Years"
+msgstr ""
+
+#: includes/bp-course-functions.php:1880
+#: includes/templates/course/single/admin.php:128
+msgid "See User Activity in Course"
+msgstr ""
+
+#: includes/bp-course-loader.php:269
+msgid "Search courses ..."
+msgstr ""
+
+#: includes/bp-course-loader.php:291
+#, php-format
+msgid "Courses <span>%s</span>"
+msgstr "Cursussen <span>%s</span>"
+
+#: includes/bp-course-loader.php:322
+msgid "My Courses"
+msgstr "Mijn Cursussen"
+
+#: includes/bp-course-loader.php:332
+msgid "Results"
+msgstr "Resultaten"
+
+#: includes/bp-course-loader.php:352 includes/templates/course/index.php:65
+#, php-format
+msgid "Instructing Courses <span>%s</span>"
+msgstr ""
+
+#: includes/bp-course-loader.php:457 includes/bp-course-loader.php:463
+#: includes/bp-course-loader.php:473
+#, php-format
+msgid "Please Update the %s theme to latest version %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:165
+#, php-format
+msgid ""
+"%sMigrate WPLMS email templates to BuddyPress Emails.%s  %s mail templates "
+"will be migrated. Refer %s more information & tutorial%s   %s Migrate all "
+"email templates to BuddyPress %s %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:305
+msgid "Profile"
+msgstr ""
+
+#: includes/bp-course-mailer.php:305
+msgid "Courses"
+msgstr ""
+
+#: includes/bp-course-mailer.php:307
+msgid "Link"
+msgstr ""
+
+#: includes/bp-course-mailer.php:402
+msgid "Student : Announcement in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:403 includes/bp-course-mailer.php:408
+#: includes/bp-course-notifications.php:478
+#: includes/bp-course-notifications.php:506
+#: includes/bp-course-notifications.php:2405
+#: includes/bp-course-notifications.php:2408
+#, php-format
+msgid "Announcement for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:407
+msgid "Instructor : Announcement in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:412
+msgid "Student : News in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:413 includes/bp-course-mailer.php:418
+#: includes/bp-course-notifications.php:524
+#: includes/bp-course-notifications.php:569
+#: includes/bp-course-notifications.php:611
+#, php-format
+msgid "News for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:417
+msgid "Instructor : News in Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:423
+msgid "Student : Student subscribes to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:424
+#, php-format
+msgid "Subscribed for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:425 includes/bp-course-notifications.php:624
+#: includes/bp-course-notifications.php:647
+#, php-format
+msgid "You're subscribed for course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:428
+msgid "Instructor : Student subscribes to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:430 includes/bp-course-notifications.php:661
+#: includes/bp-course-notifications.php:686
+#, php-format
+msgid "Student %s subscribed for course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:434
+msgid "Student : Student added to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:435 includes/bp-course-notifications.php:732
+#, php-format
+msgid "Added to course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:436 includes/bp-course-notifications.php:733
+#, php-format
+msgid "You've been added to course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:439
+msgid "Instructor : Instructor adds Student to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:440
+#, php-format
+msgid "Student added to course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:441
+#, php-format
+msgid "%s student added to course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:445
+msgid "Student : Student started a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:446 includes/bp-course-notifications.php:821
+#, php-format
+msgid "You started course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:447 includes/bp-course-notifications.php:822
+#, php-format
+msgid "You've started the course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:450
+msgid "Instructor : Student started a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:451 includes/bp-course-notifications.php:858
+#, php-format
+msgid "Student started course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:452 includes/bp-course-notifications.php:834
+#: includes/bp-course-notifications.php:859
+#, php-format
+msgid "Student %s started the course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:456
+msgid "Student : Student finishes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:457 includes/bp-course-notifications.php:889
+#, php-format
+msgid "Course %s submitted"
+msgstr ""
+
+#: includes/bp-course-mailer.php:458 includes/bp-course-notifications.php:868
+#: includes/bp-course-notifications.php:890
+#, php-format
+msgid "You've submitted the course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:461
+msgid "Instructor : Student finishes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:462 includes/bp-course-notifications.php:922
+#, php-format
+msgid "Student submitted course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:463 includes/bp-course-notifications.php:900
+#: includes/bp-course-notifications.php:923
+#, php-format
+msgid "Student %s submitted the course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:467
+msgid "Student : Instructor resets course for a Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:468 includes/bp-course-notifications.php:950
+#, php-format
+msgid "Course %s reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:469 includes/bp-course-notifications.php:951
+#, php-format
+msgid "%s Course was reset by Instructor"
+msgstr ""
+
+#: includes/bp-course-mailer.php:472
+msgid "Instructor : Instructor resets course for a Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:473 includes/bp-course-notifications.php:976
+#, php-format
+msgid "Course %s reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:474 includes/bp-course-notifications.php:977
+#, php-format
+msgid "Course %s was reset for student %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:478
+msgid "Student : Student retakes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:479
+#, php-format
+msgid "You retook the course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:480 includes/bp-course-notifications.php:1002
+#, php-format
+msgid "You've retaken the Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:483
+msgid "Instructor : Student retakes a course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:484 includes/bp-course-notifications.php:1027
+#, php-format
+msgid "Course %s retaken by the Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:485 includes/bp-course-notifications.php:1028
+#, php-format
+msgid "Course %s was retaken by the student %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:489
+msgid "Student : Course evaluated for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:490 includes/bp-course-mailer.php:495
+#: includes/bp-course-notifications.php:1054
+#, php-format
+msgid "Course %s results available"
+msgstr ""
+
+#: includes/bp-course-mailer.php:491 includes/bp-course-notifications.php:1037
+#: includes/bp-course-notifications.php:1055
+#, php-format
+msgid "You've obtained %s  in Course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:494
+msgid "Instructor : Course evaluated for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:496
+#, php-format
+msgid "Student %s got %s out of 100 in course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:500
+msgid "Student : Student obtained course badge"
+msgstr ""
+
+#: includes/bp-course-mailer.php:501 includes/bp-course-notifications.php:1110
+#, php-format
+msgid "You got a Badge in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:502 includes/bp-course-notifications.php:1111
+#, php-format
+msgid "You've obtained a Badge in Course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:505
+msgid "Instructor : Student obtained course badge"
+msgstr ""
+
+#: includes/bp-course-mailer.php:506 includes/bp-course-notifications.php:1121
+#: includes/bp-course-notifications.php:1141
+#, php-format
+msgid "Student got a Badge in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:507 includes/bp-course-notifications.php:1142
+#: includes/bp-course-notifications.php:2462
+#, php-format
+msgid "Student %s got a Badge in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:511
+msgid "Student : Student obtained course certificate"
+msgstr ""
+
+#: includes/bp-course-mailer.php:512 includes/bp-course-notifications.php:1172
+#, php-format
+msgid "You got a Certificate in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:513
+#, php-format
+msgid "You've obtained a certificate in Course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:516
+msgid "Instructor : Student obtained course certificate"
+msgstr ""
+
+#: includes/bp-course-mailer.php:517 includes/bp-course-notifications.php:1183
+#: includes/bp-course-notifications.php:1203
+#, php-format
+msgid "Student got a Certificate in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:518 includes/bp-course-notifications.php:1204
+#: includes/bp-course-notifications.php:2468
+#, php-format
+msgid "Student %s got a Certificate in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:522
+msgid "Student : Student reviewed course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:523
+#, php-format
+msgid "You submitted a %s star review for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:524
+#, php-format
+msgid "You submitted a %s star review Course %s - %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:527
+msgid "Instructor : Student reviewed course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:528
+#, php-format
+msgid "Student submitted a %s star review for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:529
+#, php-format
+msgid "Student %s submitted a %s star review for the Course %s - %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:533
+msgid "Student : Student unsubscribed from course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:534 includes/bp-course-notifications.php:1285
+#, php-format
+msgid "You're unsubscribed from course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:535 includes/bp-course-notifications.php:1286
+#, php-format
+msgid "You're unsubscribed from the Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:538
+msgid "Instructor : Student unsubscribed from course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:539 includes/bp-course-notifications.php:1294
+#: includes/bp-course-notifications.php:1310
+#, php-format
+msgid "Student unsubscribed from Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:540 includes/bp-course-notifications.php:1311
+#, php-format
+msgid "Student %s unsubscribed from Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:544
+msgid "Student : Student applied course code to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:545 includes/bp-course-notifications.php:1335
+#, php-format
+msgid "You applied course code in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:546
+#, php-format
+msgid "You've applied the code %s on the course : %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:549
+msgid "Instructor : Student applied course code to course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:550 includes/bp-course-notifications.php:1361
+#, php-format
+msgid "Student applied code for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:551 includes/bp-course-notifications.php:1362
+#, php-format
+msgid "Student %s applied code %s for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:555
+msgid "Student : Student completed a unit in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:556
+#, php-format
+msgid "You completed unit %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:557 includes/bp-course-notifications.php:1391
+#, php-format
+msgid "You completed a unit %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:560
+msgid "Instructor : Student completed a unit in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:561 includes/bp-course-notifications.php:1418
+#, php-format
+msgid "Student completed unit in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:562 includes/bp-course-notifications.php:1419
+#, php-format
+msgid "Student %s completed unit %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:566
+msgid "Student : Instructor marked unit complete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:567
+#, php-format
+msgid "Instructor marked unit complete in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:568 includes/bp-course-notifications.php:1448
+#, php-format
+msgid "Unit %s was marked complete by Instructor %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:571
+msgid "Instructor : Instructor marked unit complete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:572 includes/bp-course-notifications.php:1474
+#: includes/bp-course-notifications.php:1530
+#, php-format
+msgid "Instructor marked unit %s comple for Student in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:573 includes/bp-course-notifications.php:1475
+#, php-format
+msgid "Instructor %s completed the unit %s for Student %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:576
+msgid "Student : Instructor marked unit incomplete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:577
+#, php-format
+msgid "Instructor marked unit incomplete in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:578
+#, php-format
+msgid "Unit %s was marked incomplete by Instructor %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:581
+msgid "Instructor : Instructor marked unit incomplete for Student in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:582
+#, php-format
+msgid "Instructor marked unit %s incomplete for Student in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:583
+#, php-format
+msgid "Instructor %s marked the unit %s incomplete for Student %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:586
+msgid "Student : Student added a comment in unit in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:587
+#, php-format
+msgid "You added a comment in unit %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:588
+#, php-format
+msgid "Comment \"%s\" was added to unit %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:591
+msgid "Student : Reply posted on your comment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:592
+#, php-format
+msgid "Reply posted on your comment in %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:593
+#, php-format
+msgid "%s replied on your comment in Unit %s : %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:596
+msgid "Instructor : Student added a comment on Unit"
+msgstr ""
+
+#: includes/bp-course-mailer.php:597
+#, php-format
+msgid "Student added a comment in unit %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:598
+#, php-format
+msgid "Student %s added a comment \"%s\" in unit %s in course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:601
+msgid "Student : You started the quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:602
+#, php-format
+msgid "You started the  quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:603
+#, php-format
+msgid "You started the quiz %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:606
+msgid "Instructor : Student started a quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:607 includes/bp-course-notifications.php:1673
+#, php-format
+msgid "Student started the quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:611
+msgid "Student : Quiz submitted"
+msgstr ""
+
+#: includes/bp-course-mailer.php:612 includes/bp-course-notifications.php:1782
+#: includes/bp-course-notifications.php:1783
+#, php-format
+msgid "You submitted quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:613 includes/bp-course-notifications.php:1765
+#, php-format
+msgid "You submitted quiz %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:616
+msgid "Instructor : Student submitted quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:617 includes/bp-course-notifications.php:1814
+#, php-format
+msgid "Student submitted quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:618 includes/bp-course-notifications.php:1815
+#, php-format
+msgid "Student %s submitted quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:621
+msgid "Student : Results available for quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:622 includes/bp-course-notifications.php:1722
+#, php-format
+msgid "Results available for quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:623
+#, php-format
+msgid "You obtained %s out of %s in quiz %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:626
+msgid "Instructor : Student results available for quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:627 includes/bp-course-notifications.php:1751
+#, php-format
+msgid "Quiz %s evaluated for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:628
+#, php-format
+msgid "Student %s got %s from %s in quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:631
+msgid "Student : Quiz retake"
+msgstr ""
+
+#: includes/bp-course-mailer.php:632 includes/bp-course-mailer.php:633
+#: includes/bp-course-notifications.php:2535
+#, php-format
+msgid "You retook the quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:636
+msgid "Instructor : Student retook quiz"
+msgstr ""
+
+#: includes/bp-course-mailer.php:637 includes/bp-course-notifications.php:1864
+#, php-format
+msgid "Student retook the quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:638 includes/bp-course-notifications.php:1865
+#, php-format
+msgid "Student %s retook the quiz %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:641
+msgid "Student : Quiz reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:642
+#, php-format
+msgid "Quiz %s has been reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:643 includes/bp-course-notifications.php:1872
+#: includes/bp-course-notifications.php:1890
+#, php-format
+msgid "Quiz %s was reset by Instructor"
+msgstr ""
+
+#: includes/bp-course-mailer.php:646
+msgid "Instructor : Quiz reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:647 includes/bp-course-notifications.php:1898
+#: includes/bp-course-notifications.php:1916
+#, php-format
+msgid "Quiz %s reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:648 includes/bp-course-notifications.php:1917
+#, php-format
+msgid "Quiz %s was reset for Student %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:651
+msgid "Student : Student started Assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:652 includes/bp-course-mailer.php:653
+#: includes/bp-course-notifications.php:1944
+#: includes/bp-course-notifications.php:2541
+#, php-format
+msgid "You started the assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:656
+msgid "Instructor : Student started an assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:657
+#, php-format
+msgid "Student started the assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:661 includes/bp-course-mailer.php:671
+msgid "Student : Results available for assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:662 includes/bp-course-notifications.php:2547
+#, php-format
+msgid "You submitted the assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:663 includes/bp-course-notifications.php:2044
+#, php-format
+msgid "You submitted the assignment %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:666
+msgid "Instructor : Student submitted assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:667
+#, php-format
+msgid "Student submitted the assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:673
+#, php-format
+msgid "You obtained %s out of %s in assignment %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:676
+msgid "Instructor : Student results available for assignment"
+msgstr ""
+
+#: includes/bp-course-mailer.php:677 includes/bp-course-notifications.php:2029
+#, php-format
+msgid "Assignment %s evaluated for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:678
+#, php-format
+msgid "Student %s got %s from %s in assignment %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:681
+msgid "Student : assignment reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:682
+#, php-format
+msgid "Assignment %s was reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:683 includes/bp-course-notifications.php:2101
+#: includes/bp-course-notifications.php:2119
+#, php-format
+msgid "Assignment %s was reset by Instructor"
+msgstr ""
+
+#: includes/bp-course-mailer.php:686
+msgid "Instructor : assignment reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:687
+#, php-format
+msgid "assignment %s reset for Student"
+msgstr ""
+
+#: includes/bp-course-mailer.php:688
+#, php-format
+msgid "assignment %s was reset for Student %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:691
+msgid "Student : Applied for Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:692 includes/bp-course-notifications.php:2571
+#, php-format
+msgid "You applied for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:693
+#, php-format
+msgid "You applied for course %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:696 includes/bp-course-mailer.php:706
+msgid "Instructor : Student applied for course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:697
+#, php-format
+msgid "Student applied for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:698
+#, php-format
+msgid "Student %s applied for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:701
+msgid "Student : Manage application Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:702 includes/bp-course-mailer.php:703
+#, php-format
+msgid "Your application was %s for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:707
+#, php-format
+msgid "Student applied %s for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:708
+#, php-format
+msgid "Student %s application was %s for course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:711
+msgid "Instructor : Go Live/Publish a Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:712
+#, php-format
+msgid "You %s the course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:713
+#, php-format
+msgid "You  %s the course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:716
+msgid "Administrator : Go Live/Publish a Course"
+msgstr ""
+
+#: includes/bp-course-mailer.php:717
+#, php-format
+msgid "Instructor set the course %s to %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:718
+#, php-format
+msgid "Instructor %s set the course  %s to status %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:721
+msgid "Student : Drip Course Unit available "
+msgstr ""
+
+#: includes/bp-course-mailer.php:722
+#, php-format
+msgid "Unit %s now available in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:723
+#, php-format
+msgid "Unit %s is now available in course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:726
+msgid "Student : Course about to expire "
+msgstr ""
+
+#: includes/bp-course-mailer.php:727
+#, php-format
+msgid "Subscription for course %s will expire soon"
+msgstr ""
+
+#: includes/bp-course-mailer.php:728
+#, php-format
+msgid "Your subscription to course %s will expire soon"
+msgstr ""
+
+#: includes/bp-course-mailer.php:731
+msgid "Forgot password "
+msgstr ""
+
+#: includes/bp-course-mailer.php:732
+msgid " Password Reset"
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+msgid ""
+"Someone requested that the password be reset for the following account: "
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/bp-course-mailer.php:733
+#, php-format
+msgid "To reset your password, visit the following address: %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:736
+msgid "User is inactive on website for a long time "
+msgstr ""
+
+#: includes/bp-course-mailer.php:737
+msgid "Inactive user"
+msgstr ""
+
+#: includes/bp-course-mailer.php:738
+#, php-format
+msgid ""
+"You are inactive on our website for more than %s days. Please visit the "
+"website %s and continue learning."
+msgstr ""
+
+#: includes/bp-course-mailer.php:741
+msgid "Contact email sent in contact form "
+msgstr ""
+
+#: includes/bp-course-mailer.php:742
+msgid "Contact Form Submission"
+msgstr ""
+
+#: includes/bp-course-mailer.php:743
+#, php-format
+msgid " User contacted via contact form on your site <br> %s "
+msgstr ""
+
+#: includes/bp-course-mailer.php:746
+msgid ""
+"Course Review email sent when user finish the course but does not review the "
+"course "
+msgstr ""
+
+#: includes/bp-course-mailer.php:747
+#, php-format
+msgid "Review pending for Course %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:748
+#, php-format
+msgid ""
+" You have successfully finished the course %s. Now please take a moment and "
+"review this course. "
+msgstr ""
+
+#: includes/bp-course-notifications.php:252
+#: includes/bp-course-notifications.php:284
+#: includes/bp-course-notifications.php:344
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/bp-course-notifications.php:253
+#: includes/bp-course-notifications.php:285
+#: includes/bp-course-notifications.php:345
+msgid "No"
+msgstr "Nee"
+
+#: includes/bp-course-notifications.php:265
+#: includes/bp-course-notifications.php:297
+#: includes/bp-course-notifications.php:358
+msgid "Yes, send email"
+msgstr ""
+
+#: includes/bp-course-notifications.php:266
+#: includes/bp-course-notifications.php:298
+#: includes/bp-course-notifications.php:360
+msgid "No, do not send email"
+msgstr ""
+
+#: includes/bp-course-notifications.php:343
+msgid "Schedule Emails"
+msgstr ""
+
+#: includes/bp-course-notifications.php:375
+#: includes/bp-course-notifications.php:488
+#, php-format
+msgid "Announcement for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:522
+#: includes/bp-course-notifications.php:570
+#: includes/bp-course-notifications.php:582
+#: includes/bp-course-notifications.php:612
+msgid "Read more"
+msgstr ""
+
+#: includes/bp-course-notifications.php:581
+#, php-format
+msgid "News for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:626
+#: includes/bp-course-notifications.php:646
+#: includes/bp-course-notifications.php:663
+msgid "Subscribed for Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:701
+#, php-format
+msgid "You're added to course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:703
+msgid "Added to Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:748
+#, php-format
+msgid "Student %s added to course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:750
+msgid "Student added to Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:789
+#, php-format
+msgid "Students added to course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:790
+#, php-format
+msgid "%d students added to course : %s , %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:800
+#, php-format
+msgid "You started the course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:802
+msgid "Started a Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:836
+#, php-format
+msgid "Student started the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:870
+msgid "Course submitted"
+msgstr ""
+
+#: includes/bp-course-notifications.php:902
+#, php-format
+msgid "Student submitted the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:932
+#, php-format
+msgid "The Course %s was reset by Course instructor "
+msgstr ""
+
+#: includes/bp-course-notifications.php:934
+msgid "Course reset"
+msgstr ""
+
+#: includes/bp-course-notifications.php:957
+#, php-format
+msgid "%s course reset for student : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:959
+#: includes/bp-course-notifications.php:1010
+#, php-format
+msgid "Course %s reset for student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:984
+#, php-format
+msgid "You retook the Course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:986
+msgid "Course retake"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1001
+#, php-format
+msgid "You retook the course Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1008
+#, php-format
+msgid "Student %s retook the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1039
+msgid "Course results available"
+msgstr "Studieresultaten beschikbaar"
+
+#: includes/bp-course-notifications.php:1063
+#, php-format
+msgid "Course %s evaluated for student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1079
+#, php-format
+msgid "Course %s evaluated for Student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1080
+#, php-format
+msgid "Student %s got %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1089
+#, php-format
+msgid "Congratulations ! You've obtained a badge in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1091
+msgid "You got a new Badge !"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1119
+#, php-format
+msgid "Student %s got a Badge in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1151
+#, php-format
+msgid "Congratulations ! You've obtained a Certificate in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1153
+msgid "You got a new Certificate !"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1173
+#, php-format
+msgid "You've obtained a certificate in Course : %s . %s View Certificate %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1181
+#, php-format
+msgid "Student %s got a Certificate in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1212
+#, php-format
+msgid "You've submitted a review of Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1214
+msgid "You submitted a course review"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1231
+#: includes/bp-course-notifications.php:2471
+#, php-format
+msgid "You submitted a review for Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1232
+#, php-format
+msgid "You submitted a review Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1239
+#, php-format
+msgid "Student %s submitted a review for the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1241
+#, php-format
+msgid "Student submitted a review for the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1259
+#, php-format
+msgid "Student submitted a review for Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1260
+#, php-format
+msgid "Student %s submitted a review for the Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1268
+#, php-format
+msgid "You're unsubscribed from Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1270
+msgid "You unsubscribed from course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1292
+#, php-format
+msgid "Student %s unsubscribed course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1318
+#, php-format
+msgid "You applied a code for Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1320
+msgid "You applied a course code"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1336
+#, php-format
+msgid "You've applied Course Code in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1343
+#, php-format
+msgid "Student %s used course code %s for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1345
+#, php-format
+msgid "Student applied Course code for Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1370
+#, php-format
+msgid "You've completed the unit %s in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1372
+msgid "You completed a unit"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1390
+msgid "You completed unit"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1398
+#, php-format
+msgid "Student %s completed the unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1400
+#: includes/bp-course-notifications.php:1457
+#, php-format
+msgid "Student completed a unit in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1427
+#, php-format
+msgid "Instructor %s marked the unit %s complete in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1429
+#, php-format
+msgid "Instructor marked a unit complete in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1447
+#, php-format
+msgid "Instructor marked unit %s complete "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1483
+#, php-format
+msgid "Instructor %s marked the unit %s incomplete in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1485
+#, php-format
+msgid "Instructor marked a unit uncomplete in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1503
+#, php-format
+msgid "Instructor marked unit %s uncompleted "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1504
+#, php-format
+msgid "Unit %s was marked uncomplete by Instructor %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1513
+#, php-format
+msgid "Student uncompleted a unit in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1531
+#, php-format
+msgid "Instructor %s uncompleted the unit %s for Student %s in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1540
+#, php-format
+msgid "You've submitted a comment on unit : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1542
+msgid "You added a comment in Unit"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1552
+#, php-format
+msgid "%s replied on your comment in unit \"%s\" : %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1554
+msgid "Reply on your comment"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1590
+#: includes/bp-course-notifications.php:1591
+#, php-format
+msgid "You added a comment on Unit %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1603
+#, php-format
+msgid "You received a reply on your comment in Unit %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1604
+#, php-format
+msgid "Reply from %s on Unit %s : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1613
+#, php-format
+msgid "Student %s submitted a comment on unit %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1615
+msgid "Student submitted a comment on Unit"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1637
+#, php-format
+msgid "Student added comment in unit %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1638
+#, php-format
+msgid "Student %s added a comment in unit %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1647
+#, php-format
+msgid "You've started the quiz : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1649
+msgid "You started a Quiz"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1664
+#, php-format
+msgid "You started quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1665
+#, php-format
+msgid "You started a quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1671
+#: includes/bp-course-notifications.php:1694
+#, php-format
+msgid "Student %s started the quiz %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1693
+#, php-format
+msgid "Student started quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1704
+#: includes/bp-course-notifications.php:1723
+#, php-format
+msgid "You obtained %d out of %s in Quiz : "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1706
+msgid "Quiz results available"
+msgstr "Testresulaten beschikbaar"
+
+#: includes/bp-course-notifications.php:1729
+#: includes/bp-course-notifications.php:1752
+#, php-format
+msgid "Student %s got %s from %s in quiz %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1731
+#, php-format
+msgid "Quiz %s evaluated for student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1763
+#, php-format
+msgid "You submitted the Quiz : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1796
+#, php-format
+msgid "Quiz %s submitted by student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1798
+#, php-format
+msgid "Quiz %s submitted by Student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1822
+#, php-format
+msgid "You retook the Quiz : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1824
+msgid "You retook a Quiz"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1839
+#: includes/bp-course-notifications.php:1840
+#, php-format
+msgid "You retook quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1846
+#, php-format
+msgid "Student %s retook the Quiz : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1848
+#, php-format
+msgid "Student retook the Quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1874
+msgid "Quiz reset by Instructor"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1889
+#, php-format
+msgid "Quiz %s reset"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1896
+#, php-format
+msgid "Quiz %s reset for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1926
+#, php-format
+msgid "You've started the assignemtn : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1928
+#: includes/bp-course-notifications.php:1943
+#, php-format
+msgid "You started assignment %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:1950
+#: includes/bp-course-notifications.php:1973
+#, php-format
+msgid "Student %s started the assignment %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1952
+#, php-format
+msgid "Student started an assignment %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1983
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:1985
+msgid "Assignment results available"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2002
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2008
+#: includes/bp-course-notifications.php:2030
+#, php-format
+msgid "Student %s got %s from %s in assignment %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2010
+#, php-format
+msgid "Assignment %s evaluated for student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2042
+#, php-format
+msgid "You submitted the assignment : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2061
+#: includes/bp-course-notifications.php:2062
+#, php-format
+msgid "You submitted assignment %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2074
+#, php-format
+msgid "Assignment %s submitted by student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2076
+#, php-format
+msgid "Assignment %s submitted by Student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2092
+#, php-format
+msgid "Student submitted assignment %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2093
+#, php-format
+msgid "Student %s submitted assignment %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2103
+msgid "Assignment reset by Instructor"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2118
+#, php-format
+msgid "Assignment %s reset"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2125
+#, php-format
+msgid "Assignment %s reset for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2127
+#: includes/bp-course-notifications.php:2145
+#, php-format
+msgid "Assignment %s reset for Student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2146
+#, php-format
+msgid "Assignment %s was reset for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2154
+#: includes/bp-course-notifications.php:2173
+#, php-format
+msgid "You applied to course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2156
+msgid "You applied for Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2174
+#, php-format
+msgid "You have applied to Course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2182
+#, php-format
+msgid "Student %s applied to course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2184
+msgid "Student applied for Course"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2202
+#, php-format
+msgid "Application for course %s was submitted by Student"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2203
+#, php-format
+msgid "Student %s submitted an application for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2217
+#: includes/bp-course-notifications.php:2258
+#, php-format
+msgid "Application %s for course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2219
+#: includes/bp-course-notifications.php:2260
+#, php-format
+msgid "Application %s by Instructor"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2242
+#, php-format
+msgid "Application %s to course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2244
+#, php-format
+msgid "Your application was %s for Course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2284
+#, php-format
+msgid "Student application for course %s was %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2285
+#, php-format
+msgid "Application by Student %s was %s for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2297
+#: includes/bp-course-notifications.php:2322
+#, php-format
+msgid "You published the course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2299
+#: includes/bp-course-notifications.php:2325
+#, php-format
+msgid "Course %s sent for approval from admin"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2303
+msgid "Course status updated"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2321
+#, php-format
+msgid "Course %s published"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2324
+#, php-format
+msgid "Course %s sent for Admin approval"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2344
+#, php-format
+msgid "Instructor published the course %s "
+msgstr ""
+
+#: includes/bp-course-notifications.php:2346
+#, php-format
+msgid "Instructor %s sent the Course %s for approval"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2350
+msgid "Instructor changed the Course status"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2388
+#, php-format
+msgid "Instructor changed status for Course %s to %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2389
+#, php-format
+msgid "Instructor %s changed status for Course %s to %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2411
+#: includes/bp-course-notifications.php:2417
+#, php-format
+msgid "Added to Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2414
+#: includes/bp-course-notifications.php:2420
+#, php-format
+msgid "Student %s added to Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2423
+#, php-format
+msgid "You've subscribed to Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2426
+#, php-format
+msgid "Student %s subscribed to Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2429
+#, php-format
+msgid "You started the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2432
+#, php-format
+msgid "Student %s started course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2435
+#, php-format
+msgid "You submitted the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2438
+#: includes/bp-course-notifications.php:2441
+#, php-format
+msgid "Student %s submitted course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2444
+#, php-format
+msgid "Course %s was reset for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2447
+#, php-format
+msgid "Student %s retook the course course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2450
+#, php-format
+msgid "Course %s was retaken by Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2453
+#: includes/bp-course-notifications.php:2456
+#, php-format
+msgid "Course %s evaluated for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2459
+#, php-format
+msgid "Congratulations ! You got a badge in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2465
+#, php-format
+msgid "Congratulations ! You got a certificate in Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2474
+#, php-format
+msgid "Student %s submitted a review for Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2477
+#, php-format
+msgid "You're unsubscribed from Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2480
+#, php-format
+msgid "Student %s is unsubscribed from Course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2483
+#, php-format
+msgid "You completed the unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2486
+#, php-format
+msgid "Student %s completed the unit %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2489
+#, php-format
+msgid "Instructor marked Unit %s complete for you."
+msgstr ""
+
+#: includes/bp-course-notifications.php:2492
+#, php-format
+msgid "Instructor marked Unit %s complete for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2495
+#, php-format
+msgid "Instructor marked Unit %s incomplete for you."
+msgstr ""
+
+#: includes/bp-course-notifications.php:2498
+#, php-format
+msgid "Instructor marked Unit %s incomplete for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2501
+#, php-format
+msgid "You added a comment in unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2504
+#, php-format
+msgid "Student %s added a comment in unit %s in course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2508
+#, php-format
+msgid "%s replied on your comment in unit \"%s\" in Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2511
+#, php-format
+msgid "You started the quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2517
+#, php-format
+msgid "You submitted the quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2520
+#, php-format
+msgid "Student %s submitted the quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2523
+#, php-format
+msgid "Quiz %s results available"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2526
+#, php-format
+msgid "Quiz %s results available for student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2529
+#, php-format
+msgid "Quiz %s reset by Instructor"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2532
+#, php-format
+msgid "Quiz %s reset for student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2538
+#, php-format
+msgid "Student %s retook the Quiz %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2553
+#, php-format
+msgid "Assignment %s results available"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2556
+#, php-format
+msgid "Assignment %s results available for student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2559
+#, php-format
+msgid "Assignment %s reset by Instructor"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2562
+#, php-format
+msgid "Assignment %s reset for student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2565
+#, php-format
+msgid "Latest News : %s for Course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2568
+#, php-format
+msgid "News : %s was published for your course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2574
+#, php-format
+msgid "Student %s applied for course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2577
+#, php-format
+msgid "Application approved for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2580
+#, php-format
+msgid "Student %s application approved for course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2583
+#, php-format
+msgid "Application rejected for course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2586
+#, php-format
+msgid "Student %s application rejected for course : %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2589
+#, php-format
+msgid "You published the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2592
+#, php-format
+msgid "You sent the course %s for approval"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2595
+#, php-format
+msgid "Instructor %s published the course %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2598
+#, php-format
+msgid "Instructor %s sent the course %s for approval"
+msgstr ""
+
+#: includes/bp-course-screens.php:96
+msgid "Course Settings Header"
+msgstr "Cursusinstellingen Hoofding"
+
+#: includes/bp-course-screens.php:100
+msgid "Course Settings"
+msgstr ""
+
+#: includes/bp-course-screens.php:108
+msgid "Changes Saved."
+msgstr "Wijzigingen Bewaard."
+
+#: includes/bp-course-screens.php:114
+msgid "Do you love clicking checkboxes?"
+msgstr "Hou je van vakjes klikken?"
+
+#: includes/bp-course-screens.php:116
+msgid "Save Settings"
+msgstr "Bewaar Instellingen"
+
+#: includes/bp-course-screens.php:148
+msgid "Send Bulk Message"
+msgstr "Verstuur Bulk Boodschap"
+
+#: includes/bp-course-screens.php:158
+#, php-format
+msgid "Enter extend amount ( in %s"
+msgstr ""
+
+#: includes/bp-course-screens.php:159
+msgid "Extend Subscription"
+msgstr ""
+
+#: includes/bp-course-screens.php:170
+msgid "Type Message Subject"
+msgstr "Typ Onderwerp:"
+
+#: includes/bp-course-screens.php:171
+msgid "Type Message"
+msgstr "Typ Bericht"
+
+#: includes/bp-course-screens.php:173
+msgid "All Students"
+msgstr ""
+
+#: includes/bp-course-screens.php:175
+msgid "Send Message"
+msgstr "Verstuur Bericht"
+
+#: includes/bp-course-screens.php:188
+msgid "Enter Student Usernames/Emails, separated by comma"
+msgstr ""
+
+#: includes/bp-course-screens.php:190
+msgid "Add Students"
+msgstr "Voeg studenten toe"
+
+#: includes/bp-course-screens.php:204
+msgid "ASSIGN COURSE BADGE"
+msgstr "WIJS CURSUS BADGE TOE"
+
+#: includes/bp-course-screens.php:205
+msgid "ASSIGN COURSE CERTIFICATE"
+msgstr "WIJS CURSUS CERTIFICAAT TOE"
+
+#: includes/bp-course-screens.php:206
+msgid "REMOVE COURSE BADGE"
+msgstr "VERWIJDER CURSUS BADGE"
+
+#: includes/bp-course-screens.php:207
+msgid "REMOVE COURSE CERTIFICATE"
+msgstr "VERWIJDER CURSUS CERTIFICAAT"
+
+#: includes/bp-course-screens.php:209
+msgid "Assign Action"
+msgstr "Wijs actie toe"
+
+#: includes/bp-course-screens.php:225
+msgid "Finished Course"
+msgstr ""
+
+#: includes/bp-course-screens.php:227
+msgid "Enter marks"
+msgstr ""
+
+#: includes/bp-course-screens.php:228
+msgid "Change Course Status"
+msgstr ""
+
+#: includes/bp-course-template.php:98
+msgid "REVIEWS"
+msgstr "BEOORDELINGEN"
+
+#: includes/bp-course-template.php:103
+msgid "STUDENTS"
+msgstr "STUDENTEN"
+
+#: includes/bp-course-template.php:141 includes/bp-course-template.php:1401
+msgid "FREE"
+msgstr "GRATIS"
+
+#: includes/bp-course-template.php:184
+msgid "Price Options +"
+msgstr ""
+
+#: includes/bp-course-template.php:815
+#, php-format
+msgid "Viewing page %1$s of %2$s"
+msgstr "Bekijk pagina's %1$s van %2$s"
+
+#: includes/bp-course-template.php:1157
+msgid "PRIVATE"
+msgstr "BETALEND"
+
+#: includes/bp-course-template.php:2319
+msgid "COURSE EVALUATED "
+msgstr "CURSUS GE-EVALUEERD"
+
+#: includes/bp-course-template.php:2356
+msgid "Congratulations ! You've earned the "
+msgstr "Gefeliciteerd! u ontvangt de  "
+
+#: includes/bp-course-template.php:2356
+msgid "Badge"
+msgstr "Badge"
+
+#: includes/bp-course-template.php:2380
+msgid ""
+"Congratulations ! You've successfully passed the course and earned the "
+"Course Completion Certificate !"
+msgstr ""
+"Gefeliciteerd! U bent geslaagd voor de cursus en u ontvangt het Cursus "
+"Certificaat!"
+
+#: includes/bp-course-template.php:2380
+msgid "View Certificate"
+msgstr ""
+
+#: includes/bp-course-template.php:2389
+#, php-format
+msgid "You've obtained %s in course %s "
+msgstr ""
+
+#: includes/bp-course-template.php:2395
+msgid "COURSE SUBMITTED FOR EVALUATION"
+msgstr "CURSUS TER BEOORDELING VOORGELEGD"
+
+#: includes/bp-course-template.php:2408
+msgid "UNIT"
+msgstr ""
+
+#: includes/bp-course-template.php:2411
+msgid "ASSIGNMENT"
+msgstr ""
+
+#: includes/bp-course-template.php:2414
+msgid "QUIZ"
+msgstr ""
+
+#: includes/bp-course-template.php:2417
+msgid "PLEASE COMPLETE THE "
+msgstr "VUL AAN AUB"
+
+#: includes/bp-course-template.php:2421
+msgid "COURSE CURRICULUM NOT SET"
+msgstr "CURSUSOVERZICHT NIET INGESTELD"
+
+#: includes/bp-course-template.php:2767 includes/bp-course-template.php:2849
+msgid "Marked Choice :"
+msgstr ""
+
+#: includes/bp-course-template.php:2769 includes/bp-course-template.php:2852
+msgid "View explanation"
+msgstr ""
+
+#: includes/bp-course-template.php:2779
+msgid "Correct Answer : "
+msgstr ""
+
+#: includes/bp-course-template.php:2781 includes/bp-course-template.php:2966
+msgid "View answer explanation"
+msgstr ""
+
+#: includes/bp-course-template.php:2786 includes/bp-course-template.php:2971
+msgid "Total Marks :"
+msgstr ""
+
+#: includes/bp-course-template.php:2792 includes/bp-course-template.php:2794
+#: includes/bp-course-template.php:2975 includes/bp-course-template.php:2977
+msgid "MARKS OBTAINED"
+msgstr ""
+
+#: includes/bp-course-template.php:3042
+msgid "RETAKE QUIZ"
+msgstr ""
+
+#: includes/bp-course-template.php:3043
+msgid "Number of retakes "
+msgstr ""
+
+#: includes/bp-course-template.php:3048
+msgid "Previous Results for Quiz "
+msgstr ""
+
+#: includes/bp-course-template.php:3065
+msgid "Results not Available"
+msgstr ""
+
+#: includes/bp-course-tour.php:157
+msgid "Tours Settings"
+msgstr ""
+
+#: includes/bp-course-tour.php:162
+msgid "Enable all tours by default for users"
+msgstr ""
+
+#: includes/bp-course-tour.php:164
+msgid "Will enable all tours by default for all users"
+msgstr ""
+
+#: includes/bp-course-tour.php:176
+msgid "Tours"
+msgstr ""
+
+#: includes/bp-course-widgets.php:43 includes/bp-course-widgets.php:45
+msgid "Member Types Navigation"
+msgstr ""
+
+#: includes/bp-course-widgets.php:145
+msgid "Member Types"
+msgstr ""
+
+#: includes/bp-course-widgets.php:159 includes/bp-course-widgets.php:298
+msgid "Title:"
+msgstr ""
+
+#: includes/bp-course-widgets.php:164
+msgid "Exclude member types slugs (comma saperated):"
+msgstr ""
+
+#: includes/bp-course-widgets.php:181 includes/bp-course-widgets.php:183
+msgid "Group Types Navigation"
+msgstr ""
+
+#: includes/bp-course-widgets.php:284
+msgid "Group Types"
+msgstr ""
+
+#: includes/bp-course-widgets.php:303
+msgid "Exclude group types slugs (comma saperated):"
+msgstr ""
+
+#: includes/bp-course-widgets.php:318
+msgid "BuddyPress Course Widget"
+msgstr "BuddyPress Cursus Widget"
+
+#: includes/bp-course-widgets.php:398 includes/bp-course-widgets.php:549
+msgid "by"
+msgstr "door"
+
+#: includes/bp-course-widgets.php:455 includes/bp-course-widgets.php:578
+#: includes/bp-course-widgets.php:725 includes/bp-course-widgets.php:848
+#: includes/bp-course-widgets.php:1298 includes/bp-course-widgets.php:1504
+msgid "Widget Title"
+msgstr "Widget Titel"
+
+#: includes/bp-course-widgets.php:456 includes/bp-course-widgets.php:1302
+msgid "Style"
+msgstr "stijl"
+
+#: includes/bp-course-widgets.php:458 includes/bp-course-widgets.php:1304
+msgid "Single"
+msgstr "Enkel"
+
+#: includes/bp-course-widgets.php:459 includes/bp-course-widgets.php:1305
+msgid "List"
+msgstr "Lijst"
+
+#: includes/bp-course-widgets.php:460
+msgid "Ratings List"
+msgstr "Beoordelingslijst"
+
+#: includes/bp-course-widgets.php:461 includes/bp-course-widgets.php:1306
+msgid "Carousel"
+msgstr "Carousel"
+
+#: includes/bp-course-widgets.php:464 includes/bp-course-widgets.php:613
+msgid "Select Course Category"
+msgstr "Kies Cursus Categorie"
+
+#: includes/bp-course-widgets.php:466
+msgid "None"
+msgstr ""
+
+#: includes/bp-course-widgets.php:474 includes/bp-course-widgets.php:1309
+msgid "Order By"
+msgstr "Bestel"
+
+#: includes/bp-course-widgets.php:476 includes/bp-course-widgets.php:1312
+msgid "Random"
+msgstr "Willekeurig"
+
+#: includes/bp-course-widgets.php:477
+msgid "Name"
+msgstr "Naam"
+
+#: includes/bp-course-widgets.php:478
+msgid "Course Title"
+msgstr "Cursus Titel"
+
+#: includes/bp-course-widgets.php:479
+msgid "Number of Reviews"
+msgstr "Aantal Reviews"
+
+#: includes/bp-course-widgets.php:480
+msgid "Date Published"
+msgstr "Publicatiedatum"
+
+#: includes/bp-course-widgets.php:481 includes/bp-course-widgets.php:1313
+msgid "Rating"
+msgstr "Waardering"
+
+#: includes/bp-course-widgets.php:482
+msgid "Number of Students"
+msgstr "Aantal Studenten"
+
+#: includes/bp-course-widgets.php:483
+msgid "Upcoming Courses (Start Date)"
+msgstr ""
+
+#: includes/bp-course-widgets.php:486 includes/bp-course-widgets.php:1316
+msgid "Sort "
+msgstr "Sorteer"
+
+#: includes/bp-course-widgets.php:488 includes/bp-course-widgets.php:1318
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: includes/bp-course-widgets.php:489 includes/bp-course-widgets.php:1319
+msgid "Decending"
+msgstr "Aflopend"
+
+#: includes/bp-course-widgets.php:492
+msgid "Specific Courses (enter comma saperated ids)"
+msgstr "Specifieke Cursusssen (voer komma gescheiden ids)"
+
+#: includes/bp-course-widgets.php:493
+msgid "Number of Courses to show"
+msgstr "Aantal Cursussen dat getoond wordt"
+
+#: includes/bp-course-widgets.php:503
+msgid "BuddyPress Instructor Widget"
+msgstr "BuddyPress Lesgever Widget"
+
+#: includes/bp-course-widgets.php:526
+msgid "Check all Courses created by "
+msgstr "Bekijk alle Cursussen gemaakt door "
+
+#: includes/bp-course-widgets.php:527
+msgid "More Courses by "
+msgstr "Meer Cursussen door "
+
+#: includes/bp-course-widgets.php:579
+msgid "Fallback Instructor ID"
+msgstr "Fallback Instructeur ID"
+
+#: includes/bp-course-widgets.php:580
+msgid "Number of Courses by the Instructor to show"
+msgstr "Aantal cursussen door de Lesgever tonen"
+
+#: includes/bp-course-widgets.php:590
+msgid "BuddyPress Course Search Widget"
+msgstr "BuddyPress Zoek Cursus Widget"
+
+#: includes/bp-course-widgets.php:646
+msgid "Select Instructor"
+msgstr "Kies Lesgever"
+
+#: includes/bp-course-widgets.php:659
+msgid "Select Course Location"
+msgstr ""
+
+#: includes/bp-course-widgets.php:670
+msgid "Select Course Level"
+msgstr "Kies Cursusniveau"
+
+#: includes/bp-course-widgets.php:677
+msgid "Type Keywords.."
+msgstr "Typ Trefwoorden .."
+
+#: includes/bp-course-widgets.php:726
+msgid "Show Course Category Dropdown"
+msgstr "Toon Cursuscategorie menu"
+
+#: includes/bp-course-widgets.php:727
+msgid "Show Instructor Dropdown"
+msgstr "Toon Lesgever menu"
+
+#: includes/bp-course-widgets.php:731
+msgid "Show Location Dropdown"
+msgstr ""
+
+#: includes/bp-course-widgets.php:736
+msgid "Show Level Dropdown"
+msgstr "Toon niveau menu"
+
+#: includes/bp-course-widgets.php:747
+msgid "BuddyPress Course Stats Widget"
+msgstr "BuddyPress Cursusstatistieken Widget"
+
+#: includes/bp-course-widgets.php:816
+msgid "TOTAL STUDENTS"
+msgstr "TOTAAL AANTAL STUDENTEN"
+
+#: includes/bp-course-widgets.php:818
+msgid "BADGES"
+msgstr "BADGES"
+
+#: includes/bp-course-widgets.php:819
+msgid "CERTIFICATES"
+msgstr "CERTIFICATEN"
+
+#: includes/bp-course-widgets.php:849
+msgid "Select Course"
+msgstr "Kies Cursus"
+
+#: includes/bp-course-widgets.php:851 includes/bp-course-widgets.php:1016
+#: includes/bp-course-widgets.php:1034
+msgid "All"
+msgstr "Alle"
+
+#: includes/bp-course-widgets.php:852
+msgid "Current Course (defaults to all)"
+msgstr "Huidige Cursus (standaard op alle)"
+
+#: includes/bp-course-widgets.php:863
+msgid "Show Students Stats"
+msgstr "Toon Studenten Statistieken"
+
+#: includes/bp-course-widgets.php:864
+msgid "Show Badge/Certificates Stats"
+msgstr "Toon Badges/Certificaten Statistieken"
+
+#: includes/bp-course-widgets.php:874
+msgid "BuddyPress Course Filter Widget"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1017
+msgid "Online"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1018
+msgid "Offline"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1026
+msgid "Start Date"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1027
+msgid "End Date"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1035
+msgid "Free"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1036
+msgid "Paid"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1040
+msgid "Filter Results"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1074
+msgid "Course Categories"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1076
+msgid "Location"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1078
+msgid "Levels"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1080
+msgid "Type"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1082
+msgid "Price"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1084
+#: includes/templates/course/single/course-header.php:40
+msgid "Instructors"
+msgstr "Lesgevers"
+
+#: includes/bp-course-widgets.php:1086
+msgid "Upcoming Courses"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1114
+msgid "Show Course category filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1115
+msgid "Course Categories Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1117
+msgid "Show Free/Paid/All filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1118
+msgid "Free/Paid Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1120
+msgid "Show Offline/Online filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1121
+msgid "Online/Offline Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1123
+msgid "Show Upcoming/Past Courses filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1124
+msgid "Upcoming courses Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1132
+msgid "Show Location filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1133
+msgid "Location Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1144
+msgid "Show Levels filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1145
+msgid "Levels Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1149
+msgid "Show Instructor filter"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1150
+msgid "Instructor Label"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1151
+msgid "Exclude Category/Level Slugs (comma saperated)"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1152
+msgid "Auto Click on input select (hides filter button)"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1153
+msgid "Show course count"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1163
+msgid "Course Reviews Widget"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1231 includes/bp-course-widgets.php:1252
+msgid "Default avatar"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1299
+msgid "Course ID (optional)"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1311
+msgid "Recent"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1322
+msgid "Specific Reviews/Comments (enter comma saperated ids)"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1323
+msgid "Number of Reviews to show"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1334
+msgid "BuddyPress Related Courses Widget"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1456
+msgid "No related courses found !"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1505
+msgid "Show from same Course Category"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1506
+msgid "Show from same Instructor"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1510
+msgid "Show from same Course location"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1515
+msgid "Show from same Course Level"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1520
+msgid "Show from same Linkage"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1524
+msgid "Numer of Courses"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1525
+msgid "Block Style"
+msgstr ""
+
+#: includes/bp-course-widgets.php:1541
+msgid "Comma saperated courses"
+msgstr ""
+
+#: includes/templates/course/course-loop.php:93
+#: includes/templates/course/my-courses.php:98
+msgid "You have not subscribed to any courses."
+msgstr ""
+
+#: includes/templates/course/index.php:58
+#, php-format
+msgid "All Courses <span>%s</span>"
+msgstr "Alle Cursussen <span>%s</span>"
+
+#: includes/templates/course/index.php:62
+#, php-format
+msgid "My Courses <span>%s</span>"
+msgstr "Mijn Cursussen <span>%s</span>"
+
+#: includes/templates/course/index.php:83
+msgid "Order By:"
+msgstr "Sorteer op:"
+
+#: includes/templates/course/index.php:85
+msgid "Select Order"
+msgstr ""
+
+#: includes/templates/course/index.php:86
+msgid "Newly Published"
+msgstr ""
+
+#: includes/templates/course/index.php:87
+msgid "Alphabetical"
+msgstr "Alfabetische"
+
+#: includes/templates/course/index.php:88
+msgid "Most Members"
+msgstr "Meeste Leden"
+
+#: includes/templates/course/index.php:89
+msgid "Highest Rated"
+msgstr "Hoogste Score"
+
+#: includes/templates/course/instructor-courses.php:89
+msgid "You have not created any Course."
+msgstr ""
+
+#: includes/templates/course/single/activity.php:53
+msgid "All Activity"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:57
+msgid "My Activity"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:60
+msgid "Show:"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:62
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:95
+msgid "Load More"
+msgstr ""
+
+#: includes/templates/course/single/activity.php:109
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: includes/templates/course/single/admin.php:64
+#: includes/templates/course/single/members.php:19
+msgid "Total number of Students in course"
+msgstr "Totaal aan Studenten in Cursus"
+
+#: includes/templates/course/single/admin.php:139
+msgid "No Students found."
+msgstr ""
+
+#: includes/templates/course/single/admin.php:161
+msgid "BULK ACTIONS"
+msgstr ""
+
+#: includes/templates/course/single/curriculum.php:28
+msgid "Course Curriculum"
+msgstr "Cursusoverzicht"
+
+#: includes/templates/course/single/events.php:18
+msgid " Events"
+msgstr ""
+
+#: includes/templates/course/single/front.php:33
+msgid " STUDENTS ENROLLED"
+msgstr ""
+
+#: includes/templates/course/single/front.php:64
+msgid "READ MORE"
+msgstr ""
+
+#: includes/templates/course/single/front.php:76
+msgid "LESS"
+msgstr ""
+
+#: includes/templates/course/single/members.php:20
+msgid "Students Currently taking this course"
+msgstr "Studenten die momenteel de Cursus volgen"
+
+#: includes/templates/course/single/news.php:23
+msgid "Course News"
+msgstr ""
+
+#: includes/templates/course/single/news.php:47
+#: includes/templates/course/single/news.php:83
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/templates/course/single/news.php:47
+#: includes/templates/course/single/news.php:82
+msgid "Add News"
+msgstr ""
+
+#: includes/templates/course/single/news.php:54
+msgid "News Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:55
+msgid "Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:58
+msgid "News Sub-Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:59
+msgid "Sub Title"
+msgstr ""
+
+#: includes/templates/course/single/news.php:62
+msgid "News Format"
+msgstr ""
+
+#: includes/templates/course/single/news.php:64
+msgid "Standard"
+msgstr ""
+
+#: includes/templates/course/single/news.php:65
+msgid "Aside"
+msgstr ""
+
+#: includes/templates/course/single/news.php:66
+msgid "Image"
+msgstr ""
+
+#: includes/templates/course/single/news.php:67
+msgid "Quote"
+msgstr ""
+
+#: includes/templates/course/single/news.php:68
+msgid "Status"
+msgstr ""
+
+#: includes/templates/course/single/news.php:69
+msgid "Video"
+msgstr ""
+
+#: includes/templates/course/single/news.php:70
+msgid "Audio"
+msgstr ""
+
+#: includes/templates/course/single/news.php:71
+msgid "Chat"
+msgstr ""
+
+#: includes/templates/course/single/news.php:72
+msgid "Gallery"
+msgstr ""
+
+#: includes/templates/course/single/news.php:76
+msgid "News Content"
+msgstr ""
+
+#: includes/templates/course/single/news.php:107
+msgid "Are You sure, you want to delete this news"
+msgstr ""
+
+#: includes/templates/course/single/news.php:107
+msgid "Delete"
+msgstr ""
+
+#: includes/templates/course/single/news.php:109
+msgid "Read More"
+msgstr ""
+
+#: includes/templates/course/single/news.php:115
+msgid "No news available for Course"
+msgstr ""
+
+#: includes/templates/course/single/stats.php:22
+msgid "Total Number of Students who took this course"
+msgstr "Aantal Studenten dat deze cursus gevolgd heeft"
+
+#: includes/templates/course/single/stats.php:23
+msgid "Average Percentage obtained by Students"
+msgstr "Gemiddelde percentage behaald door studenten"
+
+#: includes/templates/course/single/stats.php:23
+msgid "out of 100"
+msgstr ""
+
+#: includes/templates/course/single/stats.php:24
+#: includes/templates/course/single/stats.php:31
+msgid "Number of Students who got a Badge"
+msgstr "Aantal studenten die een Badge ontvangen hebben"
+
+#: includes/templates/course/single/stats.php:25
+#: includes/templates/course/single/stats.php:30
+msgid "Number of Passed Students"
+msgstr "Aantal Geslaagde Studenten"
+
+#: includes/templates/course/single/stats.php:26
+msgid "Number of Students who did not pass "
+msgstr "Aantal Studenten die niet geslaagd zijn"
+
+#: includes/templates/course/single/stats.php:29
+msgid "Average Marks obtained by Students"
+msgstr "Behaald Puntengemiddelde door Studenten"
+
+#: includes/templates/course/single/stats.php:38
+msgid "No curriculum defined"
+msgstr ""
+
+#: includes/templates/course/single/stats.php:63
+msgid "Average Marks in Quiz "
+msgstr "Puntengemiddelde in Test"
+
+#: includes/templates/course/single/stats.php:71
+msgid "Calculate :"
+msgstr "Bereken :"
+
+#: includes/templates/course/single/stats.php:72
+msgid "Calculate Statistics for Course"
+msgstr "Bereken statistieken voor Cursus"
+
+#: includes/templates/course/single/submissions.php:20
+msgid "ASSIGNMENTS SUBMISSIONS"
+msgstr ""
+
+#: includes/templates/course/single/submissions.php:51
+msgid "Reset Assignment for User"
+msgstr ""
+
+#: includes/templates/course/single/submissions.php:52
+msgid "Evaluate Assignment : "
+msgstr ""
+
+#: includes/templates/course/single/submissions.php:69
+msgid "QUIZ SUBMISSIONS"
+msgstr "TEST INZENDINGEN"
+
+#: includes/templates/course/single/submissions.php:124
+msgid "COURSE SUBMISSIONS"
+msgstr "CURSUS INZENDINGEN"
+
+#~ msgid "Instructing Courses"
+#~ msgstr "Cursussen voorschrijven"
+
+#, fuzzy
+#~ msgid "ENABLED"
+#~ msgstr "CURSUS GEACTIVEERD"
+
+#, fuzzy
+#~ msgid "Student %s added a comment in unit %s"
+#~ msgstr "De student startte het lesonderdeel "
+
+#~ msgid " Hours"
+#~ msgstr " Uren"
+
+#~ msgid "Marks Obtained : "
+#~ msgstr "Behaalde punten:"
+
+#, fuzzy
+#~ msgid "You're unsubscribed from course"
+#~ msgstr " ingeschreven voor de cursus"
+
+#, fuzzy
+#~ msgid "You're unsubscribed from course Course %s"
+#~ msgstr " ingeschreven voor de cursus"
+
+#, fuzzy
+#~ msgid " Minutes"
+#~ msgstr " minuten"
+
+#, fuzzy
+#~ msgid " seconds"
+#~ msgstr "seconden"
+
+#~ msgid " minutes"
+#~ msgstr " minuten"
+
+#, fuzzy
+#~ msgid " hours"
+#~ msgstr "uren"
+
+#, fuzzy
+#~ msgid "Student %s applied for Course %s"
+#~ msgstr "Score voor cursus "
+
+#~ msgid "Student "
+#~ msgstr "Student "
+
+#, fuzzy
+#~ msgid " started the course "
+#~ msgstr " startte de test"
+
+#~ msgid "Course "
+#~ msgstr "Cursus"
+
+#~ msgid " reset for student "
+#~ msgstr " reset voor student "
+
+#, fuzzy
+#~ msgid " retake by student "
+#~ msgstr "Test wordt opnieuw gemaakt door Student"
+
+#~ msgid " got a badge in the course "
+#~ msgstr " kreeg een badge in de cursus "
+
+#~ msgid " got a certificate in the course "
+#~ msgstr " kreeg een certificaat in de cursus "
+
+#~ msgid " removed from the course "
+#~ msgstr " verwijderd uit de cursus"
+
+#~ msgid "Student started the unit "
+#~ msgstr "De student startte het lesonderdeel "
+
+#~ msgid " in course "
+#~ msgstr " in cursus"
+
+#~ msgid "Could not find Quiz results for User. Contact Admin."
+#~ msgstr ""
+#~ "Kon niet Testresultaten voor gebruiker niet vinden. Contacteer "
+#~ "Admininstratie."
+
+#~ msgid "Too Fast or Answer not marked."
+#~ msgstr "Te snel of Antwoord niet ingevuld."
+
+#~ msgid "Answer Saved."
+#~ msgstr "Antwoord bewaard."
+
+#~ msgid "Processing..."
+#~ msgstr "Dataverwerking..."
+
+#~ msgid "Saving Answer...please wait"
+#~ msgstr "Het antwoord wordt bewaard...wacht aub"
+
+#, fuzzy
+#~ msgid "Save Course Settings"
+#~ msgstr "cursusinstellingen"
+
+#, fuzzy
+#~ msgid "Connect with Course"
+#~ msgstr "Vervolg Cursus"
+
+#~ msgid ""
+#~ "There was issue in removing this user from the Course. Please contact "
+#~ "admin."
+#~ msgstr ""
+#~ "Er was vraag in het verwijderen van deze gebruiker van de cursus. Neem "
+#~ "contact op met de administratie."
+
+#, fuzzy
+#~ msgid "Annoucements"
+#~ msgstr "Lesgevers"
+
+#, fuzzy
+#~ msgid "Course Subscribed"
+#~ msgstr "Cursus start op: "
+
+#, fuzzy
+#~ msgid "User added to Course"
+#~ msgstr "Gebruiker verwijderd uit de cursus"
+
+#, fuzzy
+#~ msgid "User Starts a Course "
+#~ msgstr "Start Cursus"
+
+#, fuzzy
+#~ msgid "Course Reset by Instructor"
+#~ msgstr "Alle Cursussen door alle lesgevers"
+
+#, fuzzy
+#~ msgid "Course Retake by User"
+#~ msgstr "Cursus reset voor gebruiker"
+
+#, fuzzy
+#~ msgid "Course Submit"
+#~ msgstr "Cursus Titel"
+
+#, fuzzy
+#~ msgid "Course Evaluation"
+#~ msgstr "Cursus is nagezien voor een student"
+
+#, fuzzy
+#~ msgid "Course Reviews"
+#~ msgstr "BuddyPress Cursus Widget"
+
+#, fuzzy
+#~ msgid "Unsubscribe Course"
+#~ msgstr " ingeschreven voor de cursus"
+
+#, fuzzy
+#~ msgid "Quiz Start by user"
+#~ msgstr "Test wordt opnieuw gemaakt door Student"
+
+#, fuzzy
+#~ msgid "Quiz Submitted by user"
+#~ msgstr "Auto-evaluatie Test"
+
+#, fuzzy
+#~ msgid "Quiz Reset by Instructor"
+#~ msgstr "Kies Lesgever"
+
+#, fuzzy
+#~ msgid "Quiz Retake by User"
+#~ msgstr "Test wordt opnieuw gemaakt door Student"
+
+#, fuzzy
+#~ msgid "Quiz Evaluation"
+#~ msgstr "Auto-evaluatie Test"
+
+#, fuzzy
+#~ msgid "Assignment Start by user"
+#~ msgstr "Reset Cursus voor Gebruiker"
+
+#, fuzzy
+#~ msgid "Assignment Submitted by user"
+#~ msgstr "De Student heeft een cursus toegevoegd "
+
+#, fuzzy
+#~ msgid "Assignment Evaluation"
+#~ msgstr "Wordt geëvalueerd"
+
+#~ msgid " got ="
+#~ msgstr " heeft ="
+
+#~ msgid " for "
+#~ msgstr " voor"
+
+#~ msgid "Quiz "
+#~ msgstr "Test"
+
+#~ msgid " in Quiz"
+#~ msgstr " in Test"
+
+#~ msgid " got "
+#~ msgstr " heeft"
+
+#~ msgid " in Quiz "
+#~ msgstr " op test"
+
+#~ msgid "Instructor added "
+#~ msgstr "Lesgever toegevoegd "
+
+#~ msgid " students in course "
+#~ msgstr " studenten in cursus"
+
+#~ msgid " initiated quiz retake "
+#~ msgstr " herkansing test gestart"
+
+#~ msgid " in quiz "
+#~ msgstr " in Test"
+
+#~ msgid "Quiz Auto Evaluated"
+#~ msgstr "Auto-evaluatie Test"
+
+#~ msgid " with marks "
+#~ msgstr " met punten "
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#, fuzzy
+#~ msgid "Quiz %s submitted by student %s for evaluation"
+#~ msgstr " was verstuurd door de student"
+
+#~ msgid " days"
+#~ msgstr " dagen"
+
+#, fuzzy
+#~ msgid "Course expire warning notifications"
+#~ msgstr "Cursus Certificaat"
+
+#, fuzzy
+#~ msgid "Quizes evaluated"
+#~ msgstr "Auto-evaluatie Test"
+
+#, fuzzy
+#~ msgid "%d Quizes evaluated !"
+#~ msgstr "Auto-evaluatie Test"
+
+#, fuzzy
+#~ msgid "%s Quiz evaluated!"
+#~ msgstr "Auto-evaluatie Test"
+
+#, fuzzy
+#~ msgid ""
+#~ "Results for %s are avaialble. You've recieved %s marks. see results %s ,"
+#~ "evaluated by %s [%s]"
+#~ msgstr ""
+#~ "Resultaten voor %s zijn beschikbaar. U heeft %s punten.\n"
+#~ "\n"
+#~ "bekijk testresultaten %s ,geëvalueerd door %s [%s]\n"
+#~ "\n"
+#~ "\n"
+#~ "---------------------\n"
+
+#~ msgid "Auto evaluated Course for Student"
+#~ msgstr "Auto evaluatie Cursus voor Student"
+
+#~ msgid "Student got a Certificate in the course "
+#~ msgstr "Student heeft een Certificaat behaald in de Cursus "
+
+#, fuzzy
+#~ msgid "Student submitted course for evaluation"
+#~ msgstr "De Student heeft een cursus toegevoegd "
+
+#, fuzzy
+#~ msgid "Marks"
+#~ msgstr "Geef Punten"
+
+#~ msgid "Back to Quiz"
+#~ msgstr "Terug naar de Test"
+
+#~ msgid "MEMBERSHIP"
+#~ msgstr "LIDMAATSCHAP"
+
+#~ msgid "Right now"
+#~ msgstr "Nu"
+
+#~ msgid "course"
+#~ msgstr "cursus"
+
+#~ msgid "Action One"
+#~ msgstr "Actie Een"
+
+#~ msgid "Action Two"
+#~ msgstr "Actie Twee"
+
+#~ msgid "Multiple high-fives"
+#~ msgstr "Meerdere high-fives"
+
+#~ msgid "%d new high-fives, multi-five!"
+#~ msgstr "%d nieuwe high-fives, multi-five!"
+
+#~ msgid "%s sent you a high-five!"
+#~ msgstr "%s verstuurt jou een high-five!"
+
+#~ msgid "%s high-fived you!"
+#~ msgstr "%s high-fived jou!"
+
+#~ msgid " got a caertificate in the course "
+#~ msgstr " heeft een Certificaat behaald in de Cursus "
+
+#~ msgid "Groups Directory"
+#~ msgstr "Groepen overzicht"
+
+#~ msgid "Group Name (required)"
+#~ msgstr "Groepsnaam (vereist)"
+
+#~ msgid "Group Description (required)"
+#~ msgstr "Groepbeschrijving (vereist)"
+
+#~ msgid "This is a public group"
+#~ msgstr "Dit is een openbare groep"
+
+#~ msgid "Any site member can join this group."
+#~ msgstr "Iedere gebruiker kan lid worden van deze groep"
+
+#~ msgid ""
+#~ "This group will be listed in the groups directory and in search results."
+#~ msgstr ""
+#~ "Deze groep zal worden opgenomen in het groepsoverzicht en in de "
+#~ "zoekresultaten."
+
+#~ msgid "Group content and activity will be visible to any site member."
+#~ msgstr "Groepsinhoud en groepsactiviteit zijn zichtbaar voor elk lid."
+
+#~ msgid "This is a private group"
+#~ msgstr "Dit is een privé-groep"
+
+#~ msgid ""
+#~ "Only users who request membership and are accepted can join the group."
+#~ msgstr ""
+#~ "Alleen gebruikers die het lidmaatschap aanvragen en geaccepteerd worden , "
+#~ "kunnen lid worden van de groep."
+
+#~ msgid ""
+#~ "Group content and activity will only be visible to members of the group."
+#~ msgstr ""
+#~ "Groepsinhoud en groepsactiviteit zal enkel toegankelijk zijn voor leden "
+#~ "van de groep."
+
+#~ msgid "This is a hidden group"
+#~ msgstr "Dit is een verborgen groep"
+
+#~ msgid "Only users who are invited can join the group."
+#~ msgstr ""
+#~ "Alleen gebruikers die uitgenodigd zijn, kunnen lid worden van de groep."
+
+#~ msgid ""
+#~ "This group will not be listed in the groups directory or search results."
+#~ msgstr ""
+#~ "Deze groep zal niet opgenomen worden in het groepsoverzicht of in de "
+#~ "zoekresultaten."
+
+#~ msgid "Group Invitations"
+#~ msgstr "Groepsuitnodigingen"
+
+#~ msgid "Which members of this group are allowed to invite others?"
+#~ msgstr "Welke leden van deze groep mogen anderen uitnodigen?"
+
+#~ msgid "All group members"
+#~ msgstr "Alle groepsleden"
+
+#~ msgid "Group admins and mods only"
+#~ msgstr "Enkel groepadmins en moderators"
+
+#~ msgid "Group admins only"
+#~ msgstr "Enkel groepsadmins"
+
+#~ msgid "Group Forums"
+#~ msgstr "Groepforums"
+
+#~ msgid "Should this group have a forum?"
+#~ msgstr "Moet deze groep een forum hebben?"
+
+#~ msgid "Enable discussion forum"
+#~ msgstr "Activeer discussieforum"
+
+#~ msgid ""
+#~ "<strong>Attention Site Admin:</strong> Group forums require the <a href="
+#~ "\"%s\">correct setup and configuration</a> of a bbPress installation."
+#~ msgstr ""
+#~ "<strong>Aandacht Site Admin:</strong> Groepforums vereist een <a href=\"%s"
+#~ "\">correcte setup en configuratie</a> van een bbPress installatie."
+
+#~ msgid ""
+#~ "Upload an image to use as an avatar for this group. The image will be "
+#~ "shown on the main group page, and in search results."
+#~ msgstr ""
+#~ "Voeg een afbeelding toe om als avatar voor deze groep te gebruiken. Het "
+#~ "beeld wordt weergegeven op de hoofdgroeppagina en in de zoekresultaten."
+
+#~ msgid "Upload Image"
+#~ msgstr "Beeld opladen"
+
+#~ msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+#~ msgstr ""
+#~ "Druk op de \"Volgende stap \" knop, om het opladen van de avatar over te "
+#~ "slaan."
+
+#~ msgid "Crop Group Avatar"
+#~ msgstr "Snij groepsavatar bij"
+
+#~ msgid "Avatar to crop"
+#~ msgstr "Avatar bijsnijden"
+
+#~ msgid "Avatar preview"
+#~ msgstr "Avatar preview"
+
+#~ msgid "Crop Image"
+#~ msgstr "Snij beeld bij"
+
+#~ msgid "Select people to invite from your friends list."
+#~ msgstr "Selecteer de mensen die u wilt uitnodigen uit uw vriendenlijst."
+
+#~ msgid ""
+#~ "Once you have built up friend connections you will be able to invite "
+#~ "others to your group."
+#~ msgstr "Van zodra u vrienden hebt, kan u deze uitnodigen in de groep"
+
+#~ msgid "Back to Previous Step"
+#~ msgstr "Terug naar de Vorige Stap"
+
+#~ msgid "Next Step"
+#~ msgstr "Volgende Stap"
+
+#~ msgid "Create Group and Continue"
+#~ msgstr "Groep maken en vervolg"
+
+#~ msgid "Finish"
+#~ msgstr "Beëindig"
+
+#~ msgid "Become a Teacher"
+#~ msgstr "Wordt Lesgever"
+
+#~ msgid "Newly Created"
+#~ msgstr "Nieuw aangemaakt"
+
+#~ msgid "Requires completition of course "
+#~ msgstr "Cursusvoltooiing vereist"
+
+#~ msgid "Structure"
+#~ msgstr "Structuur"
+
+#~ msgid "Related Courses"
+#~ msgstr "Gerelateerde Cursussen"
+
+#~ msgid "Assign Badges/Certificates to Students"
+#~ msgstr "Wijs Badges/Certificaten toe aan Studenten"
+
+#, fuzzy
+#~ msgid " out of 100 in Course :"
+#~ msgstr "Porcentaje del curso (sobre 100)"
+
+#, fuzzy
+#~ msgid "Security Check Failed ."
+#~ msgstr "¡Control de seguridad fallido!"
+
+#, fuzzy
+#~ msgid "Contact Site Admin."
+#~ msgstr "Contacte con el administrador del sitio."
+
+#, fuzzy
+#~ msgid " out of 100 in course "
+#~ msgstr "Porcentaje del curso (sobre 100)"

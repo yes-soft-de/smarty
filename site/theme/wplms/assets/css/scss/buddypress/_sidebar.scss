@@ -1,0 +1,223 @@
+/**
+ * File: Sidebar.scss
+ * Description : Contains all styling for the BuddyPress widgets and Sidebar
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULT STYLING
+/*    02. TYPOGRAPHY STYLING
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+.widget{
+	.course_cat_nav{
+		background:$lightmenubg;
+		color:$lightmenucolor;
+		border-radius:4px;
+		overflow:hidden;
+		clear:both;
+		ul{
+			li{
+				position:relative;
+				padding:0;
+				border:none;
+				a{
+				    color: rgba(255,255,255,.6);
+				    padding: 18px 24px;
+				    font-size: 11px;
+				    line-height: 1.5;
+				    font-weight: 600;
+				    text-transform: uppercase;
+			        display: inline-block;
+    				width: 100%;
+    				span{
+    					float:right;
+    					font-size: 80%;
+    					background:$primarybg;
+						color:$primarycolor;
+						padding:2px 7px;
+						border-radius:2px;
+    				}
+				}
+				& > ul{
+					display:none;
+				}
+				&.current-cat,&.current-cat-parent{
+					& > a{
+						background:$primarybg;
+						color:$primarycolor;
+						span{
+							color:$primarybg;
+							background:$primarycolor;
+						}
+					}
+					& > ul{
+						display:block;
+						background:$darkmenubg;
+						& > li{
+							& > a{
+								color:$darkmenucolor;
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+
+/*========================================================================*/
+/*   01.  BUDDYSIDEBAR
+/*========================================================================*/
+#buddypress{
+	.sidebar{
+		padding-top:30px;
+	}
+}
+
+.buddysidebar{
+	.widget{
+
+		.widget_title{
+			font-size:16px;
+			font-weight:600;
+		}
+
+		.item-options{
+			padding:0;
+			color:rgba(0,0,0,0.05);
+			border-bottom:1px solid rgba(0,0,0,0.05);
+			text-align: center;
+			border-radius: 2px;
+			margin-bottom:20px;
+			a{
+				padding:8px;
+				font-size:11px;
+				color:#444;
+				text-transform: uppercase;
+				display: inline-block;
+				&.selected{
+					color:$primarybg;
+					font-weight:600;
+				}
+			}
+		}
+		ul.item-list{
+			border:none;
+			li{
+				border-color:$bordercolor;
+				padding:5px 0;
+				div.item-title,h4{
+					font-size:14px;
+				}
+			}
+		}
+		& + .widget{
+			margin-top:30px;
+		}
+	}	
+}
+
+
+.item-list-tabs#subnav label{
+	display: inline-block;
+	float:left;
+	margin:0;
+}
+
+.item-list-tabs#subnav .last label{
+	display: none;
+}
+
+#group-dir-search,
+#blog-dir-search,
+#member-dir-search{
+	display: inline-block;
+	min-width:250px;
+}
+
+.item-list-tabs .message-search label{display: inline-block;}
+
+#buddypress a.loading, #buddypress input.loading{
+	box-shadow:none;
+	-webkit-animation:none;
+	-moz-animation:none;
+}
+
+
+.col-md-3.col-sm-3{
+	.full{margin-bottom:30px;}
+}
+
+/*--------------------------------------------------------------
+3.11 - Widgets
+--------------------------------------------------------------*/
+
+.buddypress{
+	&.widget{
+		.item-avatar {
+			
+			img.avatar{
+				float: left;
+				max-width:40px;
+				margin: 0 10px 15px 0;
+			}
+		}
+		span.activity {
+			display: inline-block;
+			font-size:11px;
+			opacity: 0.8;
+			padding: 0;
+		}
+		div.item-options {
+			font-size: 90%;
+			margin: 0 0 1em 0;
+			padding: 1em 0;
+		}
+		div.item{
+			margin:0 0 1em 0;
+		}
+		div.item-meta, div.item-content {
+			font-size: 11px;
+			margin-left: 38px;
+		}
+		div.avatar-block{
+			overflow: hidden;
+		}
+		ul.item-list{
+			
+		}
+		#bp-login-widget-form{
+			label {
+				display: block;
+				margin: 1rem 0 .5rem;
+			}
+			#bp-login-widget-submit {
+				margin-right: 10px;
+			}
+		}
+		.bp-login-widget-user-avatar {
+			float: left;
+			width: 60px;
+		}
+		.bp-login-widget-user-links{
+			& > div {
+				padding-left: 60px;
+				margin-bottom: .5rem;
+				a{
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

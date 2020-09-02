@@ -1,0 +1,1226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Shortcodes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-21 13:29+0530\n"
+"PO-Revision-Date: 2017-07-21 13:29+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: Olymproject <info@olymproject.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajaxcalls.php:72 ajaxcalls.php:133
+msgid "Unable to send message! Please try again later.."
+msgstr "Невозможно отправить сообщение! Пожалуйста, попробуйте позже.."
+
+#: ajaxcalls.php:90
+msgid "Contact Form Submission"
+msgstr "Отправка формы для связи"
+
+#: ajaxcalls.php:131
+msgid "Message sent!"
+msgstr "Сообщение отправлено!"
+
+#: ajaxcalls.php:274
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: ajaxcalls.php:290
+msgid "Auto generate username from email"
+msgstr ""
+
+#: ajaxcalls.php:291 shortcodes.php:2589
+msgid "Show password meter"
+msgstr ""
+
+#: ajaxcalls.php:292 shortcodes.php:2590
+msgid "Show Field group labels"
+msgstr ""
+
+#: ajaxcalls.php:293 shortcodes.php:2591
+msgid "Google Captcha"
+msgstr ""
+
+#: ajaxcalls.php:294
+msgid "Register & Login simultaneously"
+msgstr ""
+
+#: ajaxcalls.php:295
+msgid "Skip Mail verification"
+msgstr ""
+
+#: ajaxcalls.php:482
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: ajaxcalls.php:486 ajaxcalls.php:488
+#, php-format
+msgid "%s is not of type %s"
+msgstr ""
+
+#: ajaxcalls.php:541
+msgid "Congratulations ! you have been successfully registered !"
+msgstr ""
+
+#: ajaxcalls.php:579
+msgid ""
+"Congratulations ! you have been successfully registered, Please check your "
+"email to activate the account"
+msgstr ""
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Пожалуйста, введите свой логин с сайта Envato Marketplace."
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Пожалуйста, введите свой API ключ с сайта Envato Marketplace."
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"установлен\" как обязательный параметр."
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+"\"ID покупки\" на Envato Marketplace установлен как обязательный парметр."
+
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "При отправке запроса API возникла неизвестная ошибка HTTP."
+
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "Попробуйте снова"
+
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "Возникла неизвестная ошибка"
+
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"Плагин был обновлён, но не активирован. Пожалуйста, сделайте это вручную."
+
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "Плагин успешно реактивирован."
+
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "Обновления плагина"
+
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "Логин: "
+
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "Email: "
+
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Ключ: "
+
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>Обновление плагина <span style=\"color:green\">включено</span></p>"
+
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Введённые данные <span style=\"color:red\">неверны</span>, автообновления "
+"<span style=\"color:red\">отключено</span>.</p>"
+
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "Изменить ключ"
+
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Невозможно подтвердить активацию обновлений.</p>"
+
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "Добавить ключ"
+
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "Логин"
+
+#: autoupdate/class-plugin-update.php:638 shortcodes.php:2458
+msgid "Email"
+msgstr "Email"
+
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Логин на сайте Themeforest (для автообновления)"
+
+#: classes/vibeshortcodes.class.php:47
+msgid "Sending mail"
+msgstr "Отправляю сообщение "
+
+#: classes/vibeshortcodes.class.php:48
+msgid "Error :"
+msgstr "Ошибка : "
+
+#: classes/vibeshortcodes.class.php:49
+msgid "Invalid "
+msgstr "Неверно "
+
+#: classes/vibeshortcodes.class.php:50
+msgid "Captcha Mismatch"
+msgstr "Несовпадение кода  "
+
+#: shortcodes.php:146 shortcodes.php:164
+#, php-format
+msgid ""
+"You do not have access to this content. <a href=\"%s\" class=\"button\"> "
+"Puchase </a> content for %s"
+msgstr ""
+
+#: shortcodes.php:149 shortcodes.php:167
+msgid "You do not have access to this content"
+msgstr ""
+
+#: shortcodes.php:664
+msgid "EARNED"
+msgstr "НАБРАНО "
+
+#: shortcodes.php:685
+msgid "Check all Courses created by "
+msgstr "Все курсы автора "
+
+#: shortcodes.php:686
+msgid "More Courses by "
+msgstr "Другие курсы автора "
+
+#: shortcodes.php:1533
+#, php-format
+msgid "%d out of %d"
+msgstr ""
+
+#: shortcodes.php:1535 shortcodes.php:1538
+msgid "N.A"
+msgstr ""
+
+#: shortcodes.php:2118
+msgid "MEMBERS"
+msgstr ""
+
+#: shortcodes.php:2121
+msgid "COURSES"
+msgstr ""
+
+#: shortcodes.php:2124
+msgid "INSTRUCTORS"
+msgstr ""
+
+#: shortcodes.php:2127
+msgid "GROUPS"
+msgstr ""
+
+#: shortcodes.php:2130
+msgid "SUBSCRIPTIONS"
+msgstr ""
+
+#: shortcodes.php:2133
+msgid "SALES"
+msgstr ""
+
+#: shortcodes.php:2136
+msgid "EARNINGS"
+msgstr ""
+
+#: shortcodes.php:2170
+msgid "SHOW HINT"
+msgstr ""
+
+#: shortcodes.php:2171
+msgid "HINT"
+msgstr ""
+
+#: shortcodes.php:2183
+msgid "FALSE"
+msgstr ""
+
+#: shortcodes.php:2183
+msgid "TRUE"
+msgstr ""
+
+#: shortcodes.php:2236 shortcodes.php:2239
+msgid "Type Answer"
+msgstr ""
+
+#: shortcodes.php:2247
+msgid "Check Answer"
+msgstr ""
+
+#: shortcodes.php:2262
+msgid "Explanation"
+msgstr ""
+
+#: shortcodes.php:2336
+msgid "Type Keywords.."
+msgstr ""
+
+#: shortcodes.php:2337
+msgid "Search"
+msgstr ""
+
+#: shortcodes.php:2455
+msgid "Username"
+msgstr ""
+
+#: shortcodes.php:2455
+msgid "Login Username"
+msgstr ""
+
+#: shortcodes.php:2460
+msgid "Password"
+msgstr ""
+
+#: shortcodes.php:2462
+msgid "Member type"
+msgstr ""
+
+#: shortcodes.php:2485 shortcodes.php:2491
+msgid "Group"
+msgstr ""
+
+#: shortcodes.php:2542
+#, php-format
+msgid "This field can be seen by: %s"
+msgstr ""
+
+#: shortcodes.php:2557
+msgid "Who can see this field?"
+msgstr ""
+
+#: shortcodes.php:2620
+msgid "Register"
+msgstr ""
+
+#: tinymce/config.php:13
+msgid "Open first"
+msgstr ""
+
+#: tinymce/config.php:14
+msgid "First accordion will be open by default"
+msgstr ""
+
+#: tinymce/config.php:16
+msgid "No"
+msgstr ""
+
+#: tinymce/config.php:17
+msgid "Yes"
+msgstr ""
+
+#: tinymce/config.php:22
+msgid "Insert Accordion Shortcode"
+msgstr "Вставить код аккордиона "
+
+#: tinymce/config.php:27
+msgid "Accordion Title 1"
+msgstr "Заголовок 1 "
+
+#: tinymce/config.php:28
+msgid "Add the title of the accordion"
+msgstr "Введите заголовок аккордиона "
+
+#: tinymce/config.php:34
+msgid "Accordion Content"
+msgstr "Содержание аккордиона"
+
+#: tinymce/config.php:35 tinymce/config.php:962
+msgid "Add the content. Accepts HTML & other Shortcodes."
+msgstr "Добавьте содержание. Допускается HTML и другой код. "
+
+#: tinymce/config.php:39
+msgid "Add Accordion Toggle"
+msgstr "Добавить переключатель для аккордиона"
+
+#: tinymce/config.php:53
+msgid "Link URL"
+msgstr "URL ссылки"
+
+#: tinymce/config.php:54
+msgid "Add the button's url eg http://www.example.com"
+msgstr "Добавить URL кнопки, например: http://www.example.com"
+
+#: tinymce/config.php:59
+msgid "Button Style"
+msgstr "Оформление кнопки"
+
+#: tinymce/config.php:60
+msgid "Select button style"
+msgstr "Параметры оформления"
+
+#: tinymce/config.php:72 tinymce/config.php:369
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: tinymce/config.php:73
+msgid "Select the button's size"
+msgstr "Задайте размер кнопки"
+
+#: tinymce/config.php:77
+msgid "Hover Bg color"
+msgstr "Цвет при наведении"
+
+#: tinymce/config.php:78
+msgid "Select the button's on hover background color "
+msgstr "Выберите цвет фона кнопки при наведении курсора"
+
+#: tinymce/config.php:82
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: tinymce/config.php:83
+msgid "Select the button's text color"
+msgstr "Выберите цвет текста кнопки"
+
+#: tinymce/config.php:87
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: tinymce/config.php:94
+msgid "Width"
+msgstr "Ширина"
+
+#: tinymce/config.php:101
+msgid "Height"
+msgstr "Высота"
+
+#: tinymce/config.php:108
+msgid "Border Radius"
+msgstr "Закругление"
+
+#: tinymce/config.php:115
+msgid "Button Target"
+msgstr "Функция кнопки"
+
+#: tinymce/config.php:116
+msgid "_self = open in same window. _blank = open in new window"
+msgstr "_self = открывать в том же окне _blank = открывать в новом окне"
+
+#: tinymce/config.php:125
+msgid "Button Anchor"
+msgstr "Ярлык кнопки"
+
+#: tinymce/config.php:126
+msgid "Replace button label with the text you enter."
+msgstr "Заменить ярлык кнопки данным текстом."
+
+#: tinymce/config.php:130
+msgid "Insert Button Shortcode"
+msgstr "Вставить короткий код кнопки"
+
+#: tinymce/config.php:141
+msgid "Insert Columns Shortcode"
+msgstr "Вставить короткий код колонок"
+
+#: tinymce/config.php:149 tinymce/config.php:165
+msgid "Column Type"
+msgstr "Тип колонки"
+
+#: tinymce/config.php:150 tinymce/config.php:166
+msgid "Select the type, ie width of the column."
+msgstr "Выбрать тип, т.е. ширину колонки."
+
+#: tinymce/config.php:175
+msgid "Column Content"
+msgstr "Содержание колонки"
+
+#: tinymce/config.php:176
+msgid "Add the column content."
+msgstr "Добавить содержание колонки. "
+
+#: tinymce/config.php:180
+msgid "Add Column"
+msgstr "Новая колонка"
+
+#: tinymce/config.php:194
+msgid "Start value of counter"
+msgstr ""
+
+#: tinymce/config.php:195
+msgid "Add a starting number"
+msgstr ""
+
+#: tinymce/config.php:200
+msgid "Maximum value of counter"
+msgstr ""
+
+#: tinymce/config.php:201 tinymce/config.php:404
+msgid "Add the Tooltip text"
+msgstr "Добавить текст подсказки "
+
+#: tinymce/config.php:206
+msgid "Total delay in finishing counter"
+msgstr ""
+
+#: tinymce/config.php:207
+msgid "Add the total duration of counter increment"
+msgstr ""
+
+#: tinymce/config.php:212
+msgid "Increment unit"
+msgstr ""
+
+#: tinymce/config.php:213
+msgid "Increment the counter by this value"
+msgstr ""
+
+#: tinymce/config.php:217
+msgid "Insert Counter Shortcode"
+msgstr ""
+
+#: tinymce/config.php:230
+msgid "Countdown Date"
+msgstr ""
+
+#: tinymce/config.php:231
+msgid "Date until the countdown timer will run"
+msgstr ""
+
+#: tinymce/config.php:236
+msgid "Countdown Days"
+msgstr ""
+
+#: tinymce/config.php:237
+msgid "Number of days in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:242
+msgid "Countdown hours"
+msgstr ""
+
+#: tinymce/config.php:243
+msgid "Number of hours in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:248
+msgid "Countdown minutes"
+msgstr ""
+
+#: tinymce/config.php:249
+msgid "Number of minutes in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:254
+msgid "Countdown seconds"
+msgstr ""
+
+#: tinymce/config.php:255
+msgid "Number of seconds in the countdown timer"
+msgstr ""
+
+#: tinymce/config.php:260
+msgid "Timer Size"
+msgstr ""
+
+#: tinymce/config.php:261
+msgid "Size of the timer"
+msgstr ""
+
+#: tinymce/config.php:265
+msgid "Insert Countdown Shortcode"
+msgstr ""
+
+#: tinymce/config.php:276
+msgid "Icon type"
+msgstr "Тип иконки"
+
+#: tinymce/config.php:277 tinymce/config.php:568
+msgid "Select Icon type"
+msgstr "Выбрать тип иконки"
+
+#: tinymce/config.php:282 tinymce/config.php:283
+msgid "Icon Size"
+msgstr "Размер иконки"
+
+#: tinymce/config.php:292
+msgid "Custom Style"
+msgstr "Особое оформление"
+
+#: tinymce/config.php:293
+msgid "icon style"
+msgstr "Стиль иконки"
+
+#: tinymce/config.php:302 tinymce/config.php:303 tinymce/config.php:314
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+#: tinymce/config.php:308
+msgid "Icon Bg Color"
+msgstr "Цвет фона"
+
+#: tinymce/config.php:309 tinymce/config.php:320
+msgid "Icon Background color"
+msgstr "Цвет фона иконка"
+
+#: tinymce/config.php:313
+msgid "Icon Hover Color"
+msgstr "Активный цвет "
+
+#: tinymce/config.php:319
+msgid "Icon Hover Bg Color"
+msgstr "Цвет фона иконки при наведении"
+
+#: tinymce/config.php:324
+msgid "Icon padding"
+msgstr "Отступ иконки"
+
+#: tinymce/config.php:325
+msgid "Icon Background padding"
+msgstr "Отступ фона иконки"
+
+#: tinymce/config.php:332
+msgid "Icon Bg Radius"
+msgstr "Закругление"
+
+#: tinymce/config.php:333
+msgid "Icon Background radius"
+msgstr "Закругление фона иконки"
+
+#: tinymce/config.php:342
+msgid "Insert Icon Shortcode"
+msgstr "Короткий код иконки"
+
+#: tinymce/config.php:355
+msgid "Alert Style"
+msgstr "Стиль предупреждения"
+
+#: tinymce/config.php:356
+msgid "Select the alert's style, ie the alert colour"
+msgstr "Выберите стиль предупреждения, т.е. цвет.  "
+
+#: tinymce/config.php:368
+msgid "Alert Bg Color"
+msgstr "Цвет заднего фона"
+
+#: tinymce/config.php:373
+msgid "Alert Border Color"
+msgstr "Цвет границы предупреждения"
+
+#: tinymce/config.php:374
+msgid "Border color"
+msgstr "Цвет границы"
+
+#: tinymce/config.php:378
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: tinymce/config.php:379
+msgid "Alert Text color"
+msgstr "Цвет текста предупреждения "
+
+#: tinymce/config.php:384
+msgid "Alert Text"
+msgstr "Текст предупреждения "
+
+#: tinymce/config.php:385
+msgid "Add the alert's text"
+msgstr "Добавить текст предупреждения "
+
+#: tinymce/config.php:390
+msgid "Insert Alert Shortcode"
+msgstr "Вставить короткий код предупреждения"
+
+#: tinymce/config.php:403
+msgid "Tooltip Text"
+msgstr "Текст подсказки"
+
+#: tinymce/config.php:409
+msgid "Tooltip Anchor"
+msgstr "Якорь подсказки"
+
+#: tinymce/config.php:410
+msgid "Add the Tooltip anchor"
+msgstr "Добавить якорь подсказки"
+
+#: tinymce/config.php:415
+msgid "Insert Tooltip Shortcode"
+msgstr "Вставить короткий код подсказки"
+
+#: tinymce/config.php:429 tinymce/config.php:487
+msgid "Percentage Cover"
+msgstr "Процент покрытия "
+
+#: tinymce/config.php:430 tinymce/config.php:488
+msgid "Only number eg:20"
+msgstr "Только число, например: 20"
+
+#: tinymce/config.php:435
+msgid "Style"
+msgstr "Оформление"
+
+#: tinymce/config.php:436
+msgid "Tron or Custom"
+msgstr ""
+
+#: tinymce/config.php:445
+msgid "Circle Diameter"
+msgstr "Диаметр закругления"
+
+#: tinymce/config.php:446
+msgid "In pixels eg: 100"
+msgstr "В пикселах, например: 100"
+
+#: tinymce/config.php:451
+msgid "Circle Thickness"
+msgstr "Толщина рамки"
+
+#: tinymce/config.php:452
+msgid "In percentage"
+msgstr "В процентах"
+
+#: tinymce/config.php:456
+msgid "Progress  Text Color"
+msgstr "Цвет текста продвижения"
+
+#: tinymce/config.php:457
+msgid "Progress  Text color"
+msgstr "Цвет текста в процессе заполнения формы"
+
+#: tinymce/config.php:461
+msgid "Progress Circle Color"
+msgstr "Цвет кружка прогресса"
+
+#: tinymce/config.php:462
+msgid "Progress Circle color"
+msgstr "Цвет кружка в процессе заполнения формы"
+
+#: tinymce/config.php:467 tinymce/config.php:494
+msgid "Some Content"
+msgstr "Содержание "
+
+#: tinymce/config.php:468 tinymce/config.php:495
+msgid "like : 20% Skill, shortcodes/html allowed"
+msgstr " например: 20% Skill, короткий код/HTML допускается"
+
+#: tinymce/config.php:473
+msgid "Insert Round Progress Shortcode"
+msgstr "Вставить короткий код кружка прогресса "
+
+#: tinymce/config.php:499
+msgid "Color"
+msgstr "Цвет"
+
+#: tinymce/config.php:500
+msgid "Select progressbar color"
+msgstr "Выберите цвет бара"
+
+#: tinymce/config.php:510
+msgid "Bar Color"
+msgstr ""
+
+#: tinymce/config.php:511
+msgid "Bar color"
+msgstr ""
+
+#: tinymce/config.php:515
+msgid "Bar Background Color"
+msgstr ""
+
+#: tinymce/config.php:516
+msgid "Bar Background color"
+msgstr ""
+
+#: tinymce/config.php:520
+msgid "Insert Progressbar Shortcode"
+msgstr "Вставить короткий код бара"
+
+#: tinymce/config.php:535
+msgid "Tabs Style"
+msgstr "Оформление закладок"
+
+#: tinymce/config.php:536
+msgid "select a style"
+msgstr "выберите стиль "
+
+#: tinymce/config.php:546
+msgid "Tabs theme"
+msgstr "Оформление закладок"
+
+#: tinymce/config.php:547
+msgid "select a theme"
+msgstr "выберите тему"
+
+#: tinymce/config.php:555
+msgid "Insert Tab Shortcode"
+msgstr "Вставить короткий код закладки"
+
+#: tinymce/config.php:562
+msgid "Tab Title"
+msgstr "Название закладки"
+
+#: tinymce/config.php:563
+msgid "Title of the tab"
+msgstr "Текст заголовка закладки"
+
+#: tinymce/config.php:567
+msgid "Title Icon"
+msgstr "Иконка"
+
+#: tinymce/config.php:573
+msgid "Tab Content"
+msgstr "Содержание закладки"
+
+#: tinymce/config.php:574
+msgid "Add the tabs content"
+msgstr "Добавить содержание закладки"
+
+#: tinymce/config.php:578
+msgid "Add Tab"
+msgstr "Добавить закладку"
+
+#: tinymce/config.php:595
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: tinymce/config.php:596
+msgid "Background color & theme of note"
+msgstr "Цвет фона и надписи темы оформления"
+
+#: tinymce/config.php:621 tinymce/config.php:800
+msgid "Content"
+msgstr "Содержание"
+
+#: tinymce/config.php:622
+msgid "Note Content, supports HTML/Shortcodes"
+msgstr "Содержание надписи, поддерживается HTML/короткий код"
+
+#: tinymce/config.php:627
+msgid "Insert Note Shortcode"
+msgstr "Вставить короткий код надписи"
+
+#: tinymce/config.php:642
+msgid "Divider Class"
+msgstr "Класс разделителя"
+
+#: tinymce/config.php:643
+msgid ""
+"clear : To begin form new line. Change Size using : one_third,one_fourth,"
+"one_fifth,two_third. Use multiple styles space saperated"
+msgstr ""
+"очистить : для начала с новой строки. Измените размер используя: one_third,"
+"one_fourth,one_fifth,two_third. При нескольких стилях разделяйте код "
+"пробелом. "
+
+#: tinymce/config.php:648
+msgid "Insert Divider Shortcode"
+msgstr "Вставить короткий код разделителя"
+
+#: tinymce/config.php:660
+msgid "Tagline Style"
+msgstr "Стиль слогана"
+
+#: tinymce/config.php:661
+msgid "Select the Tagline style"
+msgstr "Выберите стиль слогана"
+
+#: tinymce/config.php:692
+msgid "Tagline"
+msgstr "Слоган"
+
+#: tinymce/config.php:693
+msgid "Supports HTML content"
+msgstr "Поддерживает HTML код"
+
+#: tinymce/config.php:698
+msgid "Insert Tagline Shortcode"
+msgstr "Вставить короткий код слогана"
+
+#: tinymce/config.php:713
+msgid "Enter Popup ID"
+msgstr "Введите ID всплывающего окна"
+
+#: tinymce/config.php:717
+msgid "Anchor Style"
+msgstr "Стиль якоря "
+
+#: tinymce/config.php:727
+msgid "Popup/Modal Anchor"
+msgstr "Всплывающий/модальный якорь"
+
+#: tinymce/config.php:728
+msgid "Supports HTML & Shortcodes"
+msgstr "Поддерживает HTML и короткий код"
+
+#: tinymce/config.php:733
+msgid "Show Popup on Page-load"
+msgstr "Показать окно при загрузке страницы"
+
+#: tinymce/config.php:739
+msgid "Insert Popups Shortcode"
+msgstr "Вставить короткий код всплывающих окон"
+
+#: tinymce/config.php:752
+msgid "Enter Testimonial ID"
+msgstr "Введите ID рекомендации "
+
+#: tinymce/config.php:757
+msgid "Number of Characters to show"
+msgstr "Количество символов для отображения"
+
+#: tinymce/config.php:758
+msgid ""
+"If number of characters entered above is less than Testimonial Post length, "
+"Read more link will appear"
+msgstr ""
+"Если количество символов введённых выше меньше, чем длина рекомендации, "
+"появится ссылка Читать далее"
+
+#: tinymce/config.php:762
+msgid "Insert Testimonial Shortcode"
+msgstr "Вставить короткий код рекомендации"
+
+#: tinymce/config.php:775
+msgid "Enter Course ID"
+msgstr "Введите ID курса"
+
+#: tinymce/config.php:779
+msgid "Insert Course Shortcode"
+msgstr "Введите короткий код курса"
+
+#: tinymce/config.php:792
+msgid "Select Side"
+msgstr ""
+
+#: tinymce/config.php:804
+msgid "Insert PullQuote Shortcode"
+msgstr "Вставить короткий код цитаты"
+
+#: tinymce/config.php:818
+msgid "Member Image"
+msgstr "Фото участника"
+
+#: tinymce/config.php:819
+msgid "Image url of team member"
+msgstr "URL фото члена команды"
+
+#: tinymce/config.php:824
+msgid "Member Name"
+msgstr "Имя участника"
+
+#: tinymce/config.php:825
+msgid "Name of team member (HTML allowed)"
+msgstr "Имя члена команды (допускается HTML)"
+
+#: tinymce/config.php:830
+msgid "Designation"
+msgstr "Должность"
+
+#: tinymce/config.php:831
+msgid "Designation of Team Member (HTML allowed)"
+msgstr "Должность члена команды допускается HTML)"
+
+#: tinymce/config.php:835
+msgid "Insert Team Member Shortcode"
+msgstr "Введите короткий код члена команды"
+
+#: tinymce/config.php:840 tinymce/config.php:918
+msgid "Social Icon"
+msgstr "Иконка соцсети"
+
+#: tinymce/config.php:845
+msgid "Icon Link"
+msgstr "Ссылка на иконку"
+
+#: tinymce/config.php:849
+msgid "Add Social Information"
+msgstr "Добавить соцсети"
+
+#: tinymce/config.php:864
+msgid "End Map Iframe code"
+msgstr "Код iFrame для карты"
+
+#: tinymce/config.php:865
+msgid "Enter your map iframce code including iframe tags"
+msgstr "Введите код своей карты iFrame, включая теги"
+
+#: tinymce/config.php:870
+msgid "Insert Google Maps Shortcode"
+msgstr "Вставить короткий код Google Maps"
+
+#: tinymce/config.php:885
+msgid "Select Thumb Size"
+msgstr "Выбрать размер искиза"
+
+#: tinymce/config.php:886
+msgid "Image size"
+msgstr "Размер изображения"
+
+#: tinymce/config.php:899
+msgid "Attachment Ids"
+msgstr "ID приложений"
+
+#: tinymce/config.php:900
+msgid "Attachment Ids separated by comma"
+msgstr "ID приложений разделённые запятой"
+
+#: tinymce/config.php:905
+msgid "Insert Gallery Shortcode"
+msgstr "Введите короткий код галереи"
+
+#: tinymce/config.php:919
+msgid "Select Elastic Social Icon, takes size/color of text it is inserted in:"
+msgstr "Выбрать Elastic иконку соцсети, включая размер/цвет текста: "
+
+#: tinymce/config.php:924
+msgid "Size in pixels"
+msgstr "Размер в пикселах"
+
+#: tinymce/config.php:925
+msgid "Enter Elastic font size in pixels "
+msgstr "Ввести размер шрифта Elastic в пикселах "
+
+#: tinymce/config.php:930
+msgid "Insert Social Icon Shortcode"
+msgstr "Вставьте короткий код соцсети"
+
+#: tinymce/config.php:944
+msgid "Enter email"
+msgstr "Введите email"
+
+#: tinymce/config.php:945
+msgid "Email is sent to this email. Use comma for multiple entries"
+msgstr ""
+"Отправить email на данный адрес. Если адресов несколько, вводите через "
+"запятую "
+
+#: tinymce/config.php:950
+msgid "Email Subject"
+msgstr "Тема"
+
+#: tinymce/config.php:951
+msgid "Subject of email"
+msgstr "Тема email сообщения"
+
+#: tinymce/config.php:955
+msgid "Generate Contact Form Shortcode"
+msgstr ""
+
+#: tinymce/config.php:961
+msgid "Label Text"
+msgstr "Текст ярлыка "
+
+#: tinymce/config.php:966
+msgid "Form Element"
+msgstr "Элемент формы"
+
+#: tinymce/config.php:967 tinymce/config.php:985
+msgid "select Form element type"
+msgstr "выберите тип элемента формы "
+
+#: tinymce/config.php:979
+msgid "Enter Select Options"
+msgstr "Ввести настройки выбора"
+
+#: tinymce/config.php:980
+msgid "Comma seperated options."
+msgstr "Указать через запятую. "
+
+#: tinymce/config.php:984
+msgid "Validation"
+msgstr "Проверка данных"
+
+#: tinymce/config.php:997
+msgid "Add Form Element"
+msgstr "Добавить элемент формы"
+
+#: tinymce/config.php:1012
+msgid "Enter Heading"
+msgstr "Ввести заголовк "
+
+#: tinymce/config.php:1013
+msgid "Enter heading."
+msgstr "Введите заголовок. "
+
+#: tinymce/config.php:1017
+msgid "Insert Heading Shortcode"
+msgstr "Ввести короткий код заголовка"
+
+#: tinymce/config.php:1030
+msgid "Enter Video iframe Code"
+msgstr "Ввести код видео формата iFrame"
+
+#: tinymce/config.php:1031
+msgid "For Responsive iframe videos form Youtube, Vimeo,bliptv etc..."
+msgstr ""
+"Для адаптивных видео в формате iFrame с сервисов Youtube, Vimeo, bliptv и т."
+"п."
+
+#: tinymce/config.php:1035
+msgid "Insert iFrame Video Shortcode"
+msgstr "Вставить короткий код видео iFrame"
+
+#: tinymce/config.php:1048
+msgid "Enter Iframe Height"
+msgstr "Высота iFrame"
+
+#: tinymce/config.php:1049
+msgid "Set iframe height"
+msgstr "Установить Высоту iFrame"
+
+#: tinymce/config.php:1054
+msgid "Enter iframe URL"
+msgstr "Введите URL для iFrame  "
+
+#: tinymce/config.php:1055
+msgid ""
+"For Responsive iframe based content, like Articulate storyline, iSpring "
+"content etc..."
+msgstr ""
+"Для адаптивного содержания формата iFrame, например, Articulate Storyline, "
+"iSpring и т.п."
+
+#: tinymce/config.php:1059
+msgid "Insert iFrame Shortcode"
+msgstr "Вставить короткий код iFrame"
+
+#: tinymce/config.php:1072
+msgid "Enter Quiz id (optional)"
+msgstr ""
+
+#: tinymce/config.php:1073
+msgid "Quiz id for which Survey results are to be displayed."
+msgstr ""
+
+#: tinymce/config.php:1078
+msgid "Enter User id (optional)"
+msgstr ""
+
+#: tinymce/config.php:1079
+msgid "User id for which Survey results are to be displayed."
+msgstr ""
+
+#: tinymce/config.php:1084
+msgid "Enter result Upper limit "
+msgstr ""
+
+#: tinymce/config.php:1085
+msgid "Message to be displayed if survey score is less than this value"
+msgstr ""
+
+#: tinymce/config.php:1090
+msgid "Enter result Lower limit "
+msgstr ""
+
+#: tinymce/config.php:1091
+msgid "Message to be displayed if survey score is more than this value"
+msgstr ""
+
+#: tinymce/config.php:1096
+msgid "Enter Survey result message"
+msgstr ""
+
+#: tinymce/config.php:1097
+msgid "Enter message for result"
+msgstr ""
+
+#: tinymce/config.php:1101
+msgid "Insert Survey Result Shortcode in Quiz completion message"
+msgstr ""
+
+#: upload_handler.php:17
+msgid "Upload ZIP"
+msgstr "Загрузить ZIP "
+
+#: upload_handler.php:38 upload_handler.php:336
+msgid "Upload Library"
+msgstr "Загрузить в библиотеку"
+
+#: upload_handler.php:39 upload_handler.php:240 upload_handler.php:327
+msgid "Upload File"
+msgstr "Загрузить файл "
+
+#: upload_handler.php:94
+msgid "Iframe source"
+msgstr ""
+
+#: upload_handler.php:103
+msgid "Maximum height of iFrame"
+msgstr ""
+
+#: upload_handler.php:104
+msgid "Insert Into Post"
+msgstr "Вставить в запись "
+
+#: upload_handler.php:130
+#, php-format
+msgid "Showing Content %d - %d from %d"
+msgstr ""
+
+#: upload_handler.php:155
+msgid "No packages available"
+msgstr ""
+
+#: upload_handler.php:223
+msgid "Please upload a Zip package with index.html file"
+msgstr ""
+
+#: upload_handler.php:224
+msgid "No data found!"
+msgstr ""
+
+#: upload_handler.php:225
+msgid "Are you sure you want to remove this package?"
+msgstr ""
+
+#: upload_handler.php:239
+msgid "Choose a file to upload"
+msgstr ""
+
+#: upload_handler.php:243
+msgid "Please choose a .zip package file"
+msgstr "Пожалуйста, выберите .zip архив"
+
+#: upload_handler.php:267
+msgid "The Upload file must be zip archive"
+msgstr "Файл должен представлять собой ZIP архив"
+
+#: upload_handler.php:277
+msgid "File too big"
+msgstr ""
+
+#: upload_handler.php:298
+msgid "Please upload zip file, Index.html file not found in package"
+msgstr ""
+
+#: upload_handler.php:302
+msgid "Upload failed !"
+msgstr ""
+
+#~ msgid "Stripe Bg Color"
+#~ msgstr "Цвет заднего фона "
+
+#~ msgid "Stripe Background color"
+#~ msgstr "Задний фон полоски"
+
+#~ msgid "Stripe Text color"
+#~ msgstr "Цвет текста полоски"
+
+#~ msgid "Select Testimonial"
+#~ msgstr "Выбрать рекомендацию"
+
+#~ msgid "Please upload zip file"
+#~ msgstr "Пожалуйста, загрузите ZIP архив"

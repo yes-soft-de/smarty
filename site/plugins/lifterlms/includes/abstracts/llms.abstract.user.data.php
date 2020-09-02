@@ -5,7 +5,7 @@
  * @package LifterLMS/Abstracts/Classes
  *
  * @since 3.9.0
- * @version 3.17.0
+ * @version 4.2.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -16,6 +16,7 @@ defined( 'ABSPATH' ) || exit;
  * @since 3.9.0
  * @since 3.17.0 Unknown.
  * @since 3.34.0 Allow `user_url` to be retrieved by `get()`.
+ * @since 4.2.0 The `get_id()` always returns an int.
  */
 abstract class LLMS_Abstract_User_Data {
 
@@ -74,7 +75,7 @@ abstract class LLMS_Abstract_User_Data {
 	 */
 	public function __get( $key ) {
 
-		// array of items we should *not* add the $this->meta_prefix to
+		// Array of items we should *not* add the $this->meta_prefix to.
 		$unprefixed = apply_filters(
 			'llms_student_unprefixed_metas',
 			array(
@@ -92,11 +93,13 @@ abstract class LLMS_Abstract_User_Data {
 			$this
 		);
 
-		// add the meta prefix to things that aren't in the above array
-		// only if the meta prefix isn't already there
-		// this means that the following will output the same data
-		// $this->get( 'llms_billing_address_1')
-		// $this->get( 'billing_address_1')
+		/**
+		 * Add the meta prefix to things that aren't in the above array
+		 * only if the meta prefix isn't already there
+		 * this means that the following will output the same data
+		 * $this->get( 'llms_billing_address_1')
+		 * $this->get( 'billing_address_1')
+		 */
 		if ( false === strpos( $key, $this->meta_prefix ) && ! in_array( $key, $unprefixed ) ) {
 			$key = $this->meta_prefix . $key;
 		}
@@ -183,12 +186,13 @@ abstract class LLMS_Abstract_User_Data {
 	/**
 	 * Retrieve the user id
 	 *
-	 * @return   int
-	 * @since    3.9.0
-	 * @version  3.9.0
+	 * @since 3.9.0
+	 * @since 4.2.0 Always return an absolute integer.
+	 *
+	 * @return int
 	 */
 	public function get_id() {
-		return $this->id;
+		return absint( $this->id );
 	}
 
 	/**
