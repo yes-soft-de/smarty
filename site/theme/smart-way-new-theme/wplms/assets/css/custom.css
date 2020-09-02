@@ -140,6 +140,20 @@
     width: 55px;
     height: 55px;
   }
+  .custom-main .llms-loop .cover {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    background: rgb(9 9 9 / 47%);
+    z-index: 9;
+  }
+  .custom-main .llms-loop .cover i {
+    align-self: center;
+  }
   .custom-main .llms-loop .custom-llms-loop-list .llms-loop-item.meditations .llms-loop-link:hover .meditation-title {
     color: #fff;
   }
@@ -543,6 +557,69 @@
 
   
 
+/*
+	Footer Section
+	------------------------------------------------
+*/
+.footer {
+  background-color: #30124E;
+  color: #DCDCDE;
+  margin-top: 40px;
+  padding-top: 7rem;
+}
+.footer h2 {
+  color: #DCDCDE;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+.footer h5 {
+  color: #DCDCDE;
+  width: fit-content;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+.footer h5:after {
+  content: "";
+  display: block;
+  border: 1px solid #F61067;
+  margin-top: 0.5rem;
+}
+.footer ul li .nav-link,
+.footer ul li .icon-links, 
+.footer .social-media-icon .nav-link, 
+.footer .social-media-icon .icon-links {
+  color: #DCDCDE;
+}
+.footer ul li:hover .nav-link, 
+.footer ul li:hover .icon-links, 
+.footer ul li:focus .nav-link, 
+.footer ul li:focus .icon-links, 
+.footer ul li:visited .nav-link, 
+.footer ul li:visited .icon-links, 
+.footer .social-media-icon:hover .nav-link, 
+.footer .social-media-icon:hover .icon-links, 
+.footer .social-media-icon:focus .nav-link, 
+.footer .social-media-icon:focus .icon-links, 
+.footer .social-media-icon:visited .nav-link, 
+.footer .social-media-icon:visited .icon-links {
+  color: #fff;
+}
+
+.smart-way-footer {
+  background-color: #30124E;
+  color: #DCDCDE;
+  padding: 20px 0;
+}
+.smart-way-footer a {
+  color: #DCDCDE;
+}
+.smart-way-footer a:hover {
+  color: #5E239D;
+}
 
 
 /*

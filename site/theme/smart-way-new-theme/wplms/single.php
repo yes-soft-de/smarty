@@ -2,7 +2,8 @@
 
 if ( !defined( 'ABSPATH' ) ) exit;
 
-get_header(vibe_get_header());
+// get_header(vibe_get_header());
+get_header();
 
 if ( have_posts() ) : while ( have_posts() ) : the_post();
 
@@ -186,5 +187,6 @@ test
     </div>
 </section>
 <?php
-get_footer(vibe_get_footer());
+// get_footer(vibe_get_footer());
+get_footer();
 ?>

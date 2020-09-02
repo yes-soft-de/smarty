@@ -11,6 +11,7 @@ if(!empty($redirect_course_cat_directory)){
 
 // get_header( vibe_get_header() );
 get_header(); 
+
 $request_uri = explode('/', $_SERVER['REQUEST_URI']);
 if ( in_array('courses', $request_uri, false) ): ?>
 
@@ -84,6 +85,9 @@ if ( in_array('courses', $request_uri, false) ): ?>
 <?php elseif ( in_array('meditations', $request_uri, false) ):?>
 	<section id="content" class="custom-main">
 	    <div class="llms-loop">
+			<div id="spinner-cover" class="cover hide">
+				<i class="fa fa-spinner fa-spin text-white fa-4x mx-auto" aria-hidden="true"></i>
+			</div>
 		<?php
 		$args = array(
 			'post_type' => 'course',
@@ -97,10 +101,7 @@ if ( in_array('courses', $request_uri, false) ): ?>
 			),
 		);
 		$query = new WP_Query( $args );
-		//	          echo '<pre>';
-		//	            print_r($query);
-		//	          echo '</pre>';
-		//           die();
+
 		$args = $query->get_posts();
 		//		        $args =	get_terms( 'course_cat', array( 'hide_empty' => 0, 'parent' => 14 ));
 		$argNumber = count($args);
@@ -154,10 +155,10 @@ if ( in_array('courses', $request_uri, false) ): ?>
 					<?php foreach ($args as $arg): ?>
 					<div class="col-xs-2">
 						<a id="topic" data-id="<?php echo $arg->ID; ?>" data-url="<?php echo admin_url( 'admin-ajax.php' ); ?>" data-href="<?php echo get_the_permalink( $arg->ID ); ?>" href="#">
-						<div class="topic">
-							<img class="img-responsive topic-image" src="<?php echo get_the_post_thumbnail_url( $arg->ID ) ? get_the_post_thumbnail_url( $arg->ID ) : get_template_directory_uri() . '/assets/img/inner-peace-meditation.jpg'; ?>" alt="" >
-							<h5 class="text-white"><?php echo $arg->post_title; ?></h5>
-						</div>
+							<div class="topic">
+								<img class="img-responsive topic-image" src="<?php echo get_the_post_thumbnail_url( $arg->ID ) ? get_the_post_thumbnail_url( $arg->ID ) : get_template_directory_uri() . '/assets/img/inner-peace-meditation.jpg'; ?>" alt="" >
+								<h5 class="text-white"><?php echo $arg->post_title; ?></h5>
+							</div>
 						</a>
 					</div>
 					<?php endforeach; ?>
@@ -194,13 +195,15 @@ if ( in_array('courses', $request_uri, false) ): ?>
 				</ul>
 			</div>
 		</div>
+		<div class="clearfix"></div>
 		<?php $request_uri = explode('/', $_SERVER['REQUEST_URI']);
 			if ( in_array('meditations', $request_uri, false) ): ?>
 				<div class="col-xs-12 meditation-bottom-section pt-5">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>
 				</div>
-			</div><!-- .container -->
+				<div class="clearfix"></div>
+			<!-- </div> -->
 		<?php endif; ?>
 		</div><!-- .col-12 -->
 	</section>
@@ -260,5 +263,6 @@ if ( in_array('courses', $request_uri, false) ): ?>
 </section>
 
 <?php endif;
-get_footer( vibe_get_footer() );  ?>
+get_footer();
+// get_footer( vibe_get_footer() );  ?>
 

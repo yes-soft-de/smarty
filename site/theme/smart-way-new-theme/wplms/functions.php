@@ -2,6 +2,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+require_once get_template_directory() . '/_inc/wp-bootstrap-navwalker.php';
+
 // Essentials
 include_once 'includes/config.php';
 include_once 'includes/init.php';

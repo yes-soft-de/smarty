@@ -319,7 +319,7 @@
 
         </div><!--.container-->
         <div class="w-50 full-sessions" style="width: 50%;">
-          <a href="<?php // echo get_term_link('meditations', 'course_cat') ?>">See full sessions</a>
+          <a href="<?php echo get_term_link('meditations', 'course-cat') ?>">See full sessions</a>
           <span class="d-inline-block text-center"><i class="fa fa-arrow-right"></i></span>
         </div>
       </article>

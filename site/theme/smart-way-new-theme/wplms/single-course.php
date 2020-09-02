@@ -12,7 +12,8 @@
 
 do_action('wplms_before_single_course');
 
-get_header( vibe_get_header() ); 
+// get_header( vibe_get_header() ); 
+get_header();
 
 $course_layout = vibe_get_customizer('course_layout');
 if ( bp_course_has_items() ) : while ( bp_course_has_items() ) : bp_course_the_item();
@@ -117,4 +118,4 @@ vibe_include_template("course/bottom$course_layout.php");
 
 endwhile; endif; 
 ?>
-<?php get_footer( vibe_get_footer() );  
+<?php get_footer(); // get_footer( vibe_get_footer() );  

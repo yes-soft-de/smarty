@@ -9,7 +9,8 @@ if(is_user_logged_in()){
     exit();
 }
 
-get_header(vibe_get_header());
+// get_header(vibe_get_header());
+get_header();
 
 if ( have_posts() ) : while ( have_posts() ) : the_post();
 
@@ -510,4 +511,5 @@ jQuery(window).load(function(){
 </script>
 <?php
 }
-get_footer( vibe_get_footer() );
+// get_footer( vibe_get_footer() );
+get_footer();
