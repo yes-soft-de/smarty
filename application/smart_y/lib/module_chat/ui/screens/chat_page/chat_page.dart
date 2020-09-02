@@ -1,16 +1,17 @@
 import 'dart:developer';
 
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
 import 'package:smarty/module_chat/bloc/chat_page/chat_page.bloc.dart';
 import 'package:smarty/module_chat/model/chat/chat_model.dart';
 import 'package:smarty/module_chat/ui/widget/chat_bubble/chat_bubble.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 
 @provide
 class ChatPage extends StatefulWidget {
   final ChatPageBloc _chatPageBloc;
-  ChatPage(this._chatPageBloc);
+  final SharedPreferencesHelper _preferencesHelper;
+  ChatPage(this._chatPageBloc, this._preferencesHelper);
   @override
   State<StatefulWidget> createState() => ChatPageState();
 }
@@ -100,12 +101,13 @@ class ChatPageState extends State<ChatPage> {
   }
 
   Future<void> buildMessagesList(List<ChatModel> chatList) async {
-    List<ChatBubbleWidget> newMessagesList = [];
-    User user = FirebaseAuth.instance.currentUser;
+    var newMessagesList = [];
+    String uid = await widget._preferencesHelper.getUserId();
     chatList.forEach((element) {
       newMessagesList.add(ChatBubbleWidget(
+        senderName: element.senderName,
         message: element.msg,
-        me: element.senderId == user.uid ? true : false,
+        me: element.senderId == uid ? true : false,
         sentDate: DateTime.parse(element.sentDate),
       ));
     });

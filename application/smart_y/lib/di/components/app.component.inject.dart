@@ -218,7 +218,8 @@ class AppComponent$Injector implements _i1.AppComponent {
       _i49.ProgramDetailsManager(_createProgramDetailsRepository());
   _i50.ProgramDetailsRepository _createProgramDetailsRepository() =>
       _i50.ProgramDetailsRepository(_createApiClient());
-  _i51.ChatPage _createChatPage() => _i51.ChatPage(_createChatPageBloc());
+  _i51.ChatPage _createChatPage() =>
+      _i51.ChatPage(_createChatPageBloc(), _createSharedPreferencesHelper());
   _i52.ChatPageBloc _createChatPageBloc() =>
       _i52.ChatPageBloc(_createChatService());
   _i53.ChatService _createChatService() =>
