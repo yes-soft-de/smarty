@@ -25,6 +25,10 @@ class RegisterService {
     }
 
     await _preferencesHelper.setToken(registerResponse.token.accessToken);
+    await _preferencesHelper.setUserEmail(registerResponse.user.email);
+    await _preferencesHelper.setUserPassword(registerRequest.password);
+    await _preferencesHelper.setUserName(registerResponse.user.name);
+    await _preferencesHelper.setUserId('${registerResponse.user.id}');
 
     return true;
   }

@@ -38,9 +38,9 @@ class SharedPreferencesHelper {
     return _sharedPreferences.setString(_KEY_PASSWORD, password);
   }
 
-  String getUserEmail()  {
-    dynamic res =  _sharedPreferences.getString(_KEY_EMAIL);
-    return (res == null )?'johnDoe@wow.com':res;
+  String getUserEmail() {
+    dynamic res = _sharedPreferences.getString(_KEY_EMAIL);
+    return (res == null) ? 'johnDoe@wow.com' : res;
   }
 
   Future<String> getUserName() async {
@@ -49,5 +49,13 @@ class SharedPreferencesHelper {
 
   Future<String> getUserPassword() async {
     return _sharedPreferences.getString(_KEY_PASSWORD);
+  }
+
+  Future<void> setUserId(String userId) async {
+    return _sharedPreferences.setString('userId', userId);
+  }
+
+  Future<String> getUserId() async {
+    return _sharedPreferences.getString('userId');
   }
 }

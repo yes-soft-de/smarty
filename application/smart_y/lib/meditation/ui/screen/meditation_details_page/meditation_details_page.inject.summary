@@ -1,0 +1,55 @@
+{
+  "asset": "asset:smarty/lib/meditation/ui/screen/meditation_details_page/meditation_details_page.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "MeditationDetailsPage",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:smarty/lib/meditation/ui/screen/meditation_details_page/meditation_details_page.dart#MeditationDetailsPage",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/shared/ui/widget/app_drawer/app_drawer.dart#AppDrawerWidget",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/meditation/bloc/meditation_details_page/meditation_details_page.bloc.dart#MeditationDetailsBloc",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/utils/logger/logger.dart#Logger",
+                "qualifier": null
+              },
+              "isProvider": false
+            },
+            {
+              "lookupKey": {
+                "root": "asset:smarty/lib/audio_player/service/audio_payer_service.dart#AudioPlayerService",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

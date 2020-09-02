@@ -1,0 +1,34 @@
+{
+  "asset": "asset:smarty/lib/programs/ui/screen/program_details_page/videos_tab_page/videos_tap_page.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": [
+      {
+        "name": "VideosTabPage",
+        "constructor": {
+          "name": "",
+          "kind": "constructor",
+          "injectedType": {
+            "lookupKey": {
+              "root": "asset:smarty/lib/programs/ui/screen/program_details_page/videos_tab_page/videos_tap_page.dart#VideosTabPage",
+              "qualifier": null
+            },
+            "isProvider": false
+          },
+          "singleton": false,
+          "asynchronous": false,
+          "dependencies": [
+            {
+              "lookupKey": {
+                "root": "dart:core#List",
+                "qualifier": null
+              },
+              "isProvider": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

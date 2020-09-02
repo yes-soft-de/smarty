@@ -1,0 +1,8 @@
+{
+  "asset": "asset:smarty/lib/authorization/response/register/register.dart",
+  "summary": {
+    "injector": [],
+    "module": [],
+    "injectable": []
+  }
+}

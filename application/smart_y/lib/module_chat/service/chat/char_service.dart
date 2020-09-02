@@ -1,14 +1,15 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:inject/inject.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:smarty/module_chat/manager/chat/chat_manager.dart';
 import 'package:smarty/module_chat/model/chat/chat_model.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 
 @provide
 class ChatService {
   final ChatManager _chatManager;
+  final SharedPreferencesHelper _preferencesHelper;
 
-  ChatService(this._chatManager);
+  ChatService(this._chatManager, this._preferencesHelper);
 
   // This is Real Time, That is Why I went this way
   final PublishSubject<List<ChatModel>> _chatPublishSubject =
@@ -28,9 +29,14 @@ class ChatService {
   }
 
   void sendMessage(String chatRoomID, String msg) async {
-    User user = FirebaseAuth.instance.currentUser;
+    String username = await _preferencesHelper.getUserName();
+    String userId = await _preferencesHelper.getUserId();
     ChatModel model = new ChatModel(
-        msg: msg, sender: user.uid, sentDate: DateTime.now().toIso8601String());
+      msg: msg,
+      senderId: userId,
+      senderName: username,
+      sentDate: DateTime.now().toIso8601String(),
+    );
     _chatManager.sendMessage(chatRoomID, model);
   }
 

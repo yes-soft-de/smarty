@@ -154,7 +154,7 @@ class _ProgramDetailsPageState extends State<ProgramDetailsPage> {
                           child: Column(
                         children: [
                           Icon(
-                            Icons.library_books,
+                            Icons.chat,
                             size: 24,
                           ),
                           Text('Comments',

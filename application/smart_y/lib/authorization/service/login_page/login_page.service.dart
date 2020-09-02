@@ -26,6 +26,8 @@ class LoginService {
     }
 
     await _preferencesHelper.setToken(loginResponse.token.accessToken);
+    await _preferencesHelper.setUserName(loginResponse.user.name);
+    await _preferencesHelper.setUserId('${loginResponse.user.id}');
 
     return true;
   }
@@ -55,6 +57,8 @@ class LoginService {
     await _preferencesHelper.setToken(loginResponse.token.accessToken);
     await _preferencesHelper.setUserEmail(email);
     await _preferencesHelper.setUserPassword(password);
+    await _preferencesHelper.setUserName(loginResponse.user.name);
+    await _preferencesHelper.setUserId('${loginResponse.user.id}');
 
     return loginResponse;
   }

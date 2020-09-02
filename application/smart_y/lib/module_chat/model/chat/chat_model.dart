@@ -1,21 +1,24 @@
 class ChatModel {
-  String sender;
+  String senderId;
+  String senderName;
   String sentDate;
   String msg;
 
-  ChatModel({this.sentDate, this.sender, this.msg});
+  ChatModel({this.sentDate, this.senderId, this.msg, this.senderName});
 
   ChatModel.fromJson(Map<String, dynamic> jsonData) {
-    sender = jsonData['sender'];
+    senderId = jsonData['sender'];
     msg = jsonData['msg'];
+    senderName = jsonData['sender_name'];
     sentDate = jsonData['sentDate'].toString();
   }
 
   Map<String, dynamic> toJson() {
     Map<String, dynamic> jsonData = {
-      'sender': sender,
+      'sender': senderId,
       'msg': msg,
-      'sentDate': sentDate
+      'sentDate': sentDate,
+      'sender_name': senderName
     };
 
     return jsonData;

@@ -108,7 +108,7 @@ class ChatPageState extends State<ChatPage> {
     chatList.forEach((element) {
       newMessagesList.add(ChatBubbleWidget(
         message: element.msg,
-        me: element.sender == user.uid ? true : false,
+        me: element.senderId == user.uid ? true : false,
         sentDate: DateTime.parse(element.sentDate),
       ));
     });
