@@ -1,0 +1,245 @@
+{
+	"wplms": {
+		"last_tab": 10,
+		"header_fix": 1,
+		"course_search": 0,
+		"loop_number": 5,
+		"instructor_add_students": 1,
+		"instructor_assign_badges": 1,
+		"instructor_extend_subscription": 1,
+		"notes_style":1,
+		"certificate_page": "1997",
+		"course_status_template":"fullscreen",
+		"direct_checkout":3,
+		"thankyou_redirect":1,
+		"course_duration_display_parameter": 86400,
+		"default_course_block_style":"course3",
+		"related_courses":1,
+		"google_fonts": [
+			"Roboto",
+			"Raleway"
+		],
+		"page_loader": "pageloader2",
+		"top_footer_columns": "col-md-3 col-sm-6",
+		"bottom_footer_columns": "col-md-3 col-sm-6",
+		"footer_logo": "http://wplms.io/demos/default/wp-content/themes/wplms/assets/images/logo.png"
+	},
+	"wplms_version": "2.4.0",
+	"widget_wplms_course_codes": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_activity": {
+		"2": {
+			"title": "",
+			"number": "5",
+			"activity": "1",
+			"messages": "1",
+			"friends": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_course_progress": {
+		"2": {
+			"title": "Course Progress",
+			"number": "5",
+			"finished": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_contact_users": {
+		"2": {
+			"title": "Contact Instructors",
+			"users": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "Contact Instructors",
+			"users": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_text": {
+		"2": {
+			"title": "Instructor Gallery",
+			"content": "[gallery ids=\"1924,1922,1918,1916,1914,1926,1928,1930,1932,1956\"]",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_tasks": {
+		"2": {
+			"title": "To do List",
+			"date": "1",
+			"priority": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "To do List",
+			"date": "1",
+			"priority": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_student_stats": {
+		"2": {
+			"title": "Student Statistics",
+			"width": "col-md-12",
+			"course": "1",
+			"quiz": "1",
+			"assignments": "1",
+			"course_chart": "Area",
+			"quiz_chart": "Line",
+			"assignment_chart": "Line"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_stats": {
+		"2": {
+			"title": "",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"3": {
+			"title": "",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"4": {
+			"title": "",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"5": {
+			"title": "",
+			"stats": "units",
+			"width": "col-md-3 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_notes_discussion": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_mymodules": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_news": {
+		"2": {
+			"title": "News",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_line_break": {
+		"2": [],
+		"3": [],
+		"_multiwidget": 1
+	},
+	"widget_wplms_instructor_dash_stats": {
+		"2": {
+			"title": "",
+			"stats": "woo_commission",
+			"width": "col-md-3 col-sm-6"
+		},
+		"3": {
+			"title": "",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"4": {
+			"title": "",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"5": {
+			"title": "",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"7": {
+			"title": "",
+			"stats": "units",
+			"width": "col-md-3 col-sm-6"
+		},
+		"8": {
+			"title": "",
+			"stats": "badges",
+			"width": "col-md-3 col-sm-6"
+		},
+		"9": {
+			"title": "",
+			"stats": "certificates",
+			"width": "col-md-3 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_instructor_stats": {
+		"2": {
+			"title": "Instructor Statistics",
+			"width": "col-md-12",
+			"range": "10",
+			"max": "10"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_instructor_commission_stats": {
+		"2": {
+			"title": "Instructor Commissions",
+			"width": "col-md-12"
+		},
+		"_multiwidget": 1
+	},
+	"widget_wplms_announcement": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_instructing_modules": {
+		"_multiwidget": 1
+	},
+	"widget_wplms_dash_cal": {
+		"_multiwidget": 1
+	},
+	"vibe_course_permalinks": {
+		"course_base": "/course",
+		"quiz_base": "/quiz",
+		"unit_base": "/unit",
+		"curriculum_slug": "/curriculum",
+		"members_slug": "/members",
+		"activity_slug": "/activity",
+		"admin_slug": "/admin",
+		"submissions_slug": "/submissions",
+		"stats_slug": "/stats"
+	},
+	"lms_settings": {
+		"general": {
+			"vibe_display_course_curriculum": "on",
+			"vibe_display_course_events": "0",
+			"vibe_display_course_activity": "0",
+			"vibe_display_course_drive": "0",
+			"curriculum_accordion": "on",
+			"skip_course_status": "on",
+			"in_course_quiz": "on",
+			"course_curriculum_below_description": "on",
+			"in_course_quiz_paged": "5"
+		}
+	},
+	"widget_wplms_annoucement": {
+		"2": {
+			"title": "Annoucement",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_bp_emails": "2.4.1",
+	"wplms_site_style": "default",
+	"woocommerce_cart_redirect_after_add": "yes",
+	"woocommerce_enable_ajax_add_to_cart": "no"
+}

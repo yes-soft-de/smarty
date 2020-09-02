@@ -1,0 +1,91 @@
+.vibe-radio-img-demo_switch img,.vibe-radio-img-demo_switch .vibe-radio-img-selected img {
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    max-height: 350px;
+}
+#demo_switcher_wrapper{
+	position:absolute;
+	left:0;
+	top:0;
+}
+#demo_switcher_wrapper_margin{
+	position: relative;
+}
+small.demo_switcher_overlay {
+    display:none;position :absolute;z-index:1;width:100%; top: 50%;left:50%;height:100%;background:rgba(255, 255, 255, 0.53);
+}
+
+.vibe-radio-img-selected small.demo_switcher_overlay{display:inline-block;}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+.button.button-primary.import_demo i.fa-spinner{-webkit-animation: spin 4s infinite linear;animation:spin 4s infinite linear;}
+#demo_switcher_wrapper{margin-top:15px;}
+#demo_switcher_wrapper label.vibe-radio-img {
+    width: calc(50% - 30px);
+    margin:14px !important;
+    height:300px;
+    overflow:hidden;
+    border:1px solid #ddd;
+    padding:0;
+}
+
+@media (min-width:1400px){
+    #demo_switcher_wrapper label.vibe-radio-img {
+        width: calc(33% - 30px);
+        margin:14px !important;
+        height:300px;
+        overflow:hidden;
+        border:1px solid #ddd;
+        padding:0;
+    }
+}
+#demo_switcher_wrapper label.vibe-radio-img img{
+    width:100%;
+    height: 100%;
+    max-height: none;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+#demo_switcher_wrapper label.vibe-radio-img:hover{box-shadow:0 1px 5px rgba(0,0,0,0.2);}
+.button-primary.import_demo{
+    position:relative;
+    width: 180px;
+    margin-left: -90px;
+    text-align: center;
+    margin-top: -40px;
+    padding: 6px;
+    height: 40px;display:block;
+}
+.button-primary.import_demo+.button-primary.import_demo {
+    margin-top: 10px;
+}
+.import_demo.disable_button:after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;display:block;
+    height:100%;
+    background: rgba(255,255,255,0.4);
+    width:0%;
+    transition:all 0.5s ease-in;
+}
+
+.import_demo.disable_button.progress80:after{
+    width:80%;
+}
+.import_demo.disable_button.progress100:after{
+    width:100%;
+}
+.dashicons-yes{font-size:32px;}

@@ -1,0 +1,452 @@
+/**
+ * File: General.scss
+ * Description : Contains all general styling for the WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULT STYLING 
+/*    02. BUDDYPRESS CONTENT STYLING 
+/*    03. PAGINATION
+/*    04. SIDEBARS
+/*    05. LINKS STYLING
+/*    06. LISTS STYLING
+/*    07. PAGE BLOCKS
+/*    08. MISCELLANEOUS
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+ #buddypress .mce-btn button,
+ #buddypress input[type=button].ed_button{
+	background: none;
+	padding:0 3px;
+	color:#444;
+}
+
+.bp-secondary-action,
+.bp-primary-action{
+	font-size:11px;
+	font-weight:600;
+	letter-spacing: 0;
+	margin-right:10px;
+	display:inline-block;
+	span{
+		margin-left:5px;
+	}
+}
+
+.col-md-3{
+	select{
+		width:100%;
+		margin: 15px 0;
+	}
+	.feed{border:1px solid $bordercolor;}
+}
+
+/*========================================================================*/
+/*   02. BUDDYPRESS CONTENT STYLING 
+/*========================================================================*/
+
+#content #buddypress{
+	margin-top:30px;
+	&.container{
+		margin-top:0;
+		.content{
+			margin-top:0;
+		}
+	}
+}
+
+
+.generic-button{
+	margin-top:10px;
+	a{
+		font-size:11px;
+		display:inline-block;
+		text-transform:uppercase;
+		line-height:1.6;
+		background:none;
+		border:1px solid $primarybg;
+		color:$primarybg;
+		padding:2px 10px;
+		border-radius:2px;
+		&:hover{
+			background:$primarybg;
+			color:$primarycolor;
+		}
+	}
+}
+
+.friendship-button.add:after{
+	content:"\e05d";
+	font-family:'fonticon';
+	font-size:7px;
+	padding:0 0 0 2px;
+}
+
+.friendship-button.remove:after{
+	content:"\e092";
+	font-family:'fonticon';
+	font-size:9px;
+	padding:0 0 0 2px;
+}
+
+#item-header{
+    width: 100%;
+}
+/*========================================================================*/
+/*   03. PAGINATION
+/*========================================================================*/
+
+#buddypress div.pagination {
+	background: transparent;
+	border: none;
+	color: #444;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	float: none;
+	width: 100%;
+	padding: 15px 0;
+	.pag-count {
+		float: left;
+		margin-left: 10px;
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #999;
+	}
+	.pagination-links {
+		float: right;
+	}
+}
+
+#buddypress ul.item-list li  div.pagination{padding:0;}
+
+#buddypress #pag-top.pagination{
+	padding-top:0;
+}
+#buddypress #pag-bottom.pagination{
+	padding-bottom:0;
+}
+
+#buddypress #nav-above {
+	display: none;
+}
+#buddypress .paged #nav-above {
+	display: block;
+}
+
+input[type="submit"].loading{
+	opacity:0.4;	
+}
+
+
+/*========================================================================*/
+/*   04. SIDEBARS
+/*========================================================================*/
+
+
+.buddyleftsidebar{
+	margin:30px 0;
+	.widget+.widget{
+		margin-top:30px;
+	}
+}
+
+
+/*========================================================================*/
+/*   05. ITEM BODY
+/*========================================================================*/
+
+
+#item-body{
+	position: relative;
+	background:#FFF;
+	padding:30px;
+	border-radius:2px;
+	.form-allowed-tags{
+		display: none;
+	}
+	#commentform{
+		margin:30px 0;
+	}
+	.members,.messages,.groups,
+	#send_message_form{
+		display: inline-block;
+		width: 100%;
+	}
+
+	form#whats-new-form {
+		margin: 0px;
+		padding: 0;
+		width:100%;
+		display: inline-block;
+	}
+}
+
+
+
+
+#buddypress{
+	ul.button-nav{
+		li {
+			float: left;
+			margin: 0 10px 10px 0;
+			list-style: none;
+			&.current a {
+				font-weight: bold;
+			}
+			a{
+			    padding: 5px 10px;
+			    border-radius: 2px;
+			    color: $primarycolor;
+			    font-size:11px;
+			    border: 1px solid $bordercolor;
+			    text-transform:uppercase;
+			}
+		}
+	}	
+}  
+
+#sitewide-notice{
+	#message {
+		left: 2%;
+		position: fixed;
+		top: 1em;
+		width: 96%;
+		z-index: 9999;
+	}
+	&.admin-bar-on #message {
+		top: 3.3em;
+	}
+	strong {
+		display: block;
+		margin-bottom: -1em;
+	}
+} 
+
+
+/*========================================================================*/
+/*   05. ITEM BODY
+/*========================================================================*/
+
+#buddypress{
+	
+	.standard-form{
+		textarea,input[type=text],input[type=text],input[type=color],input[type=date],
+		#buddypress .standard-form input[type=datetime],input[type=datetime-local],input[type=email],
+		#buddypress .standard-form input[type=month],input[type=number],input[type=range],
+		input[type=search],input[type=tel],input[type=time],input[type=url],input[type=week],select,input[type=password],input[type=search],input[type=text] {
+			border: 1px solid $bordercolor;
+			border-radius: 2px;
+			color: $textcolor;
+			font-size:14px;
+			font-weight:400;
+			font: inherit;
+			font-size: 100%;
+			padding: 6px 12px;
+		}
+		select {
+			padding: 3px;
+		}
+		input[type=password] {
+			margin-bottom: 5px;
+		}
+		label,span.label {
+			display: block;
+			font-weight: bold;
+			margin: 15px 0 5px 0;
+		}
+		.checkbox,.radio{
+			label{
+				color: #444;
+				font-size: 100%;
+				font-weight: normal;
+				margin: 5px 0 0 0;
+			}
+		}
+		&#sidebar-login-form label {
+			margin-top: 5px;
+		}
+		#basic-details-section input[type=password],#blog-details-section input#signup_blog_url {
+			width: 35%;
+		}
+	}
+}  
+
+
+
+/* Overrides for embedded WP editors */
+#buddypress .wp-editor-wrap a.button,
+#buddypress .wp-editor-wrap button,
+#buddypress .wp-editor-wrap input[type=submit],
+#buddypress .wp-editor-wrap input[type=button],
+#buddypress .wp-editor-wrap input[type=reset] {
+	padding: 0 10px 1px;
+}
+
+.last.filter label{
+	display: none !important;
+}
+
+/*========================================================================*/
+/*   05. AJAX LOADER
+/*========================================================================*/
+
+#buddypress{
+	a.loading,
+	input.loading {
+		-webkit-animation: loader-pulsate .5s infinite ease-in-out alternate;
+		-moz-animation: loader-pulsate .5s infinite ease-in-out alternate;
+		border-color: #aaa;
+	}
+} 
+
+@-webkit-keyframes loader-pulsate {
+	from {
+		border-color: #aaa;
+		-webkit-box-shadow: 0 0 6px #ccc;
+		box-shadow: 0 0 6px #ccc;
+	}
+	to {
+		border-color: #ccc;
+		-webkit-box-shadow: 0 0 6px #f8f8f8;
+		box-shadow: 0 0 6px #f8f8f8;
+	}
+}
+@-moz-keyframes loader-pulsate {
+	from {
+		border-color: #aaa;
+		-moz-box-shadow: 0 0 6px #ccc;
+		box-shadow: 0 0 6px #ccc;
+	}
+	to {
+		border-color: #ccc;
+		-moz-box-shadow: 0 0 6px #f8f8f8;
+		box-shadow: 0 0 6px #f8f8f8;
+	}
+}
+
+/*========================================================================*/
+/*   05. ACTION
+/*========================================================================*/
+
+
+.bp-primary-action,
+.bp-secondary-action{
+	font-size:11px;
+	font-weight:600;
+	color:$primarybg;
+	text-transform: uppercase;
+	&.button{
+		color:#FFF;
+	}
+}
+
+
+#item-body .radio > input[type="radio"]{
+	margin-left:0;
+	margin-right:10px;
+}
+#item-buttons{
+	clear: both;
+	border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+
+
+
+
+/*========================================================================*/
+/*   05. NOTES AND DISCUSSIONS
+/*========================================================================*/
+
+#notes-discussion-form + .content{
+	margin-top:0;
+}
+.note-tabs{
+	background: transparent;
+	clear: left;
+	display: inline-block;
+	overflow: hidden;
+	width:100%;
+	background:#313B3D;
+	padding:0;
+	border-radius:2px;
+	ul{
+		li{
+			float:left;
+			width: 33%;
+			border-right: 1px solid rgba(255,255,255,0.1);
+			a{
+				display: block;
+				color:rgba(255,255,255,0.6);
+				padding: 18px 24px;
+				font-size:11px;
+				font-weight:600;
+				text-transform: uppercase;
+				text-decoration: none;
+				&:hover{
+					color:#FFF;
+				}
+				span {
+					font-size:12px;
+					display: inline-block;
+					padding:2px 7px;
+					margin:-2px 0;
+					color:#FFF;
+					background:#78c8ce;
+					border-radius:20px;
+					float:right;
+				}
+			}
+			&.selected,&.current{
+				a{
+					color: #FFF;
+					background-color:#78c8ce;
+					span{
+						background-color: #fff;
+						color:#78c8ce;
+					}
+				}
+			}
+		}
+	}
+} 
+
+/*========================================================================*/
+/*   05. MISC
+/*========================================================================*/
+
+.widget,.footerwidget{
+	.item-avatar{
+		border-radius:0;
+	}
+} 
+
+
+/*========================================================================*/
+/*   05. RESPONSIVE
+/*========================================================================*/
+
+@media (max-width: 768px){
+	.directory{
+		.item-list{
+			.item{
+				text-align:center;
+			}
+			.action{
+				text-align:center;
+			}
+		}
+	}
+}

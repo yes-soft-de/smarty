@@ -1,0 +1,197 @@
+/**
+ * File: quiz.scss
+ * Description : Contains all styling for the Quizzes in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. TYPOGRAPHY STYLING
+/*    03. FORMS STYLING
+/*    04. SELECT DROPDOWN
+/*    05. SUBSCRIPTION STYLING 
+/*    06. BUTTON STYLING 
+/*    07. PAGE BLOCKS
+/*    08. MISCELLANEOUS
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+/*========================================================================*/
+/*   01. QUIZ RESULTS
+/*========================================================================*/
+
+.quiz_results{
+	& >li {
+		padding: 12px 0;
+		border-bottom: 1px dotted $bordercolor;
+		display: inline-block;
+		width:100%;
+		span{
+			strong{
+				display: block;
+				font-size: 24px;
+				text-align: center;
+				color: #444;
+			}
+		}
+	}
+}
+
+.quiz_results{
+	li{
+		& > span{
+			color:#bbb;
+			float:right;
+			font-size:11px;
+			font-weight:600;
+			text-transform: uppercase;
+			width:120px;
+		}
+		i{
+			font-size:16px;
+			float: left;
+			margin: 0 5px 0 0;
+			a{
+				text-transform: uppercase;
+				font-weight: 600;
+				font-size: 14px;
+			}
+		}
+	}
+} 
+
+
+/*========================================================================*/
+/*   01. QUIZ QUESTIONS
+/*========================================================================*/
+
+.quiz_questions{
+	& >li{
+		padding: 12px 0;
+		border-bottom: 1px dotted $bordercolor;
+		display: inline-block;
+		width:100%;
+	}
+}
+
+#total_marks{
+	font-size: 24px;
+	margin: 15px 0;
+	strong{
+		float:right;
+	}
+}
+
+.marking{
+	clear:both;
+	display: block;
+	float:left;
+	margin:15px 0 10px;
+}
+
+
+.orderquestions{
+	margin-left:240px;
+}
+.quiz_questions{
+	.q{
+		font-size:16px;
+		font-weight:600;
+	}
+	strong{
+		color:#bbb;
+		font-size:12px;
+		margin-right:30px;
+		&+strong{
+			display: block;
+			margin-top:10px;
+		}
+		span{
+			float:none;
+			margin-left:10px;
+		}
+	}
+	span{
+		float:right;
+		font-size:12px;
+		font-weight:600;
+		text-transform: uppercase;
+		margin-left:30px;
+		color:#bbb;
+	}	
+} 
+
+
+.repeatablelist,
+.add_repeatable{
+	margin-left:240px;
+}
+
+.sort_handle{
+	display: inline-block;
+	font-size: 24px;
+	float: left;
+	color: #999;
+	line-height: 0;
+	margin:2px 5px 0 0;
+}
+
+.profile .bp-widget.instructor{display: none;}
+
+
+
+/*========================================================================*/
+/*   01. QUIZ RETAKE FORM
+/*========================================================================*/
+
+.quiz_retake_form{
+	border-top: 1px solid $bordercolor;
+	padding-top: 20px;
+	display: inline-block;
+	width: 100%;
+	color:#BBB;
+	input[type="submit"]{
+		float:right;
+	}
+}
+
+#prev_results{
+	color:#bbb;
+	padding:10px 0 6px;
+	border-bottom:1px solid $bordercolor;
+	width:100%;
+	a{
+		color:#bbb;
+		font-weight:600;
+		&:after{
+			font-family: 'fonticon';
+			content: "\e05d";
+			color:#BBB;
+			float:right;
+			font-size:20px;
+		}
+		&.show:after{
+			content: "\e092";
+		}
+	}
+}
+	
+.prev_quiz_results{
+	display: none;
+	&.show{
+		display: block;
+	}
+	li{
+		padding:6px;
+		color:#bbb;
+		border-bottom:1px solid $bordercolor;
+	}
+}

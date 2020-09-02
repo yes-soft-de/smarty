@@ -1,0 +1,148 @@
+<?php 
+	global $wpdb, $pmpro_invoice, $pmpro_msg, $pmpro_msgt, $current_user, $pmpro_currency_symbol;
+	
+	if($pmpro_msg)
+	{
+	?>
+	<div class="message <?php echo $pmpro_msgt?>"><p><?php echo $pmpro_msg?></p></div>
+	<?php
+	}
+?>	
+
+<?php 
+	if($pmpro_invoice) 
+	{ 
+		?>
+		<?php
+			$pmpro_invoice->getUser();
+			$pmpro_invoice->getMembershipLevel();
+		?>
+		
+		<h3 class="heading">
+			<?php printf(_x('Invoice #%s on %s', 'Invoice # header. E.g. Invoice #ABCDEF on 2013-01-01.', 'vibe'), $pmpro_invoice->code, date_i18n(get_option('date_format'), $pmpro_invoice->timestamp));?>	
+		</h3>
+		<a class="pmpro_a-print" href="javascript:window.print()">Print</a>
+		<ul class="pmpro_account_list">
+			<?php do_action("pmpro_invoice_bullets_top", $pmpro_invoice); ?>
+			<li><strong><?php _e('Account', 'vibe');?>:</strong> <?php echo $pmpro_invoice->user->display_name?> (<?php echo $pmpro_invoice->user->user_email?>)</li>
+			<li><strong><?php _e('Membership Level', 'vibe');?>:</strong> <?php echo $current_user->membership_level->name?></li>
+			<?php if($current_user->membership_level->enddate) { ?>
+				<li><strong><?php _e('Membership Expires', 'vibe');?>:</strong> <?php echo date(get_option('date_format'), $current_user->membership_level->enddate)?></li>
+			<?php } ?>
+			<?php if($pmpro_invoice->getDiscountCode()) { ?>
+				<li><strong><?php _e('Discount Code', 'vibe');?>:</strong> <?php echo $pmpro_invoice->discount_code->code?></li>
+			<?php } ?>
+			<?php do_action("pmpro_invoice_bullets_bottom", $pmpro_invoice); ?>
+		</ul>
+		
+		<?php
+			//check instructions		
+			if($pmpro_invoice->gateway == "check" && !pmpro_isLevelFree($pmpro_invoice->membership_level))
+				echo wpautop(pmpro_getOption("instructions"));
+		?>
+			
+		<table id="pmpro_invoice_table" class="pmpro_invoice" width="100%" cellpadding="0" cellspacing="0" border="0">
+			<thead>
+				<tr>
+					<?php if(!empty($pmpro_invoice->billing->name)) { ?>
+						<th><?php _e('Billing Address', 'vibe');?></th>
+					<?php } ?>
+					<th><?php _e('Payment Method', 'vibe');?></th>
+					<th><?php _e('Membership Level', 'vibe');?></th>
+					<th align="center"><?php _e('Total Billed', 'vibe');?></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<?php if(!empty($pmpro_invoice->billing->name)) { ?>
+					<td>
+						<?php echo $pmpro_invoice->billing->name?><br />
+						<?php echo $pmpro_invoice->billing->street?><br />						
+						<?php if($pmpro_invoice->billing->city && $pmpro_invoice->billing->state) { ?>
+							<?php echo $pmpro_invoice->billing->city?>, <?php echo $pmpro_invoice->billing->state?> <?php echo $pmpro_invoice->billing->zip?> <?php echo $pmpro_invoice->billing->country?><br />												
+						<?php } ?>
+						<?php echo formatPhone($pmpro_invoice->billing->phone)?>
+					</td>
+					<?php } ?>
+					<td>
+						<?php if($pmpro_invoice->accountnumber) { ?>
+							<?php echo $pmpro_invoice->cardtype?> <?php echo _x('ending in', 'credit card type {ending in} xxxx', 'vibe');?> <?php echo last4($pmpro_invoice->accountnumber)?><br />
+							<small><?php _e('Expiration', 'vibe');?>: <?php echo $pmpro_invoice->expirationmonth?>/<?php echo $pmpro_invoice->expirationyear?></small>
+						<?php } elseif($pmpro_invoice->payment_type) { ?>
+							<?php echo $pmpro_invoice->payment_type?>
+						<?php } ?>
+					</td>
+					<td><?php echo $pmpro_invoice->membership_level->name?></td>					
+					<td align="center">
+						<?php if($pmpro_invoice->total != '0.00') { ?>
+							<?php if(!empty($pmpro_invoice->tax)) { ?>
+								<?php _e('Subtotal', 'vibe');?>: <?php echo $pmpro_currency_symbol?><?php echo number_format($pmpro_invoice->subtotal, 2);?><br />
+								<?php _e('Tax', 'vibe');?>: <?php echo $pmpro_currency_symbol?><?php echo number_format($pmpro_invoice->tax, 2);?><br />
+								<?php if(!empty($pmpro_invoice->couponamount)) { ?>
+									<?php _e('Coupon', 'vibe');?>: (<?php echo $pmpro_currency_symbol?><?php echo number_format($pmpro_invoice->couponamount, 2);?>)<br />
+								<?php } ?>
+								<strong><?php _e('Total', 'vibe');?>: <?php echo $pmpro_currency_symbol?><?php echo number_format($pmpro_invoice->total, 2)?></strong>
+							<?php } else { ?>
+								<?php echo $pmpro_currency_symbol?><?php echo number_format($pmpro_invoice->total, 2)?>
+							<?php } ?>						
+						<?php } else { ?>
+							<small class="pmpro_grey"><?php echo $pmpro_currency_symbol?>0</small>
+						<?php } ?>		
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<?php 
+	} 
+	else 
+	{
+		//Show all invoices for user if no invoice ID is passed	
+		$invoices = $wpdb->get_results("SELECT *, UNIX_TIMESTAMP(timestamp) as timestamp FROM $wpdb->pmpro_membership_orders WHERE user_id = '$current_user->ID' ORDER BY timestamp DESC");
+		if($invoices)
+		{
+			?>
+			<table id="pmpro_invoices_table" class="pmpro_invoice" width="100%" cellpadding="0" cellspacing="0" border="0">
+			<thead>
+				<tr>
+					<th><?php _e('Date', 'vibe'); ?></th>
+					<th><?php _e('Invoice #', 'vibe'); ?></th>
+					<th><?php _e('Total Billed', 'vibe'); ?></th>
+					<th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+			<?php
+				foreach($invoices as $invoice)
+				{ 
+					?>
+					<tr>
+						<td><?php echo date(get_option("date_format"), $invoice->timestamp)?></td>
+						<td><a href="<?php echo pmpro_url("invoice", "?invoice=" . $invoice->code)?>"><?php echo $invoice->code; ?></a></td>
+						<td><?php echo $pmpro_currency_symbol?><?php echo $invoice->total?></td>					
+						<td><a href="<?php echo pmpro_url("invoice", "?invoice=" . $invoice->code)?>"><?php _e('View Invoice', 'vibe'); ?></a></td>
+					</tr>
+					<?php
+				}
+			?>
+			</tbody>
+			</table>
+			<?php
+		}
+		else
+		{
+			?>
+			<p><?php _e('No invoices found.', 'vibe');?></p>
+			<?php
+		}
+	} 
+?>
+<nav id="nav-below" class="navigation" role="navigation">
+	<div class="nav-next alignright">
+		<a href="<?php echo pmpro_url("account")?>"><?php _e('View Your Membership Account &rarr;', 'vibe');?></a>
+	</div>
+	<?php if($pmpro_invoice) { ?>
+		<div class="nav-prev alignleft">
+			<a href="<?php echo pmpro_url("invoice")?>"><?php _e('&larr; View All Invoices', 'vibe');?></a>
+		</div>
+	<?php } ?>
+</nav>

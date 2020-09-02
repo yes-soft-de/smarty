@@ -1,0 +1,410 @@
+/**
+ * File: _elements.scss
+ * Description : Contains element styling in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. BUTTONS
+/*    02. HEADING
+/*    03. SOCIAL ICONS
+/*    04. FLEXSLIDER
+/*    05. EXTRAS
+/*
+/*========================================================================*/
+/*   01. BUTTONS
+/*========================================================================*/
+
+.button{
+	padding:10px 24px;
+    display: inline-block;
+    margin:10px 10px 10px 0;
+    font-size:12px;
+    background-color: $primarybg;
+    color: $primarycolor;
+    border:none;
+    border-radius:2px;
+    outline: none;
+    font-weight:600;
+    letter-spacing: 0.1em;
+	position: relative;
+	transition: all 0.3s;
+	z-index: 1;
+}
+
+input[type="button"],
+input[type="submit"]{
+	padding:7px 24px;
+	line-height:1.6;
+	background-color: $primarybg;
+	color: $primarycolor;
+	border:none;
+	border-radius:2px;
+    outline: none;
+    font-weight:600;
+}
+
+.button.blue{
+	background-color:#78c8ce;
+}
+
+.button.green{
+	background-color:#70c989;
+}
+
+.button.primary{
+	background-color: #fa7252;
+    border-color: #fa7252;
+}
+
+.button.full{
+	width:100%;
+	text-align: center;
+}
+
+.button+.button{
+	margin-left:10px;
+}
+.button.full+.button{
+	margin:10px 0;
+}
+.button.full+.button.full{
+	margin-top:0;
+}
+.button.small{
+	font-size:12px;
+	padding:8px 16px;
+	font-weight:600;
+	text-transform: uppercase;
+	color:#FFF;
+}
+
+.button:hover{
+	color:#FFF;
+	background-image:none;
+}
+
+/*========================================================================*/
+/*   02. HEADING
+/*========================================================================*/
+.heading{
+	margin:20px 0;
+}
+
+.heading a{
+	font-size: 14px;
+	text-transform: uppercase;
+	float: right;
+}
+
+.heading span>a{
+	font-size: 11px;
+	font-weight: 600;
+	color: $light-text-color;
+}
+.noheading .flex-direction-nav{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* 03. SOCIAL ICONS
+/* ------------------------------------------------------------------------ */
+
+/*==== Social Icons ====*/
+ul.socialicons{
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style:none !important;
+	display: inline-block;
+	li{
+		float: left;
+		width:auto !important;
+		border:none !important;
+		margin: 0 0 0 15px;
+		font-size: 20px;
+	    line-height:1px;
+		a{
+		    padding: 3px 6px;
+		    line-height: 1em;
+		    font-size: 16px;
+		    &.facebook,
+		    &.tumblr{
+		    	padding:3px 9px;
+		    }
+		    &.vk{
+		    	padding:3px 5px;
+		    }
+		    &.google-plus,&.digg{
+		    	padding:3px;
+		    }
+		}
+	}
+
+	&.square{
+		li{
+			margin: 0 0 0 5px;
+			a{
+			    color: #FFF;
+			    line-height: 1em;
+			    background:rgba(0,0,0,0.1);
+			}
+		}
+	}
+	
+	&.round{
+		li{
+			margin: 0 0 0 5px;	
+			a{
+				border-radius: 50%;
+				background: rgba(0,0,0,0.1);
+			}
+		}
+	}
+
+
+	li:first-child{
+    	margin:0;
+	}
+
+	&.social,&.color{
+		li{
+			color:#FFF;
+			a:hover{
+				background:$primarybg;
+			}
+		}
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+/* 03. MEMBER GRID
+/* ------------------------------------------------------------------------ */
+
+.member_grid{
+	display:grid;
+}
+/* ------------------------------------------------------------------------ */
+/* 03. MEMBER BLOCKS 
+/* ------------------------------------------------------------------------ */
+.member_block,
+.member_block3{
+	text-align:center;
+	h3{font-size:16px;font-weight:600;margin-bottom:0;}
+	ul.socialicons{
+		display:inline-block;
+		float:none;
+		li{
+			margin:auto;
+			a{
+				color:rgba(0,0,0,0.4);
+			}
+		}
+	}
+}
+
+.member_block3{
+	.member_avatar {
+	    position: relative;
+	    ul.socialicons {
+		    position: absolute;
+		    opacity:0;
+		    top: 50%;
+		    left: 0;
+		    width: 100%;
+		    display: inline-block;
+		    float: none;z-index:1;
+		    transition: all 0.5s ease;
+		    li{
+		    	float: none;
+    			display: inline-block;
+    			a{
+					color:#FFF;
+				}
+		    }
+	    }
+	    &:after{
+	    	content:'';
+	    	position:absolute;
+	    	left:0;
+	    	top:0;
+	    	width:100%;
+	    	height:100%;
+	    	background:rgba(0,0,0,0.4);
+	    	transform: scale(0);
+	    	transition: all 0.5s ease;
+	    }
+	    &:hover:after{
+	    	transform: scale(1);
+	    }
+	    &:hover ul.socialicons{
+	    	opacity:1;
+	    }
+	}
+}
+
+.product_meta+ul.socialicons{margin-top:15px;}
+
+.member_block4{
+	display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-gap: 15px;
+    align-items: center;
+	.member_avatar {
+		img{
+			border-radius:0;
+		}
+	}
+	.member_info{
+		h3{
+			margin:0;
+			line-height:1;
+		}
+	}
+}
+/*===Social Icons Colored ====*/
+
+ul.socialicons.color{
+	li{
+		a{color:#FFF !important;}
+		a.facebook{
+		    background: #3B5998 !important;
+		}
+		a.vk{
+			background: #588FD0 !important;
+		}
+		a.twitter{
+		    background: #2bb5dc !important;
+		}
+		a.google.plus{
+		    background: #DD4B39 !important;
+		}
+		a.dribbble{
+		    background:#f90f63 !important;
+		}
+		a.pinterest{
+		    background: #d04e4e !important;
+		}
+		a.gplus,a.google-plus{
+		    background: #C63D2D !important;
+		}
+		a.tumblr{
+		    background: #345775 !important;
+		}
+		a.github{
+		    background: #4183c4 !important;
+		}
+		a.blogger{
+		    background:  #FF8833 !important;
+		}
+		a.digg{
+			background:#356aa0;
+		}
+		a.flickr{
+		    background:  #FE0883 !important;
+		}
+		a.foursquare{
+		    background:  #0072B1 !important;
+		}
+		a.instagram{
+		    background: #4E433C !important;
+		}
+		a.linkedin{
+		    background: #4875B4 !important;
+		}
+		a.reddit{
+		    background: #CEE3F8 !important;
+		}
+		a.vimeo{
+		    background: #44BBFF !important;
+		}
+		a.youtube, a.fontawesome-webfont-5{
+		    background: #C4302B !important;
+		}
+		a.stumbleupon{
+		    background: #EB4924 !important;
+		}
+		a.rss{
+		    background: #FA9B39 !important;
+		}
+	}
+} li 
+
+
+/*========================================================================*/
+/*   04. FLEXSLIDERS
+/*========================================================================*/
+
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+.no-js .slides > li:first-child {display: block;}
+
+.flex-control-nav {
+	position:absolute;
+	bottom: -20px;
+	text-align:center;
+	width: 100%;
+}
+
+ .flex-control-nav li{
+ 	margin: 0 3px;
+ 	display: inline-block;
+ }
+ .flex-control-nav li a{
+ 	width: 30px;
+ 	height: 5px;
+ 	background: #FFF;
+ 	text-indent:-9999px;
+ 	display:block;
+ 	opacity: 0.4;
+ }
+
+ .flex-control-nav li a.flex-active{
+ 	opacity: 1;
+ }
+ 
+ 
+ .flex-direction-nav .flex-prev:hover,
+ .flex-direction-nav .flex-next:hover{
+ 	opacity: 1;
+ } 
+
+/*========================================================================*/
+/*   04. Extras
+/*========================================================================*/
+
+span.small_text{
+	font-size:11px;
+	color:#bbb;
+	text-transform: uppercase;
+}
+
+.main .full-width{
+	margin:0 -15px;
+}

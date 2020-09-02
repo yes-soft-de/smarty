@@ -1,0 +1,501 @@
+/*--------------------------------------------------------------
+Hello, this is the BuddyPress Legacy stylesheet.
+
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Navigation
+	1.1 - Pagination
+2.0 - WordPress
+	2.1 - Images
+3.0 - BuddyPress
+	3.1 - Activity
+		3.1.1 - Activity Listing
+		3.1.2 - Activity Comments
+	3.2 - Toolbar
+	3.3 - Directories - Members, Groups, Blogs, Forums
+	3.4 - Error / Success Messages
+	3.5 - Forms
+	3.6 - Ajax Loading
+	3.7 - Topics and Tables - Forums and General
+	3.8 - Headers, Lists and Tabs - Activity, Groups, Blogs, Forums
+	3.9 - Private Messaging Threads
+	3.10 - Extended Profiles
+	3.11 - Widgets
+4.0 - Media Queries
+	4.1 - Smartphones Landscape
+	4.2 - Smartphones Portrait
+	4.3 - Smartphones - smaller screen sizes
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1 - Navigation
+--------------------------------------------------------------*/
+
+input[type="file"]{
+	margin-bottom:15px;
+}
+
+
+.smallimg img{
+	height:20px;
+	width:auto;
+	border-radius:2px;
+	margin-right:8px;
+}
+/*--------------------------------------------------------------
+1 - LOGIN WIDGET
+--------------------------------------------------------------*/
+#bpavatar{
+	float:left;
+	max-width:80px;
+}
+#bpavatar img{
+	width:64px;
+	height:auto;
+	margin:20px 10px 20px 20px;
+	border-radius:50%;
+}
+#vibe_bp_login{
+	display: none;
+}
+#vbp-login-form{
+	padding:20px;
+}
+#headertop #vibe_bp_login li,
+#vibe_bp_login li{
+	margin: 0;
+	padding: 0;
+	border:none;
+	font-size:12px;
+	width:100%;
+}
+#vibe_bp_login li span{
+	background: #fa7252;
+	padding: 1px 6px;
+	font-size: 12px;
+	font-weight: 800;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+#vibe_bp_login ul{
+	width: 146px;
+	float: right;
+	padding: 20px 20px 20px 10px;
+}
+#vibe_bp_login ul+ul{
+	width:100%;
+	padding: 0px 20px;
+	background:#313B3D;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+#vibe_bp_login ul+ul li a{
+	padding: 6px 0;
+	display: inline-block;
+	width: 100%;
+	font-weight:600;
+	border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+#vibe_bp_login ul:last-child{
+	padding-bottom:20px;
+}
+#vibe_bp_login li#username{
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom:3px;
+	text-transform: none;
+}
+#vibe_bp_login li#username+li>a{text-transform: none;}
+#vibe_bp_login ul+ul li:last-child{
+	border:none;
+}
+
+#vibe_bp_login ul+ul li i{
+	float:right;
+}
+#vibe_bp_login li#vbplogout a{font-size:11px;color:#FFF;}
+#vibe_bp_login li{
+  position: relative;
+}
+
+#vibe_bp_login a:hover{
+	color:#FFF;
+}
+
+.group-sub{
+	background:none !important;
+	padding: none !important;
+	color:#78c8c9 !important;
+	float: right;
+	clear: both;
+}
+.group-subscription-div,
+.group-subscription-status-desc,
+.group-subscription-status,
+.group-subscription-options-link{font-size:11px;}
+.group-subscription-close{
+	clear: both;
+	display: inline-block;
+	float: right;
+}
+.group-button.leave-group{
+	float:left;
+}
+/*--------------------------------------------------------------
+1.1 - Single HEADER
+--------------------------------------------------------------*/
+
+#item-header-avatar{
+	border-radius: 2px;
+	width:100%;
+	border-bottom:2px solid #78c8c9;
+}
+
+#content #buddypress{
+	margin-top:30px;
+}
+#content #buddypress.container{
+	margin-top:0;
+}
+#content #buddypress.container .content{
+	margin-top:0;
+}
+#notes-discussion-form{
+	margin-top:30px;
+}
+/*--------------------------------------------------------------
+1.1 - ITEM NAV
+--------------------------------------------------------------*/
+#item-nav{
+	clear:both;
+}
+/*--------------------------------------------------------------
+1.1 - Pagination
+--------------------------------------------------------------*/
+#buddypress div.pagination {
+	background: transparent;
+	border: none;
+	color: #444;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	float: none;
+	width: 100%;
+	padding: 15px 0;
+}
+#buddypress ul.item-list li  div.pagination{padding:0;}
+#buddypress #pag-top.pagination{
+	padding-top:0;
+}
+#buddypress #pag-bottom.pagination{
+	padding-bottom:0;
+}
+#buddypress div.pagination .pag-count {
+	float: left;
+	margin-left: 10px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #999;
+}
+#buddypress div.pagination .pagination-links {
+	float: right;
+	margin-right: 10px;
+}
+#buddypress div.pagination .pagination-links span,
+#buddypress div.pagination .pagination-links a {
+	font-size: 90%;
+	padding: 2px 8px;
+}
+#buddypress div.pagination .pagination-links a:hover {
+	font-weight: bold;
+}
+#buddypress noscript div.pagination {
+	margin-bottom: 15px;
+}
+#buddypress #nav-above {
+	display: none;
+}
+#buddypress .paged #nav-above {
+	display: block;
+}
+/*--------------------------------------------------------------
+2 - WordPress
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.1 - Images
+--------------------------------------------------------------*/
+#buddypress img.wp-smiley {
+	border: none !important;
+	clear: none !important;
+	float: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/*--------------------------------------------------------------
+3.0 - BuddyPress
+--------------------------------------------------------------*/
+#buddypress #create-group-form  div.item-list-tabs{
+	float:left;
+	margin:0 30px 0px 0;
+}
+
+.buddyleftsidebar{
+	margin:30px 0;
+}
+
+.buddyleftsidebar .widget+.widget{
+	margin-top:30px;
+}
+/*--------------------------------------------------------------
+3.1 - Activity
+--------------------------------------------------------------*/
+#buddypress #activity-stream {
+	/*overflow-y: scroll;
+	max-height: 400px;*/
+}
+
+#buddypress #activity-stream p {
+	margin: 5px 0;
+}
+
+#item-body{
+	position: relative;
+	background:#FFF;
+	padding:20px;
+	border-radius:2px;
+}
+
+#item-body .form-allowed-tags{
+	display: none;
+}
+#item-body #commentform{
+	margin:30px 0;
+}
+#item-body .members,
+#item-body .messages,
+#item-body .groups,
+#send_message_form{
+	display: inline-block;
+	width: 100%;
+}
+
+
+#buddypress .generic-button.friendship-button{margin:0;}
+
+.friendship-button.add:after{
+	content:"\e05d";
+	font-family:'fonticon';
+	font-size:7px;
+	padding:0 0 0 2px;
+}
+.friendship-button.remove:after{
+	content:"\e092";
+	font-family:'fonticon';
+	font-size:9px;
+	padding:0 0 0 2px;
+}
+/*--------------------------------------------------------------
+3.1.1 - Activity Listing
+--------------------------------------------------------------*/
+
+table.profile-settings{width:100%;}
+
+#buddypress a.bp-secondary-action,
+#buddypress span.highlight {
+	padding: 0;
+	font-size:11px ;
+	margin-right: 5px;
+	text-decoration: none;
+	color:#FFF;
+	font-weight:600;
+	text-transform: uppercase;
+}
+
+#buddypress #item-body a.bp-secondary-action,
+#buddypress #item-body span.highlight {
+	color:#bbb;
+}
+
+#buddypress span.highlight a{
+	color:#FFF;
+}
+#buddypress #item-body span.highlight a{
+	color:#78c8c9;
+}
+#item-meta .star-rating{
+	font-size:11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#buddypress div#item-header:after {
+	position: absolute;
+	bottom:0;
+	right:30px;
+	font-family: 'Fonticon';
+	content: "\e2ea";
+	color:#ccc;
+	font-size:160px;
+	z-index: -1;
+}
+.dashboard #buddypress div#item-header:after {
+	content: "\e2ea";
+}
+.credits #buddypress div#item-header:after {
+	content: "\e0f2";
+}
+.courses #buddypress div#item-header:after {
+	content: "\e2a9";
+}
+.activity #buddypress div#item-header:after {
+	content: "\e2b5";
+}
+
+.profile #buddypress div#item-header:after {
+	content: "|";
+}
+
+.notifications #buddypress div#item-header:after {
+	content: "\e005";
+}
+
+.messages #buddypress div#item-header:after {
+	content: "\e124";
+}
+
+.friends #buddypress div#item-header:after {
+	content: "\e012";
+}
+
+.groups #buddypress div#item-header:after {
+	content: "\e24c";
+}
+
+.stats #buddypress div#item-header:after {
+	content: "\e2db";
+}
+
+.forums #buddypress div#item-header:after {
+	content: "\e259";
+}
+
+.settings #buddypress div#item-header:after {
+	content: "\e05f";
+}
+*/
+
+.instructor_action_buttons{
+	display: inline-block;
+	border-top: 1px solid #EFEFEF;
+	border-left: 1px solid #EFEFEF;
+}
+.instructor_action_buttons li{
+	float:left;
+	max-width:120px;
+	text-align:center;
+	border-right: 1px solid #EFEFEF;
+	width: auto !important;
+	clear: none !important;
+	padding: 10px 15px 0 !important;;
+}
+.action_icon{
+	font-size: 64px;
+	color: #ddd;
+	position: relative;
+}
+
+.action_icon span{
+	font-size: 11px;
+	position: absolute;
+	top: -2px;
+	right: -6px;
+	padding: 2px 6px;
+	background: #78c8c9;
+	color: #FFF;
+	border-radius: 50%;
+}
+
+.members.dir-list{
+	display: inline-block;
+	padding: 20px;
+	background:#FFF;
+	width:100%;
+	border-radius:2px;
+}
+
+.activity-read-more a{
+	color:#78c8ce;
+}
+
+
+
+
+.course_reviews{
+	margin-top:30px;
+}
+.review_title,
+.course_description + .course_curriculum .course_title h2{
+	padding: 10px 0;
+	text-align: center;
+	background: #EFEFEF;
+	margin: 10px -20px;
+}
+#buddypress .review_title+div#message{margin-top:20px;}
+.review_course.unit_button.button {
+ 	word-break: break-word;
+}
+
+/*-------------------------------------------------------------------------
+3.8 - MDOULES
+-------------------------------------------------------------------------*/
+
+#add_module_form li{
+	margin:15px 0;
+}
+
+#module_structure{
+	display: block;
+	background: #f6f6f6;
+	padding: 30px;
+	border-radius: 2px;
+}
+
+#module_structure ul{
+	padding-left:30px;
+	margin-left:30px;
+	border-left:1px solid #DDD;
+}
+#module_structure ul li{position: relative;}
+#module_structure ul li:after{
+	content:'';
+}
+
+#add_module_form .form_field{
+	width:240px;
+}
+
+.bp-simple-post-form{
+	margin:30px 0;
+}
+
+
+
+

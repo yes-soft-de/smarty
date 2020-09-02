@@ -1,0 +1,88 @@
+{
+	"wp_inactive_widgets": [],
+	"student_sidebar": [
+		"wplms_dash_stats-2",
+		"wplms_dash_stats-3",
+		"wplms_dash_stats-4",
+		"wplms_dash_stats-5",
+		"wplms_student_stats-2",
+		"wplms_course_progress-2",
+		"wplms_dash_contact_users-2",
+		"wplms_line_break-2",
+		"wplms_dash_tasks-2",
+		"wplms_dash_news-2"
+	],
+	"instructor_sidebar": [
+		"wplms_instructor_dash_stats-2",
+		"wplms_instructor_dash_stats-3",
+		"wplms_instructor_dash_stats-4",
+		"wplms_instructor_dash_stats-5",
+		"wplms_instructor_dash_stats-7",
+		"wplms_instructor_dash_stats-8",
+		"wplms_instructor_dash_stats-9",
+		"wplms_instructor_commission_stats-2",
+		"wplms_instructor_stats-2",
+		"wplms_dash_contact_users-3",
+		"wplms_dash_tasks-3",
+		"wplms_line_break-3",
+		"wplms_dash_activity-2",
+		"wplms_dash_news-3",
+		"wplms_annoucement-2",
+		"wplms_dash_text-2"
+	],
+	"mainsidebar": [
+		"vibetabs-2",
+		"search-2",
+		"bp_course_stats_widget-2",
+		"tag_cloud-2",
+		"vibegallery-2"
+	],
+	"coursesidebar": [
+		"bp_instructor_widget-2",
+		"bp_course_search_widget-2",
+		"bp_course_widget-2",
+		"vibe_course_categories-2",
+		"vibeposts-2"
+	],
+	"searchsidebar": [
+		"bp_course_search_widget-3",
+		"vibe_course_categories-3",
+		"vibetestimonials-2"
+	],
+	"shopsidebar": [
+		"woocommerce_price_filter-2",
+		"woocommerce_layered_nav_filters-2",
+		"woocommerce_layered_nav-2",
+		"vibe_woocommerce_carousels-3"
+	],
+	"productsidebar": [
+		"vibe_course_categories-4",
+		"bp_course_widget-3",
+		"woocommerce_product_categories-2",
+		"woocommerce_products-2"
+	],
+	"buddypress": [
+		"bp_course_filter_widget-2",
+		"bp_course_search_widget-4",
+		"vibe_course_categories-5",
+		"bp_course_widget-4"
+	],
+	"checkout": [
+		"vibe_woocommerce_carousels-2",
+		"woocommerce_products-3"
+	],
+	"topfootersidebar": [
+		"text-2",
+		"bp_course_widget-5",
+		"bp_course_widget-6",
+		"text-3"
+	],
+	"bottomfootersidebar": [
+		"vibe_course_categories-6",
+		"vibecertificatecode-2",
+		"tag_cloud-3",
+		"bp_core_whos_online_widget-2"
+	],
+	"megamenu": [],
+	"array_version": 3
+}
