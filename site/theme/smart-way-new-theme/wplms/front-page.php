@@ -378,6 +378,41 @@
 	  wp_reset_postdata(); ?>
   <!-- Our Courses -->
 
+  <!--Testimonial-->
+  <?php
+    $args = array(
+        'post_type' => 'testimonials',
+        'posts_per_page' => -1        
+    );
+
+    $query = new WP_Query( $args );
+    if ( $query->have_posts() ): ?>
+  <article class="testimonial">
+    <div class="container">
+      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 mx-auto testimonial-carousel">
+        
+      <?php while ( $query->have_posts() ):
+                $query->the_post(); ?>
+
+        <div class="testimonial-item text-center">
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>" class="" alt="">
+          <i class="fa fa-quote-left fa-3x pink"></i>
+          <h3 class="mb-4"><?php echo get_the_content(); ?></h3>
+          <p>
+            <span class="pink m-1"><?php echo get_the_title(); ?></span>
+            <span class="m-1">Company Name</span>
+          </p>
+        </div>
+        <?php endwhile; ?>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </article>
+  <?php endif;
+	  /* Restore original Post Data */
+	  wp_reset_postdata(); ?>
+  <!--Testimonial-->
+
 
 </div>
 <!-- End Home Page -->

@@ -527,6 +527,23 @@
 .home-page article.our-courses .courses-carousel .slick-dots li.slick-active button:before {
   font-size: 13px;
 }
+.home-page article.testimonial { 
+  padding-top: 100px;
+  background: #eee;
+}
+.home-page article.testimonial .testimonial-item img {
+    display: inline-block;
+    width: 40%;
+    border-radius: 50%;
+}
+.home-page article.testimonial .testimonial-item i {
+    display: block;
+    margin-top: -20px;
+    font-size: 50px;
+}
+.home-page article.testimonial .testimonial-item {
+  outline: none;
+}
 .home-page article.live-video .intro,
 .home-page article.what-we-do .intro,
 .home-page article.believe-us .intro,

@@ -187,4 +187,15 @@ jQuery(document).ready( function($){
   });
 
 
+  // Carousel For Live Video
+  $('.testimonial-carousel').slick({
+    dots: true,
+    arrows: true,
+    autoPlay: true,
+    infinite: true,
+    speed: 300
+  });
+  
+
+
 });
