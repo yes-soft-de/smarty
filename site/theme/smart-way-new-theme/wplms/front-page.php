@@ -416,7 +416,7 @@
 
   <!--Newsletter-->
 <?php if (is_active_sidebar('newsletter-sidebar')) : ?>
-  <article class="newsletter-section py-5">
+  <article class="newsletter-section text-center py-5">
     <div class="container">
       <div class="col-xs-12 col-sm-8 col-md-6 mx-auto">
         <?php dynamic_sidebar('newsletter-sidebar'); ?>

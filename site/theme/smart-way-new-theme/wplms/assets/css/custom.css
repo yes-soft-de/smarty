@@ -198,11 +198,11 @@
   }
   .custom-main .llms-loop .meditations-topics .topic {
     padding: 10px;
-    background: rgba(51, 51, 51, 0.94);
+    background: rgb(48, 68, 78);
     border-radius: 50px;
     text-align: center;
     color: #fff;
-    min-height: 11rem;
+    min-height: 13rem;
   }
   .custom-main .llms-loop .meditations-topics .topic .topic-image {
     border-radius: 50%;
@@ -210,6 +210,7 @@
   }
   .custom-main .llms-loop .meditations-topics .topic h5 {
     margin-top: 0.5rem;
+    transform: translateY(50%);
   }
   .custom-main .llms-loop .meditations-topics .topic:hover {
     background: #5E239D;
@@ -232,7 +233,9 @@
   .custom-main .llms-loop .meditation-bottom-section p:last-of-type {
     background: #F61067;
   }
-  
+  #content .related_courses {
+    display: none;
+  }
   /*# sourceMappingURL=sunset.css.map */
   
   /*
@@ -544,6 +547,36 @@
 .home-page article.testimonial .testimonial-item {
   outline: none;
 }
+.home-page article.testimonial .slick-next:before, .slick-prev:before {
+  color: #F61067;
+  font-size: 30px;
+}
+.home-page article.newsletter-section {
+  background-color: #fff;
+}
+.home-page article.newsletter-section .widget-content form input.tnp-email {
+  border-right: none;
+  width: 70%;
+  border-top: none;
+  border-left: none;
+  background-color: #fff;
+  font-size: 17px;
+  letter-spacing: .05rem;
+}
+.home-page article.newsletter-section .widget-content form input.tnp-submit {
+  border-left: none;
+  width: 30%;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 15px;
+  border-top: none;
+  border-right: 0;
+  color: #F61067;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 1000;
+  padding-bottom: 11px;
+}
 .home-page article.live-video .intro,
 .home-page article.what-we-do .intro,
 .home-page article.believe-us .intro,
@@ -561,7 +594,8 @@
 .home-page article.believe-us h3,
 .home-page article.power-meditation h3,
 .home-page article.our-services h3,
-.home-page article.our-courses h3 {
+.home-page article.our-courses h3,
+.home-page article.newsletter-section h3 {
   letter-spacing: 0.1rem;
   font-weight: 600;
 }
@@ -2645,7 +2679,6 @@ a.text-dark:focus, a.text-dark:hover {
   }
   
   /* -- ./Home page -- */
-  
   
   
   
