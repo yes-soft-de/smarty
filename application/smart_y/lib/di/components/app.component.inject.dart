@@ -197,7 +197,10 @@ class AppComponent$Injector implements _i1.AppComponent {
   _i40.ProgramsModule _createProgramsModule() =>
       _i40.ProgramsModule(_createProgramsPage(), _createProgramDetailsPage());
   _i41.ProgramsPage _createProgramsPage() => _i41.ProgramsPage(
-      _createProgramsPageBloc(), _createAppDrawerWidget(), _createLogger());
+      _createProgramsPageBloc(),
+      _createAppDrawerWidget(),
+      _createLogger(),
+      _createSharedPreferencesHelper());
   _i42.ProgramsPageBloc _createProgramsPageBloc() =>
       _i42.ProgramsPageBloc(_createProgramsService(), _createLogger());
   _i43.ProgramsService _createProgramsService() =>

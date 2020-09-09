@@ -17,18 +17,31 @@ class _SmartyVideoPlayerState extends State<SmartyVideoPlayer> {
 
   _SmartyVideoPlayerState(this.videoUrl);
 
-  VideoPlayerController _playerController;
-
   @override
   void initState() {
     super.initState();
     flickManager = FlickManager(
+      autoInitialize: true,
+      autoPlay: false,
       videoPlayerController: VideoPlayerController.network(videoUrl),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    return FlickVideoPlayer(flickManager: flickManager);
+    return Stack(
+      children: [
+        FlickVideoPlayer(flickManager: flickManager),
+        Positioned.fill(
+            child: GestureDetector(
+              onTap: () {
+                flickManager.flickControlManager.pause();
+              },
+              child: Container(
+          color: Color(0x01FFFFFF),
+        ),
+            ))
+      ],
+    );
   }
 }

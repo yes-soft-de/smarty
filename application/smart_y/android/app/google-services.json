@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:410422243596:android:a10ab94424ce35dfa41929",
         "android_client_info": {
-          "package_name": "com.example.smarty"
+          "package_name": "de.yes-soft.smarty"
         }
       },
       "oauth_client": [

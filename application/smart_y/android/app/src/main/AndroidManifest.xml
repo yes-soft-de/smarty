@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smarty">
+    package="de.yes-soft.smarty">
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
@@ -8,7 +8,7 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="smarty"
         android:usesCleartextTraffic="true"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
 
         <service android:name="com.ryanheise.audioservice.AudioService">
             <intent-filter>

@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:inject/inject.dart';
+import 'package:smarty/persistence/shared_preferences/shared_preferences_helper.dart';
 import 'package:smarty/programs/bloc/programs_page/programs_page.bloc.dart';
 import 'package:smarty/programs/model/program/program_model.dart';
 import 'package:smarty/programs/programs_module.dart';
@@ -18,8 +19,10 @@ class ProgramsPage extends StatefulWidget {
   final ProgramsPageBloc _programsPageBloc;
   final Logger _logger;
   final AppDrawerWidget _appDrawerWidget;
+  final SharedPreferencesHelper _prefsHelper;
 
-  ProgramsPage(this._programsPageBloc, this._appDrawerWidget, this._logger);
+  ProgramsPage(this._programsPageBloc, this._appDrawerWidget, this._logger,
+      this._prefsHelper);
 
   @override
   _ProgramsPageState createState() => _ProgramsPageState();
@@ -59,7 +62,15 @@ class _ProgramsPageState extends State<ProgramsPage> {
     if (currentState == ProgramsPageBloc.STATUS_CODE_FETCHING_DATA_SUCCESS) {
       widget._logger.info(widget.tag, "Fetching data SUCCESS");
 
-      imageSliders = programs.map((item) => ProgramCardWidget(item)).toList();
+      imageSliders = programs
+          .map((item) => FutureBuilder(
+                future: widget._prefsHelper.getUserEmail(),
+                builder:
+                    (BuildContext context, AsyncSnapshot<String> snapshot) {
+                  return ProgramCardWidget(item, snapshot.data);
+                },
+              ))
+          .toList();
       return getPageLayout();
     }
 
@@ -100,9 +111,8 @@ class _ProgramsPageState extends State<ProgramsPage> {
         drawer: widget._appDrawerWidget,
         body: Container(
           color: Color(0xffF2F2F2),
-          child: Container(
-            height: MediaQuery.of(context).size.height,
-            child: ProgramSliderWidget(),
+          child: Column(
+            children: [Expanded(child: ProgramSliderWidget())],
           ),
         ));
   }
@@ -113,18 +123,8 @@ class ProgramSliderWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-          child: Column(
-        children: <Widget>[
-          CarouselSlider(
-            options: CarouselOptions(
-              height: MediaQuery.of(context).size.height * 0.80,
-              autoPlay: true,
-              aspectRatio: 2.0,
-              enlargeCenterPage: true,
-            ),
-            items: imageSliders,
-          ),
-        ],
+          child: ListView(
+        children: imageSliders,
       )),
     );
   }
@@ -132,113 +132,71 @@ class ProgramSliderWidget extends StatelessWidget {
 
 class ProgramCardWidget extends StatelessWidget {
   final ProgramModel item;
+  final String userEmail;
 
-  ProgramCardWidget(this.item);
+  ProgramCardWidget(this.item, this.userEmail);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
       child: Container(
-        margin: EdgeInsets.all(5.0),
-        child: ClipRRect(
-            borderRadius: BorderRadius.all(Radius.circular(25.0)),
-            child: Stack(
-              children: <Widget>[
-//                Image.network(item.image, fit: BoxFit.cover, width: 1000.0),
-                Positioned(
-                  left: 0.0,
-                  right: 0.0,
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.black38,
-                      image: DecorationImage(
-                        colorFilter: new ColorFilter.mode(
-                            Colors.black.withOpacity(0.2), BlendMode.dstATop),
-                        image: NetworkImage(item.image),
-                        fit: BoxFit.fitHeight,
-                      ),
-                    ),
-                    padding:
-                        EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          children: [
-                            Row(
-                              children: [
-                                Icon(Icons.person, color: Colors.white),
-                                Text(
-                                  '${(item.participant == false) ? 0 : item.participant} member',
-                                  style: TextStyle(color: Colors.white),
-                                )
-                              ],
-                            ),
-                            Text(
-                              '\$${(item.price == false) ? 0 : item.price}',
-                              style: TextStyle(color: Colors.white),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          'It will be on 12 of the month',
-                          style: TextStyle(color: Colors.white),
-                        ),
-                        Container(
-                          width: MediaQuery.of(context).size.width * 0.9,
-                          height: MediaQuery.of(context).size.height * 0.4,
-                          child: SingleChildScrollView(
-                            child: Text(
-                              item.content,
-                              style: TextStyle(color: Colors.white),
-                            ),
-                          ),
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            Container(
-                              width: MediaQuery.of(context).size.width * 0.6,
-                              child: Text(
-                                item.name,
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 15),
-                              ),
-                            ),
-                          ],
-                        ),
-                        FlatButton(
-                            onPressed: () {
-                              _showPaymentDialog(context, item.id);
-                            },
-                            color: Color(0xff5F06A6),
-                            child: Container(
-                              height: MediaQuery.of(context).size.height * 0.09,
-                              child: Row(
-                                children: [
-                                  Text('Yes i am intersted',
-                                      style: TextStyle(
-                                          fontSize: 10, color: Colors.white)),
-                                  Icon(
-                                    Icons.arrow_forward,
-                                    color: Colors.white,
-                                  ),
-                                ],
-                              ),
-                            ))
-                      ],
-                    ),
+        decoration: BoxDecoration(
+            color: Colors.black12,
+            borderRadius: BorderRadius.all(Radius.circular(8))),
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Flex(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            direction: Axis.horizontal,
+            children: <Widget>[
+              Container(
+                  width: 48,
+                  child: Image.network(item.image, fit: BoxFit.cover)),
+              Row(
+                children: [
+                  Icon(Icons.person, color: Colors.grey),
+                  Text(
+                    '${(item.participant == false) ? 0 : item.participant} member',
+                    style: TextStyle(color: Colors.black),
+                  )
+                ],
+              ),
+              Text(
+                '\$${(item.price == false) ? 0 : item.price}',
+                style: TextStyle(color: Colors.black),
+              ),
+              Text(
+                'It will be on 12 of the month',
+                style: TextStyle(color: Colors.black87),
+              ),
+              Text(
+                item.content,
+                style: TextStyle(color: Colors.black87),
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    item.name,
+                    style: TextStyle(color: Colors.black, fontSize: 15),
                   ),
-                ),
-              ],
-            )),
+                  FlatButton(
+                      onPressed: () {
+                        _showPaymentDialog(context, item.id);
+                      },
+                      color: Color(0xff5F06A6),
+                      child: Container(
+                        child: Icon(
+                          Icons.arrow_forward,
+                          color: Colors.white,
+                        ),
+                      ))
+                ],
+              )
+            ],
+          ),
+        ),
       ),
     );
   }
@@ -258,14 +216,20 @@ class ProgramCardWidget extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Image(
-                            height: 75,
-                            width: 75,
-                            image: AssetImage('assets/Rectangle16.png'),
+                          Container(
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Icon(
+                                Icons.person,
+                                color: Colors.white,
+                              ),
+                            ),
                           ),
                           Text(
-                            /* _preferencesHelper.getUserEmail().toString()*/
-                            'Test@Test.com',
+                            userEmail,
                             style: TextStyle(
                               color: Colors.white,
                             ),
@@ -273,38 +237,21 @@ class ProgramCardWidget extends StatelessWidget {
                         ],
                       ),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'The Program Coast',
+                            'Cost: ',
                             style: TextStyle(
                               color: Colors.white,
                             ),
                           ),
                           Text(
-                            '120\$',
+                            item.price.toString() + '\$',
                             style: TextStyle(
                               color: Colors.white,
                             ),
                           ),
                         ],
-                      ),
-                      Text(
-                        'Please inter your card holder name',
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      ),
-                      TextField(),
-                      Text(
-                        'Card number',
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      ),
-                      TextField(
-                        decoration: InputDecoration(
-                            border: new UnderlineInputBorder(
-                                borderSide: new BorderSide(color: Colors.red))),
                       ),
                       FlatButton(
                           onPressed: () {

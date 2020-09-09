@@ -13,8 +13,7 @@ class LessonRepository{
 
     LessonRepository(this._httpClient,this._preferencesHelper);
 
-    Future<CourseDetailsResponse> getLesson(int lessonId)async{
-//      String token = await this._preferencesHelper.getToken();
+    Future<CourseDetailsResponse> getLesson(int lessonId) async {
 
       dynamic  response = await _httpClient
           .get(ApiUrls.CourseApi+'/$lessonId', {}, { });

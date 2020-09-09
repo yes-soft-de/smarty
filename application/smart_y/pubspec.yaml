@@ -1,7 +1,7 @@
 name: smarty
 description: A new Flutter application.
 
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -95,6 +95,9 @@ dev_dependencies:
   # Generate Language Files
   lang_table: 0.2.0
 
+  # Icons Generator
+  flutter_launcher_icons: ^0.7.5
+
 
 flutter_intl:
   enabled: true
@@ -106,3 +109,8 @@ flutter:
     - assets/
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
+
+flutter_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/Logo.jpg"

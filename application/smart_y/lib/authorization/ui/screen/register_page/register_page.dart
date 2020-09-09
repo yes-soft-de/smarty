@@ -302,6 +302,7 @@ class RegisterPageState extends State<RegisterPage> {
   }
 
   _signUp() {
+    print('Signing Up!');
     RegisterRequest registerRequest = new RegisterRequest();
     registerRequest.email = _emailController.text.trim();
     registerRequest.password = _passwordController.text.trim();
