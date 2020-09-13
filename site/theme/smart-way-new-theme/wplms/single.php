@@ -5,26 +5,28 @@ if ( !defined( 'ABSPATH' ) ) exit;
 // get_header(vibe_get_header());
 get_header();
 
-if ( have_posts() ) : while ( have_posts() ) : the_post();
 
-
-$title=get_post_meta(get_the_ID(),'vibe_title',true);
+	if ( get_the_category()[0]->slug == 'articles' ) {
+	  get_template_part('single', 'articles');
+  } else {
+	  if ( have_posts() ) : while ( have_posts() ) : the_post();
+	  $title=get_post_meta(get_the_ID(),'vibe_title',true);
 
 if(!isset($title) || !$title || (vibe_validate($title))){
 
 ?>
-test
+
 <section id="title">
     <?php do_action('wplms_before_title'); ?>
     <div class="<?php echo vibe_get_container(); ?>">
         <div class="row">
             <div class="col-md-12">
                 <div class="pagetitle">
-                    <?php 
+                    <?php
                         $breadcrumbs=get_post_meta(get_the_ID(),'vibe_breadcrumbs',true);
                         if(!isset($breadcrumbs) || !$breadcrumbs || vibe_validate($breadcrumbs)){
                             vibe_breadcrumbs();
-                        }   
+                        }
                     ?>
                     <h1><?php the_title(); ?></h1>
                     <?php the_sub_title(); ?>
@@ -39,7 +41,7 @@ test
 ?>
 <section id="content">
     <div class="<?php echo vibe_get_container(); ?>">
-        
+
         <div class="row">
             <?php
                 $template = get_post_meta(get_the_ID(),'vibe_template',true);
@@ -66,10 +68,10 @@ test
                     <?php echo '<div class="indate"><i class="icon-clock"></i> ';the_modified_date();echo '</div>';the_tags('<ul><li>','</li><li>','</li></ul>'); ?>
                     <?php wp_link_pages('before=<div class="page-links"><ul>&link_before=<li>&link_after=</li>&after=</ul></div>'); ?>
                         <div class="social_sharing">
-                            <?php 
+                            <?php
                              if(function_exists('social_sharing'))
-                                echo social_sharing(); 
-                            ?>   
+                                echo social_sharing();
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -79,7 +81,7 @@ test
                     ?>
                     <div class="prev_next_links">
                         <ul class="prev_next">
-                            <?php 
+                            <?php
                             $prev_post = get_previous_post();
                             $next_post = get_next_post();
                             echo '<li>';
@@ -91,13 +93,13 @@ test
                             echo '<a href="'.get_permalink($next_post->ID).'" class="next"><strong>'.get_the_post_thumbnail($next_post->ID,'thumbnail').'<span>'.$next_post->post_title.'</span></strong></a>';
                             echo '</li>';
                             ?>
-                        </ul>    
+                        </ul>
                     </div>
                     <?php
                         }
                     ?>
                 </div>
-                
+
                 <?php
                     $author = getPostMeta($post->ID,'vibe_author',true);
                     if(vibe_validate($author)){
@@ -129,9 +131,9 @@ test
                                                 <p class="website"><?php _e('Website','vibe');?> : <a href="<?php  echo $website; ?>" target="_blank"><?php echo $website ;?></a></p>
                                                 <?php
                                                     vibe_author_social_icons($instructor_id);
-                                                ?>  
-                                            </div>     
-                                        </div>    
+                                                ?>
+                                            </div>
+                                        </div>
                                     </div>
                                     <?php
                                 }
@@ -156,21 +158,21 @@ test
                                         <?php
                                             $author_id=  get_the_author_meta('ID');
                                             vibe_author_social_icons($author_id);
-                                        ?>  
-                                    </div>     
-                                </div>    
+                                        ?>
+                                    </div>
+                                </div>
                             </div>
                             <?php
                         }
-                    } 
-                
+                    }
+
                 comments_template();
                 endwhile;
                 endif;
                 ?>
             </div>
             <?php
-             if($template != 'full'){
+             if ($template != 'full') {
             ?>
             <div class="col-md-3 col-sm-3">
                 <div class="sidebar">
@@ -187,6 +189,7 @@ test
     </div>
 </section>
 <?php
+  }
 // get_footer(vibe_get_footer());
 get_footer();
 ?>

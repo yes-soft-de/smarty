@@ -26,15 +26,29 @@
             $query->the_post(); ?>
             <div class="col-xs-12">
               <div class="row">
-              <div class="col-xs-12 col-md-8">
-                <div class="live-video-desc">
-                  <div class="row">
-                    <div class="col-xs-6 pl-5">
-                      <span class="intro text-white">join our community</span>
-                    </div>
-                    <div class="col-xs-6 text-right pr-4">
-                      <span>For 50$</span>
-                    </div>
+	              <?php
+		              // Get Live Video Price
+		              $args = array( 'post_type' => 'product' );
+		              $products = new WP_Query( $args );
+		              if ( $products->have_posts() ):
+			              while ( $products->have_posts() ) : $products->the_post();
+				              $product = wc_get_product( get_the_ID() );
+				              if ( $product->get_slug() == 'live-video' ) {
+					              $price = $product->get_price();
+				              }
+			              endwhile;
+		              endif;
+	              ?>
+                <div class="col-xs-12 col-md-8">
+                  <div class="live-video-desc">
+                    <div class="row">
+                      <div class="col-xs-6 pl-5">
+                        <span class="intro text-white">join our community</span>
+                      </div>
+                      <div class="col-xs-6 text-right pr-4">
+                        <i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
+                        <span class="live-video-price">For <?php echo $price; ?>$</span>
+                      </div>
                     <div class="clearfix"></div>
                     <div class="col-xs-12 pl-5">
                       <h3 class="h1">

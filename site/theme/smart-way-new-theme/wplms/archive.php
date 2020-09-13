@@ -43,6 +43,7 @@ get_header(vibe_get_header());
                         if($categories){
                             foreach($categories as $category) {
                                 $cats .= '<li><a href="'.get_category_link( $category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s","vibe" ), $category->name ) ) . '">'.$category->cat_name.'</a></li>';
+
                             }
                         }
                         $cats .='</ul>';
