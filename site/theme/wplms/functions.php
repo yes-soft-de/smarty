@@ -2,6 +2,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+require_once get_template_directory() . '/_inc/wp-bootstrap-navwalker.php';
+
 // Essentials
 include_once 'includes/config.php';
 include_once 'includes/init.php';
@@ -71,4 +73,20 @@ add_action( 'wp_enqueue_scripts', 'sunset_load_frontend_scripts' );
 
 
 
-
+/**
+ ** Function To Register New Sidebar
+*/
+function smart_way_side_bar() {
+    register_sidebar(array(
+        'name'          => 'Newsletter Sidebar',      // Your Optional Name Sidebar
+        'id'            => 'newsletter-sidebar',      // ID should be LOWERCASE  ! ! !
+        'description'   => 'Newsletter Sidebar Appear In FrontPage Only', // any description from your mine
+        'class'         => 'newsletter-sidebar',
+        'before_widget' => '<div class="widget-content">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>'
+    ));
+}
+// Add Our Action
+add_action('widgets_init', 'smart_way_side_bar');

@@ -5,7 +5,8 @@ if(!is_user_logged_in()){
     wp_die(__('Access restricted.','vibe'));    
 }
 
-get_header(vibe_get_header());
+// get_header(vibe_get_header());
+get_header();
 
 $user_id = get_current_user_id();
 global $wp_query;
@@ -82,5 +83,6 @@ $title = $term->name;
 </section>
 
 <?php
-get_footer(vibe_get_footer());
+get_footer();
+// get_footer(vibe_get_footer());
 ?>

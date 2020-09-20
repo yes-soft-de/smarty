@@ -2,6 +2,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 get_header(vibe_get_header());
 ?>
+
 <section id="title">
     <?php do_action('wplms_before_title'); ?>
 	<div class="<?php echo vibe_get_container(); ?>">

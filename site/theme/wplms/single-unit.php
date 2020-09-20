@@ -1,6 +1,7 @@
 <?php
 if ( !defined( 'ABSPATH' ) ) exit;
-get_header(vibe_get_header());
+// get_header(vibe_get_header());
+get_header();
 $unit_comments = vibe_get_option('unit_comments');
  
 if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -168,4 +169,5 @@ $id = get_the_ID();
     </div>
 </section>
 <?php
-get_footer(vibe_get_footer());
+// get_footer(vibe_get_footer());
+get_footer();

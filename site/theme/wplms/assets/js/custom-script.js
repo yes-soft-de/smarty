@@ -24,6 +24,9 @@ jQuery(document).ready( function($){
         ajaxUrl = that.data('url'),
         courseId = that.data('id');
 
+        // show spinner loading icon
+        $('#spinner-cover').removeClass('hide');
+
     $.ajax({
       url: ajaxUrl,
       dataType: 'html',
@@ -34,8 +37,10 @@ jQuery(document).ready( function($){
       },
       error: function ( response ) {
         console.log( 'error : ', response );
+        $('#spinner-cover').addClass('hide');
       },
       success: function ( response ) {
+        $('#spinner-cover').addClass('hide');
         llms_meditations.html('');
         $('.topic').removeClass('bg-less-dark-blue');
         that.find('.topic').addClass('bg-less-dark-blue');
@@ -82,9 +87,6 @@ jQuery(document).ready( function($){
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
 
@@ -183,6 +185,17 @@ jQuery(document).ready( function($){
       },
     ]
   });
+
+
+  // Carousel For Live Video
+  $('.testimonial-carousel').slick({
+    dots: true,
+    arrows: true,
+    autoPlay: true,
+    infinite: true,
+    speed: 300
+  });
+  
 
 
 });

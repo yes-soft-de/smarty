@@ -36,7 +36,9 @@ $course_curriculum = bp_course_get_full_course_curriculum($id);
 if(!empty($course_curriculum)){
 	$request_uri = explode('/', $_SERVER['REQUEST_URI']);
 
-	if ( in_array('pre-wellness', $request_uri, false) ):
+	if ( in_array('pre-wellness', $request_uri, false) || 
+		 in_array('pre-business', $request_uri, false) || 
+		 in_array('pre-tune', $request_uri, false) ):
 	
 		$lessonType = array( 
 			'about' 	=> '', 

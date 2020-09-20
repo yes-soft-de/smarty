@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Start Home Page -->
-<?php  echo wp_get_session_token(); ?>
+<?php  // echo wp_get_session_token(); ?>
 <div class="home-page">
   <!-- live video section -->
  <?php
@@ -17,6 +17,9 @@
 		 ),
 	 );
 	 $query = new WP_Query( $args );
+// 	echo '<pre>';
+// 	print_r($query);
+// 	echo '</pre>';
 	 if ( $query->have_posts() ): ?>
     <article class="live-video">
       <div class="container">
@@ -25,15 +28,29 @@
           <?php while ( $query->have_posts() ):
             $query->the_post(); ?>
             <div class="col-xs-12">
-              <div class="row">
+              <div class="row">		
+				  <?php 
+				      // Get Live Video Price
+					  $args = array( 'post_type' => 'product' );
+					  $products = new WP_Query( $args );
+					  if ( $products->have_posts() ):
+						  while ( $products->have_posts() ) : $products->the_post();
+							  $product = wc_get_product( get_the_ID() );
+							  if ( $product->get_slug() == 'live-video' ) {
+								  $price = $product->get_price();
+							  }
+						  endwhile;
+					  endif;
+				  ?>
               <div class="col-xs-12 col-md-8">
-                <div class="live-video-desc">
+                <div class="live-video-desc">					
                   <div class="row">
                     <div class="col-xs-6 pl-5">
                       <span class="intro text-white">join our community</span>
                     </div>
                     <div class="col-xs-6 text-right pr-4">
-                      <span>For 50$</span>
+						<i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
+                      <span class="live-video-price">For <?php echo $price; ?>$</span>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-xs-12 pl-5">
@@ -50,8 +67,11 @@
                     <div class="clearfix"></div>
                   </div><!--.row-->
                   <div class="w-75 register-button" style="width: 75%;">
+					  <a href="<?php echo get_permalink(); ?>">Take This Live Video</a>
+					  <?php //echo the_course_button(get_the_ID()); ?>
 <!--                    <a href="--><?php //echo get_site_url() . '/register' ?><!--">Register now</a>-->
-	                  <?php echo do_shortcode( '[lifterlms_access_plan_button id="51"]Register Now[/lifterlms_access_plan_button]') ;?>
+	                  <?php // echo do_shortcode( '[lifterlms_access_plan_button id="51"]Register Now[/lifterlms_access_plan_button]') ;?>
+					  
                     <span class="d-inline-block text-center"><i class="fa fa-arrow-right"></i></span>
                   </div>
                 </div>
@@ -302,7 +322,7 @@
                   <a href="<?php echo $lesson['link']; ?>">
                     <div class="row">
                       <div class="col-xs-7">
-                        <img src="<?php// echo wp_get_attachment_url( get_post_thumbnail_id($lesson->id) ); ?>" alt="">
+                        <img src="<?php echo get_the_post_thumbnail_url( $lesson['id'] ) ? get_the_post_thumbnail_url( $lesson['id'] ) : get_template_directory_uri() . '/assets/img/inner-peace-meditation.jpg'; ?>" alt="">
                         <div class="d-inline-block meditation-div-title">
                           <span class="meditation-title d-block"><?php echo $lesson['title']; ?></span>
                           <span class="meditation-shadow-title d-block"><?php echo $lesson['title']; ?></span>
@@ -319,7 +339,7 @@
 
         </div><!--.container-->
         <div class="w-50 full-sessions" style="width: 50%;">
-          <a href="<?php // echo get_term_link('meditations', 'course_cat') ?>">See full sessions</a>
+          <a href="<?php echo get_term_link('meditations', 'course-cat') ?>">See full sessions</a>
           <span class="d-inline-block text-center"><i class="fa fa-arrow-right"></i></span>
         </div>
       </article>
@@ -377,6 +397,54 @@
 	  /* Restore original Post Data */
 	  wp_reset_postdata(); ?>
   <!-- Our Courses -->
+
+  <!--Testimonial-->
+  <?php
+    $args = array(
+        'post_type' => 'testimonials',
+        'posts_per_page' => -1        
+    );
+
+    $query = new WP_Query( $args );
+    if ( $query->have_posts() ): ?>
+  <article class="testimonial">
+    <div class="container">
+      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 mx-auto testimonial-carousel">
+        
+      <?php while ( $query->have_posts() ):
+                $query->the_post(); ?>
+
+        <div class="testimonial-item text-center">
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>" class="" alt="">
+          <i class="fa fa-quote-left fa-3x pink"></i>
+          <h3 class="mb-4"><?php echo get_the_content(); ?></h3>
+          <p>
+            <span class="pink m-1"><?php echo get_the_title(); ?></span>
+            <span class="m-1">Company Name</span>
+          </p>
+        </div>
+        <?php endwhile; ?>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </article>
+  <?php endif;
+	  /* Restore original Post Data */
+	  wp_reset_postdata(); ?>
+  <!--Testimonial-->
+
+
+  <!--Newsletter-->
+<?php if (is_active_sidebar('newsletter-sidebar')) : ?>
+  <article class="newsletter-section text-center py-5">
+    <div class="container">
+      <div class="col-xs-12 col-sm-8 col-md-6 mx-auto">
+        <?php dynamic_sidebar('newsletter-sidebar'); ?>
+      </div>
+    </div>
+  </article>
+<?php endif; ?>
+  <!--Newsletter-->
 
 
 </div>

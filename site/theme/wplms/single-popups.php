@@ -1,5 +1,6 @@
 <?php
-get_header(vibe_get_header());
+// get_header(vibe_get_header());
+get_header();
 if ( have_posts() ) : while ( have_posts() ) : the_post();
 
 $class = get_post_meta(get_the_ID(),'vibe_popup_class',true);
@@ -24,5 +25,6 @@ $height = get_post_meta(get_the_ID(),'vibe_popup_height',true);
 </section>
 
 <?php
-get_footer(vibe_get_footer());
+get_footer();
+// get_footer(vibe_get_footer());
 ?>

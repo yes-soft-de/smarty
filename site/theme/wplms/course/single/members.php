@@ -17,6 +17,7 @@ $course_layout = vibe_get_customizer('course_layout');
 if(empty($course_layout)){
 ?>
 <div class="course_title">
+	
 	<h1><?php the_title(); ?></h1>
 </div>
 <?php
