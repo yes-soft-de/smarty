@@ -3,6 +3,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 require_once get_template_directory() . '/_inc/wp-bootstrap-navwalker.php';
+require get_template_directory() . '/_inc/custom-post-type.php';
 
 // Essentials
 include_once 'includes/config.php';
