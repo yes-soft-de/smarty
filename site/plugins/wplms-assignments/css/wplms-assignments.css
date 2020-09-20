@@ -1,0 +1,212 @@
+
+/*========================================================================*/
+/*   01. Assignment Submissions
+/*========================================================================*/
+#content .content ol.assignment_submissionlist {list-style: none;}
+
+.attachmentFile{
+	border: 1px solid #DDD;
+	margin-top:15px;
+	padding: 10px;
+	display: inline-block;
+	background: #FFF;
+	width:100%;
+	margin-bottom:15px;
+}
+.attachmentFile > p{margin:0 !important;}
+.assignment_submissionlist div.comment-author.vcard span{
+	font-size:11px;
+	font-weight:600;
+	text-transform: uppercase;
+}
+.assignment_details{
+	margin:30px 0;
+	padding:15px;
+	background: #FFF;
+}
+.assignment_marks{
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #EFEFEF; 
+}
+.assignment_marks h2{
+	margin:0;
+	font-size:64px;
+	font-family: sans-serif;
+	line-height: 1.2;
+}
+.assignment_marks span{
+	font-size:12px;
+	display: block;
+	text-transform: uppercase;
+	font-weight:600;
+	opacity:0.3;
+	font-family: Arial;
+
+}
+
+#clear_previous_submissions{
+	color: red;
+	cursor: pointer;
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+a.MultiFile-remove{color:red;font-size:10px;}
+
+@media (max-width: 767px) {
+	.assignment_submission{
+	float:left;
+	max-width:100%;	
+	}
+}
+/*========================================================================*/
+/*   02. Assignment Timer
+/*========================================================================*/
+.assignment_duration{
+	text-align: center;
+}
+.assignment_timer{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	margin:30px 0;
+	border-radius: 50%;
+	width: 212px;
+	height: 212px;
+}
+
+.counttime+span{
+	position: absolute;
+	top: 54px;
+	left: 0;
+	width:100%;
+	text-align: center;
+	font-size: 11px;
+	color:#bbb;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.counttime{
+	font-family: 'Oswald',sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing:2px;
+}
+
+
+.counttime+span+span{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #bbb;
+	font-weight: 700;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 52px;
+}
+/*========================================================================*/
+/*   02. EVALUATION
+/*========================================================================*/
+.download_attachment{
+	padding: 10px;
+	margin: 10px 0;
+	text-align: center;
+	background: #EFEFEF;
+}
+
+#give_assignment_marks{
+	cursor:pointer;
+}
+.assignment_students .assignment_content ul li{
+	list-style: disc outside none;
+	margin-left:15px;
+}
+.assignment_students .assignment_content ol li{
+	list-style: decimal outside none;
+	margin-left:15px;
+}
+ .assignment_students .assignment_content li{
+	padding:0;
+	border:none;
+	margin:0;
+}
+
+div.assignment_submissionlist .comments-title,
+div.assignment_submissionlist .comments_rss,
+div.assignment_submissionlist .comment-reply-link,
+div.assignment_submissionlist #respond{
+	display: none;
+}
+
+
+.assignment_heading span{
+	float:right;
+	font-size:12px;
+	color:#BBB;
+	margin-left:10px;
+}
+.assignment_heading.heading a i{margin-left:15px;font-size:12px;}
+.assignment_heading.heading a{float:none;font-size:16px;font-weight:600;} 
+/*========================================================================*/
+/*   02. Plupload
+/*========================================================================*/
+
+.delete_attachment:after{content: "\f158";font: 400 20px/1 dashicons;speak: none;vertical-align: middle;color:red;cursor:pointer;}
+.delete_attachment{float:right;}
+.delete_attachment{margin-left:8px !important;margin-left:8px !important;}
+#plupload-upload-ui.drag-drop #drag-drop-area {
+    border: 4px dashed #b4b9be !important;
+    height: 200px;
+}
+.drag-drop .drag-drop-inside {
+    text-align:center;
+    margin: 70px auto 0;
+    width: 250px;
+}
+div.plupload_error_notices{
+    display: none;
+    margin:10px 2px ;
+    padding:5px;
+}
+.error{
+    color:red !important;
+}
+.warning_plupload{display:none;}
+.warning_plupload {
+    text-align: center;
+    background: rgba(0,0,0, 0.45);
+    padding: 1px 10px 10px 10px;
+    vertical-align: middle;
+    width:85%;
+    margin : 10px auto;
+    border-radius:5px;
+}
+.warning_plupload h3{
+    color: #FFF;
+}
+.pl_assignment_progress{display:none;}
+div.pl_assignment_progress.visible{display:block;}
+div.pl_assignment_progress > div{
+    text-align: right;
+    padding: 10px;
+}div.pl_assignment_progress > div > i{
+    padding: 15px;
+    color: green;
+}
+
+div.pl_assignment_progress strong{width:240px;background:#fff;height:10px;border-radius:10px;display:block;float:right;clear:both;border: 1px solid green;}
+div.pl_assignment_progress span{
+    display: block;
+    width:0%;border-radius:10px;
+    background: green;
+    height:10px;
+}
+

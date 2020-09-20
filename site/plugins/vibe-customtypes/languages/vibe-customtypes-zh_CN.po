@@ -1,0 +1,6911 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Custom Types\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-09 17:11+0530\n"
+"PO-Revision-Date: 2017-08-09 17:11+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "请输入您的 Envato Marketplace 用户名。"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "请输入您的 Envato Marketplace API Key。"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" 为必填参数。"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"item ID\" 为必填参数。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "API 请求期间出现预料之外的 HTTP 错误。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "再试一次"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "出现未知错误"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr "插件已更新，但未被激活。请手动激活。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "插件已成功激活。"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "更新插件"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "用户名："
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "邮件："
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Key："
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>您的插件更新已<span style=\"color:green\">激活</span></p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>您的输入<span style=\"color:red\">无效</span>，自动更新<span style="
+"\"color:red\">无法激活</span>。</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "编辑 Key"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>激活更新无法被验证。</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "添加 Key"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "用户名"
+
+# @ text-domain
+# @ vibe-customtypes
+#: autoupdate/class-plugin-update.php:638 includes/musettings.php:1404
+#: includes/musettings.php:1421 includes/musettings.php:1441
+#: includes/musettings.php:1458 metaboxes/meta_box.php:825
+msgid "Email"
+msgstr "邮件"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest 用户名 (用于自动更新)"
+
+#: custom-post-types.php:17
+msgid "Learning Management System"
+msgstr "学习管理系统"
+
+#: custom-post-types.php:18 includes/permalinks.php:203
+msgid "Statistics"
+msgstr "统计数据"
+
+# @ vibe-customtypes
+#: custom-post-types.php:19 custom_meta_boxes.php:1324
+#: includes/loggedin_menu.php:360 metaboxes/library/vibe-editor.php:2780
+#: metaboxes/library/vibe-editor.php:2802
+msgid "Settings"
+msgstr "设置"
+
+#: custom-post-types.php:20
+msgid "Lms Tree"
+msgstr "LMS树"
+
+#: custom-post-types.php:21
+msgid "Add Ons"
+msgstr ""
+
+#: custom-post-types.php:55
+msgctxt "Testimonial slug in permalink"
+msgid "testimonial"
+msgstr ""
+
+#: custom-post-types.php:67
+msgctxt "News slug in permalink"
+msgid "news"
+msgstr ""
+
+#: custom-post-types.php:85
+msgid "Course Category"
+msgstr "课程分类"
+
+#: custom-post-types.php:86 custom-post-types.php:87
+msgid "Category"
+msgstr "分类"
+
+#: custom-post-types.php:88
+msgid "Add New Course Category"
+msgstr "添加新的课程分类"
+
+#: custom-post-types.php:89
+msgid "All Categories"
+msgstr "全部分类"
+
+#: custom-post-types.php:108 custom-post-types.php:109
+#: includes/loggedin_menu.php:329
+msgid "Courses"
+msgstr "课程"
+
+# @ vibe-customtypes
+#: custom-post-types.php:110 custom_meta_boxes.php:886
+#: includes/class.export.php:14 includes/permalinks.php:100
+#: includes/statistics.php:19 includes/statistics.php:758
+msgid "Course"
+msgstr "课程"
+
+#: custom-post-types.php:111
+msgid "Add New Course"
+msgstr "添加新的课程"
+
+#: custom-post-types.php:112
+msgid "All Courses"
+msgstr "全部课程"
+
+#: custom-post-types.php:132 custom-post-types.php:133
+msgid "Units"
+msgstr "单元"
+
+#: custom-post-types.php:134 includes/class.export.php:15
+#: includes/permalinks.php:136
+msgid "Unit"
+msgstr "单元"
+
+#: custom-post-types.php:135
+msgid "Add New Unit"
+msgstr "增加新单元"
+
+#: custom-post-types.php:136
+msgid "All Units"
+msgstr "全部单元"
+
+#: custom-post-types.php:155 custom-post-types.php:156
+#: custom-post-types.php:157 custom-post-types.php:239
+#: custom-post-types.php:240
+msgid "Tag"
+msgstr "标签"
+
+#: custom-post-types.php:158 custom-post-types.php:241
+#: custom-post-types.php:384
+msgid "Add New Tag"
+msgstr "增加新标签"
+
+#: custom-post-types.php:159 custom-post-types.php:242
+msgid "All Tags"
+msgstr "全部标签"
+
+#: custom-post-types.php:174 custom-post-types.php:175
+msgid "Quizes"
+msgstr "测试"
+
+#: custom-post-types.php:176 includes/class.export.php:16
+#: includes/permalinks.php:120
+msgid "Quiz"
+msgstr "测试"
+
+#: custom-post-types.php:177
+msgid "All Quizes"
+msgstr "全部测试"
+
+#: custom-post-types.php:196 custom-post-types.php:197
+#: custom-post-types.php:198
+msgid "Quiz type"
+msgstr "测试类型"
+
+#: custom-post-types.php:199
+msgid "Add New Quiz type"
+msgstr "添加新测试类型"
+
+#: custom-post-types.php:200
+msgid "All Quiz types"
+msgstr "全部测试类型"
+
+#: custom-post-types.php:216 custom-post-types.php:217
+msgid "Question Bank"
+msgstr "题库"
+
+#: custom-post-types.php:218 includes/class.export.php:17
+msgid "Question"
+msgstr "问题"
+
+#: custom-post-types.php:219
+msgid "All Questions"
+msgstr "全部问题"
+
+#: custom-post-types.php:238
+msgid "Question Tag"
+msgstr "问题标签"
+
+#: custom-post-types.php:262 custom-post-types.php:263
+msgid "Events"
+msgstr "事件"
+
+#: custom-post-types.php:264
+msgid "Event"
+msgstr "事件"
+
+#: custom-post-types.php:265
+msgid "Add New Events"
+msgstr "添加新事件"
+
+#: custom-post-types.php:266
+msgid "All Events"
+msgstr "全部事件"
+
+#: custom-post-types.php:285 custom-post-types.php:286
+#: custom-post-types.php:287
+msgid "Event type"
+msgstr "事件类型"
+
+#: custom-post-types.php:288
+msgid "Add New Event type"
+msgstr "添加新事件类型"
+
+#: custom-post-types.php:289
+msgid "All Event types"
+msgstr "全部事件类型"
+
+#: custom-post-types.php:310 custom-post-types.php:311
+msgid "Assignments"
+msgstr "作业"
+
+#: custom-post-types.php:312 includes/class.export.php:18
+#: includes/musettings.php:2836
+msgid "Assignment"
+msgstr "作业"
+
+#: custom-post-types.php:313
+msgid "Add New Assignment"
+msgstr "添加新作业"
+
+#: custom-post-types.php:314
+msgid "All Assignments"
+msgstr "全部作业"
+
+#: custom-post-types.php:334 custom-post-types.php:335
+#: custom-post-types.php:336
+msgid "Assignment type"
+msgstr "作业类型"
+
+#: custom-post-types.php:337
+msgid "Add New Assignment type"
+msgstr "添加新作业类型"
+
+#: custom-post-types.php:338
+msgid "All Assignment types"
+msgstr "全部作业类型"
+
+#: custom-post-types.php:357 custom-post-types.php:358
+#: custom-post-types.php:361 metaboxes/library/vibe-editor.php:1476
+msgid "Course News"
+msgstr ""
+
+#: custom-post-types.php:359 includes/musettings.php:1798
+#: includes/permalinks.php:154 includes/permalinks.php:212
+msgid "News"
+msgstr "最新消息"
+
+#: custom-post-types.php:360
+msgid "Add News"
+msgstr ""
+
+#: custom-post-types.php:381 custom-post-types.php:382
+#: custom-post-types.php:383
+msgid "News Tag"
+msgstr ""
+
+#: custom-post-types.php:385
+msgid "All News Tags"
+msgstr ""
+
+#: custom-post-types.php:401 custom-post-types.php:402
+msgid "Payments"
+msgstr "订单"
+
+#: custom-post-types.php:403
+msgid "Payment"
+msgstr "订单"
+
+#: custom-post-types.php:404
+msgid "Add New Payment"
+msgstr "添加新的订单"
+
+#: custom-post-types.php:405
+msgid "Payouts"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom-post-types.php:424 custom-post-types.php:426
+#: custom_meta_boxes.php:348
+msgid "Certificate Template"
+msgstr "证书模板"
+
+#: custom-post-types.php:425
+msgid "Certificates Template"
+msgstr "证书模板"
+
+#: custom-post-types.php:427
+msgid "Add New Certificate"
+msgstr "添加新证书"
+
+#: custom-post-types.php:428
+msgid "Certificate Templates"
+msgstr "证书模板"
+
+#: custom-post-types.php:448 custom-post-types.php:449
+#: custom-post-types.php:450
+msgid "Linkage"
+msgstr "链接"
+
+#: custom-post-types.php:451
+msgid "Add New Link"
+msgstr "添加新链接"
+
+#: custom-post-types.php:452
+msgid "All Links"
+msgstr "全部链接"
+
+#: custom-post-types.php:470 custom-post-types.php:471
+#: custom-post-types.php:472
+msgid "Level"
+msgstr "级别"
+
+#: custom-post-types.php:473
+msgid "Add New Level"
+msgstr "添加新级别"
+
+#: custom-post-types.php:474
+msgid "All Levels"
+msgstr "全部级别"
+
+# @ vibe-customtypes
+#: custom-post-types.php:493 custom-post-types.php:494
+#: custom-post-types.php:495 custom_meta_boxes.php:949
+msgid "Location"
+msgstr "地点"
+
+#: custom-post-types.php:496
+msgid "Add New Location"
+msgstr "添加新地点"
+
+# @ vibe-customtypes
+#: custom-post-types.php:497
+msgid "All Locations"
+msgstr "全部地点"
+
+#: custom-post-types.php:519 custom-post-types.php:520
+msgid "Testimonials"
+msgstr "表扬信"
+
+#: custom-post-types.php:521
+msgid "Testimonial"
+msgstr "表扬信"
+
+#: custom-post-types.php:522
+msgid "All Testimonials"
+msgstr "全部表扬信"
+
+#: custom-post-types.php:544 custom-post-types.php:545
+msgid "Popups"
+msgstr "弹出窗口"
+
+#: custom-post-types.php:546
+msgid "Popup"
+msgstr "弹出窗口"
+
+#: custom-post-types.php:547
+msgid "All Popups"
+msgstr "全部弹出窗口"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:31 custom_meta_boxes.php:823
+msgid "Post Sub-Title"
+msgstr "文章副标题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:32 custom_meta_boxes.php:824
+msgid "Post Sub- Title."
+msgstr "文章副标题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:39
+msgid "Post Template"
+msgstr "文章模板"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:40
+msgid "Select a post template for showing content."
+msgstr "为文章内容选择模板样式。"
+
+#: custom_meta_boxes.php:44
+msgid "Content on Left"
+msgstr "内容显示在左侧"
+
+#: custom_meta_boxes.php:45
+msgid "Content on Right"
+msgstr "内容显示在右侧"
+
+#: custom_meta_boxes.php:46
+msgid "Full Width"
+msgstr "全宽度"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:51 custom_meta_boxes.php:152 custom_meta_boxes.php:163
+#: custom_meta_boxes.php:1096 metaboxes/library/vibe-editor.php:2458
+msgid "Sidebar"
+msgstr "侧边栏"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:52 custom_meta_boxes.php:164
+#: custom_meta_boxes.php:1097
+msgid "Select a Sidebar | Default : mainsidebar"
+msgstr "选择侧边栏 | 默认：MainSidebar"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:58 custom_meta_boxes.php:116
+msgid "Show Page Title"
+msgstr "显示页面标题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:59 custom_meta_boxes.php:117
+msgid "Show Page/Post Title."
+msgstr "显示页面/文章标题。"
+
+#: custom_meta_boxes.php:64 custom_meta_boxes.php:77 custom_meta_boxes.php:91
+#: custom_meta_boxes.php:104 custom_meta_boxes.php:122
+#: custom_meta_boxes.php:145 custom_meta_boxes.php:198
+#: custom_meta_boxes.php:211 custom_meta_boxes.php:224
+#: custom_meta_boxes.php:238 custom_meta_boxes.php:252
+#: custom_meta_boxes.php:266 custom_meta_boxes.php:280
+#: custom_meta_boxes.php:294 custom_meta_boxes.php:340
+#: custom_meta_boxes.php:368 custom_meta_boxes.php:381
+#: custom_meta_boxes.php:394 custom_meta_boxes.php:407
+#: custom_meta_boxes.php:488 custom_meta_boxes.php:502
+#: custom_meta_boxes.php:573 custom_meta_boxes.php:705
+#: custom_meta_boxes.php:732 custom_meta_boxes.php:745
+#: custom_meta_boxes.php:780 custom_meta_boxes.php:855
+#: custom_meta_boxes.php:942 custom_meta_boxes.php:973
+#: custom_meta_boxes.php:986 custom_meta_boxes.php:1044
+#: custom_meta_boxes.php:1130
+msgid "Hide"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:66 custom_meta_boxes.php:79 custom_meta_boxes.php:93
+#: custom_meta_boxes.php:106 custom_meta_boxes.php:124
+#: custom_meta_boxes.php:147 custom_meta_boxes.php:200
+#: custom_meta_boxes.php:213 custom_meta_boxes.php:226
+#: custom_meta_boxes.php:240 custom_meta_boxes.php:254
+#: custom_meta_boxes.php:268 custom_meta_boxes.php:282
+#: custom_meta_boxes.php:296 custom_meta_boxes.php:342
+#: custom_meta_boxes.php:370 custom_meta_boxes.php:383
+#: custom_meta_boxes.php:396 custom_meta_boxes.php:409
+#: custom_meta_boxes.php:490 custom_meta_boxes.php:504
+#: custom_meta_boxes.php:575 custom_meta_boxes.php:707
+#: custom_meta_boxes.php:734 custom_meta_boxes.php:747
+#: custom_meta_boxes.php:782 custom_meta_boxes.php:857
+#: custom_meta_boxes.php:944 custom_meta_boxes.php:975
+#: custom_meta_boxes.php:988 custom_meta_boxes.php:1046
+#: custom_meta_boxes.php:1132
+msgid "Show"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:71
+msgid "Show Author Information"
+msgstr "显示作者信息"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:72
+msgid "Author information below post content."
+msgstr "作者信息在文章下方显示。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:85 custom_meta_boxes.php:139
+msgid "Show Breadcrumbs"
+msgstr "显示导航"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:86 custom_meta_boxes.php:140
+msgid "Show breadcrumbs."
+msgstr "显示导航。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:98
+msgid "Show Prev/Next Arrows"
+msgstr "显示上一个/下一个箭头"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:99
+msgid "Show previous/next links on top below the Subheader."
+msgstr "在 Subheader 正下方显示上一个/下一个链接"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:131
+msgid "Page Sub-Title"
+msgstr "页面副标题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:132
+msgid "Page Sub- Title."
+msgstr "页面副标题。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:153
+msgid "Select Sidebar | Sidebar : mainsidebar"
+msgstr "选择侧边栏 | 默认：MainSidebar"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:171
+msgid "Total Duration of Course"
+msgstr "课程总持续时间"
+
+#: custom_meta_boxes.php:172
+#, php-format
+msgid "Duration of Course (in %s)"
+msgstr "课程持续时间 (单位是 %s)"
+
+#: custom_meta_boxes.php:178
+msgid "Course Duration parameter"
+msgstr ""
+
+#: custom_meta_boxes.php:179 custom_meta_boxes.php:421
+#: custom_meta_boxes.php:693 custom_meta_boxes.php:869
+#: custom_meta_boxes.php:1118
+msgid "Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:185
+msgid "Total number of Students in Course"
+msgstr "课程的学生总数"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:186
+msgid "Total number of Students who have taken this Course."
+msgstr "选过这门课的学生总数。"
+
+#: custom_meta_boxes.php:192
+msgid "Unit Completion Lock"
+msgstr ""
+
+#: custom_meta_boxes.php:193
+msgid "Previous Units/Quiz must be Complete before next unit/quiz access"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:205
+msgid "Offline Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:206
+msgid "Make this an Offline Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:218
+msgid "Show Unit content in Curriculum"
+msgstr ""
+
+#: custom_meta_boxes.php:219
+msgid ""
+"Display units content in Course Curriculum, unit content visible in "
+"curriculum. ( Recommended for Offline Courses )"
+msgstr ""
+
+# @ vibe
+#: custom_meta_boxes.php:232
+msgid "Hide Course Button after subscription"
+msgstr ""
+
+#: custom_meta_boxes.php:233
+msgid ""
+"Hide Start Course/Continue Course button after Course is subscribed by user. "
+"( Recommended for Offline Courses )"
+msgstr ""
+
+#: custom_meta_boxes.php:246
+msgid "Display Course Progress on Course home"
+msgstr ""
+
+#: custom_meta_boxes.php:247
+msgid ""
+"Display User Course progress on Course page. ( Recommended for Offline "
+"Courses )"
+msgstr ""
+
+#: custom_meta_boxes.php:260
+msgid "Time based Course Progress "
+msgstr ""
+
+#: custom_meta_boxes.php:261
+msgid ""
+"Automatically generate course progress based on duration (number of months/"
+"weeks/days/hours) passed in course.( Recommended for Offline Courses )"
+msgstr ""
+
+#: custom_meta_boxes.php:274
+msgid "Post Course Reviews from Course Home"
+msgstr ""
+
+#: custom_meta_boxes.php:275
+msgid ""
+"Allow subscribed users to post Course reviews from Course home page. "
+"( Recommended for Offline Courses )"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:288
+msgid "Auto Evaluation"
+msgstr "自动评估"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:289
+msgid ""
+"Evalute Courses based on Quizzes scores available in Course (* Requires at "
+"least 1 Quiz in course)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:301
+msgid "Course Start Date"
+msgstr "课程开始时间"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:302
+msgid "Date from which Course Begins"
+msgstr "课程开始的日期"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:307
+msgid "Maximum Students in Course"
+msgstr "课程最大学生数"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:308
+msgid "Maximum number of students who can pursue the course at a time."
+msgstr "最多同时进行课程的的学生数目。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:313
+msgid "Excellence Badge"
+msgstr "优秀徽章"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:314
+msgid "Upload badge image which Students receive upon course completion"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:320
+msgid "Badge Percentage"
+msgstr "徽章比例"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:321
+msgid "Badge is given to people passing above percentage (out of 100)"
+msgstr "徽章给予超过该比例的人 (百分比)"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:327
+msgid "Badge Title"
+msgstr "徽章名称"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:328
+msgid "Title is shown on hovering the badge."
+msgstr "悬停在徽章上时显示名称。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:334
+msgid "Completion Certificate"
+msgstr "毕业证书"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:335
+msgid ""
+"Enable Certificate image which Students receive upon course completion (out "
+"of 100)"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:349
+msgid "Select a Certificate Template"
+msgstr "选择一个证书模板"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:356
+msgid "Passing Percentage"
+msgstr "通过率"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:357
+msgid "Course passing percentage, for completion certificate"
+msgstr "课程通过率，用于毕业证书"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:362
+msgid "Drip Feed"
+msgstr "滴注"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:363
+msgid "Enable Drip Feed course"
+msgstr "启用滴注课程"
+
+#: custom_meta_boxes.php:375
+msgid "Course Starting Time as Drip Feed Origin"
+msgstr ""
+
+#: custom_meta_boxes.php:376
+#, php-format
+msgid ""
+"Drip feed time calculation from Course starting date/time vs previous unit "
+"access date/time (default), %s tutorial %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:388
+msgid "Section Drip Feed"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:389
+msgid "Enable Section Drip Feed (default ) course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:401
+msgid "Drip Duration as Unit Duration"
+msgstr ""
+
+#: custom_meta_boxes.php:402
+msgid ""
+"Assume Drip duration same as Unit Duration. Duration between consecutive "
+"units."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:414
+msgid "Drip Feed Duration (Static)"
+msgstr ""
+
+#: custom_meta_boxes.php:415
+msgid ""
+"Static duration, if Drip duration not equals Unit duration. This is the "
+"duration between consecutive Drip feed units (in "
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:420
+msgid "Drip Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:427
+msgid "Course Curriculum"
+msgstr "课程体系"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:428
+msgid ""
+"Set Course Curriculum, prepare units and quizzes before setting up curriculum"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:435
+msgid "Prerequisite Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:436
+msgid "Prerequisite courses for this course"
+msgstr ""
+
+#: custom_meta_boxes.php:442
+msgid "Course Retakes"
+msgstr "重新学习课程"
+
+#: custom_meta_boxes.php:443
+msgid "Set number of times a student can re-take the course (0 to disable)"
+msgstr "设置学生可以重新学习课程的次数 (0 表示禁用)"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:449
+msgid "Course Forum"
+msgstr "课程论坛"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:450
+msgid "Connect Forum with Course."
+msgstr "将论坛关联到课程。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:457
+msgid "Course Group"
+msgstr "课程群组"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:458
+msgid "Connect a Group with Course."
+msgstr "将一个群组关联到课程。"
+
+#: custom_meta_boxes.php:463
+msgid "Course specific instructions"
+msgstr "课程专属说明"
+
+#: custom_meta_boxes.php:464
+msgid ""
+"Course specific instructions which would be shown in the Start course/Course "
+"status page"
+msgstr "课程专属说明会在开始课程/课程状态页面显示"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:470
+msgid "Course Completion Message"
+msgstr "课程完成信息"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:471
+msgid "This message is shown to users when they Finish submit the course"
+msgstr "这个信息在用户提交课程后显示"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:474
+msgid "This message is shown to the user when she finishes the course."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:482
+msgid "Free Course"
+msgstr "免费课程"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:483
+msgid "Set Course free for all Members"
+msgstr ""
+
+#: custom_meta_boxes.php:495
+msgid "Apply for Course"
+msgstr ""
+
+# @ vibe
+#: custom_meta_boxes.php:496
+msgid "Invite Student applications for Course"
+msgstr ""
+
+#: custom_meta_boxes.php:497
+msgid ""
+"Students are required to Apply for course and instructor would manually "
+"approve them to course. Do not enable \"Free\" course with this setting."
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:518
+msgid "PMPro Membership"
+msgstr "PMPro 成员资格"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:519
+msgid "Required Membership level for this course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:533
+msgid "Associated Product"
+msgstr "关联的商品"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:534
+msgid "Associated Product with the Course."
+msgstr "和课程关联的商品。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:545
+msgid "Video"
+msgstr "视频"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:546
+msgid "Audio"
+msgstr "音频"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:547
+msgid "Podcast"
+msgstr "博客"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:548 includes/musettings.php:94
+msgid "General"
+msgstr "常规"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:552
+msgid "Unit Description"
+msgstr "单元描述"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:553
+msgid "Small Description."
+msgstr "简短描述。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:559
+msgid "Unit Type"
+msgstr "单元类型"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:560
+msgid "Select Unit type from Video , Audio , Podcast, General , "
+msgstr "从视频、音频、播客和常规中选择单元类型"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:567
+msgid "Free Unit"
+msgstr "免费单元"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:568
+msgid "Set Free unit, viewable to all"
+msgstr "设置免费单元，所有人均可查看"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:580
+msgid "Unit Duration"
+msgstr "单元持续时间"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:581
+msgid "Duration in "
+msgstr "时间单位"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:586 custom_meta_boxes.php:587
+msgid "Unit Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:593
+msgid "Unit Forum"
+msgstr "单元论坛"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:594
+msgid "Connect Forum with Unit."
+msgstr "关联论坛到单元。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:601
+msgid "Connect Assignments"
+msgstr "关联作业"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:602
+msgid "Select an Assignment which you can connect with this Unit"
+msgstr "选择您可以关联到此单元的作业"
+
+#: custom_meta_boxes.php:608
+msgid "Attachments"
+msgstr ""
+
+#: custom_meta_boxes.php:609
+msgid "Display these attachments below units to be downloaded by students"
+msgstr ""
+
+#: custom_meta_boxes.php:618
+msgid "True or False"
+msgstr "是非"
+
+#: custom_meta_boxes.php:619
+msgid "Multiple Choice"
+msgstr "单选题"
+
+#: custom_meta_boxes.php:620
+msgid "Multiple Correct"
+msgstr "多选题"
+
+#: custom_meta_boxes.php:621
+msgid "Sort Answers"
+msgstr "排序题"
+
+#: custom_meta_boxes.php:622
+msgid "Match Answers"
+msgstr "匹配题"
+
+#: custom_meta_boxes.php:623
+msgid "Fill in the Blank"
+msgstr "填空题"
+
+#: custom_meta_boxes.php:624
+msgid "Dropdown Select"
+msgstr "下拉选择题"
+
+#: custom_meta_boxes.php:625
+msgid "Small Text"
+msgstr "短文本作答"
+
+#: custom_meta_boxes.php:626
+msgid "Large Text"
+msgstr "长文本作答"
+
+#: custom_meta_boxes.php:627
+msgid "Survey type"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:631
+msgid "Question Type"
+msgstr "问题类型"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:632
+msgid "Select Question type, "
+msgstr "选择问题类型"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:639
+msgid "Question Options (For Single/Multiple/Sort/Match Question types)"
+msgstr "问题选项 (用于单选/多选/排序/匹配问题类型)"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:640
+msgid "Single/Mutiple Choice question options"
+msgstr "单选/多选题问题选项"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:645
+msgid "Correct Answer"
+msgstr "正确答案"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:646
+msgid ""
+"Enter (1 = True, 0 = false ) or Choice Number (1,2..) or comma saperated "
+"Choice numbers (1,2..) or Correct Answer for small text (All possible "
+"answers comma saperated) | 0 for No Answer or Manual Check"
+msgstr ""
+"输入 (1=是，0=否)，或者选择数字 (1,2,...)，或逗号分隔的数字 (1,2...)，或短文"
+"本的正确答案 (用逗号分隔所有可能答案)，0 表示无答案或者人工检查"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:652
+msgid "Answer Hint"
+msgstr "答案提示"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:653
+msgid "Add a Hint/clue for the answer to show to student"
+msgstr "添加显示给学生的答案提示/线索"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:659
+msgid "Answer Explanation"
+msgstr "答案解析"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:660
+msgid "Add Answer explanation"
+msgstr "添加答案解析"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:670
+msgid "Quiz Subtitle"
+msgstr "测试副标题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:671
+msgid "Quiz Subtitle."
+msgstr "测试副标题。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:677 custom_meta_boxes.php:1292
+msgid "Connected Course"
+msgstr "关联的课程"
+
+#: custom_meta_boxes.php:682
+msgid ""
+"Connecting a quiz with a course would force the quiz to be available to "
+"users who have taken the course."
+msgstr "将测试关联到课程会强制测试仅对选课的用户可见。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:685
+msgid "Quiz Duration"
+msgstr "测试持续时间"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:686
+msgid "Quiz duration in "
+msgstr "测试时间单位"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:686
+msgid " Enables Timer & auto submits on expire. 9999 to disable."
+msgstr "启用计时 & 过期自动提交。9999 表示禁用。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:692
+msgid "Quiz Duration parameter"
+msgstr ""
+
+#: custom_meta_boxes.php:699
+msgid "Auto Evaluate Results"
+msgstr "自动评估结果"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:700
+msgid ""
+"Evaluate results as soon as quiz is complete. (* No Large text questions ), "
+"Diable for manual evaluate"
+msgstr "测试完成后立刻评估结果 (* 无长文本作答问题)，禁用以便人工评估"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:712
+msgid "Number of Extra Quiz Retakes"
+msgstr "额外的重新测试次数"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:713
+msgid ""
+"Student can reset and start the quiz all over again. Number of Extra retakes "
+"a student can take."
+msgstr "学生可以重置并重新开始测试。学生可以额外重新开始的次数。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:719
+msgid "Post Quiz Message"
+msgstr "发布测试消息"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:720
+msgid "This message is shown to users when they submit the quiz"
+msgstr "这个消息在用户提交测试时显示"
+
+#: custom_meta_boxes.php:726
+msgid "Add Check Answer Switch"
+msgstr ""
+
+#: custom_meta_boxes.php:727
+msgid "Instantly check answer answer when question is marked"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:739
+msgid "Dynamic Quiz"
+msgstr "动态测试"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:740
+msgid "Dynamic quiz automatically selects questions."
+msgstr "动态测试会自动选择问题。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:752
+msgid "Dynamic Quiz Question tags"
+msgstr "动态测试的问题标签"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:753
+msgid ""
+"Select Question tags from where questions will be selected for the quiz."
+"(required if dynamic enabled)"
+msgstr "选择测试要选用的问题的标签 (动态测试已启用则必选)。"
+
+#: custom_meta_boxes.php:774
+msgid "Randomize Quiz Questions"
+msgstr "随机排列测试问题"
+
+#: custom_meta_boxes.php:775
+msgid "Random Question sequence for every quiz"
+msgstr "每个测试的问题顺序随机"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:787
+msgid "Quiz Questions"
+msgstr "测试的问题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:788
+msgid "Quiz questions for Static Quiz only"
+msgstr "仅用于静态测试的问题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:800 includes/class.export.php:370
+msgid "Author Name"
+msgstr "作者姓名"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:801
+msgid "Enter the name of the testimonial author."
+msgstr "输入表扬信的作者姓名。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:806
+msgid "Designation"
+msgstr "称呼"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:807
+msgid "Enter the testimonial author's designation."
+msgstr "输入表扬信作者的称呼。"
+
+#: custom_meta_boxes.php:816
+msgid "Share with students in Course"
+msgstr ""
+
+#: custom_meta_boxes.php:817
+msgid "Student having access to this courses will get the news"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:842
+msgid "Associated Courses"
+msgstr "关联的课程"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:843
+msgid "Associated Courses with this product. Enables access to the course."
+msgstr "与商品关联的课程。激活对课程的访问权。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:849
+msgid "Subscription "
+msgstr "订阅"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:850
+msgid "Enable if Product is Subscription Type (Price per month)"
+msgstr "如果商品是订阅类型 (每月价格) 则启用"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:862
+msgid "Subscription Duration"
+msgstr "订阅持续时间"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:863
+msgid "Duration for Subscription Products (in "
+msgstr "订阅商品的持续时间 (单位"
+
+#: custom_meta_boxes.php:868
+msgid "Product Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:879
+msgid "Event Sub-Title"
+msgstr "事件副标题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:880
+msgid "Event Sub-Title."
+msgstr "事件副标题。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:887
+msgid "Select Course for which the event is valid"
+msgstr "选择事件为有效的课程"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:893
+msgid "Connect an Assignment"
+msgstr "关联一个作业"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:894
+msgid "Select an Assignment which you can connect with this Event"
+msgstr "选择一个可以和此事件关联的作业"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:900
+msgid "Event Icon"
+msgstr "事件图标"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:901
+msgid "Click on icon to  select an icon for the event"
+msgstr "点击图标为事件选择一个图标"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:906
+msgid "Event Color"
+msgstr "事件颜色"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:907
+msgid "Select color for Event"
+msgstr "为事件选择颜色"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:912
+msgid "Start Date"
+msgstr "开始日期"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:913 custom_meta_boxes.php:925
+msgid "Date from which Event Begins"
+msgstr "事件开始的日期"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:918
+msgid "End Date"
+msgstr "结束日期"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:919 custom_meta_boxes.php:931
+msgid "Date on which Event ends."
+msgstr "事件结束的日期"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:924
+msgid "Start Time"
+msgstr "开始时间"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:930
+msgid "End Time"
+msgstr "结束时间"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:936
+msgid "Show Location"
+msgstr "显示地点"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:937
+msgid "Show Location and Google map with the event"
+msgstr "显示事件的地点和 Google 地图"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:950
+msgid "Location of event"
+msgstr "事件地点"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:955
+msgid "Additional Information"
+msgstr "附加信息"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:956
+msgid "Point wise Additional Information regarding the event"
+msgstr "关于事件的附件信息"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:961
+msgid "More Information"
+msgstr "更多信息"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:962
+msgid "Supports HTML and shortcodes"
+msgstr "支持 HTML 和短代码"
+
+#: custom_meta_boxes.php:967
+msgid "All Day"
+msgstr "全天"
+
+#: custom_meta_boxes.php:968
+msgid "An all Day event"
+msgstr "一个全天的事件"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:980
+msgid "Private Event"
+msgstr "私人事件"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:981
+msgid "Only Invited participants can see the Event"
+msgstr "只有受邀请的参加者可以看到事件"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:998
+msgid "Associated Product for Event Access"
+msgstr "为事件访问关联商品"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:999
+msgid "Purchase of this product grants Event access to the member."
+msgstr "购买这个商品可以获得访问事件的权限。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1010
+msgid "From"
+msgstr "从"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1011 custom_meta_boxes.php:1017
+msgid "Date on which Payment was done."
+msgstr "付款完成日期"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1016
+msgid "To"
+msgstr "至"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1022
+msgid "Instructor and Commissions"
+msgstr "教师和佣金"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1023
+msgid "Instructor commissions"
+msgstr "教师佣金"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1032
+msgid "Background Image/Pattern"
+msgstr "背景图片/图案"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1033
+msgid "Add background image"
+msgstr "添加背景图片"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1038
+msgid "Enable Print & PDF"
+msgstr "启动打印 & PDF"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1039
+msgid ""
+"Displays a Print and Download as PDF Button on top right corner of "
+"certificate"
+msgstr "在证书右上角显示打印和作为 PDF 下载的按钮"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1051
+msgid "Certificate Width"
+msgstr "证书宽度"
+
+#: custom_meta_boxes.php:1052
+msgid "Add certificate width"
+msgstr "添加证书宽度"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1057
+msgid "Certificate Height"
+msgstr "证书高度"
+
+#: custom_meta_boxes.php:1058
+msgid "Add certificate height"
+msgstr "添加证书高度"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1063 custom_meta_boxes.php:1224
+msgid "Custom Class"
+msgstr "自定义 Class"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1064
+msgid "Add Custom Class over Certificate container."
+msgstr "为证书容器添加自定义 Class。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1069
+msgid "Custom CSS"
+msgstr "自定义 CSS"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1070
+msgid "Add Custom CSS for Certificate."
+msgstr "为证书添加自定义 CSS。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1075
+msgid "NOTE:"
+msgstr "注意："
+
+#: custom_meta_boxes.php:1076
+msgid ""
+" USE FOLLOWING SHORTCODES TO DISPLAY RELEVANT DATA : <br />1. "
+"<strong>[certificate_student_name]</strong> : Displays Students Name<br />2. "
+"<strong>[certificate_course]</strong> : Displays Course Name<br />3. "
+"<strong>[certificate_student_marks]</strong> : Displays Students Marks in "
+"Course<br />4. <strong>[certificate_student_date]</strong>: Displays date on "
+"which Certificate was awarded to the Student<br />5. "
+"<strong>[certificate_student_email]</strong>: Displays registered email of "
+"the Student<br />6. <strong>[certificate_code]</strong>: Generates unique "
+"code for Student which can be validated from Certificate page.<br />7. "
+"<strong>[course_completion_date]</strong>: Displays course completion date "
+"from course activity.<br />8. <strong>[certificate_student_photo]</strong> : "
+"Displays Students pic<br />9. <strong>[certificate_course_duration]</"
+"strong> : Students time spent on course"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1089
+msgid "Assignment Sub-Title"
+msgstr "作业副标题"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1090
+msgid "Assignment Sub-Title."
+msgstr "作业副标题。"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1103
+msgid "Assignment Maximum Marks"
+msgstr "作业最高分"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1104
+msgid "Set Maximum marks for the assignment"
+msgstr "设置作业最高分"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1110
+#, php-format
+msgid "Assignment Maximum Time limit %s"
+msgstr "作业最大时限 %s"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1111
+msgid "Set Maximum Time limit for Assignment ( in "
+msgstr "设置作业最大时限 (单位"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1117
+msgid "Assignment Duration parameter"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1124
+msgid "Include in Course Evaluation"
+msgstr "包含到课程评估中"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1125
+msgid "Include assignment marks in Course Evaluation"
+msgstr "在课程评估中包含作业得分"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1137
+msgid "Include in Course"
+msgstr "包含到课程中"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1138
+msgid "Assignments marks will be shown/used in course evaluation"
+msgstr "作业分数会在课程评估中显示/被使用"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1145
+msgid "Assignment Submissions"
+msgstr "提交作业"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1146
+msgid "Select type of assignment submissions"
+msgstr "选择提交作业的类型"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1156
+msgid "Attachment Type"
+msgstr "附件类型"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1157
+msgid "Select valid attachment types "
+msgstr "选择有效的附件类型"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1198
+msgid "Attachment Size (in MB)"
+msgstr "附件大小 (单位 MB)"
+
+# @ vibe
+#: custom_meta_boxes.php:1199
+msgid "Set Maximum Attachment size for upload ( set less than "
+msgstr "设置附件最大上传大小 (设置为小于"
+
+#: custom_meta_boxes.php:1210
+msgid "Width (in px)"
+msgstr "宽度 (px)"
+
+#: custom_meta_boxes.php:1211
+msgid "Set Maximum width of popup"
+msgstr "设置弹出窗口最大宽度"
+
+#: custom_meta_boxes.php:1217
+msgid "Height (in px)"
+msgstr "高度 (px)"
+
+#: custom_meta_boxes.php:1218
+msgid "Set Maximum height of popup "
+msgstr "设置弹出窗口最大高度"
+
+#: custom_meta_boxes.php:1225
+msgid "Add custom class to popup "
+msgstr "给弹出窗口添加自定义 class"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1231
+msgid "Add Custom CSS"
+msgstr "添加自定义 CSS"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1232
+msgid "Custom CSS for Popup"
+msgstr "自定义弹出窗口 CSS"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1293
+msgid "Connect this question to a course"
+msgstr "关联这个问题到一个课程"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1299
+msgid "Connected Unit"
+msgstr "关联的单元"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1300
+msgid "Connect this question to a Unit"
+msgstr "关联这个问题到一个单元"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1308
+msgid "Post Settings"
+msgstr "文章设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1309
+msgid "Page Settings"
+msgstr "页面设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1311
+msgid "Course Settings"
+msgstr "课程设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1313
+msgid "Course Product"
+msgstr "课程商品"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1315
+msgid "Course Membership"
+msgstr "课程成员资格"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1318
+msgid "Unit Settings"
+msgstr "单元设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1320
+msgid "Question Settings"
+msgstr "问题设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1321
+msgid "Quiz Settings"
+msgstr "测试设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1326
+msgid "Testimonial Author Information"
+msgstr "表扬信作者信息"
+
+#: custom_meta_boxes.php:1330
+msgid "News Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1333
+msgid "Payments Settings"
+msgstr "支付设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1334
+msgid "Certificate Template Settings"
+msgstr "证书模板设置"
+
+#: custom_meta_boxes.php:1335
+msgid "Popup Settings"
+msgstr "弹出窗口设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1341
+msgid "Product Course Settings"
+msgstr "商品课程设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1346
+msgid "WPLMS Events Settings"
+msgstr "WPLMS 事件设置"
+
+# @ vibe-customtypes
+#: custom_meta_boxes.php:1351
+msgid "WPLMS Assignments Settings"
+msgstr "WPLMS 作业设置"
+
+# @ vibe
+#: custom_meta_boxes.php:1358
+msgid "Page Builder"
+msgstr "页面生成器"
+
+#: custom_meta_boxes.php:1424 includes/course_menu.php:33
+#: includes/course_menu.php:208 includes/group_types.php:338
+#: includes/group_types.php:362 includes/loggedin_menu.php:389
+#: includes/member_types.php:347 includes/member_types.php:371
+#: includes/musettings.php:2772 includes/musettings.php:2822
+#: includes/musettings.php:2853 includes/musettings.php:2869
+#: includes/musettings.php:2952 includes/musettings.php:2985
+#: includes/musettings.php:2996 includes/musettings.php:3023
+#: includes/musettings.php:3032 includes/musettings.php:3056
+#: includes/musettings.php:3065 includes/musettings.php:3085
+#: includes/tips.php:777 includes/tips.php:1612 metaboxes/meta_box.php:1516
+#: metaboxes/meta_box.php:1545
+msgid "Security check Failed. Contact Administrator."
+msgstr "安全检查失败。请联络管理员。"
+
+#: includes/api/class-api-wp.php:31 includes/api/class-api-wp.php:52
+#: includes/api/class-apps.php:41
+msgctxt ""
+msgid "Security check failed"
+msgstr ""
+
+#: includes/api/class-api-wp.php:45 includes/api/class-api-wp.php:68
+msgctxt ""
+msgid "Removed!"
+msgstr ""
+
+#: includes/api/class-apps.php:73
+msgctxt "send update button "
+msgid "Send New Update"
+msgstr ""
+
+#: includes/api/class-apps.php:76
+msgctxt ""
+msgid "Send update to all app users."
+msgstr ""
+
+#: includes/api/class-apps.php:78
+msgctxt "contane label"
+msgid "Your update content."
+msgstr ""
+
+#: includes/api/class-apps.php:79
+msgctxt "contane label"
+msgid "Html tags supported."
+msgstr ""
+
+#: includes/api/class-apps.php:80
+msgctxt "send update button "
+msgid "Send Update"
+msgstr ""
+
+#: includes/api/class-apps.php:85
+msgctxt ""
+msgid "Sent Updates"
+msgstr ""
+
+#: includes/api/class-apps.php:89 includes/api/class-apps.php:104
+#: includes/api/class-apps.php:591 includes/api/class-apps.php:616
+msgctxt "content"
+msgid "Content"
+msgstr ""
+
+#: includes/api/class-apps.php:89 includes/api/class-apps.php:104
+#: includes/api/class-apps.php:591 includes/api/class-apps.php:616
+msgctxt "app table label"
+msgid "Time"
+msgstr ""
+
+#: includes/api/class-apps.php:89 includes/api/class-apps.php:104
+#: includes/api/class-apps.php:593 includes/api/class-apps.php:618
+msgctxt "app table label"
+msgid "Actions"
+msgstr ""
+
+#: includes/api/class-apps.php:99 includes/api/class-apps.php:611
+msgctxt ""
+msgid "Remove"
+msgstr ""
+
+#: includes/api/class-apps.php:109 includes/api/class-apps.php:624
+msgctxt ""
+msgid "No updates found."
+msgstr ""
+
+#: includes/api/class-apps.php:151 includes/api/class-apps.php:546
+msgctxt ""
+msgid "Are sure you want to remove this update?"
+msgstr ""
+
+#: includes/api/class-apps.php:154 includes/api/class-apps.php:549
+msgctxt "removing..."
+msgid "Removing..."
+msgstr ""
+
+#: includes/api/class-apps.php:177
+msgctxt ""
+msgid "Please enter some content."
+msgstr ""
+
+#: includes/api/class-apps.php:181
+msgctxt "sending..."
+msgid "Sending..."
+msgstr ""
+
+#: includes/api/class-apps.php:205 includes/api/class-apps.php:215
+msgctxt "new app button label"
+msgid "Create new app"
+msgstr ""
+
+#: includes/api/class-apps.php:210
+msgctxt "form title"
+msgid "Edit app"
+msgstr ""
+
+#: includes/api/class-apps.php:210
+msgctxt "form title"
+msgid "Create a new app"
+msgstr ""
+
+#: includes/api/class-apps.php:212
+msgctxt "wp admin form"
+msgid "App Name"
+msgstr ""
+
+#: includes/api/class-apps.php:213
+msgctxt "wp admin form"
+msgid "App Description"
+msgstr ""
+
+#: includes/api/class-apps.php:214
+msgctxt "wp admin form"
+msgid "Redirect URI"
+msgstr ""
+
+#: includes/api/class-apps.php:215
+msgctxt "new app button label"
+msgid "Edit app"
+msgstr ""
+
+#: includes/api/class-apps.php:215
+msgid "Close"
+msgstr ""
+
+#: includes/api/class-apps.php:234
+msgctxt "validation message"
+msgid "Empty Name/Descript/Redirect URI"
+msgstr ""
+
+#: includes/api/class-apps.php:252
+msgctxt "success message"
+msgid "App Updated successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:255
+msgctxt "success message"
+msgid "App Created successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:266
+msgctxt "app message"
+msgid "No apps found ! Create a new App"
+msgstr ""
+
+#: includes/api/class-apps.php:273 includes/api/class-apps.php:300
+msgctxt "app table label"
+msgid "App Name"
+msgstr ""
+
+#: includes/api/class-apps.php:273 includes/api/class-apps.php:300
+msgctxt "app table label"
+msgid "App Description"
+msgstr ""
+
+#: includes/api/class-apps.php:273 includes/api/class-apps.php:300
+msgctxt "app table label"
+msgid "App ID"
+msgstr ""
+
+#: includes/api/class-apps.php:284
+msgid "Edit"
+msgstr ""
+
+#: includes/api/class-apps.php:288
+msgid "Are you sure you want to delete this app ?"
+msgstr ""
+
+# @ vibe
+#: includes/api/class-apps.php:288 metaboxes/meta_box.php:847
+#: metaboxes/meta_box.php:910 metaboxes/meta_box.php:989
+#: metaboxes/meta_box.php:1052 metaboxes/meta_box.php:1131
+#: metaboxes/meta_box.php:1194
+msgid "Delete"
+msgstr "删除"
+
+#: includes/api/class-apps.php:291
+msgid "Show Secret"
+msgstr ""
+
+#: includes/api/class-apps.php:340
+msgctxt "success message"
+msgid "Connected clients deleted successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:391
+msgctxt "success message"
+msgid "Connected expired clients deleted successfully"
+msgstr ""
+
+#: includes/api/class-apps.php:456
+msgctxt "no clients found"
+msgid "No connected clients !"
+msgstr ""
+
+#: includes/api/class-apps.php:464 includes/api/class-apps.php:495
+msgctxt "app table label"
+msgid "Client ID"
+msgstr ""
+
+#: includes/api/class-apps.php:464 includes/api/class-apps.php:495
+msgctxt "app table label"
+msgid "User"
+msgstr ""
+
+#: includes/api/class-apps.php:464 includes/api/class-apps.php:495
+msgctxt "app table label"
+msgid "Access Token"
+msgstr ""
+
+#: includes/api/class-apps.php:464 includes/api/class-apps.php:495
+msgctxt "app table label"
+msgid "Expires"
+msgstr ""
+
+#: includes/api/class-apps.php:465
+msgctxt ""
+msgid "Send private update"
+msgstr ""
+
+#: includes/api/class-apps.php:466
+msgctxt ""
+msgid "View sent updates"
+msgstr ""
+
+#: includes/api/class-apps.php:466 includes/api/class-apps.php:488
+#: includes/api/class-apps.php:495
+msgctxt "app table label"
+msgid "Remove"
+msgstr ""
+
+#: includes/api/class-apps.php:479
+msgctxt ""
+msgid "Send private update to this user"
+msgstr ""
+
+#: includes/api/class-apps.php:480
+msgctxt ""
+msgid "View sent notices"
+msgstr ""
+
+#: includes/api/class-apps.php:485
+msgid "Send"
+msgstr ""
+
+#: includes/api/class-apps.php:499
+msgid "Actions"
+msgstr ""
+
+#: includes/api/class-apps.php:501
+msgid "Clear all"
+msgstr ""
+
+#: includes/api/class-apps.php:506
+msgid "Clear all expired clients"
+msgstr ""
+
+#: includes/api/class-apps.php:588
+#, php-format
+msgctxt ""
+msgid "All Updates sent to %s"
+msgstr ""
+
+#: includes/api/class-apps.php:592 includes/api/class-apps.php:617
+msgctxt "Delivered table label"
+msgid "Delivered"
+msgstr ""
+
+#: includes/api/class-apps.php:599
+msgctxt ""
+msgid "Not delivered yet"
+msgstr ""
+
+#: includes/class.export.php:11 includes/statistics.php:756
+msgid "Select Module"
+msgstr "选择模块"
+
+#: includes/class.export.php:21
+msgid "Select a WPLMS Module Type"
+msgstr "选择一个 WPLMS 模块类型"
+
+#: includes/class.export.php:24
+msgid "Set Taxonomy"
+msgstr "设置分类法"
+
+# @ vibe-customtypes
+#: includes/class.export.php:26 includes/class.export.php:33
+#: includes/class.export.php:40 metaboxes/library/vibe-editor.php:696
+msgid "All"
+msgstr "全部"
+
+#: includes/class.export.php:28 includes/class.export.php:35
+msgid "Optional"
+msgstr "可选"
+
+#: includes/class.export.php:31
+msgid "Set Taxonomy Term"
+msgstr "设置分类法条目"
+
+#: includes/class.export.php:38
+msgid "Specific Module/s Ids"
+msgstr "特定模块/ID"
+
+#: includes/class.export.php:42
+msgid "Optional, Enter comma saperated modules for more than one module"
+msgstr "可选的，多于一个模块时输入逗号分隔的模块列表"
+
+#: includes/class.export.php:45
+msgid "Export content"
+msgstr "导出内容"
+
+#: includes/class.export.php:48
+msgid "Export content of the module"
+msgstr "导出模块内容"
+
+#: includes/class.export.php:51
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: includes/class.export.php:54
+msgid "Export module settings"
+msgstr "导出模块设置"
+
+#: includes/class.export.php:57
+msgid "Export Taxonomies"
+msgstr "导出分类法"
+
+#: includes/class.export.php:60
+msgid "Optional taxonomies and relationships"
+msgstr "可选的分类法和关系"
+
+#: includes/class.export.php:63
+msgid "Export Comments"
+msgstr "导出评论"
+
+#: includes/class.export.php:66
+msgid "Exports reviews for courses, Answers for Questions and Assignments"
+msgstr "导出课程的评价、问题回答和作业"
+
+#: includes/class.export.php:69
+msgid "Export connected modules"
+msgstr "导出关联的模块"
+
+#: includes/class.export.php:72
+msgid ""
+"Export connected modules, like units,quizzes,assignments with courses, "
+"questions with quizzes etc."
+msgstr "导出关联的模块，例如单元、测试、课程的作业以及测试的问题等。"
+
+#: includes/class.export.php:75
+msgid "Export Users"
+msgstr "导出用户"
+
+#: includes/class.export.php:78
+msgid "Export user profiles"
+msgstr "导出用户资料"
+
+#: includes/class.export.php:81
+msgid "Export Connected User data"
+msgstr "导出已关联的用户数据"
+
+#: includes/class.export.php:84
+msgid "Export user statuses for module/sub-modules"
+msgstr "导出模块/子模块的用户状态"
+
+#: includes/class.export.php:87
+msgid "Start Point"
+msgstr "开始时间"
+
+#: includes/class.export.php:91
+msgid "Starting Key count for module, recommended for larger exports"
+msgstr "开始对模块进行 Key 计数，推荐用于较大的导出"
+
+#: includes/class.export.php:94
+msgid "Number of Modules"
+msgstr "模块数量"
+
+#: includes/class.export.php:98
+msgid "Maximum number of modules to import"
+msgstr "导入模块的最大数量"
+
+#: includes/class.export.php:136
+msgid "Generate Export File"
+msgstr "生成导出文件"
+
+#: includes/class.export.php:138
+msgid "Download Export File"
+msgstr "下载导出文件"
+
+#: includes/class.export.php:184 includes/class.export.php:221
+#: includes/class.export.php:365
+msgid "Type"
+msgstr "类型"
+
+#: includes/class.export.php:185 includes/class.export.php:222
+#: includes/tips.php:2294
+msgid "Title"
+msgstr "标题"
+
+#: includes/class.export.php:186 includes/class.export.php:223
+#: includes/class.export.php:367
+msgid "Date"
+msgstr "时间"
+
+# @ vibe-customtypes
+#: includes/class.export.php:187 includes/class.export.php:224
+#: includes/class.export.php:366 metaboxes/library/vibe-editor.php:1917
+#: metaboxes/library/vibe-editor.php:1920
+#: metaboxes/library/vibe-editor.php:1961
+#: metaboxes/library/vibe-editor.php:2063
+msgid "Content"
+msgstr "内容"
+
+#: includes/class.export.php:188 includes/class.export.php:225
+#: includes/class.export.php:369
+msgid "Author ID"
+msgstr "作者 ID"
+
+#: includes/class.export.php:189 includes/class.export.php:226
+msgid "Excerpt"
+msgstr "摘要"
+
+#: includes/class.export.php:190 includes/class.export.php:227
+msgid "Status"
+msgstr "状态"
+
+#: includes/class.export.php:191 includes/class.export.php:228
+msgid "Slug"
+msgstr "别名"
+
+#: includes/class.export.php:192 includes/class.export.php:229
+msgid "Review/Note/Answer Count"
+msgstr "评价/笔记/回答计数"
+
+#: includes/class.export.php:260
+msgid "Terms"
+msgstr "条目"
+
+#: includes/class.export.php:272
+msgid "User Details"
+msgstr "用户详情"
+
+#: includes/class.export.php:364
+msgid "Connected Post"
+msgstr "已关联的文章"
+
+#: includes/class.export.php:368
+msgid "Parent ID"
+msgstr "父级 ID"
+
+#: includes/class.export.php:371
+msgid "Author Email"
+msgstr "作者邮件"
+
+#: includes/class.export.php:474
+msgid "User Timestamp"
+msgstr "用户时间戳"
+
+#: includes/class.export.php:477
+msgid "User status"
+msgstr "用户状态"
+
+#: includes/class.import.php:7
+msgid "IMPORT SETTINGS"
+msgstr "导入设置"
+
+#: includes/class.import.php:9
+#, php-format
+msgid "Select File to upload [ Maximum upload size %s MB(s) ]"
+msgstr "选择上传的文件 [最大上传大小 %s MB]"
+
+#: includes/class.import.php:11
+msgid "Upload File"
+msgstr "上传文件"
+
+#: includes/class.import.php:26
+msgid "Invalid parameters."
+msgstr "无效参数。"
+
+#: includes/class.import.php:34
+msgid "No file sent."
+msgstr "未发送文件。"
+
+#: includes/class.import.php:37 includes/class.import.php:44
+msgid "Exceeded filesize limit."
+msgstr "超出文件大小限制。"
+
+#: includes/class.import.php:39
+msgid "Unknown errors."
+msgstr "未知错误。"
+
+#: includes/class.import.php:57
+msgid "Invalid file format."
+msgstr "无效的文件格式。"
+
+#: includes/class.import.php:61
+msgid "Import Complete"
+msgstr "导入完成"
+
+#: includes/class.import.php:63
+msgid "Import Failed"
+msgstr "导入失败"
+
+#: includes/class.import.php:245
+msgid "Unable to Create user"
+msgstr "无法创建用户"
+
+#: includes/course_menu.php:37
+msgctxt ""
+msgid "Reset Done"
+msgstr ""
+
+#: includes/course_menu.php:67
+msgid "Home"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/course_menu.php:74 includes/permalinks.php:185
+msgid "Members"
+msgstr ""
+
+#: includes/course_menu.php:76
+msgid "members"
+msgstr ""
+
+#: includes/course_menu.php:84 includes/permalinks.php:179
+msgid "Activity"
+msgstr ""
+
+#: includes/course_menu.php:86
+msgid "activity"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/course_menu.php:96 includes/permalinks.php:173
+msgid "Curriculum"
+msgstr ""
+
+#: includes/course_menu.php:98
+msgid "curriculum"
+msgstr ""
+
+#: includes/course_menu.php:108
+msgid "Group"
+msgstr ""
+
+#: includes/course_menu.php:118
+msgid "Forum"
+msgstr ""
+
+#: includes/course_menu.php:150
+msgctxt "configure Course menu in LMS - Settings"
+msgid "Course Menu"
+msgstr ""
+
+#: includes/course_menu.php:214 includes/group_types.php:356
+#: includes/member_types.php:365
+msgctxt ""
+msgid "Saved"
+msgstr ""
+
+#: includes/course_menu.php:240
+msgctxt "saving text in save section button"
+msgid "Saving..."
+msgstr ""
+
+#: includes/course_menu.php:241
+msgctxt ""
+msgid "Are you sure you want to reset settings?"
+msgstr ""
+
+#: includes/course_menu.php:242
+msgctxt ""
+msgid "Resetting..."
+msgstr ""
+
+#: includes/course_menu.php:270
+msgctxt ""
+msgid "Privacy"
+msgstr ""
+
+#: includes/course_menu.php:283
+msgctxt ""
+msgid "Visibility on Courses"
+msgstr ""
+
+#: includes/course_menu.php:284
+msgid "Select Courses"
+msgstr ""
+
+#: includes/course_menu.php:294
+msgctxt "course menus"
+msgid "OR"
+msgstr ""
+
+#: includes/course_menu.php:295
+msgctxt "course menus"
+msgid "All courses"
+msgstr ""
+
+#: includes/course_menu.php:301
+msgctxt ""
+msgid "Edit privacy"
+msgstr ""
+
+#: includes/course_menu.php:308
+msgctxt "course menu"
+msgid "Save setings"
+msgstr ""
+
+#: includes/course_menu.php:309
+msgctxt "course menu"
+msgid "Reset setings"
+msgstr ""
+
+#: includes/course_menu.php:522
+msgctxt "privacy option for course menu"
+msgid "Everyone"
+msgstr ""
+
+#: includes/course_menu.php:523
+msgctxt "privacy option for course menu"
+msgid "Students"
+msgstr ""
+
+#: includes/course_menu.php:524
+msgctxt "privacy option for course menu"
+msgid "Course Students"
+msgstr ""
+
+#: includes/course_menu.php:525
+msgctxt "privacy option for course menu"
+msgid "Active Course Students"
+msgstr ""
+
+#: includes/course_menu.php:526
+msgctxt "privacy option for course menu"
+msgid "Instructors"
+msgstr ""
+
+#: includes/course_menu.php:527
+msgctxt "privacy option for course menu"
+msgid "Administrators"
+msgstr ""
+
+#: includes/course_settings.php:114
+msgctxt ""
+msgid "Course Settings"
+msgstr ""
+
+#: includes/course_settings.php:127
+msgid "Course Details"
+msgstr ""
+
+#: includes/course_settings.php:131
+msgid "Manage Course details"
+msgstr ""
+
+#: includes/course_settings.php:149
+msgctxt "save settings message"
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/course_settings.php:194
+msgctxt "Adds a new course detail in the course details widget"
+msgid "Add New Detail"
+msgstr ""
+
+#: includes/course_settings.php:261
+msgctxt "Adds a new course detail in the course details widget"
+msgid "Custom Label"
+msgstr ""
+
+#: includes/course_settings.php:262
+msgctxt "Adds a new course detail in the course details widget"
+msgid "Custom Text"
+msgstr ""
+
+#: includes/course_settings.php:302 includes/musettings.php:1478
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: includes/course_settings.php:309
+msgctxt "label in details array"
+msgid "Price"
+msgstr ""
+
+#: includes/course_settings.php:313
+msgctxt "label in details array"
+msgid "Pre-requisite Courses"
+msgstr ""
+
+#: includes/course_settings.php:317
+msgctxt "label in details array"
+msgid "Course Starts In"
+msgstr ""
+
+#: includes/course_settings.php:321
+msgctxt "label in details array"
+msgid "Course Duration"
+msgstr ""
+
+#: includes/course_settings.php:325
+msgctxt "label in details array"
+msgid "* Course Location (if enabled)"
+msgstr ""
+
+#: includes/course_settings.php:329
+msgctxt "label in details array"
+msgid "* Course Level (if enabled)"
+msgstr ""
+
+#: includes/course_settings.php:333
+msgctxt "label in details array"
+msgid "Course Seats (if set)"
+msgstr ""
+
+#: includes/course_settings.php:337
+msgctxt "label in details array"
+msgid "Course Badge (if set)"
+msgstr ""
+
+#: includes/course_settings.php:341
+msgctxt "label in details array"
+msgid "Course Certificate (if set)"
+msgstr ""
+
+#: includes/course_settings.php:345
+msgctxt "label in details array"
+msgid "Total Unit Duration"
+msgstr ""
+
+#: includes/course_settings.php:349
+msgctxt "label in details array"
+msgid "Number of Units"
+msgstr ""
+
+#: includes/course_settings.php:353
+msgctxt "label in details array"
+msgid "Number of Sections"
+msgstr ""
+
+#: includes/course_settings.php:357
+msgctxt "label in details array"
+msgid "Number of Quizes"
+msgstr ""
+
+#: includes/course_settings.php:361
+msgctxt "label in details array"
+msgid "Number of Students"
+msgstr ""
+
+#: includes/course_settings.php:365
+msgctxt "label in details array"
+msgid "Average Rating"
+msgstr ""
+
+#: includes/course_settings.php:373
+msgctxt "label in details array"
+msgid "Number Of Assignments"
+msgstr ""
+
+#: includes/course_settings.php:380
+msgctxt "label in details array"
+msgid "Gift this course"
+msgstr ""
+
+#: includes/course_settings.php:387
+msgctxt "label in details array"
+msgid "Wishlist"
+msgstr ""
+
+#: includes/course_settings.php:401
+msgctxt "privacy option for course details"
+msgid "All Users (logged in/logged out)"
+msgstr ""
+
+#: includes/course_settings.php:402
+msgctxt "privacy option for course details"
+msgid "Logged in Users (Students/Instructors)"
+msgstr ""
+
+#: includes/course_settings.php:403
+msgctxt "privacy option for course details"
+msgid " All Course users"
+msgstr ""
+
+#: includes/course_settings.php:405
+msgctxt "privacy option for course details"
+msgid " All Course pursuing users (excludes finished/not started)"
+msgstr ""
+
+#: includes/course_settings.php:407
+msgctxt "privacy option for course details"
+msgid " All instructors + Admins"
+msgstr ""
+
+#: includes/course_settings.php:441
+msgctxt "Course Detail Sidebar Number of Units"
+msgid "Number of Units"
+msgstr ""
+
+#: includes/course_settings.php:443
+msgctxt "Course Detail Sidebar Number of Units Completed"
+msgid "Units Completed"
+msgstr ""
+
+#: includes/course_settings.php:470
+msgctxt "Course Detail Sidebar Number of Quizzes"
+msgid "Number of Quizzes"
+msgstr ""
+
+#: includes/course_settings.php:472
+msgctxt "Course Detail Sidebar Number of Quizzes Completed"
+msgid "Quizzes Completed"
+msgstr ""
+
+#: includes/course_settings.php:500
+msgctxt "Course Detail Sidebar Unit Duration"
+msgid "Total Unit + Quiz duration in this course"
+msgstr ""
+
+#: includes/course_settings.php:516
+msgctxt "Course Detail Sidebar Number of Sections"
+msgid "Number of Sections"
+msgstr ""
+
+#: includes/course_settings.php:523
+msgctxt "Course Detail Sidebar Number of students"
+msgid "Number of students"
+msgstr ""
+
+#: includes/course_settings.php:534
+msgctxt "Course Detail Sidebar Average Rating"
+msgid "Average Rating"
+msgstr ""
+
+#: includes/course_settings.php:548
+msgctxt "Course Detail Sidebar Average Rating"
+msgid "Number Of Assignments"
+msgstr ""
+
+#: includes/course_settings.php:564
+msgctxt "Course Detail Sidebar Starts In"
+msgid "Starts In"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:19
+msgid "Unknown error."
+msgstr "未知错误。"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:26
+msgid "Please save the changes again."
+msgstr "请再次保存更改。"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:27
+msgid "Some Uknown issue appeared, please contact us."
+msgstr "出现一些未知错误，请联系我们"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:28
+msgid "Please save the Page Builder changes !"
+msgstr "请保存页面生成器的更改！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:29
+msgid "Requested Slider was not found, Please check slider post id !"
+msgstr "请求的滑动控件没有找到，请检查滑动模块文章 ID！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:30
+msgid "No Posts Id's found in given Custom Post Type."
+msgstr "指定的自定义文章类型中未找到文章 ID。"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:31
+msgid "Author Information missing."
+msgstr "缺少作者信息。"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:32
+msgid "You do not have permission to do that."
+msgstr "您无权进行此操作。"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:33
+msgid "Unable to get tweets from Twitter !"
+msgstr "无法从 Twitter 中获取推文！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:34
+msgid "No public tweets found on Twitter !"
+msgstr "Twitter 中未发现公开的推文！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:35
+msgid "Term : Taxonomy Mismatch: Selected Term does not exist in Taxonomy !"
+msgstr "条目：分类法不匹配：所选条目在分类法中不存在！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:36
+msgid ""
+"Post Type : Taxonomy Mismatch: Selected Taxonomy does not exist in Post "
+"Type !"
+msgstr "文章类型：分类法不匹配：所选的分类法在文章类型中不存在！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:37
+msgid "Featured Component does not Exist !"
+msgstr "推荐组件不存在！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:38
+msgid "Incorrect or Incompatible Audio Format !"
+msgstr "不正确或不完整的音频格式！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:39
+msgid "Incorrect or Incompatible Video Embed Code !"
+msgstr "不正确或不完整的视频嵌入代码！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:40
+msgid "Modal ID Incorrect, please recheck !"
+msgstr "Modal ID 不正确，请复查！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:41
+msgid "Testimonial ID Incorrect, please recheck !"
+msgstr "表扬信 ID 不正确，请复查！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:42
+msgid "Post ID Incorrect, please recheck !"
+msgstr "文章 ID 不正确，请复查！"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:55 metaboxes/meta_box.php:290
+msgid "Seconds"
+msgstr "秒"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:56 metaboxes/meta_box.php:291
+msgid "Minutes"
+msgstr "分"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:57 metaboxes/meta_box.php:292
+msgid "Hours"
+msgstr "小时"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:58 metaboxes/meta_box.php:293
+msgid "Days"
+msgstr "天"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:59 metaboxes/meta_box.php:294
+msgid "Weeks"
+msgstr "周"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:60 metaboxes/meta_box.php:295
+msgid "Months"
+msgstr "月"
+
+# @ vibe-customtypes
+#: includes/errorhandle.php:61 metaboxes/meta_box.php:296
+msgid "Years"
+msgstr "年"
+
+# @ vibe-customtypes
+#: includes/featured.php:8
+msgid "Read more"
+msgstr "阅读更多"
+
+# @ vibe-customtypes
+#: includes/featured.php:128
+msgid "REVIEWS"
+msgstr "评价"
+
+#: includes/featured.php:172 includes/featured.php:192
+#, php-format
+msgid "Course Author %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:245 includes/featured.php:258
+msgid "Course Author"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/featured.php:394 includes/featured.php:706
+msgid " Comments"
+msgstr "评论"
+
+# @ vibe-customtypes
+#: includes/featured.php:496
+msgid "Event "
+msgstr "事件"
+
+# @ vibe-customtypes
+#: includes/featured.php:501
+msgid "Start Date "
+msgstr "开始日期"
+
+# @ vibe-customtypes
+#: includes/featured.php:504
+msgid "End Date "
+msgstr "结束日期"
+
+# @ vibe-customtypes
+#: includes/featured.php:508
+msgid "Start Time "
+msgstr "开始时间"
+
+# @ vibe-customtypes
+#: includes/featured.php:511
+msgid "End Time "
+msgstr "结束时间"
+
+#: includes/featured.php:514
+msgid "All Day "
+msgstr "全天"
+
+# @ vibe-customtypes
+#: includes/featured.php:514 includes/musettings.php:1398
+#: includes/musettings.php:1402 includes/musettings.php:1406
+#: includes/musettings.php:1415 includes/musettings.php:1419
+#: includes/musettings.php:1423 includes/musettings.php:1435
+#: includes/musettings.php:1439 includes/musettings.php:1443
+#: includes/musettings.php:1452 includes/musettings.php:1456
+#: includes/musettings.php:1460 includes/musettings.php:2195
+#: includes/musettings.php:2224 includes/musettings.php:2253
+#: includes/musettings.php:2293 metaboxes/library/vibe-editor.php:1454
+#: metaboxes/library/vibe-editor.php:2107
+msgid "Yes"
+msgstr "是"
+
+# @ vibe-customtypes
+#: includes/featured.php:517
+msgid "Frequency "
+msgstr "频率"
+
+# @ vibe-customtypes
+#: includes/featured.php:517
+msgid "Every "
+msgstr "每个"
+
+#: includes/featured.php:517
+msgid "for "
+msgstr "为"
+
+# @ vibe-customtypes
+#: includes/featured.php:520
+msgid "Venue "
+msgstr "地点"
+
+# @ vibe-customtypes
+#: includes/featured.php:523
+msgid "View full details"
+msgstr "查看全部细节"
+
+#: includes/group_types.php:27
+msgctxt "configure Course menu in LMS - Settings"
+msgid "Group Types"
+msgstr ""
+
+#: includes/group_types.php:95
+msgctxt "group types"
+msgid "Add another"
+msgstr ""
+
+#: includes/group_types.php:102 includes/member_types.php:111
+msgctxt ""
+msgid "Slug"
+msgstr ""
+
+#: includes/group_types.php:103 includes/member_types.php:112
+msgctxt ""
+msgid "Singular Name"
+msgstr ""
+
+#: includes/group_types.php:103
+msgctxt ""
+msgid "group type singular name"
+msgstr ""
+
+#: includes/group_types.php:105 includes/member_types.php:114
+msgctxt ""
+msgid "Plural Name"
+msgstr ""
+
+#: includes/group_types.php:105
+msgctxt ""
+msgid "group type plural name"
+msgstr ""
+
+#: includes/group_types.php:183 includes/group_types.php:184
+#: includes/group_types.php:205 includes/group_types.php:206
+msgctxt "group types"
+msgid "N.A"
+msgstr ""
+
+#: includes/group_types.php:196
+msgctxt "group types"
+msgid "Save setings"
+msgstr ""
+
+#: includes/group_types.php:197
+msgctxt "group types"
+msgid "Reset setings"
+msgstr ""
+
+#: includes/group_types.php:220
+msgctxt "group types"
+msgid "Please remove special characters."
+msgstr ""
+
+#: includes/group_types.php:296
+msgctxt "group types"
+msgid "Special Characters are not allowed"
+msgstr ""
+
+#: includes/group_types.php:368 includes/member_types.php:377
+msgctxt ""
+msgid "Reset"
+msgstr ""
+
+#: includes/loggedin_menu.php:124
+msgctxt "configure loggedin menu in LMS - Settings"
+msgid "Logged in Menu"
+msgstr ""
+
+#: includes/loggedin_menu.php:139
+#, php-format
+msgid "Profile Menu Dropdown %s tutorial %s"
+msgstr ""
+
+#: includes/loggedin_menu.php:144
+msgid "Manage Profile Menu Dropdown"
+msgstr ""
+
+#: includes/loggedin_menu.php:173
+msgctxt "abutton label"
+msgid "Add New Item"
+msgstr ""
+
+#: includes/loggedin_menu.php:195
+msgid "Select component"
+msgstr ""
+
+#: includes/loggedin_menu.php:203
+msgid "Custom link"
+msgstr ""
+
+#: includes/loggedin_menu.php:207
+msgid "Component"
+msgstr ""
+
+#: includes/loggedin_menu.php:207
+msgctxt "special chars"
+msgid "Add reference name (without spaces or special characters)"
+msgstr ""
+
+#: includes/loggedin_menu.php:209
+msgid "Label"
+msgstr ""
+
+#: includes/loggedin_menu.php:211
+msgid "Icon"
+msgstr ""
+
+#: includes/loggedin_menu.php:213 metaboxes/library/vibe-editor.php:93
+msgid "Link"
+msgstr "链接"
+
+#: includes/loggedin_menu.php:215
+msgid "Privacy"
+msgstr ""
+
+#: includes/loggedin_menu.php:233
+msgctxt "save settings label"
+msgid "Save Settings"
+msgstr ""
+
+#: includes/loggedin_menu.php:298
+msgctxt "privacy option for profile drop down menu"
+msgid "All Users"
+msgstr ""
+
+#: includes/loggedin_menu.php:299
+msgctxt "privacy option for profile drop down menu"
+msgid "Students"
+msgstr ""
+
+#: includes/loggedin_menu.php:300
+msgctxt "privacy option for profile drop down menu"
+msgid "Instructors"
+msgstr ""
+
+#: includes/loggedin_menu.php:301
+msgctxt "privacy option for profile drop down menu"
+msgid "Administrators"
+msgstr ""
+
+#: includes/loggedin_menu.php:324
+msgid "Dashboard"
+msgstr ""
+
+#: includes/loggedin_menu.php:334
+msgid "Stats"
+msgstr ""
+
+#: includes/loggedin_menu.php:340
+msgid "Inbox{{inbox_count}}"
+msgstr ""
+
+#: includes/loggedin_menu.php:347
+msgid "Notifications{{notification_count}}"
+msgstr ""
+
+#: includes/loggedin_menu.php:354
+msgid "Groups"
+msgstr ""
+
+#: includes/loggedin_menu.php:418
+msgctxt "saved settings message"
+msgid "Settings saved"
+msgstr ""
+
+#: includes/member_types.php:33
+msgid "Assign member type"
+msgstr ""
+
+#: includes/member_types.php:33
+msgctxt "member types"
+msgid "None"
+msgstr ""
+
+#: includes/member_types.php:33
+msgctxt "member types"
+msgid "Enable User to select one"
+msgstr ""
+
+#: includes/member_types.php:44
+msgctxt "configure Course menu in LMS - Settings"
+msgid "Member Types"
+msgstr ""
+
+#: includes/member_types.php:104
+msgctxt "member types"
+msgid "Add another"
+msgstr ""
+
+#: includes/member_types.php:112
+msgctxt ""
+msgid "Member type singular name"
+msgstr ""
+
+#: includes/member_types.php:114
+msgctxt ""
+msgid "Member type plural name"
+msgstr ""
+
+#: includes/member_types.php:192 includes/member_types.php:193
+#: includes/member_types.php:214 includes/member_types.php:215
+msgctxt "member types"
+msgid "N.A"
+msgstr ""
+
+#: includes/member_types.php:205
+msgctxt "member types"
+msgid "Save setings"
+msgstr ""
+
+#: includes/member_types.php:206
+msgctxt "member types"
+msgid "Reset setings"
+msgstr ""
+
+#: includes/member_types.php:229
+msgctxt "member types"
+msgid "Please remove special characters."
+msgstr ""
+
+#: includes/member_types.php:305
+msgctxt "member types"
+msgid "Special Characters are not allowed"
+msgstr ""
+
+#: includes/musettings.php:95
+msgid "API"
+msgstr ""
+
+#: includes/musettings.php:96
+msgid "Commissions"
+msgstr "佣金"
+
+#: includes/musettings.php:97
+msgid "Functions"
+msgstr ""
+
+#: includes/musettings.php:98
+msgid "Import/Export"
+msgstr "导入/导出"
+
+#: includes/musettings.php:99
+msgid "Touch Points"
+msgstr "联络点"
+
+# @ text-domain
+# @ vibe-customtypes
+#: includes/musettings.php:100
+msgid "Emails"
+msgstr "邮件"
+
+#: includes/musettings.php:101
+msgid "AddOns"
+msgstr "插件"
+
+#: includes/musettings.php:159 includes/musettings.php:191
+msgid "WPLMS API Settings"
+msgstr ""
+
+#: includes/musettings.php:160
+msgid "WPLMS API settings and configuration"
+msgstr ""
+
+#: includes/musettings.php:162 includes/musettings.php:317
+msgid "General Settings"
+msgstr ""
+
+#: includes/musettings.php:163
+msgid "Keys/Apps"
+msgstr ""
+
+#: includes/musettings.php:164
+msgid "Connected Clients"
+msgstr ""
+
+#: includes/musettings.php:165
+msgid "Notifications/Updates"
+msgstr ""
+
+#: includes/musettings.php:195
+msgid "Enable API"
+msgstr ""
+
+#: includes/musettings.php:198
+msgid ""
+"WPLMS API, enables Mobile apps, WebApps and unlimited possibilities in WPLMS."
+msgstr ""
+
+#: includes/musettings.php:201
+msgid "API Version"
+msgstr ""
+
+#: includes/musettings.php:204
+msgid "Version controls cached data in Apps."
+msgstr ""
+
+#: includes/musettings.php:208
+msgid "API Security State"
+msgstr ""
+
+#: includes/musettings.php:211
+msgid "API security, used in authentications, the bigger the better."
+msgstr ""
+
+#: includes/musettings.php:215
+msgid "Enable oAuth2 Server"
+msgstr ""
+
+#: includes/musettings.php:218
+msgid ""
+"WPLMS oAuth2 server for user registration and logins from Apps. Only "
+"required if your app supports login and registration."
+msgstr ""
+
+#: includes/musettings.php:221
+msgid "Enable Registrations via API"
+msgstr ""
+
+#: includes/musettings.php:224
+msgid "Registrations via Mobile apps and WebApps."
+msgstr ""
+
+#: includes/musettings.php:235
+msgid "WPLMS Apps"
+msgstr ""
+
+#: includes/musettings.php:236
+msgid "Connected clients with WPLMS oAuth server"
+msgstr ""
+
+#: includes/musettings.php:243
+msgid "Updates"
+msgstr ""
+
+#: includes/musettings.php:244
+msgid "Send updates to all of your app users"
+msgstr ""
+
+#: includes/musettings.php:251
+msgid "Clients"
+msgstr ""
+
+#: includes/musettings.php:252
+msgid "Clients with WPLMS oAuth server"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:306
+msgid "Settings Saved"
+msgstr "设置已保存"
+
+#: includes/musettings.php:308
+msgid "Unable to Save settings"
+msgstr "无法保存设置"
+
+#: includes/musettings.php:313
+msgid "LMS General Settings"
+msgstr "LMS 常规设置"
+
+#: includes/musettings.php:314 includes/musettings.php:1162
+msgid "Import LMS functions can be managed from here."
+msgstr ""
+
+#: includes/musettings.php:318 includes/musettings.php:863
+msgid "Registration Forms"
+msgstr ""
+
+#: includes/musettings.php:340
+msgid "User Login & Registration Settings"
+msgstr ""
+
+#: includes/musettings.php:344
+msgid "Student Login redirect"
+msgstr "学生登录重定向"
+
+#: includes/musettings.php:349 includes/musettings.php:363
+#: includes/tips.php:1107
+msgid "Disable"
+msgstr "禁用"
+
+#: includes/musettings.php:350 includes/musettings.php:364
+msgid "Home page"
+msgstr "首页"
+
+#: includes/musettings.php:351 includes/musettings.php:365
+msgid "Profile page"
+msgstr "资料页"
+
+#: includes/musettings.php:352 includes/musettings.php:366
+msgid "My Courses page"
+msgstr "我的课程页面"
+
+#: includes/musettings.php:353 includes/musettings.php:368
+msgid "Dashboard page"
+msgstr "仪表盘页面"
+
+#: includes/musettings.php:354 includes/musettings.php:369
+msgid "Same page"
+msgstr "相同页面"
+
+#: includes/musettings.php:356 includes/musettings.php:371
+msgid "Default is home page"
+msgstr "默认为主页"
+
+#: includes/musettings.php:359
+msgid "Instructor Login redirect"
+msgstr "教师登录重定向"
+
+#: includes/musettings.php:367
+msgid "Instructing Courses page"
+msgstr "教师课程页面"
+
+#: includes/musettings.php:374
+msgid "Enable One session per user"
+msgstr "启用单用户单会话"
+
+#: includes/musettings.php:377
+msgid "A User can login from one unique user id (excludes administrators)"
+msgstr "用户只能通过独有的用户 ID 登录 (管理员除外)"
+
+#: includes/musettings.php:380
+msgid "Hide Administrators in Instructors"
+msgstr "从教师中隐藏管理员"
+
+#: includes/musettings.php:383
+msgid "Hide Administrator in all instructors page & elsewhere"
+msgstr "从所有教师页面 & 其它地方隐藏管理员"
+
+#: includes/musettings.php:386
+msgid "Enable message to Instructor in Course Page"
+msgstr "在课程页面启用给教师发消息"
+
+#: includes/musettings.php:389
+#, php-format
+msgid ""
+"Enables a Message icon to send message to Instructor, see %s tutorial %s"
+msgstr ""
+
+#: includes/musettings.php:392
+msgid "Enable Create course button in instructor profile menu"
+msgstr ""
+
+#: includes/musettings.php:394
+msgid "Adds a create course link in intructor profile menu"
+msgstr ""
+
+#: includes/musettings.php:398
+msgid "Show WooCommerce/Pmpro account in profile"
+msgstr "在资料中显示 WooCommerce/Pmpro 账户"
+
+#: includes/musettings.php:400
+msgid "Display WooCommerce account in profile"
+msgstr "在资料中显示 WooCommerce 账户"
+
+#: includes/musettings.php:404
+msgid "Set a terms and conditions page for BuddyPress registration"
+msgstr "给 BuddyPress 注册设置一个条款和细则页面"
+
+#: includes/musettings.php:408
+msgid "Set a terms and conditions page in BuddPress registration."
+msgstr "给 BuddyPress 注册设置一个条款和细则页面。"
+
+# @ vibe
+#: includes/musettings.php:411
+msgid "Enable Student menus"
+msgstr "启用学生菜单"
+
+#: includes/musettings.php:413
+msgid "Adds New menu locations for Students"
+msgstr "为学生添加新的菜单位置"
+
+# @ vibe
+#: includes/musettings.php:417
+msgid "Enable Instructor menus"
+msgstr "启用教师菜单"
+
+#: includes/musettings.php:419
+msgid "Adds New menu locations for Instructors"
+msgstr "为教师添加新的菜单位置"
+
+#: includes/musettings.php:423
+msgid "Assign Free courses to students on account activation"
+msgstr ""
+
+#: includes/musettings.php:425
+msgid ""
+"Enables auto-subscription to all the \"free\" courses in site to students "
+"when they signup/register and activate their account."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:429
+msgid "Course Home Settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:433
+msgid "Course Members Visibility"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:438 includes/musettings.php:451
+#: includes/musettings.php:464 includes/musettings.php:477
+#: includes/musettings.php:490
+msgid "Everyone"
+msgstr ""
+
+#: includes/musettings.php:439 includes/musettings.php:452
+#: includes/musettings.php:465 includes/musettings.php:478
+#: includes/musettings.php:491
+msgid "Logged in Users"
+msgstr ""
+
+#: includes/musettings.php:440 includes/musettings.php:453
+#: includes/musettings.php:466 includes/musettings.php:479
+#: includes/musettings.php:492
+msgid "Course Users"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:441 includes/musettings.php:454
+#: includes/musettings.php:467 includes/musettings.php:480
+#: includes/musettings.php:493
+msgid "Instructors and Admins"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:443
+msgid "Set Course/Members Visibility"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:446
+msgid "Course Curriculum Visibility"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:456
+msgid "Set Course/Curriculum Visibility"
+msgstr ""
+
+#: includes/musettings.php:459
+msgid "Course Events Visibility"
+msgstr ""
+
+#: includes/musettings.php:469
+msgid "Set Course/Events Visibility"
+msgstr ""
+
+#: includes/musettings.php:472
+msgid "Course Activity Visibility"
+msgstr ""
+
+#: includes/musettings.php:482
+msgid "Set Course/Activity Visibility"
+msgstr ""
+
+#: includes/musettings.php:485
+msgid "Course Drive Visibility"
+msgstr ""
+
+#: includes/musettings.php:495
+msgid "Set Course/Drive Visibility"
+msgstr ""
+
+#: includes/musettings.php:498
+msgid "Hide Instructor in whole Site (single instructors)"
+msgstr ""
+
+#: includes/musettings.php:501
+msgid "Disables display of instructor in the site. Suitable for 1 instructors"
+msgstr ""
+
+#: includes/musettings.php:504
+msgid "Change Pre-Required Course Condition from submitted to Evaluated"
+msgstr ""
+
+#: includes/musettings.php:507
+msgid ""
+"After enabling this students will have to wait for course evaluation by the "
+"instructor to move on to courses which have pre-requisite course under "
+"evaluation. Default : Students get access on course finish."
+msgstr ""
+
+#: includes/musettings.php:510
+msgid "Hide Members section in Single Course page"
+msgstr "在单个课程页面隐藏成员部分"
+
+#: includes/musettings.php:513
+msgid " Hides member section in course pages"
+msgstr "在课程页面隐藏成员部分"
+
+#: includes/musettings.php:516
+msgid "Show curriculum below Course description"
+msgstr "在课程描述下方显示课程体系"
+
+#: includes/musettings.php:519
+msgid "Show curriculum below course description"
+msgstr "在课程描述下方显示课程体系"
+
+# @ vibe-customtypes
+#: includes/musettings.php:522
+msgid "Disable Course Certificate image mode"
+msgstr ""
+
+#: includes/musettings.php:524
+#, php-format
+msgid "Disable course certificate in image mode. %s tutorial %s"
+msgstr ""
+
+#: includes/musettings.php:528
+msgid "Free units should only be accessible to logged in members"
+msgstr ""
+
+#: includes/musettings.php:531
+msgid ""
+"Disable free unit access for the world, only logged in users can view free "
+"units."
+msgstr ""
+
+#: includes/musettings.php:534
+msgid "Remove Finished Courses from directory"
+msgstr ""
+
+#: includes/musettings.php:536
+msgid "Auto remove finished courses from course directory for user"
+msgstr ""
+
+#: includes/musettings.php:540
+msgid "Fix Course Menu on Scroll"
+msgstr ""
+
+#: includes/musettings.php:543
+msgid "Fix the course menu on scroll only in c2, c3 and c5 layout"
+msgstr ""
+
+#: includes/musettings.php:546
+msgid "Show Course Badge & Certificate in PopUp on course details"
+msgstr ""
+
+#: includes/musettings.php:549
+msgid ""
+"Display the course badge and certificate in popup in the course details "
+"section."
+msgstr ""
+
+#: includes/musettings.php:552
+msgid ""
+"Open Login popup for non logged in users when they click on take this course "
+"button"
+msgstr ""
+
+#: includes/musettings.php:555
+msgid ""
+"Open Login popup for non logged in users when they click on take this course "
+"button for paid courses also"
+msgstr ""
+
+#: includes/musettings.php:558
+msgid "Enable Course Duration from Start Course"
+msgstr ""
+
+#: includes/musettings.php:561
+msgid ""
+"The course duration will be calculated from the time the user clicks on "
+"start course button."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:564
+msgid "Course Status Settings"
+msgstr ""
+
+#: includes/musettings.php:568
+msgid "Course Timeline Accordion style"
+msgstr "课程时间轴折叠样式"
+
+#: includes/musettings.php:571
+msgid "Show curriculum accordion style"
+msgstr "显示课程体系折叠样式"
+
+#: includes/musettings.php:574
+msgid "Disable ajax in Course unit load"
+msgstr "在课程单元载入中禁用 AJAX"
+
+#: includes/musettings.php:577
+msgid "Ajax disabled in course unit loads"
+msgstr "课程单元载入的 AJAX 已禁用"
+
+#: includes/musettings.php:581
+msgid "Show unit slug and title in Course Status page"
+msgstr ""
+
+#: includes/musettings.php:584
+msgid ""
+"Unit slug and title is displayed in the title of the course status page when "
+"user is viewing a unit"
+msgstr ""
+
+#: includes/musettings.php:587
+msgid "Auto-mark unit complete when user proceeds to next unit"
+msgstr ""
+
+#: includes/musettings.php:589
+msgid ""
+"Hides \"Mark Unit Complete\" button and auto marks the unit as completed "
+"when user proceeds to next unit."
+msgstr ""
+
+#: includes/musettings.php:593
+msgid "Auto trigger finish course button"
+msgstr ""
+
+#: includes/musettings.php:596
+msgid ""
+"Hides Finish course button and is automatically triggered on completion of "
+"all the units and quizzes."
+msgstr ""
+
+#: includes/musettings.php:599
+msgid "Skip Course status page"
+msgstr ""
+
+#: includes/musettings.php:601
+msgid ""
+"Skip the introductory page, course status description on course start or "
+"continue"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:605
+msgid "Course Pricing Settings"
+msgstr ""
+
+#: includes/musettings.php:609
+msgid "Coming soon courses"
+msgstr "即将到来的课程"
+
+#: includes/musettings.php:611
+msgid "Enable coming soon option for courses"
+msgstr "为课程启用即将到来选项"
+
+#: includes/musettings.php:615
+msgid "Enable Course Codes"
+msgstr "启用课程代码"
+
+#: includes/musettings.php:617
+msgid ""
+"Student can purchase/access courses by using custom defined codes for "
+"courses in course pricing section. Requires BuddyPress Activity."
+msgstr ""
+
+#: includes/musettings.php:621
+msgid "Enable Course external link"
+msgstr ""
+
+#: includes/musettings.php:623
+msgid ""
+"Connect \"Take this Course\" button with an external link, defined in Course "
+"Pricing section."
+msgstr ""
+
+#: includes/musettings.php:627
+msgid "Disable Auto allocation of Free courses"
+msgstr "禁用免费课程的自动分配"
+
+#: includes/musettings.php:629
+msgid "Disables auto allocation of free courses"
+msgstr "禁用免费课程的自动分配"
+
+# @ vibe-customtypes
+#: includes/musettings.php:633
+msgid "Drip Settings"
+msgstr ""
+
+#: includes/musettings.php:638
+msgid "Enable Unit Time as Drip Duration"
+msgstr "启用将单元时间作为滴注持续时间"
+
+#: includes/musettings.php:640
+msgid "Drip feed is applied based on specified Unit time."
+msgstr "滴注根据指定的单元时间来设置。"
+
+# @ vibe-customtypes
+#: includes/musettings.php:644
+msgid "Enable Section Drip feed"
+msgstr "启用章节滴注"
+
+#: includes/musettings.php:646
+msgid "Drip feed is applied section wise instead of unit wise."
+msgstr "滴注用于章节范围而不是单元范围。"
+
+# @ vibe-customtypes
+#: includes/musettings.php:652
+msgid "Unit settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:657
+msgid "Show Unit Description in Course curriculum"
+msgstr ""
+
+#: includes/musettings.php:660
+msgid "Unit descriptions appear below Unit titles in Course curriculum"
+msgstr ""
+
+#: includes/musettings.php:664
+msgid "Show User progress in Course Admin"
+msgstr "在课程管理中显示用户进展"
+
+#: includes/musettings.php:667
+msgid ""
+"Small progress bar is displayed for every user below her name in course -> "
+"admin section"
+msgstr "在每个用户的课程->管理部分他/她姓名的下面显示一个小进度条"
+
+#: includes/musettings.php:670
+msgid "Enable Unit/Quiz Start Date time"
+msgstr "启用单元/测试开始时间"
+
+#: includes/musettings.php:673
+msgid "Units and Quizzes start at a particular date and time"
+msgstr "单元和测试在特定的日期和时间开始"
+
+# @ vibe-customtypes
+#: includes/musettings.php:676
+msgid "Unit Comments/Notes"
+msgstr "单元评论/笔记"
+
+#: includes/musettings.php:678
+msgid ""
+"Enable Unit Comments only where Unit comments are enabled in post settings."
+msgstr "仅在文章设置中激活评论的情况下启用单元评论。"
+
+# @ vibe-customtypes
+#: includes/musettings.php:683
+msgid "Quiz/Assignment Settings"
+msgstr ""
+
+#: includes/musettings.php:687
+msgid "Enable In-Course Quiz"
+msgstr "启用课程内测试"
+
+#: includes/musettings.php:690
+msgid "Quizzes open inside course like units"
+msgstr "测试如同单元一样在课程内打开"
+
+#: includes/musettings.php:693
+msgid "In-Course Quiz questions per page"
+msgstr "每页显示的课程内测试问题的数目"
+
+#: includes/musettings.php:696
+msgid "set number of questions appearing per page in in-course quizzes"
+msgstr "设置课程内测试中每页显示的问题数"
+
+#: includes/musettings.php:699
+msgid "Enable passing score for Quiz"
+msgstr "启用测试通过分数"
+
+#: includes/musettings.php:701
+msgid ""
+"Set a passing score for every quiz, Student progress to next unit/quiz is "
+"restricted if user fails in quiz"
+msgstr ""
+
+#: includes/musettings.php:705
+msgid "Enable partialy marking for Quiz"
+msgstr ""
+
+#: includes/musettings.php:707
+msgid "Enables the ability to give partial marks in quizzes."
+msgstr ""
+
+#: includes/musettings.php:711
+msgid "Force Quiz availability to Course students"
+msgstr ""
+
+#: includes/musettings.php:713
+msgid ""
+"Only Course students can take the quiz. Quiz must be connected to the course "
+"in quiz settings."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:717
+msgid "Hide correct answers"
+msgstr "隐藏正确答案"
+
+#: includes/musettings.php:719
+msgid ""
+"Correct answers in quizzes are not displayed unless student has finished/"
+"submitted the course."
+msgstr "学生完成/提交课程前不会显示测试的正确答案。"
+
+#: includes/musettings.php:723
+msgid "Enable negative marking"
+msgstr "启用负分"
+
+#: includes/musettings.php:725
+msgid "Enables negative marking for questions in quizzes"
+msgstr "对测试中的问题启用负分"
+
+#: includes/musettings.php:729
+msgid "Exclude quizzes not connected to course from evaluation"
+msgstr ""
+
+#: includes/musettings.php:731
+msgid ""
+"Will not consider quizzes that are not connected to course in quiz settings "
+"in course evaluation"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:735
+msgid "Show Assignments in Course Curriculum"
+msgstr "在课程体系中显示作业"
+
+# @ vibe-customtypes
+#: includes/musettings.php:737
+msgid "Assignments will be displayed in Course Curriculum"
+msgstr "作业会显示在课程体系中"
+
+#: includes/musettings.php:741
+msgid "Display Submission time in Course/Quiz/Assignment submissions"
+msgstr "在课程/测试/作业提交中显示提交时间"
+
+#: includes/musettings.php:744
+msgid ""
+"Displays time (eg 2 hrs) with manual submissions, * requires activity to be "
+"enabled"
+msgstr "显示手动提交的时间 (例如 2 小时)，* 需要启用活动"
+
+# @ vibe-customtypes
+#: includes/musettings.php:747
+msgid "Front End Settings"
+msgstr ""
+
+#: includes/musettings.php:751
+msgid "Force Administrator Approval on every setting"
+msgstr ""
+
+#: includes/musettings.php:753
+msgid ""
+"Instructors courses will go to pending mode when settings/pricing/curriculum "
+"is saved. *Requires Admin Approval enabled in WPLMS - Course Manager"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:757
+msgid "Enable Front end course deletion"
+msgstr "启用前端课程删除"
+
+#: includes/musettings.php:759
+msgid ""
+"Instructors will be able to delete course and related content from front end"
+msgstr "教师可以从前端删除课程和相关内容"
+
+# @ vibe-customtypes
+#: includes/musettings.php:764
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: includes/musettings.php:768
+msgid "Revert pretty permalinks for Courses"
+msgstr ""
+
+#: includes/musettings.php:771
+msgid "Revert permalinks from coursname/admin to coursename/?action-"
+msgstr ""
+
+#: includes/musettings.php:775
+msgid "Enable Course forum privacy"
+msgstr "启用课程论坛隐私设置"
+
+#: includes/musettings.php:777
+msgid "Only course students can access course forums"
+msgstr "只有课程的学生可以访问课程论坛"
+
+#: includes/musettings.php:783
+msgid "Default order in course directory"
+msgstr "课程目录中的默认排序"
+
+# @ vibe-customtypes
+#: includes/musettings.php:787
+msgid "Recent"
+msgstr "最近"
+
+#: includes/musettings.php:788 includes/musettings.php:804
+#: metaboxes/library/vibe-editor.php:2384
+msgid "Alphabetical"
+msgstr "字母"
+
+# @ vibe
+#: includes/musettings.php:789
+msgid "Number of Students"
+msgstr "学生人数"
+
+#: includes/musettings.php:790
+msgid "Rating"
+msgstr "评分"
+
+# @ vibe-customtypes
+#: includes/musettings.php:791
+msgid "Upcoming courses via Start date"
+msgstr ""
+
+#: includes/musettings.php:792
+msgid "Random"
+msgstr ""
+
+#: includes/musettings.php:794 includes/musettings.php:806
+msgid "Default is menu order"
+msgstr "默认是菜单顺序"
+
+#: includes/musettings.php:797
+msgid "Default order in Members directory (clear cookies to test)"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:801
+msgid "None"
+msgstr "无"
+
+#: includes/musettings.php:802
+msgid "Last active"
+msgstr "最后活跃"
+
+#: includes/musettings.php:803
+msgid "Newest registered"
+msgstr "最新注册"
+
+#: includes/musettings.php:809
+msgid "Limit Number of Courses per Instructor"
+msgstr "显示每个教师的课程数目"
+
+#: includes/musettings.php:812
+msgid "( 0 for unlimited course per instructor )"
+msgstr "(0 表示每个教师的课程无限制)"
+
+#: includes/musettings.php:815
+msgid "Limit Number of Units Created per Instructor"
+msgstr "限制每个教师创建单元的数目"
+
+#: includes/musettings.php:818
+msgid " ( 0 for unlimited )"
+msgstr "(0 表示不限制)"
+
+#: includes/musettings.php:821
+msgid "Limit Number of Quiz Created per Instructor "
+msgstr "限制每个教师创建的测试数目"
+
+#: includes/musettings.php:824
+msgid "(0 for unlimited course per instructor )"
+msgstr "(0 表示每个教师的课程无限制)"
+
+#: includes/musettings.php:855
+msgid "You have reached your monthly post limit"
+msgstr "您已达到没有发文上限"
+
+#: includes/musettings.php:864
+#, php-format
+msgid ""
+"Build registration forms for Students and Instructors, refer %s tutorial %s"
+msgstr ""
+
+#: includes/musettings.php:866
+msgctxt ""
+"error message displayed in registration forms when xprofile are disabled"
+msgid "xProfile fields not enabled"
+msgstr ""
+
+#: includes/musettings.php:877
+msgctxt ""
+msgid "Select groups setting "
+msgstr ""
+
+#: includes/musettings.php:909
+msgctxt ""
+"error message displayed in registration forms when no xprofile fields exist"
+msgid "No fields found !"
+msgstr ""
+
+#: includes/musettings.php:919
+msgid "Auto generate username from email"
+msgstr ""
+
+#: includes/musettings.php:920
+msgid "Show password meter"
+msgstr ""
+
+#: includes/musettings.php:921
+msgid "Show Field group labels"
+msgstr ""
+
+#: includes/musettings.php:922
+msgid "Google Captcha"
+msgstr ""
+
+#: includes/musettings.php:923
+msgid "Register & Login simultaneously"
+msgstr ""
+
+#: includes/musettings.php:924
+msgid "Skip Mail verification"
+msgstr ""
+
+#: includes/musettings.php:1024
+msgctxt "Forms registered in site"
+msgid "Existing Registration forms"
+msgstr ""
+
+#: includes/musettings.php:1034
+msgid "field_meta for field description & visbility"
+msgstr ""
+
+#: includes/musettings.php:1034
+msgid "Default"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1034
+msgctxt "set a default registration form"
+msgid "Set as default"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1034
+msgctxt "delete button label"
+msgid "Settings"
+msgstr ""
+
+# @ vibe
+#: includes/musettings.php:1034
+msgctxt "delete button label"
+msgid "Delete"
+msgstr ""
+
+#: includes/musettings.php:1042
+msgid "Assign User role"
+msgstr ""
+
+#: includes/musettings.php:1042
+msgctxt "role in registration form"
+msgid "Default role"
+msgstr ""
+
+#: includes/musettings.php:1059
+msgid "Add to Buddypress group"
+msgstr ""
+
+#: includes/musettings.php:1062
+msgctxt ""
+msgid "All groups"
+msgstr ""
+
+#: includes/musettings.php:1063
+msgctxt ""
+msgid "Enable user to select from all groups"
+msgstr ""
+
+#: includes/musettings.php:1067
+msgctxt ""
+msgid "Selected Groups"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1078
+msgctxt "save form settings"
+msgid "Save"
+msgstr ""
+
+#: includes/musettings.php:1093
+msgid "Shortcode Copied !"
+msgstr ""
+
+#: includes/musettings.php:1099
+msgctxt "create registration form button label"
+msgid "Add Registration Form"
+msgstr ""
+
+#: includes/musettings.php:1100
+msgctxt "enter form name placeholder"
+msgid "Type the name of the form, avoid spaces and special characters"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1100
+msgctxt "Add form submit button label"
+msgid "Add Form"
+msgstr ""
+
+#: includes/musettings.php:1105
+msgctxt "warning message when no registration forms are found"
+msgid "No Registration forms found !"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1110
+msgctxt "connect form heading"
+msgid "Connect Forms with Fields"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1113
+msgctxt "field group prefix in registration form"
+msgid "Field Group"
+msgstr ""
+
+#: includes/musettings.php:1118
+msgctxt ""
+msgid "Field Name"
+msgstr ""
+
+#: includes/musettings.php:1130
+msgctxt "necessary fields for buddypress registration"
+msgid "Necessary"
+msgstr ""
+
+#: includes/musettings.php:1145
+msgid "There are no fields in this group."
+msgstr ""
+
+#: includes/musettings.php:1152
+msgctxt "save form fields label in registration forms lms - settings"
+msgid "Save Form fields"
+msgstr ""
+
+#: includes/musettings.php:1161
+msgid "LMS Functions [ For Ad-Hoc Management]"
+msgstr ""
+
+#: includes/musettings.php:1165
+msgid "Sync Areas"
+msgstr ""
+
+#: includes/musettings.php:1166
+msgid "Ad Hoc"
+msgstr ""
+
+#: includes/musettings.php:1176
+msgid "Custom Field Value"
+msgstr "自定义字段值"
+
+#: includes/musettings.php:1177
+msgid "Custom Field for Student Value"
+msgstr "自定义字段的学生值"
+
+#: includes/musettings.php:1178
+msgid "Custom Field for Option"
+msgstr ""
+
+#: includes/musettings.php:1179
+msgid "Custom Field Value for Post"
+msgstr ""
+
+#: includes/musettings.php:1180
+msgid "Current Time Stamp "
+msgstr "当前时间戳"
+
+#: includes/musettings.php:1185
+msgid "Synchronise LMS Data"
+msgstr ""
+
+#: includes/musettings.php:1185
+msgid "Only required in special cases when data goes out of sync."
+msgstr ""
+
+#: includes/musettings.php:1191
+msgid "Course - Students"
+msgstr ""
+
+#: includes/musettings.php:1192
+msgid "Verify Course Student Status and expiry for all students and courses"
+msgstr ""
+
+#: includes/musettings.php:1196
+msgid "Unit - Students"
+msgstr ""
+
+#: includes/musettings.php:1197
+msgid "Verify student unit completion for reusability"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1201
+msgid "Quiz Results"
+msgstr ""
+
+#: includes/musettings.php:1202
+msgid "Verify Quiz Student Status and results for all students and quizzes"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:1206
+msgid "Course Forums"
+msgstr ""
+
+#: includes/musettings.php:1207
+msgid "Auto-subscribe course users to course forums."
+msgstr ""
+
+#: includes/musettings.php:1217
+msgid "Sync Now"
+msgstr ""
+
+#: includes/musettings.php:1343 includes/musettings.php:1699
+#: metaboxes/library/vibe-editor.php:2830
+#: metaboxes/library/vibe-editor.php:2842
+#: metaboxes/library/vibe-editor.php:2865 metaboxes/meta_box.php:815
+msgid "Select"
+msgstr "选择"
+
+#: includes/musettings.php:1394
+msgid "STUDENT"
+msgstr "学生"
+
+#: includes/musettings.php:1396 includes/musettings.php:1413
+#: includes/musettings.php:1433 includes/musettings.php:1450
+msgid "Message"
+msgstr "消息"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1397 includes/musettings.php:1401
+#: includes/musettings.php:1405 includes/musettings.php:1414
+#: includes/musettings.php:1418 includes/musettings.php:1422
+#: includes/musettings.php:1434 includes/musettings.php:1438
+#: includes/musettings.php:1442 includes/musettings.php:1451
+#: includes/musettings.php:1455 includes/musettings.php:1459
+#: includes/musettings.php:2194 includes/musettings.php:2223
+#: includes/musettings.php:2252 includes/musettings.php:2292
+#: metaboxes/library/vibe-editor.php:1454
+#: metaboxes/library/vibe-editor.php:2106
+msgid "No"
+msgstr "否"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1400 includes/musettings.php:1417
+#: includes/musettings.php:1437 includes/musettings.php:1454
+msgid "Notification"
+msgstr "通知"
+
+#: includes/musettings.php:1408 includes/musettings.php:1425
+#: includes/musettings.php:1445 includes/musettings.php:1462
+#, php-format
+msgid "%s Edit Email Template %s"
+msgstr ""
+
+#: includes/musettings.php:1411 includes/musettings.php:1431
+msgid "INSTRUCTOR"
+msgstr "教师"
+
+#: includes/musettings.php:1448
+msgid "ADMINISTRATOR"
+msgstr ""
+
+#: includes/musettings.php:1485
+msgid "Instructor Commissions"
+msgstr "教师佣金"
+
+#: includes/musettings.php:1486
+msgid "Configure and pay commissions to instructors."
+msgstr "给教师设置和支付佣金。"
+
+#: includes/musettings.php:1489
+msgid "Set Commissions"
+msgstr "设置佣金"
+
+#: includes/musettings.php:1490
+msgid "Pay Commissions"
+msgstr "支付佣金"
+
+#: includes/musettings.php:1523
+msgid "Field Value Changed"
+msgstr "字段值已更改"
+
+#: includes/musettings.php:1525
+msgid "Error Field value not changed"
+msgstr "错误，字段值未改动"
+
+#: includes/musettings.php:1527
+msgid "Error Field value not entered"
+msgstr "错误，字段值未输入"
+
+#: includes/musettings.php:1540
+msgid "Student Value Changed"
+msgstr "学生值已更改"
+
+#: includes/musettings.php:1542
+msgid "Student value not changed"
+msgstr "学生值未更改"
+
+#: includes/musettings.php:1544
+msgid "Student value not entered"
+msgstr "学生值未输入"
+
+#: includes/musettings.php:1557
+msgid "Option Value Changed"
+msgstr ""
+
+#: includes/musettings.php:1559
+msgid "There was a problem"
+msgstr ""
+
+#: includes/musettings.php:1561
+msgid "Option value not entered"
+msgstr ""
+
+#: includes/musettings.php:1579
+msgid "Post Field Value Changed"
+msgstr ""
+
+#: includes/musettings.php:1581
+msgid "Error Post Field value not changed"
+msgstr ""
+
+#: includes/musettings.php:1584
+msgid "Error Post Field value not entered"
+msgstr ""
+
+#: includes/musettings.php:1593
+msgid "Set Instructor Commisions"
+msgstr "设置教师佣金"
+
+#: includes/musettings.php:1597
+msgid "Instructor Commissions Saved"
+msgstr "教师佣金已保存"
+
+#: includes/musettings.php:1599
+msgid "Instructor Commissions not saved, contact Site-Admin !"
+msgstr "教师佣金未保存，联系管理员！"
+
+#: includes/musettings.php:1608
+msgid "Course Name"
+msgstr "课程名称"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1608 includes/statistics.php:20
+#: includes/statistics.php:759 includes/tips.php:1421
+#: metaboxes/meta_box.php:825
+msgid "Instructor"
+msgstr "教师"
+
+#: includes/musettings.php:1608
+msgid "PERCENTAGE"
+msgstr "百分比"
+
+#: includes/musettings.php:1650
+msgid "Set Commisions"
+msgstr "设置佣金"
+
+#: includes/musettings.php:1655
+msgid "Pay Instructor Commisions"
+msgstr "支付教师佣金"
+
+#: includes/musettings.php:1664
+#, php-format
+msgid "Commission Payments on %s"
+msgstr "佣金支付于 %s"
+
+#: includes/musettings.php:1672
+msgid " Commission Payments Saved"
+msgstr "佣金支付已保存"
+
+#: includes/musettings.php:1674
+msgid "Commission payments not saved !"
+msgstr "佣金支付未保存！"
+
+#: includes/musettings.php:1684
+msgid "CHECK NOW"
+msgstr "现在检查"
+
+#: includes/musettings.php:1691
+msgid "SET TIME PERIOD"
+msgstr "设置时段"
+
+#: includes/musettings.php:1699
+msgid "Instructor Name"
+msgstr "教师姓名"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1699 metaboxes/meta_box.php:825
+msgid "Commission"
+msgstr "佣金"
+
+#: includes/musettings.php:1699
+msgid "PAYPAL EMAIL"
+msgstr "PayPal 邮箱"
+
+#: includes/musettings.php:1699 includes/musettings.php:1721
+msgid "Pay via PayPal"
+msgstr "通过 PayPal 支付"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1729
+msgid "Instructor Commission"
+msgstr "教师佣金"
+
+#: includes/musettings.php:1738
+msgid "Mark as Paid"
+msgstr "标记为已支付"
+
+#: includes/musettings.php:1759
+msgid "Import/Export WPLMS Elements"
+msgstr "导入/导出 WPLMS 部件"
+
+#: includes/musettings.php:1760
+msgid ""
+"Download and upload in CSV format. Import/Export WPLMS elements with user "
+"statuses: Courses, Quizzes, Units, Assignments, Questions and Events."
+msgstr ""
+"以 CSV 格式下载和上传。导入/导出带有用户状态的 WPLMS 部件：课程、测试、单元、"
+"作业、问题和事件。"
+
+#: includes/musettings.php:1762
+msgid "EXPORT SETTINGS"
+msgstr "导出设置"
+
+#: includes/musettings.php:1777
+msgid "User Touch Points"
+msgstr "用户联络点"
+
+#: includes/musettings.php:1778
+msgid ""
+"Set touch points for Students and Instructors in WPLMS. Connect with Student "
+"or Instructor via following touch points"
+msgstr "设置 WPLMS 中学生和教师的联络点。将学生和教师与下列联络点关联"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1778 includes/musettings.php:2721
+msgid "Learn more"
+msgstr "了解更多"
+
+#: includes/musettings.php:1787
+msgid "Announcements"
+msgstr ""
+
+#: includes/musettings.php:1809
+msgid "Course Subscribed"
+msgstr "课程已订阅"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1820
+msgid "User added to Course"
+msgstr "用户被加入课程"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1831
+msgid "User Starts a Course "
+msgstr "用户开始了一门课程"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1843 includes/tips.php:2151
+msgid "Course Certificate"
+msgstr "课程证书"
+
+#: includes/musettings.php:1854 includes/tips.php:2127
+msgid "Course Badge"
+msgstr "课程徽章"
+
+# @ vibe
+#: includes/musettings.php:1866
+msgid "Course Reset by Instructor"
+msgstr "教师重置课程"
+
+#: includes/musettings.php:1877
+msgid "Course Retake by User"
+msgstr "学生重学课程"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1888
+msgid "Course Submit"
+msgstr "课程提交"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1899
+msgid "Course Evaluation"
+msgstr "课程评估"
+
+#: includes/musettings.php:1910
+msgid "Course Reviews"
+msgstr "课程评价"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1921
+msgid "Unsubscribe Course"
+msgstr "退订课程"
+
+#: includes/musettings.php:1932
+msgid "Unit marked complete by User"
+msgstr "用户标记单元已完成"
+
+#: includes/musettings.php:1943
+msgid "Unit marked complete by Instructor for Student"
+msgstr ""
+
+#: includes/musettings.php:1954
+msgid "Unit marked incomplete by Instructor for Student"
+msgstr ""
+
+#: includes/musettings.php:1965
+msgid "Unit comment added by User"
+msgstr "用户添加单元评论"
+
+#: includes/musettings.php:1976
+msgid "Quiz Start by user"
+msgstr "用户开始测试"
+
+# @ vibe-customtypes
+#: includes/musettings.php:1987
+msgid "Quiz Submitted by user"
+msgstr "用户提交测试"
+
+# @ vibe
+#: includes/musettings.php:1998
+msgid "Quiz Reset by Instructor"
+msgstr "教师重置测试"
+
+#: includes/musettings.php:2009
+msgid "Quiz Retake by User"
+msgstr "用户重新开始测试"
+
+# @ vibe-customtypes
+#: includes/musettings.php:2020
+msgid "Quiz Evaluation"
+msgstr "测试评估"
+
+#: includes/musettings.php:2031
+msgid "Assignment Start by user"
+msgstr "用户开始做作业"
+
+# @ vibe-customtypes
+#: includes/musettings.php:2042
+msgid "Assignment Submitted by user"
+msgstr "用户提交作业"
+
+# @ vibe-customtypes
+#: includes/musettings.php:2053
+msgid "Assignment Evaluation"
+msgstr "作业评估"
+
+# @ vibe
+#: includes/musettings.php:2064
+msgid "Assignment Reset by Instructor"
+msgstr "教师重置作业"
+
+# @ vibe
+#: includes/musettings.php:2075
+msgid "Student applied for Course"
+msgstr ""
+
+#: includes/musettings.php:2086
+msgid "Instructor approves/rejects user application"
+msgstr ""
+
+#: includes/musettings.php:2097
+msgid "Instructor Publishes a Course or Sends for Approval"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2111
+msgid "Email Settings"
+msgstr "邮件设置"
+
+#: includes/musettings.php:2112
+msgid "Configure email template for Emails."
+msgstr ""
+
+# @ text-domain
+#: includes/musettings.php:2115
+msgid "Email Options"
+msgstr "邮件选项"
+
+#: includes/musettings.php:2116
+msgid "Email Schedule"
+msgstr "计划邮件"
+
+# @ text-domain
+# @ vibe-customtypes
+#: includes/musettings.php:2117
+msgid "Scheduled Emails"
+msgstr ""
+
+#: includes/musettings.php:2145
+msgid "FROM \"Name\""
+msgstr "发送自 \"名字\""
+
+#: includes/musettings.php:2148
+msgid "Name from which the email will be sent"
+msgstr ""
+
+#: includes/musettings.php:2151
+msgid "FROM \"Email\""
+msgstr "发送自 \"邮件\""
+
+#: includes/musettings.php:2154
+msgid "Email from which the email will be sent"
+msgstr ""
+
+#: includes/musettings.php:2157
+msgid "Contact Form email"
+msgstr ""
+
+#: includes/musettings.php:2160 includes/musettings.php:2167
+#: includes/musettings.php:2174
+msgctxt "lms settings button"
+msgid "Edit email template"
+msgstr ""
+
+#: includes/musettings.php:2161
+msgid "Contact Form email sent when using contact form shortcode."
+msgstr ""
+
+#: includes/musettings.php:2164
+msgid "Edit Activation email"
+msgstr ""
+
+#: includes/musettings.php:2168
+msgid "Activation email sent by BuddyPress on user registration."
+msgstr ""
+
+#: includes/musettings.php:2171
+msgid "Edit Forgot Password email"
+msgstr ""
+
+#: includes/musettings.php:2175
+msgid ""
+"Forgot password email sent by WordPress when user clicks on forgot password "
+"link."
+msgstr ""
+
+#: includes/musettings.php:2185
+#, php-format
+msgid "Schedule Drip Feed Email %s Edit Email %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2190
+msgid "Enable Drip Feed Email"
+msgstr "启用滴注邮件"
+
+#: includes/musettings.php:2197
+msgid "Email students when the drip feed units are available"
+msgstr "当滴注的单元可用时向学生发送邮件"
+
+# @ text-domain
+# @ vibe-customtypes
+#: includes/musettings.php:2200 includes/musettings.php:2229
+msgid "Schedule Email"
+msgstr "计划邮件"
+
+#: includes/musettings.php:2204
+msgid "Before 24 Hours of unit availability"
+msgstr "在单元可用的 24 小时前"
+
+#: includes/musettings.php:2205
+msgid "Before 12 Hours of unit availability"
+msgstr "在单元可用的 12 小时前"
+
+#: includes/musettings.php:2206
+msgid "Before 6 Hours of unit availability"
+msgstr "在单元可用的 6 小时前"
+
+#: includes/musettings.php:2207
+msgid "Before 1 Hours of unit availability"
+msgstr "在单元可用的 1 小时前"
+
+#: includes/musettings.php:2208
+msgid "When Unit is available"
+msgstr "当单元可用时"
+
+#: includes/musettings.php:2210 includes/musettings.php:2239
+#: includes/musettings.php:2261 includes/musettings.php:2301
+msgid "Accuracy of email depends upon site traffic and resources."
+msgstr "邮件的精确性取决于站点的流量和资源。"
+
+#: includes/musettings.php:2214
+#, php-format
+msgid "Schedule Course Expiry Email %s Edit Email %s"
+msgstr ""
+
+#: includes/musettings.php:2219
+msgid "Enable Course Expire Email"
+msgstr "启用课程过期邮件"
+
+# @ vibe
+#: includes/musettings.php:2226
+msgid "Email students when the course expires"
+msgstr "在课程过期时给学生发邮件"
+
+#: includes/musettings.php:2233
+msgid "Before 24 Hours of Course expiry"
+msgstr "在课程过期 24 小时前"
+
+#: includes/musettings.php:2234
+msgid "Before 12 Hours of Course expiry"
+msgstr "在课程过期 12 小时前"
+
+#: includes/musettings.php:2235
+msgid "Before 6 Hours of Course expiry"
+msgstr "在课程过期 6 小时前"
+
+#: includes/musettings.php:2236
+msgid "Before 1 Hours of Course expiry"
+msgstr "在课程过期 1 小时前"
+
+#: includes/musettings.php:2237
+msgid "When Course expires"
+msgstr "当课程过期时"
+
+#: includes/musettings.php:2243
+#, php-format
+msgid "Schedule Inactive Users Email %s Edit Email %s"
+msgstr ""
+
+#: includes/musettings.php:2248
+msgid "Enable Inactive Users Email"
+msgstr ""
+
+#: includes/musettings.php:2255
+msgid ""
+"Email users when they are inactive on the website for a specifc time period"
+msgstr ""
+
+#: includes/musettings.php:2258
+msgid "Schedule Inactivity Email (in days)"
+msgstr ""
+
+#: includes/musettings.php:2264
+msgid "Number of days, email is to be sent daily"
+msgstr ""
+
+#: includes/musettings.php:2267
+msgid "Number of days the email will be sent daily."
+msgstr ""
+
+#: includes/musettings.php:2270
+msgid "Number of weeks, email is to be sent weekly"
+msgstr ""
+
+#: includes/musettings.php:2273
+msgid "Number of Weeks the email will be sent weekly."
+msgstr ""
+
+#: includes/musettings.php:2276
+msgid "Number of months, email is to be sent monthly"
+msgstr ""
+
+#: includes/musettings.php:2279
+msgid "Number of Months the email will be sent monthly."
+msgstr ""
+
+#: includes/musettings.php:2283
+#, php-format
+msgid "Schedule Course Review Email %s Edit Email %s"
+msgstr ""
+
+#: includes/musettings.php:2288
+msgid "Enable Course Review Email"
+msgstr ""
+
+#: includes/musettings.php:2295
+msgid ""
+"Email students when the course is finished and the user has not given any "
+"review to the course"
+msgstr ""
+
+#: includes/musettings.php:2298
+msgid "Schedule Course Review Email (in days)"
+msgstr ""
+
+#: includes/musettings.php:2329
+msgid "Cron removed."
+msgstr ""
+
+#: includes/musettings.php:2329 includes/musettings.php:2331
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/musettings.php:2331
+msgid "There was an error while removing cron."
+msgstr ""
+
+#: includes/musettings.php:2338
+msgid "Are you sure you want to remove this schedule?"
+msgstr ""
+
+#: includes/musettings.php:2353 includes/musettings.php:2366
+msgid "Remove Schedule"
+msgstr ""
+
+#: includes/musettings.php:2374
+msgid "Course Expiry mail"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2374
+msgid "Drip feed mail"
+msgstr ""
+
+#: includes/musettings.php:2374
+msgid "N.A"
+msgstr ""
+
+# @ text-domain
+# @ vibe-customtypes
+#: includes/musettings.php:2380 includes/musettings.php:2383
+msgid "No Scheduled emails"
+msgstr ""
+
+#: includes/musettings.php:2391
+msgid "Custom Learning Paths"
+msgstr ""
+
+#: includes/musettings.php:2392
+msgid "Custom Learning Paths for WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2403
+msgid "Video Vibe"
+msgstr ""
+
+#: includes/musettings.php:2404
+msgid "Upload videos directly from WP media panel to your Video account."
+msgstr ""
+
+#: includes/musettings.php:2415
+msgid "WPLMS Gift Course"
+msgstr ""
+
+#: includes/musettings.php:2416
+msgid "Gift Courses to users via emails in WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2427
+msgid "WPLMS Batches"
+msgstr ""
+
+#: includes/musettings.php:2428
+msgid "Course Batches for WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2439
+msgid "WPLMS S3"
+msgstr "WPLMS S3"
+
+#: includes/musettings.php:2440
+msgid "Secure files using Amazon S3."
+msgstr "使用 Amazon S3 保护文件。"
+
+#: includes/musettings.php:2451
+msgid "WPLMS Mailchimp"
+msgstr ""
+
+#: includes/musettings.php:2452
+msgid "Mailchimp Lists for WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2463
+msgid "WPLMS WooCommerce"
+msgstr "WPLMS WooCommerce"
+
+#: includes/musettings.php:2464
+msgid "Integrate WPLMS with WooCommerce."
+msgstr "整合 WPLMS 和 WooCommerce。"
+
+#: includes/musettings.php:2475
+msgid "WPLMS Wishlists"
+msgstr ""
+
+#: includes/musettings.php:2476
+msgid "Create unlimited, sharable wishlists."
+msgstr ""
+
+#: includes/musettings.php:2487
+msgid "WPLMS Custom Course Navigation"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/musettings.php:2488
+msgid "Customise Course Sections"
+msgstr ""
+
+#: includes/musettings.php:2498
+msgid "WPLMS CoAuthors Plus"
+msgstr "WPLMS CoAuthors Plus"
+
+#: includes/musettings.php:2499
+msgid "Integrate  WP CoAuhors plus plugin"
+msgstr "整合 WP CoAuthors plus 插件"
+
+#: includes/musettings.php:2509
+msgid "WPLMS GA (Google Analytics)"
+msgstr ""
+
+#: includes/musettings.php:2510
+msgid "Integrate Google Analytics with WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2520
+msgid "WPLMS BBB (Big Blue Button)"
+msgstr ""
+
+#: includes/musettings.php:2521
+msgid "Integrate Big Blue Button with WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2531
+msgid "WPLMS H5P Plugin"
+msgstr ""
+
+#: includes/musettings.php:2532
+msgid "Integrate H5P with WPLMS"
+msgstr ""
+
+#: includes/musettings.php:2542
+msgid "WP Courseware to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2543
+msgid "Migrate Courses from WP Courseware to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2553
+msgid "Clevercourse to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2554
+msgid "Migrate Courses from Clevercourse to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2564
+msgid "Academy to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2565
+msgid "Migrate Courses from Academy theme to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2575
+msgid "Woo Sensei to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2576
+msgid "Migrate Courses from Woo Sensei to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2586
+msgid "Learndash to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2587
+msgid "Migrate Courses from Learndash to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2597
+msgid "Learnpress to WPLMS Migration"
+msgstr ""
+
+#: includes/musettings.php:2598
+msgid "Migrate Courses from Learnpress to WPLMS."
+msgstr ""
+
+#: includes/musettings.php:2608
+msgid "WPLMS BadgeOS"
+msgstr "WPLMS BadgeOS"
+
+#: includes/musettings.php:2609
+msgid "Connect BadgeOS badges with WPLMS"
+msgstr "将 BadgeOS 的徽章和 WPLMS 关联"
+
+#: includes/musettings.php:2619
+msgid "WPLMS DW Q&A"
+msgstr "WPLMS DW Q&A"
+
+#: includes/musettings.php:2620
+msgid "Integrate DW Questions & Answer with WPLMS"
+msgstr "整合 DW 问答和 WPLMS"
+
+#: includes/musettings.php:2630
+msgid "WPLMS Easy Digital Downloads"
+msgstr "WPLMS Easy Digital Downloads"
+
+#: includes/musettings.php:2631
+msgid "Connect Easy Digital downloads with WPLMS"
+msgstr "将 Easy Digital Downloads 和 WPLMS 关联"
+
+#: includes/musettings.php:2641
+msgid "BP Social Connect"
+msgstr "BP Social Connect"
+
+#: includes/musettings.php:2642
+msgid "Connect your BuddyPress site with Social networks Login &  Registration"
+msgstr "将您的 BuddyPress 站点和社交网络登录 & 注册关联起来"
+
+#: includes/musettings.php:2652
+msgid "BP Profile Cover"
+msgstr "BP Profile Cover"
+
+# @ vibe
+#: includes/musettings.php:2653
+msgid "Add cover images to Profiles"
+msgstr "给资料添加封面图片"
+
+#: includes/musettings.php:2663
+msgid "WPLMS Custom Certificate Codes"
+msgstr "WPLMS 自定义证书代码"
+
+#: includes/musettings.php:2664
+msgid "Define custom certificate codes for Certificates"
+msgstr "为证书定义自定义证书代码"
+
+#: includes/musettings.php:2703
+msgid "Enter License Key"
+msgstr "输入 License Key"
+
+#: includes/musettings.php:2717
+msgid "License Key"
+msgstr "License Key"
+
+#: includes/musettings.php:2857
+msgid "Unable to update key."
+msgstr "无法更新 Key。"
+
+#: includes/musettings.php:2861
+msgid "Key Updated."
+msgstr "Key 已更新。"
+
+#: includes/musettings.php:2990
+#, php-format
+msgid "%s redundant records removed. Course Student verification completed."
+msgstr ""
+
+#: includes/musettings.php:3026
+msgid "Quiz results sync complete !"
+msgstr ""
+
+#: includes/musettings.php:3059
+msgid "Course - Units - Student sync complete !"
+msgstr ""
+
+#: includes/musettings.php:3088
+msgid "Course - Forums sync complete !"
+msgstr ""
+
+#: includes/permalinks.php:35
+msgid "Courses permalink base"
+msgstr "课程固定链接前缀"
+
+#: includes/permalinks.php:38
+msgid "Course category base"
+msgstr ""
+
+#: includes/permalinks.php:51
+msgctxt "slug"
+msgid "course-cat"
+msgstr ""
+
+#: includes/permalinks.php:70
+msgid ""
+"These settings control the permalinks used for courses. These settings only "
+"apply when <strong>not using \"default\" permalinks above</strong>."
+msgstr ""
+"这些设置控制课程中的固定链接。这些设置仅在<strong>没有使用上面的 \"默认\" 固"
+"定链接时</strong>应用。"
+
+# @ vibe-customtypes
+#: includes/permalinks.php:87
+msgctxt "default-slug"
+msgid "course"
+msgstr "课程"
+
+#: includes/permalinks.php:104
+msgid "Course Directory"
+msgstr "课程目录"
+
+# @ vibe-customtypes
+#: includes/permalinks.php:109 includes/permalinks.php:125
+#: includes/permalinks.php:141 includes/permalinks.php:159
+msgid "Custom Base"
+msgstr "自定义前缀"
+
+#: includes/permalinks.php:111 includes/permalinks.php:127
+#: includes/permalinks.php:143 includes/permalinks.php:161
+msgid ""
+"Enter a custom base to use. A base <strong>must</strong> be set or WordPress "
+"will use default instead."
+msgstr ""
+"输入一个自定义前缀。<strong>必须</strong>设置前缀，否则 WordPress 会使用默认"
+"值。"
+
+# @ vibe-customtypes
+#: includes/permalinks.php:118
+msgid "Quiz Permalinks"
+msgstr "测试的固定链接"
+
+# @ vibe-customtypes
+#: includes/permalinks.php:134
+msgid "Unit Permalinks"
+msgstr "单元的固定链接"
+
+#: includes/permalinks.php:152
+msgid "News Permalinks"
+msgstr ""
+
+#: includes/permalinks.php:168
+msgid "Course Action End points"
+msgstr ""
+
+#: includes/permalinks.php:169
+msgid ""
+"Course action points, these endpoints are appended to your course URLs to "
+"handle specific actions. They should be unique."
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:175
+msgid "Course Curriculum slug"
+msgstr ""
+
+#: includes/permalinks.php:181
+msgid "Course Activity slug"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:187
+msgid "Course Members slug"
+msgstr ""
+
+#: includes/permalinks.php:191
+msgid "Admin"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:193
+msgid "Course Admin slug"
+msgstr ""
+
+#: includes/permalinks.php:197
+msgid "Submissions"
+msgstr ""
+
+#: includes/permalinks.php:199
+msgid "Course Admin - Submissions slug"
+msgstr ""
+
+#: includes/permalinks.php:205
+msgid "Course Admin - Statistics slug"
+msgstr ""
+
+#: includes/permalinks.php:214
+msgid "Course Admin - News slug"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/permalinks.php:292
+msgctxt "slug"
+msgid "course"
+msgstr "课程"
+
+#: includes/permalinks.php:330
+msgctxt "default-slug"
+msgid "shop"
+msgstr "购物"
+
+#: includes/statistics.php:18 includes/statistics.php:26
+#: includes/statistics.php:76 includes/statistics.php:82
+#: includes/statistics.php:86
+msgid "Overview"
+msgstr "总览"
+
+# @ vibe-customtypes
+#: includes/statistics.php:21 includes/statistics.php:760
+msgid "Students"
+msgstr "学生"
+
+#: includes/statistics.php:22 includes/statistics.php:812
+msgid "Download Stats"
+msgstr "下载统计表"
+
+#: includes/statistics.php:27
+msgid "My Courses"
+msgstr "我的课程"
+
+#: includes/statistics.php:77
+msgid "Daily"
+msgstr "每天"
+
+#: includes/statistics.php:78
+msgid "Monthly"
+msgstr "每月"
+
+#: includes/statistics.php:79
+msgid "Custom"
+msgstr "自定义"
+
+#: includes/statistics.php:83
+msgid "Most Students"
+msgstr "大部分学生"
+
+#: includes/statistics.php:87
+msgid "Popular"
+msgstr "受欢迎的"
+
+# @ vibe
+#: includes/statistics.php:144
+msgid "Subscriptions"
+msgstr "订阅"
+
+# @ vibe
+#: includes/statistics.php:149
+msgid "Number of students"
+msgstr "学生人数"
+
+#: includes/statistics.php:186
+msgid "Custom Date Selection"
+msgstr ""
+
+# @ vibe
+#: includes/statistics.php:242 includes/statistics.php:1059
+msgid "Total Students"
+msgstr "学生总数"
+
+# @ vibe
+#: includes/statistics.php:243 includes/statistics.php:249
+#: includes/statistics.php:255 includes/statistics.php:261
+#: includes/statistics.php:267 includes/statistics.php:591
+#: includes/statistics.php:597 includes/statistics.php:603
+#: includes/statistics.php:609 includes/statistics.php:615
+#: includes/statistics.php:938 includes/statistics.php:944
+#: includes/statistics.php:950 includes/statistics.php:1061
+#: includes/statistics.php:1067 includes/statistics.php:1073
+#: includes/statistics.php:1177 includes/statistics.php:1183
+#: includes/statistics.php:1189 includes/statistics.php:1435
+#: includes/statistics.php:1441 includes/statistics.php:1447
+#: includes/statistics.php:1453
+msgid "n/a"
+msgstr "N/A"
+
+# @ vibe
+#: includes/statistics.php:248 includes/statistics.php:936
+msgid "Total Instructors"
+msgstr "教师总数"
+
+# @ vibe
+#: includes/statistics.php:254
+msgid "Total Course Taken"
+msgstr "选课总数"
+
+# @ vibe
+#: includes/statistics.php:260
+msgid "Total Badges"
+msgstr "徽章总数"
+
+# @ vibe
+#: includes/statistics.php:266
+msgid "Total Certificates"
+msgstr "证书总数"
+
+# @ vibe
+#: includes/statistics.php:274 includes/statistics.php:1196
+msgid "This year's monthly subscriptions"
+msgstr "本年度每月订阅量"
+
+# @ vibe
+#: includes/statistics.php:276 includes/statistics.php:1198
+msgid "This month's daily subscriptions"
+msgstr "本月分每天订阅量"
+
+# @ vibe
+#: includes/statistics.php:372 includes/statistics.php:1282
+msgid "Number of Courses Started"
+msgstr "开始学习的课程数目"
+
+# @ vibe
+#: includes/statistics.php:589
+msgid "Total Students taking courses"
+msgstr "正在学习课程的学生总数"
+
+# @ vibe
+#: includes/statistics.php:595
+msgid "Courses Started By Students"
+msgstr "学生开始学习的课程"
+
+# @ vibe
+#: includes/statistics.php:601
+msgid "Total Courses Finished by Students"
+msgstr "学生完成的课程总数"
+
+# @ vibe
+#: includes/statistics.php:607
+msgid "Total Units Finished by Students"
+msgstr "学生完成的单元总数"
+
+# @ vibe
+#: includes/statistics.php:613
+msgid "Total Quiz Finished by Students"
+msgstr "学生完成的测试总数"
+
+#: includes/statistics.php:657 includes/statistics.php:1091
+msgid "Prev"
+msgstr "上一个"
+
+#: includes/statistics.php:666 includes/statistics.php:1100
+msgid "Next"
+msgstr "下一个"
+
+#: includes/statistics.php:753
+msgid "Download Standard Reports"
+msgstr "下载标准报告"
+
+#: includes/statistics.php:814
+msgid "Generate report"
+msgstr "生成报告"
+
+# @ vibe
+#: includes/statistics.php:942
+msgid "Total Courses Evaluated by Instructor"
+msgstr "教师已评估的课程总数"
+
+# @ vibe
+#: includes/statistics.php:948
+msgid "Total Quiz Evaluated by Instructor"
+msgstr "教师已评估的测试总数"
+
+#: includes/statistics.php:1065
+msgid "Total Active Students"
+msgstr "活跃的学生总数"
+
+#: includes/statistics.php:1071
+msgid "Total Course Students "
+msgstr "学习课程的学生总数"
+
+# @ vibe
+#: includes/statistics.php:1175
+msgid "Total Students in My Courses"
+msgstr "我的课程中的学生总数"
+
+# @ vibe
+#: includes/statistics.php:1181
+msgid "Total Badges given in My Courses"
+msgstr "我的课程中颁发的徽章总数"
+
+# @ vibe
+#: includes/statistics.php:1187
+msgid "Total Certificates given in My Courses"
+msgstr "我的课程中颁发的证书总数"
+
+# @ vibe
+#: includes/statistics.php:1433
+msgid "Total Students taking my courses"
+msgstr "学习我的课程的学生总数"
+
+# @ vibe
+#: includes/statistics.php:1439
+msgid "My Courses Finished by Students"
+msgstr "我的课程中学生完成的课程数"
+
+# @ vibe
+#: includes/statistics.php:1445
+msgid "My Units Finished by Students"
+msgstr "我的单元中学生完成的单元数"
+
+# @ vibe
+#: includes/statistics.php:1451
+msgid "My Quiz Finished by Students"
+msgstr "我的测试中学生完成的测试数"
+
+# @ vibe-customtypes
+#: includes/tips.php:432
+msgid "Take the Course to Start the Quiz"
+msgstr ""
+
+#: includes/tips.php:695
+msgid "Please Check Terms & Conditions"
+msgstr "请检查条款 & 细则"
+
+#: includes/tips.php:721
+msgid " I agree to these Terms and Conditions"
+msgstr "我同意这些条款和细则"
+
+#: includes/tips.php:847
+msgctxt "vibe-customtypes"
+msgid "UNLIMITED"
+msgstr ""
+
+#: includes/tips.php:872
+msgid "Quiz passing marks/score"
+msgstr ""
+
+#: includes/tips.php:873
+msgid ""
+"Passing marks/score for quiz. Combined with Prev.Unit/Quiz lock the user "
+"progress can be restricted."
+msgstr ""
+
+#: includes/tips.php:886
+msgid "SET QUIZ PASSING SCORE"
+msgstr "设置测试通过分数"
+
+#: includes/tips.php:931
+msgid "NEGATIVE MARKS PER QUESTION"
+msgstr "每个问题的负分"
+
+# @ vibe-customtypes
+#: includes/tips.php:946
+msgid "Clear marked answer"
+msgstr ""
+
+#: includes/tips.php:966
+msgid "Negative Marks per Question"
+msgstr "每个问题的负分"
+
+# @ vibe-customtypes
+#: includes/tips.php:967
+msgid "Deduct marks for a Wrong answer."
+msgstr "为错误的答案扣分。"
+
+#: includes/tips.php:1060
+msgid "COMING SOON"
+msgstr "即将到来"
+
+#: includes/tips.php:1075
+msgid "Coming soon Mode"
+msgstr "即将到来模式"
+
+#: includes/tips.php:1076
+msgid "Enable Coming soon mode"
+msgstr "启用即将到来模式"
+
+#: includes/tips.php:1104
+msgid "Coming Soon mode"
+msgstr "即将到来模式"
+
+# @ vibe-customtypes
+#: includes/tips.php:1109
+msgid "Enable"
+msgstr "启用"
+
+#: includes/tips.php:1324
+msgid "Top Menu for Students"
+msgstr "用于学生的顶部菜单"
+
+#: includes/tips.php:1325
+msgid "Main Menu for Students"
+msgstr "用于学生的主要菜单"
+
+# @ vibe
+#: includes/tips.php:1326
+msgid "Mobile Menu for Students"
+msgstr "用于学生的移动菜单"
+
+# @ vibe-customtypes
+#: includes/tips.php:1333
+msgid "Top Menu for Instructor"
+msgstr "用于教师的顶部菜单"
+
+# @ vibe-customtypes
+#: includes/tips.php:1334
+msgid "Main Menu for Instructor"
+msgstr "用于教师的主要菜单"
+
+# @ vibe-customtypes
+#: includes/tips.php:1335
+msgid "Mobile Menu for Instructor"
+msgstr "用于教师的移动菜单"
+
+# @ vibe-customtypes
+#: includes/tips.php:1347
+msgid "Create a Course"
+msgstr ""
+
+# @ vibe-customtypes
+#: includes/tips.php:1374
+msgid "Make Instructor"
+msgstr "成为教师"
+
+#: includes/tips.php:1416
+msgid "There was some error"
+msgstr "出现了一些错误"
+
+#: includes/tips.php:1418
+msgid "Make Student"
+msgstr "成为学生"
+
+#: includes/tips.php:1436
+msgid "Send Message"
+msgstr "发送消息"
+
+# @ text-domain
+# @ vibe-customtypes
+#: includes/tips.php:1440
+msgid "Send Email"
+msgstr "发送邮件"
+
+#: includes/tips.php:1531
+msgid "Congratulations ! You've been subscribed to the course"
+msgstr ""
+
+# @ vibe
+#: includes/tips.php:1535
+msgid "Course not available for subscription."
+msgstr ""
+
+#: includes/tips.php:1559
+msgid "TAKE THIS COURSE"
+msgstr ""
+
+#: includes/tips.php:1578
+msgid "My Orders"
+msgstr "我的订单"
+
+# @ vibe-customtypes
+#: includes/tips.php:1589
+msgid "My Membership"
+msgstr "我的成员资格"
+
+#: includes/tips.php:1618 includes/tips.php:1624
+msgid "Code does not exist. Please check the code."
+msgstr "代码不存在。请检查代码。"
+
+#: includes/tips.php:1639 includes/tips.php:1650
+msgid "Congratulations! You are now added to the course."
+msgstr "恭喜！您已经加入到课程中。"
+
+#: includes/tips.php:1641 includes/tips.php:1652
+msgid "User already in course."
+msgstr "用户已经在课程中。"
+
+# @ vibe-customtypes
+#: includes/tips.php:1644
+msgid "Maximum number of usage for course code exhausted"
+msgstr "课程代码的最大可用次数"
+
+#: includes/tips.php:1680
+msgid "Course Codes"
+msgstr "课程代码"
+
+#: includes/tips.php:1681
+msgid "Enter Course codes (XXX|2,YYY|4)"
+msgstr "输入课程代码 (XXX|2，YYY|4)"
+
+#: includes/tips.php:1696
+msgid "Set Course purchase codes"
+msgstr "设置课程购买代码"
+
+#: includes/tips.php:1697
+msgid ""
+"Student can gain access to Course using course codes (multiple codes comma "
+"separated, usage count pipe saperate eg : xxx|2,yyy|4)"
+msgstr ""
+
+#: includes/tips.php:1706
+msgid "Access Date"
+msgstr "访问日期"
+
+# @ vibe-customtypes
+#: includes/tips.php:1707
+msgid "Date on which unit is accessible"
+msgstr "可以访问单元的日期"
+
+#: includes/tips.php:1712
+msgid "Access Time"
+msgstr "访问时间"
+
+#: includes/tips.php:1713
+msgid "Time after which unit is accessible"
+msgstr "在多久之后单元可以访问"
+
+#: includes/tips.php:1747
+msgid "Unit access date"
+msgstr "单元访问日期"
+
+#: includes/tips.php:1748
+msgid "Access date"
+msgstr "访问日期"
+
+#: includes/tips.php:1750
+msgid "Unit access time"
+msgstr "单元访问时间"
+
+#: includes/tips.php:1751
+msgid "Access time"
+msgstr "访问时间"
+
+# @ vibe-customtypes
+#: includes/tips.php:1910
+msgid "No Description Found"
+msgstr ""
+
+#: includes/tips.php:1949
+msgid "<strong>ERROR</strong>: User already logged in."
+msgstr "<strong>错误</strong>：用户已经登录。"
+
+#: includes/tips.php:1959
+msgid "External Course button link"
+msgstr ""
+
+#: includes/tips.php:1960
+msgid "Connect Course button to an external page (Leave blank to skip)"
+msgstr ""
+
+#: includes/tips.php:1961
+msgid "Enter the external page url. Leave blank or 0 to skip"
+msgstr ""
+
+#: includes/tips.php:2240
+msgid "WPLMS Course codes widget"
+msgstr "WPLMS 课程代码小工具"
+
+#: includes/tips.php:2242
+msgid "WPLMS Course Codes"
+msgstr "WPLMS 课程代码"
+
+#: includes/tips.php:2272
+msgid "Submit"
+msgstr "提交"
+
+# @ vibe-customtypes
+#: includes/tips.php:2288
+msgid "Enter Course code"
+msgstr "输入课程代码"
+
+#: includes/tips.php:2289
+msgid "Place holder text"
+msgstr "占位文本"
+
+#: includes/tips.php:2295
+msgid "Course Codes input box text"
+msgstr "课程代码输入框的文本"
+
+#: includes/tips.php:2296
+msgid "Hide Course codes for Course members"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:92
+msgid "Description (HTML & Shortcodes allowed)"
+msgstr "描述 (允许HTML & 短代码)"
+
+#: metaboxes/library/vibe-editor.php:95
+msgid "Delete this slide"
+msgstr "删除这个幻灯片"
+
+#: metaboxes/library/vibe-editor.php:96
+msgid "Change image"
+msgstr "改变图片"
+
+#: metaboxes/library/vibe-editor.php:458
+msgctxt "no user found in selection in page builder member block"
+msgid "No terms found."
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:532
+msgctxt "no user found in selection in page builder member block"
+msgid "No user found."
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1099
+msgid "Loading.."
+msgstr "读取...."
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1100
+msgid "No more to load"
+msgstr "没有更多可载入"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1454
+msgid "Confirm Delete?"
+msgstr "确认删除？"
+
+# @ vibe-customtypes
+# @ vibe
+#: metaboxes/library/vibe-editor.php:1454
+#: metaboxes/library/vibe-editor.php:2685
+msgid "Saving..."
+msgstr "保存..."
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1454
+msgid "Saved."
+msgstr "已保存。"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1503
+msgid "Carousels/Rotating Blocks"
+msgstr "轮播/轮换区块"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1507
+#: metaboxes/library/vibe-editor.php:2154
+#: metaboxes/library/vibe-editor.php:2371
+msgid "Title/Heading"
+msgstr "标题"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1509
+#: metaboxes/library/vibe-editor.php:1664
+#: metaboxes/library/vibe-editor.php:1773
+#: metaboxes/library/vibe-editor.php:2156
+#: metaboxes/library/vibe-editor.php:2373
+msgid "Heading"
+msgstr "标题"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1513
+#: metaboxes/library/vibe-editor.php:1667
+#: metaboxes/library/vibe-editor.php:1776
+#: metaboxes/library/vibe-editor.php:2160
+msgid "Show Title"
+msgstr "显示标题"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1520
+#: metaboxes/library/vibe-editor.php:2167
+msgid "Show more link"
+msgstr "显示更多链接"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1527
+#: metaboxes/library/vibe-editor.php:2174
+msgid "More Link (User redirected to this page on click)"
+msgstr "更多链接 (用户点击后重定向到此页)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1533
+#: metaboxes/library/vibe-editor.php:2180
+#: metaboxes/library/vibe-editor.php:2381
+#: metaboxes/library/vibe-editor.php:2388
+#: metaboxes/library/vibe-editor.php:2394
+msgid "Show Direction arrows"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1540
+#: metaboxes/library/vibe-editor.php:2187
+#: metaboxes/library/vibe-editor.php:2400
+msgid "Show Control dots"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1548
+msgid ""
+"Enter Post Type<br /><span style=\"font-size:11px;\">(Select Post Type from "
+"Posts/Courses/Clients/Products ...)</span>"
+msgstr ""
+"输入文章类型 <br /><span style=\"font-size:11px;\">(从文章/课程/客户/商品..."
+"中选择文章类型)</span>"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1551
+#: metaboxes/library/vibe-editor.php:1676
+#: metaboxes/library/vibe-editor.php:1785
+msgid "post"
+msgstr "文章"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1555
+#: metaboxes/library/vibe-editor.php:1789
+msgid ""
+"Enter Taxonomy Slug (optional)<br /><span style=\"font-size:11px;\">(A "
+"\"Taxonomy\" is a grouping mechanism for posts. Like Category for Posts, "
+"Tags for Posts, Portfolio Type for Portfolio etc.. <a href=\"http://codex."
+"wordpress.org/Taxonomies\">more</a>)</span> "
+msgstr ""
+"输入分类法别名 (可选)<br /><span style=\"font-size:11px;\">(\"分类法\" 是文章"
+"的分组机制。例如文章的分类、文章的标签以及组合的组合类型等...<a href="
+"\"http://codex.wordpress.org/Taxonomies\">更多</a>)</span> "
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1561
+msgid ""
+"Enter Taxonomy Term Slug (optional, only if above is selected, comma "
+"saperated for multiple terms): "
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1566
+msgid "Or Enter Specific Post Ids"
+msgstr "或输入特定文章 ID"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1571
+#: metaboxes/library/vibe-editor.php:1689
+#: metaboxes/library/vibe-editor.php:1806
+msgid "Course Types [Only for Post type = Course]"
+msgstr "课程类型 [仅用于文章类型是课程的]"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1583
+#: metaboxes/library/vibe-editor.php:1701
+#: metaboxes/library/vibe-editor.php:1818
+msgid "recent"
+msgstr "最近"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1586
+msgid "Carousel/Rotating Block Style"
+msgstr "轮播/轮换区块样式"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1589
+#: metaboxes/library/vibe-editor.php:1707
+#: metaboxes/library/vibe-editor.php:1824
+msgid "excerpt"
+msgstr "摘要"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1592
+#: metaboxes/library/vibe-editor.php:2222
+#: metaboxes/library/vibe-editor.php:2406
+msgid "Auto slide/rotate"
+msgstr "自动滑动/轮换"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1598
+#: metaboxes/library/vibe-editor.php:2228
+#: metaboxes/library/vibe-editor.php:2412
+msgid "Width each crousel block"
+msgstr "每个轮播区块的宽度"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1600
+#: metaboxes/library/vibe-editor.php:2230
+#: metaboxes/library/vibe-editor.php:2414
+msgid "268"
+msgstr "268"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1603
+#: metaboxes/library/vibe-editor.php:2233
+#: metaboxes/library/vibe-editor.php:2417
+msgid "Maximum Number of blocks in One screen"
+msgstr "单屏最多显示的区块数"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1605
+#: metaboxes/library/vibe-editor.php:2235
+#: metaboxes/library/vibe-editor.php:2419
+msgid "4"
+msgstr "4"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1608
+#: metaboxes/library/vibe-editor.php:2238
+#: metaboxes/library/vibe-editor.php:2422
+msgid "Minimum Number of blocks in one Screen"
+msgstr "单屏最多显示的区块数"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1610
+#: metaboxes/library/vibe-editor.php:2240
+#: metaboxes/library/vibe-editor.php:2424
+msgid "2"
+msgstr "2"
+
+#: metaboxes/library/vibe-editor.php:1613
+#: metaboxes/library/vibe-editor.php:2243
+#: metaboxes/library/vibe-editor.php:2427
+msgid "Move blocks in one slide"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1618
+#: metaboxes/library/vibe-editor.php:2248
+#: metaboxes/library/vibe-editor.php:2432
+msgid "Total Number of Blocks"
+msgstr "区块总数"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1620
+#: metaboxes/library/vibe-editor.php:1728
+#: metaboxes/library/vibe-editor.php:1859
+#: metaboxes/library/vibe-editor.php:2250
+#: metaboxes/library/vibe-editor.php:2434
+msgid "6"
+msgstr "6"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1624
+msgid "Excerpt Length in Block (in characters)"
+msgstr "区块摘要长度 (字符)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1626
+#: metaboxes/library/vibe-editor.php:1723
+#: metaboxes/library/vibe-editor.php:1879
+msgid "100"
+msgstr "100"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1629
+#: metaboxes/library/vibe-editor.php:2253
+msgid "Show Link button on image hover"
+msgstr "图片悬停时显示链接"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1635
+#: metaboxes/library/vibe-editor.php:1744
+#: metaboxes/library/vibe-editor.php:1890
+#: metaboxes/library/vibe-editor.php:1925
+#: metaboxes/library/vibe-editor.php:2006
+#: metaboxes/library/vibe-editor.php:2122
+#: metaboxes/library/vibe-editor.php:2259
+#: metaboxes/library/vibe-editor.php:2304
+#: metaboxes/library/vibe-editor.php:2347
+#: metaboxes/library/vibe-editor.php:2437
+#: metaboxes/library/vibe-editor.php:2467
+msgid "Show Advanced settings"
+msgstr "显示高级设置"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1640
+#: metaboxes/library/vibe-editor.php:1749
+#: metaboxes/library/vibe-editor.php:1895
+#: metaboxes/library/vibe-editor.php:1936
+#: metaboxes/library/vibe-editor.php:2017
+#: metaboxes/library/vibe-editor.php:2133
+#: metaboxes/library/vibe-editor.php:2264
+#: metaboxes/library/vibe-editor.php:2309
+#: metaboxes/library/vibe-editor.php:2352
+#: metaboxes/library/vibe-editor.php:2442
+#: metaboxes/library/vibe-editor.php:2472
+#: metaboxes/library/vibe-editor.php:2568
+msgid "* Custom Class name (Add Custom Class to this Block)"
+msgstr "* 自定义 Class 名字 (给此区块添加自定义 Class)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1644
+#: metaboxes/library/vibe-editor.php:1753
+#: metaboxes/library/vibe-editor.php:1899
+#: metaboxes/library/vibe-editor.php:1940
+#: metaboxes/library/vibe-editor.php:2021
+#: metaboxes/library/vibe-editor.php:2137
+#: metaboxes/library/vibe-editor.php:2268
+#: metaboxes/library/vibe-editor.php:2313
+#: metaboxes/library/vibe-editor.php:2356
+#: metaboxes/library/vibe-editor.php:2446
+#: metaboxes/library/vibe-editor.php:2476
+#: metaboxes/library/vibe-editor.php:2572
+msgid "* Class for on containing Layout column"
+msgstr "* 含有布局列所用的 Class"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1648
+#: metaboxes/library/vibe-editor.php:1757
+#: metaboxes/library/vibe-editor.php:1903
+#: metaboxes/library/vibe-editor.php:1944
+#: metaboxes/library/vibe-editor.php:2025
+#: metaboxes/library/vibe-editor.php:2141
+#: metaboxes/library/vibe-editor.php:2272
+#: metaboxes/library/vibe-editor.php:2317
+#: metaboxes/library/vibe-editor.php:2360
+#: metaboxes/library/vibe-editor.php:2450
+#: metaboxes/library/vibe-editor.php:2480
+#: metaboxes/library/vibe-editor.php:2576
+msgid ""
+"* Add Custom CSS (Use <strong>.</strong> for class name, <strong>:hover</"
+"strong> for hover styles etc..)"
+msgstr ""
+"* 添加自定义 CSS (对类名使用 <strong>.</strong>，对悬停样式使用 <strong>:"
+"hover</strong> 等...)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1658
+msgid "Filterable Posts"
+msgstr "可过滤的文章"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1662
+msgid "Filterable Block Title"
+msgstr "可过滤的区块标题"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1673
+msgid "Select a Post Type"
+msgstr "选择一个文章类型"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1679
+msgid ""
+"Enter relevant Taxonomy name used for Filter buttons (example : course-cat,"
+"event-type..)"
+msgstr "显示用于过滤器按钮的相关分类法名称 (例如：课程-猫，事件-类型...)"
+
+#: metaboxes/library/vibe-editor.php:1684
+msgid "Enter terms (comma saperated term slugs) to be \"excluded\" in filters"
+msgstr "输入要在过滤器中排除的条目 (逗号分隔的条目别名)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1704
+#: metaboxes/library/vibe-editor.php:1821
+msgid "Featured Media Block Style"
+msgstr "推荐媒体的区块样式"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1710
+msgid "Show All link"
+msgstr "显示全部链接"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1716
+msgid "Column Width (in px)"
+msgstr "列宽 (px)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1721
+#: metaboxes/library/vibe-editor.php:1877
+msgid "Excerpt Length (in characters)"
+msgstr "摘要长度 (字符)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1726
+msgid "Total Number of blocks"
+msgstr "区块总数"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1731
+msgid "Show Pagination"
+msgstr "显示分页"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1738
+msgid "Show Link [Links to Post]"
+msgstr "显示链接 [到文章的链接]"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1767
+msgid "Post Grid"
+msgstr "文章网格"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1771
+msgid "Grid Title"
+msgstr "网格名称"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1782
+msgid "Custom Post Type"
+msgstr "自定义文章类型"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1795
+msgid ""
+"Enter Taxonomy Term Slugs (optional, only if above is selected, comma "
+"saperated if multiple): "
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1801
+msgid "Or Enter Specific Post Ids (comma saperated)"
+msgstr "或输入特定文章 ID (逗号分隔)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1828
+msgid "Grid Masonry Layout"
+msgstr "网格布局"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1835
+msgid "Grid Columns"
+msgstr "网格列数"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1847
+msgid "Masonry Grid Column Width(in px)"
+msgstr "网络列宽 (px)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1852
+msgid "Spacing between Columns (in px)"
+msgstr "列之间的间隙 (px)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1857
+msgid "Total Number of Blocks in Grid"
+msgstr "网格中的区块总数"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1863
+msgid "Infinite Scroll"
+msgstr "无限滚动"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1870
+msgid "Enable Pagination (If infinite scroll is off)"
+msgstr "启用分页 (如果无限滚动已停用)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1883
+msgid "Show Link"
+msgstr "显示链接"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1912
+msgid "WP Editor"
+msgstr "WP 编辑器"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1915
+#: metaboxes/library/vibe-editor.php:1956
+#: metaboxes/library/vibe-editor.php:2042
+msgid "Reference Title"
+msgstr "参考标题"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1930
+#: metaboxes/library/vibe-editor.php:2011
+#: metaboxes/library/vibe-editor.php:2127
+msgid ""
+"* On-Load CSS3 Animation effect on the block (<a href=\"http://vibethemes."
+"com/documentation/wplms/knowledge-base/css3-transitions-in-page-builder/\" "
+"target=\"_blank\">more</a>)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1953
+msgid "Parallax Content"
+msgstr "视差量内容"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1958
+msgid "Parallax Title"
+msgstr "视差名称"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1966
+msgid "Upload Parallax Background image"
+msgstr "上传视差背景图像"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1971
+msgid "Background Effect"
+msgstr "背景效果"
+
+#: metaboxes/library/vibe-editor.php:1974
+msgid "Image Scrolls with scroll"
+msgstr "滚动中图片滚动"
+
+#: metaboxes/library/vibe-editor.php:1975
+msgid "Image Static with Scroll"
+msgstr "滚动中图片静止"
+
+#: metaboxes/library/vibe-editor.php:1976
+msgid "Full Parallax Static with Scroll"
+msgstr "滚动中完整的视差静止"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1981
+msgid "Parallax Block Height (in px)"
+msgstr "视差区块高度 (px)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:1986
+msgid "Parallax value (Scroll senstivity, lower value means higher scroll)"
+msgstr "视差量 (滚动敏感性，越小的值表示滚动越敏感)"
+
+#: metaboxes/library/vibe-editor.php:1991
+msgid "Adjust background (in px)"
+msgstr "调整背景 (px)"
+
+#: metaboxes/library/vibe-editor.php:1996
+msgid "Top Padding(in px)"
+msgstr "顶部 Padding (px)"
+
+#: metaboxes/library/vibe-editor.php:2001
+msgid "Bottom Padding(in px)"
+msgstr "底部 Padding (px)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2039
+msgid "Featured Content"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2044
+msgid "reference Title"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2047
+msgid "Content Style"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2053
+msgid "Upload Image (Optional)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2058
+msgid "Select Icon (Optional)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2068
+msgid "Style settings"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2073
+msgid "Icon Size/Image Width (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2078
+msgid "Icon Color"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2083
+msgid "Top Padding / Top Spacing (in px)"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2088
+msgid "Bottom Padding / Bottom Spacing (in px)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2093
+msgid "Background Color"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2098
+msgid "Text Color"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2103
+msgid "Border"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2112
+msgid "Border width"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2117
+msgid "border Color"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2150
+msgid "Member Carousels/Rotating Blocks"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2195
+msgid "Select member type"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2197
+msgctxt "Select option in Member carousel"
+msgid "All"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2197
+msgctxt "Select option in Member carousel"
+msgid "Student"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2197
+msgctxt "Select option in Member carousel"
+msgid "Instructor"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2202
+msgid "Or Enter Specific Member Ids"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2207
+msgid "Enter Profile fields (comma saperated field \"names\")"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2212
+msgid "Display Style"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2296
+msgid "Revolution Slider"
+msgstr "旋转滑块"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2299
+#: metaboxes/library/vibe-editor.php:2342
+msgid "Select Slider"
+msgstr "选择滑块"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2339
+msgid "Layer Slider"
+msgstr "Layer Slider"
+
+#: metaboxes/library/vibe-editor.php:2368
+msgid "Course Category Carousel"
+msgstr ""
+
+#: metaboxes/library/vibe-editor.php:2376
+msgid "Include Term Slugs (optional, comma saperated)"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2384
+msgid "Description"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2384
+msgid "Custom Order"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2390
+msgid "Decending"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2390
+msgid "Ascending"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2461
+msgid "Select a Sidebar"
+msgstr "选择一个侧边栏"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2464
+msgid "MainSidebar"
+msgstr "MainSidebar"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2488
+msgid "FlexSlider"
+msgstr "FlexSlider"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2491
+msgid "Slider ID (for reference & Css)"
+msgstr "滑块 ID (用于参考 & CSS)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2496
+msgid "Slide Style"
+msgstr "滑动样式"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2508
+msgid "Animation Effect"
+msgstr "动画效果"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2510
+msgid "fade"
+msgstr "渐变"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2510
+msgid "slide"
+msgstr "滑动"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2515
+msgid "Slider settings"
+msgstr "滑块设置"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2520
+msgid "Auto slide Images"
+msgstr "自动滑动图片"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2526
+msgid "Loop Slides"
+msgstr "循环幻灯片"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2532
+msgid "Randomize Slides"
+msgstr "随机幻灯片"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2538
+msgid "Show Slider Direction arrows"
+msgstr "显示滑块方向箭头"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2544
+msgid "Show Slider Control buttons"
+msgstr "显示滑块控制按钮"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2550
+msgid "Animation Duration (in ms)"
+msgstr "动画持续时间 (ms)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2556
+msgid "Auto Animation Speed (in ms)"
+msgstr "自动动画速度 (ms)"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2561
+msgid "Pause Slider On Hover"
+msgstr "悬停时暂停滑动"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2593
+msgid "1/2 Column"
+msgstr "1/2 列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2594
+msgid "1/3 Column"
+msgstr "1/3 列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2595
+msgid "1/4 Column"
+msgstr "1/4 列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2596
+msgid "1/4 Column & 1/2 Column"
+msgstr "1/4 列 & 1/2 列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2597
+msgid "2/3 Column"
+msgstr "2/3 列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2598
+msgid "3/4 Column"
+msgstr "3/4 列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2599
+msgid "Full-Width Resizable Column"
+msgstr "全宽度可调整大小的列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2600
+msgid "FullScreen Stripe with Container"
+msgstr "容器内全屏条纹"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2601
+msgid "FullScreen Stripe"
+msgstr "全屏条纹"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2626
+msgid "COLUMNS"
+msgstr "纵列"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2627
+msgid "CONTENT"
+msgstr "内容"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2628
+msgid "SAVED LAYOUTS"
+msgstr "已保存的布局"
+
+#: metaboxes/library/vibe-editor.php:2668
+msgid ""
+"Drag & Drop Layout Columns and then Drag & Drop Content Blocks to each column"
+msgstr "先拖拽布局列然后拖拽内容区块到每个列中"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2679
+msgid "Enter name of Sample Layout"
+msgstr "输入样本布局的名称"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2680
+msgid "Save Layout"
+msgstr "保存布局"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2690
+#: metaboxes/library/vibe-editor.php:2786
+#: metaboxes/library/vibe-editor.php:2912
+msgid "Save Changes"
+msgstr "保存修改"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2691
+msgid "Save as New Layout"
+msgstr "保存为新布局"
+
+#: metaboxes/library/vibe-editor.php:2692
+msgid "Generated Shortcode"
+msgstr "生成的短代码"
+
+#: metaboxes/library/vibe-editor.php:2782
+msgid "This is the first column in the row"
+msgstr "这是行中的第一列"
+
+#: metaboxes/library/vibe-editor.php:2784
+msgid "Column width (%)"
+msgstr "列宽 (px)"
+
+#: metaboxes/library/vibe-editor.php:2899
+msgid "Upload"
+msgstr "上传"
+
+#: metaboxes/library/vibe-editor.php:2903
+msgid "Add Slider Image"
+msgstr "添加幻灯片图片"
+
+# @ vibe-customtypes
+#: metaboxes/library/vibe-editor.php:2986
+msgid "Show Page Content"
+msgstr "显示页面内容"
+
+#: metaboxes/meta_box.php:380 metaboxes/meta_box.php:542
+#: metaboxes/meta_box.php:546
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:391
+#, php-format
+msgid "Select multiple %s"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:469
+msgid "Latitude"
+msgstr "经度"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:470
+msgid "Longitude"
+msgstr "纬度"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:471
+msgid "Closest Matching Address"
+msgstr "最近的相匹配地址"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:474
+msgid "Street Address"
+msgstr "街道地址"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:475
+msgid "City"
+msgstr "城市"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:476
+msgid "State"
+msgstr "州"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:477
+msgid "Zip/Pin Code"
+msgstr "邮编"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:478
+msgid "Country"
+msgstr "国家"
+
+#: metaboxes/meta_box.php:486
+msgid "Select a group"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:495 metaboxes/meta_box.php:518
+msgid "Buddypress Groups is not Active"
+msgstr "Buddypress 群组未激活"
+
+#: metaboxes/meta_box.php:503
+msgid "Select groups"
+msgstr "选择群组"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:524
+msgid "Add Section"
+msgstr "添加章节"
+
+#: metaboxes/meta_box.php:555
+msgid "Select "
+msgstr "选择"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:566
+msgid "Select Taxonomy"
+msgstr "选择分类法"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:584 metaboxes/meta_box.php:704
+#: metaboxes/meta_box.php:725 metaboxes/meta_box.php:743
+#: metaboxes/meta_box.php:763 metaboxes/meta_box.php:793
+msgid "Add More"
+msgstr "添加更多"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:635 metaboxes/meta_box.php:650
+msgid "Number of questions to pull"
+msgstr ""
+
+#: metaboxes/meta_box.php:636
+msgid "Marks for pulled questions"
+msgstr ""
+
+#: metaboxes/meta_box.php:643
+msgid "Select Tag"
+msgstr ""
+
+#: metaboxes/meta_box.php:651
+msgid "Marks per question"
+msgstr ""
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:655
+msgid "Total Question Count :"
+msgstr ""
+
+#: metaboxes/meta_box.php:655
+msgid "Total Marks :"
+msgstr ""
+
+#: metaboxes/meta_box.php:677
+msgid "Choose Image"
+msgstr ""
+
+#: metaboxes/meta_box.php:678
+msgid "Remove Image"
+msgstr ""
+
+#: metaboxes/meta_box.php:683
+msgid "Add Question"
+msgstr "添加问题"
+
+#: metaboxes/meta_box.php:696 metaboxes/meta_box.php:697
+msgid "Type Question"
+msgstr "输入问题"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:808 metaboxes/meta_box.php:817
+msgid "Marks for a Correct answer"
+msgstr "正确答案的分数"
+
+# @ vibe-customtypes
+#: metaboxes/meta_box.php:821
+msgid "Total marks for the Quiz :"
+msgstr "测试的总分数："
+
+# @ vibe
+#: metaboxes/meta_box.php:847
+msgid "Delete image"
+msgstr "删除图像"
+
+# @ vibe
+#: metaboxes/meta_box.php:861
+msgid "Add Gallery images"
+msgstr "添加相册图片"
+
+# @ vibe
+#: metaboxes/meta_box.php:887
+msgid "Add Images to Gallery"
+msgstr "添加图像至相册"
+
+# @ vibe
+#: metaboxes/meta_box.php:889
+msgid "Add to Gallery"
+msgstr "添加至相册"
+
+# @ vibe
+#: metaboxes/meta_box.php:989
+msgid "Delete audio file"
+msgstr "删除音频文件"
+
+# @ vibe
+#: metaboxes/meta_box.php:1003
+msgid "Add Audio Files"
+msgstr "添加音频文件"
+
+# @ vibe
+#: metaboxes/meta_box.php:1029 metaboxes/meta_box.php:1031
+msgid "Add Audio"
+msgstr "添加音频"
+
+# @ vibe
+#: metaboxes/meta_box.php:1131
+msgid "Delete video file"
+msgstr "删除视频文件"
+
+# @ vibe
+#: metaboxes/meta_box.php:1145 metaboxes/meta_box.php:1171
+msgid "Add Video Files"
+msgstr "添加视频文件"
+
+# @ vibe
+#: metaboxes/meta_box.php:1173
+msgid "Add Video"
+msgstr "添加视频"
+
+#: metaboxes/meta_box.php:1290 metaboxes/meta_box.php:1318
+msgid "Add Attachments"
+msgstr ""
+
+#: metaboxes/meta_box.php:1320
+msgid "Add Attachment"
+msgstr ""
+
+# @ vibe-customtypes
+#~ msgid ""
+#~ " USE FOLLOWING SHORTCODES TO DISPLAY RELEVANT DATA : <br />1. "
+#~ "<strong>[certificate_student_name]</strong> : Displays Students Name<br /"
+#~ ">2. <strong>[certificate_course]</strong> : Displays Course Name<br />3. "
+#~ "<strong>[certificate_student_marks]</strong> : Displays Students Marks in "
+#~ "Course<br />4. <strong>[certificate_student_date]</strong>: Displays date "
+#~ "on which Certificate was awarded to the Student<br />5. "
+#~ "<strong>[certificate_student_email]</strong>: Displays registered email "
+#~ "of the Student<br />6. <strong>[certificate_code]</strong>: Generates "
+#~ "unique code for Student which can be validated from Certificate page.<br /"
+#~ ">7. <strong>[course_completion_date]</strong>: Displays course completion "
+#~ "date from course activity."
+#~ msgstr ""
+#~ "使用以下短代码显示相关数据：<br />1. <strong>[certificate_student_name]</"
+#~ "strong>：显示学生姓名<br />2. <strong>[certificate_course]</strong>：显示"
+#~ "课程名称<br />3. <strong>[certificate_student_marks]</strong>：显示课程得"
+#~ "分<br />4. <strong>[certificate_student_date]</strong>：显示学生获得证书的"
+#~ "日期<br />5. <strong>[certificate_student_email]</strong>：显示学生的注册"
+#~ "邮件<br />6. <strong>[certificate_code]</strong>：为学生生成可在证书页面验"
+#~ "证的唯一代码。<br/>7. <strong>[course_completion_date]</strong>：从课程活"
+#~ "动中显示课程完成日期。"
+
+#~ msgid "Account Activation Email"
+#~ msgstr "账户激活邮件"
+
+#~ msgid "Forgot Password Email"
+#~ msgstr "忘记密码邮件"
+
+# @ vibe-customtypes
+#~ msgid "Email Template"
+#~ msgstr "邮件模板"
+
+# @ vibe-customtypes
+#~ msgid "Enable HTML emails"
+#~ msgstr "启用 HTML 邮件"
+
+#~ msgid "From Name in emails"
+#~ msgstr "邮件中的发送者名字"
+
+#~ msgid "From Email in emails"
+#~ msgstr "邮件中的发送者邮件地址"
+
+#~ msgid "Charset"
+#~ msgstr "编码"
+
+#~ msgid "UTF"
+#~ msgstr "UTF"
+
+#~ msgid "ISO"
+#~ msgstr "ISO"
+
+#~ msgid "Set email charset"
+#~ msgstr "输入邮件字符编码"
+
+#~ msgid "Subject"
+#~ msgstr "主题"
+
+#~ msgid "Subject in Activation email"
+#~ msgstr "激活邮件的主题"
+
+#~ msgid "Message (supports HTML)"
+#~ msgstr "消息 (支持 HTML)"
+
+#~ msgid "Subject in forgot password email"
+#~ msgstr "忘记密码邮件的主题"
+
+#~ msgid ""
+#~ "Forgot password mail message, user {{forgotlink}} to add the forgot "
+#~ "password link, {{username}} to add User login name"
+#~ msgstr ""
+#~ "忘记密码邮件的消息，使用 {{forgotlink}} 添加忘记密码链接，{{username}} 添"
+#~ "加用户登录名"
+
+#~ msgid "Schedule Drip Feed Email"
+#~ msgstr "计划的滴注邮件"
+
+# @ vibe-customtypes
+#~ msgid "Drip Feed Mail Subject"
+#~ msgstr "滴注邮件主题"
+
+#~ msgid "Drip Feed Mail Message (supports HTML)"
+#~ msgstr "滴注邮件的消息 (支持 HTML)"
+
+#~ msgid ""
+#~ "{{unit}} for Unit name, {{course}} for Course name & link, {{user}} for "
+#~ "User name"
+#~ msgstr ""
+#~ "{{unit}} 表示单元名称，{{course}} 表示课程名称 & 链接，{{user}} 表示用户名"
+
+#~ msgid "Schedule Course Expiry Email"
+#~ msgstr "计划课程过期邮件"
+
+#~ msgid "Course Expire Mail Subject"
+#~ msgstr "课程过期邮件的主题"
+
+#~ msgid "Course expire Mail Message (supports HTML)"
+#~ msgstr "课程过期邮件的消息 (支持 HTML)"
+
+#~ msgid "{{course}} for Course name & link, {{user}} for User name"
+#~ msgstr "{{course}} 表示课程名称 & 链接，{{user}} 表示用户名"
+
+# @ vibe-customtypes
+#~ msgid "Customize Template"
+#~ msgstr "自定义模板"
+
+# @ text-domain
+#~ msgid "Email Bg"
+#~ msgstr "邮件背景色"
+
+# @ text-domain
+#~ msgid "Email Color"
+#~ msgstr "邮件颜色"
+
+#~ msgid "Title Bg"
+#~ msgstr "标题背景色"
+
+# @ vibe-customtypes
+#~ msgid "Title Color"
+#~ msgstr "标题颜色"
+
+# @ vibe-customtypes
+#~ msgid "Greetings BG"
+#~ msgstr "欢迎背景色"
+
+# @ vibe-customtypes
+#~ msgid "Greetings Color"
+#~ msgstr "欢迎颜色"
+
+#~ msgid "Message BG"
+#~ msgstr "消息背景色"
+
+#~ msgid "Message Color"
+#~ msgstr "消息颜色"
+
+#~ msgid "Sender BG"
+#~ msgstr "发送者背景色"
+
+# @ vibe-customtypes
+#~ msgid "Sender Color"
+#~ msgstr "发送者颜色"
+
+#~ msgid "Item BG"
+#~ msgstr "条目背景色"
+
+# @ vibe-customtypes
+#~ msgid "Item Color"
+#~ msgstr "条目颜色"
+
+#~ msgid "Footer BG"
+#~ msgstr "底部背景色"
+
+# @ vibe-customtypes
+#~ msgid "Footer Color"
+#~ msgstr "底部颜色"
+
+# @ vibe-customtypes
+#~ msgid "View Generated Template"
+#~ msgstr "查看生成的模板"
+
+#~ msgid "Restore Default"
+#~ msgstr "重置到默认值"
+
+# @ vibe-customtypes
+#~ msgid "Apply Changes"
+#~ msgstr "应用更改"
+
+#~ msgid "Template saved"
+#~ msgstr "模板已保存"
+
+# @ vibe-customtypes
+#~ msgid "Marks per Question in Dynamic Quiz"
+#~ msgstr "动态测试中每个问题的分数"
+
+# @ vibe-customtypes
+#~ msgid ""
+#~ "Enter the number of marks per Questions in the dynamic quiz. (required if "
+#~ "dynamic enabled)."
+#~ msgstr "输入动态测试中每个问题的分数 (动态测试已启用则必选)。"
+
+# @ vibe-customtypes
+#~ msgid ""
+#~ "Enter the number of Questions in the dynamic quiz. (required if dynamic "
+#~ "enabled)."
+#~ msgstr "输入动态测试的问题数目 (动态测试已启用则必选)。"
+
+#~ msgid "Student progress to next"
+#~ msgstr "学生进入一下部分"
+
+#, fuzzy
+#~ msgid "Ninja Forms ID for Instructor Signup (Optional, no longer required)"
+#~ msgstr "为教师注册设置 Ninja Form ID"
+
+#, fuzzy
+#~ msgid "Connect Ninja Form ID for Make instructor button in form"
+#~ msgstr "为教师注册设置 Ninja Form ID"
+
+#~ msgid "WPLMS MyCred"
+#~ msgstr "WPLMS MyCred"
+
+#~ msgid "Integrated MyCred points system in WPLMS"
+#~ msgstr "在 WPLMS 中整合 MyCred 点数系统"
+
+#~ msgid "LMS"
+#~ msgstr "LMS"
+
+#~ msgid "Payments History"
+#~ msgstr "支付历史"

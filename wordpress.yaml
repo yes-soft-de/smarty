@@ -4,7 +4,7 @@ metadata:
   labels:
     app: wordpress
   name: wordpress
-  namespace: default
+  namespace: smarty
 spec:
   replicas: 1
   selector:
@@ -29,7 +29,7 @@ spec:
                 secretKeyRef:
                   key: password
                   name: mysql
-          image: gcr.io/neural-sol-285619/github.com/yes-soft-de/smarty
+          image: gcr.io/yescloud/github.com/yes-soft-de/smarty
           imagePullPolicy: Always
           name: wordpresse
           ports:
@@ -43,7 +43,7 @@ metadata:
   labels:
     app: wordpress
   name: wordpress-mysql
-  namespace: default
+  namespace: smarty
 spec:
   clusterIP: None
   ports:
@@ -63,12 +63,12 @@ metadata:
   labels:
     app: wordpress
   name: wordpress
-  namespace: default
+  namespace: smarty
 spec:
-  clusterIP: 10.0.10.87
+  clusterIP: 10.4.4.197
   externalTrafficPolicy: Cluster
   ports:
-    - nodePort: 30537
+    - nodePort: 30914
       port: 80
       protocol: TCP
       targetPort: 80

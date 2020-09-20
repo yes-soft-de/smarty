@@ -1,0 +1,17 @@
+[
+	{
+		"id":"student_group",
+		"sname":"Student Group",
+		"pname":"Student Groups"
+	},
+	{
+		"id":"instructor_group",
+		"sname":"Instructor Group",
+		"pname":"Instructor Groups"
+	},
+	{
+		"id":"student_council",
+		"sname":"Student Council",
+		"pname":"Student Councils"
+	},
+]

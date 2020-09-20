@@ -1,0 +1,6 @@
+2020-09-02T16:05:54+00:00 CRITICAL require_once(): Failed opening required '/home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/wp-bootstrap-navwalker.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/functions.php on line 5
+
+2020-09-02T17:21:56+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/page.php on line 6
+
+2020-09-02T19:38:13+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/page.php on line 6
+

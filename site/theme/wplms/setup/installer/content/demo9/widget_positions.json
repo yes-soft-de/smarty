@@ -1,0 +1,101 @@
+{
+	"wp_inactive_widgets": [
+		"wplms_course_progress-2",
+		"wplms_dash_contact_users-2",
+		"wplms_dash_tasks-2",
+		"wplms_student_stats-2",
+		"wplms_dash_stats-2",
+		"wplms_dash_stats-3",
+		"wplms_dash_stats-4",
+		"wplms_dash_stats-5",
+		"wplms_dash_news-2",
+		"wplms_line_break-2",
+		"bp_course_widget-3",
+		"bp_course_widget-4",
+		"bp_course_widget-5",
+		"bp_course_widget-6",
+		"bp_instructor_widget-2",
+		"bp_course_search_widget-2",
+		"bp_course_search_widget-3",
+		"bp_course_search_widget-4",
+		"bp_course_stats_widget-2",
+		"bp_course_filter_widget-2",
+		"archives-2",
+		"meta-2",
+		"categories-2",
+		"recent-posts-2",
+		"recent-comments-2"
+	],
+	"student_sidebar": [
+		"wplms_dash_stats-6",
+		"wplms_dash_stats-7",
+		"wplms_dash_stats-8",
+		"wplms_dash_stats-9",
+		"wplms_student_stats-4",
+		"wplms_dash_activity-4",
+		"wplms_dash_cal-2"
+	],
+	"instructor_sidebar": [
+		"wplms_dash_mymodules-2",
+		"wplms_instructor_dash_stats-2",
+		"wplms_instructor_dash_stats-3",
+		"wplms_instructor_dash_stats-4",
+		"wplms_instructor_dash_stats-5",
+		"wplms_instructor_dash_stats-7",
+		"wplms_instructor_dash_stats-8",
+		"wplms_instructor_dash_stats-9",
+		"wplms_instructor_commission_stats-2",
+		"wplms_instructor_stats-2",
+		"wplms_dash_contact_users-3",
+		"wplms_dash_tasks-3",
+		"wplms_line_break-3",
+		"wplms_dash_activity-2",
+		"wplms_dash_news-3",
+		"wplms_dash_text-2"
+	],
+	"mainsidebar": [
+		"vibetabs-2",
+		"search-2",
+		"tag_cloud-2",
+		"vibegallery-2"
+	],
+	"bbpress": [],
+	"coursesidebar": [
+		"vibe_course_categories-2",
+		"vibeposts-2"
+	],
+	"searchsidebar": [
+		"vibe_course_categories-3",
+		"vibetestimonials-2"
+	],
+	"shopsidebar": [
+		"woocommerce_price_filter-2",
+		"woocommerce_layered_nav_filters-2",
+		"woocommerce_layered_nav-2",
+		"vibe_woocommerce_carousels-3"
+	],
+	"productsidebar": [
+		"vibe_course_categories-4",
+		"woocommerce_product_categories-2",
+		"woocommerce_products-2"
+	],
+	"buddypress": [
+		"vibe_course_categories-5"
+	],
+	"checkout": [
+		"vibe_woocommerce_carousels-2",
+		"woocommerce_products-3"
+	],
+	"topfootersidebar": [
+		"text-2",
+		"vibe_course_categories-6",
+		"bp_core_whos_online_widget-3",
+		"text-3"
+	],
+	"bottomfootersidebar": [
+		"vibecertificatecode-2",
+		"tag_cloud-3",
+		"bp_core_whos_online_widget-2"
+	],
+	"array_version": 3
+}

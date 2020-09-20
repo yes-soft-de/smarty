@@ -1,0 +1,121 @@
+2020-08-21T10:49:56+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:50:03+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:50:12+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:50:15+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:50:19+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:50:33+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:52:01+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:52:30+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:52:49+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:53:50+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+
+2020-08-21T10:53:54+00:00 CRITICAL Uncaught Error: Call to undefined function vibe_get_option() in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php:930
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): WPLMS_Front_End->wplms_front_end_validate_action('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-blog-header.php(19): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-ae.com/public_html/index.php(17): require('/home/u92542874...')
+#6 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/wplms-front-end/includes/class_wplms_front_end.php on line 930
+

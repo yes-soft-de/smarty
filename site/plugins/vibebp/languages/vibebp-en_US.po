@@ -1,0 +1,4954 @@
+# Copyright (c) 2019 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: VibeBP\n"
+"Report-Msgid-Bugs-To: https://github.com/godaddy/vibebp/issues\n"
+"POT-Creation-Date: 2020-08-01 15:54+0530\n"
+"PO-Revision-Date: 2020-08-01 15:54+0530\n"
+"Last-Translator: VibeThemes <vibethemes@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Domain: vibebp\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_ex\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wplms/wp-content/plugins/"
+"vibebp\n"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:382
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:382
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:547
+msgid "Try again"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:423
+msgid "An unknown error occurred"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:459
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:460
+msgid "Plugin reactivated successfully. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:482
+msgid " Plugin Updates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:521
+msgid "Username: "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:525
+msgid "Email: "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:531
+msgid "Key: "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:537
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:541
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:542
+msgid "Edit Key"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:546
+msgid "<p>Unable to validate update activation.</p>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:552
+msgid "Add Purchase Code"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:639
+msgid "User name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:645
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:297
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:203
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:115
+msgid "Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/autoupdate.php:654
+msgid "Themeforest/CodeCanyon Purchase Key ( for Auto-Updates )"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-block-settings.php:80
+msgid "Enable or disable blocks"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:67
+msgid "Google reCaptcha site key for form spam protection"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:79
+msgid "Google reCaptcha secret key for form spam protection"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:244
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:153
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:194
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:90
+msgid "Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:248
+msgid "First"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:249
+msgid "Last"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:325
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:174
+msgid "Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:390
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:222
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:951
+msgid "Submit"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-form.php:561
+msgid "Your message was sent:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-google-map-block.php:122
+msgid "Google Map API key for map rendering"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:156
+msgid "Select field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:200
+msgid "Black"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:204
+msgid "White"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:216
+msgid "Basic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:220
+msgid "Stack"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:224
+msgid "Justified"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:228
+msgid "No label"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:248
+msgid "default value"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:249
+msgid "default name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/blocks/class-vibebp-register-blocks.php:281
+msgid "Vibe Buddypress"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:289
+msgid "Activities Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:295
+msgid "Activities not Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:377
+msgid "Activity not saved !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:396
+#, php-format
+msgid "%s posted new comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:424
+msgid "Activity removed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:443
+msgid "Activity added as Favorite"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:449
+msgid "Activity not added as Favorite"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:472
+msgid "Activity removed from favorite"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:478
+msgid "Activity not removed as Favorite"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:498
+msgid "Activity liked"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:504
+msgid "Activity unliked"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:524
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-activity-controller.php:530
+msgid "Activity like removed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:157
+msgid "The post could not be found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:172
+msgid "No items could be found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:187
+msgid "No item could be found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:202
+msgid "The request format is invalid"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:214
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:225
+#, php-format
+msgid "Method '%s' not implemented. Must be over-ridden in subclass."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:327
+msgid "Current page of the collection."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:335
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:344
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-controller.php:362
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:345
+msgid "Groups Exist"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:351
+msgid "Groups Not Exist"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:447
+msgid "Invites Exist"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:453
+msgid "Invites empty"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:471
+msgid "Home"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:533
+msgid "Group Exist"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:541
+msgid "No Data for Group"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:681
+msgid "Group Created"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:687
+msgid "Group Not Created"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:715
+msgid "Group Deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:721
+msgid "Group Not Deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:745
+msgid "Group Joined"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:751
+msgid "Group Not Joined"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:776
+msgid "Users Invited"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:792
+msgid "Group leaved"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:798
+msgid "Group Not leaved"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:865
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:15
+msgid "Group Members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:871
+msgid "Group Not Members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:939
+msgid "User not logged in"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:948
+msgid "Invitation Accepted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:954
+msgid "Invitation Rejected"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-groups-controller.php:960
+msgid "Invitation removed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:298
+msgid "Members Exist"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:304
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:305
+msgid "No members found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:319
+msgid "Member Exist"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:325
+msgid "Member Not Exist"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:367
+msgid "User has Friends"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:373
+msgid "User has no Friends"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:402
+msgid "Request Send"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:408
+msgid "Request Not Send"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:431
+msgid "Friend  removed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:437
+msgid "Friend not removed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:493
+msgid "Friend Request action complete"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:499
+msgid "Friend Request action can not be completed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:646
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:655
+#, php-format
+msgid "Now following %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:647
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:655
+#, php-format
+msgid "%s is now following you"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:663
+#, php-format
+msgid "Unfollowed %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:663
+#, php-format
+msgid "%s is unfollowed you"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:666
+msgid "Unable to perform task"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-members-controller.php:737
+msgid "No card data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:211
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:311
+msgid "Messages Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:217
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:317
+msgid "Messages Not Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:269
+msgid "Label exists."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:278
+msgid "Label added."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:300
+msgid "Label removed."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:399
+msgid "Not enough permission to send notice !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:461
+msgid "Message Send"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:467
+msgid "Message Not Send"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:486
+msgid "Message deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:492
+msgid "Message Not deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-messages-controller.php:500
+msgid "Please share valid details"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:197
+msgid "notifications Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:203
+msgid "notifications Not Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:219
+msgid "notification Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:225
+msgid "notification Not Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:255
+msgid "Mark as all "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:261
+msgid "Mark as all not "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:288
+msgid "Notification deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:294
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:323
+msgid "Notification Not deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:317
+msgid "Notifications deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:364
+msgid "Marked !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-notifications-controller.php:370
+msgid "Unable to mark"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:366
+msgid "That email address is invalid. Check the formatting and try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:369
+msgid "That email address is currently unavailable for use."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:372
+msgid "That email address is already taken."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:375
+msgid "Email address cannot be empty."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:384
+msgid "Your current password is invalid."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:387
+msgid "The new password fields did not match."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:390
+msgid "One of the password fields was empty."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:393
+msgid "The new password must be different from the current password."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:408
+msgid "Your settings have been saved."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:416
+msgid "No changes were made to your account."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:418
+msgid "No changes were made to this account."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:441
+#, php-format
+msgid "A member mentions you in an update using \"@%s\""
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:443
+msgid "A member replies to an update or comment you've posted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:447
+msgid "A member sends you a new message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:451
+msgid "A member sends you a friendship request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:452
+msgid "A member accepts your friendship request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:456
+msgid "A member invites you to join a group"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:457
+msgid "Group information is updated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:458
+msgid "You are promoted to a group administrator or moderator"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:459
+msgid "A member requests to join a private group for which you are an admin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:460
+msgid "Your request to join a group has been approved or denied"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:485
+msgid "All Settings Updated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:502
+msgid "Your request for an export of personal data has been completed."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:507
+msgid "Download Report"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:509
+msgid "Your previous request for an export of personal data has expired."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:510
+msgid "Please click on the button below to make a new request."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:512
+msgid "Request New Report"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:517
+#, php-format
+msgid "You previously requested an export of your personal data on %s."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:518
+msgid ""
+"You will receive a link to download your export via email once we are able "
+"to fulfill your request."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:523
+msgid "Request Data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:525
+msgid ""
+"You can request an export of your personal data, containing the following "
+"items if applicable:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:529
+msgid "If you want to make a request, please click on the button below:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-settings-controller.php:569
+msgid "Avatar uploaded"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:102
+msgid "Invalid user ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:194
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:207
+msgid "First Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:195
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:208
+msgid "Last Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:196
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:209
+msgid "Company"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:197
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:198
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:210
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:211
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:215
+msgid "Address"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:199
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:212
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:216
+msgid "City"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:200
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:213
+msgid "State"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:201
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:214
+msgid "Postcode"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:202
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:215
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:217
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.country.php:13
+msgid "Country"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:204
+msgid "Phone"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-woocommerce-controller.php:234
+msgid "Updated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-xprofile-controller.php:296
+msgid "Field Saved !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-xprofile-controller.php:320
+msgid "Unable to save"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/buddypress/class-api-xprofile-controller.php:329
+msgid "Fetch Options"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class-vibebp-api-token.php:76
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class-vibebp-api-token.php:166
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:641
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:368
+msgid "Secret key missing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class-vibebp-api-token.php:89
+msgid "Email or Password not valid"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class-vibebp-api-token.php:137
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:576
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:446
+msgid "Token generated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class-vibebp-api-token.php:154
+msgid "Authorization token missing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class-vibebp-api-token.php:178
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:654
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:283
+msgid "Valid Token"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:112
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:443
+msgid "Dashboard"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:125
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:607
+msgid "Shop"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:158
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:170
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:324
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:131
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:593
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:240
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:88
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:88
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:89
+msgid "Followers"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:178
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:132
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:92
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:92
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:93
+msgid "Following"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:179
+msgid "following"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:191
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:204
+msgid "My Memberships"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:274
+msgid "File missing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:339
+msgid "App Icon not a png image."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:370
+msgid "App Icon image size less than recommended dimensions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:459
+msgid "Successfully Generated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.actions.php:522
+msgid "Email & UserID do not match."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:36
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:37
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.templates.php:64
+msgid "Vibe BP"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:40
+msgid "Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:41
+msgid "Add Ons"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:52
+msgid "Calendar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:53
+msgid "Events & Calendar."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:65
+msgid "Drive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:66
+msgid "Drive for Members."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:78
+msgid "Knowledge Base"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:79
+msgid "Knowledge Base & Articles, Editor and sharing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:92
+msgid "HelpDesk"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:93
+msgid "Convert BBPress into a Ticketing Solution."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:105
+msgid "Projects"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:106
+msgid "Project Management Solution."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:118
+msgid "Appointments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:119
+msgid "Appointments Calendar."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:165
+msgid "Enter License Key"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:179
+msgid "License Key"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:185
+msgid "Learn more"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:237
+msgid "VibeBP Framework"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:238
+msgid ""
+"Welcome to the react social network for your site. Get started by installing "
+"the required and recommended plugins."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:242
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:47
+msgid "BuddyPress"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:248
+msgid "Elementor"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:254
+msgid "BBPress"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:260
+msgid "WPLMS Learning Management System"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:269
+msgid "Features"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:270
+msgid ""
+"Select features you want to enable in your site. This feature set comes from "
+"the plugins you have selected in the previous step of required and "
+"recommended plugin.\n"
+"\t\t\t \t\t\t\t\t<span>To restart the setup wizard, just click outside the "
+"setup wizard box and restart it.</span> "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:277
+msgid "Profile Fields"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:284
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:463
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:585
+msgid "Activity"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:292
+msgid "Messaging"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:300
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:406
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:484
+msgid "Notifications"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:308
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:455
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:517
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:70
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:70
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:71
+msgid "Friends"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:316
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:467
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:539
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:541
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:107
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:197
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:79
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:79
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:80
+msgid "Groups"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:332
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:129
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:247
+msgid "Likes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:341
+msgid "Content"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:342
+msgid "Configure default content, layouts and menus for profiles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:347
+msgid "Install default profile layout & xprofile fields"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:352
+msgid "Set default Profile & Loggedin menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:357
+msgid "Install default Group Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:362
+msgid "Member Directory & Member Types"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:367
+msgid "Group Directory & Group Types"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:373
+msgid "Accessibility"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:374
+msgid ""
+"Accessibility of various modules. If enabled, accessibility to world and "
+"search engines. If disabled then only accessible to you and members of your "
+"site."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:379
+msgid "Disable Public User Profiles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:384
+msgid "Disable Public Member Directories"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:389
+msgid "Disbale Public Groups & Group Directories"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:394
+msgid "Disbale Public Activities (recommended disable)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:402
+msgid ""
+"Configure VibeBP, the Modern social network framework built on BuddyPress."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:403
+msgid "Setup Wizard"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:404
+msgid "Required"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:405
+msgid "Recommended"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:406
+msgid "Plugin Active"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:407
+msgid "Activate"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:408
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:244
+msgid "Download"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:409
+msgid "Begin Setup"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.admin.php:410
+msgid "Next Step"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:310
+msgid "No menu connected to loggedinmenu location."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:331
+msgid "No menu set for profile."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:398
+msgid "Unable to register."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:472
+msgid "No such sidebar."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:541
+msgid "Sidebar Saved."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:551
+msgid "No widget found!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:604
+msgid "No page found."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:640
+msgid "No Media Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:646
+msgid "Media Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:789
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:809
+msgid "Upload failed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:857
+#, php-format
+msgid "%s upload complete"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:907
+msgid "File is valid, and was successfully uploaded"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:916
+msgid "File uploading failed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:919
+msgid "Can not upload"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:922
+msgid "File not found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:933
+msgid "Attachment deleted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:937
+msgid "Can not delete attachment."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:945
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:1013
+msgid "Invalid email."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:949
+msgid "No registered user found with this mail id !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:962
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:964
+msgid "Password reset is not allowed."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:996
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:996
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:998
+msgid "Please check your email for password recovery !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:1000
+msgid "Something went wrong"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:1027
+msgid "User already registered with email ID."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:1035
+msgid "Please check your email to activate your account."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:1039
+msgid "Email ID or Password Missing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.api.php:1071
+msgid "Something webt wrong"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.customizer.php:190
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.customizer.php:191
+msgid "VibeBP Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.elementor.php:42
+msgid "Vibe BuddyPress"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.init.php:86
+msgid "VibeBP Member Dashboard"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.init.php:88
+msgid "Widgets appear in Dashboard"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:64
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:65
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:68
+msgid "Member Profiles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:66
+msgid "Profile Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:67
+msgid "Add New Profile Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:88
+msgid "Member Cards"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:92
+msgid "Member Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:90
+msgid "Profile Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:91
+msgid "Add New Profile Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:114
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:115
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:118
+msgid "Group Layouts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:116
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1273
+msgid "Group Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:117
+msgid "Add New Group Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:138
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:139
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:140
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:142
+msgid "Group Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.layouts.php:141
+msgid "Add New Group Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:37
+msgid "LoggedIn DropDown Menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:38
+msgid "Profile Menu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:97
+msgid "Hello"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:98
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:671
+msgid "Online"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:99
+msgid "You are no longer connected to internet."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:100
+msgid "Empty dashboard."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:101
+msgid "Sign In with Facebook"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:102
+msgid "Sign In with Twitter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:103
+msgid "Sign In with Google"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:104
+msgid "Sign In with Github"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:105
+msgid "Sign In with  Apple"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:108
+msgid "Login with Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:109
+msgid "No account ?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:110
+msgid "Create one"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:111
+msgid "Create Account"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:116
+msgid "Password"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:117
+msgid "All sign in options"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:118
+msgid "Sign In"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:119
+msgid "Forgot Password"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:120
+msgid "Send password recovery email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:121
+msgid "Missing subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:122
+msgid "Missing recipients"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:123
+msgid "Missing message content"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:124
+msgid "Light mode"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:125
+msgid "Dark mode"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:128
+msgid "Already have an account ? "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:130
+msgid "Liked"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:133
+msgid "Follow more members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:134
+msgid "Profile "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:135
+msgid "Logout "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:136
+msgid "Load more.. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:137
+msgid "years"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:138
+msgid "year "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:139
+msgid "months"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:140
+msgid "month"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:141
+msgid "weeks"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:142
+msgid "week"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:143
+msgid "days"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:144
+msgid "day"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:145
+msgid "hours"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:146
+msgid "hour"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:147
+msgid "minutes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:148
+msgid "minute"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:149
+msgid "seconds"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:150
+msgid "second"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:151
+msgid "No activity found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:152
+msgid "Whats New"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:153
+msgid "Post update"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:154
+msgid "Select component"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:155
+msgid "Just now"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:156
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:669
+msgid "Cancel"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:157
+msgid "Owner"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:158
+msgid "Date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:159
+msgid "Apply"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:160
+msgid "Type Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:161
+msgid "Drag to refresh"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:162
+msgid "Select Action"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:163
+msgid "No notifications found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:164
+msgid "Sender"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:165
+msgid "No messages found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:166
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:237
+msgid "No groups found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:167
+msgid "New Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:168
+msgid "Send Notice"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:169
+msgid "Labels"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:170
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:761
+msgid "Add New"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:171
+msgid "Search ..."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:172
+msgid "Recipients ..."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:173
+msgid "Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:175
+msgid "Attachment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:176
+msgid "Send Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:177
+msgid "Search Member"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:178
+msgid "Add Label"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:179
+msgid "Remove Label"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:180
+msgid "Upload File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:181
+msgid "Group Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:182
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/description.php:16
+msgid "Group Description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:183
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:40
+msgid "Group Status"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:184
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:103
+msgid "Group Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:185
+msgid "Invite members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:186
+msgid "Add members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:187
+msgid "Create Group"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:188
+msgid "Group Invite Permissions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:189
+#, php-format
+msgid "Image size should be less than upload limit %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:190
+msgid "Admin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:191
+msgid "Mod"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:192
+msgid "Select Option"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:193
+msgid "Accept Invite"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:194
+msgid "Cancel Invite"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:195
+msgid "No Friends found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:196
+msgid "Requested"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:197
+msgid "Requests"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:198
+msgid "No Requests found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:199
+msgid "Add Friend"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:200
+msgid "Send friend request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:201
+msgid "Account Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:202
+msgid "Confirm Old Password"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:203
+msgid "Change Password"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:204
+msgid "Change Email"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:205
+msgid "Repeat Password"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:206
+msgid "Save Changes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:207
+msgid "Send email notice"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:208
+msgid "Profile Field Visibility Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:209
+msgid "Export data settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:210
+msgid "Download personal data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:211
+msgid "Request new data export"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:212
+msgid "Request personal data export"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:213
+msgid "Update Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:214
+msgid "Change Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:218
+msgid "ZipCode"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:219
+msgid "No followers found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:220
+msgid "You are not following anyone !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:221
+msgid "Set Icon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:223
+msgid "Topic Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:224
+msgid "Select a forum"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:225
+msgid "Write content in topic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:226
+msgid "Subscribed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:227
+msgid "Subscribe"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:228
+msgid "No Orders"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:229
+msgid "Coupons Applied"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:230
+msgid "Shipping Rates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:231
+msgid "Fees"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:232
+msgid "Select Order Status"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:233
+msgid "Order Number"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:234
+msgid "Order Date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:235
+msgid "Order Status"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:236
+msgid "Order Quantity"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:237
+msgid "Order Total"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:238
+msgid "Payment Method"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:239
+msgid "Item Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:240
+msgid "Item Total"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:241
+msgid "Billing Address"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:242
+msgid "Shipping Address"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:243
+msgid "No Downloads found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:245
+msgid "Access Expires"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:246
+msgid "Product Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:247
+msgid "Remaining Downloads"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:248
+msgid "All Media"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:249
+msgid "Uploads"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:250
+msgid "Select Media"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:251
+msgid "Upload file"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:252
+msgid "Embed file"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:253
+msgid "Choose Columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:254
+msgid "Type here..."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:255
+msgid "No media found!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:256
+msgid "Preview"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:257
+msgid "Select Widget"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:258
+msgid "Missing data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:259
+msgid "Invalid email id."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:260
+msgid "Too short password."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:261
+msgid "Enter Embed Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:262
+msgid "Enter Embed Url"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:263
+msgid "Embed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:264
+msgid "Hide Panel"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:265
+msgid "Show Panel"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:276
+msgid "Profile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:282
+msgid "Flickr"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:286
+msgid "Instagram"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:290
+msgid "Google"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:294
+msgid "Github"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:298
+msgid "Facebook"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:302
+msgid "Dropbox"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:306
+msgid "Dribbble"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:310
+msgid "Apple"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:314
+msgid "Yahoo"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:318
+msgid "Trello"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:322
+msgid "Stack-overflow"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:326
+msgid "Soundcloud"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:330
+msgid "Sharethis"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:334
+msgid "Reddit"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:338
+msgid "Microsoft"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:342
+msgid "Linux"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:346
+msgid "Jsfiddle"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:350
+msgid "Joomla"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:354
+msgid "Html5"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:358
+msgid "Css3"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:362
+msgid "Drupal"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:366
+msgid "Wordpress"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:370
+msgid "Tumblr"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:374
+msgid "Skype"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:378
+msgid "Youtube"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:382
+msgid "Vimeo"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:386
+msgid "Twitter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:390
+msgid "Linkedin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:394
+msgid "Pinterest"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:405
+msgid "Notes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:407
+msgid "Chat"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:453
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:557
+msgid "Public"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:454
+msgid "All members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:456
+msgid "Only me"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:466
+msgid "Personal"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:471
+msgid "Everything"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:472
+msgid "Updates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:473
+msgid "Friendships"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:474
+msgid "New Groups"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:475
+msgid "Group Memberships"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:476
+msgid "Group Updates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:486
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:502
+msgid "Newest First"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:487
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:503
+msgid "Oldest First"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:490
+msgid "Read"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:491
+msgid "Unread"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:492
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:508
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:530
+msgid "Delete"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:500
+msgid "Messages"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:506
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:528
+msgid "Mark Read"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:507
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:529
+msgid "Mark Unread"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:509
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:531
+msgid "Add Star"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:510
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:532
+msgid "Remove Star"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:519
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:85
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:228
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:310
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:86
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:296
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:407
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:85
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:74
+msgid "Active"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:520
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:546
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:598
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:706
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:87
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:230
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:312
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:88
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:298
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:409
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:87
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:76
+msgid "Alphabetical"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:521
+msgid "Newest"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:524
+msgid "Newest first"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:525
+msgid "Earliest first"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:543
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:595
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:41
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:41
+msgid "Last Active"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:544
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:596
+msgid "Most Members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:545
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:597
+msgid "Newly Created"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:558
+msgid "Private"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:559
+msgid "Hidden"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:562
+msgid "Pending Invites"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:563
+msgid "Accepted invites"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:566
+msgid "Recently invited"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:567
+msgid "Last Invited"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:570
+msgid "All Members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:571
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:46
+msgid "Moderators"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:572
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:47
+msgid "Administrators"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:573
+msgid "Banned Users"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:574
+msgid "Invited Users"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:579
+msgid "All Group Members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:580
+msgid "Group Moderators and Administrators"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:581
+msgid "Group Administrators only"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:586
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:104
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:193
+msgid "Members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:587
+msgid "Manage"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:609
+msgid "Refunds"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:660
+msgid "Add new Note"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:661
+msgid "Set Reminders"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:662
+msgid "Add Note"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:663
+msgid "Edit Note"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:664
+msgid "No more notifications !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:665
+msgid "Mark all read"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:666
+msgid "Delete all"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:667
+msgid "No members online."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:668
+msgid "Send"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:670
+msgid "MyChats"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:672
+msgid "Start new chat"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:673
+msgid "Back to all chats"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:674
+msgid "Exit Chat"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:675
+msgid "Add new message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:676
+msgid "Invited"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:677
+msgid "is typing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:678
+msgid " Members Online !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:679
+msgid "Select Attachment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:680
+#, php-format
+msgid "Attachment size should be less than upload limit %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:705
+msgid "Recently uploaded"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:709
+msgid "image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:710
+msgid "Video"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:711
+msgid "Audio"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:712
+msgid "File"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:717
+msgid "Note"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:723
+msgid "Margin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:731
+msgid "Padding"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:739
+msgid "Background"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:746
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.color.php:13
+msgid "Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:754
+msgid "Tab"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:760
+msgid "Accordion"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:766
+msgid "Forms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:772
+msgid "Add Tab"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:773
+msgid "Add Accordion Tab"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:774
+msgid "Enter Title..."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:775
+msgid "Search..."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:776
+msgid "View Form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.register.php:777
+msgid "Advance Elements"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:46
+msgid "General"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:52
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:528
+msgid "Service Worker"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:54
+msgid "App Builder"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:101
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:155
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:155
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:91
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:156
+msgid "Card Builder"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:125
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:166
+msgid "Add Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:155
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:87
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/controls/post_control/class.post.php:44
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/controls/post_control/class.post.php:46
+msgid "Select Post Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:189
+msgid "BuddyPress General Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:192
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:324
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:327
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:961
+msgid "General Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:226
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:99
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:236
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:292
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:100
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:304
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:385
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:44
+msgid "All"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:236
+msgid "Additional Components"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:254
+msgid "Accessibility Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:258
+msgid "Disable Public Profile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:262
+msgid ""
+"Profiles are accessible on internet by anyone. Switching this on disables "
+"public access for profiles."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:265
+msgid "Disable Public Member Directory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:269
+msgid ""
+"Disable member directory acess for public. You can add member directory in "
+"profile menu."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:272
+msgid "Disable Groups & Group Directory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:276
+msgid ""
+"Disable group directory access for public. You can add group directory in "
+"profile menu."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:279
+msgid "Disable Public Activities [recommended]"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:283
+msgid "Disable activities for public."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:286
+msgid "BuddyPress Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:290
+msgid "BuddyPress Avatar Full Width (px)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:297
+msgid "BuddyPress Avatar Full Height (px)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:304
+msgid "BuddyPress Avatar Thumbnail Width (px)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:311
+msgid "BuddyPress Avatar Thumbnail Height (px)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:348
+msgid "Basic Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:352
+msgid "Client id"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:355
+msgid "Client id for all api hits "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:359
+msgid "Synchronise WP with VibeBP Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:362
+msgid "When user logs in WordPress he is also logged in VibeBP"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:366
+msgid "Token Duration"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:370
+msgid "1 Week"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:371
+msgid "30 Minutes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:372
+msgid "1 Hour"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:373
+msgid "6 Hours"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:374
+msgid "12 Hours"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:375
+msgid "24 Hours"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:376
+msgid "Never expires"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:378
+msgid " User remains logged in without the need for re-login."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:382
+msgid "Login Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:386
+msgid "Global Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:389
+msgid ""
+"Are you adding login in Menu/Header or on specific page. Global login "
+"scripts loaded on entire site."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:393
+msgid "Login Heading"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:396
+msgid "Login screen heading "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:397
+msgid "Welcome back"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:400
+msgid "Login message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:403
+msgid "Login message below heading"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:404
+msgid "Sign in to experience the next generation of WPLMS 4.0."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:407
+msgid "Login Screen Terms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:410
+msgid "Terms and Conditions text in login screen "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:414
+msgid "SignIn Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:417
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:446
+msgid "Title shown on login popup screen "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:421
+msgid "Sign In Description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:424
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:453
+msgid "Text shown below login title in popup screen "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:428
+msgid "Forgot Password Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:432
+msgid "Forgot Password Description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:435
+msgid "Text shown below Forgot Password title in popup screen "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:439
+msgid "Create Account Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:443
+msgid "Create Account Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:450
+msgid "Create Account Description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:457
+msgid "Firebase Project"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:461
+msgid "Enter Firebase Config"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:464
+msgid "Firebase Config for web app. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:468
+msgid "Disable Live chat"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:471
+msgid "Disable Live chat, Notes and realtime notifications."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:475
+msgid "User Brand Icons"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:478
+msgid "Use brand icons in site."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:482
+msgid "Google Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:485
+msgid ""
+"Google login via firebase,  make sure Google is enabled as Login method in "
+"Firebase auth signin. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:489
+msgid "Facebook Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:492
+msgid ""
+"Facebook login via firebase,  make sure Facebook is enabled as Login method "
+"in Firebase auth signin. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:496
+msgid "Twitter Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:499
+msgid ""
+"Twitter login via firebase,  make sure Twitter is enabled as Login method in "
+"Firebase auth signin. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:503
+msgid "Github Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:506
+msgid ""
+"Github login via firebase,  make sure Github is enabled as Login method in "
+"Firebase auth signin. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:510
+msgid "Apple Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:513
+msgid ""
+"Apple ID login via firebase,  make sure Apple is enabled as Login method in "
+"Firebase auth signin. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:517
+msgid "Google Maps"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:521
+msgid "Google Maps API Key"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:524
+msgid "Get your maps api key "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:532
+msgid "Setup Service Workers"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:535
+msgid ""
+"Setup service workers for offline loading, pre-loading and push "
+"notifications. "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:550
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:17
+msgid "Members Directory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:556
+msgid "Activity Directory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:562
+msgid "Public Profile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:566
+msgid "Private Profile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:572
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:15
+msgid "Groups Directory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:671
+msgid "Select registration form"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:695
+msgid "Select"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:860
+msgid "Save Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:913
+msgid "Settings Saved"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:915
+msgid "Unable to Save settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:939
+msgid "App request VibeThemes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:943
+msgid "Build your Mobile App"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:946
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1040
+msgid "App Icon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:947
+msgid "App Splash Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:962
+msgid "Background Sync"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:963
+msgid "Push Notifications"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:965
+msgid "Service Workers"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:965
+msgid "Regenerate Service Worker"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:965
+msgid "Generate Service Worker"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:996
+msgid "Push Notification addon required !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1004
+msgid "Coming up."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1012
+msgid "Version"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1016
+msgid ""
+"Service Worker Version. Updates service workers, clears out cached scripts "
+"and other API data."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1019
+msgid "App Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1023
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1030
+msgid "App name when users download on desktop"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1026
+msgid "App Shortname"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1033
+msgid "App description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1036
+msgid "App description when users download on desktop"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1043
+msgid "Recommended Size 512x512"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1044
+msgid "Set App Icon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1045
+msgid "Select App Icon Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1048
+msgid "Default Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1051
+msgid "Set default image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1052
+msgid "Select Fallback Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1053
+msgid "Fallback image when image not available in offline mode."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1056
+msgid "App Screenshot"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1059
+msgid "Set Splash Screen"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1060
+msgid "Select Splash Screen Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1061
+msgid "Recommended Size 2732x2732"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1064
+msgid "Offline Page URL [Required]"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1068
+msgid ""
+"App home, this is cached. Set to User profile or custom page with VibeBp "
+"profile shortcode to enable app in offline mode"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1072
+msgid "Pre-Cache Resources"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1075
+msgid "Enter Script/Style URL"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1076
+msgid ""
+"Additional scripts which need to be precached. All VibeBP & Addon scripts "
+"are cached by default."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1093
+msgid "Successfully regenerated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1142
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1143
+msgid "Apply on Member Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1151
+msgid "Select Member Profile Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1167
+msgid "Select Member Profile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1213
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1214
+msgid "Apply on Group Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1222
+msgid "Select Member Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1246
+msgid "Select Group Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/class.settings.php:1288
+msgid "Select Group Layout"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:16
+msgid "Vibe Carousel"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:32
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:32
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:32
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/description.php:31
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:31
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:32
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:31
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:31
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:31
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:31
+msgid "Controls"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:40
+msgid "Carousel Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:43
+msgid "Enter Carousel Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:50
+msgid "Show More link"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:54
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:73
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:91
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:196
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:275
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:117
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:135
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:166
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:182
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:118
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:136
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:176
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:207
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:223
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:51
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:42
+msgid "No"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:58
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:77
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:95
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:200
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:279
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:121
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:139
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:170
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:186
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:122
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:140
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:180
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:211
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:227
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:55
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:46
+msgid "Yes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:69
+msgid "Show Direction arrows"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:87
+msgid "Show Control dots"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:115
+msgid ""
+"Enter Post Type<br /><span style=\"font-size:11px;\">(Select Post Type from "
+"Posts/Courses/Clients/Products ...)</span>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:124
+msgid ""
+"Enter relevant Taxonomy name used for Filter buttons (example : course-cat,"
+"event-type..)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:127
+msgid "example : course-cat,event-type.."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:134
+msgid ""
+"Enter Taxonomy Term Slug <br />(optional, only if above is selected, comma "
+"saperated for multiple terms): "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:137
+msgid "Enter Taxonomy Terms"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:144
+msgid "Enter Post Ids"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:147
+msgid "Enter comma saparated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:154
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:97
+msgid "Post Order"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:168
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:135
+msgid "Featured Style"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:192
+msgid "Auto slide/rotate"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:210
+msgid "Maximum Number of blocks in One screen"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:222
+msgid "Minimum Number of blocks in one Screen"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:234
+msgid "Move blocks in one slide"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:246
+msgid "Total Number of Blocks"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:258
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:111
+msgid "Excerpt Length in Block (in characters)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.carousel.php:271
+msgid "Show Link button on image hover"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:14
+msgid "Vibe Grid"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:40
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:43
+msgid "Enter Taxonomy Slug"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:58
+msgid "Taxonomy Term "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:61
+msgid "Enter Taxonomy Term/s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:68
+msgid "Or Enter Specific Post Ids (comma saperated)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:71
+msgid "Enter post ids"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:123
+msgid "Block width"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:168
+msgid "Control your grid"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:178
+msgid "Spacing between Columns (in px)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:190
+msgid "Adjust Vertically"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:194
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:209
+msgid "Start"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:195
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:210
+msgid "End"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:196
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:211
+msgid "Center"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:197
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:212
+msgid "Stretch"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/class.grid.php:205
+msgid "Adjust Horizontally"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/controls/grid_control/class.grid.php:74
+msgid "Rows"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/controls/grid_control/class.grid.php:78
+msgid "Columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/controls/grid_control/class.grid.php:86
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/controls/post_control/class.post.php:58
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:353
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:373
+msgid "Reset"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:39
+msgid "Total Number of Groups in view"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:55
+msgid "Min-width of Group"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:81
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:82
+msgid "Default Sort by"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:86
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:229
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:311
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:87
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:297
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:408
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:86
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:75
+msgid "Recently Added"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:88
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:231
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:313
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:299
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:410
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:88
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:77
+msgid "Random"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:232
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:314
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:90
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:300
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:411
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:78
+msgid "Popular"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:113
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:114
+msgid "Show Pagination"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:131
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:172
+msgid "Full avatar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:148
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:189
+msgid "Card Style"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:152
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:193
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:82
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:59
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:70
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:83
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:108
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:101
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:76
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:83
+msgid "Default"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:154
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:195
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:91
+msgid "Pop Names"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:155
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:196
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:92
+msgid "Card"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:162
+msgid "Show Search Groups"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:178
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:219
+msgid "Show Sort options"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:198
+msgid "Show Group type Filter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:235
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:279
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:303
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:350
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:371
+msgid "Type to search"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:238
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:308
+msgid "Show Filters"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:239
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:309
+msgid "Close Filters"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/groups.php:240
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:310
+msgid "Clear All"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:40
+msgid "Total Number of Members in view"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:56
+msgid "Min-width of Member"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:104
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:306
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:40
+msgid "Member Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:132
+msgid "Show Map & Filters"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:160
+msgid "Select Filters"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:203
+msgid "Show Search"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:239
+msgid "Show Member type Filter"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/directory/members.php:307
+msgid "Map Search"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:15
+msgid "Group Avatar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:46
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:47
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:47
+msgid "Image Width"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:61
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:62
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:62
+msgid "Border Radius"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:78
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:55
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:66
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:79
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:104
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:97
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:85
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:79
+msgid "Style"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:83
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:71
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:84
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:77
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:92
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:84
+msgid "Perspective"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/avatar.php:84
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:72
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:85
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:78
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:93
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:85
+msgid "Shadow"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:17
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:53
+msgid "Group Data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:42
+msgid "Creation Date"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:43
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:43
+msgid "Last Status update"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:44
+msgid "Moderator Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:45
+msgid "Administrator Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/data.php:46
+msgid "Member Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/description.php:39
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:38
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:70
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:70
+msgid "Font Size"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/description.php:58
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:89
+msgid "Text Color"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:40
+msgid "Group Role"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:45
+msgid "Members [Excluding Admin & Mods]"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:60
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:102
+msgid "Names"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/members.php:61
+msgid "Names Popup"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:15
+msgid "Group Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/groups/title.php:53
+msgid "Font Family"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/avatar.php:16
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/categories.php:16
+msgid "Member Profile Avatar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:17
+msgid "Member Profile Data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:42
+msgid "Register Time"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:47
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:72
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:72
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:73
+msgid "Friends Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:50
+msgid "Group Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:53
+msgid "Followers Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:54
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:94
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:94
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:95
+msgid "Following Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/data.php:60
+msgid "Profile Data"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:16
+msgid "Member Profile Field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:60
+msgid "Select Field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:109
+msgid "Stacked"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:110
+msgid "Spaced"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:111
+msgid "No Label"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/field.php:112
+msgid "Icons"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:16
+msgid "Member Profile Friends"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:47
+msgid "Show Total friend count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:65
+msgid "Show Friends"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:81
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:70
+msgid "Sort by"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:103
+msgid "Hover Names"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/friends.php:163
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:151
+msgid "more"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:15
+msgid "Member Profile Groups"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:38
+msgid "Show total groups count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/profile/groups.php:55
+msgid "Show Groups"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:16
+msgid "KB Articles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:40
+msgid "Number of Articles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:56
+msgid "Articles Grid"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:72
+msgid "Article Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:86
+msgid "Article Author"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:90
+msgid "Current User"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/elementor/wiki/articles.php:91
+msgid "Displayed User"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:33
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:48
+msgid "Guest"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:37
+#, php-format
+msgid "%s invited you to chat."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:39
+msgid "Accept"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:39
+msgid "Chat Invite accepted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:40
+msgid "Reject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:40
+msgid "Chat Invite rejected"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:50
+#, php-format
+msgid "%s is now online."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:73
+msgid "Afghanistan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:74
+msgid "Albania"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:75
+msgid "Algeria"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:76
+msgid "American Samoa"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:77
+msgid "Andorra"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:78
+msgid "Angola"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:79
+msgid "Anguilla"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:80
+msgid "Antarctica"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:81
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:82
+msgid "Argentina"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:83
+msgid "Armenia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:84
+msgid "Aruba"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:85
+msgid "Australia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:86
+msgid "Austria"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:87
+msgid "Azerbaijan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:88
+msgid "Bahamas"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:89
+msgid "Bahrain"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:90
+msgid "Bangladesh"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:91
+msgid "Barbados"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:92
+msgid "Belarus"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:93
+msgid "Belgium"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:94
+msgid "Belize"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:95
+msgid "Benin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:96
+msgid "Bermuda"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:97
+msgid "Bhutan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:98
+msgid "Bolivia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:99
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:100
+msgid "Botswana"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:101
+msgid "Bouvet Island"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:102
+msgid "Brazil"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:103
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:104
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:105
+msgid "Bulgaria"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:106
+msgid "Burkina Faso"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:107
+msgid "Burundi"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:108
+msgid "Cambodia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:109
+msgid "Cameroon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:110
+msgid "Canada"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:111
+msgid "Cape Verde"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:112
+msgid "Cayman Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:113
+msgid "Central African Republic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:114
+msgid "Chad"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:115
+msgid "Chile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:116
+msgid "China"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:117
+msgid "Christmas Island"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:118
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:119
+msgid "Colombia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:120
+msgid "Comoros"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:121
+msgid "Congo"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:122
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:123
+msgid "Cook Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:124
+msgid "Costa Rica"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:125
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:126
+msgid "Croatia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:127
+msgid "Cuba"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:128
+msgid "Cyprus"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:129
+msgid "Czech Republic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:130
+msgid "Denmark"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:131
+msgid "Djibouti"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:132
+msgid "Dominica"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:133
+msgid "Dominican Republic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:134
+msgid "Ecuador"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:135
+msgid "Egypt"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:136
+msgid "El Salvador"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:137
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:138
+msgid "Eritrea"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:139
+msgid "Estonia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:140
+msgid "Ethiopia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:141
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:142
+msgid "Faroe Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:143
+msgid "Fiji"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:144
+msgid "Finland"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:145
+msgid "France"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:146
+msgid "French Guiana"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:147
+msgid "French Polynesia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:148
+msgid "French Southern Territories"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:149
+msgid "Gabon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:150
+msgid "Gambia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:151
+msgid "Georgia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:152
+msgid "Germany"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:153
+msgid "Ghana"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:154
+msgid "Gibraltar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:155
+msgid "Greece"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:156
+msgid "Greenland"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:157
+msgid "Grenada"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:158
+msgid "Guadeloupe"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:159
+msgid "Guam"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:160
+msgid "Guatemala"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:161
+msgid "Guinea"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:162
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:163
+msgid "Guyana"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:164
+msgid "Haiti"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:165
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:166
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:167
+msgid "Honduras"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:168
+msgid "Hong Kong"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:169
+msgid "Hungary"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:170
+msgid "Iceland"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:171
+msgid "India"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:172
+msgid "Indonesia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:173
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:174
+msgid "Iraq"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:175
+msgid "Ireland"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:176
+msgid "Israel"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:177
+msgid "Italy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:178
+msgid "Jamaica"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:179
+msgid "Japan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:180
+msgid "Jordan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:181
+msgid "Kazakhstan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:182
+msgid "Kenya"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:183
+msgid "Kiribati"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:184
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:185
+msgid "Korea, Republic of"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:186
+msgid "Kuwait"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:187
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:188
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:189
+msgid "Latvia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:190
+msgid "Lebanon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:191
+msgid "Lesotho"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:192
+msgid "Liberia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:193
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:194
+msgid "Liechtenstein"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:195
+msgid "Lithuania"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:196
+msgid "Luxembourg"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:197
+msgid "Macao"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:198
+msgid "Macedonia, the Former Yugoslav Republic of"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:199
+msgid "Madagascar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:200
+msgid "Malawi"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:201
+msgid "Malaysia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:202
+msgid "Maldives"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:203
+msgid "Mali"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:204
+msgid "Malta"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:205
+msgid "Marshall Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:206
+msgid "Martinique"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:207
+msgid "Mauritania"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:208
+msgid "Mauritius"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:209
+msgid "Mayotte"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:210
+msgid "Mexico"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:211
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:212
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:213
+msgid "Monaco"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:214
+msgid "Mongolia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:215
+msgid "Montserrat"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:216
+msgid "Morocco"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:217
+msgid "Mozambique"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:218
+msgid "Myanmar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:219
+msgid "Namibia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:220
+msgid "Nauru"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:221
+msgid "Nepal"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:222
+msgid "Netherlands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:223
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:224
+msgid "New Caledonia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:225
+msgid "New Zealand"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:226
+msgid "Nicaragua"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:227
+msgid "Niger"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:228
+msgid "Nigeria"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:229
+msgid "Niue"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:230
+msgid "Norfolk Island"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:231
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:232
+msgid "Norway"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:233
+msgid "Oman"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:234
+msgid "Pakistan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:235
+msgid "Palau"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:236
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:237
+msgid "Panama"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:238
+msgid "Papua New Guinea"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:239
+msgid "Paraguay"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:240
+msgid "Peru"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:241
+msgid "Philippines"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:242
+msgid "Pitcairn"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:243
+msgid "Poland"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:244
+msgid "Portugal"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:245
+msgid "Puerto Rico"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:246
+msgid "Qatar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:247
+msgid "Reunion"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:248
+msgid "Romania"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:249
+msgid "Russian Federation"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:250
+msgid "Rwanda"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:251
+msgid "Saint Helena"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:252
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:253
+msgid "Saint Lucia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:254
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:255
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:256
+msgid "Samoa"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:257
+msgid "San Marino"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:258
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:259
+msgid "Saudi Arabia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:260
+msgid "Senegal"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:261
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:262
+msgid "Seychelles"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:263
+msgid "Sierra Leone"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:264
+msgid "Singapore"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:265
+msgid "Slovakia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:266
+msgid "Slovenia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:267
+msgid "Solomon Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:268
+msgid "Somalia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:269
+msgid "South Africa"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:270
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:271
+msgid "Spain"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:272
+msgid "Sri Lanka"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:273
+msgid "Sudan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:274
+msgid "Suriname"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:275
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:276
+msgid "Swaziland"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:277
+msgid "Sweden"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:278
+msgid "Switzerland"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:279
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:280
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:281
+msgid "Tajikistan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:282
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:283
+msgid "Thailand"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:284
+msgid "Timor-Leste"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:285
+msgid "Togo"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:286
+msgid "Tokelau"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:287
+msgid "Tonga"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:288
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:289
+msgid "Tunisia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:290
+msgid "Turkey"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:291
+msgid "Turkmenistan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:292
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:293
+msgid "Tuvalu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:294
+msgid "Uganda"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:295
+msgid "Ukraine"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:296
+msgid "United Arab Emirates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:297
+msgid "United Kingdom"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:298
+msgid "United States"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:299
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:300
+msgid "Uruguay"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:301
+msgid "Uzbekistan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:302
+msgid "Vanuatu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:303
+msgid "Venezuela"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:304
+msgid "Viet Nam"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:305
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:306
+msgid "Virgin Islands, U.s."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:307
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:308
+msgid "Western Sahara"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:309
+msgid "Yemen"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:310
+msgid "Zambia"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:311
+msgid "Zimbabwe"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:377
+msgid "Read more"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/functions.php:419
+msgid " Comments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/emails.php:30
+msgid "Forgot password "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/emails.php:31
+msgid " Password Reset"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/emails.php:32
+msgid ""
+"Someone requested that the password be reset for the following account: "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/emails.php:32
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/emails.php:32
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/emails.php:32
+#, php-format
+msgid "To reset your password, visit the following address: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:7
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:7
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:28
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:8
+msgid "Desktop"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:11
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:11
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:32
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:12
+msgid "Tablet"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:15
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:15
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:36
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:16
+msgid "Mobile"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:22
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:22
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:43
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:23
+msgid "One columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:26
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:26
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:47
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:27
+msgid "Two columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:30
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:51
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:31
+msgid "Three columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:34
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:34
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:55
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:35
+msgid "One-Two columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:38
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:38
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:59
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:39
+msgid "Two-One columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:42
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:46
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:42
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:46
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:63
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:67
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:43
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:47
+msgid "Two-Three columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:50
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:50
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:71
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:51
+msgid "Four columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:54
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:54
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:75
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:55
+msgid "One-Two-One columns"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:65
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:65
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:66
+msgid "Profile Pic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:81
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:81
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:82
+msgid "Groups Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:90
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:90
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:91
+msgid "Follower Count"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:142
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:142
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:143
+msgid "Small"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:143
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:143
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:144
+msgid "Large"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:144
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:144
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:145
+msgid "Tag"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:145
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:145
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:146
+msgid "Description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:146
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:146
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:147
+msgid "Label Stacked"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:147
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:147
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:148
+msgid "Label Spaced"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:157
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:157
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:93
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:158
+msgid "Save"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_card.php:160
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_card.php:160
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:96
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_type_card.php:161
+msgid "Card Preview"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:79
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:99
+msgid "Add another"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:86
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:106
+msgid "Slug"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:87
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:107
+msgid "Singular Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:87
+msgid "group type singular name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:89
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:109
+msgid "Plural Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:89
+msgid "group type plural name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:168
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:169
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:190
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:191
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:188
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:189
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:210
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:211
+msgid "N.A"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:181
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:201
+msgid "Save setings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:182
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:202
+msgid "Reset setings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:205
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:225
+msgid "Please remove special characters."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:281
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:301
+msgid "Special Characters are not allowed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:323
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:347
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:343
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:367
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/group_types.php:341
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:361
+msgid "Saved"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:36
+msgid "Assign member type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:36
+msgid "None"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:36
+msgid "Enable User to select one"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:47
+msgid "Member Types"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:107
+msgid "Member type singular name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/member_types.php:109
+msgid "Member type plural name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/post_card.php:81
+msgid "Featured Image"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.color.php:14
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.country.php:14
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.location.php:14
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.social.php:14
+msgid "VibeBP"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.location.php:13
+msgid "Location"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/settings/xprofile_fields/class.field_type.social.php:13
+msgid "Social"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/shortcodes/class.shortcodes.php:574
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/includes/shortcodes/class.shortcodes.php:807
+msgid "No posts Found !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/basic-theme/exclude/file.php:3
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/plugin-include/plugin-include.php:6
+msgid "Exclude"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/plugin-include/include/file.php:2
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/node-wp-i18n/test/fixtures/makepot/nested-theme/include/include.php:2
+msgid "Include"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/add-domain.php:2
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:2
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:3
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:4
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:6
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:7
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:8
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php:2
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php:3
+msgid "String"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:9
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:10
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-all-domains.php:11
+msgid "1 Star"
+msgstr ""
+
+#. translators: A single line translators comment.
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/translator-comments/translator-comments.php:7
+msgid "A"
+msgstr ""
+
+#. translators: A
+#. multiline
+#. translators
+#. comment.
+#.
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/grunt-wp-i18n/test/fixtures/translator-comments/translator-comments.php:15
+msgid "B"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/node_modules/node-wp-i18n/test/fixtures/makepot/nested-theme/subdir/index.php:2
+msgid "Index"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/templates/groups/single/index.php:24
+msgid "Create a new group layout."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibebp/templates/members/single/index.php:23
+msgid "Create a Member Profile layout in WP admin - VibeBp - Member Profiles"
+msgstr ""

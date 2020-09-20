@@ -1,0 +1,179 @@
+2020-08-30T04:50:42+00:00 CRITICAL Object of class WP_Error could not be converted to string in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/vibe-course-module/includes/api/class-api-user-controller.php on line 344
+
+2020-08-30T04:50:42+00:00 CRITICAL Object of class WP_Error could not be converted to string in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/vibe-course-module/includes/api/class-api-user-controller.php on line 344
+
+2020-08-30T08:52:37+00:00 CRITICAL Object of class WP_Error could not be converted to string in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/vibe-course-module/includes/api/class-api-user-controller.php on line 344
+
+2020-08-30T08:52:37+00:00 CRITICAL Object of class WP_Error could not be converted to string in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/vibe-course-module/includes/api/class-api-user-controller.php on line 344
+
+2020-08-30T13:02:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit-form-advanced.php(419): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-a in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:02:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit-form-advanced.php(419): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-a in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:02:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit-form-advanced.php(419): require_once('/home/u92542874...')
+#5 /home/u925428748/domains/wow-a in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:02:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/index.php(111): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:02:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/index.php(111): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit.php(386): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit.php(386): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/about.php(17): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/index.php(111): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit.php(386): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit.php(386): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::add_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:631
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->add_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/index.php(111): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 631
+
+2020-08-30T13:03:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::remove_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:659
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->remove_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/index.php(111): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 659
+
+2020-08-30T13:03:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::remove_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:659
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->remove_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/index.php(111): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 659
+
+2020-08-30T13:03:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::remove_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:659
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->remove_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit.php(386): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 659
+
+2020-08-30T13:04:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::remove_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:659
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->remove_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit.php(386): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 659
+
+2020-08-30T13:04:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Screen::remove_help_tab(), 0 passed in /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php on line 5088 and exactly 1 expected in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php:659
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/functions.php(5088): WP_Screen->remove_help_tab()
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(631): _deprecated_hook('contextual_help', '3.3.0', 'get_current_scr...', '')
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php(823): apply_filters_deprecated('contextual_help', Array, '3.3.0', 'get_current_scr...')
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-header.php(259): WP_Screen->render_screen_meta()
+#4 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/edit.php(386): require_once('/home/u92542874...')
+#5 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-admin/includes/class-wp-screen.php on line 659
+
+2020-08-30T18:12:08+00:00 CRITICAL Object of class WP_Error could not be converted to string in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/vibe-course-module/includes/api/class-api-user-controller.php on line 344
+
+2020-08-30T18:12:10+00:00 CRITICAL Object of class WP_Error could not be converted to string in /home/u925428748/domains/wow-ae.com/public_html/wp-content/plugins/vibe-course-module/includes/api/class-api-user-controller.php on line 344
+

@@ -1,0 +1,213 @@
+*3.8
+*without uploading attachment the assignment is submitted
+*3.7
+*3.6
+*version updated(3.5)
+*wplms assignments
+*3.4.1
+*xlsx file from libreoffice not uploading fix
+*Text domain missing bug fixed in plupload
+*changelog
+*3.3
+*Assignment submissions in course admin fetched alphabetically
+*3.2
+*changelog
+*3.1
+*security error fix
+*3.0
+*3.0
+*2.9.2
+*2.9
+*translation updated
+*Text domain missing fixed.
+*new line issues in comment content fix
+*translations updated
+*2.8
+*Download attachment option visible in text type bug fixed.
+*2.7.3
+*jpeg compulsary fix
+*assignment_Statistics
+*2.7.1
+*2.6.1
+*auto approve assignment submissions
+*notice fixes
+*2.6
+*Pot files synced
+*download attachment link not working fix
+*plupload enabled by default and space check in file name in remarks
+*2.5.2
+*notice message removed
+*Fuzzy translation Fixed.
+*Minor bug fixed.
+*Text domain fixed in several places
+*2.5.1
+*blank upload assignment check in plupload
+*php notice fixes
+*2.5.0
+*translation files updated
+*check Attachment function fix size fix
+*metadata attachment
+*show allowed file type and size for instructor also .
+*instructor attach file in evaluate form
+*delete if not allowed mime type
+*some css fixes
+*checked mimetype of file with php
+*plupload in assignmnets
+*2.4.1
+*2.4
+*Translation files updated
+*csv increment for Assignment marks stats.
+*2.3.1
+*2.3
+*translation files added
+*remaining time filter for submission date for assignment
+*assignment allignment in results
+*code allignment
+*Static class and Added Assignments in Course - User - Stats
+*Coverted to Static class
+*Course assignments function
+*2.2.2
+*Disable all assignments in Admin panel
+*2.2
+*Translation files updated
+*Update : Confirm in assignment removal
+*Language change for MEssage
+*2.1.1
+*2.1
+*query fix
+*PSD file upload fix
+*Timer color fix
+*multisite fix
+*Result Template fixes
+*2.0.9.1
+*2.0.9
+*styling fixes
+*assignment duration expires on evaluation
+*php7 improvements
+*pick dark color fron options
+*2.0.8
+*translation files updated
+*assignment duration & wplms_course_get_course_assignments function defined
+*timeout string
+*Ended
+*2.0.7
+*translation string update
+*2.0.6.1
+*2.0.6
+*2.0.2
+*Query improvements
+*Loaded script fix
+*2.0.1
+*changelog
+*translation files
+*Assignment submissions extension
+*Bug fix on submission
+*1.9.9.2
+*1.9.9.2
+*PSD assignment and Attachment type fix
+*Unlimited duration fix
+*1.9.9.1
+*Quotes in unlimited assignment test
+*Unit assignments notification
+*changelog
+*v1.9.9
+*v1.9.8.2
+*1.9.8.2
+*version 1.9.8.1
+*Text area assignment with submit bug fix
+*version1.9.8
+*Check if empty files
+*version1.9.7
+*language files updated
+*Isset 9999 condition check
+*version1.9.6.2
+*version1.9.6.1
+*Submissions bug fix
+*version1.9.6
+*Translation files updated
+*Assignment scripts inclusion only on assignment and front end pages
+*Attachment ids variable bugfix
+*Multiple File uploads in Assignments
+*BuddyPress course activity refactor
+*version 1.9.5.1
+*Maximum marks inclusion in Course evaluation
+*version1.9.5
+*Translation files added
+*Plugin update fixes
+*version 1.9.4.1
+*Assignment marks in course auto evaluation bug
+*version1.9.4
+*Translation files
+*initialise assignment priority change
+*Show result after user has done the assignment.
+*results button
+*esc_url in add_query_arg
+*version1.9.3.1
+*Assignment upload issue
+*Translation fixes
+*version1.9.3
+*notices not working issue in assignments
+*Assignment save notices not working
+*Assignment display change and removal of submit button
+*version1.9.2
+*Translation files updated
+*BP Course results Slug added in assignment results
+*version1.9.1
+*Language files updated
+*Improved assignment appearance
+*Assignment messages include maximum assignment marks
+*finfo function warning
+*Assignment stats in Courses
+*version1.9
+*Translation files
+*Czech language
+*Bug Fixes for Incomplete assignment submissions
+*version1.8.4.1
+*PHP v 5.4 fix
+*version1.8.4
+*Translation files updated
+*v1.8.3
+*Assignment marks CSS fix
+*FIXED : Infinite assignment clicking loop
+*Language files update
+*version1.8.2.1
+*Uploader in assignments fix
+*Updated Changelog
+*version1.8.2
+*Reset assignment on Course reset
+*version1.8.1
+*version1.8
+*Updated : Language files
+*version1.7.5
+*version1.7.4
+*UPDATED: Language files
+*version1.7.3
+*version1.7.2
+*UPDATED : Language files
+*ADDED : CodeStyling Localization compatibility
+*Version 1.7.1
+*FIXED : Attachment size issue
+*ADDED : Assignment submission notification to Instructor
+*version1.7.0
+*ADDED: TinCan API Compatibility
+*version 1.6.5 : updated language files
+*ADDED : Assignment parameter
+*ADDED : Multiple assignments per unit.
+*version1.6.4
+*version 1.6.3
+*version 1.6.2
+*Updated  : Language files
+*ADDED : Brazilian translation files
+*version 1.6.1
+*version 1.6
+*UPDATED: Language Files[US]
+*version 1.5.5
+*version 1.5.4
+*FIXED :Translation bug
+*version 1.5.3
+*UPDATED : Language Files
+*FIXED : Changed load_textdomain to load_plugin_textdomain
+*FIXED : The message notification on function types
+*version 1.5.2
+*FIXED: Comments not saving in general posts / Quizzes
+*Initialize Repo

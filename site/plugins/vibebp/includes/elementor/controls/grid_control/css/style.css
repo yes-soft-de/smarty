@@ -1,0 +1,23 @@
+.playground {
+    display: grid;
+    margin:1rem;
+    grid-gap:10px;
+}
+.grid_field_wrapper > div.columns_wrapper{
+	
+	grid-template-columns:1fr 1fr;
+	grid-gap:1rem;
+}
+.grid_field_wrapper > div{
+	display:grid;
+}
+.playground span{
+    display: inline-block;
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px dotted rgba(0,0,0,0.9);
+}
+.playground span.grid_element.active,
+.playground span.grid_element:hover{
+	background:#b8ff8e;
+}

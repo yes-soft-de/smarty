@@ -1,0 +1,593 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Assignments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-01 13:31+0530\n"
+"PO-Revision-Date: 2017-05-01 13:31+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Digite seu nome de usuário Envato Marketplace"
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Digite sua API Key Envato Marketplace"
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "A API \"set\" é um parâmetro obrigatório."
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "O Envato Marketplace \"item ID\" é um parâmetro obrigatório."
+
+#: autoupdate/class-plugin-update.php:377
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Um erro HTTP inesperado ocorreu durante o pedido API."
+
+#: autoupdate/class-plugin-update.php:377
+#: autoupdate/class-plugin-update.php:542
+msgid "Try again"
+msgstr "Tente novamente"
+
+#: autoupdate/class-plugin-update.php:418
+msgid "An unknown error occurred"
+msgstr "Ocorreu um erro desconhecido"
+
+#: autoupdate/class-plugin-update.php:454
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"O plugin foi atualizado, mas não pôde ser ativado. Por favor, ative-o "
+"manualmente."
+
+#: autoupdate/class-plugin-update.php:455
+msgid "Plugin reactivated successfully. "
+msgstr "Plugin ativado com sucesso."
+
+#: autoupdate/class-plugin-update.php:477
+msgid " Plugin Updates"
+msgstr " Atualizações de plugins"
+
+#: autoupdate/class-plugin-update.php:516
+msgid "Username: "
+msgstr "Usuário: "
+
+#: autoupdate/class-plugin-update.php:520
+msgid "Email: "
+msgstr "Email: "
+
+#: autoupdate/class-plugin-update.php:526
+msgid "Key: "
+msgstr "Chave: "
+
+#: autoupdate/class-plugin-update.php:532
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>A Atualização do plugin esta <span style=\"color:green\">ativo</span></p>"
+
+#: autoupdate/class-plugin-update.php:536
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Sua entrada <span style=\"color:red\">não é válida</span>, atualizações "
+"automáticas <span style=\"color:red\">não esta ativo</span>.</p>"
+
+#: autoupdate/class-plugin-update.php:537
+msgid "Edit Key"
+msgstr "Editar Chave"
+
+#: autoupdate/class-plugin-update.php:541
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Não é possível validar a ativação de atualização.</p>"
+
+#: autoupdate/class-plugin-update.php:547
+msgid "Add Key"
+msgstr "Adicionar Chave"
+
+#: autoupdate/class-plugin-update.php:633
+msgid "User name"
+msgstr "Nome de usuário"
+
+#: autoupdate/class-plugin-update.php:639
+msgid "Email"
+msgstr "Email"
+
+#: autoupdate/class-plugin-update.php:648
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Nome de usuário do Themeforest ( para Auto-Atualização )"
+
+#: includes/assignment_statistics.php:30 includes/assignments.php:436
+msgid "Assignments"
+msgstr ""
+
+#: includes/assignment_statistics.php:35
+msgid "Assignment Statistics"
+msgstr ""
+
+#: includes/assignment_statistics.php:37
+msgid "Overview"
+msgstr ""
+
+#: includes/assignment_statistics.php:127
+msgid "Total Assignments"
+msgstr ""
+
+#: includes/assignment_statistics.php:133
+msgid "Total Assignment Submissions"
+msgstr ""
+
+#: includes/assignment_statistics.php:156
+msgid "Prev"
+msgstr ""
+
+#: includes/assignment_statistics.php:165
+msgid "Next"
+msgstr ""
+
+#: includes/assignments.php:77 includes/assignments_functions.php:218
+#: includes/assignments_functions.php:294
+msgid "Security check failed !"
+msgstr "A verificação de segurança falhou!"
+
+#: includes/assignments.php:82 includes/assignments_functions.php:299
+msgid " Incorrect User selected."
+msgstr " Selecionado Usuário incorreto."
+
+#: includes/assignments.php:87 includes/assignments_functions.php:304
+msgid " Incorrect Assignment"
+msgstr " Exercício Incorreto"
+
+#: includes/assignments.php:95
+msgid "SUBMISSION"
+msgstr "ENVIO"
+
+#: includes/assignments.php:113 includes/assignments.php:116
+#: includes/assignments.php:793 includes/assignments.php:796
+msgid "Download Attachment"
+msgstr "Download do Anexo"
+
+#: includes/assignments.php:124
+#, php-format
+msgid "%s submission by %s"
+msgstr ""
+
+#: includes/assignments.php:126
+msgid "Enter marks out of "
+msgstr "Digita a pontuação do total de "
+
+#: includes/assignments.php:127
+msgid "REMARKS (if any)"
+msgstr "OBSERVAÇÕES (se houver)"
+
+#: includes/assignments.php:132
+msgid "Attach File"
+msgstr "Anexar arquivo"
+
+#: includes/assignments.php:136 includes/assignments.php:1697
+msgid "Allowed file types"
+msgstr "Tipos de arquivos permitidos"
+
+#: includes/assignments.php:136 includes/assignments.php:1697
+msgid "maximum file size"
+msgstr "tamanho máximo do arquivo"
+
+#: includes/assignments.php:136 includes/assignments.php:1697
+msgid "MB(s)"
+msgstr "MB(s)"
+
+#: includes/assignments.php:143 includes/assignments.php:1726
+msgid "Drop files here"
+msgstr "Solte os arquivos aqui"
+
+#: includes/assignments.php:144 includes/assignments.php:1727
+msgid "or"
+msgstr ""
+
+#: includes/assignments.php:153 includes/assignments.php:1736
+msgid "Please do not close the window until process is completed"
+msgstr "Por favor, não feche a janela até o processo ser concluído"
+
+#: includes/assignments.php:232
+msgid ""
+"There is a space in file name .Please remove space from your filename and "
+"try to re-upload"
+msgstr ""
+"Há um espaço no nome do arquivo. Por favor remover o espaço do seu nome de "
+"arquivo e tentar fazer o re-upload"
+
+#: includes/assignments.php:256 includes/assignments.php:1864
+msgid "  already exists. Please rename the file and try again."
+msgstr "  já existe. Por favor, renomeie o arquivo e tente de novo."
+
+#: includes/assignments.php:270 includes/assignments.php:1878
+msgid "Are you sure you want to quit uploading?"
+msgstr "Tem certeza de que deseja parar de fazer o upload?"
+
+#: includes/assignments.php:329 includes/assignments.php:1935
+msgid "File type not allowed"
+msgstr "Tipo de arquivo não permitido"
+
+#: includes/assignments.php:363
+msgid "GIVE MARKS"
+msgstr "PONTUAR"
+
+#: includes/assignments.php:441
+msgid "Marks Obtained : "
+msgstr ""
+
+#: includes/assignments.php:441
+msgid "Under Evaluation"
+msgstr ""
+
+#: includes/assignments.php:477
+#, php-format
+msgid "Assignment Submissions <span>%d</span>"
+msgstr ""
+
+#: includes/assignments.php:526
+msgid "Pending evaluation"
+msgstr ""
+
+#: includes/assignments.php:527
+msgid "Evaluation complete"
+msgstr ""
+
+#: includes/assignments.php:530
+msgid "Get"
+msgstr ""
+
+#: includes/assignments.php:563
+msgid "No assignments found !"
+msgstr ""
+
+#: includes/assignments.php:573
+msgid "Security check Failed. Contact Administrator."
+msgstr "A verificação de segurança falhou. Contate o administrador."
+
+#: includes/assignments.php:613
+msgid "Reset Assignment for User"
+msgstr "Reiniciar Tarefa para Aluno"
+
+#: includes/assignments.php:614
+msgid "Evaluate Assignment : "
+msgstr "Avaliar Tarefa:"
+
+#: includes/assignments.php:622
+msgid "No submissions found !"
+msgstr "Nenhum envio encontrado !"
+
+#: includes/assignments.php:690
+msgid "Assignment Results"
+msgstr "Resultado da Tarefa"
+
+#: includes/assignments.php:705
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr "Visualizando %d de %d"
+
+#: includes/assignments.php:740
+msgid "Results Available"
+msgstr "Resultados Disponíveis"
+
+#: includes/assignments.php:742
+msgid "Results Awaited"
+msgstr "Resultados Esperados"
+
+#: includes/assignments.php:759
+#, php-format
+msgid "Submitted %s"
+msgstr ""
+
+#: includes/assignments.php:779
+msgid "My Submission"
+msgstr "Meus Envios"
+
+#: includes/assignments.php:815
+msgid "See Instructor Remarks"
+msgstr "Ver as Observações do Instrutor"
+
+#: includes/assignments.php:818
+msgid "Marks Obtained"
+msgstr "Pontuação Obtida"
+
+#: includes/assignments.php:840
+msgid "Assignment Attachment deleted."
+msgstr "Tarefa Anexada excluído."
+
+#: includes/assignments.php:907
+msgid "Upload Assignment"
+msgstr "Enviar Tarefa"
+
+#: includes/assignments.php:1442 includes/assignments.php:2034
+#: includes/assignments.php:2038 includes/assignments.php:2040
+#: includes/assignments.php:2042 includes/assignments.php:2044
+#: includes/assignments.php:2046 includes/assignments.php:2048
+#: includes/assignments.php:2050 includes/assignments.php:2054
+msgid "ERROR:"
+msgstr "ERRO:"
+
+#: includes/assignments.php:1442 includes/assignments.php:2034
+msgid "File you upload must be valid file type"
+msgstr "Arquivo carregado deve ser do tipo de arquivo válido"
+
+#: includes/assignments.php:1442 includes/assignments.php:2034
+msgid ", and under "
+msgstr ", e abaixo "
+
+#: includes/assignments.php:1442 includes/assignments.php:2034
+msgid "MB(s)!"
+msgstr "MB(s)!"
+
+#: includes/assignments.php:1524
+msgid "Security check failed contact administrator"
+msgstr "A verificação de segurança falhou. Contate o administrador."
+
+#: includes/assignments.php:1617 includes/assignments_functions.php:272
+msgid "Invalid ID"
+msgstr "ID Inválido"
+
+#: includes/assignments.php:1622
+msgid "Attachment removed!"
+msgstr "Anexo removido!"
+
+#: includes/assignments.php:1624 includes/assignments.php:1628
+#: includes/assignments_functions.php:278
+msgid "Unable to remove previous submissions"
+msgstr "Não foi possível remover envios anteriores"
+
+#: includes/assignments.php:1702
+msgid "RECENTLY UPLOADED"
+msgstr "RECENTEMENTE CARREGADO"
+
+#: includes/assignments.php:2038 includes/assignments.php:2054
+msgid "Please upload an Attachment."
+msgstr "Por favor, faça o upload de um Anexo."
+
+#: includes/assignments.php:2040
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "O arquivo enviado excede o tamanho máximo permitido."
+
+#: includes/assignments.php:2042
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"O arquivo enviado excede o <em>MAX_FILE_SIZE</em> directiva que foi "
+"especificado no formulário HTML."
+
+#: includes/assignments.php:2044
+msgid "The uploaded file was only partially uploaded. Please try again later."
+msgstr ""
+"O arquivo foi apenas parcialmente carregado. Por favor, tente novamente mais "
+"tarde."
+
+#: includes/assignments.php:2046
+msgid "Missing a temporary folder."
+msgstr "Faltando uma pasta temporária."
+
+#: includes/assignments.php:2048
+msgid "Failed to write file to disk."
+msgstr "Falha ao gravar o arquivo no disco."
+
+#: includes/assignments.php:2050
+msgid "A PHP extension stopped the file upload."
+msgstr "A extensão PHP parou o upload de arquivos."
+
+#: includes/assignments.php:2076 includes/assignments.php:2081
+msgid "Attachment:"
+msgstr "Anexo:"
+
+#: includes/assignments.php:2201
+msgid "Download"
+msgstr "Download"
+
+#: includes/assignments.php:2275
+msgid "Delete Attachment"
+msgstr "Excluir Anexo"
+
+#: includes/assignments.php:2309
+#, php-format
+msgid ""
+"Regarding WPLMS Assignments Upload Assignment Functionality : It seems like "
+"your PHP installation is missing \"mime_content_type\" or \"finfo_file\" "
+"functions which are crucial for detecting file types of uploaded "
+"attachments. Please update your PHP installation OR be very careful with "
+"allowed file types, so intruders won't be able to upload dangerous code to "
+"your website! | <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+"Em relação a funcionalidade de atribuição de Upload de atribuições WPLMS: "
+"Parece que sua instalação do PHP está faltando funções \"mime_content_type\" "
+"ou \"finfo_file\", que são cruciais para a detecção de tipos de arquivos de "
+"anexos enviados. Por favor atualize sua instalação de PHP ou ter muito "
+"cuidado com tipos de arquivos permitidos, para que os intrusos não será "
+"capazes de carregar código perigoso para o seu site! | <a href=\"%1$s"
+"\">Ocultar o aviso</a>"
+
+#: includes/assignments_functions.php:28
+msgid "Submitted by"
+msgstr "Enviado por"
+
+#: includes/assignments_functions.php:28
+msgid "<span>"
+msgstr "<span>"
+
+#: includes/assignments_functions.php:31
+msgid "Assignment awaiting moderation."
+msgstr "Tarefa Aguardando Moderação"
+
+#: includes/assignments_functions.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s em %2$s"
+
+#: includes/assignments_functions.php:38
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: includes/assignments_functions.php:95 includes/assignments_functions.php:103
+msgid "Time Remaining"
+msgstr "Tempo Restante"
+
+#: includes/assignments_functions.php:96
+msgid "Days"
+msgstr "Dias"
+
+#: includes/assignments_functions.php:104
+msgid "Hours"
+msgstr "Horas"
+
+#: includes/assignments_functions.php:104
+msgid "Minutes"
+msgstr "Minutos"
+
+#: includes/assignments_functions.php:120
+msgid "ENDED"
+msgstr "FINALIZADO"
+
+#: includes/assignments_functions.php:147
+msgid "START ASSIGNMENT"
+msgstr "INÍCIO DO EXERCÍCIO"
+
+#: includes/assignments_functions.php:169
+msgid "CONTINUE ASSIGNMENT"
+msgstr "CONTINUAR EXERCÍCIO"
+
+#: includes/assignments_functions.php:190
+#: includes/assignments_functions.php:200
+msgid "SUBMIT ASSIGNMENT"
+msgstr "ENVIAR EXERCÍCIO"
+
+#: includes/assignments_functions.php:195
+msgid "INACTIVE COURSE "
+msgstr "CURSO INATIVO"
+
+#: includes/assignments_functions.php:208
+msgid "CHECK RESULTS"
+msgstr "VEJA OS RESULTADOS"
+
+#: includes/assignments_functions.php:232
+msgid "Assignment can not be re-started"
+msgstr "Exercício não pode ser reiniciado"
+
+#: includes/assignments_functions.php:242
+msgid "TIME EXPIRED, PLEASE SUBMIT THE ASSIGNMENT"
+msgstr "O TEMPO EXPIROU, POR FAVOR ENVIE O EXERCÍCIO"
+
+#: includes/assignments_functions.php:250
+msgid "Assignment "
+msgstr "Exercício "
+
+#: includes/assignments_functions.php:250
+msgid " submitted by student "
+msgstr "enviada pelo aluno"
+
+#: includes/assignments_functions.php:251
+msgid "Assignment submitted by Student"
+msgstr "Tarefa enviada pelo aluno"
+
+#: includes/assignments_functions.php:276
+msgid " previous submissions removed ! Reloading page ..."
+msgstr " envios anteriores removidos! Recarregando página ..."
+
+#: includes/assignments_functions.php:316
+msgid "Assignment Reset for Selected User"
+msgstr "Redefinir Atribuição para usuário selecionado"
+
+#: includes/assignments_functions.php:318
+msgid "Could not find Assignment for User. Contact Admin."
+msgstr ""
+"Não foi possível encontrar Atribuição do Usuário. Contactar Administrador."
+
+#: includes/assignments_functions.php:344
+#, php-format
+msgid ""
+"You've obtained %s our of %s in Assignment : %s Check Results %s. %s "
+"Additional Remarks from Instructor %s %s %s"
+msgstr ""
+
+#: includes/assignments_functions.php:349
+msgid "Assignment results available"
+msgstr "Resultados dos exercícios disponíveis"
+
+#: includes/assignments_functions.php:372
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: includes/assignments_functions.php:377
+msgid " days"
+msgstr " dias"
+
+#: includes/assignments_functions.php:380
+msgid "ASSIGNMENT : "
+msgstr "TAREFA : "
+
+#: includes/assignments_functions.php:382
+msgid "MARKS : "
+msgstr "PONTOS : "
+
+#: includes/assignments_functions.php:382
+msgid "DURATION : "
+msgstr "DURAÇÃO : "
+
+#: includes/assignments_functions.php:401
+msgid " out of "
+msgstr "de"
+
+#: includes/assignments_functions.php:401
+msgid " PENDING"
+msgstr " PENDENTE"
+
+#: includes/assignments_functions.php:443
+msgid "Assignment scores"
+msgstr "Pontuações das Tarefas"
+
+#: wplms-assignments.php:70
+msgid ""
+"This step is irreversible. All Assignment submissions would be reset for "
+"this user. Are you sure you want to Reset the Assignment for this User? "
+msgstr ""
+"Este passo é irreversível. Todos os envios de Tarefa serão redefinidos para "
+"este usuário. Tem certeza de que deseja reiniciar a Tarefa para este "
+"usuário? "
+
+#: wplms-assignments.php:71
+msgid "Confirm, Assignment reset for this User"
+msgstr "Confirme, reiniciar Tarefa para este usuário"
+
+#: wplms-assignments.php:72
+msgid "Marks Saved"
+msgstr "Pontos Salvas"
+
+#: wplms-assignments.php:73
+msgid "Assignment Marks Saved"
+msgstr "Pontos das Tarefas Salvas"
+
+#: wplms-assignments.php:74
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: wplms-assignments.php:75
+msgid "Incorrect file format "
+msgstr "Formato de arquivo incorreto "
+
+#: wplms-assignments.php:76
+msgid "File already selected "
+msgstr "Arquivo já selecionado "
+
+#: wplms-assignments.php:77
+msgid "Are you sure you want to remove this attachment ?"
+msgstr ""

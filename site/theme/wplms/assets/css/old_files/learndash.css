@@ -1,0 +1,108 @@
+#learndash_assignments_list tr{
+	border: 1px solid #EFEFEF;
+	padding: 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline-block;
+	width: 100%;
+}
+
+#learndash_assignments_list th,
+#learndash_assignments_list td{
+	min-width:120px;
+	width:100%;
+	text-align: center;
+}
+
+#learndash_uploaded_assignments{
+	background:#EFEFEF;
+	padding:10px 30px 30px;
+}
+
+#learndash_uploaded_assignments h2{
+	font-size:24px;
+	padding:0 0 10px;
+	margin-bottom:0 0 10px;
+	border-bottom:5px solid #DDD;
+}
+
+#learndash_uploaded_assignments a{
+	font-size:12px;
+	text-transform: uppercase;
+}
+#learndash_next_prev_link a{
+	background-color: #78c8c9;
+	background-image:url(../images/button.png);
+	border: none;
+	color: #FFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius:2px;
+	padding:8px 20px;
+	font-size:11px;
+}
+
+#learndash_lessons, #learndash_quizzes, #learndash_lesson_topics_list > div{
+	border-radius:2px !important;
+	border-color:#EFEFEF !important;
+	box-shadow:none !important;
+}
+
+#learndash_lessons #lesson_heading, #learndash_quizzes #quiz_heading, #learndash_lesson_topics_list div > strong{
+	background:#313b3d !important;
+	color:#FFF !important;
+}
+
+#lessons_list > div h4 > a, #quiz_list > div h4 > a{
+	font-size:12px;
+	text-transform: uppercase;
+	font-weight: 600
+}
+
+#learndash_course_materials h4{
+	padding:5px 10px 10px 0;
+	border-bottom:3px solid #EFEFEF;
+}
+.widget.pricing .learndash_checkout_buttons input[type="submit"]{
+	padding: 20px 32px !important;
+	background-color: #78c8ce;
+	width: 100%;
+	text-align: center;
+	font-size: 11px;
+	line-height: 1.6;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #78c8ce;
+	color: #FFF;
+	border: none;
+	border-radius: 2px;
+	background-image: url(../images/button.png);
+	width:100%;
+}
+
+#learndash_course_status{
+	padding: 5px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius:2px;
+	background:#78c8c9;
+	color:#FFF;
+}
+
+
+.widget.pricing .learndash_checkout_buttons .learndash_checkout_button{
+	width:100%;
+	max-width:100%;
+}
+
+.quizArea .question label{
+	font-size:12px;
+	padding-left:10px;
+}
+
+.nextQuestion,
+.prevQuestion{
+	margin-top:30px;
+}

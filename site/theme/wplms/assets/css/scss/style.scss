@@ -1,0 +1,70 @@
+@import 'defaults';
+
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../bower_components/font-awesome/scss/font-awesome.scss';
+
+@import '../../bower_components/select2/src/scss/core.scss';
+@import '../../bower_components/magnific-popup/src/css/main.scss';
+
+@import 'general';
+@import 'animation';
+
+@import 'header/general';
+@import 'header/login';
+@import 'header/navigation';
+@import 'header/variations';
+@import 'header/center';
+@import 'header/responsive';
+
+
+@import 'content/general';
+@import 'content/page';
+@import 'content/title';
+@import 'content/sidebars';
+@import 'content/certificate';
+@import 'content/extras';
+@import 'content/notes';
+@import 'content/page';
+@import 'content/post';
+@import 'content/quiz';
+@import 'content/search';
+@import 'content/units';
+
+@import 'buddypress/general';
+@import 'buddypress/activity';
+@import 'buddypress/directory';
+@import 'buddypress/profile';
+@import 'buddypress/groups';
+@import 'buddypress/header';
+@import 'buddypress/instructor';
+@import 'buddypress/message';
+@import 'buddypress/notification';
+@import 'buddypress/registration';
+@import 'buddypress/nav';
+@import 'buddypress/sidebar';
+
+
+@import 'course/directory';
+@import 'course/general';
+@import 'course/admin';
+@import 'course/curriculum';
+@import 'course/header';
+@import 'course/pricing';
+@import 'course/units';
+@import 'course/widgets';
+@import 'course/submissions';
+@import 'course/quiz';
+@import 'course/misc';
+
+@import 'course/misc';
+
+@import 'shortcodes';
+
+@import 'elements';
+@import 'sidebar';
+@import 'footer';
+@import 'misc';
+@import 'special';
+
+@import 'boxed';
+@import 'responsive';

@@ -1,0 +1,75 @@
+.live-edit *:focus{
+	outline:none !important;
+}
+#delete_course{margin:0;}
+.hide_it{display: none;}
+.chosen-drop{
+	margin-left:0 !important;
+}
+.button{
+	&.hero{
+		width:100%;
+		display: inline-block;
+		text-align: center;
+		clear:both;
+		cursor: pointer;
+		margin:30px 0 0;
+		background-color:#70c989;
+		border-color:#70c989;
+		background-image:url(../images/button.png);
+		font-size:11px;
+		text-transform: uppercase;
+	}
+	&.big{
+		padding:20px 0;
+		cursor: pointer;
+	}
+	
+	&.hero.disabled,
+	.course_button.disabled{
+		background-color:#DDD !important;
+		border-color:#DDD !important;
+		color:#444 !important;
+	}
+}
+
+.slideout{
+	translateX:-540px;
+}
+
+#hidden_base,
+.product_duration{
+	display: none;
+}
+
+article{
+	&>ul{
+		margin:0 !important;
+		&>li{
+			list-style:none;
+		}
+	}
+}
+
+.field_wrapper a.tip{
+    margin-left: 15px;
+    color: #aaa;
+}
+
+
+h3.course_status span{float:right;}
+h3.course_status span .switch{
+	margin-top: 0px;
+}
+
+#question_settings{
+	display: none;
+}
+
+#course_pricing > ul > li.new_product{
+	display: none;
+}
+
+.course_settings > .vibe_vibe_duration{
+	display:block !important;
+}

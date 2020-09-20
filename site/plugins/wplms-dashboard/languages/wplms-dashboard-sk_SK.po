@@ -1,0 +1,1294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-01 12:31+0530\n"
+"PO-Revision-Date: 2017-05-01 12:31+0530\n"
+"Last-Translator: Vibethemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmai.com>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Prosím zadajte vaše Rnvato Marketplace prihlasovacie meno."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Prosím zadajte váš Envato Marketplace API kľúč."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"upaviť\" je požadovaný parameter."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "The Envato Marketplace \"item ID\" is a required parameter."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Počas preverovania API došlo k neočakávanej HTTP chybe."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "Skúste to znova"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "Vyskytla sa neznáma chyba"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"Doplnok bol aktualizovaný, ale nepodarilo sa ho aktivovať. Prosím, aktivujte "
+"ručne."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "Doplnok úspešne reaktivovaný. "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr " Aktualizácia doplnku"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "Užívateľské meno: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "Email: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Kľúč: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>Vaša aktualizácia doplnku je <span style=\"color:green\">Aktívna</span></"
+"p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Vaše zadanie je <span style=\"color:red\">neplatí</span>, automatická "
+"aktualizácie je <span style=\"color:red\">neaktívna</span>.</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "Upraviť kľúč"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Nemožno overiť aktiváciu aktualizácie.</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "Pridať kľúč"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "Užívateľské meno"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "E-mail"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest prihlasovanie meno (pre automatické aktualizácie)"
+
+# @ wplms-dashboard
+#: includes/dashboard.php:43 includes/dashboard.php:57
+msgid "Dashboard"
+msgstr "Dashboard"
+
+# @ wplms-dashboard
+#: includes/functions.php:39
+#: includes/widgets/instructor/instructor_commissions.php:53
+msgid "Earnings"
+msgstr "Zárobok"
+
+#: includes/functions.php:40
+msgid "Payout"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/functions.php:41
+msgid "# Students"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/functions.php:42
+msgid "SAVED"
+msgstr ""
+
+#: includes/functions.php:43
+msgid "SAVING ..."
+msgstr ""
+
+#: includes/functions.php:44
+msgid "Select recipients..."
+msgstr ""
+
+#: includes/functions.php:45
+msgid "Stats Calculated, reloading page ..."
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/functions.php:64
+msgid "Student Sidebar"
+msgstr "Student - Hlavný panel"
+
+# @ wplms-dashboard
+#: includes/functions.php:70
+msgid "This is the dashboard sidebar for Students"
+msgstr "Toto je hlavný panel bočej lišty pre študentov"
+
+# @ wplms-dashboard
+#: includes/functions.php:73
+msgid "Instructor Sidebar"
+msgstr "Inštruktor - Hlavný panel"
+
+# @ wplms-dashboard
+#: includes/functions.php:79
+msgid "This is the dashboard sidebar for Instructors"
+msgstr "Toto je hlavný panel bočnej lišty pre inštruktorov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:14
+msgid "announcement Widget for Dashboard"
+msgstr "Oznámenie miniaplikácie pre hlavný panel"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:16
+msgid " DASHBOARD : Instructor announcement Widget"
+msgstr " HLAVNÝ PANEL: Inšturktorský oznam miniaplikácie"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:63
+msgid "Add announcement"
+msgstr "Pridať oznámenia"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:64
+msgid "Send announcement to student in courses"
+msgstr "Odoslať oznámenie pre študentov k kurze"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:70
+msgid "All Students"
+msgstr "Všetci študenti"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:71
+msgid "Students who are pursuing the course"
+msgstr "Študenti ktorý sledujú tento kurz"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:72
+msgid "Students who finished the course"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:80
+msgid "Submit"
+msgstr "Odovzdať"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:98
+msgid "announcement"
+msgstr "oznámenia"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:107
+#: includes/widgets/instructor/dash_instructor_stats.php:291
+#: includes/widgets/instructor/instructing_modules.php:154
+#: includes/widgets/instructor/instructor_commissions.php:132
+#: includes/widgets/instructor/instructor_stats.php:168
+#: includes/widgets/student/activity_widget.php:184
+#: includes/widgets/student/calendar.php:104
+#: includes/widgets/student/contact_users.php:102
+#: includes/widgets/student/course_progress.php:127
+#: includes/widgets/student/dash_stats.php:207
+#: includes/widgets/student/my_modules.php:218
+#: includes/widgets/student/news.php:206
+#: includes/widgets/student/notes_discussions.php:111
+#: includes/widgets/student/student_stats.php:317
+#: includes/widgets/student/text_widget.php:66
+#: includes/widgets/student/todo_task.php:92
+msgid "Title:"
+msgstr "Title:"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:112
+#: includes/widgets/instructor/dash_instructor_stats.php:317
+#: includes/widgets/instructor/instructing_modules.php:204
+#: includes/widgets/instructor/instructor_commissions.php:136
+#: includes/widgets/instructor/instructor_stats.php:180
+#: includes/widgets/student/activity_widget.php:204
+#: includes/widgets/student/calendar.php:116
+#: includes/widgets/student/contact_users.php:110
+#: includes/widgets/student/course_progress.php:139
+#: includes/widgets/student/dash_stats.php:221
+#: includes/widgets/student/my_modules.php:246
+#: includes/widgets/student/news.php:214
+#: includes/widgets/student/notes_discussions.php:119
+#: includes/widgets/student/student_stats.php:357
+#: includes/widgets/student/text_widget.php:75
+#: includes/widgets/student/todo_task.php:104
+msgid "Select Width"
+msgstr "Select Width"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:114
+#: includes/widgets/instructor/dash_instructor_stats.php:319
+#: includes/widgets/instructor/instructing_modules.php:206
+#: includes/widgets/instructor/instructor_commissions.php:138
+#: includes/widgets/instructor/instructor_stats.php:182
+#: includes/widgets/student/activity_widget.php:206
+#: includes/widgets/student/calendar.php:118
+#: includes/widgets/student/contact_users.php:112
+#: includes/widgets/student/course_progress.php:141
+#: includes/widgets/student/dash_stats.php:223
+#: includes/widgets/student/my_modules.php:248
+#: includes/widgets/student/news.php:216
+#: includes/widgets/student/notes_discussions.php:121
+#: includes/widgets/student/student_stats.php:359
+#: includes/widgets/student/text_widget.php:77
+#: includes/widgets/student/todo_task.php:106
+msgid "One Fourth"
+msgstr "Jedna štvrtina"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:115
+#: includes/widgets/instructor/dash_instructor_stats.php:320
+#: includes/widgets/instructor/instructing_modules.php:207
+#: includes/widgets/instructor/instructor_commissions.php:139
+#: includes/widgets/instructor/instructor_stats.php:183
+#: includes/widgets/student/activity_widget.php:207
+#: includes/widgets/student/calendar.php:119
+#: includes/widgets/student/contact_users.php:113
+#: includes/widgets/student/course_progress.php:142
+#: includes/widgets/student/dash_stats.php:224
+#: includes/widgets/student/my_modules.php:249
+#: includes/widgets/student/news.php:217
+#: includes/widgets/student/notes_discussions.php:122
+#: includes/widgets/student/student_stats.php:360
+#: includes/widgets/student/text_widget.php:78
+#: includes/widgets/student/todo_task.php:107
+msgid "One Third"
+msgstr "Jedna tretina"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:116
+#: includes/widgets/instructor/dash_instructor_stats.php:321
+#: includes/widgets/instructor/instructing_modules.php:208
+#: includes/widgets/instructor/instructor_commissions.php:140
+#: includes/widgets/instructor/instructor_stats.php:184
+#: includes/widgets/student/activity_widget.php:208
+#: includes/widgets/student/calendar.php:120
+#: includes/widgets/student/contact_users.php:114
+#: includes/widgets/student/course_progress.php:143
+#: includes/widgets/student/dash_stats.php:225
+#: includes/widgets/student/my_modules.php:250
+#: includes/widgets/student/news.php:218
+#: includes/widgets/student/notes_discussions.php:123
+#: includes/widgets/student/student_stats.php:361
+#: includes/widgets/student/text_widget.php:79
+#: includes/widgets/student/todo_task.php:108
+msgid "One Half"
+msgstr "jedna polovica"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:117
+#: includes/widgets/instructor/dash_instructor_stats.php:322
+#: includes/widgets/instructor/instructing_modules.php:209
+#: includes/widgets/instructor/instructor_commissions.php:141
+#: includes/widgets/instructor/instructor_stats.php:185
+#: includes/widgets/student/activity_widget.php:209
+#: includes/widgets/student/calendar.php:121
+#: includes/widgets/student/contact_users.php:115
+#: includes/widgets/student/course_progress.php:144
+#: includes/widgets/student/dash_stats.php:226
+#: includes/widgets/student/my_modules.php:251
+#: includes/widgets/student/news.php:219
+#: includes/widgets/student/notes_discussions.php:124
+#: includes/widgets/student/student_stats.php:362
+#: includes/widgets/student/text_widget.php:80
+#: includes/widgets/student/todo_task.php:109
+msgid "Two Third"
+msgstr "Dve tretiny"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:118
+#: includes/widgets/instructor/dash_instructor_stats.php:323
+#: includes/widgets/instructor/instructing_modules.php:210
+#: includes/widgets/instructor/instructor_commissions.php:142
+#: includes/widgets/instructor/instructor_stats.php:186
+#: includes/widgets/student/activity_widget.php:210
+#: includes/widgets/student/calendar.php:122
+#: includes/widgets/student/contact_users.php:116
+#: includes/widgets/student/course_progress.php:145
+#: includes/widgets/student/dash_stats.php:227
+#: includes/widgets/student/my_modules.php:252
+#: includes/widgets/student/news.php:220
+#: includes/widgets/student/notes_discussions.php:125
+#: includes/widgets/student/student_stats.php:363
+#: includes/widgets/student/text_widget.php:81
+#: includes/widgets/student/todo_task.php:110
+msgid "Three Fourth"
+msgstr "Tri štvrtiny"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:119
+#: includes/widgets/instructor/dash_instructor_stats.php:324
+#: includes/widgets/instructor/instructing_modules.php:211
+#: includes/widgets/instructor/instructor_commissions.php:143
+#: includes/widgets/instructor/instructor_stats.php:187
+#: includes/widgets/student/activity_widget.php:211
+#: includes/widgets/student/calendar.php:123
+#: includes/widgets/student/contact_users.php:117
+#: includes/widgets/student/course_progress.php:146
+#: includes/widgets/student/dash_stats.php:228
+#: includes/widgets/student/my_modules.php:253
+#: includes/widgets/student/news.php:221
+#: includes/widgets/student/notes_discussions.php:126
+#: includes/widgets/student/student_stats.php:364
+#: includes/widgets/student/text_widget.php:82
+#: includes/widgets/student/todo_task.php:111
+msgid "Full"
+msgstr "Plný"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:127
+#: includes/widgets/instructor/announcements.php:229
+#: includes/widgets/instructor/instructor_commissions.php:154
+#: includes/widgets/instructor/instructor_stats.php:196
+#: includes/widgets/instructor/instructor_stats.php:292
+#: includes/widgets/student/contact_users.php:214
+msgid "Security error"
+msgstr "Bezpečnostná chyba"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:134
+msgid "Please enter some text for announcement"
+msgstr "Zadajte prosím nejaký text pre oznámenie"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:138
+msgid "Course list not set"
+msgstr "Zoznam kurzov nieje nastavený"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:155
+msgid "announcement successfully delivered"
+msgstr "Oznámenie úspečne doručené"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:214
+msgid "CLICK TO EXPAND"
+msgstr "KLIKNUTÍM ROZBALIŤ"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:215
+#, php-format
+msgid "You have %s announcements"
+msgstr "Máte %s z oznámenia"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/announcements.php:238
+msgid "Unable to remove annoucement"
+msgstr "Nemožno odstrániť oznámenia"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/break.php:13
+msgid "Line Widget for Dashboard"
+msgstr "Odkaz miniaplikácie pre hlavný panel"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/break.php:15
+msgid " DASHBOARD : Line Break"
+msgstr " HLAVNÝ PANEL: Koniec riadku"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/break.php:43
+msgid "Line Break : New Line"
+msgstr "Koniec riadku: Nová rada"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:13
+msgid "Simple stats scores for instructors"
+msgstr "Základné štatistiky pre inštruktorov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:15
+msgid " DASHBOARD : Instructor Simple Stats"
+msgstr " HLAVNÝ PANEL: Základné štatistiky pre inštruktorov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:73
+msgid "Total Commission Earned"
+msgstr "Vaše celkové provízie"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:92
+msgid "Courses Instructing"
+msgstr "Inštruktované kurzy"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:112
+msgid "Quizzes Created"
+msgstr "Vytvorené testy"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:131
+msgid "Units Created"
+msgstr "Vytvorené videonávody"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:150
+msgid "Assignments Created"
+msgstr "Priradené kurzy"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:169
+msgid "Questions Created"
+msgstr "Vytvorené otázok"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:189
+msgid "Badges Awarded"
+msgstr "Udelené odznaky"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:211
+msgid "Certificates awarded"
+msgstr "Udelené certifikáty"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:232
+msgid "Total Students in Courses"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:281
+#: includes/widgets/instructor/instructor_commissions.php:124
+msgid "Instructor Stats"
+msgstr "Štatistiky inštruktora"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:295
+#: includes/widgets/student/dash_stats.php:211
+msgid "Select Stats"
+msgstr "Výber štatistík"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:300
+msgid "WooCommerce Earnings"
+msgstr "Woocommerce zisk"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:301
+msgid "Number of courses"
+msgstr "Počet kurzov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:302
+msgid "Number of Quizzes"
+msgstr "Počet testov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:303
+msgid "Number of assignments"
+msgstr "Počet úloh"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:304
+msgid "Number of questions"
+msgstr "Počet otázok"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:305
+msgid "Number of units"
+msgstr "Počet videonávody"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:306
+msgid "Number of badges"
+msgstr "Počet odznakov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:307
+msgid "Number of certificates"
+msgstr "Počet certifikátov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/dash_instructor_stats.php:308
+msgid "Number of Students"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructing_modules.php:13
+msgid "Instructing Modules  Widget for Dashboard"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructing_modules.php:15
+msgid " DASHBOARD : Instructing Modules"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructing_modules.php:94
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructing_modules.php:133
+msgid "Instructing Modules"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructing_modules.php:158
+msgid "Select Post Types:"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructing_modules.php:175
+#: includes/widgets/student/activity_widget.php:188
+#: includes/widgets/student/my_modules.php:242
+msgid "Number of items"
+msgstr "Počet položiek"
+
+#: includes/widgets/instructor/instructing_modules.php:179
+msgid "Order by"
+msgstr ""
+
+#: includes/widgets/instructor/instructing_modules.php:183
+msgid "Publish Date"
+msgstr ""
+
+#: includes/widgets/instructor/instructing_modules.php:184
+msgid "Alphabetical"
+msgstr ""
+
+#: includes/widgets/instructor/instructing_modules.php:185
+msgid "Menu order"
+msgstr ""
+
+#: includes/widgets/instructor/instructing_modules.php:195
+msgid "Order"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_commissions.php:13
+msgid "WooCommerce Commission Stats  for instructors"
+msgstr "WooCommerce - štatistiky pre inštruktorov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_commissions.php:15
+msgid " DASHBOARD : Instructor Commission Stats"
+msgstr " HLAVNÝ PANEL: Štatistiky inštruktora"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_commissions.php:53
+msgid "Course"
+msgstr "Kurz"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_commissions.php:61
+msgid "Commissions Paid"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_commissions.php:72
+msgid "No data found"
+msgstr "Neboli nájdené žiadne údaje"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_commissions.php:323
+msgid "No courses found for Instructor"
+msgstr "Žiaden kurz od inštruktora"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:14
+msgid "Instructor Statistics widget"
+msgstr "Štatistická miniaplikácia inštruktorov"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:16
+msgid " DASHBOARD : Instructor Stats"
+msgstr " HLAVNÝ PANEL: Nastavenie inštruktora"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:41
+#: includes/widgets/student/my_modules.php:39
+#: includes/widgets/student/student_stats.php:46
+msgid "Courses"
+msgstr "Kurzy"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:56
+msgid "No courses created by instructor"
+msgstr "Žiaden kurz vytvorený inštruktorom"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:78
+msgid "Show Stats"
+msgstr "Zobraziť štatistiky"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:79
+msgid "Re-calculate Stats"
+msgstr "Prepočítať štatistiky"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:80
+msgid "List Quiz / Assignments"
+msgstr "Zoznam testov / Úlohy"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:108
+#: includes/widgets/instructor/instructor_stats.php:124
+msgid "Average Score"
+msgstr "Priemerné skóre"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:155
+msgid "Instructor Statistics"
+msgstr "Štatistiky inštruktora"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:172
+msgid "Set Range value (10 for 1/10)"
+msgstr "Nastavenie rozsahu (10 od 1/10)"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:176
+msgid "Set Max course limit"
+msgstr "Nastavenie maximálne hranice kurzu"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:283
+msgid "No data available"
+msgstr "K dispozícíi žiadne údaje"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:318
+#: includes/widgets/student/student_stats.php:49
+msgid "Quiz"
+msgstr "Test"
+
+# @ wplms-dashboard
+#: includes/widgets/instructor/instructor_stats.php:322
+msgid "Assignment"
+msgstr "Úloha"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:14
+#: includes/widgets/student/calendar.php:14
+msgid "Recent activity from Student"
+msgstr "Nedávna činnosť študenta"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:16
+msgid " DASHBOARD : Recent Activity"
+msgstr " HLAVNÝ PANEL: Posledná aktivita"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:82
+msgid "Unread Messages"
+msgstr "Neprečítané správy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:96
+msgid "No messages found"
+msgstr "Neboli nájdene žiadne správy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:103
+msgid "Friends Online"
+msgstr "Priatelia online"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:111
+msgid "No friends online"
+msgstr "Žiaden priateľ online"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:128
+msgid "Recent Activity"
+msgstr "Posledná aktivita"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:136
+#: includes/widgets/student/calendar.php:63
+msgid "AGO"
+msgstr "AGO"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:144
+msgid "No activity found"
+msgstr "Nenájdená žiadna činnosť+"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:170
+#: includes/widgets/student/calendar.php:92
+msgid "Student Activity"
+msgstr "Aktivita študenta"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:192
+msgid "Show recent messages"
+msgstr "Zobraziť posledné správy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:196
+msgid "Show recent activity"
+msgstr "Zobraziť poslednú aktivitu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/activity_widget.php:200
+msgid "Show online Friends"
+msgstr "Zobraziť online priateľov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/calendar.php:16
+msgid " DASHBOARD : Calendar"
+msgstr " HLAVNÝ PANEL: Kalendár"
+
+# @ wplms-dashboard
+#: includes/widgets/student/calendar.php:56
+msgid "VIEW ALL"
+msgstr "ZOBRAZIŤ VŠETKO"
+
+# @ wplms-dashboard
+#: includes/widgets/student/calendar.php:108
+#: includes/widgets/student/course_progress.php:131
+msgid "Number of activities in one screen"
+msgstr "Počet aktivít na jednej obrazovke"
+
+# @ wplms-dashboard
+#: includes/widgets/student/calendar.php:112
+msgid "Show Me & My Friends Activity"
+msgstr "Ukáž mi & Aktivity priateľov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:14
+msgid "Contact form Widget"
+msgstr "Kontaktný formulár miniaplikácie"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:16
+msgid " DASHBOARD : Contact Form"
+msgstr " HLAVNÝ PANEL: Kontaktný formulár"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:53
+msgid "Select User group"
+msgstr "Vyber skupinu užívateľov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:54
+msgid "Select a user group"
+msgstr "Vyber zo skupiny užívateľov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:56
+msgid "Friends"
+msgstr "Priatelia"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:61
+msgid "Instructor"
+msgstr "Inštruktor"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:63
+msgid "Administrator"
+msgstr "Administrator"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:65
+msgid "Course Students"
+msgstr "Kurzy študentov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:69
+msgid "Type name to auto-complete"
+msgstr "Zadajte názov na automatické dokončenie"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:70
+msgid "Enter Subject"
+msgstr "Zadajte predmet"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:71
+msgid "Enter Message"
+msgstr "Zadajte správu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:72
+msgid "Send Message"
+msgstr "Odoslať správu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:92
+#: includes/widgets/student/dash_stats.php:197
+#: includes/widgets/student/my_modules.php:204
+#: includes/widgets/student/text_widget.php:56
+msgid "Contact Instructors"
+msgstr "Kontakt na inštruktora"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:106
+msgid "Show User select dropdown"
+msgstr "Prehliadka užívateľov vyberte v rozbaľovacom menu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:223
+msgid "Please enter to/subject/message"
+msgstr "Prosím, zadajte do /predmetu/ správy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/contact_users.php:233
+#, php-format
+msgid "Message sent to %s members"
+msgstr "Správa bola odoslaná  %s členov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/course_progress.php:14
+msgid "Student Progress in Courses"
+msgstr "Študentov pokrok v kurzoch"
+
+# @ wplms-dashboard
+#: includes/widgets/student/course_progress.php:16
+msgid " DASHBOARD : Course Progress"
+msgstr "HLAVNÝ PANEL: Pokrok v kurze"
+
+# @ wplms-dashboard
+#: includes/widgets/student/course_progress.php:115
+msgid "Course Progress"
+msgstr "Progress kurzu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/course_progress.php:135
+msgid "Show Finished Courses"
+msgstr "Ukázať ukončené kurzy"
+
+#: includes/widgets/student/course_progress.php:182
+msgid "Security check failed !"
+msgstr "Bezpečnostná kontrola zlyhala!"
+
+#: includes/widgets/student/course_progress.php:187
+msgid " Incorrect User selected."
+msgstr " Vybraný nesprávny užívatelia."
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:13
+msgid "Simple stats scores for students"
+msgstr "Jednotlivé štatistiky pre študentov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:15
+msgid " DASHBOARD : Simple Stats"
+msgstr " HLAVNÝ PANEL: Jednoduché štatistiky"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:55
+msgid "Courses Completed"
+msgstr "Dokončené kurzy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:88
+msgid "Assignments Completed"
+msgstr "Dokončené úlohy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:122
+msgid "Quizzes Completed"
+msgstr "Dokončené testy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:157
+msgid "Units Completed"
+msgstr "Dokončené videonávody"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:214
+msgid "Finished Courses"
+msgstr "Dokončené kurzy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:215
+msgid "Finished Quizes"
+msgstr "Dokončené testy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:216
+msgid "Finished Assignments"
+msgstr "Dokončené úlohy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/dash_stats.php:217
+msgid "Finished Units"
+msgstr "Dokončené videonávody"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:13
+msgid "My Courses, Units, Quizzes, Assignments widget for Dashboard"
+msgstr "Moje kurzy, videonávody, testy, úlohy, miniaplikácie pre Dashboard"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:15
+msgid " DASHBOARD : My Modules Widget"
+msgstr " HLAVNÝ PANEL: Moje miniaplikácie"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:42
+msgid "Quizzes"
+msgstr "Testy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:45
+#: includes/widgets/student/student_stats.php:52
+msgid "Assignments"
+msgstr "Úlohy"
+
+#: includes/widgets/student/my_modules.php:48
+msgid "Units"
+msgstr "Videonávody"
+
+#: includes/widgets/student/my_modules.php:51
+msgid "Downloads"
+msgstr "Stiahnuté"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:78
+msgid "No Courses found"
+msgstr "Neboli nájdene žiadne kurzy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:100
+msgid "No quizzes found"
+msgstr "Neboli nájdene žiadne testy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:122
+msgid "No assignments found"
+msgstr "Nebola nájdena žiadna úloha"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:146
+msgid "No units found"
+msgstr "Nebol nájdený ziadny videonávod"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:173
+msgid "No downloads found"
+msgstr "Nebolo nič stiahnuté"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:222
+msgid "Show My Courses"
+msgstr "Zobraziť moje kurzy"
+
+#: includes/widgets/student/my_modules.php:226
+msgid "Show My Quizzes"
+msgstr "Zobraziť moje testy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:230
+msgid "Show My Assignments"
+msgstr "Zobraziť moje úlohy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/my_modules.php:234
+msgid "Show My Units"
+msgstr "Zobraziť moje videonávody"
+
+#: includes/widgets/student/my_modules.php:238
+msgid "Show My Downloads"
+msgstr "Zobraziť moje sťahovania"
+
+# @ wplms-dashboard
+#: includes/widgets/student/news.php:13
+msgid "News for Members"
+msgstr "Novinky pre členov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/news.php:15
+msgid " DASHBOARD : Member News"
+msgstr " HLAVNÝ PANEL: Novinky členov"
+
+# @ wplms-dashboard
+#: includes/widgets/student/news.php:173
+msgid "No news for you !"
+msgstr "Žiadne správy pre vás!"
+
+# @ vibe
+# @ wplms-dashboard
+#: includes/widgets/student/news.php:196
+msgid "News"
+msgstr "Správy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/news.php:210
+msgid "Maximum Number of New blocks in carousel"
+msgstr "Maximálny počet nových blokov v karuselu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/notes_discussions.php:13
+msgid "Notes & Discussion Widget for Dashboard"
+msgstr "Poznámky & pripomienky niniaplikácii pre hlavný panel"
+
+# @ wplms-dashboard
+#: includes/widgets/student/notes_discussions.php:15
+msgid " DASHBOARD : Notes & Discussion"
+msgstr " HLAVNÝ PANEL: Poznámky & Pripomienky"
+
+# @ wplms-dashboard
+#: includes/widgets/student/notes_discussions.php:41
+msgid "SEE ALL"
+msgstr "ZOBRAZIŤ VŠETKO"
+
+# @ wplms-dashboard
+#: includes/widgets/student/notes_discussions.php:43
+msgid "My Notes"
+msgstr "Moje poznámky"
+
+# @ wplms-dashboard
+#: includes/widgets/student/notes_discussions.php:44
+msgid "My Discussions"
+msgstr "Moje pripomienky"
+
+# @ wplms-dashboard
+#: includes/widgets/student/notes_discussions.php:101
+msgid "Notes& Discussion"
+msgstr "Poznámky & Pripomienky"
+
+# @ wplms-dashboard
+#: includes/widgets/student/notes_discussions.php:115
+msgid "Number of Notes/Dicussions"
+msgstr "Počet poznámok/Pripomienok"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:14
+msgid "Student Statistics widget"
+msgstr "Študenetové štatistiky miniaplikácie"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:16
+msgid " DASHBOARD : Student Stats"
+msgstr " HLAVNÝ PANEL: Študentové štatistiky"
+
+#: includes/widgets/student/student_stats.php:230
+#: includes/widgets/student/student_stats.php:249
+#: includes/widgets/student/student_stats.php:268
+msgid "MY MARKS"
+msgstr ""
+
+#: includes/widgets/student/student_stats.php:230
+#: includes/widgets/student/student_stats.php:249
+#: includes/widgets/student/student_stats.php:268
+msgid "AVERAGE"
+msgstr ""
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:302
+msgid "Student Statistics"
+msgstr "Štatistiky študenta"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:321
+msgid "Show Course statistics"
+msgstr "Zobraziť štatistiky kurzu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:325
+msgid "Course Chart Style"
+msgstr "Štýl grafu kurzu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:327
+#: includes/widgets/student/student_stats.php:339
+#: includes/widgets/student/student_stats.php:351
+msgid "LINE CHART"
+msgstr "DRUH GRAFU"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:328
+#: includes/widgets/student/student_stats.php:340
+#: includes/widgets/student/student_stats.php:352
+msgid "AREA CHART"
+msgstr "ROZSAH GRAFU"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:329
+#: includes/widgets/student/student_stats.php:341
+#: includes/widgets/student/student_stats.php:353
+msgid "BAR CHART"
+msgstr "STĹPCOVÝ GRAF"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:333
+msgid "Show Quiz statistics"
+msgstr "Ukázať štatistiky testu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:337
+#: includes/widgets/student/student_stats.php:349
+msgid "Quiz Chart Style"
+msgstr "Štýl grafu testu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/student_stats.php:345
+msgid "Show Assignments statistics"
+msgstr "Zobraziť štatistiky úloh"
+
+# @ wplms-dashboard
+#: includes/widgets/student/text_widget.php:13
+msgid "Text Widget for Dashboard"
+msgstr "Text miniaplikácie pre hlavný panel"
+
+# @ wplms-dashboard
+#: includes/widgets/student/text_widget.php:15
+msgid " DASHBOARD : Text Widget"
+msgstr " HLAVNÝ PANEL: Text miniaplikácie"
+
+# @ wplms-dashboard
+#: includes/widgets/student/text_widget.php:70
+msgid "Text Content"
+msgstr "Text obsahu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:13
+msgid "To Do list Widget"
+msgstr "Zoznam úloh miniaplikácie"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:15
+msgid " DASHBOARD : To Do Tasks"
+msgstr " HLAVNÝ PANEL: Ak chcete zoznam miniaplikácii"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:50
+msgid "ADD NEW TASK"
+msgstr "PRIDAŤ NOVÚ ÚLOHU"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:60
+msgid "SAVE"
+msgstr "ULOŽIŤ"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:80
+msgid "To do List"
+msgstr "Zoznam úloh"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:96
+msgid "Show task date"
+msgstr "Ukázať dátum úlohy"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:100
+msgid "Enable task priority"
+msgstr "Povoliť prioritnú úlohu"
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:120
+msgid "Security issue."
+msgstr "Bezpečnostná otázka."
+
+# @ wplms-dashboard
+#: includes/widgets/student/todo_task.php:129
+msgid "Unable to Save"
+msgstr "Možnosť uložiť"
+
+# @ wplms-dashboard
+#~ msgid "Course News"
+#~ msgstr "Novinky kurzu"
+
+# @ wplms-dashboard
+#~ msgid "Add News"
+#~ msgstr "Pridať novinky"
+
+# @ wplms-dashboard
+#~ msgid "News Tag"
+#~ msgstr "Nové štítky"
+
+# @ wplms-dashboard
+#~ msgid "Add New Tag"
+#~ msgstr "Pridať nový štítok"
+
+# @ wplms-dashboard
+#~ msgid "All News Tags"
+#~ msgstr "Všetky nové štítky"
+
+# @ wplms-dashboard
+#~ msgid "Share with students in Course"
+#~ msgstr "Zdieľat so spolužiakmi v kurze"
+
+# @ wplms-dashboard
+#~ msgid "Student having access to this courses will get the news"
+#~ msgstr "Študent s prístupom k tomuto kurzu dostane novinky"
+
+# @ wplms-dashboard
+#~ msgid "Post Sub-Title"
+#~ msgstr "Vyvesiť podtitulok"
+
+# @ wplms-dashboard
+#~ msgid "Post Sub- Title."
+#~ msgstr "Vyvesiť podtitulok."
+
+# @ wplms-dashboard
+#~ msgid "News Settings"
+#~ msgstr "Nové nastavenia"
+
+# @ wplms-dashboard
+#~ msgid "Read More"
+#~ msgstr "Prečítajte si viacej"
+
+# @ vibe
+#~ msgid "No news available for Course"
+#~ msgstr "Žiadne nové správy pre kurz"

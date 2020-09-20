@@ -1,0 +1,198 @@
+var upload_course_json = [
+  {
+    "section": "course_settings",
+    "visibility": "1",
+    "fields": [
+      {
+        "id": "vibe_duration",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_course_duration_parameter",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_pre_course",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_prev_unit_quiz_lock",
+        "visibility": 0,
+      },
+      {
+        "id": "vibe_course_offline",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_unit_content",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_button",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_progress",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_auto_progress",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_review",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_auto_eval",
+        "visibility": 0,
+        "default": "H",
+      },
+      {
+        "id": "vibe_course_drip",
+        "visibility": 0
+      },
+      {
+        "id": "vibe_course_drip_origin",
+        "visibility": 0
+      },
+      {
+        "id": "vibe_course_section_drip",
+        "visibility": 0
+      },
+      {
+        "id": "vibe_course_drip_duration_type",
+        "visibility": 0
+      },
+      {
+        "id": "vibe_unit_access_number",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_course_drip_duration",
+        "visibility": 0,
+      },
+      {
+        "id": "vibe_drip_duration_parameter",
+        "visibility": 0,
+      },
+      {
+        "id": "vibe_course_certificate",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_passing_percentage",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_certificate_template",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_badge",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_badge_percentage",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_course_badge_title",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_course_badge",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_retakes",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_max_students",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_start_date",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_instructions",
+        "visibility": "1",
+      },
+      {
+        "id": "vibe_course_message",
+        "visibility": "1",
+      }
+    ]
+  },
+  {
+    "section": "course_components",
+    "visibility": "1",
+    "fields": [
+      {
+        "id": "vibe_group",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_forum",
+        "visibility": "1"
+      }
+    ]
+  },
+  {
+    "section": "events",
+    "visibility": "1",
+    "fields": [
+      {
+        "id": "vibe_events",
+        "visibility": "1"
+      }
+    ]
+  },
+  {
+    "section": "course_curriculum",
+    "visibility": "1",
+    "fields": [
+      {
+        "id": "vibe_course_curriculum",
+        "visibility": "1"
+      }
+    ]
+  },
+  {
+    "section": "course_pricing",
+    "visibility": "1",
+    "fields": [
+      {
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_free",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_product",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_course_apply",
+        "visibility": "1"
+      },
+      {
+        "id": "vibe_pmpro_membership",
+        "visibility": "1"
+      }
+    ]
+  },
+  {
+    "section": "course_live",
+    "visibility": "1",
+    "fields": [
+      {
+        "id": "offline_course",
+        "visibility": "1"
+      }
+    ]
+  }
+];

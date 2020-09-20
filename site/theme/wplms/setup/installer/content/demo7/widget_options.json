@@ -1,0 +1,292 @@
+{
+	"nav_menu": {
+		"2": {
+			"title": "Course Pages",
+			"nav_menu": 58
+		},
+		"3": {
+			"title": "Course Types",
+			"nav_menu": 59
+		},
+		"4": {
+			"title": "Course Features",
+			"nav_menu": 57
+		},
+		"5": {
+			"title": "Drip Content",
+			"nav_menu": 60
+		},
+		"6": {
+			"title": "Pages",
+			"nav_menu": 42
+		},
+		"7": {
+			"title": "Course Pricing",
+			"nav_menu": 64
+		},
+		"8": {
+			"title": "Extension",
+			"nav_menu": 61
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_stats": {
+		"2": {
+			"title": "Courses",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"3": {
+			"title": "Quizzes",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"4": {
+			"title": "Assignments",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"5": {
+			"title": "Units",
+			"stats": "units",
+			"width": "col-md-3 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_student_stats": {
+		"2": {
+			"title": "Student Statistics",
+			"width": "col-md-12",
+			"course": "1",
+			"quiz": "1",
+			"assignments": "1",
+			"course_chart": "Area",
+			"quiz_chart": "Line",
+			"assignment_chart": "Line"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_notes_discussion": {
+		"2": {
+			"title": "Notes& Discussion",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_mymodules": {
+		"2": {
+			"title": "My Modules",
+			"course": "1",
+			"quiz": "1",
+			"assignment": "1",
+			"unit": "1",
+			"download": "1",
+			"number": "10",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_text": {
+		"2": {
+			"title": "",
+			"content": "",
+			"width": "col-md-12"
+		},
+		"3": {
+			"title": "",
+			"content": "",
+			"width": "col-md-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_course_progress": {
+		"2": {
+			"title": "Course Progress",
+			"number": "5",
+			"finished": "1",
+			"width": "col-md-4 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_activity": {
+		"2": {
+			"title": "Student Activity",
+			"number": "5",
+			"activity": "1",
+			"messages": "1",
+			"friends": "1",
+			"width": "col-md-4 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_cal": {
+		"2": {
+			"title": "My Course Events",
+			"width": "col-md-4 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_news": {
+		"2": {
+			"title": "News",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_tasks": {
+		"3": {
+			"title": "To do List",
+			"date": "1",
+			"priority": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"search": {
+		"2": {
+			"title": ""
+		},
+		"_multiwidget": 1
+	},
+	"recent-posts": {
+		"2": {
+			"title": "",
+			"number": 5
+		},
+		"_multiwidget": 1
+	},
+	"recent-comments": {
+		"2": {
+			"title": "",
+			"number": 5
+		},
+		"_multiwidget": 1
+	},
+	"archives": {
+		"2": {
+			"title": "",
+			"count": 0,
+			"dropdown": 0
+		},
+		"_multiwidget": 1
+	},
+	"categories": {
+		"2": {
+			"title": "",
+			"count": 0,
+			"hierarchical": 0,
+			"dropdown": 0
+		},
+		"_multiwidget": 1
+	},
+	"meta": {
+		"2": {
+			"title": ""
+		},
+		"_multiwidget": 1
+	},
+	"wplms_course_codes": {
+		"3": {
+			"title": "Add Code",
+			"placeholder": "Place holder text"
+		},
+		"_multiwidget": 1
+	},
+	"bp_course_search_widget": {
+		"3": {
+			"title": "Search Courses",
+			"cats": "1",
+			"instructors": "1",
+			"location": "",
+			"level": ""
+		},
+		"_multiwidget": 1
+	},
+	"bp_instructor_widget": {
+		"3": [],
+		"_multiwidget": 1
+	},
+	"bp_course_filter_widget": {
+		"2": {
+			"category": "1",
+			"category_label": "Course Categories",
+			"offline": "1",
+			"offline_label": "Type",
+			"free": "1",
+			"free_label": "Price",
+			"upcoming": "",
+			"upcoming_label": "",
+			"location": "",
+			"location_label": "",
+			"level": "",
+			"level_label": "",
+			"instructor": "",
+			"instructor_label": "Instructors",
+			"exclude": ""
+		},
+		"_multiwidget": 1
+	},
+	"text": {
+		"1": [],
+		"2": {
+			"title": "About",
+			"text": "WPLMS is an online education site which imparts knowledge and skills to million of users worldwide.\r\n<br /><br />[icon icon=\"fa fa-map\"]  Maddision Square Garden, NY<br />\r\n[icon icon=\"fa fa-phone\"]  222-345-6789<br />\r\n[icon icon=\"fa fa-envelope\"]  abc@crop.com",
+			"filter": false
+		},
+		"3": {
+			"title": "",
+			"text": "<a href=\"http://wplms.io/demos/demo3/all-courses/\" style=\"padding:0;margin:0 0 -20px;\"><img src=\"http://wplms.io/demos/demo3/wp-content/uploads/2017/12/post4-e1456569517777.jpg\"></a>",
+			"filter": false
+		},
+		"_multiwidget": 1
+	},
+	"bp_course_widget": {
+		"3": {
+			"title": "Popular Course",
+			"style": "list",
+			"category": "",
+			"orderby": "vibe_students",
+			"order": "DESC",
+			"ids": "",
+			"max_items": "2"
+		},
+		"_multiwidget": 1
+	},
+	"tag_cloud": {
+		"3": {
+			"title": "Popular Tags",
+			"taxonomy": "question-tag"
+		},
+		"_multiwidget": 1
+	},
+	"vibe_twitter_widget": {
+		"3": {
+			"title": "Last Tweets",
+			"style": "default",
+			"link_title": false,
+			"consumer_key": "tV2bKYeMtpIoUTcbMF2ttA",
+			"consumer_secret": "moYoOzlKAXltNV44fKP7sq5R9WqZ4UZsQl7plDOk",
+			"access_token": "17913589-axngQkDHyOE2FSoyrc7VzWrqVloW1I3JmF4l9ABqv",
+			"access_token_secret": "DQoWWGRaarfk7No2C6kh4PTEGMERzaSEJbR0SYdn28",
+			"username": "vibethemes",
+			"num": "5",
+			"update": true,
+			"hyperlinks": true,
+			"twitter_users": false,
+			"link_target_blank": false
+		},
+		"_multiwidget": 1
+	},
+	"vibe_course_categories": {
+		"2": {
+			"title": "Categories",
+			"exclude_terms": "",
+			"sort": "DESC",
+			"order": "name",
+			"hierarchial": null
+		},
+		"_multiwidget": 1
+	}
+}

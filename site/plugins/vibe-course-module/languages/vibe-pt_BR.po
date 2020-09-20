@@ -1,0 +1,6393 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Course Module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-09 17:06+0530\n"
+"PO-Revision-Date: 2017-08-09 17:06+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Por favor, entre com seu Envato Marketplace Username."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Por favor, entre com seu Envato Marketplace API Key."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "The API \"set\" é um parâmetro obrigatório."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "The Envato Marketplace \"item ID\" é um parâmetro obrigatório."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Um erro HTTP inesperado ocorreu durante o pedido API."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "Tente novamente"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "Ocorreu um erro desconhecido"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"O plugin foi atualizado, mas não pode ser reativado. Por favor, reativá-lo "
+"manualmente."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "Plugin reativado com sucesso."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "Atualizações Plugins"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "Usuário: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "Email: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Chave: "
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>Atualize seu plugin está <span style=\"color:green\">ativo</span></p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Sua entrada <span style=\"color:red\">não é válida</span>, atualizações "
+"automáticas <span style=\"color:red\">não esta ativo</span>.</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "Editar Chave"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Não é possível validar a ativação de atualização.</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "Adicionar Chave"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "Nome de usuário"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "Email"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest User name ( for Auto-Updates )"
+
+#: includes/api/class-api-controller.php:160
+msgctxt "error message"
+msgid "The post could not be found"
+msgstr ""
+
+#: includes/api/class-api-controller.php:175
+msgctxt "error message"
+msgid "No items could be found"
+msgstr ""
+
+#: includes/api/class-api-controller.php:190
+msgctxt "error message"
+msgid "No item could be found"
+msgstr ""
+
+#: includes/api/class-api-controller.php:205
+msgctxt "error message"
+msgid "The request format is invalid"
+msgstr ""
+
+#: includes/api/class-api-controller.php:242
+#: includes/api/class-api-controller.php:253
+#, php-format
+msgid "Method '%s' not implemented. Must be over-ridden in subclass."
+msgstr ""
+
+#: includes/api/class-api-controller.php:355
+msgid "Current page of the collection."
+msgstr ""
+
+#: includes/api/class-api-controller.php:363
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: includes/api/class-api-controller.php:372
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: includes/api/class-api-controller.php:390
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:395
+msgid "Invalid post id."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:593
+msgctxt "REST API FREE course label"
+msgid "FREE"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:765
+#: includes/api/class-api-course-controller.php:766
+msgid "Placeholder"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1525
+msgid "A unique alphanumeric ID for the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1531
+msgid "The ID for the creator of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1536
+msgid "The permalink to this object on the site."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1542
+msgid "The vibe component the object relates to."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1548
+msgid "The activity type of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1554
+msgid "HTML title of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1559
+msgid "HTML content of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1563
+msgid "The date the object was published, in the site's timezone."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1570
+msgid "Whether the object has been marked as spam or not."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1575
+msgid "The ID of the parent of the object."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1679
+msgid "Unable to send message! Please check email id.."
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1701
+msgid "Message sent!"
+msgstr ""
+
+#: includes/api/class-api-course-controller.php:1703
+msgid "Unable to send message! Please try again later.."
+msgstr ""
+
+#: includes/api/class-api-tracker-controller.php:347
+#: includes/api/class-api-tracker-controller.php:375
+msgid "Update sent!"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:302
+msgctxt "api"
+msgid "Announcements"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:308
+msgctxt "api"
+msgid "Courses"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:314
+msgctxt "api"
+msgid "Quizzes"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:321
+msgctxt "api"
+msgid "Badges"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:327
+msgctxt "api"
+msgid "Certificates"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:336
+msgctxt "api"
+msgid "Dashboard"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:342
+msgctxt "api"
+msgid "Profile"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:348
+msgctxt "api"
+msgid "My Courses"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:354
+msgctxt "api"
+msgid "Results"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:360
+msgctxt "api"
+msgid "Gradebook"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:366
+msgctxt "api"
+msgid "Notifications"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:372
+msgctxt "api"
+msgid "Activity"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:378
+msgctxt "api"
+msgid "Settings"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1119
+msgctxt "API message failure to add review"
+msgid "Please add more words to the review message !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1137
+msgctxt "API message failure to add review"
+msgid "Review successfully added !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1140
+msgctxt "API message failure to add review"
+msgid "Failed to add review"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1223
+msgctxt "incorrect credentials"
+msgid "Invalid login username/email"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1260
+msgctxt "error message on api registration"
+msgid "Username successfully registered"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1262
+msgctxt "error message on api registration"
+msgid "Username/Email already registered"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1272
+msgctxt " message on api registration"
+msgid "Registration complete !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1291
+msgctxt "app verification"
+msgid "Email exists !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1299
+msgctxt "app verification"
+msgid "Username exists !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1400
+msgctxt "course subscribe via app"
+msgid "Successfully  subscribed to course!"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1403
+msgctxt "course subscribe via app"
+msgid "Failed to subscribe to course"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1501
+msgctxt "api message"
+msgid "Successfully Changed !"
+msgstr ""
+
+#: includes/api/class-api-user-controller.php:1503
+msgctxt "api message"
+msgid "Unable to save changes"
+msgstr ""
+
+#: includes/bp-course-actions.php:140
+msgid "Unlimited Retakes"
+msgstr ""
+
+#: includes/bp-course-actions.php:142
+msgid "Number of retakes remaining"
+msgstr "Número de retomadas restantes"
+
+# @ vibe
+#: includes/bp-course-actions.php:142 includes/bp-course-ajax.php:498
+#: includes/bp-course-ajax.php:788 includes/bp-course-template.php:3043
+msgid " out of "
+msgstr "de"
+
+#: includes/bp-course-actions.php:145
+msgctxt "retake course label below course button"
+msgid "Retake course"
+msgstr "Refazer Curso"
+
+# @ vibe
+#: includes/bp-course-actions.php:160 includes/bp-course-actions.php:173
+#: includes/bp-course-actions.php:285 includes/bp-course-actions.php:312
+#: includes/bp-course-actions.php:320 includes/bp-course-ajax.php:96
+#: includes/bp-course-ajax.php:156 includes/bp-course-ajax.php:2062
+#: includes/bp-course-ajax.php:2277 includes/bp-course-ajax.php:2415
+#: includes/bp-course-ajax.php:2422 includes/bp-course-ajax.php:2516
+#: includes/bp-course-ajax.php:2679 includes/bp-course-ajax.php:2692
+#: includes/bp-course-ajax.php:2748 includes/bp-course-ajax.php:2791
+#: includes/bp-course-ajax.php:2854 includes/bp-course-ajax.php:2960
+#: includes/bp-course-ajax.php:2975 includes/bp-course-ajax.php:2997
+#: includes/bp-course-tour.php:341 includes/bp-course-tour.php:371
+msgid "Security check Failed. Contact Administrator."
+msgstr "A verificação de segurança falhou. Contactar Administrador."
+
+#: includes/bp-course-actions.php:302
+msgid "Update News"
+msgstr "Atualizar notícias"
+
+#: includes/bp-course-actions.php:359
+msgid "INCORRECT COURSE VALUE. CONTACT ADMIN"
+msgstr "VALOR INCORRETO DO CURSO. ADMIN"
+
+# @ vibe
+#: includes/bp-course-actions.php:400 includes/bp-course-ajax.php:2187
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+# @ vibe
+#: includes/bp-course-actions.php:426 includes/bp-course-functions.php:996
+msgid "Course Curriculum Not Set."
+msgstr "Currículo do curso não informado."
+
+#: includes/bp-course-actions.php:447
+msgid "Course Curriculum Not Set"
+msgstr "Curriculum do curso não definido"
+
+# @ vibe
+#: includes/bp-course-actions.php:457 includes/bp-course-actions.php:1089
+#: includes/bp-course-screens.php:222
+msgid "Start Course"
+msgstr "Iniciar Curso"
+
+# @ vibe
+#: includes/bp-course-actions.php:477 includes/bp-course-ajax.php:2213
+msgid "Previous Quiz"
+msgstr "Teste Anterior"
+
+# @ vibe
+#: includes/bp-course-actions.php:479 includes/bp-course-ajax.php:2215
+msgid "Previous Unit"
+msgstr "Aula Anterior"
+
+# @ vibe
+#: includes/bp-course-actions.php:493 includes/bp-course-actions.php:510
+#: includes/bp-course-actions.php:515 includes/bp-course-ajax.php:2228
+msgid "Check Results"
+msgstr "Resultados"
+
+# @ vibe
+#: includes/bp-course-actions.php:495 includes/bp-course-actions.php:512
+#: includes/bp-course-ajax.php:2231
+msgid "Continue Quiz"
+msgstr "Continuar o Teste"
+
+# @ vibe
+#: includes/bp-course-actions.php:498 includes/bp-course-ajax.php:2235
+msgid "Start Quiz"
+msgstr "Iniciar Teste"
+
+# @ vibe
+#: includes/bp-course-actions.php:501 includes/bp-course-ajax.php:2238
+msgid "Mark this Unit Complete"
+msgstr "Marcar esta aula como concluída"
+
+#: includes/bp-course-actions.php:547
+msgid "Next Quiz"
+msgstr "Próximo Questionário"
+
+# @ vibe
+#: includes/bp-course-actions.php:552 includes/bp-course-actions.php:556
+#: includes/bp-course-ajax.php:2262
+msgid "Next Unit"
+msgstr "Próxima Aula"
+
+#: includes/bp-course-actions.php:572
+msgid "SEE ALL"
+msgstr "VER TUDO"
+
+#: includes/bp-course-actions.php:588
+#: includes/templates/course/single/news.php:106
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/bp-course-actions.php:589
+msgid "Make Public"
+msgstr "Deixar Público"
+
+# @ vibe
+#: includes/bp-course-actions.php:590 includes/bp-course-cssjs.php:106
+msgid "Make Private"
+msgstr "Tornar Privado"
+
+#: includes/bp-course-actions.php:591
+msgid "Reply"
+msgstr "Responder"
+
+#: includes/bp-course-actions.php:592
+msgid "Request Instructor reply"
+msgstr "Solicitar resposta do instrutor"
+
+#: includes/bp-course-actions.php:593
+msgid "Open in Popup"
+msgstr "Abrir em Popup"
+
+#: includes/bp-course-actions.php:594 includes/bp-course-actions.php:612
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/bp-course-actions.php:600
+msgid "Add a Note"
+msgstr "Adicionar Nota"
+
+#: includes/bp-course-actions.php:603
+msgid "YOU"
+msgstr "Você"
+
+#: includes/bp-course-actions.php:607
+msgid "Add your Comment"
+msgstr "Adicionar comentário"
+
+#: includes/bp-course-actions.php:611
+msgid "Post"
+msgstr "Postar"
+
+# @ vibe
+#: includes/bp-course-actions.php:647 includes/bp-course-template.php:2729
+msgid "BACK TO COURSE"
+msgstr "VOLTAR AO CURSO"
+
+# @ vibe
+#: includes/bp-course-actions.php:655 includes/bp-course-actions.php:1238
+msgid "REVIEW COURSE "
+msgstr "REVISAR CURSO"
+
+#: includes/bp-course-actions.php:657
+msgid "FINISH COURSE "
+msgstr "FINALIZAR CURSO"
+
+#: includes/bp-course-actions.php:775
+#, php-format
+msgid "Certificate for User %s"
+msgstr "Certificado para o Usuário %s"
+
+# @ vibe
+#: includes/bp-course-actions.php:804
+msgid "Removed a student from Course"
+msgstr "Removido um aluno do curso"
+
+# @ vibe
+#: includes/bp-course-actions.php:805
+msgid "Student submitted a Course"
+msgstr "Aluno matriculou-se em um Curso"
+
+# @ vibe
+#: includes/bp-course-actions.php:806
+msgid "Student started a Course"
+msgstr "Aluno começou um curso"
+
+# @ vibe
+#: includes/bp-course-actions.php:807
+msgid "Student submitted a Quiz"
+msgstr "Aluno enviou um teste"
+
+#: includes/bp-course-actions.php:808
+msgid "Student started a Quiz"
+msgstr "Estudante iniciou um questionário"
+
+#: includes/bp-course-actions.php:809
+msgid "Student completed a unit"
+msgstr "Estudante completou uma unidade"
+
+# @ vibe
+#: includes/bp-course-actions.php:810
+msgid "Course reset for Student"
+msgstr "Redefinição do curso para o aluno"
+
+# @ vibe
+#: includes/bp-course-actions.php:811
+msgid "Bulk action by instructor"
+msgstr "Ação em massa pelo professor"
+
+# @ vibe
+#: includes/bp-course-actions.php:812
+msgid "Course Evaluated for student"
+msgstr "Curso Avaliado para o estudante"
+
+# @ vibe
+#: includes/bp-course-actions.php:813
+msgid "Student got a Badge"
+msgstr "Aluno obteve um crédito"
+
+# @ vibe
+#: includes/bp-course-actions.php:814
+msgid "Student got a certificate"
+msgstr "Aluno obteve o certificado"
+
+# @ vibe
+#: includes/bp-course-actions.php:815
+msgid "Quiz Evaluated for student"
+msgstr "Teste Avaliado para o estudante"
+
+# @ vibe
+#: includes/bp-course-actions.php:816
+msgid "Student subscribed for course"
+msgstr "Aluno assinou um curso"
+
+# @ vibe
+#: includes/bp-course-actions.php:838 includes/bp-course-actions.php:840
+msgid "per"
+msgstr "por"
+
+# @ vibe
+#: includes/bp-course-actions.php:859
+msgid "SUBSCRIPTION FOR"
+msgstr "ASSINATURA PARA"
+
+# @ vibe
+#: includes/bp-course-actions.php:1065
+#, php-format
+msgid "All Instructors <span>%s</span>"
+msgstr "Todos os Professores <span>%s</span>"
+
+# @ vibe
+#: includes/bp-course-actions.php:1090 includes/bp-course-screens.php:223
+msgid "Continue Course"
+msgstr "Continuar Curso"
+
+# @ vibe
+#: includes/bp-course-actions.php:1091 includes/bp-course-ajax.php:482
+#: includes/bp-course-screens.php:224
+msgid "Under Evaluation"
+msgstr "Sob Avaliação"
+
+# @ vibe
+#: includes/bp-course-actions.php:1092
+msgid "Course Finished"
+msgstr "Curso Concluído"
+
+# @ vibe
+#: includes/bp-course-actions.php:1095
+msgid "Active"
+msgstr "Ativo"
+
+# @ vibe
+#: includes/bp-course-actions.php:1096
+msgid "Expired"
+msgstr "Expirado"
+
+# @ vibe
+#: includes/bp-course-actions.php:1099 includes/bp-course-actions.php:1104
+msgid "Filter by Status"
+msgstr "Filtrar por Status"
+
+# @ vibe
+#: includes/bp-course-actions.php:1110
+msgid "Enter student name/email"
+msgstr "Digite o nome da estudante/e-mail"
+
+#: includes/bp-course-actions.php:1123
+#, php-format
+msgid "EXPIRED %s COURSE"
+msgstr "CURSO %s EXPIRADO"
+
+#: includes/bp-course-actions.php:1131
+#, php-format
+msgid "START %s COURSE"
+msgstr "INICIAR %s CURSO"
+
+#: includes/bp-course-actions.php:1134
+#, php-format
+msgid "CONTINUE %s COURSE"
+msgstr "CONTINUAR %s CURSO"
+
+#: includes/bp-course-actions.php:1137
+#, php-format
+msgid "UNDER %s EVALUATION"
+msgstr "SOB %s AVALIAÇÃO"
+
+#: includes/bp-course-actions.php:1140
+#, php-format
+msgid "FINISHED %s COURSE"
+msgstr "FINALIZAR %s CURSO"
+
+#: includes/bp-course-actions.php:1143
+#, php-format
+msgid "COURSE %s ENABLED"
+msgstr "CURSO %s DISPONÍVEL "
+
+# @ vibe
+#: includes/bp-course-actions.php:1149
+msgid "START"
+msgstr "INICIAR"
+
+# @ vibe
+#: includes/bp-course-actions.php:1149 includes/bp-course-actions.php:1152
+#: includes/bp-course-actions.php:1158
+msgid "COURSE"
+msgstr "CURSO"
+
+# @ vibe
+#: includes/bp-course-actions.php:1152
+msgid "CONTINUE"
+msgstr "CONTINUAR"
+
+# @ vibe
+#: includes/bp-course-actions.php:1155
+msgid "UNDER"
+msgstr "EMBAIXO"
+
+# @ vibe
+#: includes/bp-course-actions.php:1155
+msgid "EVALUATION"
+msgstr "CURSO EM AVALIAÇÃO"
+
+# @ vibe
+#: includes/bp-course-actions.php:1158
+msgid "FINISHED"
+msgstr "CURSO CONCLUÍDO"
+
+# @ vibe
+#: includes/bp-course-actions.php:1229
+msgid "This Course can not be taken. Contact Administrator."
+msgstr "A inscrição falhou. Contactar Administrador."
+
+# @ vibe
+#: includes/bp-course-actions.php:1339
+msgctxt "Course status"
+msgid "Pending evaluation"
+msgstr "Avaliação Pendente"
+
+#: includes/bp-course-actions.php:1340
+msgctxt "Course status"
+msgid "Evaluation complete"
+msgstr "Avaliação completa"
+
+#: includes/bp-course-actions.php:1343 includes/bp-course-actions.php:1403
+msgctxt "get quiz submissions button"
+msgid "Get"
+msgstr "Fazer"
+
+# @ vibe
+#: includes/bp-course-actions.php:1399
+msgctxt "Quiz status"
+msgid "Pending evaluation"
+msgstr "Avaliação pendente"
+
+#: includes/bp-course-actions.php:1400
+msgctxt "Quiz status"
+msgid "Evaluation complete"
+msgstr "Avaliação completa"
+
+# @ vibe
+#: includes/bp-course-actions.php:1435
+msgctxt "No quizzes in course, error on course submissions"
+msgid "No Quiz found !"
+msgstr "Nenhum questionário encontrado!"
+
+#: includes/bp-course-actions.php:1452
+msgctxt "reject user application for course"
+msgid "Reject"
+msgstr "Rejeitar"
+
+#: includes/bp-course-actions.php:1453
+msgctxt "approve user application for course"
+msgid "Approve"
+msgstr "Aprovar"
+
+# @ vibe
+#: includes/bp-course-actions.php:1461
+msgctxt "No applications found in course, error on course submissions"
+msgid "No applications found !"
+msgstr "Nenhum envio encontrado!"
+
+# @ vibe
+#: includes/bp-course-actions.php:1490
+msgid "Quiz Results"
+msgstr "Resultados de Questionários"
+
+# @ vibe
+#: includes/bp-course-actions.php:1504 includes/bp-course-ajax.php:128
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr "Exibindo página %d de %d"
+
+# @ vibe
+#: includes/bp-course-actions.php:1544
+msgid "Results Available"
+msgstr "Resultados disponíveis"
+
+# @ vibe
+#: includes/bp-course-actions.php:1546
+msgid "Results Awaited"
+msgstr "Resultados esperados"
+
+# @ vibe
+#: includes/bp-course-actions.php:1554
+msgid "Submitted "
+msgstr "Enviado"
+
+#: includes/bp-course-actions.php:1554
+msgid " ago"
+msgstr "atrás"
+
+# @ vibe
+#: includes/bp-course-actions.php:1556
+msgid " Pending Submission"
+msgstr "Envio pendente"
+
+# @ vibe
+#: includes/bp-course-actions.php:1585
+#, php-format
+msgctxt ""
+"Back to course button in quiz results area in profile - course - results "
+"section"
+msgid "Back to course %s"
+msgstr "Adicionado ao curso %s"
+
+# @ vibe
+#: includes/bp-course-actions.php:1739
+msgid "Check Answer"
+msgstr "Verificar Resposta"
+
+# @ vibe
+#: includes/bp-course-actions.php:1751 includes/bp-course-ajax.php:197
+#: includes/bp-course-ajax.php:233 includes/bp-course-ajax.php:303
+#: includes/bp-course-ajax.php:514 includes/bp-course-ajax.php:528
+#: includes/bp-course-ajax.php:558 includes/bp-course-ajax.php:646
+#: includes/bp-course-ajax.php:688 includes/bp-course-ajax.php:764
+#: includes/bp-course-ajax.php:816 includes/bp-course-ajax.php:1447
+#: includes/bp-course-ajax.php:1655
+msgid "Security check failed !"
+msgstr "A verificação de segurança falhou!"
+
+#: includes/bp-course-actions.php:1809
+msgid ""
+"There was issue in retaking this course for the user. Please contact admin."
+msgstr ""
+"Houve problemas na retomada deste curso para o usuário. Entre em contato com "
+"admin."
+
+# @ vibe
+#: includes/bp-course-activity.php:209 includes/bp-course-loader.php:66
+#: includes/bp-course-notifications.php:251
+msgid "Course"
+msgstr "Curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:246
+#, php-format
+msgid "Announcement for Course %s "
+msgstr "Anúncio para curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:261
+#, php-format
+msgid "News published for Course %s "
+msgstr "Notícias publicadas para curso %s "
+
+# @ vibe
+#: includes/bp-course-activity.php:275 includes/bp-course-mailer.php:429
+#: includes/bp-course-notifications.php:685
+#, php-format
+msgid "Student subscribed for course %s"
+msgstr "Aluno inscrito para o curso de %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:276
+#, php-format
+msgid "Student %s subscribed for course %s"
+msgstr "Aluno %s matriculou-se para curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:300
+msgid "Student started course "
+msgstr "Aluno começou um curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:301
+#, php-format
+msgctxt "Recoreded activity message"
+msgid "Student %s started the course %s"
+msgstr "Aluno %s começou o curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:318
+#, php-format
+msgid "Student %s finished and submitted the course %s"
+msgstr "Aluno %s terminou e enviou os testes do curso %s "
+
+# @ vibe
+#: includes/bp-course-activity.php:320
+msgid "Student Submitted the course "
+msgstr "Aluno matriculou-se no Curso "
+
+# @ vibe
+#: includes/bp-course-activity.php:333
+msgid "Instructor evaluated Course for student"
+msgstr "Instrutor avaliado Curso para aluno"
+
+# @ vibe
+#: includes/bp-course-activity.php:334
+#: includes/bp-course-notifications.php:1061
+#, php-format
+msgid "Student %s got %s in course %s"
+msgstr "O Aluno %s obteve %s no Curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:353
+msgid "Course reset for student "
+msgstr "Reiniciar curso para aluno"
+
+# @ vibe
+#: includes/bp-course-activity.php:354
+#, php-format
+msgid "Course %s is reset for student %s"
+msgstr "Curso %s foi reiniciado para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:364
+msgid "Student retake Course "
+msgstr "Aluno retomou curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:365
+#, php-format
+msgid "Course %s is retaken by student %s"
+msgstr "Curso de %s foi retomado pelo Aluno %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:375
+msgid "Student got a Badge in the course "
+msgstr "Aluno tem um Crédito no curso "
+
+# @ vibe
+#: includes/bp-course-activity.php:376
+#, php-format
+msgid "Student %s got a badge in the course %s"
+msgstr "Estudante %s ganhou um crédito no curso de %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:385
+msgid "Student got a Certificate in course"
+msgstr "Aluno obteve um certificado no curso "
+
+# @ vibe
+#: includes/bp-course-activity.php:386
+#, php-format
+msgid "Student %s got a certificate in the course %s"
+msgstr "Aluno %s obteve um Certificado no Curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:396
+#, php-format
+msgid "Student reviewed Course %s"
+msgstr "Aluno renovou o curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:397
+#, php-format
+msgid "Student %s reviewed the Course %s"
+msgstr "Estudante %s revisou o Curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:410
+msgid "Student unsubsribed from course "
+msgstr "Removido um aluno do curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:411
+#, php-format
+msgid "Student %s is removed from the course %s"
+msgstr "Aluno %s renovou o curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:421
+msgid "Course code applied"
+msgstr "Código do Curso Aplicado"
+
+# @ vibe
+#: includes/bp-course-activity.php:422
+#, php-format
+msgid "Student %s applied Course code for course %s"
+msgstr "Estudante %s aplicado Código do curso para o curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:437
+msgid "Student renewed a course"
+msgstr "Aluno começou um curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:438
+#, php-format
+msgid "Student %s renewed the course %s"
+msgstr "Aluno %s renovou o curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:448
+msgid "Student started a unit"
+msgstr "Aluno começou uma aula"
+
+# @ vibe
+#: includes/bp-course-activity.php:449
+#, php-format
+msgid "Student started the unit %s in course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:459
+msgid "Student finished unit "
+msgstr "Aluno terminou aula"
+
+# @ vibe
+#: includes/bp-course-activity.php:460
+#, php-format
+msgid "Student %s finished the unit %s in course %s"
+msgstr "Aluno  %s terminou a li&ccedil;&atilde;o %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:476
+msgid "Instructor completed a unit for Student "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:477
+#: includes/bp-course-notifications.php:1455
+#, php-format
+msgid "Instructor %s completed unit %s for Student %s in course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:489
+msgid "Instructor uncompleted a unit for Student "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:490
+#: includes/bp-course-notifications.php:1511
+#, php-format
+msgid "Instructor %s uncompleted unit %s for Student %s in course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:502
+msgid "Student posted comment on unit "
+msgstr "Aluno postou comentário na aula"
+
+# @ vibe
+#: includes/bp-course-activity.php:503
+#, php-format
+msgid "Student %s posted comment on unit %s"
+msgstr "Aluno %s postou comentário na aula %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:514
+msgid "Student started a quiz"
+msgstr "Aluno iniciou o teste"
+
+# @ vibe
+#: includes/bp-course-activity.php:515 includes/bp-course-mailer.php:608
+#: includes/bp-course-notifications.php:2514
+#, php-format
+msgid "Student %s started the quiz %s"
+msgstr "Aluno %s começou o prova %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:526
+msgid "Student submitted the Quiz"
+msgstr "Aluno enviou o teste"
+
+# @ vibe
+#: includes/bp-course-activity.php:527
+#, php-format
+msgid "Quiz %s was submitted by student %s"
+msgstr "Prova %s foi enviada pelo aluno %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:539
+msgid "Instructor evaluated Quiz for student "
+msgstr "Professor avaliou Teste para o aluno"
+
+# @ vibe
+#: includes/bp-course-activity.php:541
+#, php-format
+msgid "Student %s got %s out of %s in Quiz %s"
+msgstr "Aluno %s tem %s de %s na prova %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:566
+msgid "Quiz retake by Student"
+msgstr "Repetição do teste "
+
+# @ vibe
+#: includes/bp-course-activity.php:567
+#, php-format
+msgid "Student %s  initiated retake for quiz %s"
+msgstr "Aluno %s iniciou a repetição para a prova %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:579
+msgid "Instructor Reseted the Quiz for User"
+msgstr "Professor reiniciou o teste para o usuário"
+
+# @ vibe
+#: includes/bp-course-activity.php:580
+#, php-format
+msgid "Quiz %s  was reset by the Instructor for user %s"
+msgstr "Prova %s foi redefinida pelo professor para o aluno %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:592
+msgid "Instructor added students in course  "
+msgstr "Professor adicionou alunos ao curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:593
+#, php-format
+msgid "Instructor added %s students in course "
+msgstr "Professor adicionou %s alunos ao curso "
+
+# @ vibe
+#: includes/bp-course-activity.php:600
+msgid "Instructor changed course status  "
+msgstr "Professor adicionou alunos ao curso "
+
+# @ vibe
+#: includes/bp-course-activity.php:601
+#, php-format
+msgid "Instructor changed Course Status for %s students in course "
+msgstr "Professor mudou o Status do curso para %s alunos no curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:608
+msgid "Instructor sent Bulk message to students"
+msgstr "Professor envia mensagem em massa aos alunos"
+
+# @ vibe
+#: includes/bp-course-activity.php:609
+#, php-format
+msgid "Bulk Message sent to %s students "
+msgstr "Mensagem em massa enviada para %s alunos "
+
+# @ vibe
+#: includes/bp-course-activity.php:616
+msgid "Instructor extended Course subscription"
+msgstr "Professor prorrogou a inscrição do curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:617
+#, php-format
+msgid "Course subscription extended for %s students "
+msgstr "Inscrição do curso estendida para %s alunos "
+
+# @ vibe
+#: includes/bp-course-activity.php:627
+msgid "Instructor assigned/removed Certificate/Badges"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:628
+#, php-format
+msgid "Instructor added/removed Badges/Certificates from %s students in course"
+msgstr ""
+"Professor adicionado/removidos Créditos/Certificados de %s estudantes no "
+"curso"
+
+# @ vibe
+#: includes/bp-course-activity.php:650
+#: includes/bp-course-notifications.php:1972
+#, php-format
+msgid "Student started assignment %s"
+msgstr "Aluno começou a tarefa %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:651 includes/bp-course-mailer.php:658
+#: includes/bp-course-notifications.php:2544
+#, php-format
+msgid "Student %s started the assignment %s"
+msgstr "Aluno %s começou a atribuição %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:669
+msgid "Student submitted assignment "
+msgstr "Aluno enviou uma tarefa "
+
+# @ vibe
+#: includes/bp-course-activity.php:670 includes/bp-course-mailer.php:668
+#: includes/bp-course-notifications.php:2550
+#, php-format
+msgid "Student %s submitted the assignment %s"
+msgstr "Aluno %s enviou a Tarefa %s"
+
+#: includes/bp-course-activity.php:687 includes/bp-course-mailer.php:672
+#: includes/bp-course-notifications.php:2001
+#, php-format
+msgid "Results available for assignment %s"
+msgstr "Resultados disponíveis para atribuição de %s"
+
+#: includes/bp-course-activity.php:688
+#, php-format
+msgid "Student %s got marks %s out of %s in assignment %s "
+msgstr "Estudante do %s obteve pontuação de %s de %s na atribuição de %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:706
+msgid "Instructor Reseted the Assignment for User"
+msgstr "Professor Resetou a Atribuição do Usuário"
+
+# @ vibe
+#: includes/bp-course-activity.php:707
+#, php-format
+msgid "Assignment %s was reset by the Instructor for user %s"
+msgstr "Tarefa %s foi redefinida pelo professor para o aluno %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:727
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s, on the site %4$s"
+msgstr "%1$s escreveu um novo %2$s, %3$s, no site %4$s"
+
+# @ vibe
+#: includes/bp-course-activity.php:729
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s"
+msgstr "%1$s escreveu um novo %2$s, %3$s"
+
+# @ vibe
+#: includes/bp-course-activity.php:739
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s revisou o %2$s, %3$s, no site %4$s"
+
+# @ vibe
+#: includes/bp-course-activity.php:741
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s"
+msgstr "%1$s revisaram o %2$s, %3$s"
+
+# @ vibe
+#: includes/bp-course-activity.php:745
+#, php-format
+msgid "%1$s answered the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s respondeu o %2$s, %3$s, no site %4$s"
+
+# @ vibe
+#: includes/bp-course-activity.php:747
+#, php-format
+msgid "%1$s answered the %2$s, %3$s"
+msgstr "%1$s respondeu o %2$s, %3$s"
+
+# @ vibe
+#: includes/bp-course-activity.php:754
+#, php-format
+msgid "User applied for Course %s "
+msgstr "Notícias publicadas para curso %s "
+
+# @ vibe
+#: includes/bp-course-activity.php:755
+#, php-format
+msgid "User %s applied for Course %s "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:765
+#, php-format
+msgid "User application %s for Course %s "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:766
+#, php-format
+msgid "User %s application %s for Course %s "
+msgstr "Estudante %s aplicou o código %s para o Curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:777
+#, php-format
+msgid "Instructor Published the course Course %s "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:778
+#, php-format
+msgid "Instructor %s published the Course %s "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-activity.php:786
+#, php-format
+msgid "Instructor submitted the Course %s for approval"
+msgstr "Aluno submeteu o Curso %s"
+
+# @ vibe
+#: includes/bp-course-activity.php:787
+#, php-format
+msgid "Instructor %s submitted the Course %s for approval"
+msgstr "Estudante %s submeteu o curso: %s"
+
+#: includes/bp-course-admin.php:31
+msgid "Select a Course"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-ajax.php:292
+msgid "Answer Reset"
+msgstr "Alterar Resposta"
+
+# @ vibe
+#: includes/bp-course-ajax.php:294
+msgid "Unable to Reset"
+msgstr "Impossível alterar"
+
+# @ vibe
+#: includes/bp-course-ajax.php:308
+msgid "Incorrect Course selected."
+msgstr "Curso selecionado está incorreto."
+
+# @ vibe
+#: includes/bp-course-ajax.php:408
+msgid "Statistics successfully calculated. Reloading..."
+msgstr "Estatísticas calculadas com sucesso. Recarregando..."
+
+# @ vibe
+#: includes/bp-course-ajax.php:410
+msgid "Unable to calculate Average."
+msgstr "Impossível calcular média."
+
+# @ vibe
+#: includes/bp-course-ajax.php:426
+msgid "SHOW STATS"
+msgstr "MOSTRAR ESTATÍSTICAS"
+
+# @ vibe
+#: includes/bp-course-ajax.php:426
+msgid "HIDE"
+msgstr "OCULTAR"
+
+# @ vibe
+#: includes/bp-course-ajax.php:430
+msgid "Incorrect User selected."
+msgstr "Usuário selecionado incorreto."
+
+# @ vibe
+#: includes/bp-course-ajax.php:441
+msgid "This User has not started the course."
+msgstr "Este usuário ainda não começou o curso."
+
+# @ vibe
+#: includes/bp-course-ajax.php:445
+msgid "This User has completed the course."
+msgstr "Este usuário completou o curso."
+
+# @ vibe
+#: includes/bp-course-ajax.php:446
+msgid "Student Score for Course "
+msgstr "Nota do aluno no curso"
+
+# @ vibe
+#: includes/bp-course-ajax.php:446
+msgid " out of 100"
+msgstr " 0 a 100"
+
+# @ vibe
+#: includes/bp-course-ajax.php:455
+msgid "Course Started : "
+msgstr "Curso Iniciado : "
+
+# @ vibe
+#: includes/bp-course-ajax.php:462
+msgid "Curriculum :"
+msgstr "Currículo :"
+
+# @ vibe
+#: includes/bp-course-ajax.php:463
+msgid "Quizes"
+msgstr "Testes"
+
+# @ vibe
+#: includes/bp-course-ajax.php:482
+msgctxt " marks obtained in quiz result"
+msgid "Marks Obtained : "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-ajax.php:498
+msgid "Units Completed "
+msgstr "Lições concluídas"
+
+# @ vibe
+#: includes/bp-course-ajax.php:533 includes/bp-course-ajax.php:563
+#: includes/bp-course-ajax.php:651 includes/bp-course-ajax.php:769
+#: includes/bp-course-ajax.php:821 includes/bp-course-functions.php:823
+msgid " Incorrect User selected."
+msgstr " Selecionado Usuário incorreto."
+
+# @ vibe
+#: includes/bp-course-ajax.php:544
+msgid "User removed from the Course"
+msgstr "Usuário removido do curso"
+
+# @ vibe
+#: includes/bp-course-ajax.php:630
+msgid "Course Reset for User"
+msgstr "Reiniciar curso para usuário "
+
+# @ vibe
+#: includes/bp-course-ajax.php:635
+msgid ""
+"There was issue in resetting this course for the user. Please contact admin."
+msgstr ""
+"Houve problema na redefinição deste curso para o usuário. Entre em contato "
+"com administrador."
+
+# @ vibe
+#: includes/bp-course-ajax.php:665
+msgid "Quiz Reset for Selected User"
+msgstr "Redefinir Teste para o usuário selecionado"
+
+# @ vibe
+#: includes/bp-course-ajax.php:736
+msgid "COURSE MARKED COMPLETE"
+msgstr "CURSO MARCADO COMO CONCLUÍDO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:772
+#, php-format
+msgctxt "Course submission by User in course - admin - submissions"
+msgid "%s submission by %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-ajax.php:788
+msgid "MARKS: "
+msgstr "NOTAS: "
+
+# @ vibe
+#: includes/bp-course-ajax.php:788 includes/bp-course-ajax.php:793
+msgid " PENDING"
+msgstr " PENDENTE"
+
+# @ vibe
+#: includes/bp-course-ajax.php:793
+msgid "DONE"
+msgstr "CONCLUÍDO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:802 includes/bp-course-ajax.php:944
+msgid "Total"
+msgstr "Total"
+
+# @ vibe
+#: includes/bp-course-ajax.php:803
+msgid "Course Percentage (Out of 100)"
+msgstr "Porcentagem do Curso (0 a 100)"
+
+# @ vibe
+#: includes/bp-course-ajax.php:803
+msgid "Course Percentage out of 100"
+msgstr "Porcentagem do Curso (0 a 100)"
+
+# @ vibe
+#: includes/bp-course-ajax.php:804
+msgid "Mark Course Complete"
+msgstr "Marcar Curso Completo"
+
+# @ vibe
+#: includes/bp-course-ajax.php:826
+msgid " Incorrect Quiz Id."
+msgstr " Incorreto ID do teste."
+
+# @ vibe
+#: includes/bp-course-ajax.php:832
+msgctxt "Quiz submission \"by\" user"
+msgid "submission by"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-ajax.php:854 includes/bp-course-template.php:2776
+#: includes/bp-course-template.php:2861
+msgid "Marked Answer :"
+msgstr "Resposta Marcada :"
+
+# @ vibe
+#: includes/bp-course-ajax.php:917 includes/bp-course-template.php:2965
+msgid "Correct Answer :"
+msgstr "Resposta Correta :"
+
+#: includes/bp-course-ajax.php:923 includes/bp-course-ajax.php:931
+msgctxt "Unattempted question warning in Course - Admin - Submissions area"
+msgid "Unattempted question ! Marks can not be assigned for this question."
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-ajax.php:925 includes/bp-course-ajax.php:933
+#: includes/bp-course-template.php:2798 includes/bp-course-template.php:2982
+msgid "Marks Obtained"
+msgstr "Notas Obtidas"
+
+# @ vibe
+#: includes/bp-course-ajax.php:925 includes/bp-course-ajax.php:933
+msgid "Give marks"
+msgstr "Dar notas"
+
+# @ vibe
+#: includes/bp-course-ajax.php:926
+msgid "Update Marks"
+msgstr "Atualizar notas"
+
+# @ vibe
+#: includes/bp-course-ajax.php:934
+msgid "Give Marks"
+msgstr "Enviar notas"
+
+# @ vibe
+#: includes/bp-course-ajax.php:938 includes/bp-course-template.php:3009
+msgid "Total Marks"
+msgstr "Total"
+
+# @ vibe
+#: includes/bp-course-ajax.php:945
+msgid "Mark Quiz as Checked"
+msgstr "Marcar teste como verificado"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1073 includes/bp-course-template.php:1298
+#: includes/templates/course/single/admin.php:143
+#, php-format
+msgid "Viewing page %d of %d "
+msgstr "Exibindo página %d de %d"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1094
+msgctxt "no user found in live search in course admin"
+msgid "No user found !"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-ajax.php:1116 includes/bp-course-ajax.php:1121
+msgid "Set a Subject for the message"
+msgstr "Defina um assunto para a mensagem"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1130
+msgid "Messages Sent to "
+msgstr "Mensagens Enviadas para "
+
+# @ vibe
+#: includes/bp-course-ajax.php:1130 includes/bp-course-ajax.php:1317
+#: includes/bp-course-ajax.php:1431
+msgid " members"
+msgstr " membros"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1132 includes/bp-course-ajax.php:1325
+#: includes/bp-course-ajax.php:1346 includes/bp-course-ajax.php:1437
+msgid "Please select members"
+msgstr "Por favor selecione os membros"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1176
+msgctxt "No users found in Course - admin - add users area"
+msgid "No Users found !"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-ajax.php:1221 includes/bp-course-functions.php:1862
+#: includes/templates/course/single/admin.php:110
+msgid "Reset Course for User"
+msgstr "Reset do Curso para o usuário"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1222 includes/bp-course-functions.php:1863
+#: includes/templates/course/single/admin.php:111
+msgid "See Course stats for User"
+msgstr "Ver estatísticas do curso para o usuário"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1223 includes/bp-course-functions.php:1881
+#: includes/templates/course/single/admin.php:129
+msgid "Remove User from this Course"
+msgstr "Remover usuário deste curso"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1247
+msgid "Select Assign Value"
+msgstr "Selecione Atribuir Valor"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1317
+msgid "Action assigned to "
+msgstr "Ação atribuída a "
+
+# @ vibe
+#: includes/bp-course-ajax.php:1322 includes/bp-course-ajax.php:1434
+msgid "Could not assign action to members"
+msgstr "Não foi possível atribuir ação aos membros"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1341
+msgid "Please enter extension amount"
+msgstr "Por favor, insira o valor de extensão"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1369
+#, php-format
+msgid "Subscription extended for %d students, unable to extend for %d students"
+msgstr ""
+"Assinatura prorrogada por %d alunos, incapaz de estender para %d alunos"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1371
+#, php-format
+msgid "Subscription extended for %d students"
+msgstr "Inscrição prorrogado por %d estudantes"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1391
+msgid "Select Course Status"
+msgstr "Selecione Estado do Curso"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1431
+msgid "Course status changed for "
+msgstr "Status do curso mudou para"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1451 includes/bp-course-ajax.php:1659
+msgid "User does not have capability to download stats !"
+msgstr "O usuário não tem capacidade para transferir estatísticas!"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1491 includes/bp-course-ajax.php:1693
+msgid "START DATE"
+msgstr "INICIAR CURSO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1499 includes/bp-course-ajax.php:1511
+#: includes/bp-course-ajax.php:1558 includes/bp-course-ajax.php:1709
+#: includes/bp-course-ajax.php:1726 includes/bp-course-ajax.php:2001
+msgid "N.A"
+msgstr "N.A"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1503 includes/bp-course-ajax.php:1712
+msgid "COMPLETION DATE"
+msgstr "DATA DE CONCLUSÃO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1514 includes/bp-course-ajax.php:1730
+#: includes/bp-course-ajax.php:2028
+msgid "ID"
+msgstr "ID"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1521 includes/bp-course-ajax.php:1737
+msgid "NAME"
+msgstr "NOME"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1567
+msgid "BADGE"
+msgstr "CERTIFICAÇÃO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1579
+msgid "CERTIFICATE"
+msgstr "ATRIBUIR CERTIFICADO DE CURSO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1591 includes/bp-course-ajax.php:1854
+msgid "SCORE"
+msgstr "PONTOS"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1937
+msgid "User not allowed to access stats"
+msgstr "Usuário não tem permissão para estatísticas de acesso"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1968
+msgid "No data available"
+msgstr "Resultados do curso disponíveis"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1977 includes/bp-course-loader.php:342
+msgid "Stats"
+msgstr "Stats"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1997
+msgid "Average"
+msgstr "Média"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1998
+msgid "Max"
+msgstr "Max"
+
+# @ vibe
+#: includes/bp-course-ajax.php:1999
+msgid "Min"
+msgstr "Mins"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2004
+msgid "Leaderboard"
+msgstr "Ranking"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2023
+msgid "Download Stats"
+msgstr "Download Stats"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2026
+msgid "Start Date/Time"
+msgstr "Começar na Data/Hora"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2027
+msgid "End Date/Time"
+msgstr "Terminar na Data/Hora"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2029
+msgid "Student Name"
+msgstr "Aluno"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2030
+msgid "Score"
+msgstr "Pontos"
+
+#: includes/bp-course-ajax.php:2033
+msgid "Question scores (* for static quizzes only)"
+msgstr "Pontuações da Pergunta (* para testes estáticos apenas)"
+
+#: includes/bp-course-ajax.php:2034
+msgid "Question Answers (* for static quizzes only, useful for surveys)"
+msgstr ""
+"Pergunta Respostas (* apenas para testes estáticos, úteis para pesquisas)"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2045
+msgid "All students"
+msgstr "Adicionar Alunos"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2046
+msgid "Students who finished"
+msgstr "Aluno terminou aula"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2049
+msgid "Process Stats"
+msgstr "Ver Estatísticas"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2069
+msgid "Unit not in Course"
+msgstr "Aula não está no curso"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2087
+msgid "Course Expired."
+msgstr "Curso Expirado"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2087 includes/bp-course-functions.php:325
+msgid "Click to renew"
+msgstr "Clique para atualizar"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2135 includes/bp-course-ajax.php:2158
+#: includes/bp-course-ajax.php:2163 includes/bp-course-ajax.php:2167
+#: includes/bp-course-template.php:2556 includes/bp-course-template.php:2578
+#: includes/bp-course-template.php:2583 includes/bp-course-template.php:2589
+msgid "Unit"
+msgstr "Unidade"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2136 includes/bp-course-ajax.php:2159
+#: includes/bp-course-template.php:2558 includes/bp-course-template.php:2581
+#, php-format
+msgid "%s will be available in %s"
+msgstr "%s estará disponível em %s"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2164 includes/bp-course-ajax.php:2168
+#: includes/bp-course-template.php:2586 includes/bp-course-template.php:2592
+#, php-format
+msgid "%s can not be accessed."
+msgstr "%s não pode ser acessado."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2259
+msgid "Proceed to Quiz"
+msgstr "Siga para o teste"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2283 includes/bp-course-ajax.php:2335
+msgid "Invalid submission time."
+msgstr "Tempo de envio inválido."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2328
+msgid "security check failed."
+msgstr "Verificação de segurança falhou."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2399 includes/bp-course-ajax.php:2477
+#: includes/bp-course-ajax.php:2503
+msgid "Quiz Timed Out ."
+msgstr "Teste Expirou."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2400 includes/bp-course-ajax.php:2478
+#: includes/bp-course-ajax.php:2504 includes/bp-course-ajax.php:2508
+msgid "If you want to attempt again, Contact Instructor to reset the quiz."
+msgstr ""
+"Se você quiser tentar novamente, contate o professor para redefinir o teste."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2407
+msgid "Quiz Already Attempted."
+msgstr "Testes concluídos"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2408
+msgid "Security Check Failed. Contact Site Admin."
+msgstr "Verificação de Segurança falhou. Contate a administração do site."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2482
+msgid "Start Quiz to begin quiz."
+msgstr "Iniciar Teste para dar início ao teste"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2483
+msgid "Click \"Start Quiz\" button to start the Quiz."
+msgstr "Clique no botão \"Iniciar Teste\" para iniciar o teste."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2487
+msgid "Quiz not active."
+msgstr "Questionário desativado."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2488
+msgid "Contact your instructor or site admin."
+msgstr "Contacte o seu instrutor ou administrador do site."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2507
+msgid "Quiz Already Attempted ."
+msgstr "Testes já iniciados"
+
+#: includes/bp-course-ajax.php:2525
+msgid "Questions not set."
+msgstr "Perguntas não definidas."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2566 includes/bp-course-functions.php:425
+msgid "SHOW HINT"
+msgstr "MOSTRAR DICA"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2567 includes/bp-course-functions.php:426
+msgid "HINT"
+msgstr "DICA"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2587 includes/bp-course-functions.php:475
+#: includes/bp-course-template.php:2870
+msgid "FALSE"
+msgstr "FALSO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2587 includes/bp-course-functions.php:475
+#: includes/bp-course-template.php:2870
+msgid "TRUE"
+msgstr "VERDADEIRO"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2643 includes/bp-course-ajax.php:2646
+msgid "Type Answer"
+msgstr "Resposta"
+
+#: includes/bp-course-ajax.php:2654
+msgid "PAGES"
+msgstr "PÁGINAS"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2696 includes/bp-course-ajax.php:2739
+msgid "Unable to add message"
+msgstr "Não é possível adicionar mensagem"
+
+#: includes/bp-course-ajax.php:2730
+msgid "JUST NOW"
+msgstr "SÓ AGORA"
+
+#: includes/bp-course-ajax.php:2730
+msgctxt "when unit comment is not approved"
+msgid "Sent for Approval."
+msgstr "Enviado para aprovação."
+
+# @ vibe
+#: includes/bp-course-ajax.php:2836
+#: includes/templates/course/single/submissions.php:106
+msgid "Reset Quiz for User"
+msgstr "Reset teste para Usuário"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2837
+#: includes/templates/course/single/submissions.php:107
+msgid "Evaluate Quiz for User"
+msgstr "Avaliar teste para Usuário"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2844
+msgctxt "Quiz submission not found"
+msgid "No submissions found"
+msgstr "Nenhuma submissão encontrada"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2896
+#: includes/templates/course/single/submissions.php:153
+msgid "Evaluate Course for User"
+msgstr "Avaliar Curso para Usuário"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2911
+msgctxt "No course submissions found in Course - Admin - submissions seciton"
+msgid "No course submissions !"
+msgstr "Nenhuma submissão do curso!"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2923
+msgid "Invalid Course or Unit ID"
+msgstr "Título inválido do curso ou da unidade"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2930
+msgid "Unit not found in Course"
+msgstr "Unidade não encontrada no Curso"
+
+# @ vibe
+#: includes/bp-course-ajax.php:2966
+msgctxt "Apply for Course confirmation message."
+msgid "Applied for Course"
+msgstr "Aplicado para o curso"
+
+#: includes/bp-course-ajax.php:3003
+msgid "Question answer already marked"
+msgstr "Pergunta resposta já marcada"
+
+#: includes/bp-course-ajax.php:3011
+msgid "Question not included in quiz."
+msgstr "Pergunta não incluída no questionário."
+
+#: includes/bp-course-ajax.php:3015
+msgid "Unable to fetch quiz questions."
+msgstr "Não é possível buscar perguntas no questionário."
+
+#: includes/bp-course-ajax.php:3046 includes/bp-course-ajax.php:3064
+#: includes/bp-course-cssjs.php:122 includes/bp-course-template.php:2911
+#: includes/bp-course-template.php:2936
+msgid "and"
+msgstr "e"
+
+#: includes/bp-course-ajax.php:3055
+msgid "True"
+msgstr "Verdadeiro"
+
+#: includes/bp-course-ajax.php:3055
+msgid "False"
+msgstr "Falso"
+
+#: includes/bp-course-api.php:127
+#, php-format
+msgid "REST API not active ! Please update WordPress %d or greater version."
+msgstr ""
+
+#: includes/bp-course-cssjs.php:74
+msgctxt "displayed to suer when quiz times out."
+msgid "TIMEOUT"
+msgstr "TEMPO ESGOTADO"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:75
+msgctxt "Quiz answer being marked very fast"
+msgid "Too Fast or Answer not marked."
+msgstr "Muito rápido ou resposta não marcada."
+
+# @ vibe
+#: includes/bp-course-cssjs.php:76
+msgctxt "Save answer on every question, confirmation message"
+msgid "Answer Saved."
+msgstr "Resposta Salva."
+
+# @ vibe
+#: includes/bp-course-cssjs.php:77
+msgctxt "Quiz question anwer save under progress"
+msgid "Processing..."
+msgstr "Processando"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:78
+msgctxt "Saving quiz answers under progress"
+msgid "Saving Answer...please wait"
+msgstr "Salvando respostas... por favor espere"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:79
+msgid ""
+"This step is irreversible. Are you sure you want to remove the User from the "
+"course ?"
+msgstr ""
+"Este passo é irreversível. Tem certeza de que deseja remover o Usuário do "
+"curso?"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:80
+msgid "Confirm, Remove User from Course"
+msgstr "Confirme, Remover Usuário do Curso"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:81
+msgctxt "Confirm button for various popup confirmation messages"
+msgid "Confirm"
+msgstr "Confirmar"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:82
+msgctxt "Cancel button for various popup confirmation messages"
+msgid "Cancel"
+msgstr "Cancelar"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:83
+msgid ""
+"This step is irreversible. All Units, Quiz results would be reset for this "
+"user. Are you sure you want to Reset the Course for this User?"
+msgstr ""
+"Este passo é irreversível. Todas as lições, os resultados do questionário "
+"serão redefinidos para este usuário. Tem certeza de que deseja redefinir o "
+"Curso para este Usuário?"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:84
+msgid "Confirm, Reset Course for this User"
+msgstr "Confirme, Resetar Curso para este Usuário"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:85
+msgid ""
+"This step is irreversible. All Questions answers would be reset for this "
+"user. Are you sure you want to Reset the Quiz for this User? "
+msgstr ""
+"Este passo é irreversível. Todas as questões respondidas seriam redefinidas "
+"para este usuário. Tem certeza de que deseja redefinir o teste para este "
+"Usuário?"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:86
+msgid "Confirm, Reset Quiz for this User"
+msgstr "Confirme, Redefinir teste para este Usuário"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:87
+msgid "Marks Saved"
+msgstr "Notas registradas"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:88
+msgid "Quiz Marks Saved"
+msgstr "Notas de teste registradas"
+
+#: includes/bp-course-cssjs.php:89
+msgid "Save Quiz progress"
+msgstr "Salvar progresso no questionário"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:90
+msgid "Saved"
+msgstr "Salvo"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:91
+msgid "Submit Quiz"
+msgstr "Enviar Teste"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:92
+msgid "Sending Messages ..."
+msgstr "Enviando Mensagens ..."
+
+# @ vibe
+#: includes/bp-course-cssjs.php:93
+msgid "Adding Students to Course ..."
+msgstr "Adicionando alunos a o curso ..."
+
+# @ vibe
+#: includes/bp-course-cssjs.php:94
+msgid "Students successfully added to Course"
+msgstr "Alunos adicionado com sucesso para o curso"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:95
+msgid "Unable to Add students to Course"
+msgstr "Não é possível adicionar os alunos ao curso"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:96
+msgid "Please select fields to download"
+msgstr "Por favor selecione os membros"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:97
+msgid "Download"
+msgstr "Download"
+
+#: includes/bp-course-cssjs.php:98
+msgid "TIMEOUT"
+msgstr "TEMPO ESGOTADO"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:101
+msgid "for Course"
+msgstr "Curso"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:102
+msgid "Active Filters"
+msgstr "Visualizar Todas as Atividades"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:103
+msgid "Clear all filters"
+msgstr "Limpar filtros"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:104
+msgid "Are you sure you want to remove this note?"
+msgstr ""
+"Este passo é irreversível. Tem certeza de que deseja remover o Usuário do "
+"curso?"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:105
+msgid "Confirm, remove note"
+msgstr "Confirme, Remover Usuário do Curso"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:107
+msgid "Add your note"
+msgstr "Adicione sua nota"
+
+#: includes/bp-course-cssjs.php:108
+msgid "Please add questions or retake the quiz !"
+msgstr "Por favor, adicione perguntas ou refaça o teste!"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:109
+msgid "Are you sure you want to remove this Annoucement?"
+msgstr ""
+"Este passo é irreversível. Tem certeza de que deseja remover o Usuário do "
+"curso?"
+
+#: includes/bp-course-cssjs.php:110
+msgid "You're about to start the Quiz. Please click confirm to begin the quiz."
+msgstr ""
+"Você está prestes a iniciar o Teste. Por favor, clique em confirmar para "
+"começar o teste."
+
+#: includes/bp-course-cssjs.php:111
+msgid ""
+"Are you sure you want to submit the quiz. Submitting the quiz will freeze "
+"all your answers, you can not change them.  Please confirm."
+msgstr ""
+"Tem certeza de que deseja enviar o questionário. Submetendo o teste vai "
+"congelar todas as suas respostas, você não pode mudá-los. Por favor confirme."
+
+# @ vibe
+#: includes/bp-course-cssjs.php:112
+msgid "Check results"
+msgstr "Verificar resultados"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:113
+msgid "Correct"
+msgstr "Correto"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:114
+msgid "Incorrect"
+msgstr "Incorreta"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:115
+msgctxt "confirmation message when user clicks on apply for course"
+msgid "Are you sure you want to apply for this Course ?"
+msgstr "Tem certeza de que quer candidatar-se a este curso?"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:116
+msgctxt ""
+"Popup confirmation message when instructor marks the unit uncomplete for the "
+"user."
+msgid "Are you sure you want mark this unit \"incomplete\" for the user ?"
+msgstr ""
+"Tem certeza de que deseja marcar esta unidade \"incompleta\" para o usuário?"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:117
+msgctxt "Popup confirmation message "
+msgid "Are you sure you want to mark this unit \"complete\" for the user ?"
+msgstr ""
+"Tem certeza de que deseja marcar esta unidade \"completa\" para o usuário?"
+
+#: includes/bp-course-cssjs.php:118
+msgid "You have few unanswered questions. Are you sure you want to continue ?"
+msgstr ""
+"Você tem algumas perguntas sem resposta. Tem certeza que deseja continuar?"
+
+# @ vibe
+#: includes/bp-course-cssjs.php:119
+msgid "Please enter 4 or more characters ..."
+msgstr "Digite 4 ou mais caracteres ..."
+
+#: includes/bp-course-cssjs.php:120
+msgid "Correct Answer"
+msgstr "Resposta Correta"
+
+#: includes/bp-course-cssjs.php:121
+msgid "Explanation"
+msgstr "Explicação"
+
+#: includes/bp-course-cssjs.php:124
+msgctxt "tour"
+msgid "Go"
+msgstr "Ir"
+
+#: includes/bp-course-cssjs.php:126
+msgctxt "retake confrim"
+msgid "Are you sure you want to retake course?"
+msgstr "Tem certeza de que deseja retomar o curso?"
+
+#: includes/bp-course-filters.php:115
+msgctxt "news permalink in course"
+msgid "news"
+msgstr "notícias"
+
+#: includes/bp-course-filters.php:119
+msgid "News"
+msgstr "Notícias"
+
+#: includes/bp-course-filters.php:292
+msgctxt "Unit details link anchor for full unit content"
+msgid "Details"
+msgstr "Detalhes"
+
+# @ vibe
+#: includes/bp-course-filters.php:541
+msgctxt "No courses in current filter"
+msgid "No courses found !"
+msgstr "Nenhum Curso encontrado!"
+
+# @ vibe
+#: includes/bp-course-filters.php:628
+msgid "No Courses found."
+msgstr "Nenhum curso encontrado."
+
+# @ vibe
+#: includes/bp-course-filters.php:911
+msgctxt "Apply for Course label for course"
+msgid "Apply for Course"
+msgstr "Candidate-se ao curso"
+
+#: includes/bp-course-filters.php:936
+msgctxt "Apply for Course label for course"
+msgid "Applied for Course"
+msgstr "Aplicado para o curso"
+
+# @ vibe
+#: includes/bp-course-filters.php:986
+#, php-format
+msgctxt "Apply for course applicants in Course - admin - Submissions"
+msgid "Applications <span>%d</span>"
+msgstr "Aplicações <span>% d </ span>"
+
+#: includes/bp-course-filters.php:994
+msgid "Section"
+msgstr "Seçnao"
+
+# @ vibe
+#: includes/bp-course-functions.php:52
+msgid "Course Directory"
+msgstr "Diretório do Curso"
+
+# @ vibe
+#: includes/bp-course-functions.php:53
+msgid "All Courses by all instructors"
+msgstr "Todos os cursos de todos os professores"
+
+# @ vibe
+#: includes/bp-course-functions.php:87 includes/bp-course-loader.php:373
+#: includes/templates/course/single/home.php:39
+msgid "Home"
+msgstr "Home"
+
+# @ vibe
+#: includes/bp-course-functions.php:93
+#: includes/templates/course/single/home.php:40
+msgid "Curriculum"
+msgstr "Currículo"
+
+# @ vibe
+#: includes/bp-course-functions.php:95
+msgid "curriculum"
+msgstr "Currículo"
+
+# @ vibe
+#: includes/bp-course-functions.php:100
+#: includes/templates/course/single/home.php:41
+msgid "Members"
+msgstr "Membros"
+
+# @ vibe
+#: includes/bp-course-functions.php:102
+msgid "members"
+msgstr "membros"
+
+# @ vibe
+#: includes/bp-course-functions.php:110
+msgid "Activity"
+msgstr "Visualizar Todas as Atividades"
+
+# @ vibe
+#: includes/bp-course-functions.php:112
+msgid "activity"
+msgstr "Atividade"
+
+# @ vibe
+#: includes/bp-course-functions.php:125
+#: includes/templates/course/single/home.php:49
+msgid "Group"
+msgstr "Grupo"
+
+# @ vibe
+#: includes/bp-course-functions.php:138
+#: includes/templates/course/single/home.php:55
+msgid "Forum"
+msgstr "Forum"
+
+# @ vibe
+#: includes/bp-course-functions.php:188
+msgctxt "course admin slug"
+msgid "admin"
+msgstr "admin"
+
+# @ vibe
+#: includes/bp-course-functions.php:191
+#: includes/templates/course/single/home.php:60
+msgid "Admin"
+msgstr "Administrador"
+
+# @ vibe
+#: includes/bp-course-functions.php:221 includes/bp-course-widgets.php:678
+msgid "Search"
+msgstr "Pesquisa"
+
+# @ vibe
+#: includes/bp-course-functions.php:240 includes/bp-course-functions.php:343
+msgid "TAKE THIS COURSE"
+msgstr "INSCREVA-SE"
+
+# @ vibe
+#: includes/bp-course-functions.php:280
+msgid "START COURSE"
+msgstr "INICIAR CURSO"
+
+# @ vibe
+#: includes/bp-course-functions.php:284
+msgid "CONTINUE COURSE"
+msgstr "CONTINUAR CURSO"
+
+# @ vibe
+#: includes/bp-course-functions.php:288
+msgid "COURSE UNDER EVALUATION"
+msgstr "CURSO EM AVALIAÇÃO"
+
+# @ vibe
+#: includes/bp-course-functions.php:294
+msgid "FINISHED COURSE"
+msgstr "CURSO CONCLUÍDO"
+
+# @ vibe
+#: includes/bp-course-functions.php:297 includes/bp-course-offline.php:172
+msgid "COURSE FINISHED"
+msgstr "CURSO TERMINADO"
+
+# @ vibe
+#: includes/bp-course-functions.php:301 includes/bp-course-functions.php:312
+msgid "COURSE ENABLED"
+msgstr "CURSO HABILITADO"
+
+# @ vibe
+#: includes/bp-course-functions.php:301 includes/bp-course-functions.php:312
+msgid "CONTACT ADMIN TO ENABLE"
+msgstr "CONTACTAR ADMINISTRAÇÃO PARA ATIVAR"
+
+# @ vibe
+#: includes/bp-course-functions.php:325
+msgid "Course Expired"
+msgstr "Curso Expirado"
+
+# @ vibe
+#: includes/bp-course-functions.php:345
+msgid "PRIVATE COURSE"
+msgstr "CURSO PARA CONVIDADOS"
+
+# @ vibe
+#: includes/bp-course-functions.php:389
+msgid "* REQUIRES"
+msgstr "* REQUER"
+
+# @ vibe
+#: includes/bp-course-functions.php:393
+msgid "SEATS"
+msgstr "VAGAS"
+
+# @ vibe
+#: includes/bp-course-functions.php:394
+msgid "Course Badge"
+msgstr "Medalha do curso"
+
+# @ vibe
+#: includes/bp-course-functions.php:396
+msgid "Course Certificate"
+msgstr "Certificado do curso"
+
+# @ vibe
+#: includes/bp-course-functions.php:547 includes/bp-course-functions.php:555
+msgid "Type answer"
+msgstr "Escreva a resposta"
+
+# @ vibe
+#: includes/bp-course-functions.php:591
+msgid "Unlimited Time"
+msgstr "Duração Ilimitada"
+
+# @ vibe
+#: includes/bp-course-functions.php:595 includes/bp-course-functions.php:891
+msgid "EXPIRED"
+msgstr "CURSO EXPIRADO"
+
+# @ vibe
+#: includes/bp-course-functions.php:628 includes/bp-course-functions.php:636
+msgid "Next Question"
+msgstr "Próxima Pergunta"
+
+# @ vibe
+#: includes/bp-course-functions.php:632 includes/bp-course-functions.php:635
+msgid "Previous Question"
+msgstr "Pergunta Anterior"
+
+# @ vibe
+#: includes/bp-course-functions.php:683 includes/bp-course-functions.php:718
+msgid "Duration not Set"
+msgstr "Duração não Definida"
+
+# @ vibe
+#: includes/bp-course-functions.php:691 includes/bp-course-functions.php:1212
+msgid "Time Remaining"
+msgstr "Tempo Restante"
+
+#: includes/bp-course-functions.php:692
+msgid "Hour"
+msgstr "Hora"
+
+# @ vibe
+#: includes/bp-course-functions.php:692 includes/bp-course-functions.php:693
+msgid "Mins"
+msgstr "Mins"
+
+# @ vibe
+#: includes/bp-course-functions.php:693
+msgid "Secs"
+msgstr "Secs"
+
+#: includes/bp-course-functions.php:725
+msgid "Progress"
+msgstr "Progresso"
+
+#: includes/bp-course-functions.php:765
+msgid "Please set questions in quiz or reset quiz !"
+msgstr "Por favor, defina questões no questionário ou redefinir teste!"
+
+# @ vibe
+#: includes/bp-course-functions.php:805
+msgid "QUESTION"
+msgstr "PERGUNTA"
+
+# @ vibe
+#: includes/bp-course-functions.php:823
+msgid "Security Error"
+msgstr "Erro de segurança"
+
+#: includes/bp-course-functions.php:863
+msgctxt "displayed to user when quiz times out."
+msgid "ENDED"
+msgstr "Fim"
+
+# @ vibe
+#: includes/bp-course-functions.php:874
+msgid "year"
+msgstr "ano"
+
+# @ vibe
+#: includes/bp-course-functions.php:874
+msgid "years"
+msgstr "anos"
+
+# @ vibe
+#: includes/bp-course-functions.php:876
+msgid "month"
+msgstr "m&ecirc;s"
+
+# @ vibe
+#: includes/bp-course-functions.php:876
+msgid "months"
+msgstr "meses"
+
+# @ vibe
+#: includes/bp-course-functions.php:878
+msgid "week"
+msgstr "semana"
+
+# @ vibe
+#: includes/bp-course-functions.php:878
+msgid "weeks"
+msgstr "semanas"
+
+# @ vibe
+#: includes/bp-course-functions.php:880
+msgid "day"
+msgstr " dia"
+
+# @ vibe
+#: includes/bp-course-functions.php:880
+msgid "days"
+msgstr " dias"
+
+# @ vibe
+#: includes/bp-course-functions.php:882
+msgid "hour"
+msgstr "hora"
+
+# @ vibe
+#: includes/bp-course-functions.php:882
+msgid "hours"
+msgstr " Horas"
+
+# @ vibe
+#: includes/bp-course-functions.php:884
+msgid "minute"
+msgstr " minuto "
+
+# @ vibe
+#: includes/bp-course-functions.php:884
+msgid "minutes"
+msgstr " minutos"
+
+# @ vibe
+#: includes/bp-course-functions.php:886
+msgid "second"
+msgstr "segundo"
+
+# @ vibe
+#: includes/bp-course-functions.php:886
+msgid "seconds"
+msgstr "segundos"
+
+# @ vibe
+#: includes/bp-course-functions.php:1054
+msgid "Have Questions ? Ask in the Unit Forums"
+msgstr "Perguntas? Pergunte nos fóruns das lições"
+
+# @ vibe
+#: includes/bp-course-functions.php:1079 includes/bp-course-functions.php:1108
+msgid "Attachments"
+msgstr "Anexos"
+
+# @ vibe
+#: includes/bp-course-functions.php:1164 includes/bp-course-mailer.php:307
+#: includes/bp-course-notifications.php:283
+msgid "Instructor"
+msgstr "Professor"
+
+# @ vibe
+#: includes/bp-course-functions.php:1543 includes/bp-course-functions.php:1546
+msgid "Certificate not valid for user"
+msgstr "O certificado não é válido para o usuário"
+
+# @ vibe
+#: includes/bp-course-functions.php:1697
+msgid "Evaluate course submissions"
+msgstr "Avaliar cursos"
+
+# @ vibe
+#: includes/bp-course-functions.php:1709
+msgid "Evaluate Quiz submissions"
+msgstr "Avaliar testes"
+
+# @ vibe
+#: includes/bp-course-functions.php:1715
+msgid "Manage Students"
+msgstr "Gerenciar Alunos"
+
+# @ vibe
+#: includes/bp-course-functions.php:1716
+msgid "See Stats"
+msgstr "Ver Estatísticas"
+
+# @ vibe
+#: includes/bp-course-functions.php:1717
+msgid "See all Activity"
+msgstr "Visualizar Todas as Atividades"
+
+# @ vibe
+#: includes/bp-course-functions.php:1743
+msgid "Seconds"
+msgstr "Segundos"
+
+# @ vibe
+#: includes/bp-course-functions.php:1744
+msgid "Minutes"
+msgstr " minutos"
+
+# @ vibe
+#: includes/bp-course-functions.php:1745
+msgid "Hours"
+msgstr " Horas"
+
+# @ vibe
+#: includes/bp-course-functions.php:1746
+msgid "Days"
+msgstr "Dias"
+
+# @ vibe
+#: includes/bp-course-functions.php:1747
+msgid "Weeks"
+msgstr "Semanas"
+
+# @ vibe
+#: includes/bp-course-functions.php:1748
+msgid "Months"
+msgstr "Meses"
+
+# @ vibe
+#: includes/bp-course-functions.php:1749
+msgid "Years"
+msgstr "Anos"
+
+# @ vibe
+#: includes/bp-course-functions.php:1880
+#: includes/templates/course/single/admin.php:128
+msgid "See User Activity in Course"
+msgstr "Ver Atividade do Aluno no Curso"
+
+#: includes/bp-course-functions.php:1916
+msgctxt "Instructor earned commission activity"
+msgid "You earned commission"
+msgstr ""
+
+#: includes/bp-course-functions.php:1917
+#, php-format
+msgctxt "Instructor earned commission activity"
+msgid "%s commission earned for course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-loader.php:267
+msgctxt "Course directory title"
+msgid "Course Directory"
+msgstr "Diretório de Cursos"
+
+# @ vibe
+#: includes/bp-course-loader.php:269
+msgid "Search courses ..."
+msgstr "Buscar cursos..."
+
+# @ vibe
+#: includes/bp-course-loader.php:291
+#, php-format
+msgid "Courses <span>%s</span>"
+msgstr "Cursos <span>%s</span>"
+
+# @ vibe
+#: includes/bp-course-loader.php:322
+msgid "My Courses"
+msgstr "Meus Cursos"
+
+# @ vibe
+#: includes/bp-course-loader.php:332
+msgid "Results"
+msgstr "Resultados"
+
+# @ vibe
+#: includes/bp-course-loader.php:352 includes/templates/course/index.php:65
+#, php-format
+msgid "Instructing Courses <span>%s</span>"
+msgstr "Todos os Professores <span>%s</span>"
+
+# @ vibe
+#: includes/bp-course-loader.php:457 includes/bp-course-loader.php:463
+#: includes/bp-course-loader.php:473
+#, php-format
+msgid "Please Update the %s theme to latest version %s"
+msgstr ""
+
+#: includes/bp-course-mailer.php:165
+#, php-format
+msgid ""
+"%sMigrate WPLMS email templates to BuddyPress Emails.%s  %s mail templates "
+"will be migrated. Refer %s more information & tutorial%s   %s Migrate all "
+"email templates to BuddyPress %s %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-mailer.php:245
+msgctxt "Migrate WPLMS emails to BuddyPress success message"
+msgid "Migration complete."
+msgstr ""
+
+#: includes/bp-course-mailer.php:305
+msgid "Profile"
+msgstr "Perfil"
+
+# @ vibe
+#: includes/bp-course-mailer.php:305
+msgid "Courses"
+msgstr "Cursos"
+
+#: includes/bp-course-mailer.php:307
+msgid "Link"
+msgstr "Link"
+
+# @ vibe
+#: includes/bp-course-mailer.php:402
+msgid "Student : Announcement in Course"
+msgstr "Estudante: anúncio em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:403 includes/bp-course-mailer.php:408
+#: includes/bp-course-notifications.php:478
+#: includes/bp-course-notifications.php:506
+#: includes/bp-course-notifications.php:2405
+#: includes/bp-course-notifications.php:2408
+#, php-format
+msgid "Announcement for Course %s"
+msgstr "Anúncio para Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:407
+msgid "Instructor : Announcement in Course"
+msgstr "Instrutor: anúncio em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:412
+msgid "Student : News in Course"
+msgstr "Estudante: notícias em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:413 includes/bp-course-mailer.php:418
+#: includes/bp-course-notifications.php:524
+#: includes/bp-course-notifications.php:569
+#: includes/bp-course-notifications.php:611
+#, php-format
+msgid "News for Course %s"
+msgstr "Notícias para Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:417
+msgid "Instructor : News in Course"
+msgstr "Instrutor: Notícias em Curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:423
+msgid "Student : Student subscribes to course"
+msgstr "Estudante: o estudante se inscreve no curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:424
+#, php-format
+msgid "Subscribed for Course %s"
+msgstr "Matriculado para o curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:425 includes/bp-course-notifications.php:624
+#: includes/bp-course-notifications.php:647
+#, php-format
+msgid "You're subscribed for course : %s"
+msgstr "Você está inscrito para o curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:428
+msgid "Instructor : Student subscribes to course"
+msgstr "Instrutor: o estudante se inscreve no curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:430 includes/bp-course-notifications.php:661
+#: includes/bp-course-notifications.php:686
+#, php-format
+msgid "Student %s subscribed for course : %s"
+msgstr "Aluno %s matriculou-se para curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:434
+msgid "Student : Student added to course"
+msgstr "Estudante: o aluno adicionou ao curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:435 includes/bp-course-notifications.php:732
+#, php-format
+msgid "Added to course %s"
+msgstr "Adicionado ao curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:436 includes/bp-course-notifications.php:733
+#, php-format
+msgid "You've been added to course : %s"
+msgstr "Você foi incluído no curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:439
+msgid "Instructor : Instructor adds Student to course"
+msgstr "Instrutor: o instrutor adiciona o curso ao curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:440
+#, php-format
+msgid "Student added to course %s"
+msgstr "Alunos adicionados ao curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:441
+#, php-format
+msgid "%s student added to course : %s"
+msgstr "%s aluno adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:445
+msgid "Student : Student started a course"
+msgstr "Estudante: o aluno iniciou um curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:446 includes/bp-course-notifications.php:821
+#, php-format
+msgid "You started course %s"
+msgstr "Você começou o curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:447 includes/bp-course-notifications.php:822
+#, php-format
+msgid "You've started the course : %s"
+msgstr "Você começou o curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:450
+msgid "Instructor : Student started a course"
+msgstr "Instrutor: o aluno iniciou um curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:451 includes/bp-course-notifications.php:858
+#, php-format
+msgid "Student started course %s"
+msgstr "Aluno começou curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:452 includes/bp-course-notifications.php:834
+#: includes/bp-course-notifications.php:859
+#, php-format
+msgid "Student %s started the course : %s"
+msgstr "Aluno %s começou o curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:456
+msgid "Student : Student finishes a course"
+msgstr "Estudante: o estudante termina um curso"
+
+# @ default
+#: includes/bp-course-mailer.php:457 includes/bp-course-notifications.php:889
+#, php-format
+msgid "Course %s submitted"
+msgstr "Curso %s enviado"
+
+# @ vibe
+#: includes/bp-course-mailer.php:458 includes/bp-course-notifications.php:868
+#: includes/bp-course-notifications.php:890
+#, php-format
+msgid "You've submitted the course : %s"
+msgstr "Você submeteu o curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:461
+msgid "Instructor : Student finishes a course"
+msgstr "Instrutor: o estudante termina um curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:462 includes/bp-course-notifications.php:922
+#, php-format
+msgid "Student submitted course %s"
+msgstr "Aluno submeteu o Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:463 includes/bp-course-notifications.php:900
+#: includes/bp-course-notifications.php:923
+#, php-format
+msgid "Student %s submitted the course : %s"
+msgstr "Estudante %s submeteu o curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:467
+msgid "Student : Instructor resets course for a Student"
+msgstr "Estudante: o instrutor reafirma o curso para um estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:468 includes/bp-course-notifications.php:950
+#, php-format
+msgid "Course %s reset"
+msgstr "Curso %s redefinido"
+
+# @ vibe
+#: includes/bp-course-mailer.php:469 includes/bp-course-notifications.php:951
+#, php-format
+msgid "%s Course was reset by Instructor"
+msgstr "%s curso foi redefinido pelo Instrutor"
+
+# @ vibe
+#: includes/bp-course-mailer.php:472
+msgid "Instructor : Instructor resets course for a Student"
+msgstr "Instrutor: o instrutor reafirma o curso para um estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:473 includes/bp-course-notifications.php:976
+#, php-format
+msgid "Course %s reset for Student"
+msgstr "Curso %s reiniciado para o Aluno"
+
+# @ vibe
+#: includes/bp-course-mailer.php:474 includes/bp-course-notifications.php:977
+#, php-format
+msgid "Course %s was reset for student %s "
+msgstr "Curso %s reiniciado para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:478
+msgid "Student : Student retakes a course"
+msgstr "Estudante: o estudante retoma um curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:479
+#, php-format
+msgid "You retook the course %s"
+msgstr "Você retomou o curso %s "
+
+# @ vibe
+#: includes/bp-course-mailer.php:480 includes/bp-course-notifications.php:1002
+#, php-format
+msgid "You've retaken the Course %s"
+msgstr "Você retomou o curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:483
+msgid "Instructor : Student retakes a course"
+msgstr "Instrutor: o aluno retoma um curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:484 includes/bp-course-notifications.php:1027
+#, php-format
+msgid "Course %s retaken by the Student"
+msgstr "Curso %s retomado pelo Aluno"
+
+# @ vibe
+#: includes/bp-course-mailer.php:485 includes/bp-course-notifications.php:1028
+#, php-format
+msgid "Course %s was retaken by the student %s "
+msgstr "Curso de %s foi retomado pelo Aluno %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:489
+msgid "Student : Course evaluated for Student"
+msgstr "Estudante: Curso avaliado para Estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:490 includes/bp-course-mailer.php:495
+#: includes/bp-course-notifications.php:1054
+#, php-format
+msgid "Course %s results available"
+msgstr "Resultados do curso %s disponíveis"
+
+# @ vibe
+#: includes/bp-course-mailer.php:491 includes/bp-course-notifications.php:1037
+#: includes/bp-course-notifications.php:1055
+#, php-format
+msgid "You've obtained %s  in Course : %s"
+msgstr "Você obteve %s no curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:494
+msgid "Instructor : Course evaluated for Student"
+msgstr "Instrutor: Curso avaliado para Estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:496
+#, php-format
+msgid "Student %s got %s out of 100 in course : %s"
+msgstr "O Aluno %s obteve %s no Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:500
+msgid "Student : Student obtained course badge"
+msgstr "Estudante: o estudante obteve o distintivo do curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:501 includes/bp-course-notifications.php:1110
+#, php-format
+msgid "You got a Badge in Course %s"
+msgstr "Você tem um crédito no curso de %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:502 includes/bp-course-notifications.php:1111
+#, php-format
+msgid "You've obtained a Badge in Course : %s"
+msgstr "Você obteve um crédito no curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:505
+msgid "Instructor : Student obtained course badge"
+msgstr "Instrutor: O estudante obteve o distintivo do curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:506 includes/bp-course-notifications.php:1121
+#: includes/bp-course-notifications.php:1141
+#, php-format
+msgid "Student got a Badge in Course %s"
+msgstr "Aluno recebeu um crédito no Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:507 includes/bp-course-notifications.php:1142
+#: includes/bp-course-notifications.php:2462
+#, php-format
+msgid "Student %s got a Badge in Course %s"
+msgstr "Estudante %s ganhou um crédito no curso de %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:511
+msgid "Student : Student obtained course certificate"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-mailer.php:512 includes/bp-course-notifications.php:1172
+#, php-format
+msgid "You got a Certificate in Course %s"
+msgstr "Você tem um certificado no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:513
+#, php-format
+msgid "You've obtained a certificate in Course : %s"
+msgstr "Você obteve um certificado de curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:516
+msgid "Instructor : Student obtained course certificate"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-mailer.php:517 includes/bp-course-notifications.php:1183
+#: includes/bp-course-notifications.php:1203
+#, php-format
+msgid "Student got a Certificate in Course %s"
+msgstr "Aluno obteve um Certificado no Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:518 includes/bp-course-notifications.php:1204
+#: includes/bp-course-notifications.php:2468
+#, php-format
+msgid "Student %s got a Certificate in Course %s"
+msgstr "Aluno %s obteve um Certificado no Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:522
+msgid "Student : Student reviewed course"
+msgstr "Estudante: curso revisado estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:523
+#, php-format
+msgid "You submitted a %s star review for Course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-mailer.php:524
+#, php-format
+msgid "You submitted a %s star review Course %s - %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-mailer.php:527
+msgid "Instructor : Student reviewed course"
+msgstr "Instrutor: curso revisado estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:528
+#, php-format
+msgid "Student submitted a %s star review for Course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-mailer.php:529
+#, php-format
+msgid "Student %s submitted a %s star review for the Course %s - %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-mailer.php:533
+msgid "Student : Student unsubscribed from course"
+msgstr "Estudante: o estudante não inscreveu do curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:534 includes/bp-course-notifications.php:1285
+#, php-format
+msgid "You're unsubscribed from course %s"
+msgstr "Você não está inscrito no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:535 includes/bp-course-notifications.php:1286
+#, php-format
+msgid "You're unsubscribed from the Course %s"
+msgstr "Você cancelou a inscrição do curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:538
+msgid "Instructor : Student unsubscribed from course"
+msgstr "Instrutor: o estudante não inscreveu do curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:539 includes/bp-course-notifications.php:1294
+#: includes/bp-course-notifications.php:1310
+#, php-format
+msgid "Student unsubscribed from Course %s"
+msgstr "Aluno descadastrado do curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:540 includes/bp-course-notifications.php:1311
+#, php-format
+msgid "Student %s unsubscribed from Course %s"
+msgstr "O Aluno %s está desligado do Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:544
+msgid "Student : Student applied course code to course"
+msgstr "Estudante: o estudante aplicou o código do curso para o curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:545 includes/bp-course-notifications.php:1335
+#, php-format
+msgid "You applied course code in course %s"
+msgstr "Você aplicou um código para curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:546
+#, php-format
+msgid "You've applied the code %s on the course : %s"
+msgstr "Você aplicou o código% s no curso:% s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:549
+msgid "Instructor : Student applied course code to course"
+msgstr "Instrutor: o estudante aplicou o código do curso para o curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:550 includes/bp-course-notifications.php:1361
+#, php-format
+msgid "Student applied code for Course %s"
+msgstr "Estudante aplicou código para o Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:551 includes/bp-course-notifications.php:1362
+#, php-format
+msgid "Student %s applied code %s for Course %s"
+msgstr "Estudante %s aplicou o código %s para o Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:555
+msgid "Student : Student completed a unit in course"
+msgstr "Estudante: o aluno completou uma unidade em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:556
+#, php-format
+msgid "You completed unit %s in Course %s"
+msgstr "Você concluiu uma aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:557 includes/bp-course-notifications.php:1391
+#, php-format
+msgid "You completed a unit %s in Course %s"
+msgstr "Você concluiu uma aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:560
+msgid "Instructor : Student completed a unit in course"
+msgstr "Instrutor: o aluno completou uma unidade em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:561 includes/bp-course-notifications.php:1418
+#, php-format
+msgid "Student completed unit in Course %s"
+msgstr "Aluno concluiu aula no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:562 includes/bp-course-notifications.php:1419
+#, php-format
+msgid "Student %s completed unit %s in Course %s"
+msgstr "Aluno %s completou aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:566
+msgid "Student : Instructor marked unit complete for Student in course"
+msgstr ""
+"Aluno: unidade indicada pelo instrutor completa para estudante em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:567
+#, php-format
+msgid "Instructor marked unit complete in course %s"
+msgstr "Professor adicionou %s alunos ao curso "
+
+# @ vibe
+#: includes/bp-course-mailer.php:568 includes/bp-course-notifications.php:1448
+#, php-format
+msgid "Unit %s was marked complete by Instructor %s in Course %s"
+msgstr "Aluno %s completou aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:571
+msgid "Instructor : Instructor marked unit complete for Student in course"
+msgstr ""
+"Instrutor: unidade indicada pelo instrutor completa para o aluno em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:572 includes/bp-course-notifications.php:1474
+#: includes/bp-course-notifications.php:1530
+#, php-format
+msgid "Instructor marked unit %s comple for Student in Course %s"
+msgstr "Instrutor marcou a unidade %s complemento para o estudante no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:573 includes/bp-course-notifications.php:1475
+#, php-format
+msgid "Instructor %s completed the unit %s for Student %s in Course %s"
+msgstr "O instrutor %s completou a unidade %s para o estudante %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:576
+msgid "Student : Instructor marked unit incomplete for Student in course"
+msgstr "Aluno: Instrutor marcou a unidade incompleta para estudante em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:577
+#, php-format
+msgid "Instructor marked unit incomplete in course %s"
+msgstr "Professor adicionou %s alunos ao curso "
+
+# @ vibe
+#: includes/bp-course-mailer.php:578
+#, php-format
+msgid "Unit %s was marked incomplete by Instructor %s in Course %s"
+msgstr "Aluno %s completou aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:581
+msgid "Instructor : Instructor marked unit incomplete for Student in course"
+msgstr ""
+"Instrutor: Instrutor marcou a unidade incompleta para estudante em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:582
+#, php-format
+msgid "Instructor marked unit %s incomplete for Student in Course %s"
+msgstr ""
+"O instrutor marcou a unidade %s incompleta para o estudante no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:583
+#, php-format
+msgid "Instructor %s marked the unit %s incomplete for Student %s in Course %s"
+msgstr ""
+"O instrutor% s marcou a unidade %s incompleta para o aluno %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:586
+msgid "Student : Student added a comment in unit in course"
+msgstr "Estudante: o estudante adicionou um comentário na unidade no curso"
+
+#: includes/bp-course-mailer.php:587
+#, php-format
+msgid "You added a comment in unit %s"
+msgstr "Você adicionou um comentário na aula %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:588
+#, php-format
+msgid "Comment \"%s\" was added to unit %s"
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:591
+msgid "Student : Reply posted on your comment"
+msgstr "Estudante: resposta postada no seu comentário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:592
+#, php-format
+msgid "Reply posted on your comment in %s"
+msgstr "Resposta ao seu comentário na aula %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:593
+#, php-format
+msgid "%s replied on your comment in Unit %s : %s "
+msgstr "%s respondeu no seu comentário na Unidade %s: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:596
+msgid "Instructor : Student added a comment on Unit"
+msgstr "Instrutor: Student adicionou um comentário sobre Unit"
+
+# @ vibe
+#: includes/bp-course-mailer.php:597
+#, php-format
+msgid "Student added a comment in unit %s"
+msgstr "Aluno adicionou comentário na aula %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:598
+#, php-format
+msgid "Student %s added a comment \"%s\" in unit %s in course"
+msgstr "Student %s adicionou um comentário \"%s\" na unidade %s em curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:601
+msgid "Student : You started the quiz"
+msgstr "Estudante: você iniciou o questionário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:602
+#, php-format
+msgid "You started the  quiz %s"
+msgstr "Você começou a prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:603
+#, php-format
+msgid "You started the quiz %s "
+msgstr "Você começou a prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:606
+msgid "Instructor : Student started a quiz"
+msgstr "Instrutor: o aluno iniciou um questionário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:607 includes/bp-course-notifications.php:1673
+#, php-format
+msgid "Student started the quiz %s"
+msgstr "Aluno começou a prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:611
+msgid "Student : Quiz submitted"
+msgstr "Estudante: questionário enviado"
+
+# @ vibe
+#: includes/bp-course-mailer.php:612 includes/bp-course-notifications.php:1782
+#: includes/bp-course-notifications.php:1783
+#, php-format
+msgid "You submitted quiz %s"
+msgstr "Você enviou a prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:613 includes/bp-course-notifications.php:1765
+#, php-format
+msgid "You submitted quiz %s "
+msgstr "Você enviou a prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:616
+msgid "Instructor : Student submitted quiz"
+msgstr "Instrutor: questionário submetido ao aluno"
+
+# @ vibe
+#: includes/bp-course-mailer.php:617 includes/bp-course-notifications.php:1814
+#, php-format
+msgid "Student submitted quiz %s"
+msgstr "Aluno enviou prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:618 includes/bp-course-notifications.php:1815
+#, php-format
+msgid "Student %s submitted quiz %s"
+msgstr "Aluno %s enviou prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:621
+msgid "Student : Results available for quiz"
+msgstr "Estudante: resultados disponíveis para questionário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:622 includes/bp-course-notifications.php:1722
+#, php-format
+msgid "Results available for quiz %s"
+msgstr "Resultados disponíveis para a prova %s"
+
+#: includes/bp-course-mailer.php:623
+#, php-format
+msgid "You obtained %s out of %s in quiz %s "
+msgstr "Você obteve %s em %s no questionário %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:626
+msgid "Instructor : Student results available for quiz"
+msgstr "Instrutor: resultados do aluno disponíveis para questionário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:627 includes/bp-course-notifications.php:1751
+#, php-format
+msgid "Quiz %s evaluated for Student"
+msgstr "Prova %s avaliada para o aluno"
+
+#: includes/bp-course-mailer.php:628
+#, php-format
+msgid "Student %s got %s from %s in quiz %s"
+msgstr "Estudante de %s tem %s de %s na prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:631
+msgid "Student : Quiz retake"
+msgstr "Estudante: Repetição do questionário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:632 includes/bp-course-mailer.php:633
+#: includes/bp-course-notifications.php:2535
+#, php-format
+msgid "You retook the quiz %s"
+msgstr "Você retomou prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:636
+msgid "Instructor : Student retook quiz"
+msgstr "Instrutor:  Aluno repetiu questionário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:637 includes/bp-course-notifications.php:1864
+#, php-format
+msgid "Student retook the quiz %s"
+msgstr "Aluno refez a Prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:638 includes/bp-course-notifications.php:1865
+#, php-format
+msgid "Student %s retook the quiz %s"
+msgstr "Aluno %s refez a Prova %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:641
+msgid "Student : Quiz reset"
+msgstr "Estudante: Reiniciar Questionário"
+
+# @ vibe
+#: includes/bp-course-mailer.php:642
+#, php-format
+msgid "Quiz %s has been reset"
+msgstr "Prova %s redefinida"
+
+# @ vibe
+#: includes/bp-course-mailer.php:643 includes/bp-course-notifications.php:1872
+#: includes/bp-course-notifications.php:1890
+#, php-format
+msgid "Quiz %s was reset by Instructor"
+msgstr "Prova %s foi redefinida pelo professor"
+
+# @ vibe
+#: includes/bp-course-mailer.php:646
+msgid "Instructor : Quiz reset for Student"
+msgstr "Instrutor: Reposição de questionário para Estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:647 includes/bp-course-notifications.php:1898
+#: includes/bp-course-notifications.php:1916
+#, php-format
+msgid "Quiz %s reset for Student"
+msgstr "Prova %s redefinida para Aluno"
+
+# @ vibe
+#: includes/bp-course-mailer.php:648 includes/bp-course-notifications.php:1917
+#, php-format
+msgid "Quiz %s was reset for Student %s"
+msgstr "Prova %s redefinida para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:651
+msgid "Student : Student started Assignment"
+msgstr "Estudante: o aluno iniciou a atribuição"
+
+# @ vibe
+#: includes/bp-course-mailer.php:652 includes/bp-course-mailer.php:653
+#: includes/bp-course-notifications.php:1944
+#: includes/bp-course-notifications.php:2541
+#, php-format
+msgid "You started the assignment %s"
+msgstr "Você começou a tarefa %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:656
+msgid "Instructor : Student started an assignment"
+msgstr "Instrutor: Student iniciou uma tarefa"
+
+# @ vibe
+#: includes/bp-course-mailer.php:657
+#, php-format
+msgid "Student started the assignment %s"
+msgstr "Aluno começou a tarefa %s"
+
+#: includes/bp-course-mailer.php:661 includes/bp-course-mailer.php:671
+msgid "Student : Results available for assignment"
+msgstr "Estudante: resultados disponíveis para atribuição"
+
+#: includes/bp-course-mailer.php:662 includes/bp-course-notifications.php:2547
+#, php-format
+msgid "You submitted the assignment %s"
+msgstr "Você se submeteu a atribuição de %s"
+
+#: includes/bp-course-mailer.php:663 includes/bp-course-notifications.php:2044
+#, php-format
+msgid "You submitted the assignment %s "
+msgstr "Você se submeteu a atribuição de %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:666
+msgid "Instructor : Student submitted assignment"
+msgstr "Instrutor: tarefa enviada pelo aluno"
+
+# @ vibe
+#: includes/bp-course-mailer.php:667
+#, php-format
+msgid "Student submitted the assignment %s"
+msgstr "Aluno enviou tarefa %s"
+
+#: includes/bp-course-mailer.php:673
+#, php-format
+msgid "You obtained %s out of %s in assignment %s "
+msgstr "Você obteve %s de %s na atribuição %s"
+
+#: includes/bp-course-mailer.php:676
+msgid "Instructor : Student results available for assignment"
+msgstr "Instrutor: resultados do aluno disponíveis para atribuição"
+
+# @ vibe
+#: includes/bp-course-mailer.php:677 includes/bp-course-notifications.php:2029
+#, php-format
+msgid "Assignment %s evaluated for Student"
+msgstr "Tarefa %s avaliada para aluno"
+
+#: includes/bp-course-mailer.php:678
+#, php-format
+msgid "Student %s got %s from %s in assignment %s"
+msgstr "Estudante de %s tem %s de %s na atribuição de %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:681
+msgid "Student : assignment reset"
+msgstr "Aluno: restituição de atribuição"
+
+# @ vibe
+#: includes/bp-course-mailer.php:682
+#, php-format
+msgid "Assignment %s was reset"
+msgstr "Tarefa %s foi redefinida"
+
+# @ vibe
+#: includes/bp-course-mailer.php:683 includes/bp-course-notifications.php:2101
+#: includes/bp-course-notifications.php:2119
+#, php-format
+msgid "Assignment %s was reset by Instructor"
+msgstr "Tarefa %s foi redefinida pelo Professor"
+
+# @ vibe
+#: includes/bp-course-mailer.php:686
+msgid "Instructor : assignment reset for Student"
+msgstr "Instrutor: redefinição de tarefa para estudante"
+
+# @ vibe
+#: includes/bp-course-mailer.php:687
+#, php-format
+msgid "assignment %s reset for Student"
+msgstr "Tarefa %s redefinida para o Aluno"
+
+# @ vibe
+#: includes/bp-course-mailer.php:688
+#, php-format
+msgid "assignment %s was reset for Student %s"
+msgstr "Tarefa %s foi redefinida para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:691
+msgid "Student : Applied for Course"
+msgstr "Estudante: aplicado para o curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:692 includes/bp-course-notifications.php:2571
+#, php-format
+msgid "You applied for course %s"
+msgstr "Você aplicou um código para curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:693
+#, php-format
+msgid "You applied for course %s "
+msgstr "Você aplicou um código para curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:696 includes/bp-course-mailer.php:706
+msgid "Instructor : Student applied for course"
+msgstr "Instrutor: estudante candidato a curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:697
+#, php-format
+msgid "Student applied for course %s"
+msgstr "Aluno adicionado ao curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:698
+#, php-format
+msgid "Student %s applied for course %s"
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:701
+msgid "Student : Manage application Course"
+msgstr "Estudante: Gerencie o Curso de Aplicação"
+
+# @ vibe
+#: includes/bp-course-mailer.php:702 includes/bp-course-mailer.php:703
+#, php-format
+msgid "Your application was %s for course %s"
+msgstr "Sua aplicação foi %s para o curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:707
+#, php-format
+msgid "Student applied %s for course %s"
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:708
+#, php-format
+msgid "Student %s application was %s for course %s"
+msgstr "Estudante %s aplicou o código %s para o Curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:711
+msgid "Instructor : Go Live/Publish a Course"
+msgstr "Instrutor: Vá ao vivo/Publique um curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:712
+#, php-format
+msgid "You %s the course %s"
+msgstr "Você %s o curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:713
+#, php-format
+msgid "You  %s the course %s"
+msgstr "Você %s o curso %s"
+
+#: includes/bp-course-mailer.php:716
+msgid "Administrator : Go Live/Publish a Course"
+msgstr "Administrador: Vá/Publique um Curso"
+
+# @ vibe
+#: includes/bp-course-mailer.php:717
+#, php-format
+msgid "Instructor set the course %s to %s"
+msgstr "Instrutor definiu o curso %s para %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:718
+#, php-format
+msgid "Instructor %s set the course  %s to status %s"
+msgstr "O instrutor %s define o curso %s para o status %s"
+
+#: includes/bp-course-mailer.php:721
+msgid "Student : Drip Course Unit available "
+msgstr "Estudante: Unidade do curso de gotejamento disponível"
+
+# @ vibe
+#: includes/bp-course-mailer.php:722
+#, php-format
+msgid "Unit %s now available in course %s"
+msgstr "Estudante %s recebeu um crédito no curso de %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:723
+#, php-format
+msgid "Unit %s is now available in course %s"
+msgstr "A unidade %s está agora disponível no curso %s"
+
+# @ vibe
+#: includes/bp-course-mailer.php:726
+msgid "Student : Course about to expire "
+msgstr "Estudante: curso prestes a expirar"
+
+# @ vibe
+#: includes/bp-course-mailer.php:727
+#, php-format
+msgid "Subscription for course %s will expire soon"
+msgstr "Estudante aplicou código para o Curso %s"
+
+#: includes/bp-course-mailer.php:728
+#, php-format
+msgid "Your subscription to course %s will expire soon"
+msgstr "Sua assinatura para o curso %s expirará em breve"
+
+#: includes/bp-course-mailer.php:731
+msgid "Forgot password "
+msgstr "Esqueci minha senha"
+
+#: includes/bp-course-mailer.php:732
+msgid " Password Reset"
+msgstr "Resetar a senha"
+
+#: includes/bp-course-mailer.php:733
+msgid ""
+"Someone requested that the password be reset for the following account: "
+msgstr "uém pediu que a senha fosse redefinida para a seguinte conta:"
+
+#: includes/bp-course-mailer.php:733
+#, php-format
+msgid "Username: %s"
+msgstr "Nome de usuário: %s"
+
+#: includes/bp-course-mailer.php:733
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Se isso foi um erro, ignore este e-mail e nada acontecerá."
+
+#: includes/bp-course-mailer.php:733
+#, php-format
+msgid "To reset your password, visit the following address: %s"
+msgstr "Para redefinir sua senha, visite o seguinte endereço: %s"
+
+#: includes/bp-course-mailer.php:736
+msgid "User is inactive on website for a long time "
+msgstr "O usuário está inativo no site há muito tempo"
+
+#: includes/bp-course-mailer.php:737
+msgid "Inactive user"
+msgstr "Usuário Inativo"
+
+#: includes/bp-course-mailer.php:738
+#, php-format
+msgid ""
+"You are inactive on our website for more than %s days. Please visit the "
+"website %s and continue learning."
+msgstr ""
+"Você está inativo no nosso site por mais de %s dias. Visite o site %s e "
+"continue aprendendo."
+
+#: includes/bp-course-mailer.php:741
+msgid "Contact email sent in contact form "
+msgstr "E-mail de contato enviado no formulário de contato"
+
+#: includes/bp-course-mailer.php:742
+msgid "Contact Form Submission"
+msgstr "Envio de formulário de contato"
+
+#: includes/bp-course-mailer.php:743
+#, php-format
+msgid " User contacted via contact form on your site <br> %s "
+msgstr ""
+"Usuário contactado através de formulário de contato em seu site <br>% s"
+
+#: includes/bp-course-mailer.php:746
+msgid ""
+"Course Review email sent when user finish the course but does not review the "
+"course "
+msgstr ""
+"Revisão do curso enviada por email quando o usuário terminar o curso, mas "
+"não revisa o curso"
+
+#: includes/bp-course-mailer.php:747
+#, php-format
+msgid "Review pending for Course %s"
+msgstr "Revisão pendente para Course %s"
+
+#: includes/bp-course-mailer.php:748
+#, php-format
+msgid ""
+" You have successfully finished the course %s. Now please take a moment and "
+"review this course. "
+msgstr ""
+"Terminei com êxito o curso %s. Agora, tome um momento e reveja este curso."
+
+# @ vibe
+#: includes/bp-course-notifications.php:252
+#: includes/bp-course-notifications.php:284
+#: includes/bp-course-notifications.php:344
+msgid "Yes"
+msgstr "Sim"
+
+# @ vibe
+#: includes/bp-course-notifications.php:253
+#: includes/bp-course-notifications.php:285
+#: includes/bp-course-notifications.php:345
+msgid "No"
+msgstr "Não"
+
+#: includes/bp-course-notifications.php:265
+#: includes/bp-course-notifications.php:297
+#: includes/bp-course-notifications.php:358
+msgid "Yes, send email"
+msgstr "Sim, envie e-mail"
+
+#: includes/bp-course-notifications.php:266
+#: includes/bp-course-notifications.php:298
+#: includes/bp-course-notifications.php:360
+msgid "No, do not send email"
+msgstr "Não, não envie e-mail"
+
+#: includes/bp-course-notifications.php:325
+msgctxt "Drip feed email label in profile email settings"
+msgid "Schedule drip feed email"
+msgstr "Programe o e-mail do feed gotejamento"
+
+#: includes/bp-course-notifications.php:326
+msgctxt "Course expiry email label in profile email settings"
+msgid "Schedule course expiry email"
+msgstr "Programe o email de expiração do curso"
+
+#: includes/bp-course-notifications.php:327
+msgctxt "User inactivity email label in profile email settings"
+msgid "Schedule user inactivity email"
+msgstr "Programe o email de inatividade do usuário"
+
+#: includes/bp-course-notifications.php:343
+msgid "Schedule Emails"
+msgstr "Programação de E-mails"
+
+# @ vibe
+#: includes/bp-course-notifications.php:375
+#: includes/bp-course-notifications.php:488
+#, php-format
+msgid "Announcement for course %s"
+msgstr "Anúncio para curso %s"
+
+#: includes/bp-course-notifications.php:522
+#: includes/bp-course-notifications.php:570
+#: includes/bp-course-notifications.php:582
+#: includes/bp-course-notifications.php:612
+msgid "Read more"
+msgstr "Leia mais"
+
+# @ vibe
+#: includes/bp-course-notifications.php:581
+#, php-format
+msgid "News for course %s"
+msgstr "Notícias para curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:626
+#: includes/bp-course-notifications.php:646
+#: includes/bp-course-notifications.php:663
+msgid "Subscribed for Course"
+msgstr "Inscrito para o curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:701
+#, php-format
+msgid "You're added to course : %s"
+msgstr "Você foi incluído no curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:703
+msgid "Added to Course"
+msgstr "Adicionado ao Curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:748
+#, php-format
+msgid "Student %s added to course : %s"
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:750
+msgid "Student added to Course"
+msgstr "Aluno adicionado ao curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:789
+#, php-format
+msgid "Students added to course %s"
+msgstr "Alunos adicionados ao curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:790
+#, php-format
+msgid "%d students added to course : %s , %s"
+msgstr "%d alunos adicionados ao curso: %s, %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:800
+#, php-format
+msgid "You started the course : %s"
+msgstr "Você começou o curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:802
+msgid "Started a Course"
+msgstr "Iniciou um curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:836
+#, php-format
+msgid "Student started the course %s"
+msgstr "Aluno começou curso %s"
+
+# @ default
+#: includes/bp-course-notifications.php:870
+msgid "Course submitted"
+msgstr "Curso enviado"
+
+# @ vibe
+#: includes/bp-course-notifications.php:902
+#, php-format
+msgid "Student submitted the course %s"
+msgstr "Aluno submeteu o Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:932
+#, php-format
+msgid "The Course %s was reset by Course instructor "
+msgstr "O curso de %s foi redefinido pelo instrutor do curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:934
+msgid "Course reset"
+msgstr "Curso redefinido"
+
+# @ vibe
+#: includes/bp-course-notifications.php:957
+#, php-format
+msgid "%s course reset for student : %s"
+msgstr "%s curso redefinido para o aluno: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:959
+#: includes/bp-course-notifications.php:1010
+#, php-format
+msgid "Course %s reset for student"
+msgstr "Curso %s reiniciado para o Aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:984
+#, php-format
+msgid "You retook the Course %s "
+msgstr "Você retomou o curso %s "
+
+# @ vibe
+#: includes/bp-course-notifications.php:986
+msgid "Course retake"
+msgstr "Curso retomado"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1001
+#, php-format
+msgid "You retook the course Course %s"
+msgstr "Você retomou o curso Curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1008
+#, php-format
+msgid "Student %s retook the course %s"
+msgstr "O Aluno %s retomou o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1039
+msgid "Course results available"
+msgstr "Resultados do curso disponíveis"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1063
+#, php-format
+msgid "Course %s evaluated for student"
+msgstr "Curso %s avaliado para o Aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1079
+#, php-format
+msgid "Course %s evaluated for Student"
+msgstr "Curso %s avaliado para o Aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1080
+#, php-format
+msgid "Student %s got %s in Course %s"
+msgstr "O Aluno %s teve %s no Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1089
+#, php-format
+msgid "Congratulations ! You've obtained a badge in Course : %s"
+msgstr "Parabéns! Você obteve um crédito no Curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1091
+msgid "You got a new Badge !"
+msgstr "Você tem um novo crédito!"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1119
+#, php-format
+msgid "Student %s got a Badge in course %s"
+msgstr "Estudante %s recebeu um crédito no curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1151
+#, php-format
+msgid "Congratulations ! You've obtained a Certificate in Course : %s"
+msgstr "Parabéns! Você obteve um certificado de curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1153
+msgid "You got a new Certificate !"
+msgstr "Você obteve um novo Certificado!"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1173
+#, php-format
+msgid "You've obtained a certificate in Course : %s . %s View Certificate %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:1181
+#, php-format
+msgid "Student %s got a Certificate in course %s"
+msgstr "Aluno %s obteve um Certificado no Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1212
+#, php-format
+msgid "You've submitted a review of Course : %s"
+msgstr "Você enviou uma revisão do Curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1214
+msgid "You submitted a course review"
+msgstr "Você enviou uma revisão de curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1231
+#: includes/bp-course-notifications.php:2471
+#, php-format
+msgid "You submitted a review for Course %s"
+msgstr "Você apresentou uma revisão para curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1232
+#, php-format
+msgid "You submitted a review Course : %s"
+msgstr "Você enviou uma revisão do Curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1239
+#, php-format
+msgid "Student %s submitted a review for the course %s"
+msgstr "Estudante %s enviou uma revisão para o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1241
+#, php-format
+msgid "Student submitted a review for the course %s"
+msgstr "Estudante enviou uma revisão para o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1259
+#, php-format
+msgid "Student submitted a review for Course %s"
+msgstr "Estudante enviou uma revisão para o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1260
+#, php-format
+msgid "Student %s submitted a review for the Course %s"
+msgstr "Estudante %s enviou uma revisão para o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1268
+#, php-format
+msgid "You're unsubscribed from Course : %s"
+msgstr "Você cancelou a inscrição do curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1270
+msgid "You unsubscribed from course"
+msgstr "Você cancelou inscrição do curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1292
+#, php-format
+msgid "Student %s unsubscribed course %s"
+msgstr "O Aluno %s não está inscrito no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1318
+#, php-format
+msgid "You applied a code for Course : %s"
+msgstr "Você aplicou um código para curso: %s"
+
+#: includes/bp-course-notifications.php:1320
+msgid "You applied a course code"
+msgstr "Você aplicou um código do curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1336
+#, php-format
+msgid "You've applied Course Code in Course %s"
+msgstr "Estudante aplicou o código de curso para curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1343
+#, php-format
+msgid "Student %s used course code %s for course %s"
+msgstr "Aluno %s usou codigo do curso %s para o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1345
+#, php-format
+msgid "Student applied Course code for Course %s"
+msgstr "Estudante aplicou o código de curso para curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1370
+#, php-format
+msgid "You've completed the unit %s in Course : %s"
+msgstr "Você concluiu a aula %s no curso: %s"
+
+#: includes/bp-course-notifications.php:1372
+msgid "You completed a unit"
+msgstr "Você concluiu uma aula "
+
+#: includes/bp-course-notifications.php:1390
+msgid "You completed unit"
+msgstr "Você concluiu a aula "
+
+# @ vibe
+#: includes/bp-course-notifications.php:1398
+#, php-format
+msgid "Student %s completed the unit %s in course %s"
+msgstr "Aluno %s completou a aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1400
+#: includes/bp-course-notifications.php:1457
+#, php-format
+msgid "Student completed a unit in Course %s"
+msgstr "Aluno concluiu uma aula no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1427
+#, php-format
+msgid "Instructor %s marked the unit %s complete in Course : %s"
+msgstr "Aluno %s completou a aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1429
+#, php-format
+msgid "Instructor marked a unit complete in Course %s"
+msgstr "Professor adicionou %s alunos ao curso "
+
+# @ vibe
+#: includes/bp-course-notifications.php:1447
+#, php-format
+msgid "Instructor marked unit %s complete "
+msgstr "A unidade marcada pelo instrutor %s completa"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1483
+#, php-format
+msgid "Instructor %s marked the unit %s incomplete in Course : %s"
+msgstr "Aluno %s completou a aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1485
+#, php-format
+msgid "Instructor marked a unit uncomplete in Course %s"
+msgstr "Professor adicionou %s alunos ao curso "
+
+# @ vibe
+#: includes/bp-course-notifications.php:1503
+#, php-format
+msgid "Instructor marked unit %s uncompleted "
+msgstr "O instrutor marcou a unidade %s incompleta"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1504
+#, php-format
+msgid "Unit %s was marked uncomplete by Instructor %s in Course %s"
+msgstr "Aluno %s completou aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1513
+#, php-format
+msgid "Student uncompleted a unit in Course %s"
+msgstr "Aluno concluiu uma aula no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1531
+#, php-format
+msgid "Instructor %s uncompleted the unit %s for Student %s in Course %s"
+msgstr "O instrutor %s incompleto a unidade %s para alunos %s no curso %s"
+
+#: includes/bp-course-notifications.php:1540
+#, php-format
+msgid "You've submitted a comment on unit : %s"
+msgstr "Você enviou um comentário na aula: %s"
+
+#: includes/bp-course-notifications.php:1542
+msgid "You added a comment in Unit"
+msgstr "Você adicionou um comentário na Unidade"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1552
+#, php-format
+msgid "%s replied on your comment in unit \"%s\" : %s "
+msgstr "%s respondeu no seu comentário na unidade \"%s\": %s"
+
+#: includes/bp-course-notifications.php:1554
+msgid "Reply on your comment"
+msgstr "Resposta em seu comentário"
+
+#: includes/bp-course-notifications.php:1590
+#: includes/bp-course-notifications.php:1591
+#, php-format
+msgid "You added a comment on Unit %s"
+msgstr "Você adicionou um comentário na aula %s"
+
+#: includes/bp-course-notifications.php:1603
+#, php-format
+msgid "You received a reply on your comment in Unit %s"
+msgstr "Você adicionou um comentário na aula %s"
+
+#: includes/bp-course-notifications.php:1604
+#, php-format
+msgid "Reply from %s on Unit %s : %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:1613
+#, php-format
+msgid "Student %s submitted a comment on unit %s "
+msgstr "Aluno %s postou um comentário na aula %s "
+
+# @ vibe
+#: includes/bp-course-notifications.php:1615
+msgid "Student submitted a comment on Unit"
+msgstr "Você enviou um comentário na aula"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1637
+#, php-format
+msgid "Student added comment in unit %s"
+msgstr "Aluno adicionou comentário na aula %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1638
+#, php-format
+msgid "Student %s added a comment in unit %s "
+msgstr "Aluno %s adicionou um comentário na aula %s "
+
+# @ vibe
+#: includes/bp-course-notifications.php:1647
+#, php-format
+msgid "You've started the quiz : %s"
+msgstr "Você começou a prova: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1649
+msgid "You started a Quiz"
+msgstr "Você começou uma prova"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1664
+#, php-format
+msgid "You started quiz %s"
+msgstr "Você começou a prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1665
+#, php-format
+msgid "You started a quiz %s"
+msgstr "Você começou a prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1671
+#: includes/bp-course-notifications.php:1694
+#, php-format
+msgid "Student %s started the quiz %s "
+msgstr "Aluno %s começou a prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1693
+#, php-format
+msgid "Student started quiz %s"
+msgstr "Aluno começou prova %s"
+
+#: includes/bp-course-notifications.php:1704
+#: includes/bp-course-notifications.php:1723
+#, php-format
+msgid "You obtained %d out of %s in Quiz : "
+msgstr "Você obteve %d de %s na prova:"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1706
+msgid "Quiz results available"
+msgstr "Resultados do teste disponíveis"
+
+#: includes/bp-course-notifications.php:1729
+#: includes/bp-course-notifications.php:1752
+#, php-format
+msgid "Student %s got %s from %s in quiz %s "
+msgstr "Estudante de %s tem %s de %s na prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1731
+#, php-format
+msgid "Quiz %s evaluated for student"
+msgstr "Prova %s avaliada para o aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1763
+#, php-format
+msgid "You submitted the Quiz : %s"
+msgstr "Você enviou a prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1796
+#, php-format
+msgid "Quiz %s submitted by student %s"
+msgstr "Prova %s foi enviada pelo aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1798
+#, php-format
+msgid "Quiz %s submitted by Student"
+msgstr "Prova %s enviada pelo aluno"
+
+#: includes/bp-course-notifications.php:1822
+#, php-format
+msgid "You retook the Quiz : %s"
+msgstr "Você retomou a prova: %s"
+
+#: includes/bp-course-notifications.php:1824
+msgid "You retook a Quiz"
+msgstr "Você retomou uma prova"
+
+#: includes/bp-course-notifications.php:1839
+#: includes/bp-course-notifications.php:1840
+#, php-format
+msgid "You retook quiz %s"
+msgstr "Você retomou a prova: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1846
+#, php-format
+msgid "Student %s retook the Quiz : %s"
+msgstr "Aluno %s refez a Prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1848
+#, php-format
+msgid "Student retook the Quiz %s"
+msgstr "Aluno refez a Prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1874
+msgid "Quiz reset by Instructor"
+msgstr "Prova redefinido pelo professor"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1889
+#, php-format
+msgid "Quiz %s reset"
+msgstr "Prova %s redefinida"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1896
+#, php-format
+msgid "Quiz %s reset for Student %s"
+msgstr "Prova %s redefinida para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1926
+#, php-format
+msgid "You've started the assignemtn : %s"
+msgstr "Você começou a tarefa: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1928
+#: includes/bp-course-notifications.php:1943
+#, php-format
+msgid "You started assignment %s"
+msgstr "Você começou tarefa %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1950
+#: includes/bp-course-notifications.php:1973
+#, php-format
+msgid "Student %s started the assignment %s "
+msgstr "Aluno %s começou a tarefa %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:1952
+#, php-format
+msgid "Student started an assignment %s "
+msgstr "Aluno começou a tarefa %s"
+
+#: includes/bp-course-notifications.php:1983
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s "
+msgstr "Você obteve %d de %s na atribuição: %s "
+
+# @ vibe
+#: includes/bp-course-notifications.php:1985
+msgid "Assignment results available"
+msgstr "Resultados das tarefas disponíveis"
+
+#: includes/bp-course-notifications.php:2002
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s"
+msgstr "Você obteve %d de %s na atribuição: %s "
+
+#: includes/bp-course-notifications.php:2008
+#: includes/bp-course-notifications.php:2030
+#, php-format
+msgid "Student %s got %s from %s in assignment %s "
+msgstr "Estudante de %s tem %s de %s na atribuição de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2010
+#, php-format
+msgid "Assignment %s evaluated for student"
+msgstr "Tarefa %s avaliada para aluno"
+
+#: includes/bp-course-notifications.php:2042
+#, php-format
+msgid "You submitted the assignment : %s"
+msgstr "Você se submeteu a atribuição: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2061
+#: includes/bp-course-notifications.php:2062
+#, php-format
+msgid "You submitted assignment %s"
+msgstr "Você enviou Tarefa %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2074
+#, php-format
+msgid "Assignment %s submitted by student %s"
+msgstr "Tarefa %s enviada pelo aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2076
+#, php-format
+msgid "Assignment %s submitted by Student"
+msgstr "Tarefa %s enviada pelo aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2092
+#, php-format
+msgid "Student submitted assignment %s"
+msgstr "Aluno enviou tarefa %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2093
+#, php-format
+msgid "Student %s submitted assignment %s"
+msgstr "Aluno %s enviou a Tarefa %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2103
+msgid "Assignment reset by Instructor"
+msgstr "Tarefa redefinida pelo Professor"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2118
+#, php-format
+msgid "Assignment %s reset"
+msgstr "Tarefa %s redefinida"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2125
+#, php-format
+msgid "Assignment %s reset for Student %s"
+msgstr "Tarefa %s redefinida para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2127
+#: includes/bp-course-notifications.php:2145
+#, php-format
+msgid "Assignment %s reset for Student"
+msgstr "Tarefa %s redefinida para o Aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2146
+#, php-format
+msgid "Assignment %s was reset for Student %s"
+msgstr "Tarefa %s foi redefinida para o Aluno %s"
+
+#: includes/bp-course-notifications.php:2154
+#: includes/bp-course-notifications.php:2173
+#, php-format
+msgid "You applied to course %s "
+msgstr "Você aplicou para o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2156
+msgid "You applied for Course"
+msgstr "Você se candidatou ao curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2174
+#, php-format
+msgid "You have applied to Course %s "
+msgstr "Você já se inscreveu para o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2182
+#, php-format
+msgid "Student %s applied to course %s "
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2184
+msgid "Student applied for Course"
+msgstr "Estudante candidatou-se ao curso"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2202
+#, php-format
+msgid "Application for course %s was submitted by Student"
+msgstr "Prova %s foi enviada pelo aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2203
+#, php-format
+msgid "Student %s submitted an application for course %s"
+msgstr "Aluno %s enviou uma revisão para o curso %s"
+
+#: includes/bp-course-notifications.php:2211
+#: includes/bp-course-notifications.php:2235
+#: includes/bp-course-notifications.php:2253
+#: includes/bp-course-notifications.php:2278
+msgctxt "course application status in email"
+msgid "Approved"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2213
+#: includes/bp-course-notifications.php:2237
+#: includes/bp-course-notifications.php:2255
+#: includes/bp-course-notifications.php:2280
+msgctxt "course application status in email"
+msgid "Rejected"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2217
+#: includes/bp-course-notifications.php:2258
+#, php-format
+msgid "Application %s for course %s "
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2219
+#: includes/bp-course-notifications.php:2260
+#, php-format
+msgid "Application %s by Instructor"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2242
+#, php-format
+msgid "Application %s to course %s "
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2244
+#, php-format
+msgid "Your application was %s for Course %s "
+msgstr "Sua aplicação foi %s para Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2284
+#, php-format
+msgid "Student application for course %s was %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2285
+#, php-format
+msgid "Application by Student %s was %s for course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2297
+#: includes/bp-course-notifications.php:2322
+#, php-format
+msgid "You published the course %s "
+msgstr "Você enviou o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2299
+#: includes/bp-course-notifications.php:2325
+#, php-format
+msgid "Course %s sent for approval from admin"
+msgstr "Curso %s reiniciado para o Aluno"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2303
+msgid "Course status updated"
+msgstr "Estatus do Curso atualizado"
+
+# @ default
+#: includes/bp-course-notifications.php:2321
+#, php-format
+msgid "Course %s published"
+msgstr "Curso %s enviado"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2324
+#, php-format
+msgid "Course %s sent for Admin approval"
+msgstr "Curso %s reiniciado para o Aluno"
+
+# @ default
+#: includes/bp-course-notifications.php:2328
+msgctxt "course status when instructor sends for approval"
+msgid "published"
+msgstr "publicado"
+
+#: includes/bp-course-notifications.php:2328
+msgctxt "course status when instructor sends for approval"
+msgid "drafted"
+msgstr "Rascunhado"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2344
+#, php-format
+msgid "Instructor published the course %s "
+msgstr "Aluno submeteu o Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2346
+#, php-format
+msgid "Instructor %s sent the Course %s for approval"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2350
+msgid "Instructor changed the Course status"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2388
+#, php-format
+msgid "Instructor changed status for Course %s to %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2389
+#, php-format
+msgid "Instructor %s changed status for Course %s to %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2391
+msgctxt "course status when instructor sends for approval"
+msgid "Approved"
+msgstr "Aprovado"
+
+#: includes/bp-course-notifications.php:2391
+msgctxt "course status when instructor sends for approval"
+msgid "Under review"
+msgstr "Sob Revisão"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2411
+#: includes/bp-course-notifications.php:2417
+#, php-format
+msgid "Added to Course %s"
+msgstr "Adicionado ao curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2414
+#: includes/bp-course-notifications.php:2420
+#, php-format
+msgid "Student %s added to Course %s"
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2423
+#, php-format
+msgid "You've subscribed to Course %s"
+msgstr "Você já se inscreveu para o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2426
+#, php-format
+msgid "Student %s subscribed to Course %s"
+msgstr "Aluno %s matriculou-se para curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2429
+#, php-format
+msgid "You started the course %s"
+msgstr "Você começou o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2432
+#, php-format
+msgid "Student %s started course %s"
+msgstr "Aluno %s começou o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2435
+#, php-format
+msgid "You submitted the course %s"
+msgstr "Você enviou o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2438
+#: includes/bp-course-notifications.php:2441
+#, php-format
+msgid "Student %s submitted course %s"
+msgstr "Aluno %s  Submeteu o Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2444
+#, php-format
+msgid "Course %s was reset for Student %s"
+msgstr "Curso %s foi reiniciado para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2447
+#, php-format
+msgid "Student %s retook the course course %s"
+msgstr "O Aluno %s retomou o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2450
+#, php-format
+msgid "Course %s was retaken by Student %s"
+msgstr "Curso de %s foi retomado pelo Aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2453
+#: includes/bp-course-notifications.php:2456
+#, php-format
+msgid "Course %s evaluated for Student %s"
+msgstr "Curso %s avaliado para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2459
+#, php-format
+msgid "Congratulations ! You got a badge in Course %s"
+msgstr "Parabéns! Você ganhou um crédito no Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2465
+#, php-format
+msgid "Congratulations ! You got a certificate in Course %s"
+msgstr "Parabéns! Você tem um certificado do curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2474
+#, php-format
+msgid "Student %s submitted a review for Course %s"
+msgstr "Aluno %s enviou uma revisão para o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2477
+#, php-format
+msgid "You're unsubscribed from Course %s"
+msgstr "Você não está inscrito no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2480
+#, php-format
+msgid "Student %s is unsubscribed from Course %s"
+msgstr "O Aluno %s está desligado do Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2483
+#, php-format
+msgid "You completed the unit %s in course %s"
+msgstr "Você concluiu a aula %s no curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2486
+#, php-format
+msgid "Student %s completed the unit %s"
+msgstr "Aluno %s concluiu a aula %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2489
+#, php-format
+msgid "Instructor marked Unit %s complete for you."
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2492
+#, php-format
+msgid "Instructor marked Unit %s complete for Student %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2495
+#, php-format
+msgid "Instructor marked Unit %s incomplete for you."
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2498
+#, php-format
+msgid "Instructor marked Unit %s incomplete for Student %s"
+msgstr ""
+
+#: includes/bp-course-notifications.php:2501
+#, php-format
+msgid "You added a comment in unit %s in course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2504
+#, php-format
+msgid "Student %s added a comment in unit %s in course %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2508
+#, php-format
+msgid "%s replied on your comment in unit \"%s\" in Course : %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2511
+#, php-format
+msgid "You started the quiz %s"
+msgstr "Você começou a prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2517
+#, php-format
+msgid "You submitted the quiz %s"
+msgstr "Você enviou a prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2520
+#, php-format
+msgid "Student %s submitted the quiz %s"
+msgstr "Aluno %s enviou a prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2523
+#, php-format
+msgid "Quiz %s results available"
+msgstr "Resultados da Prova %s disponível"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2526
+#, php-format
+msgid "Quiz %s results available for student %s"
+msgstr "Resultados da Prova %s disponível para aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2529
+#, php-format
+msgid "Quiz %s reset by Instructor"
+msgstr "Prova %s foi redefinida pelo professor"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2532
+#, php-format
+msgid "Quiz %s reset for student %s"
+msgstr "Prova %s redefinida para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2538
+#, php-format
+msgid "Student %s retook the Quiz %s"
+msgstr "Aluno %s refez a Prova %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2553
+#, php-format
+msgid "Assignment %s results available"
+msgstr "Resultados da tarefa %s disponível"
+
+#: includes/bp-course-notifications.php:2556
+#, php-format
+msgid "Assignment %s results available for student %s"
+msgstr "Resultados de atribuição %s disponíveis para estudante %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2559
+#, php-format
+msgid "Assignment %s reset by Instructor"
+msgstr "Tarefa %s redefinida pelo Professor"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2562
+#, php-format
+msgid "Assignment %s reset for student %s"
+msgstr "Tarefa %s redefinida para o Aluno %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2565
+#, php-format
+msgid "Latest News : %s for Course : %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2568
+#, php-format
+msgid "News : %s was published for your course : %s"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-notifications.php:2574
+#, php-format
+msgid "Student %s applied for course : %s"
+msgstr "Aluno %s adicionado ao curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2577
+#, php-format
+msgid "Application approved for course %s"
+msgstr "Estudante aplicou código para o Curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2580
+#, php-format
+msgid "Student %s application approved for course : %s"
+msgstr "Aluno %s matriculou-se para curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2583
+#, php-format
+msgid "Application rejected for course %s"
+msgstr "Anúncio para curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2586
+#, php-format
+msgid "Student %s application rejected for course : %s"
+msgstr "Aluno %s matriculou-se para curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2589
+#, php-format
+msgid "You published the course %s"
+msgstr "Você enviou o curso de %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2592
+#, php-format
+msgid "You sent the course %s for approval"
+msgstr "Você começou o curso %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2595
+#, php-format
+msgid "Instructor %s published the course %s"
+msgstr "Estudante %s submeteu o curso: %s"
+
+# @ vibe
+#: includes/bp-course-notifications.php:2598
+#, php-format
+msgid "Instructor %s sent the course %s for approval"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-screens.php:96
+msgid "Course Settings Header"
+msgstr "Configuração do Cabeçalho do Curso"
+
+# @ vibe
+#: includes/bp-course-screens.php:100
+msgid "Course Settings"
+msgstr "Configurações do curso"
+
+# @ vibe
+#: includes/bp-course-screens.php:108
+msgid "Changes Saved."
+msgstr "Alterações salvas."
+
+# @ bp-course
+#: includes/bp-course-screens.php:114
+msgid "Do you love clicking checkboxes?"
+msgstr "Você adora clicar em caixas de seleção?"
+
+# @ vibe
+#: includes/bp-course-screens.php:116
+msgid "Save Settings"
+msgstr "Salvar Configurações"
+
+# @ vibe
+#: includes/bp-course-screens.php:148
+msgid "Send Bulk Message"
+msgstr "Enviar Mensagem em Massa"
+
+# @ vibe
+#: includes/bp-course-screens.php:158
+#, php-format
+msgid "Enter extend amount ( in %s"
+msgstr "Digite estender quantidade (em %s"
+
+# @ vibe
+#: includes/bp-course-screens.php:159
+msgid "Extend Subscription"
+msgstr "Extender Assinatura"
+
+# @ vibe
+#: includes/bp-course-screens.php:170
+msgid "Type Message Subject"
+msgstr "Digite o assunto da mensagem"
+
+# @ vibe
+#: includes/bp-course-screens.php:171
+msgid "Type Message"
+msgstr "Digite a mensagem"
+
+# @ vibe
+#: includes/bp-course-screens.php:173
+msgid "All Students"
+msgstr "Todos os Estudantes"
+
+# @ vibe
+#: includes/bp-course-screens.php:175
+msgid "Send Message"
+msgstr "Enviar Mensagem"
+
+# @ vibe
+#: includes/bp-course-screens.php:188
+msgid "Enter Student Usernames/Emails, separated by comma"
+msgstr "Digite os nomes de Usuários/E-mails dos alunos, separados por vírgula"
+
+# @ vibe
+#: includes/bp-course-screens.php:190
+msgid "Add Students"
+msgstr "Adicionar Alunos"
+
+# @ vibe
+#: includes/bp-course-screens.php:204
+msgid "ASSIGN COURSE BADGE"
+msgstr "ATRIBUIR CRÉDITO DE CURSO"
+
+# @ vibe
+#: includes/bp-course-screens.php:205
+msgid "ASSIGN COURSE CERTIFICATE"
+msgstr "ATRIBUIR CERTIFICADO DE CURSO"
+
+# @ vibe
+#: includes/bp-course-screens.php:206
+msgid "REMOVE COURSE BADGE"
+msgstr "REMOVER CRÉDITO DE CURSO"
+
+# @ vibe
+#: includes/bp-course-screens.php:207
+msgid "REMOVE COURSE CERTIFICATE"
+msgstr "REMOVER CERTIFICADO DE CURSO"
+
+# @ vibe
+#: includes/bp-course-screens.php:209
+msgid "Assign Action"
+msgstr "Atribuir Ação"
+
+# @ vibe
+#: includes/bp-course-screens.php:225
+msgid "Finished Course"
+msgstr "Curso terminou"
+
+# @ vibe
+#: includes/bp-course-screens.php:227
+msgid "Enter marks"
+msgstr "Insira notas"
+
+# @ vibe
+#: includes/bp-course-screens.php:228
+msgid "Change Course Status"
+msgstr "Alterar status do curso"
+
+# @ vibe
+#: includes/bp-course-template.php:98
+msgid "REVIEWS"
+msgstr "RESENHAS"
+
+# @ vibe
+#: includes/bp-course-template.php:103
+msgid "STUDENTS"
+msgstr "ALUNOS"
+
+# @ vibe
+#: includes/bp-course-template.php:141 includes/bp-course-template.php:1401
+msgid "FREE"
+msgstr "GRÁTIS"
+
+#: includes/bp-course-template.php:184
+msgid "Price Options +"
+msgstr "Opções de preço +"
+
+# @ vibe
+#: includes/bp-course-template.php:815
+#, php-format
+msgid "Viewing page %1$s of %2$s"
+msgstr "Visualizando página %1$s de %2$s"
+
+# @ vibe
+#: includes/bp-course-template.php:1157
+msgid "PRIVATE"
+msgstr "PRIVADO"
+
+# @ vibe
+#: includes/bp-course-template.php:1407
+msgctxt "Unlimited unit duration label"
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+# @ vibe
+#: includes/bp-course-template.php:2319
+msgid "COURSE EVALUATED "
+msgstr "CURSO AVALIADO "
+
+# @ vibe
+#: includes/bp-course-template.php:2356
+msgid "Congratulations ! You've earned the "
+msgstr "Parabéns! Você obteve o "
+
+# @ vibe
+#: includes/bp-course-template.php:2356
+msgid "Badge"
+msgstr "Crédito"
+
+# @ vibe
+#: includes/bp-course-template.php:2380
+msgid ""
+"Congratulations ! You've successfully passed the course and earned the "
+"Course Completion Certificate !"
+msgstr ""
+"Parabéns! Você obteve êxito e conquistou o Certificado de Conclusão do Curso!"
+
+# @ vibe
+#: includes/bp-course-template.php:2380
+msgid "View Certificate"
+msgstr "Ver Certificado"
+
+# @ vibe
+#: includes/bp-course-template.php:2389
+#, php-format
+msgid "You've obtained %s in course %s "
+msgstr "Você obteve %s no curso: %s"
+
+# @ vibe
+#: includes/bp-course-template.php:2395
+msgid "COURSE SUBMITTED FOR EVALUATION"
+msgstr "CURSO ENVIADO PARA AVALIAÇÃO"
+
+# @ vibe
+#: includes/bp-course-template.php:2408
+msgid "UNIT"
+msgstr "AULAS"
+
+# @ vibe
+#: includes/bp-course-template.php:2411
+msgid "ASSIGNMENT"
+msgstr "TAREFAS"
+
+# @ vibe
+#: includes/bp-course-template.php:2414
+msgid "QUIZ"
+msgstr "TESTE"
+
+# @ vibe
+#: includes/bp-course-template.php:2417
+msgid "PLEASE COMPLETE THE "
+msgstr "POR FAVOR PREENCHA O "
+
+# @ vibe
+#: includes/bp-course-template.php:2421
+msgid "COURSE CURRICULUM NOT SET"
+msgstr "EMENTA DO CURSO NÃO DEFINIDA"
+
+# @ vibe
+#: includes/bp-course-template.php:2767 includes/bp-course-template.php:2849
+msgid "Marked Choice :"
+msgstr "Escolha Selecionada:"
+
+# @ vibe
+#: includes/bp-course-template.php:2767 includes/bp-course-template.php:2849
+msgctxt "survery question score awarded"
+msgid "Score"
+msgstr "Pontuação"
+
+#: includes/bp-course-template.php:2769 includes/bp-course-template.php:2852
+msgid "View explanation"
+msgstr "Ver explicação"
+
+# @ vibe
+#: includes/bp-course-template.php:2779
+msgid "Correct Answer : "
+msgstr "Resposta Correta:"
+
+#: includes/bp-course-template.php:2781 includes/bp-course-template.php:2966
+msgid "View answer explanation"
+msgstr "Ver explicação da resposta:"
+
+# @ vibe
+#: includes/bp-course-template.php:2786 includes/bp-course-template.php:2971
+msgid "Total Marks :"
+msgstr "Pontuação total:"
+
+#: includes/bp-course-template.php:2792 includes/bp-course-template.php:2794
+#: includes/bp-course-template.php:2975 includes/bp-course-template.php:2977
+msgid "MARKS OBTAINED"
+msgstr "PONTUAÇÃO OBTIDA"
+
+#: includes/bp-course-template.php:3042
+msgid "RETAKE QUIZ"
+msgstr "REFAZER QUESTIONÁRIO"
+
+# @ default
+#: includes/bp-course-template.php:3043
+msgid "Number of retakes "
+msgstr "Número de retomadas"
+
+# @ vibe
+#: includes/bp-course-template.php:3048
+msgid "Previous Results for Quiz "
+msgstr "Resultado anterior do Questionário"
+
+# @ vibe
+#: includes/bp-course-template.php:3065
+msgid "Results not Available"
+msgstr "Resultados não disponíveis"
+
+#: includes/bp-course-tour.php:57
+msgctxt " tour label "
+msgid "Course Pursue Tour"
+msgstr "Curso para Tour"
+
+#: includes/bp-course-tour.php:66
+msgctxt " tour label "
+msgid "Quiz Pursue Tour"
+msgstr "Questionário para Tour"
+
+#: includes/bp-course-tour.php:86
+msgctxt " tour label "
+msgid "Course admin tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:140
+msgctxt " title title"
+msgid "Read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:141
+msgctxt "vibe"
+msgid "Please read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:157
+msgid "Tours Settings"
+msgstr ""
+
+#: includes/bp-course-tour.php:162
+msgid "Enable all tours by default for users"
+msgstr ""
+
+#: includes/bp-course-tour.php:164
+msgid "Will enable all tours by default for all users"
+msgstr ""
+
+#: includes/bp-course-tour.php:176
+msgid "Tours"
+msgstr ""
+
+#: includes/bp-course-tour.php:289
+msgctxt "tour"
+msgid "End tour"
+msgstr "Finalizar Tour"
+
+#: includes/bp-course-tour.php:302
+msgctxt "my tours label"
+msgid "My tours"
+msgstr ""
+
+#: includes/bp-course-tour.php:312
+msgctxt ""
+msgid "Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:312
+msgctxt ""
+msgid "Status"
+msgstr ""
+
+#: includes/bp-course-tour.php:312
+msgctxt ""
+msgid "Action"
+msgstr ""
+
+#: includes/bp-course-tour.php:317
+msgctxt "status lable tours"
+msgid "Ongoing"
+msgstr "Em processo"
+
+#: includes/bp-course-tour.php:319
+msgctxt "status lable tours"
+msgid "Ended"
+msgstr "Finalizado"
+
+#: includes/bp-course-tour.php:321
+msgctxt "status lable tours"
+msgid "Not started Yet"
+msgstr "Não iniciado"
+
+#: includes/bp-course-tour.php:325
+msgctxt ""
+msgid "Started"
+msgstr ""
+
+#: includes/bp-course-tour.php:327
+msgctxt ""
+msgid "Start"
+msgstr ""
+
+#: includes/bp-course-tour.php:329
+msgctxt ""
+msgid "End Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:467
+msgctxt "creation tour label "
+msgid "Course Creation Tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:516
+msgctxt "edit course tour course title title"
+msgid "Enter course title"
+msgstr ""
+
+#: includes/bp-course-tour.php:517
+msgctxt "edit course tour course title content"
+msgid "Enter title here"
+msgstr ""
+
+#: includes/bp-course-tour.php:525
+msgctxt "edit course tour course category title"
+msgid "Select course category"
+msgstr ""
+
+#: includes/bp-course-tour.php:526
+msgctxt "edit course tour course category content"
+msgid "Select course category here or add new"
+msgstr ""
+
+#: includes/bp-course-tour.php:533
+msgctxt "edit course tour course category title"
+msgid "click"
+msgstr ""
+
+#: includes/bp-course-tour.php:534 includes/bp-course-tour.php:541
+#: includes/bp-course-tour.php:550 includes/bp-course-tour.php:558
+msgctxt "edit course tour course category content"
+msgid "click f"
+msgstr ""
+
+#: includes/bp-course-tour.php:540
+msgctxt "edit course tour course category title"
+msgid "vibe_vibe_course_curriculum"
+msgstr ""
+
+#: includes/bp-course-tour.php:549
+msgctxt "edit course tour course category title"
+msgid "data_links"
+msgstr ""
+
+#: includes/bp-course-tour.php:557
+msgctxt "edit course tour course category title"
+msgid "post_title"
+msgstr ""
+
+#: includes/bp-course-tour.php:655
+msgctxt " tour title"
+msgid "Welcome to Course Pursue tour"
+msgstr ""
+
+#: includes/bp-course-tour.php:656
+msgctxt "tour step description"
+msgid ""
+"This tour will guide you through the steps on how to pursue a course in this "
+"site."
+msgstr ""
+
+#: includes/bp-course-tour.php:666
+msgctxt "tour title"
+msgid "Read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:667
+msgctxt "tour step description"
+msgid "Please read the course instructions here"
+msgstr ""
+
+#: includes/bp-course-tour.php:679
+msgctxt " title title"
+msgid "Course introduction page"
+msgstr ""
+
+#: includes/bp-course-tour.php:680
+msgctxt " content"
+msgid "Read the instructions and start the course"
+msgstr ""
+
+#: includes/bp-course-tour.php:693
+msgctxt " title title"
+msgid "Read the content of your unit"
+msgstr ""
+
+#: includes/bp-course-tour.php:694
+msgctxt "vibe"
+msgid "Please read the content of unit "
+msgstr ""
+
+#: includes/bp-course-tour.php:708
+msgctxt " title title"
+msgid "Mark complete the unit"
+msgstr ""
+
+#: includes/bp-course-tour.php:709
+msgctxt " content"
+msgid "Please mark complete the unit"
+msgstr ""
+
+#: includes/bp-course-tour.php:722
+msgctxt " title title"
+msgid "Lets goto next unit of this course"
+msgstr ""
+
+#: includes/bp-course-tour.php:723
+msgctxt " content"
+msgid "click to load next unit of this course"
+msgstr ""
+
+#: includes/bp-course-tour.php:737
+msgctxt " title title"
+msgid "Please complete the media"
+msgstr ""
+
+#: includes/bp-course-tour.php:738
+msgctxt "vibe"
+msgid "Please complete the media to mark this unit as complete"
+msgstr ""
+
+#: includes/bp-course-tour.php:751
+msgctxt " title title"
+msgid "Please complete the assignment"
+msgstr ""
+
+#: includes/bp-course-tour.php:752
+msgctxt "vibe"
+msgid "Please complete the assignment to mark this unit as complete"
+msgstr ""
+
+#: includes/bp-course-widgets.php:43 includes/bp-course-widgets.php:45
+msgid "Member Types Navigation"
+msgstr ""
+
+#: includes/bp-course-widgets.php:145
+msgid "Member Types"
+msgstr ""
+
+#: includes/bp-course-widgets.php:159 includes/bp-course-widgets.php:298
+msgid "Title:"
+msgstr ""
+
+#: includes/bp-course-widgets.php:164
+msgid "Exclude member types slugs (comma saperated):"
+msgstr ""
+
+#: includes/bp-course-widgets.php:181 includes/bp-course-widgets.php:183
+msgid "Group Types Navigation"
+msgstr ""
+
+#: includes/bp-course-widgets.php:284
+msgid "Group Types"
+msgstr ""
+
+#: includes/bp-course-widgets.php:303
+msgid "Exclude group types slugs (comma saperated):"
+msgstr ""
+
+# @ vibe
+#: includes/bp-course-widgets.php:318
+msgid "BuddyPress Course Widget"
+msgstr "BuddyPress Curso Widget"
+
+# @ vibe
+#: includes/bp-course-widgets.php:398 includes/bp-course-widgets.php:549
+msgid "by"
+msgstr "por"
+
+# @ vibe
+#: includes/bp-course-widgets.php:455 includes/bp-course-widgets.php:578
+#: includes/bp-course-widgets.php:725 includes/bp-course-widgets.php:848
+#: includes/bp-course-widgets.php:1298 includes/bp-course-widgets.php:1504
+msgid "Widget Title"
+msgstr "Título Widget"
+
+# @ vibe
+#: includes/bp-course-widgets.php:456 includes/bp-course-widgets.php:1302
+msgid "Style"
+msgstr "Estilo"
+
+# @ default
+#: includes/bp-course-widgets.php:458 includes/bp-course-widgets.php:1304
+msgid "Single"
+msgstr "Único"
+
+# @ default
+#: includes/bp-course-widgets.php:459 includes/bp-course-widgets.php:1305
+msgid "List"
+msgstr "Lista"
+
+# @ default
+#: includes/bp-course-widgets.php:460
+msgid "Ratings List"
+msgstr "Lista de Classificação"
+
+# @ default
+#: includes/bp-course-widgets.php:461 includes/bp-course-widgets.php:1306
+msgid "Carousel"
+msgstr "Carrossel"
+
+# @ vibe
+#: includes/bp-course-widgets.php:464 includes/bp-course-widgets.php:613
+msgid "Select Course Category"
+msgstr "Selecione Categoria do Curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:466
+msgid "None"
+msgstr "Nenhum"
+
+# @ vibe
+#: includes/bp-course-widgets.php:474 includes/bp-course-widgets.php:1309
+msgid "Order By"
+msgstr "Ordenar Por"
+
+# @ default
+#: includes/bp-course-widgets.php:476 includes/bp-course-widgets.php:1312
+msgid "Random"
+msgstr "Aleatório"
+
+# @ default
+#: includes/bp-course-widgets.php:477
+msgid "Name"
+msgstr "Nome"
+
+# @ default
+#: includes/bp-course-widgets.php:478
+msgid "Course Title"
+msgstr "Título do Curso"
+
+# @ default
+#: includes/bp-course-widgets.php:479
+msgid "Number of Reviews"
+msgstr "Número de Comentários"
+
+# @ default
+#: includes/bp-course-widgets.php:480
+msgid "Date Published"
+msgstr "Data Publicação"
+
+# @ default
+#: includes/bp-course-widgets.php:481 includes/bp-course-widgets.php:1313
+msgid "Rating"
+msgstr "Classificação"
+
+# @ default
+#: includes/bp-course-widgets.php:482
+msgid "Number of Students"
+msgstr "Número de Alunos"
+
+# @ vibe
+#: includes/bp-course-widgets.php:483
+msgid "Upcoming Courses (Start Date)"
+msgstr "Próximos Cursos "
+
+# @ vibe
+#: includes/bp-course-widgets.php:486 includes/bp-course-widgets.php:1316
+msgid "Sort "
+msgstr "Ordenar "
+
+# @ default
+#: includes/bp-course-widgets.php:488 includes/bp-course-widgets.php:1318
+msgid "Ascending"
+msgstr "Crescente"
+
+# @ default
+#: includes/bp-course-widgets.php:489 includes/bp-course-widgets.php:1319
+msgid "Decending"
+msgstr "Descrecente"
+
+# @ vibe
+#: includes/bp-course-widgets.php:492
+msgid "Specific Courses (enter comma saperated ids)"
+msgstr "Cursos Específicos (inserir vírgula separando os ids)"
+
+# @ vibe
+#: includes/bp-course-widgets.php:493
+msgid "Number of Courses to show"
+msgstr "Número de Cursos a exibir"
+
+# @ vibe
+#: includes/bp-course-widgets.php:503
+msgid "BuddyPress Instructor Widget"
+msgstr "BuddyPress Professor Widget"
+
+# @ vibe
+#: includes/bp-course-widgets.php:526
+msgid "Check all Courses created by "
+msgstr "Confira todos os cursos criados por "
+
+# @ vibe
+#: includes/bp-course-widgets.php:527
+msgid "More Courses by "
+msgstr "Mais cursos do"
+
+# @ vibe
+#: includes/bp-course-widgets.php:579
+msgid "Fallback Instructor ID"
+msgstr "Fallback Professor ID"
+
+# @ vibe
+#: includes/bp-course-widgets.php:580
+msgid "Number of Courses by the Instructor to show"
+msgstr "Número de Cursos do Professor a exibir"
+
+# @ vibe
+#: includes/bp-course-widgets.php:590
+msgid "BuddyPress Course Search Widget"
+msgstr "BuddyPress Pesquisa Curso Widget"
+
+# @ vibe
+#: includes/bp-course-widgets.php:646
+msgid "Select Instructor"
+msgstr "Selecionar Professor"
+
+# @ vibe
+#: includes/bp-course-widgets.php:659
+msgid "Select Course Location"
+msgstr "Selecionar localização de Curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:670
+msgid "Select Course Level"
+msgstr "Selecione Nível do Curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:677
+msgid "Type Keywords.."
+msgstr "Digite Palavras-Chaves..."
+
+# @ vibe
+#: includes/bp-course-widgets.php:726
+msgid "Show Course Category Dropdown"
+msgstr "Mostrar Categoria do Curso em Dropdown"
+
+# @ vibe
+#: includes/bp-course-widgets.php:727
+msgid "Show Instructor Dropdown"
+msgstr "Mostrar Professor em Dropdown"
+
+# @ vibe
+#: includes/bp-course-widgets.php:731
+msgid "Show Location Dropdown"
+msgstr "Mostrar Localização de Dropdown"
+
+# @ vibe
+#: includes/bp-course-widgets.php:736
+msgid "Show Level Dropdown"
+msgstr "Mostrar Nível em Dropdown"
+
+# @ vibe
+#: includes/bp-course-widgets.php:747
+msgid "BuddyPress Course Stats Widget"
+msgstr "BuddyPress Resultados do Curso Widget"
+
+# @ vibe
+#: includes/bp-course-widgets.php:816
+msgid "TOTAL STUDENTS"
+msgstr "TOTAL DE ALUNOS"
+
+# @ vibe
+#: includes/bp-course-widgets.php:818
+msgid "BADGES"
+msgstr "CRÉDITOS"
+
+# @ vibe
+#: includes/bp-course-widgets.php:819
+msgid "CERTIFICATES"
+msgstr "CERTIFICADOS"
+
+# @ vibe
+#: includes/bp-course-widgets.php:849
+msgid "Select Course"
+msgstr "Selecione Curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:851 includes/bp-course-widgets.php:1016
+#: includes/bp-course-widgets.php:1034
+msgid "All"
+msgstr "Tudo"
+
+# @ vibe
+#: includes/bp-course-widgets.php:852
+msgid "Current Course (defaults to all)"
+msgstr "Curso atual (padrão para todos)"
+
+# @ vibe
+#: includes/bp-course-widgets.php:863
+msgid "Show Students Stats"
+msgstr "Mostrar Resultados dos Alunos"
+
+# @ vibe
+#: includes/bp-course-widgets.php:864
+msgid "Show Badge/Certificates Stats"
+msgstr "Mostrar Créditos/Certificados Resultados"
+
+# @ vibe
+#: includes/bp-course-widgets.php:874
+msgid "BuddyPress Course Filter Widget"
+msgstr "BuddyPress Filtro de Curso Widget"
+
+#: includes/bp-course-widgets.php:1017
+msgid "Online"
+msgstr "Online"
+
+#: includes/bp-course-widgets.php:1018
+msgid "Offline"
+msgstr "Offline"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1026
+msgid "Start Date"
+msgstr "Data de Início"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1027
+msgid "End Date"
+msgstr "Data de Término"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1035
+msgid "Free"
+msgstr "Grátis"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1036
+msgid "Paid"
+msgstr "Pago"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1040
+msgid "Filter Results"
+msgstr "Filtro Resultados"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1074
+msgid "Course Categories"
+msgstr "Categoria do Curso"
+
+#: includes/bp-course-widgets.php:1076
+msgid "Location"
+msgstr "Localização"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1078
+msgid "Levels"
+msgstr "Níveis"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1080
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/bp-course-widgets.php:1082
+msgid "Price"
+msgstr "Preço"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1084
+#: includes/templates/course/single/course-header.php:40
+msgid "Instructors"
+msgstr "Professores"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1086
+msgid "Upcoming Courses"
+msgstr "Próximos cursos"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1114
+msgid "Show Course category filter"
+msgstr "Mostrar filtro de Categoria do Curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1115
+msgid "Course Categories Label"
+msgstr "Rótulo da Categoria do Curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1117
+msgid "Show Free/Paid/All filter"
+msgstr "Mostrar Grátis/Pago/Todos Filtros"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1118
+msgid "Free/Paid Label"
+msgstr "Grátis/Pago Etiqueta"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1120
+msgid "Show Offline/Online filter"
+msgstr "Mostrar Filtro Offline / Online"
+
+#: includes/bp-course-widgets.php:1121
+msgid "Online/Offline Label"
+msgstr "Etiqueta on-line / off-line"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1123
+msgid "Show Upcoming/Past Courses filter"
+msgstr "Mostrar Filtro dos cursos futuros / passados"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1124
+msgid "Upcoming courses Label"
+msgstr "Próximos cursos Etiqueta"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1132
+msgid "Show Location filter"
+msgstr "Mostrar filtro de localização"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1133
+msgid "Location Label"
+msgstr "Etiqueta de localização"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1144
+msgid "Show Levels filter"
+msgstr "Mostrar Filtros de Nível"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1145
+msgid "Levels Label"
+msgstr "Rótulo dos níveis"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1149
+msgid "Show Instructor filter"
+msgstr "Mostrar filtro Professor"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1150
+msgid "Instructor Label"
+msgstr "Rótulo do Professor"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1151
+msgid "Exclude Category/Level Slugs (comma saperated)"
+msgstr "Excluir Categoria/Nível Slugs (separado por vírgula)"
+
+#: includes/bp-course-widgets.php:1152
+msgid "Auto Click on input select (hides filter button)"
+msgstr "Auto Clique na seleção de entrada (oculta o botão de filtro)"
+
+#: includes/bp-course-widgets.php:1153
+msgid "Show course count"
+msgstr "Mostrar contagem do curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1163
+msgid "Course Reviews Widget"
+msgstr "Avaliações do Curso Widget"
+
+#: includes/bp-course-widgets.php:1231 includes/bp-course-widgets.php:1252
+msgid "Default avatar"
+msgstr "Avatar Padrão"
+
+#: includes/bp-course-widgets.php:1299
+msgid "Course ID (optional)"
+msgstr "ID do Curso (opcional)"
+
+#: includes/bp-course-widgets.php:1311
+msgid "Recent"
+msgstr "Recente"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1322
+msgid "Specific Reviews/Comments (enter comma saperated ids)"
+msgstr "Avaliações específicas / Comentários (digite vírgula saperated ids)"
+
+# @ default
+#: includes/bp-course-widgets.php:1323
+msgid "Number of Reviews to show"
+msgstr "Número de Avaliações para mostrar"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1334
+msgid "BuddyPress Related Courses Widget"
+msgstr "BuddyPress Related Courses Widget"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1456
+msgid "No related courses found !"
+msgstr "Nenhum curso relacionado encontrado!"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1505
+msgid "Show from same Course Category"
+msgstr "Mostrar da mesma categoria de curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1506
+msgid "Show from same Instructor"
+msgstr "Mostrar do mesmo instrutor"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1510
+msgid "Show from same Course location"
+msgstr "Mostrar a partir do mesmo local do curso"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1515
+msgid "Show from same Course Level"
+msgstr "Mostrar do mesmo nível do curso"
+
+#: includes/bp-course-widgets.php:1520
+msgid "Show from same Linkage"
+msgstr "Mostrar a partir da mesmo Linkage"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1524
+msgid "Numer of Courses"
+msgstr "Número de cursos"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1525
+msgid "Block Style"
+msgstr "Estilo de bloco"
+
+# @ vibe
+#: includes/bp-course-widgets.php:1541
+msgid "Comma saperated courses"
+msgstr "Cursos separados por vírgulas"
+
+# @ vibe
+#: includes/templates/course/course-loop.php:93
+#: includes/templates/course/my-courses.php:98
+msgid "You have not subscribed to any courses."
+msgstr "Você não está matriculado em nenhum curso."
+
+# @ vibe
+#: includes/templates/course/index.php:58
+#, php-format
+msgid "All Courses <span>%s</span>"
+msgstr "Todos os Cursos <span>%s</span>"
+
+# @ vibe
+#: includes/templates/course/index.php:62
+#, php-format
+msgid "My Courses <span>%s</span>"
+msgstr "Meus Cursos <span>%s</span>"
+
+# @ vibe
+#: includes/templates/course/index.php:83
+msgid "Order By:"
+msgstr "Ordenar Por:"
+
+# @ vibe
+#: includes/templates/course/index.php:85
+msgid "Select Order"
+msgstr "Selecionar Pedidos"
+
+# @ vibe
+#: includes/templates/course/index.php:86
+msgid "Newly Published"
+msgstr "Publicados Recentemente"
+
+# @ vibe
+#: includes/templates/course/index.php:87
+msgid "Alphabetical"
+msgstr "Alfabético"
+
+# @ vibe
+#: includes/templates/course/index.php:88
+msgid "Most Members"
+msgstr "Mais Membros"
+
+# @ vibe
+#: includes/templates/course/index.php:89
+msgid "Highest Rated"
+msgstr "Mais Votados"
+
+# @ vibe
+#: includes/templates/course/instructor-courses.php:89
+msgid "You have not created any Course."
+msgstr "Você não é instrutor em nenhum curso."
+
+# @ vibe
+#: includes/templates/course/single/activity.php:53
+msgid "All Activity"
+msgstr "Todas as Atividades"
+
+# @ vibe
+#: includes/templates/course/single/activity.php:57
+msgid "My Activity"
+msgstr "Minha Atividade"
+
+#: includes/templates/course/single/activity.php:60
+msgid "Show:"
+msgstr "Mostrar:"
+
+#: includes/templates/course/single/activity.php:62
+msgid "&mdash; Everything &mdash;"
+msgstr "&mdash; Tudo &mdash;"
+
+# @ vibe
+#: includes/templates/course/single/activity.php:95
+msgid "Load More"
+msgstr "Leia Mais"
+
+# @ vibe
+#: includes/templates/course/single/activity.php:109
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+"Desculpe, não foi encontrada nenhuma atividade. Por favor, tente um filtro "
+"diferente."
+
+# @ vibe
+#: includes/templates/course/single/admin.php:20
+msgctxt "Course admin tab name"
+msgid "Members"
+msgstr "Membros"
+
+# @ vibe
+#: includes/templates/course/single/admin.php:21
+msgctxt "Course admin tab name"
+msgid "Submissions"
+msgstr "Envios"
+
+# @ vibe
+#: includes/templates/course/single/admin.php:22
+msgctxt "Course admin tab name"
+msgid "Stats"
+msgstr "Estatística"
+
+# @ vibe
+#: includes/templates/course/single/admin.php:64
+#: includes/templates/course/single/members.php:19
+msgid "Total number of Students in course"
+msgstr "Número total de alunos  "
+
+# @ vibe
+#: includes/templates/course/single/admin.php:139
+msgid "No Students found."
+msgstr "Nenhum aluno encontrado."
+
+#: includes/templates/course/single/admin.php:144
+msgctxt "pagination number course admin"
+msgid "1"
+msgstr "1"
+
+# @ vibe
+#: includes/templates/course/single/admin.php:161
+msgid "BULK ACTIONS"
+msgstr "AÇÕES EM MASSA"
+
+# @ vibe
+#: includes/templates/course/single/curriculum.php:28
+msgid "Course Curriculum"
+msgstr "Ementa do Curso"
+
+# @ vibe
+#: includes/templates/course/single/curriculum.php:76
+msgctxt "Error message for no curriculum found in course curriculum "
+msgid "No curriculum found !"
+msgstr "Nenhum Currículum encontrado!"
+
+# @ vibe
+#: includes/templates/course/single/events.php:18
+msgid " Events"
+msgstr "Eventos"
+
+# @ vibe
+#: includes/templates/course/single/front.php:33
+msgid " STUDENTS ENROLLED"
+msgstr " ALUNOS"
+
+# @ vibe
+#: includes/templates/course/single/front.php:64
+msgid "READ MORE"
+msgstr "LEIA MAIS"
+
+# @ vibe
+#: includes/templates/course/single/front.php:76
+msgid "LESS"
+msgstr "MENOS"
+
+# @ vibe
+#: includes/templates/course/single/members.php:20
+msgid "Students Currently taking this course"
+msgstr "Número atual de alunos"
+
+#: includes/templates/course/single/news.php:23
+msgid "Course News"
+msgstr "Notícias de Cursos"
+
+#: includes/templates/course/single/news.php:47
+#: includes/templates/course/single/news.php:83
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/templates/course/single/news.php:47
+#: includes/templates/course/single/news.php:82
+msgid "Add News"
+msgstr "Adicionar Notícia"
+
+#: includes/templates/course/single/news.php:54
+msgid "News Title"
+msgstr "Título de Notícia"
+
+#: includes/templates/course/single/news.php:55
+msgid "Title"
+msgstr "Título"
+
+#: includes/templates/course/single/news.php:58
+msgid "News Sub-Title"
+msgstr "Subtítulo de notícias"
+
+#: includes/templates/course/single/news.php:59
+msgid "Sub Title"
+msgstr "Legenda"
+
+#: includes/templates/course/single/news.php:62
+msgid "News Format"
+msgstr "Formato de notícia"
+
+#: includes/templates/course/single/news.php:64
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/templates/course/single/news.php:65
+msgid "Aside"
+msgstr "a parte de"
+
+#: includes/templates/course/single/news.php:66
+msgid "Image"
+msgstr "Imagem"
+
+#: includes/templates/course/single/news.php:67
+msgid "Quote"
+msgstr "Citar"
+
+#: includes/templates/course/single/news.php:68
+msgid "Status"
+msgstr "Estatus"
+
+#: includes/templates/course/single/news.php:69
+msgid "Video"
+msgstr "Vídeo"
+
+#: includes/templates/course/single/news.php:70
+msgid "Audio"
+msgstr "Áudio"
+
+#: includes/templates/course/single/news.php:71
+msgid "Chat"
+msgstr "Chat"
+
+#: includes/templates/course/single/news.php:72
+msgid "Gallery"
+msgstr "Galeria"
+
+#: includes/templates/course/single/news.php:76
+msgid "News Content"
+msgstr "Conteúdo de notícias"
+
+#: includes/templates/course/single/news.php:107
+msgid "Are You sure, you want to delete this news"
+msgstr "Tem certeza de que deseja excluir esta notícia"
+
+#: includes/templates/course/single/news.php:107
+msgid "Delete"
+msgstr "Deletar"
+
+#: includes/templates/course/single/news.php:109
+msgid "Read More"
+msgstr "Leia Mais"
+
+#: includes/templates/course/single/news.php:115
+msgid "No news available for Course"
+msgstr "Não há novidades disponíveis para o Curso"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:22
+msgid "Total Number of Students who took this course"
+msgstr "Número total de alunos que fizeram este curso"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:23
+msgid "Average Percentage obtained by Students"
+msgstr "Percentagem média obtida pelos alunos"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:23
+msgid "out of 100"
+msgstr " 0 a 100"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:24
+#: includes/templates/course/single/stats.php:31
+msgid "Number of Students who got a Badge"
+msgstr "Número de alunos que receberam um crédito"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:25
+#: includes/templates/course/single/stats.php:30
+msgid "Number of Passed Students"
+msgstr "Número de alunos aprovados"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:26
+msgid "Number of Students who did not pass "
+msgstr "Número de alunos reprovados"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:29
+msgid "Average Marks obtained by Students"
+msgstr "Pontuações médias obtidas pelos alunos"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:38
+msgid "No curriculum defined"
+msgstr "Currículo :"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:63
+msgid "Average Marks in Quiz "
+msgstr "Pontuações médias no Teste"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:71
+msgid "Calculate :"
+msgstr "Calcular :"
+
+# @ vibe
+#: includes/templates/course/single/stats.php:72
+msgid "Calculate Statistics for Course"
+msgstr "Calcular Estatística do Curso"
+
+# @ vibe
+#: includes/templates/course/single/submissions.php:20
+msgid "ASSIGNMENTS SUBMISSIONS"
+msgstr "MATRÍCULAS NO CURSO"
+
+# @ vibe
+#: includes/templates/course/single/submissions.php:51
+msgid "Reset Assignment for User"
+msgstr "Reset tarefa para o usuário"
+
+# @ vibe
+#: includes/templates/course/single/submissions.php:52
+msgid "Evaluate Assignment : "
+msgstr "Avaliar Tarefa : "
+
+# @ vibe
+#: includes/templates/course/single/submissions.php:69
+msgid "QUIZ SUBMISSIONS"
+msgstr "TESTES SUBMETIDOS"
+
+# @ vibe
+#: includes/templates/course/single/submissions.php:124
+msgid "COURSE SUBMISSIONS"
+msgstr "MATRÍCULAS NO CURSO"
+
+#~ msgctxt "Adding students tour label "
+#~ msgid "Adding students to course"
+#~ msgstr "Adicionando alunos ao curso"
+
+#~ msgctxt " tour label "
+#~ msgid "Sending bulk messages"
+#~ msgstr "Enviando mensagens em massa"
+
+#~ msgctxt " tour label "
+#~ msgid "Assigning certificates and Badges"
+#~ msgstr "Atribuição de certificados e distintivos"
+
+#~ msgctxt "Extedning subscriptions tour label "
+#~ msgid "Extedning subscriptions of students"
+#~ msgstr "Extensão de assinaturas de estudantes"
+
+#~ msgctxt "Changing course statuses tour label "
+#~ msgid "Changing course statuses of students"
+#~ msgstr "Mudando o status do curso dos alunos"
+
+#~ msgctxt "my tours label"
+#~ msgid "My tours (Walkthrough)"
+#~ msgstr "Meu Tour"
+
+#~ msgid "Action"
+#~ msgstr "Ação"
+
+#~ msgid "Started"
+#~ msgstr "Iniciado"
+
+#~ msgid "Start"
+#~ msgstr "Iniciar"
+
+#~ msgid "End Tour"
+#~ msgstr "Finalizar Tour"
+
+#~ msgctxt "select tour course"
+#~ msgid "Select course for Tour"
+#~ msgstr "Selecionar Curso para Tour"
+
+#~ msgctxt "button"
+#~ msgid "Select Course"
+#~ msgstr "Selecionar Botão"
+
+#~ msgctxt "no course found messsage in popup"
+#~ msgid "No courses found"
+#~ msgstr "Nenhum Curso encontrado"
+
+#~ msgctxt "select tour quiz"
+#~ msgid "Select quiz for Tour"
+#~ msgstr "Selecionar questionário para Tour"
+
+#~ msgctxt "button"
+#~ msgid "Select quiz"
+#~ msgstr "Selecionar questionário"
+
+#~ msgctxt "no course found messsage in popup"
+#~ msgid "No quizzes found"
+#~ msgstr "Nenhum questionário encontrado"

@@ -1,0 +1,45 @@
+
+.widget .course_details > ul > li.course_price{
+	min-height:40px;
+	font-size:16px;
+	padding:0;
+	text-transform: uppercase;
+	i{display:none;}
+}
+.widget .course_details > ul > li.course_price a,
+.widget .course_details > ul > li.course_price strong > span{ color: #70c989;}
+.widget .course_details > ul > li.course_price a strong > span,
+.widget .course_details > ul > li.course_price span.subs{
+	font-size:11px;color: #70c989;
+}
+.widget .course_details > ul > li.course_price strong > span.subs{font-size:11px;padding-left:2px;}
+.widget .course_details li{
+	padding:6px 0;position: relative;
+	font-size: 12px;
+}
+.widget .course_details ul.pricing_course{width:100%;z-index:1;}
+.widget .course_details > ul > li.course_price>strong{
+	padding-top: 8px;
+	color:#70c989;
+	display: inline-block;
+}
+.widget .course_details li a{
+	font-weight:600;
+}
+
+
+
+
+.course_progressbar.progress{
+	margin:45px 0 0;
+	background:#FFF;
+	height:auto;
+	display:inline-block;
+	width:100%;
+	overflow: visible;
+	.bar{
+		background:#70c989;
+		border-radius:20px 0 0 20px;
+		padding:4px 2px;
+	}
+}

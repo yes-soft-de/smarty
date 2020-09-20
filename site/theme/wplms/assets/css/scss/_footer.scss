@@ -1,0 +1,349 @@
+/**
+ * File: footer.scss
+ * Description : Contains all general styling for the WPLMS Footers
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GENERAL STYLING
+/*    02. NOTIFICAITONS
+/*    03. BOTTOM FOOTER
+/*    04. MISC
+/*    05. WIDGETS
+/*    06. SCROLLTOP
+/*
+/*========================================================================*/
+/*   01. GENERAL STYLING 
+/*========================================================================*/
+
+footer{
+	clear:both;
+	background:#313B3D;
+	position: relative;
+	padding:30px 0;
+	font-size:14px;
+	color:rgba(255,255,255,0.6);
+	.form_field, 
+	.input-text, 
+	.ninja-forms-field, 
+	.wpcf7 input.wpcf7-text, 
+	#s{
+	  background:#313b3d;
+	  border-color:#232b2d;
+	  color:#FFF; 
+	  width:100%;
+	  margin-bottom:8px;
+	  &:focus{
+	  	color:#FFF;
+	  }
+	}
+	.widget{
+		& + .widget{
+			margin-top:0;
+		}
+	}
+
+	.item-list li{
+		clear:both;
+		margin:5px 0;
+	}
+	.item-avatar{
+		float: left;
+		max-width: 48px;
+		border-radius: 2px;
+		margin-right: 10px;
+	}
+	.footerbottom{
+		margin-top:30px;
+		padding:30px 0 0;
+		border-top:1px solid rgba(255,255,255,0.1);
+	}
+	.heading{
+		color:#fff;
+		border-bottom-color:rgba(255,255,255,0.6);
+	}
+	.product_list_widget{
+		li{
+		    display: inline-block;
+		    width: 100%;
+		    margin-bottom: 10px;
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. NOTIFICATIONS
+/*========================================================================*/
+
+#footernotification,
+#headernotification{
+	background:$successbg;
+	padding:15px 0;
+	font-size:16px;
+	color:$successcolor;
+	font-weight: 600;
+	.close{
+		float:right;
+		font-size:24px;
+		opacity: 0.6;
+		color:#FFF;
+		cursor:pointer;
+		&:hover{
+			opacity:1;
+		}
+	}
+	h2,h3,h4,h5,h6,p{
+		margin:0;
+		padding:0;
+		color:$successcolor;
+		font-weight:600;
+	}
+}
+
+/*========================================================================*/
+/*   03. BOTTOM FOOTER
+/*========================================================================*/
+
+
+
+#footerbottom{
+	background:#232b2d;
+	padding:30px 0 20px;
+	color:rgba(255,255,255,0.6);
+	font-size: 11px;
+	text-transform: uppercase;
+	a{
+		color:rgba(255,255,255,0.6);
+	}
+
+	#footerlogo{
+		max-width:48px;
+		float:left;
+		margin:-15px 10px 0 0;
+		padding:0;
+		opacity: 0.6;
+	}
+	&:hover{
+		opacity: 1;
+	}
+	#footer_social_icons,
+	#footermenu{float:right;}
+	#footer_social_icons .social li,
+	.footermenu li{
+		float:left;
+		margin-left:15px;
+	}
+
+	#footer_social_icons {
+		.socialicons{
+			font-size:20px; 
+			line-height:1;
+			a{
+				opacity:0.8;
+				&:hover{opacity:1;}
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. MISC
+/*========================================================================*/
+.footertitle,
+footer h4{
+	color:#FFF;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.quick-flickr-item a{
+	max-width: 64px;
+	border: 2px solid rgba(0,0,0,0.2);
+	float: left;
+	margin: 0 10px 10px 0;
+	&:hover{
+		border-color:#78c8c9;
+	}
+}
+.footerwidget {
+	
+	.postsmall .post_title a{
+		font-size:14px;
+		text-transform: none;
+	}
+	.vibeposts li{
+		clear:both;
+	}
+
+	.tagcloud a{
+		background:rgba(0,0,0,0.2);
+	}
+
+
+	.item-options{
+		font-weight: 600;
+		font-size: 11px;
+		text-transform: uppercase;
+		padding: 5px;
+		margin: 0 0 10px;
+		border-bottom:1px solid rgba(255,255,255,0.2);
+		color: rgba(255,255,255,0.8);
+		a{
+			color: rgba(255,255,255,0.8);
+			font-weight:600;
+		}
+	}
+}
+
+/*========================================================================*/
+/*   03. TWITTER WIDGET
+/*========================================================================*/
+
+.twitter_item{
+	& > p{
+		background: rgba(230,230,230,0.2);
+		padding: 20px;
+		border-radius: 2px;
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 16px;
+			left: 38px;
+			border: 20px solid;
+			border-color: rgba(230,230,230,0.2) transparent transparent transparent;
+		}
+	}	
+	i{
+		font-size:32px;
+	}
+} 
+
+.footerwidget > ul li{
+	position: relative;
+	clear:both;
+	line-height:1.6;
+	padding:4px 0;
+	a{
+	  display: block;
+	  line-height:1.6;
+	  color:rgba(255,255,255,0.6);
+	}
+	&.slides li a{padding:0;}
+}
+
+.footerwidget .avatar-block .item-avatar,
+.widget .avatar-block .item-avatar{
+	float: left;
+	max-width:52px;
+	margin: 4px 4px 0 0;
+}
+
+.footerwidget .widget_course_list li{
+	img{
+		border-color:rgba(0,0,0,0.2);
+	}
+	h6{
+		color:#FFF;
+		color:rgba(255,255,255,0.8);
+		span{
+			color:rgba(255,255,255,0.4);
+		}
+	}	
+} 
+/*========================================================================*/
+/*   04. FOOTER WIDGETS
+/*========================================================================*/
+.footerwidget,
+.widget{
+	 .avatar-block{
+ 		.item-avatar{
+ 			img{
+ 				border-radius:50%;
+				border: 2px solid rgba(0,0,0,0.1);
+ 			}
+ 			&:hover{
+ 				img{
+ 					border-color:#78C8Ce;
+ 				}
+ 			}
+ 		} 
+	 } 
+} 
+
+.footerwidget{
+	li > a{
+		color:rgba(255,255,255,0.6);
+	}
+}
+
+.footermenu{
+	li{
+		a{
+			color:rgba(255,255,255,0.6);
+			font-size:11px;
+			font-weight:600;
+			text-transform: uppercase;
+			&:hover{
+				color:#FFF;
+			}
+		}	
+	}
+}
+
+
+/*========================================================================*/
+/*   05. POPUP CONFIRMATION
+/*========================================================================*/
+.modal-footer{
+	.btn{
+	    padding: 6px 15px;
+	    line-height: 1.6;
+	    margin: 0 5px;
+	    &.btn-primary{
+	    	background:$secondarybg;
+	    	color:$secondarycolor;
+	    	border-color:$secondarybg;
+	    }
+	}
+}
+
+.content footer{
+    padding: 0;
+    background: none;
+    color: #444;
+}
+/*========================================================================*/
+/*   06. SCROLLTOP
+/*========================================================================*/
+
+#scrolltop{
+	position: fixed;
+	right: 20px;
+	bottom: 22px;
+	font-size: 20px;
+	color: #FFF !important;
+	z-index: 99;
+	background:#232b2d;
+	padding:6px 12px;
+	border-radius:2px;
+	opacity: 0;
+	cursor:pointer;
+	a{color:#FFF;}
+
+	&.fix{opacity:0.8;}
+	&.fix:hover{opacity: 1;}
+	span{
+		display: block;
+		text-transform: uppercase;
+		font-size:11px;
+		font-weight:600;
+		text-align: center;
+		margin-top:-8px;
+	}
+}

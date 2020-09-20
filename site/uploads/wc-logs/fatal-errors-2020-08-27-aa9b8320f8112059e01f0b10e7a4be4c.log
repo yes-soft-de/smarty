@@ -1,0 +1,236 @@
+2020-08-27T19:28:15+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:22+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:26+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:27+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:27+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:28:28+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:08+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:09+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:09+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:10+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:10+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:10+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:10+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:11+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:11+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:11+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:12+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:12+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T19:29:13+00:00 CRITICAL Uncaught Error: Class 'LLMS_Course' not found in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php:26
+Stack trace:
+#0 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(287): smart_way_load_more('')
+#1 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/u925428748/domains/wow-ae.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/u925428748/domains/wow-ae.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_smart_w...')
+#4 {main}
+  thrown in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/_inc/ajax.php on line 26
+
+2020-08-27T20:31:17+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /home/u925428748/domains/wow-ae.com/public_html/wp-content/themes/wplms/front-page.php on line 315
+

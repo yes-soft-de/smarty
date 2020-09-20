@@ -1,0 +1,2951 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Front End\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-01 12:29+0530\n"
+"PO-Revision-Date: 2017-05-01 12:29+0530\n"
+"Last-Translator: Vibethemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Skriv ditt användarnamn till Envato Marketplace"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Skriv din Envato Marketplace API-nyckel"
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" är obligatorisk."
+
+# @ vibe
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"item ID\" är obligatorisk."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Ett okänt HTTP-fel inträffade under en API-förfrågan."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:376
+#: autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "Försök igen."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "Ett okänt fel inträffade"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"Tillägget har uppdaterats, men kunde inte återaktiveras. Återaktivera "
+"manuellt."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "Tillägget återaktiverades."
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "Tillägg uppdateringar"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "Användarnamn:"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "E-post:"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "Nyckel:"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>Ditt uppdaterade tillägg är <span style=\"color:green\">aktivt</span></p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>Din input är <span style=\"color:red\">inte giltig</span>, automatiska "
+"uppdateringar är <span style=\"color:red\">inte aktiverade</span>.</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "Ändra nyckel"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>Kunde inte uppdatera aktiveringen.</p>"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "Lägg till nyckel"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "Användarnamn"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "E-post"
+
+# @ text-domain
+#: autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest användarnamn (för automatiska uppdateringar)"
+
+#: includes/class.generate_fields.php:45
+msgid "Set Course Memberships"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:72
+msgid "EDIT COURSE"
+msgstr "Ändra kurs"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:72 includes/class.generate_fields.php:128
+msgid "CREATE COURSE"
+msgstr "Tusan, det gick inte att skapa en kurs, kontakta Youngcubator!"
+
+#: includes/class.generate_fields.php:73
+msgid "Start building a course"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:76
+msgid "Course title"
+msgstr "Kurstitel"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:82
+msgid "ENTER A COURSE TITLE"
+msgstr "KOPPLAD TILL KURS"
+
+#: includes/class.generate_fields.php:83
+msgid ""
+"This is the title of the course which is displayed on top of every course"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:86
+msgid "Course Category"
+msgstr "Kurskategori"
+
+#: includes/class.generate_fields.php:93
+msgid "Select a Course Category"
+msgstr "Välj kurskategori"
+
+#: includes/class.generate_fields.php:96
+msgid "Course Image"
+msgstr ""
+
+#: includes/class.generate_fields.php:100
+msgid "Upload a Course Image"
+msgstr ""
+
+# @ vibe
+#: includes/class.generate_fields.php:101
+msgid "Set as Course Image"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:108
+msgid "Course Short Description"
+msgstr ""
+
+#: includes/class.generate_fields.php:114
+msgid "Add full description"
+msgstr ""
+
+#: includes/class.generate_fields.php:115
+msgid "Enter a short description of the course."
+msgstr ""
+
+#: includes/class.generate_fields.php:118
+msgid "Full Description"
+msgstr ""
+
+#: includes/class.generate_fields.php:125
+msgid "Enter full description of the course."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:128
+msgid "SAVE COURSE"
+msgstr "Spara kurs"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:136 includes/class.process_fields.php:590
+msgid "SETTINGS"
+msgstr "Kursinställningar"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:137
+#: includes/class.generate_fields.php:465
+msgid "Course settings"
+msgstr "Kursinställningar"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:140
+msgid "Course duration"
+msgstr "Kurslängd för visning"
+
+#: includes/class.generate_fields.php:141
+msgid "Maximum Course Duration"
+msgstr ""
+
+#: includes/class.generate_fields.php:148
+#, php-format
+msgid ""
+"Enter the maximum duration for the course in %s. This is the maximum "
+"duration within which the student should complete the course. Use 9999 for "
+"unlimited access to course."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:151
+msgid "Course duration parameter"
+msgstr "Kurslängdsparameter"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:152
+msgid "Set Course Duration parameter"
+msgstr "Bestäm kurslängdens parameter"
+
+#: includes/class.generate_fields.php:158
+msgid "Set course duration parameter for this course."
+msgstr ""
+
+# @ vibe
+#: includes/class.generate_fields.php:161
+msgid "Prerequisite Course"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:162
+msgid "Set a prerequisite Course"
+msgstr ""
+
+#: includes/class.generate_fields.php:167
+msgid "Enter first 4 letters of course for search"
+msgstr ""
+
+#: includes/class.generate_fields.php:169
+msgid ""
+"Pre-required course which the user needs to complete before subscribing to "
+"this course."
+msgstr ""
+
+#: includes/class.generate_fields.php:172
+msgid "Previous Unit Completion Lock"
+msgstr ""
+
+#: includes/class.generate_fields.php:173
+msgid "Previous Units/Quiz must be Complete before next unit/quiz access"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:175
+#: includes/class.generate_fields.php:208
+#: includes/class.generate_fields.php:230
+#: includes/class.generate_fields.php:241
+#: includes/class_wplms_front_end.php:962
+#: includes/class_wplms_front_end.php:1785
+msgid "NO"
+msgstr "NEJ"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:175
+#: includes/class.generate_fields.php:208
+#: includes/class.generate_fields.php:230
+#: includes/class.generate_fields.php:241
+#: includes/class_wplms_front_end.php:964
+#: includes/class_wplms_front_end.php:1783
+msgid "YES"
+msgstr "JA"
+
+#: includes/class.generate_fields.php:180
+msgid "Force previous unit access lock."
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:183
+msgid "Course Type"
+msgstr "Eget fält borttaget."
+
+# @ vibe
+#: includes/class.generate_fields.php:184
+msgid "Set Course Type"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:186
+msgid "ONLINE"
+msgstr "Online"
+
+#: includes/class.generate_fields.php:186
+msgid "OFFLINE"
+msgstr "Offline"
+
+#: includes/class.generate_fields.php:191
+msgid "Offline Courses can be filtered in the Course directory."
+msgstr ""
+
+#: includes/class.generate_fields.php:194
+msgid "Unit Content (Offline Courses)"
+msgstr ""
+
+#: includes/class.generate_fields.php:195
+msgid "Full units in Curriculum"
+msgstr ""
+
+#: includes/class.generate_fields.php:197
+#: includes/class.generate_fields.php:219
+msgid "HIDE"
+msgstr "DÖLJ"
+
+#: includes/class.generate_fields.php:197
+#: includes/class.generate_fields.php:219
+msgid "SHOW"
+msgstr "Visa:"
+
+#: includes/class.generate_fields.php:202
+msgid ""
+"Full Unit content is available for users subscribed to the course, directly "
+"from Course curriculum. Recommended for Offline Courses."
+msgstr ""
+
+#: includes/class.generate_fields.php:205
+msgid "Course Button (Offline Courses)"
+msgstr ""
+
+#: includes/class.generate_fields.php:206
+msgid "Hide Course Button after subscription"
+msgstr ""
+
+#: includes/class.generate_fields.php:213
+msgid "Hide the Course button after user is subscribed to the Course."
+msgstr ""
+
+#: includes/class.generate_fields.php:216
+msgid "Course Progress (Offline Courses)"
+msgstr ""
+
+#: includes/class.generate_fields.php:217
+msgid "Progress on Course home"
+msgstr ""
+
+#: includes/class.generate_fields.php:224
+msgid "Display Course progress on Course home page."
+msgstr ""
+
+#: includes/class.generate_fields.php:227
+msgid "Auto Progress (Offline Courses)"
+msgstr ""
+
+# @ vibe
+#: includes/class.generate_fields.php:228
+msgid "Time based Course progress"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:235
+msgid ""
+"Automatically calculate progress based on Time elapsed in Course / Total "
+"course duration."
+msgstr ""
+
+#: includes/class.generate_fields.php:238
+msgid "Post Reivews (Offline Courses)"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:239
+msgid "Post Course reviews from Course Home"
+msgstr "Inlägget återställdes från version från %s"
+
+#: includes/class.generate_fields.php:246
+msgid "Enable course subscribed students to post reviews from Course home."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:249
+msgid "Course Evaluation"
+msgstr "Inkludera uppgiftens poäng i den totala Kursutvärderingen"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:250
+msgid "Course Evaluation Mode"
+msgstr "Inkludera i kursutvärderingen"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:252
+#: includes/class_wplms_front_end.php:1369
+msgid "MANUAL"
+msgstr "MANUELL"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:252
+msgid "AUTOMATIC"
+msgstr "Automatiskt"
+
+#: includes/class.generate_fields.php:257
+msgid "User gets the course result instantly upon submission."
+msgstr ""
+
+#: includes/class.generate_fields.php:260
+msgid "Drip Feed"
+msgstr "Portionera ut information (Drip Feed)"
+
+# @ default
+#: includes/class.generate_fields.php:261
+msgid "Course Drip Feed"
+msgstr "Eget fält borttaget."
+
+#: includes/class.generate_fields.php:264
+#: includes/class.generate_fields.php:331
+#: includes/class.generate_fields.php:365 includes/class.process_fields.php:602
+msgid "DISABLE"
+msgstr "Inaktivera"
+
+#: includes/class.generate_fields.php:264
+#: includes/class.generate_fields.php:331
+#: includes/class.generate_fields.php:365 includes/class.process_fields.php:602
+msgid "ENABLE"
+msgstr "Aktivera"
+
+#: includes/class.generate_fields.php:269
+msgid ""
+"Drip Feed courses, units are released one by one after certain duration of "
+"time."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:272
+#: includes/class.generate_fields.php:273
+msgid "Drip Feed Origin"
+msgstr "Kursblock tidslängd"
+
+#: includes/class.generate_fields.php:275
+msgid "PREVIOUS UNIT"
+msgstr "Föregående kursdel"
+
+#: includes/class.generate_fields.php:275
+msgid "STARTING POINT"
+msgstr ""
+
+#: includes/class.generate_fields.php:280
+msgid ""
+"Drip Feed origin, count time from Previous Unit Access Time (default) OR "
+"Course starting date/time (if start date not set) ."
+msgstr ""
+
+#: includes/class.generate_fields.php:283
+#: includes/class.generate_fields.php:284
+msgid "Drip Feed Type"
+msgstr ""
+
+#: includes/class.generate_fields.php:286
+msgid "UNIT"
+msgstr "KURSBLOCK"
+
+#: includes/class.generate_fields.php:286
+msgid "SECTION"
+msgstr "En sektion har lagts till av hook"
+
+#: includes/class.generate_fields.php:291
+msgid "Drip Feed type, release units or sections."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:294
+#: includes/class.generate_fields.php:295
+msgid "Drip Feed Duration Type"
+msgstr "Kursblock tidslängd"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:298
+#: includes/class_wplms_front_end.php:1378
+msgid "STATIC"
+msgstr "STATISKA"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:298
+msgid "UNIT DURATION"
+msgstr "Kursdelens längd "
+
+#: includes/class.generate_fields.php:303
+msgid "Time gap between adjacent Units/Sections release."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:306
+msgid "Drip Duration"
+msgstr "Kursblock tidslängd"
+
+#: includes/class.generate_fields.php:307
+msgid "Set Duration between two successive Course elements"
+msgstr ""
+
+#: includes/class.generate_fields.php:314
+#, php-format
+msgid ""
+"Enter the drip duration for the course in %s. This is the duration after "
+"which the next unit/section unlocks for the user after viewing the previous "
+"unit/section."
+msgstr ""
+
+#: includes/class.generate_fields.php:317
+msgid "Drip Feed duration parameter"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:318
+msgid "Set Drip Duration parameter"
+msgstr "Kursblock tidslängd"
+
+#: includes/class.generate_fields.php:324
+msgid "Set course drip feed duration parameter for this course."
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:327
+#: includes/class.generate_fields.php:328
+msgid "Course Certificate"
+msgstr "Kursdiplom"
+
+#: includes/class.generate_fields.php:336
+msgid "Award Course completion Certificates to student on course completion."
+msgstr ""
+
+#: includes/class.generate_fields.php:339
+msgid "Passing Percentage"
+msgstr "Gräns för godkänt"
+
+#: includes/class.generate_fields.php:340
+msgid "Set Certificate Percentage"
+msgstr ""
+
+#: includes/class.generate_fields.php:345
+#: includes/class.generate_fields.php:379
+msgid " out of 100"
+msgstr "av 100"
+
+#: includes/class.generate_fields.php:347
+msgid ""
+"Any user achieving more marks (weighted average of Quizzes/assignments in "
+"course) than this gets the Course certificate."
+msgstr ""
+
+#: includes/class.generate_fields.php:350
+msgid "Certificate Template"
+msgstr "Diplommall"
+
+#: includes/class.generate_fields.php:351
+msgid "Select Certificate template"
+msgstr "Välj en mall för diplom"
+
+#: includes/class.generate_fields.php:356
+msgid "Enter first 3 letters to search course template"
+msgstr ""
+
+#: includes/class.generate_fields.php:358
+msgid "Connect a custom Certificate template for this Course."
+msgstr ""
+
+#: includes/class.generate_fields.php:361
+#: includes/class.generate_fields.php:362
+#: includes/class.generate_fields.php:394
+msgid "Course Badge"
+msgstr "Kursutmärkelse"
+
+#: includes/class.generate_fields.php:370
+msgid "Award Excellence badges to student on course completion."
+msgstr ""
+
+#: includes/class.generate_fields.php:373
+msgid "Badge Percentage"
+msgstr "Utmärkelse - procent"
+
+#: includes/class.generate_fields.php:374
+msgid "Set Excellence Badge Percentage"
+msgstr ""
+
+#: includes/class.generate_fields.php:381
+msgid ""
+"Any user achieving more marks (weighted average of Quizzes/assignments in "
+"course) than this gets the Course Badge."
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:384
+msgid "Badge Title"
+msgstr "Titel för utmärkelse"
+
+#: includes/class.generate_fields.php:385
+msgid "Set Badge title"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:390
+#: includes/class.generate_fields.php:391
+msgid "Course Badge Title"
+msgstr "Eget fält borttaget."
+
+#: includes/class.generate_fields.php:395
+msgid "Upload Course Badge"
+msgstr ""
+
+#: includes/class.generate_fields.php:398
+msgid "Select or Upload a Course badge."
+msgstr ""
+
+#: includes/class.generate_fields.php:399
+msgid "Add Course badge."
+msgstr ""
+
+#: includes/class.generate_fields.php:403
+msgid "Upload a course badge."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:406
+msgid "Course Retakes"
+msgstr "Omtagningar"
+
+# @ vibe
+#: includes/class.generate_fields.php:407
+msgid "Student Course Retakes"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:413
+msgid "Set number of times a student can re-take the course (0 to disable)"
+msgstr ""
+
+#: includes/class.generate_fields.php:416
+msgid "Maxium Seats in Course"
+msgstr ""
+
+#: includes/class.generate_fields.php:417
+msgid "Maximum students that can join the Course"
+msgstr ""
+
+#: includes/class.generate_fields.php:423
+msgid "Maximum number of seats in course (blank to disable, 9999 for infinite)"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:426
+msgid "Course Start Date"
+msgstr "Kursens startdatum"
+
+#: includes/class.generate_fields.php:427
+msgid "Start date"
+msgstr "STARTDATUM"
+
+#: includes/class.generate_fields.php:433
+msgid "Set a Course start date."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:436
+msgid "Course Instructions"
+msgstr "Ogilitig kursledare"
+
+#: includes/class.generate_fields.php:437
+msgid "Add Course specific instructions"
+msgstr ""
+
+#: includes/class.generate_fields.php:443
+msgid "Course instructions are displayed when the user starts a course."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:446
+msgid "Course Completion Message"
+msgstr "Meddelande slutförd kurs"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:447
+msgid "Completion Message"
+msgstr "AVSLUTANDE MEDDELANDE EFTER QUIZ"
+
+#: includes/class.generate_fields.php:453
+msgid ""
+"Completion message is shown to the student when she finishes the course."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:456
+#: includes/class_wplms_front_end.php:1863
+msgid "SAVE SETTINGS"
+msgstr "SPARA ÄNDRINGAR"
+
+#: includes/class.generate_fields.php:464
+msgid "COMPONENTS"
+msgstr ""
+
+#: includes/class.generate_fields.php:468
+msgid "Course Group"
+msgstr "Kursgrupp"
+
+# @ vibe
+#: includes/class.generate_fields.php:469
+msgid "Set a Course Group"
+msgstr "Skapa kurs"
+
+# @ vibe
+#: includes/class.generate_fields.php:474
+msgid "Set a course specific group."
+msgstr "Skapa kurs"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:477
+msgid "Course Forum"
+msgstr "Kursforum"
+
+# @ vibe
+#: includes/class.generate_fields.php:478
+msgid "Set a Course Forum"
+msgstr "Skapa kurs"
+
+# @ vibe
+#: includes/class.generate_fields.php:483
+msgid "Set a course forum."
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:487
+msgid "SAVE COMPONENTS"
+msgstr ""
+
+#: includes/class.generate_fields.php:495
+msgid "SET CURRICULUM"
+msgstr ""
+
+#: includes/class.generate_fields.php:496
+msgid "Add Units and Quizzes"
+msgstr ""
+
+#: includes/class.generate_fields.php:499
+msgid "Curriculum"
+msgstr "Kursplan"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:501
+msgid "ADD SECTION"
+msgstr "Lägg till sekotr"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:501
+msgid "ADD UNIT"
+msgstr "LÄGG TILL FRÅGA"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:501
+msgid "ADD QUIZ"
+msgstr "LÄGG TILL FRÅGA"
+
+#: includes/class.generate_fields.php:505
+msgid "Build Course curriculum"
+msgstr ""
+
+#: includes/class.generate_fields.php:511
+msgid "PRICING"
+msgstr ""
+
+# @ vibe
+#: includes/class.generate_fields.php:512
+msgid "Set Price for Course"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:515
+msgid "Course Pricing"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:519
+msgid "Free "
+msgstr "gratis"
+
+# @ vibe
+#: includes/class.generate_fields.php:520
+msgid "Free Course"
+msgstr "Gratis kurs"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:522
+msgid "No"
+msgstr "Inga"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:522
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class.generate_fields.php:527
+msgid "By pass any purchase process."
+msgstr ""
+
+#: includes/class.generate_fields.php:530
+msgid "Product "
+msgstr "Produkt"
+
+# @ vibe
+#: includes/class.generate_fields.php:531
+msgid "Set a Course Product"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:538
+msgid "Connect a Product with this course."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:541
+msgid "SAVE PRICING"
+msgstr "SPARA ÄNDRINGAR"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:549
+msgid "MODIFY COURSE"
+msgstr "KOPPLAD TILL KURS"
+
+#: includes/class.generate_fields.php:549
+msgid "PUBLISH COURSE"
+msgstr ""
+
+#: includes/class.generate_fields.php:550
+msgid "Change Course status"
+msgstr "Ändra kursens status"
+
+#: includes/class.generate_fields.php:550
+msgid "Go Live !"
+msgstr ""
+
+#: includes/class.generate_fields.php:553
+msgid "Take Offline"
+msgstr ""
+
+#: includes/class.generate_fields.php:599
+msgid "Edit in WP Admin"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:604
+#: includes/class_wplms_front_end.php:791
+msgid "View Course"
+msgstr "Visa kurs"
+
+# @ text-domain
+#: includes/class.generate_fields.php:747
+msgid "Add new"
+msgstr "Lägg till ny tagg"
+
+#: includes/class.generate_fields.php:770
+msgid "Enter a new"
+msgstr ""
+
+#: includes/class.generate_fields.php:912
+#: includes/class.generate_fields.php:956 includes/class.process_fields.php:223
+#: includes/class.process_fields.php:227
+msgid "edit"
+msgstr "Ändra"
+
+#: includes/class.generate_fields.php:912
+#: includes/class.generate_fields.php:956 includes/class.process_fields.php:223
+#: includes/class.process_fields.php:227
+msgid "change"
+msgstr "ändra"
+
+#: includes/class.generate_fields.php:919
+msgid "Select Existing Group"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:921
+msgid "Select a Group"
+msgstr "Välj användargrupp"
+
+#: includes/class.generate_fields.php:923
+#: includes/class.generate_fields.php:966
+msgid "Set"
+msgstr "API \"set\" är obligatorisk."
+
+# @ vibe
+#: includes/class.generate_fields.php:927
+#: includes/class.generate_fields.php:936
+msgid "Create New Group"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:929
+msgid "Group Name"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:931
+#: includes/class.generate_fields.php:974
+msgid "Public"
+msgstr "Publik"
+
+# @ default
+#: includes/class.generate_fields.php:932
+#: includes/class.generate_fields.php:975
+msgid "Private"
+msgstr "Privat"
+
+#: includes/class.generate_fields.php:933
+#: includes/class.generate_fields.php:976
+msgid "Hidden"
+msgstr ""
+
+#: includes/class.generate_fields.php:935
+msgid "Group Description"
+msgstr "Gruppens beskrivning (obligatorisk)"
+
+#: includes/class.generate_fields.php:962
+msgid "Select Existing Forum"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:964
+msgid "Select a Forum"
+msgstr "Koppla ett forum"
+
+# @ vibe
+#: includes/class.generate_fields.php:970
+#: includes/class.generate_fields.php:979
+msgid "Create New Forum"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:972
+msgid "Forum Name"
+msgstr ""
+
+#: includes/class.generate_fields.php:978
+msgid "Forum Description"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1133
+#: includes/class_wplms_front_end.php:1940
+msgid "Seconds"
+msgstr "Sekunder"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1134
+#: includes/class_wplms_front_end.php:1941
+msgid "Minutes"
+msgstr "Minuter"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1135
+#: includes/class_wplms_front_end.php:1942
+msgid "Hours"
+msgstr "Timmar"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1136
+#: includes/class_wplms_front_end.php:1943
+msgid "Days"
+msgstr "Dagar"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1137
+#: includes/class_wplms_front_end.php:1944
+msgid "Weeks"
+msgstr "Veckor"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1138
+#: includes/class_wplms_front_end.php:1945
+msgid "Months"
+msgstr "Månader"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1139
+#: includes/class_wplms_front_end.php:1946
+msgid "Years"
+msgstr "År"
+
+# @ default
+#: includes/class.generate_fields.php:1168
+#: includes/class.process_fields.php:532 includes/class.process_fields.php:866
+#: includes/class.process_fields.php:1130
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class.generate_fields.php:1169
+#: includes/class.process_fields.php:1131
+msgid "Product Title"
+msgstr ""
+
+#: includes/class.generate_fields.php:1174
+#: includes/class.process_fields.php:1136
+msgid "Product title is useful to identify courses connected to this product."
+msgstr ""
+
+#: includes/class.generate_fields.php:1177
+#: includes/class.generate_fields.php:1178
+#: includes/class.process_fields.php:1139
+#: includes/class.process_fields.php:1140
+msgid "Price"
+msgstr "Pris"
+
+#: includes/class.generate_fields.php:1183
+#: includes/class.process_fields.php:1145
+msgid "Set price of the course"
+msgstr ""
+
+#: includes/class.generate_fields.php:1186
+#: includes/class.process_fields.php:1148
+msgid "Sale"
+msgstr ""
+
+#: includes/class.generate_fields.php:1187
+#: includes/class.process_fields.php:1149
+msgid "Sale Price"
+msgstr ""
+
+#: includes/class.generate_fields.php:1192
+#: includes/class.process_fields.php:1154
+msgid "Blank if product not in sale"
+msgstr ""
+
+#: includes/class.generate_fields.php:1195
+#: includes/class.process_fields.php:1157
+msgid "Subscription"
+msgstr "PRENUMERATION FÖR"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1197
+#: includes/class.process_fields.php:1159
+msgid "Subscription Type"
+msgstr "Frågetyp"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1199
+#: includes/class.process_fields.php:1161
+msgid "FULL DURATION"
+msgstr "QUIZLÄNGD"
+
+#: includes/class.generate_fields.php:1199
+#: includes/class.process_fields.php:1161
+msgid "LIMITED"
+msgstr ""
+
+#: includes/class.generate_fields.php:1203
+#: includes/class.process_fields.php:1165
+msgid "Set subscription type of product."
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1206
+#: includes/class.process_fields.php:1168
+msgid "Subscription Duration"
+msgstr "Prenumerationslängd"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1208
+#: includes/class.process_fields.php:1170
+msgid "Set subscription duration"
+msgstr "Kursblock tidslängd"
+
+#: includes/class.generate_fields.php:1212
+#: includes/class.process_fields.php:1174
+msgid "Must not be 0"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1215
+#: includes/class.process_fields.php:1177
+msgid "Subscription Duration Parameter"
+msgstr "Kursblock tidslängd"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1216
+#: includes/class.process_fields.php:1178
+msgid "Set subscription duration parameter"
+msgstr "Kursblock tidslängd"
+
+#: includes/class.generate_fields.php:1228
+#: includes/class.generate_fields.php:1232
+#: includes/class.generate_fields.php:1243
+msgid "Set Product"
+msgstr ""
+
+#: includes/class.generate_fields.php:1229
+#: includes/class.process_fields.php:1289
+msgid "Change"
+msgstr "Ändra"
+
+# @ default
+#: includes/class.generate_fields.php:1229
+#: includes/class.generate_fields.php:1520
+#: includes/class.generate_fields.php:1535
+#: includes/class.generate_fields.php:1576
+#: includes/class.generate_fields.php:1595
+#: includes/class.generate_fields.php:1708
+#: includes/class.process_fields.php:1104
+#: includes/class.process_fields.php:1289
+#: includes/class.process_fields.php:1375
+msgid "Edit"
+msgstr "Ändra"
+
+#: includes/class.generate_fields.php:1239
+msgid "Select existing product"
+msgstr ""
+
+#: includes/class.generate_fields.php:1241
+msgid "Search a product"
+msgstr ""
+
+# @ vibe
+#: includes/class.generate_fields.php:1247
+msgid "Create new product"
+msgstr "Skapa kurs"
+
+# @ vibe
+#: includes/class.generate_fields.php:1258
+msgid "Create Product"
+msgstr "Skapa kurs"
+
+# @ vibe
+#: includes/class.generate_fields.php:1277
+#: includes/class.process_fields.php:1199
+msgid "Edit Product"
+msgstr "Ändra kurs"
+
+# @ vibe
+#: includes/class.generate_fields.php:1318
+msgid "Modify Course"
+msgstr "Ändra kurs"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1318
+msgid "Back to course"
+msgstr "Tillbaka till kurs"
+
+#: includes/class.generate_fields.php:1325
+msgid "TAKE OFFLINE"
+msgstr ""
+
+#: includes/class.generate_fields.php:1327
+#: includes/class.generate_fields.php:1334
+#: includes/class.generate_fields.php:1386
+msgid "SEND FOR APPROVAL"
+msgstr ""
+
+#: includes/class.generate_fields.php:1332
+#: includes/class.generate_fields.php:1384
+msgid "GO LIVE"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1339 wplms-front-end.php:102
+msgid "DELETE COURSE"
+msgstr "KOPPLAD TILL KURS"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1340
+msgid "SHOW OPTIONS"
+msgstr "LÄGG TILL ALTERNATIV"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1343
+msgid "Delete Units"
+msgstr "Radera"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1348
+msgid "Delete Quizzes"
+msgstr "Radera"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1353
+msgid "Delete Assignments"
+msgstr "Välj övergripande kursuppgift"
+
+# @ vibe
+#: includes/class.generate_fields.php:1358
+msgid "Delete Product"
+msgstr "Skapa kurs"
+
+# @ default
+#: includes/class.generate_fields.php:1373
+msgid "Course not set"
+msgstr "Eget fält borttaget."
+
+#: includes/class.generate_fields.php:1381
+msgid "Go Live"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1421
+msgid "ADD DYNAMIC QUESTION SECTION TAGS"
+msgstr "SPARA FRÅGEINSTÄLLNINGAR"
+
+#: includes/class.generate_fields.php:1424
+msgctxt "dynamic quiz settings"
+msgid "Question Tags"
+msgstr ""
+
+#: includes/class.generate_fields.php:1424
+msgctxt "dynamic quiz settings"
+msgid "Number"
+msgstr ""
+
+#: includes/class.generate_fields.php:1424
+msgctxt "dynamic quiz settings"
+msgid "per Marks"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1458
+#: includes/class.generate_fields.php:1476
+#: includes/class.generate_fields.php:1522
+#: includes/class.generate_fields.php:1537
+#: includes/class.generate_fields.php:1578
+#: includes/class.generate_fields.php:1597
+#: includes/class.generate_fields.php:1677
+#: includes/class.generate_fields.php:1686
+#: includes/class.generate_fields.php:1695
+#: includes/class.generate_fields.php:1710
+#: includes/class_wplms_front_end.php:473
+#: includes/class_wplms_front_end.php:528
+#: includes/class_wplms_front_end.php:999
+#: includes/class_wplms_front_end.php:1019
+#: includes/class_wplms_front_end.php:1036
+#: includes/class_wplms_front_end.php:1254
+#: includes/class_wplms_front_end.php:1292
+#: includes/class_wplms_front_end.php:1448
+msgid "Remove"
+msgstr "Ta bort"
+
+#: includes/class.generate_fields.php:1478
+msgctxt "Total question count in quiz"
+msgid "Total Question Count"
+msgstr ""
+
+#: includes/class.generate_fields.php:1479
+msgctxt "total marks label"
+msgid "Total Marks"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1490
+#: includes/class_wplms_front_end.php:1615
+msgid "ADD OPTION"
+msgstr "LÄGG TILL ALTERNATIV"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1521
+#: includes/class.generate_fields.php:1536
+#: includes/class.generate_fields.php:1577
+#: includes/class.generate_fields.php:1596
+#: includes/class.generate_fields.php:1676
+#: includes/class.generate_fields.php:1685
+#: includes/class.generate_fields.php:1709
+msgid "Preview"
+msgstr "Kostnadsfritt block"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1523
+#: includes/class.generate_fields.php:1538
+#: includes/class.generate_fields.php:1579
+#: includes/class.generate_fields.php:1598
+#: includes/class.generate_fields.php:1678
+#: includes/class.generate_fields.php:1687
+#: includes/class.generate_fields.php:1711
+#: includes/class_wplms_front_end.php:474
+#: includes/class_wplms_front_end.php:529
+#: includes/class_wplms_front_end.php:1000
+#: includes/class_wplms_front_end.php:1020
+#: includes/class_wplms_front_end.php:1255
+#: includes/class_wplms_front_end.php:1449
+msgid "Delete"
+msgstr "Radera"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1544
+msgid "Select existing assignment"
+msgstr "Välj övergripande kursuppgift"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1546
+msgid "Search an assignment"
+msgstr "Ja, skapa en ny kursuppgift"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1548
+msgid "Set Assignment"
+msgstr "Ändra kursuppgift"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1552
+msgid "Create new Assignment"
+msgstr "Ja, skapa en ny kursuppgift"
+
+#: includes/class.generate_fields.php:1554
+#: includes/class.generate_fields.php:1618
+msgid "Reference title"
+msgstr "Referenstitel"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1555
+msgid "Create Assignment"
+msgstr "Ändra kursuppgift"
+
+# @ default
+#: includes/class.generate_fields.php:1583
+#: includes/class.generate_fields.php:1602
+msgid "Marks"
+msgstr "POÄNG: "
+
+#: includes/class.generate_fields.php:1608
+msgid "Select existing question"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1610
+msgid "Search a question"
+msgstr "Ja, skapa en ny kursfråga"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1612
+msgid "Set Question"
+msgstr "Ändra fråga"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1616
+msgid "Create new Question"
+msgstr "Ja, skapa en ny kursfråga"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1621
+msgid "Question Tags"
+msgstr "VÄLJ TAGGAR FÖR FRÅGOR"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1628
+msgid "Select a Tag"
+msgstr "Välj typ av kursblock"
+
+#: includes/class.generate_fields.php:1634
+#: includes/class_wplms_front_end.php:1590
+msgid "True or False"
+msgstr "Sant eller falskt"
+
+#: includes/class.generate_fields.php:1635
+#: includes/class_wplms_front_end.php:1591
+msgid "Multiple Choice"
+msgstr "Flervalsfrågor"
+
+#: includes/class.generate_fields.php:1636
+#: includes/class_wplms_front_end.php:1592
+msgid "Multiple Correct"
+msgstr "Flera rätta svar"
+
+#: includes/class.generate_fields.php:1637
+#: includes/class_wplms_front_end.php:1593
+msgid "Sort Answers"
+msgstr "Sortera svar"
+
+#: includes/class.generate_fields.php:1638
+#: includes/class_wplms_front_end.php:1594
+msgid "Match Answers"
+msgstr "Matcha svar"
+
+#: includes/class.generate_fields.php:1639
+#: includes/class_wplms_front_end.php:1595
+msgid "Fill in the Blank"
+msgstr "Fyll i tomma fält"
+
+#: includes/class.generate_fields.php:1640
+#: includes/class_wplms_front_end.php:1596
+msgid "Dropdown Select"
+msgstr "Välj i dropdown"
+
+#: includes/class.generate_fields.php:1641
+#: includes/class_wplms_front_end.php:1597
+msgid "Small Text"
+msgstr "Korta svar"
+
+#: includes/class.generate_fields.php:1642
+#: includes/class_wplms_front_end.php:1598
+msgid "Large Text"
+msgstr "Längre svar"
+
+# @ default
+#: includes/class.generate_fields.php:1643
+msgid "Survey Type"
+msgstr "Eget fält borttaget."
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1653
+msgid "Create question"
+msgstr "Ändra fråga"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1675
+#: includes/class_wplms_front_end.php:471
+msgid "Edit Unit"
+msgstr "Ändra Kursblock"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1684
+#: includes/class_wplms_front_end.php:527
+msgid "Edit Quiz"
+msgstr "Ändra Quiz"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1717
+msgid "Enter Section Title"
+msgstr "Frågetitel :"
+
+#: includes/class.generate_fields.php:1723
+msgid "Select existing unit"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:1725
+msgid "Search a unit"
+msgstr "Sök"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1727
+msgid "Set Unit"
+msgstr "Ändra Kursblock"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1731
+msgid "Create new unit"
+msgstr "Ja, skapa ett nytt kursblock"
+
+# @ default
+#: includes/class.generate_fields.php:1733
+msgid "Unit title"
+msgstr "(ingen titel)"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1736
+msgid "Create Unit"
+msgstr "Kostnadsfritt block"
+
+#: includes/class.generate_fields.php:1745
+msgid "Select existing quiz"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:1747
+msgid "Search a quiz"
+msgstr "Sök"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1749
+msgid "Set Quiz"
+msgstr "Ändra Quiz"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1753
+msgid "Create new quiz"
+msgstr "Ja, skapa en ny quiz"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1755
+msgid "Quiz title"
+msgstr "Skriv en undertitel för detta Quiz"
+
+# @ vibe
+#: includes/class.generate_fields.php:1757
+msgid "Create Quiz"
+msgstr "Skapa kurs"
+
+#: includes/class.generate_fields.php:1774
+msgid "SAVE CURRICULUM"
+msgstr ""
+
+#: includes/class.generate_fields.php:1807
+#: includes/class.generate_fields.php:1833
+msgid "Add Attachments"
+msgstr ""
+
+#: includes/class.generate_fields.php:1835
+msgid "Add Attachment"
+msgstr ""
+
+# @ default
+#: includes/class.generate_fields.php:1915
+msgid "Course Level"
+msgstr "Välj kursnivå"
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1922
+msgid "Select a Course Level"
+msgstr "Välj kursnivå"
+
+#: includes/class.generate_fields.php:1929
+msgid "Course Location"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.generate_fields.php:1936
+msgid "Select a Course location"
+msgstr "Inkludera i kursutvärderingen"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:64 includes/class.process_fields.php:95
+#: includes/class.process_fields.php:118 includes/class.process_fields.php:144
+#: includes/class.process_fields.php:184 includes/class.process_fields.php:216
+#: includes/class.process_fields.php:237 includes/class.process_fields.php:307
+#: includes/class.process_fields.php:386 includes/class.process_fields.php:433
+#: includes/class.process_fields.php:470 includes/class.process_fields.php:511
+#: includes/class.process_fields.php:722 includes/class.process_fields.php:836
+#: includes/class.process_fields.php:857 includes/class.process_fields.php:927
+#: includes/class.process_fields.php:974 includes/class.process_fields.php:1027
+#: includes/class.process_fields.php:1053
+#: includes/class.process_fields.php:1085
+#: includes/class.process_fields.php:1115
+#: includes/class.process_fields.php:1209
+#: includes/class.process_fields.php:1301
+#: includes/class_wplms_front_end.php:148
+#: includes/class_wplms_front_end.php:220
+#: includes/class_wplms_front_end.php:317
+#: includes/class_wplms_front_end.php:441
+#: includes/class_wplms_front_end.php:499
+#: includes/class_wplms_front_end.php:554
+#: includes/class_wplms_front_end.php:582
+#: includes/class_wplms_front_end.php:616
+#: includes/class_wplms_front_end.php:766
+#: includes/class_wplms_front_end.php:807
+#: includes/class_wplms_front_end.php:834
+#: includes/class_wplms_front_end.php:1116
+#: includes/class_wplms_front_end.php:1430
+#: includes/class_wplms_front_end.php:1484
+#: includes/class_wplms_front_end.php:1555
+#: includes/class_wplms_front_end.php:1684
+#: includes/class_wplms_front_end.php:1711
+#: includes/class_wplms_front_end.php:1904
+msgid "Security check Failed. Contact Administrator."
+msgstr "Wops! Säkerhetskollen misslyckades. Kontakta Youngcubator"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:297 includes/class.process_fields.php:376
+#: includes/class_wplms_front_end.php:201
+#: includes/class_wplms_front_end.php:285
+msgid "Unable to create course, contact admin !"
+msgstr "Tusan, det gick inte att skapa en kurs, kontakta Youngcubator!"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:313 includes/class.process_fields.php:392
+#: includes/class.process_fields.php:439 includes/class.process_fields.php:1057
+#: includes/class.process_fields.php:1089
+#: includes/class.process_fields.php:1213
+#: includes/class.process_fields.php:1307
+#: includes/class_wplms_front_end.php:226
+#: includes/class_wplms_front_end.php:322
+#: includes/class_wplms_front_end.php:446
+#: includes/class_wplms_front_end.php:504
+#: includes/class_wplms_front_end.php:559
+#: includes/class_wplms_front_end.php:587
+#: includes/class_wplms_front_end.php:621
+#: includes/class_wplms_front_end.php:772
+#: includes/class_wplms_front_end.php:813
+#: includes/class_wplms_front_end.php:840
+#: includes/class_wplms_front_end.php:1121
+msgid "Invalid Course id, please edit a course"
+msgstr "Ogiltigt kurs-ID, var vänlig ändra kursen"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:321 includes/class.process_fields.php:399
+#: includes/class.process_fields.php:446 includes/class.process_fields.php:1063
+#: includes/class.process_fields.php:1094
+#: includes/class.process_fields.php:1120
+#: includes/class.process_fields.php:1218
+#: includes/class.process_fields.php:1313
+#: includes/class_wplms_front_end.php:232
+#: includes/class_wplms_front_end.php:328
+#: includes/class_wplms_front_end.php:452
+#: includes/class_wplms_front_end.php:510
+#: includes/class_wplms_front_end.php:593
+#: includes/class_wplms_front_end.php:627
+#: includes/class_wplms_front_end.php:778
+msgid "Invalid Course Instructor"
+msgstr "Ogilitig kursledare"
+
+#: includes/class.process_fields.php:488 includes/class.process_fields.php:950
+msgid "FULL PREVIEW & STATS"
+msgstr ""
+
+#: includes/class.process_fields.php:494 includes/class.process_fields.php:702
+#: includes/class.process_fields.php:910 includes/class.process_fields.php:956
+msgid "Close"
+msgstr "Stäng"
+
+#: includes/class.process_fields.php:521
+msgctxt "access denied message when user is not instructor of element"
+msgid "Access denied for element"
+msgstr ""
+
+#: includes/class.process_fields.php:529
+msgid "CONTENT"
+msgstr "INNEHÅLL"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:533 includes/class.process_fields.php:867
+msgid "Enter title"
+msgstr "Skriv en undertitel för detta Quiz"
+
+#: includes/class.process_fields.php:545
+msgid "Category"
+msgstr "Kategori"
+
+#: includes/class.process_fields.php:553
+msgid "Select Category"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:561 includes/class.process_fields.php:870
+msgid "Content"
+msgstr "Innehåll"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:597
+msgid "Dynamic Quiz"
+msgstr "Dynamisk Quiz"
+
+#: includes/class.process_fields.php:598
+msgid "Dynamic quiz automatically selects questions."
+msgstr "En dynamisk quiz väljer automatiskt frågor."
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:636
+msgid "Assignments"
+msgstr "Kursuppgifter"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:640 includes/class_wplms_front_end.php:978
+msgid "Unit assignments"
+msgstr "Kursblocksuppgifter"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:641
+msgid "Select assignment for Unit"
+msgstr "Välj övergripande kursuppgift"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:646
+msgid "ADD ASSIGNMENT"
+msgstr "LÄGG TILL NY UPPGIFT"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:660
+msgid "QUESTIONS"
+msgstr "Alla frågor"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:664
+msgid "Quiz Questions"
+msgstr "Quizfrågor"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:665
+msgid "Static Quiz questions"
+msgstr "Hantera Quizfrågor"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:670
+#: includes/class_wplms_front_end.php:1237
+msgid "ADD QUESTION"
+msgstr "LÄGG TILL FRÅGA"
+
+#: includes/class.process_fields.php:684 includes/class.process_fields.php:892
+msgid "SAVE"
+msgstr "Spara"
+
+#: includes/class.process_fields.php:690 includes/class.process_fields.php:898
+msgid "EDIT IN ADMIN"
+msgstr ""
+
+#: includes/class.process_fields.php:696
+msgid "PREVIEW"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:827
+#: includes/class_wplms_front_end.php:1208
+msgid "Settings Saved"
+msgstr "Inställningar sparades"
+
+# @ wplms-front-end
+#: includes/class.process_fields.php:848
+msgid "Can not delete element"
+msgstr "Kan inte radera"
+
+#: includes/class.process_fields.php:904
+msgid "PREVIEW & STATS"
+msgstr ""
+
+#: includes/class.process_fields.php:979 includes/class.process_fields.php:1032
+msgid "Empty title."
+msgstr ""
+
+# @ default
+#: includes/class.process_fields.php:1377
+msgid "Course Edit slug"
+msgstr "Eget fält borttaget."
+
+#: includes/class.templates.php:42
+msgid "Question Statement : Which is the largest continent in the World ?"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "Asia"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "America"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "Europe"
+msgstr ""
+
+#: includes/class.templates.php:45
+msgid "Australia"
+msgstr ""
+
+#: includes/class.templates.php:47
+msgid "Continent with Russia"
+msgstr ""
+
+#: includes/class.templates.php:48
+msgid ""
+"A continent is one of several very large landmasses on Earth. They are "
+"generally identified by convention rather than any strict criteria, with up "
+"to seven regions commonly regarded as continents."
+msgstr ""
+
+#: includes/class.templates.php:52
+msgid "Question Statement : This question can have multiple answers."
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 1"
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 2"
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 3"
+msgstr ""
+
+#: includes/class.templates.php:55 includes/class.templates.php:74
+#: includes/class.templates.php:84 includes/class.templates.php:94
+msgid "Option 4"
+msgstr ""
+
+#: includes/class.templates.php:57
+msgid " The answer to this quesiton is 2,3"
+msgstr ""
+
+#: includes/class.templates.php:58 includes/class.templates.php:67
+#: includes/class.templates.php:77 includes/class.templates.php:87
+#: includes/class.templates.php:97 includes/class.templates.php:107
+#: includes/class.templates.php:117 includes/class.templates.php:137
+msgid "Some explaination to this question."
+msgstr ""
+
+#: includes/class.templates.php:62
+msgid "Question Statement : True and False question type."
+msgstr ""
+
+#: includes/class.templates.php:66
+msgid " True"
+msgstr "SANT"
+
+#: includes/class.templates.php:71
+msgid "Question Statement : Select correct answer out of the following"
+msgstr ""
+
+#: includes/class.templates.php:74
+msgid "Option 5"
+msgstr ""
+
+#: includes/class.templates.php:74
+msgid "Option 6"
+msgstr ""
+
+#: includes/class.templates.php:76
+msgid " Option 1 and Option 4"
+msgstr ""
+
+#: includes/class.templates.php:81 includes/class.templates.php:91
+msgid ""
+"Question Statement : Arrange the below options in following order: 4,3,2,1"
+msgstr ""
+
+#: includes/class.templates.php:91
+msgid "First Order"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class.templates.php:91
+msgid "Second Order"
+msgstr "Sekunder"
+
+#: includes/class.templates.php:91
+msgid "Third order"
+msgstr ""
+
+#: includes/class.templates.php:91
+msgid "Fourth Order"
+msgstr ""
+
+#: includes/class.templates.php:101
+msgid "Question Statement : Fill in the blank"
+msgstr ""
+
+#: includes/class.templates.php:106
+msgid "some value"
+msgstr ""
+
+#: includes/class.templates.php:111
+msgid "Question Statement : Enter the answer in below text box"
+msgstr ""
+
+#: includes/class.templates.php:115 includes/class.templates.php:135
+msgid "some answer"
+msgstr ""
+
+#: includes/class.templates.php:116
+msgid "some hint"
+msgstr ""
+
+#: includes/class.templates.php:121
+msgid ""
+"Survey Question : How likely are you to going to pick the number 7 out of 0 "
+"to 10 ?"
+msgstr ""
+
+#: includes/class.templates.php:126
+msgid "Help text for survey question. Each choice has marks used to end result"
+msgstr ""
+
+#: includes/class.templates.php:127
+msgid "Scores are connected with the marked answer"
+msgstr ""
+
+#: includes/class.templates.php:131
+msgid "Question Statement :Enter the answer in below text area"
+msgstr ""
+
+# @ vibe
+#: includes/class_wplms_front_end.php:77
+msgid "Create a Course"
+msgstr "Skapa kurs"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:84
+msgid "COURSE CREATION ONLY ALLOWED FOR INSTRUCTORS & ADMINISTRATORS"
+msgstr "ATT SKAPA KURS KAN ENDAST GÖRAS AV KURSLEDARE & ADMINISTRATÖRER"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:95
+msgid "Unable to edit Course, please contact Site Administrator"
+msgstr "Nu gick det inte att skapa en kurs, kontakta Youngcubator"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:98
+msgid "Incorrect Action, please contact Site Administrator"
+msgstr "Det gick visst inte, kontakta Youngcubator"
+
+# @ vibe
+#: includes/class_wplms_front_end.php:129
+msgid "Edit Course"
+msgstr "Ändra kurs"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:172
+#: includes/class_wplms_front_end.php:257
+msgid "Unable to create a new Course Category. Contact Admin !"
+msgstr ""
+"Aj då, det gick inte att skapa en ny kurskategori. Kontakta Youngcubator!"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:436
+msgid "Can not have a blank Unit "
+msgstr "Du kan inte ha ett blankt kursblock"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:472
+msgid "Preview Unit"
+msgstr "Kostnadsfritt block"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:494
+msgid "Can not have a Blank Quiz"
+msgstr "Du kan inte ha en blank Qiuz"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:549
+#: includes/class_wplms_front_end.php:1550
+msgid "Can not delete"
+msgstr "Kan inte radera"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:565
+#: includes/class_wplms_front_end.php:1561
+msgid "Instructor can not delete this unit/quiz"
+msgstr "Kursledaren kan inte ta bort detta kursblock eller quiz"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:573
+#: includes/class_wplms_front_end.php:1569
+msgid "Unable to delete"
+msgstr "Kan inte radera"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:700
+msgid "Invalid Product specs"
+msgstr "Ogilitig produktspecifikation"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:752
+msgid "Unable to create product and pricing for course"
+msgstr "Det gick inte att skapa produkt och/eller prissättning för kursen"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:790
+msgid "Course successfully updated."
+msgstr "Kursen är nu uppdaterad."
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:794
+#: includes/class_wplms_front_end.php:822
+#: includes/class_wplms_front_end.php:898
+msgid "Unable to update Course, contact Site admin"
+msgstr "Det gick inte att uppdatera kursen, kontakta Youngcubator"
+
+#: includes/class_wplms_front_end.php:820
+msgid "Course Offline."
+msgstr ""
+
+#: includes/class_wplms_front_end.php:845
+msgid "Course deletion not allowed"
+msgstr ""
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:856
+msgid "Unable to delete curriclum"
+msgstr "Kan inte radera"
+
+# @ default
+#: includes/class_wplms_front_end.php:889
+msgid "Course Deleted."
+msgstr "Eget fält borttaget."
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:939
+msgid "Unit Settings"
+msgstr "Kursblock - inställningar"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:942
+msgid "Unit Type"
+msgstr "Blocktyp"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:943
+msgid "Select Unit Type"
+msgstr "Välj typ av kursblock"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:947
+msgid "Video"
+msgstr "Video"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:948
+msgid "Audio"
+msgstr "Audio"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:949
+msgid "Podcast"
+msgstr "Podcast"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:950
+msgid "General"
+msgstr "Allmänt"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:958
+msgid "Free Unit"
+msgstr "Kostnadsfritt block"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:959
+msgid "Make Unit Free"
+msgstr "Gör kursblocket kostnadsfritt"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:970
+msgid "Unit Duration"
+msgstr "Kursblock tidslängd"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:971
+msgid "Duration of Unit"
+msgstr "Tidslängden för kursblocket"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:979
+msgid "Connect Assignments"
+msgstr "Koppla kursuppgifter"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:997
+#: includes/class_wplms_front_end.php:1017
+msgid "Edit Assignment"
+msgstr "Ändra kursuppgift"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:998
+#: includes/class_wplms_front_end.php:1018
+msgid "Preview Assignment"
+msgstr "Ändra kursuppgift"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1008
+#: includes/class_wplms_front_end.php:1050
+#: includes/class_wplms_front_end.php:1267
+#: includes/class_wplms_front_end.php:1793
+msgid "None"
+msgstr "Inga"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1029
+msgid "ADD EXISTING ASSIGNMENT"
+msgstr "LÄGG TILL NY UPPGIFT"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1030
+msgid "ADD NEW ASSIGNMENT"
+msgstr "LÄGG TILL NY UPPGIFT"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1031
+msgid "Add the Assignment title"
+msgstr "Lägg till titel för kursuppgiften"
+
+# @ default
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1035
+msgid "Publish"
+msgstr "Publicera"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1047
+msgid "Unit Forum"
+msgstr "Forum för kursblock"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1048
+msgid "Connect a Forum"
+msgstr "Koppla ett forum"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1051
+msgid "Add new child forum in Course forum"
+msgstr "Lägg till ett subforum till kursforumet."
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1052
+msgid "Add new forum"
+msgstr "Lägg till forum"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1072
+msgid "SAVE UNIT SETTINGS"
+msgstr "SPARA KURSBLOCKETS INSTÄLLNINGAR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1126
+msgid "Invalid Unit id, please edit a course"
+msgstr "Okänt block-ID, vänligen ändra i kursen"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1132
+msgid "Invalid Unit Instructor"
+msgstr "Okänd kursledare"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1210
+msgid "Unable to save settings"
+msgstr "Det gick inte att spara inställningarna"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1234
+msgid "Manage Quiz Questions"
+msgstr "Hantera Quizfrågor"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1248
+#: includes/class_wplms_front_end.php:1443
+msgid "Question "
+msgstr "Fråga"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1252
+#: includes/class_wplms_front_end.php:1447
+msgid "Edit Question"
+msgstr "Ändra fråga"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1253
+msgid "Preview Question"
+msgstr "Ändra fråga"
+
+# @ default
+#: includes/class_wplms_front_end.php:1258
+#: includes/class_wplms_front_end.php:1452
+msgid "MARKS : "
+msgstr "POÄNG :"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1268
+msgid "ADD A NEW QUESTION"
+msgstr "LÄGG TILL NY FRÅGA"
+
+# @ default
+#: includes/class_wplms_front_end.php:1284
+msgid "Marks : "
+msgstr "Poäng :"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1286
+msgid "Question Title : "
+msgstr "Frågetitel :"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1287
+msgid "Enter title for reference"
+msgstr "Skriv titel för referens"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1291
+msgid "Publish Question"
+msgstr "Publicera fråga"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1298
+#: includes/class_wplms_front_end.php:1421
+msgid "SAVE QUIZ SETTINGS"
+msgstr "SPARA INSTÄLLNINGAR FÖR QUIZ"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1321
+msgid "Enter a Quiz sub-title"
+msgstr "Skriv en undertitel för detta Quiz"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1331
+msgid "Enter a Quiz Completion message"
+msgstr "Skriv meddelande som visas när quizzen är klar"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1337
+msgid "Quiz Settings"
+msgstr "Inställningar för quiz"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1341
+msgid "QUIZ SUB-TITLE"
+msgstr "QUIZ UNDERTITEL"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1346
+msgid "CONNECTED COURSE"
+msgstr "KOPPLAD TILL KURS"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1361
+msgid "QUIZ DURATION"
+msgstr "QUIZLÄNGD"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1364
+msgid "QUIZ EVALUATION"
+msgstr "QUIZ-UTVÄRDERING"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1367
+msgid "AUTO"
+msgstr "AUTO"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1373
+msgid "QUIZ QUESTIONS TYPE"
+msgstr "QUIZ FRÅGETYP"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1376
+msgid "DYNAMIC"
+msgstr "DYNAMISKA"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1382
+msgid "SELECT QUESTION TAGS"
+msgstr "VÄLJ TAGGAR FÖR FRÅGOR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1393
+msgid "NUMER OF QUESTIONS"
+msgstr "ANTAL FRÅGOR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1396
+msgid "MARKS PER QUESTION"
+msgstr "POÄNG PER FRÅGA"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1399
+msgid "QUIZ RETAKES"
+msgstr "ANTAL OMTAGNINGAR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1400
+msgid " Retakes"
+msgstr "Omtagningar"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1402
+msgid "QUESTIONS ORDER"
+msgstr "ORDNING PÅ FRÅGOR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1405
+msgid "RANDOM"
+msgstr "SLUMPMÄSSIG"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1407
+msgid "SEQUENTIAL"
+msgstr "EFTERFÖLJANDE"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1411
+msgid "QUIZ COMPLETION MESSAGE"
+msgstr "AVSLUTANDE MEDDELANDE EFTER QUIZ"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1436
+#, php-format
+msgid "Add Content for %s"
+msgstr "Lägg till innehåll för %s"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1489
+msgid "Invalid Quiz"
+msgstr "Ogiltig quiz"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1527
+msgid "Quiz Settings saved"
+msgstr "Inställningar för quiz sparades"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1602
+msgid "QUESTION SETTINGS"
+msgstr "FRÅGOR - INSTÄLLNINGAR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1604
+msgid "Question Type"
+msgstr "Frågetyp"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1625
+msgid "Click to select as Correct answer"
+msgstr "Klicka för att välja som rätt svar"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1634
+msgid "Correct Answer"
+msgstr "Rätt svar"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1635
+msgid "Answer Hint"
+msgstr "Svara som fingervisning"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1636
+msgid "Answer Explanation"
+msgstr "Svarsförklaring"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1644
+msgid "SAVE QUESTION SETTINGS"
+msgstr "SPARA FRÅGEINSTÄLLNINGAR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1679
+msgid "Unable to save, incorrect question"
+msgstr "Det fick inte att svara, inkorrekt fråga"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1704
+msgid "Question settings successfully saved"
+msgstr "Frågeinställningarna sparades"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1718
+msgid "Unable to save, incorrect unit"
+msgstr "Det gick inte att spara, inkorrekt kursblock"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1762
+msgid "ASSIGNMENT SETTINGS"
+msgstr "KURSUPPGIFT - INSTÄLLNINGAR"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1766
+msgid "ASSIGNMENT SUB-TITLE"
+msgstr "KURSUPPGIFT UNDERTITEL"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1772
+msgid "ASSIGNMENT MARKS"
+msgstr "KURSUPPGIFT POÄNG"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1773
+msgid "Assignment Maximum Marks"
+msgstr "Maxpoäng på kursuppgift"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1773
+msgid "MARKS"
+msgstr "POÄNG"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1776
+msgid "ASSIGNMENT DURATION"
+msgstr "TIDSLÄNGD FÖR UPPGIFT"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1777
+msgid "Enter Assignment Duration"
+msgstr "Skriv hur länge uppgiften pågår"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1779
+msgid "ASSIGNMENT EVALUATION"
+msgstr "UTVÄRDERING FÖR UPPGIFT"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1780
+msgid "Include in Course Evaluation"
+msgstr "Inkludera i kursutvärderingen"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1790
+msgid "ASSIGNMENT COURSE"
+msgstr "KURSUPPGIFT"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1791
+msgid "Select Assignment Course"
+msgstr "Välj övergripande kursuppgift"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1808
+msgid "ASSIGNMENT SUBMISISON TYPE"
+msgstr "INLÄMNINGSSÄTT FÖR UPPGIFT"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1810
+msgid "UPLOAD"
+msgstr "SKICKA IN"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1811
+msgid "TEXTAREA"
+msgstr "TEXTOMRÅDE"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1814
+msgid "ATTACHMENT TYPE"
+msgstr "BIFOGAD FILTYP"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1859
+msgid "Attachment Size"
+msgstr "Storlek på bilaga"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1860
+msgid "Maximum attachment size"
+msgstr "Maximal storlek för bilaga"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1860
+msgid " MBs"
+msgstr " MBs"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1909
+msgid "Invalid details"
+msgstr "Ogiltiga detaljer"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1915
+msgid "Invalid Assignment author"
+msgstr "Ogiltig uppgiftsförfattare"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1924
+msgid "SETTINGS SAVED"
+msgstr "INSTÄLLNINGAR SPARADES"
+
+# @ wplms-front-end
+#: includes/class_wplms_front_end.php:1936
+msgid "ADD PACKAGE"
+msgstr "LÄGG TILL PAKET"
+
+# @ vibe
+#: wplms-front-end.php:79
+msgid "Please change the course title"
+msgstr "Var vänlig och ändra kurstiteln"
+
+# @ vibe
+#: wplms-front-end.php:80
+msgid "This will create a new course in the site, do you want to continue ?"
+msgstr "Du kommer att skapa en ny kurs på Youngcubator, vill du fortsätta?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:81
+msgid "Yes, create a new course"
+msgstr "Ja, skapa en ny kurs"
+
+# @ vibe
+#: wplms-front-end.php:82
+msgid ""
+"This will overwrite the previous course settings, do you want to continue ?"
+msgstr ""
+"Detta kommer att ersätta tidigare kursinställningar, vill du fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:83
+msgid "Save course"
+msgstr "Spara kurs"
+
+# @ vibe
+#: wplms-front-end.php:84
+msgid "This will create a new unit in the site, do you want to continue ?"
+msgstr "Du kommer att skapa ett nytt kursblock, vill du fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:85
+msgid "Yes, create a new unit"
+msgstr "Ja, skapa ett nytt kursblock"
+
+# @ vibe
+#: wplms-front-end.php:86
+msgid ""
+"This will overwrite the existing unit settings, do you want to continue ?"
+msgstr ""
+"Du kommer att ersätta tidigare inställningar för kursblocket, vill du "
+"fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:87
+msgid "Yes, save unit settings"
+msgstr "Ja, spara inställningar för kursblocket"
+
+# @ vibe
+#: wplms-front-end.php:88
+msgid "This will create a new question in the site, do you want to continue ?"
+msgstr ""
+"Du kommer att skapa nya kursfrågor på Youngcubator, vill du fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:89
+msgid "Yes, create a new question"
+msgstr "Ja, skapa en ny kursfråga"
+
+# @ vibe
+#: wplms-front-end.php:90
+msgid "This will create a new quiz in the site, do you want to continue ?"
+msgstr "Du kommer att skapa en ny quiz på Youngcubator, vill du fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:91
+msgid "Yes, create a new quiz"
+msgstr "Ja, skapa en ny quiz"
+
+# @ vibe
+#: wplms-front-end.php:92
+msgid ""
+"This will overwrite the existing quiz settings, do you want to continue ?"
+msgstr "Du kommer att ersätta tidigare quizinställningar, vill du fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:93
+msgid "Yes, save quiz settings"
+msgstr "Ja, spara quizinställningar"
+
+# @ vibe
+#: wplms-front-end.php:94
+msgid "This will delete the element from your site, do you want to continue ?"
+msgstr ""
+"Du kommer att ta bort ditt kursblock/quiz från Youngcubator, vill du "
+"fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:95
+msgid "Continue"
+msgstr "Fortsätt"
+
+# @ vibe
+#: wplms-front-end.php:96
+msgid "This will overwrite the previous settings, do you want to continue ?"
+msgstr "Du kommer att skriva över tidigare inställningar, vill du fortsätta ?"
+
+# @ default
+# @ wplms-front-end
+#: wplms-front-end.php:97
+msgid "Save"
+msgstr "Spara"
+
+# @ vibe
+#: wplms-front-end.php:98
+msgid ""
+"This will create a new assignment in the site, do you want to continue ?"
+msgstr ""
+"Du kommer att skapa en ny kursuppgift på Youngcubator, vill du fortsätta ?"
+
+# @ wplms-front-end
+#: wplms-front-end.php:99
+msgid "Yes, create a new assignment"
+msgstr "Ja, skapa en ny kursuppgift"
+
+#: wplms-front-end.php:100
+msgid ""
+"Are you sure you want to take course offline, this will remove the course "
+"from course directory and it will not be visible to your students"
+msgstr ""
+
+#: wplms-front-end.php:101
+msgid "Are you sure you want to delete this course ?"
+msgstr ""
+
+# @ vibe
+#: wplms-front-end.php:103
+msgid "This will create a new group in the site, do you want to continue ?"
+msgstr "Du kommer att skapa en ny kurs på Youngcubator, vill du fortsätta?"
+
+# @ vibe
+#: wplms-front-end.php:104
+msgid "This will create a new forum in the site, do you want to continue ?"
+msgstr "Du kommer att skapa en ny kurs på Youngcubator, vill du fortsätta?"
+
+# @ default
+#~ msgid ""
+#~ "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was "
+#~ "deleted?"
+#~ msgstr ""
+#~ "Du försökte just ändra ett objekt som inte existerar. Kanske är det "
+#~ "borttaget?"
+
+# @ default
+#~ msgid "You are not allowed to edit this item."
+#~ msgstr "Du har inte tillåtelse att ändra detta objekt."
+
+# @ default
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+# @ default
+#~ msgid "LOCKED"
+#~ msgstr "LÅST"
+
+# @ default
+#~ msgid "OK"
+#~ msgstr "OK"
+
+# @ default
+#~ msgid "Publish on:"
+#~ msgstr "Publicera på:"
+
+# @ default
+#~ msgid "Schedule for:"
+#~ msgstr "Schemalägg för:"
+
+# @ default
+#~ msgid "Published on:"
+#~ msgstr "Publicerat den:"
+
+# @ default
+#~ msgid "%1$s %2$s, %3$s @ %4$s : %5$s"
+#~ msgstr "%1$s %2$s, %3$s @ %4$s : %5$s"
+
+# @ default
+#~ msgid "Show more comments"
+#~ msgstr "Visa fler kommentarer"
+
+# @ default
+#~ msgid "No more comments found."
+#~ msgstr "Inga fler kommentarer hittades."
+
+# @ default
+#~ msgid "Schedule"
+#~ msgstr "Schemalägg"
+
+# @ default
+#~ msgid "Update"
+#~ msgstr "Uppdatera"
+
+# @ default
+#~ msgid "Save as Pending"
+#~ msgstr "Spara som väntande"
+
+# @ default
+#~ msgid "Save Draft"
+#~ msgstr "Spara utkast"
+
+# @ default
+#~ msgid "Public, Sticky"
+#~ msgstr "Publik, klistrad"
+
+# @ default
+#~ msgid "Password Protected"
+#~ msgstr "Lösenordskyddad"
+
+# @ default
+#~ msgid "Privately Published"
+#~ msgstr "Privat publicerad"
+
+# @ default
+#~ msgid "Published"
+#~ msgstr "Publicerad"
+
+# @ default
+#~ msgctxt "tag delimiter"
+#~ msgid ","
+#~ msgstr ","
+
+# @ default
+#~ msgid "Saving Draft&#8230;"
+#~ msgstr "Sparar utkast&#8230;"
+
+# @ default
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr ""
+#~ "Dina ändringar kommer att försvinna om du går vidare från den här sidan."
+
+# @ default
+#~ msgid "Insert/edit link"
+#~ msgstr "Lägg till/ändra länk"
+
+# @ default
+#~ msgid "Add Link"
+#~ msgstr "Lägg till länk"
+
+# @ default
+#~ msgid "(no title)"
+#~ msgstr "(ingen titel)"
+
+# @ default
+#~ msgid "No matches found."
+#~ msgstr "Hittade inga matchningar."
+
+# @ default
+#~ msgid "Publishing&hellip;"
+#~ msgstr "Publicera&hellip;"
+
+# @ default
+#~ msgid "Saving&hellip;"
+#~ msgstr "Sparar&hellip;"
+
+# @ default
+#~ msgid "Updating&hellip;"
+#~ msgstr "Uppdaterar&hellip;"
+
+# @ default
+#~ msgid "Post updated. <a href=\"%s\">View post</a>"
+#~ msgstr "Inlägg uppdaterat. <a href=\"%s\">Visa inlägg</a>"
+
+# @ default
+#~ msgid "Custom field updated."
+#~ msgstr "Eget fält uppdaterat."
+
+# @ default
+#~ msgid "Custom field deleted."
+#~ msgstr "Eget fält borttaget."
+
+# @ default
+#~ msgid "Post updated."
+#~ msgstr "Inlägg uppdaterat."
+
+# @ default
+#~ msgid "Post restored to revision from %s"
+#~ msgstr "Inlägget återställdes från version från %s"
+
+# @ default
+#~ msgid "Post published. <a href=\"%s\">View post</a>"
+#~ msgstr "Inlägget publicerades. <a href=\"%s\">Visa inlägg</a>"
+
+# @ default
+#~ msgid "Post saved."
+#~ msgstr "Inlägget sparades."
+
+# @ default
+#~ msgid "Post submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+#~ msgstr ""
+#~ "Inlägget skickades. <a target=\"_blank\" href=\"%s\">Förhandsgranska "
+#~ "inlägg</a>"
+
+# @ default
+#~ msgid ""
+#~ "Post scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview post</a>"
+#~ msgstr ""
+#~ "Inlägget schemalades för: <strong>%1$s</strong>. <a target=\"_blank\" "
+#~ "href=\"%2$s\">Förhandsgranska inlägg</a>"
+
+# @ default
+#~ msgid "M j, Y @ G:i"
+#~ msgstr "M j, Y @ G:i"
+
+# @ default
+#~ msgid ""
+#~ "Post draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+#~ msgstr ""
+#~ "Inläggsutkast uppdaterat. <a target=\"_blank\" href=\"%s"
+#~ "\">Förhandsgranska inlägg</a>"
+
+# @ default
+#~ msgid "Page updated. <a href=\"%s\">View page</a>"
+#~ msgstr "Sidan uppdaterades. <a href=\"%s\">View page</a>"
+
+# @ default
+#~ msgid "Page updated."
+#~ msgstr "Sidan uppdaterades."
+
+# @ default
+#~ msgid "Page restored to revision from %s"
+#~ msgstr "Sidan återställdes från version från %s"
+
+# @ default
+#~ msgid "Page published. <a href=\"%s\">View page</a>"
+#~ msgstr "Sidan publicerades. <a href=\"%s\">Visa sida</a>"
+
+# @ default
+#~ msgid "Page saved."
+#~ msgstr "Sidan sparades."
+
+# @ default
+#~ msgid "Page submitted. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+#~ msgstr ""
+#~ "Sidan skickades. <a target=\"_blank\" href=\"%s\">Förhandsgranska sida</a>"
+
+# @ default
+#~ msgid ""
+#~ "Page scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview page</a>"
+#~ msgstr ""
+#~ "Sidan schemalades för: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Förhandsgranska sida</a>"
+
+# @ default
+#~ msgid ""
+#~ "Page draft updated. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+#~ msgstr ""
+#~ "Sidutkastet uppdaterades. <a target=\"_blank\" href=\"%s"
+#~ "\">Förhandsgranska sida</a>"
+
+# @ default
+#~ msgid "Media attachment updated."
+#~ msgstr "Bifogad mediafil uppdaterades."
+
+# @ default
+#~ msgid ""
+#~ "There is an autosave of this post that is more recent than the version "
+#~ "below. <a href=\"%s\">View the autosave</a>"
+#~ msgstr ""
+#~ "Det finns en autospar på detta inlägget som är nyare än versionen nedan. "
+#~ "<a href=\"%s\">Visa autospar</a>"
+
+# @ default
+#~ msgid "Revisions"
+#~ msgstr "Revisioner"
+
+# @ default
+#~ msgctxt "post format"
+#~ msgid "Format"
+#~ msgstr "Format"
+
+# @ default
+#~ msgid "Page Attributes"
+#~ msgstr "Sidattribute"
+
+# @ default
+#~ msgid "Attributes"
+#~ msgstr "Attribut"
+
+# @ default
+#~ msgid "Excerpt"
+#~ msgstr "Utdrag"
+
+# @ default
+#~ msgid "Send Trackbacks"
+#~ msgstr "Skicka Trackbacks"
+
+# @ default
+#~ msgid "Custom Fields"
+#~ msgstr "Egna fält"
+
+# @ default
+#~ msgid "Discussion"
+#~ msgstr "Diskussioner"
+
+# @ default
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+# @ default
+#~ msgid "Scheduled"
+#~ msgstr "Schemalagt"
+
+# @ default
+#~ msgid "Pending Review"
+#~ msgstr "Väntande granskning"
+
+# @ default
+#~ msgid "Draft"
+#~ msgstr "Utkast"
+
+# @ default
+#~ msgid "Visibility:"
+#~ msgstr "Syndlighet"
+
+# @ default
+#~ msgid "Password protected"
+#~ msgstr "Lösenordskyddad"
+
+# @ default
+#~ msgid "Stick this post to the front page"
+#~ msgstr "Lägg detta inlägg på förstasidan"
+
+# @ default
+#~ msgid "Password:"
+#~ msgstr "Lösenord:"
+
+# @ default
+#~ msgid "Scheduled for: <b>%1$s</b>"
+#~ msgstr "Schemalagt för: <b>%1$s</b>"
+
+# @ default
+#~ msgid "Published on: <b>%1$s</b>"
+#~ msgstr "Publicerat den: <b>%1$s</b>"
+
+# @ default
+#~ msgid "Publish <b>immediately</b>"
+#~ msgstr "Publicera <b>omedelbart</b>"
+
+# @ default
+#~ msgid "Schedule for: <b>%1$s</b>"
+#~ msgstr "Schemalägg för: <b>%1$s</b>"
+
+# @ default
+#~ msgid "Publish on: <b>%1$s</b>"
+#~ msgstr "Publicera den: <b>%1$s</b>"
+
+# @ default
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+# @ default
+#~ msgid "Author"
+#~ msgstr "Författare"
+
+# @ default
+#~ msgid "Enter the destination URL"
+#~ msgstr "Skriv destinations-URL"
+
+# @ default
+#~ msgid "URL"
+#~ msgstr "URL"
+
+# @ default
+#~ msgid "Open link in a new window/tab"
+#~ msgstr "Öppna länk i nytt fönster/flik"
+
+# @ default
+#~ msgid "Or link to existing content"
+#~ msgstr "Eller länka till befintligt innehåll"
+
+# @ default
+#~ msgid "Search"
+#~ msgstr "Sök"
+
+# @ default
+#~ msgid "No search term specified. Showing recent items."
+#~ msgstr "Inga söktermer specificerade. Visa senaste objekt."
+
+# @ default
+#~ msgid ""
+#~ "<strong>Connection lost.</strong> Saving has been disabled until "
+#~ "you&#8217;re reconnected."
+#~ msgstr ""
+#~ "<strong>Anslutningen försvann.</strong> Det går inte att spara förrän du "
+#~ "är återansluten."
+
+# @ default
+#~ msgid "We&#8217;re backing up this post in your browser, just in case."
+#~ msgstr "Vi gör en backup på detta inlägget i din webbläsare, utifall att."
