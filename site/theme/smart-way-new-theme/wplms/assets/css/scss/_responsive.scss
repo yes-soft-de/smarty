@@ -1,0 +1,280 @@
+/*========================================================================*/
+/*   07. RESPONSIVE
+/*========================================================================*/
+@media (max-width: 991px) {
+	header nav{
+		display: none;
+	}
+	.blogpost{position: relative;}
+	.blogpost .excerpt.thumb {
+		margin-left: 0;
+		clear: both;
+		margin-top: 30px;
+		display: inline-block;
+		width: 100%;
+	}
+	.blogpost .featured {
+		max-width: 100%;
+		margin: 0 20px;
+	}
+	.tags .social_sharing{
+		margin-top:15px;
+		clear:both;
+	}
+}
+@media (max-width: 991px) and (min-width:768px){
+	.blogpost .featured {max-width:320px;margin-right:0;}
+	#searchdiv input[type="text"]{font-size:4rem;}
+}	
+@media (max-width: 767px) {
+	
+	#header_logo,#header_alt_logo,
+	.sleek.fixed #header_alt_logo{display:none !important;}
+	#header_mobile_logo.hide{display:block !important;}
+	.meta .date {
+		margin: 0;
+		position: absolute;
+		top: 0;
+		background: #FFF;
+	}
+	.block.side .block_content{
+		display: block;
+		clear:both;
+	}
+	#searchdiv input[type="text"]{font-size:3rem;}
+	#certificate h1{font-size:40px;}
+	#buddypress{
+		.dir-form{
+			div.item-list-tabs{
+				ul{
+					width:100%;text-align:center;
+					li,li a{
+						width:100%;
+					}
+				}
+			} 
+		}
+		ul.item-list{
+			li{
+				div.item-title{margin-top:30px;}
+				div.item-desc{clear:both;margin: 10px 0 0;}
+				div.meta {margin-top: 0;float:none;text-align:center;}
+				.item-credits{clear:both;float:none;}
+			}
+		} 
+		div.pagination .pagination-links{
+			margin-top:10px;
+		}
+	}
+}
+
+@media (max-width: 440px) {
+
+	#buddypress div.item-list-tabs#subnav ul li.last{
+		clear:both;
+	}
+	#searchdiv input[type="text"]{font-size:2rem;}
+	.unit_prevnext{height:85px;}	
+}
+
+
+
+/*-------------------------------------------------------------------------
+3.8 - RESPONSIVE FIXES
+-------------------------------------------------------------------------*/
+
+@media (max-width: 992px) and (min-width: 767px){
+	
+	.course_button.button{letter-spacing: 0;}
+	.note-tabs ul li{width:50%;}
+	
+	.blogpost .excerpt.thumb{
+		margin-left:0;
+	}
+	.blogpost .excerpt.thumb+h3{
+		clear:both;
+		margin-top: 20px;
+		display: inline-block;
+		width: 100%;
+	}
+	.course_lesson > span{display: none;}
+	.course_lesson b{display: block;}
+}
+
+
+@media (max-width: 767px) {
+	#buddypress #members-activity div.activity-type-tabs ul li,
+	.note-tabs ul li{
+		width:100%;
+	}
+	.blogpost .featured{margin:0;}
+	.blogpost .date{display:none;}
+	.blogpost .excerpt.thumb,
+	.blogpost .excerpt{
+		margin-left:0;
+	}
+	.blogpost .meta{margin:0 10px 10px 0;}
+	.grid_list_wrapper{display:inline-block;margin: 10px 0;}
+	#buddypress .item-list-tabs#subnav ul li.switch_view{
+		width: 100%;
+	    text-align: center;
+	    margin: 0 10px 10px;
+	}
+	#buddypress div.pagination .pagination-links,
+	#buddypress div.pagination .pag-count,
+	#buddypress ul.item-list li span{float:none;text-align:center;}
+
+	.bp-user.p3{
+		#item-header-avatar{
+			margin-bottom:15px;
+			a{
+				margin-bottom: 0px;
+			}
+		}
+	}
+
+}
+
+
+
+@media (max-width: 540px) {
+	.dir-list .item-avatar{
+		width:100%;margin-bottom:15px;
+		max-width:100%;
+	}
+
+	#buddypress span.activity{
+		margin:0;
+	}
+	.course_lesson > span{display: none;}
+	.course_lesson b{display: block;}
+}
+@media only screen and (max-width: 320px){
+	#searchdiv input[type="text"]{font-size:1.6rem;}
+}
+
+
+/*--------------------------------------------------------------
+4.0 - Media Queries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+4.1 - Smartphones - landscape
+--------------------------------------------------------------*/
+@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2) {
+	-webkit-text-size-adjust: none;
+}
+@media only screen and (max-width: 580px ){
+#buddypress div.item-list-tabs#subnav ul li{max-width:100% !important;}
+#buddypress div.item-list-tabs#subnav ul li a{border-left:1px solid $bordercolor;}
+}
+@media only screen and (max-width: 480px ){
+
+	#buddypress div.dir-search {
+		float: right;
+		margin-top: -50px;
+		text-align: right;
+	}
+	#buddypress div.dir-search input[type="text"] {
+		margin-bottom: 1em;
+	}
+	a.bp-title-button {
+		margin-left: 10px;
+	}
+	#buddypress form.standard-form .main-column div.action{
+		position: relative;
+		margin-bottom:1em;
+	}
+	#buddypress form.standard-form .main-column ul#friend-list h4{
+		width:100%;
+	}
+
+	#buddypress div.item-list-tabs#subnav ul li.last{
+		clear:both;
+		float:left;
+	}
+	#buddypress div.item-list-tabs#subnav ul li a,
+	#buddypress div.item-list-tabs .dir-search,
+	#buddypress div.item-list-tabs ul li.last select{
+		width:100%;
+	}
+
+	.total_students{font-size:14px;}
+
+	
+
+	#buddypress ul#members-list li div.item-title{margin-top:0px;}
+	
+
+	#buddypress #message-threads img.avatar{
+		display: none;
+	}
+	#buddypress div.item-list-tabs#subnav ul li{
+		width:100% !important;
+		float:none !important;
+		text-align: center;
+	}
+	#buddypress table.profile-fields tr td { display: block; }
+
+}
+
+/*--------------------------------------------------------------
+4.2 - Smartphones - portrait
+--------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 320px) {
+
+	.sleek .topmenu>li>a{
+       padding-left:0;
+       padding-right:0;
+       margin:0px 5px;
+
+   }
+	#buddypress div.dir-search {
+		clear: left;
+		float: left;
+		margin-top: 0;
+		text-align: left;
+	}
+	#buddypress li#groups-order-select {
+		clear: left;
+		float: left;
+		background:#FFF;
+	}
+	#buddypress span.activity{margin-left:0;}
+
+	#buddypress #course-dir-list li div.item{
+		margin-top:20px;
+		margin-left:0;
+	}
+
+
+	#buddypress .item-desc p {
+		margin: 0 0 10px;
+	}
+	#buddypress div.pagination .pag-count {
+		margin-left: 0;
+	}
+}
+
+
+/*--------------------------------------------------------------
+4.2 - Smartphones - smaller screen sizes
+--------------------------------------------------------------*/
+@media only screen and (max-width: 240px) {
+	#buddypress div.dir-search {
+		float: left;
+		margin: 0;
+	}
+	#buddypress div.dir-search input[type="text"] {
+		width: 50%;
+	}
+	#buddypress li#groups-order-select {
+		float: left;
+	}
+	h1 a.bp-title-button {
+		clear: left;
+		float: left;
+		margin: 10px 0 20px;
+	}
+}

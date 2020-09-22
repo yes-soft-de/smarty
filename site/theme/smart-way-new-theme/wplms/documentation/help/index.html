@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WPLMS WP Theme Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;WPLMS&rdquo; Documentation by &ldquo;VibeThemes&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;WPLMS&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 2/4/2014<br>
+					By: VibeThemes<br>
+					Email: <a href="mailto:vibethemes@gmail.com">vibethemes@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing WPLMS WP Theme. If you have any questions that are beyond the scope of this help file, please feel free to contact me via my user page contact form <a href="http://themeforest.net/user/vibethemes">here</a>. Thanks so much!
+				
+			</div>
+			
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		<p style="border:1px solid #F0C36D;padding:5px;background-color: #F9EDBE;text-align: center;">All Documentation [with Training Videos] is available online at this link <br /><a href="http://vibethemes.com/envato/wplms/documentation">Documentation</a>. Support Form for this template is available at this link: <a href="http://vibethemes.com/documentation/wplms/forums/">WPLMS Support</a>
+		</p>
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		
+		<ol class="alpha">
+			
+			<li><a href="#htmlStructure">General HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#wptheme">WordPress Plugins</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			
+			</ol>
+		
+		
+		<hr>
+
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This theme is a responsive layout Bootstrap v 3.0 with twelve columns. The template is divided in various sections:  Header, Navigation,Sub Header, Title, Main Content and Footer. All of the information within the each section is contained within Sections in a div with a class of "container". The general template structure is the same throughout the template. Here is the general structure.</p>
+		
+		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+		
+		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+<pre>	#headercontact a {
+		color: #someColor;
+	} 
+</pre>
+
+		<p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+
+		<p>I.E.</p>
+
+<pre>	#wrap #primaryContent a {
+		color: #someColor;
+	}
+</pre>
+
+		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using 10 CSS files in this theme.</p>
+		<ol>
+		<li>admin.css : Styling for admin css.</li>				
+		<li>animate.css : CSS for various CSS3 animation effects.</li>
+		<li>bootstrap.css : This is the standard Bootstrap 2.3.1 file.</li>
+		<li>buddypress.css : Some important CSS fixes for Buddypress & BBPress.</li>
+		<li>chosen.css : Styling for select boxes css.</li>				
+		<li>fonticons.css : All the icons used in the theme are based on fonticons.css.</li>
+		<li>magnific-popup.css : Magnific Popup css used for jquery lightbox functionality in theme.</li>			<li>nprogress.css :  Styling for page loading css.</li>								
+		<li>woocommerce.css : Some important CSS fixes for Woocommerce.</li>				
+		<li>css.php : It is a dynamically generated CSS file which gives all the user generated custom styling to the theme.</li>								
+		</ol>
+		
+		<p>The last file is <span style="padding:2px 5px; background: #F9EDBE;">style.css</span>.This file contains all of the specific stylings for the theme. The file is separated into sections using:</p>  
+
+<pre>	
+/* ------------------------------------------------------------------------ */
+/* 01. General Styles
+/* ------------------------------------------------------------------------ */
+
+	some code
+
+/* ------------------------------------------------------------------------ */
+/* 02. HEADER
+/* ------------------------------------------------------------------------ */
+	
+	some code
+	
+/* ------------------------------------------------------------------------ */
+/* 03. MAIN
+/* ------------------------------------------------------------------------ */
+	
+	some code
+	
+/* ------------------------------------------------------------------------ */
+/* 04. FOOTER
+/* ------------------------------------------------------------------------ */
+	
+	some code
+	
+	etc, etc. 
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports 13 Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>Bootstrap.min.js</li>
+			<li>Mordernizr</li>
+			<li>chosen.jquery.min.js</li>
+			<li>jquery.flexslider-min.js</li>
+			<li>jquery.isotope.min.js</li>
+			<li>jquery.magnific-popup.min.js</li>
+			<li>spectragram.min.js</li>
+			<li>nprogress.js</li>
+			<li>respond.min.js</li>
+			<li>sidebarEffects.js</li>
+			<li>classie.js</li>
+			<li>custom.js</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>Bootstrap.min.js is a Javascript library that comprises of all the inbuilt functions and features of the Bootstrap template.</li>
+			<li>Mordernizr script helps non HTML5 browsers to render HTML5 elements.</li>
+			<li>Chosen script is required to create searchable select boxes in the theme.</li>
+			<li>flexslider script is required for various carousels and sliders in the theme.</li>
+			
+			<li>Isotope script is required to create the filterable effect.</li>
+			<li>Magnific Popup script is required to create the gallery effect in the Gallery shortcode.</li>
+			<li>spectagram script is required for Instagram widget.</li>
+			<li>nProgress script is required to show the page loading effect on pages.</li>
+			<li>Respond script is required to detect responsive triggers for older browser versions.</li>
+			<li>sidebarEffects script is required to show the mobile slide menu on Mobile layouts.</li>
+			<li>classie script is required to trigger click event on touch events on mobile layouts.</li>
+			<li>Custom.js script has function calls to all the above scripts.</li>
+		<hr>
+		
+				
+		<p style="border:1px solid #F0C36D;padding:5px;background-color: #F9EDBE;text-align: center;">All Documentation [with Training Videos] is available online at this link <br /><a href="http://vibethemes.com/envato/wplms/documentation">Documentation</a>. Support Form for this template is available at this link: <a href="http://vibethemes.com/documentation/wplms/forums/">WPLMS Support</a>
+		</p>
+		
+		<hr>
+		<hr>
+		<h3 id="wptheme"><strong>A) WordPress Theme & Functioning</strong> - <a href="#toc">top</a></h3>
+		<p>This theme is a WordPress theme designed to work with following plugin combination, some of which are bundeled in the theme package.</p>
+		
+		<ol>
+		<li><strong>Buddypress</strong> (Required): The popular social networking plugin from WordPress. [http://wordpress.org/plugins/buddypress/]</li>
+		<li><strong>Vibe Course Module</strong>  (Required): The Course Module especially designed for WPLMS theme.</li>
+		<li><strong>Vibe Custom Types</strong>  (Required): The Custom types plugin for all the Custom post types and Meta boxes including the Page builder especially designed for WPLMS theme.</li>
+		<li><strong>Vibe Shortcodes</strong>  (Required): The Shortcodes module for WPLMS especially designed for WPLMS theme..</li>
+		<li><strong>BBPress</strong>  (Recommended): The popular forum plugin for WordPress.[http://wordpress.org/plugins/bbpress/]</li>
+		<li><strong>WooCommerce</strong>  (Recommended): The popular eCommerce plugin from WordPress. [http://wordpress.org/plugins/woocommerce/]</li>
+		<li><strong>LayerSlider</strong>  (Recommended): The Premium Slider plugin for WordPress included in Package worth $15</li>
+		</ol>
+
+		<p>So, we strongly recommend you to install the above mentioned plugins for maximum compatibility & theme usage.</p> 
+
+		<p style="border:1px solid #F0C36D;padding:5px;background-color: #F9EDBE;text-align: center;">All Documentation [with Training Videos] is available online at this link <br /><a href="http://vibethemes.com/envato/wplms/documentation">Documentation</a>. Support Form for this template is available at this link: <a href="http://vibethemes.com/documentation/wplms/forums/">WPLMS Support</a>
+		</p>
+
+		<hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li>Twitter Bootstrap v 3.0  by @mdo and @fat @ Twitter</li>
+			<li>All Images are free for commercial usage and taken from <a href="http://www.unsplash.com">unsplash.com</a>, <a href="http://www.picjumbo.com">picjumbo.com</a>, Some images in the demo are taken form 123rf.com@ Standard License (Images are not for sale and are not included in the Package)</li>
+			<li>jQuery Isotope by <a href="http://www.metafizzy.co">Metafizzy</a> (Commercial License)</li>
+			<li>LayerSlider from CodeCanyon (Extended License with Author Permission)</li>
+			<li>Flexslider by <a href="http://www.woothemes.com">WooThemes</a>(GPL)</li>
+			<li>Maginific Popup by <a href="http://dimsemenov.com/plugins/magnific-popup/">Dimitry Semnov</a></li>
+			<li>Spectagram by <a href="https://github.com/adrianengine/jquery-spectragram">adrianengine</a></li>
+			<li>fitvids by <a href="http://fitvidsjs.com/">FiVids</a></li>	
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p style="border:1px solid #F0C36D;padding:5px;background-color: #F9EDBE;text-align: center;">All Documentation [with Training Videos] is available online at this link <br /><a href="http://vibethemes.com/envato/wplms/documentation">Documentation</a>. Support Form for this template is available at this link: <a href="http://vibethemes.com/documentation/wplms/">WPLMS Support</a>
+		</p>
+
+
+		<p class="append-bottom alt large"><strong>VibeThemes</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

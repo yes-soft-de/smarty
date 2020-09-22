@@ -1,0 +1,347 @@
+/**
+ * File: Elegant.scss
+ * Description : Contains all styling for Elegent Skin for WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. HEADER STYLING
+/*
+/*========================================================================*/
+/*   01. GLOBAL STYLING
+/*========================================================================*/
+
+@import '../defaults';
+
+.material{
+	.pusher{
+		background:#FFF;
+	}
+	.padder.content,
+	.content,
+	&.page .content, 
+	&.single .content,
+	#item-body{
+		padding:0;	
+	}
+}
+/*========================================================================*/
+/*   02. HEADER STYLING
+/*========================================================================*/
+
+.material{
+	#headertop{
+		padding:0;
+		ul{
+			&.topmenu > li,&.socialicons > li{
+				padding-top: 8px;
+	    		padding-bottom: 8px;
+	    		line-height: 20px;
+	    		border:none;
+	    		&:first-child{
+	    			border:none;
+	    		}
+			}
+		}
+		.headertop_content{
+			padding-top: 8px;
+    		padding-bottom: 8px;
+    		line-height: 20px;
+    		font-weight:600;
+    		.email,.mobile{display:inline;}
+    		i{padding:0 2px;}
+		}
+		border:none;
+	}	
+	header{
+	    border: none;
+	    box-shadow:0 1px 1px rgba(0,0,0,0.2);
+	    &.sleek.transparent{
+	    	border:none;
+	    	&.fixed{
+	    		border: none;
+	    		box-shadow:0 1px 3px rgba(0,0,0,0.2);
+	    	}
+	    }
+	    #searchform input[type=text]{
+	    	border: none;
+	    }
+	    &.standard{
+	    	border:  none;
+	    }
+	}
+
+	header{
+		.woocart,#searchform{
+			border:none;
+		}
+	}	
+	.mooc .woocart .buttons, 
+	.sleek .woocart .buttons,
+	&.woocommerce-page #content input.button.alt{
+		background:none;
+	}
+	.submenu{
+	    box-shadow: 0 0px 50px 5px rgba(0,0,0,0.1);
+	    
+	}
+}
+
+
+
+/*========================================================================*/
+/*   02. GENERAL STYLING
+/*========================================================================*/
+
+.material{
+	#content{
+		padding-bottom:30px;
+		position:relative;
+		z-index:0;
+	}
+	footer{
+		margin-top:0;
+	}
+	a:hover {
+	    transform: perspective(400px) translateY(-2px);
+	    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	}
+}
+
+.material{
+	#unit_content{padding:0;}
+	.unit_prevnext{margin:20px 0 0;border-color:$bordercolor;}
+	.course_timeline{
+		border-color:$bordercolor;
+		li{
+			&.unit_line,
+			& > span{
+				border-color:$bordercolor;
+			}
+			a,&.active a, li:hover a,h4{
+				color:#444;
+			}
+		}
+		&.accordion{
+			.section:after{
+				color:#444;
+			}
+		}
+		.section{
+			border-top:1px solid $bordercolor;
+			border-bottom:1px solid $bordercolor;
+			&:first-child{border-top:none;}
+			&:last-child{border-bottom:none;}
+		}
+	}
+	.quiz_timeline .timeline_wrapper{
+		border-color: $bordercolor;
+	}
+
+}
+
+/*========================================================================*/
+/*   02. ELEMENTS STYLING
+/*========================================================================*/
+.material{
+	.pusher{
+		.button,
+		input[type=submit],
+		.woocommerce #respond input#submit, 
+		.woocommerce a.button, 
+		.woocommerce button.button, 
+		.woocommerce input.button,
+		#buddypress a.button,
+		#buddypress input[type=submit],
+		#buddypress input[type=button]{
+			border:none;
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+			&:hover{
+				transform: perspective(400px) translateY(-2px);
+				box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+			}
+		}
+		h3.heading,
+		h4.widget_title{
+			border:none;
+			span{
+				position:relative;
+			}
+		}
+	}
+	.pagination span,.pagination label,
+	.pagination .page-numbers.current,.pagination span.current,
+	.pagination a.page-numbers,.pagination a{
+		&:hover{
+			transform: perspective(400px) translateY(-1px);
+			box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+		}
+	}
+	.bbp-logged-in{
+		border:none;
+	}
+}
+
+/*========================================================================*/
+/*   02. SIDEBAR STYLING
+/*========================================================================*/
+
+.widget{
+	.widget_title{
+		border-bottom:none;
+		position:relative;
+		border-bottom:none;
+	}
+}
+
+.material{
+	#active_filters{
+		margin:10px 0 0;
+		li{
+			&:first-child{
+				margin:0 6px 0 0;
+			}
+		}
+	}
+	.dash_widget_title{
+		margin:15px 0;
+	}
+}
+
+/*========================================================================*/
+/*   02. WOOCOMMERCE STYLING
+/*========================================================================*/
+
+.material{
+	&.woocommerce-page a.button,
+	&.woocommerce nav.woocommerce-pagination ul li a,
+	#bbpress-forums .bbp-pagination .bbp-pagination-links a.page-numbers, 
+	#bbpress-forums .bbp-pagination .bbp-pagination-links span
+	&.woocommerce a.button, 
+	&.woocommerce button.button, 
+	&.woocommerce input.button, &.woocommerce #respond input#submit, &.woocommerce #content input.button, 
+	&.woocommerce-page a.button,&.woocommerce-page button.button, 
+	&.woocommerce-page input.button, &.woocommerce-page #respond input#submit, &.woocommerce-page #content input.button, &.woocommerce ul.products li a.added_to_cart, &.woocommerce ul.products li a.button{
+		border:none;
+		box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+		&:hover{
+			transform: perspective(400px) translateY(-2px);
+			box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+		}
+	}
+	&.woocommerce div.product .woocommerce-tabs ul.tabs li{
+		border: none;	    
+	}
+	.mooc .woocart.active, 
+	.sleek .woocart.active{
+		padding:0;
+	}
+}
+
+
+
+/*========================================================================*/
+/*   02. BUDDYPRESS STYLING
+/*========================================================================*/
+.material{
+	#buddypress{
+		#pag-top.pagination {
+		    padding-top: 15px;
+		}
+		#activityform, .activity_content{
+			padding:0;
+		}
+		.selected,.current{
+			transform: perspective(400px) translateY(-2px);
+	    	text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+		}
+		.item-list-tabs{
+			a{
+				border-radius:5px;
+			}
+		}
+	}
+}
+
+
+
+/*========================================================================*/
+/*   02. PROFILE STYLING
+/*========================================================================*/
+
+/*========================================================================*/
+/*   02. COURSE STYLING
+/*========================================================================*/
+
+/*========================================================================*/
+/*   02. SIDEBARS STYLING
+/*========================================================================*/
+
+
+
+/*========================================================================*/
+/*   02. FOOTER STYLING
+/*========================================================================*/
+
+
+/*========================================================================*/
+/*   02. BLOCK STYLING
+/*========================================================================*/
+.material{
+	.block{
+		border:none !important;
+	 	box-shadow: 0 3px 50px 4px rgba(0,0,0,0.1);
+		transition:all 0.5s;
+		&.courseitem{
+			box-shadow:none;
+			&.course3{
+
+			}
+		}
+		.block_content{
+			border:none;
+		}
+		&:hover{
+			transform: perspective(400px) translateY(-2px);
+			box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+		}
+		&.course6{
+			&:hover{
+				transform: scale(1.2);
+    			padding: 15px;
+			}
+		}
+	}
+
+	.vibe_carousel .flex-direction-nav{
+		a.flex-prev,a.flex-next{
+	    	line-height:0;
+	    	border-radius:50%;
+	    	width: 56px;
+		    height: 56px;
+		    text-align: center;
+		    transition: all .3s;
+		    box-shadow: -3px 2px 4px 0px rgba(0,0,0,0.1);
+		    font-size:28px !important;
+		    line-height:2;
+		}	
+		.flex-prev{
+		    right: 36px;
+		}
+	} 
+}
+/*========================================================================*/
+/*   02. MISC STYLING
+/*========================================================================*/
+.material{
+	.dash-widget { border: none; }
+	.course_cat_nav,.course_filters {
+		box-shadow:0 1px 2px rgba(0,0,0,0.2)
+	}
+}

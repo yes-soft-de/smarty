@@ -1,0 +1,772 @@
+/**
+ * File: Modern.scss
+ * Description : Contains all styling for Modern Skin for WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. HEADER STYLING
+/*
+/*========================================================================*/
+/*   01. GLOBAL STYLING
+/*========================================================================*/
+
+@import '../defaults';
+
+.modern{
+	.pusher{
+		background:#FFF;
+		#title{
+			background:url(../images/title_bg.jpg) no-repeat center;
+		    background-size: cover;
+			padding-bottom:30px;
+			h1,h3,h5{
+				color:#fff;
+				position:relative;
+			}
+			.pagetitle{
+				padding-left:30px;
+				h1{
+					&:after{
+						content:'';
+						position:absolute;
+						left:-30px;
+						top:0;
+						width:4px;
+						height:100%;
+						display:block;
+						background:#009dd8;
+					}
+				}
+			}
+			.breadcrumbs{
+				color:#fff;
+				opacity:0.8;
+				a,li:before{
+					color:#fff;	
+				}
+			} 
+		}
+		.courseheader,.member_header,.group_header{
+			#item-header{
+				background:url('../images/title_bg.jpg');
+				a,h3{color:#fff;}
+			}
+		}
+	}
+	.padder.content,
+	.content,
+	&.page .content, 
+	&.single .content,
+	#item-body{
+		padding:0;	
+	}
+}
+
+/*========================================================================*/
+/*   02. HEADER STYLING
+/*========================================================================*/
+
+
+.modern{
+	#headertop{
+		padding:0;
+	    z-index: 1;
+    	position: relative;
+		ul{
+			&.topmenu > li,&.socialicons > li{
+				padding-top: 8px;
+	    		padding-bottom: 8px;
+	    		line-height: 20px;
+	    		border-left:1px solid $bordercolor;
+	    		&:first-child{
+	    			border-left:1px solid $bordercolor;
+	    		}
+			}
+		}
+		.headertop_content{
+			padding-top: 8px;
+    		padding-bottom: 8px;
+    		line-height: 20px;
+		}
+		border-bottom:1px solid $bordercolor;
+	}	
+	header{
+	    &.fixed{
+	    	box-shadow:0 1px 0 rgba(0,0,0,0.1);
+	    }
+	}
+	nav{
+		li{
+			&.current_page_item a,
+			&.current_menu_item a,
+			a:hover{
+				position:relative;
+				color:$primarybg;
+			}
+		}
+		& > li{
+			& > a:hover{
+				&:after{
+					content:'';
+					position:absolute;
+					left:0;bottom:0;width:100%;height:2px;
+					background:$primarybg;
+				}
+			}
+		}
+		.sub-menu{
+			border:1px solid $bordercolor;
+			& > li{
+				border-bottom:1px solid $bordercolor;
+			}
+		}
+	}
+	header{
+		.woocart,#searchform{
+			border:1px solid $bordercolor;
+		}
+	}	
+	.mooc .woocart .buttons, 
+	.sleek .woocart .buttons,
+	&.woocommerce-page #content input.button.alt{
+		border:none;
+	}
+	&.woocommerce .button{border:none;}
+}
+
+
+
+/*========================================================================*/
+/*   02. GENERAL STYLING
+/*========================================================================*/
+
+.modern{
+	#content{
+		padding-bottom:30px;
+		position:relative;
+		z-index:0;
+	}
+	footer{
+		margin-top:0;
+	}
+}
+
+.modern{
+	#unit_content{padding:0;}
+	.unit_prevnext{margin:20px 0 0;border-color:$bordercolor;}
+	.course_timeline{
+		border-color:$bordercolor;
+		li{
+			&.unit_line,
+			& > span{
+				border-color:$bordercolor;
+			}
+			a,&.active a, li:hover a,h4{
+				color:#444;
+			}
+		}
+		&.accordion{
+			.section:after{
+				color:#444;
+			}
+		}
+		.section{
+			border-top:1px solid $bordercolor;
+			border-bottom:1px solid $bordercolor;
+			&:first-child{border-top:none;}
+			&:last-child{border-bottom:none;}
+		}
+	}
+	.quiz_timeline .timeline_wrapper{
+		border-color: $bordercolor;
+	}
+
+	.unit_prevnext a{
+		color:#444;
+	}
+}
+
+/*========================================================================*/
+/*   02. ELEMENTS STYLING
+/*========================================================================*/
+.modern{
+	.pusher{
+		.button,
+		input[type=submit]:not(#sidebar-wp-submit),
+		.woocommerce #respond input#submit, 
+		.woocommerce a.button, 
+		.woocommerce button.button, 
+		.woocommerce input.button,
+		#buddypress a.button,
+		#buddypress input[type=submit],
+		#buddypress input[type=button]{
+			border:none;
+			color:$primarycolor;
+			box-shadow:0 2px 0 rgba(0,0,0,0.2);
+			&:hover{
+				box-shadow:none;
+				transform: translateY(2px);
+			}
+		}
+		h3.heading,
+		h4.widget_title{
+			border:none;
+			span{
+				position:relative;
+				padding-left:20px;
+				&:before{
+					content:'';
+					background:#009dd8;
+					position:absolute;
+					left:0;
+					top:0;
+					width:4px;
+					height:100%;
+				}
+			}
+		}
+	}
+}
+
+.modern{
+	.vibe_carousel .flex-direction-nav a {
+	    background: none;
+	    color: #666;
+	    border: 1px solid $bordercolor;
+	    border-radius: 0;
+	    padding: 9px;
+	}
+	.vibe_carousel, 
+	.widget_carousel{
+		.flex-direction-nav a.flex-prev{
+			right: 34px;
+		}
+	}
+} 
+
+
+
+/*========================================================================*/
+/*   02. SIDEBAR STYLING
+/*========================================================================*/
+
+.widget{
+	.widget_title{
+		border-bottom:none;
+		position:relative;
+	}
+}
+
+.modern{
+	#active_filters{
+		margin:10px 0 0;
+		li{
+			&:first-child{
+				margin:0 6px 0 0;
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. WOOCOMMERCE STYLING
+/*========================================================================*/
+
+.modern{
+	&.woocommerce-page a.button,
+	&.woocommerce nav.woocommerce-pagination ul li a,
+	#bbpress-forums .bbp-pagination .bbp-pagination-links a.page-numbers, 
+	#bbpress-forums .bbp-pagination .bbp-pagination-links span
+	&.woocommerce a.button, 
+	&.woocommerce button.button, 
+	&.woocommerce input.button, &.woocommerce #respond input#submit, &.woocommerce #content input.button, 
+	&.woocommerce-page a.button,&.woocommerce-page button.button, 
+	&.woocommerce-page input.button, &.woocommerce-page #respond input#submit, &.woocommerce-page #content input.button, &.woocommerce ul.products li a.added_to_cart, &.woocommerce ul.products li a.button{
+		color:$primarycolor;
+		box-shadow:0 2px 0 rgba(0,0,0,0.2);
+		&:hover{
+			box-shadow:none;
+		}
+	}
+	.mooc .woocart.active, 
+	.sleek .woocart.active{
+		padding:0;
+	}
+}
+
+
+
+/*========================================================================*/
+/*   02. BUDDYPRESS STYLING
+/*========================================================================*/
+.modern{
+	#buddypress{
+		#pag-top.pagination {
+		    padding-top: 15px;
+		}
+		#activityform, .activity_content{
+			padding:0;
+		}
+		div.item-list-tabs{
+			background:none;
+			line-height:0;
+			border-bottom: 2px solid #ddd;
+			margin: 30px 0 0;
+			overflow:visible;
+			ul{
+				display:inline-block;
+				li{
+					a{
+						background:none;
+					    padding: 15px;
+					    position:relative;
+						span{						    
+					        padding: 0px 5px;
+						    border:none;
+						    background:none;
+						    color:$primarybg;
+						}
+						&:hover{
+							background:none;
+						}
+					}
+					&.selected,&.current{
+						a{
+							background:none;
+							color:$primarybg;
+							border-color:$primarybg;
+							&:after{
+								content: '';
+							    width: 100%;
+							    background: $primarybg;
+							    height: 2px;
+							    border-radius:2px;
+							    display: block;
+							    position: absolute;
+							    bottom: -2px;
+							    left: 0;
+							}
+							span{
+								background:$primarybg;
+								color:$primarycolor;
+							}
+						}
+					}
+				}
+			}
+			&#subnav{
+				padding-left:0;
+				padding-right:0;
+				ul{
+					li{
+						a{
+							border:none;
+							background:none;
+						}
+						&.current,&.selected{
+							a{color:$primarybg;background:none;}
+						}
+					}
+				}
+			}
+		}
+		.dir-list{
+			padding-left:0;
+			padding-right:0;
+			padding-top:0;
+		}
+	} 
+	&.d2.directory{
+		#buddypress{
+			div.item-list-tabs{
+				margin-top:0;
+			}
+		}
+	}
+	&.d3.directory,&.d4.directory{
+		#buddypress{
+			div.item-list-tabs{
+				border:1px solid $bordercolor;
+				ul{
+					width:100%;
+					li{
+						border-bottom:1px solid $bordercolor;
+						&.selected,&.current{
+							a{
+								&:after{
+									width:2px !important;
+									height:100% !important;
+									left:0;
+									top:0;
+								}
+							}
+						}
+						&:last-child{
+							border:none;
+						}
+					}
+				}
+				&#subnav{
+					border:none;
+					border-bottom:1px solid $bordercolor;
+				}
+			}
+		}
+	}
+	#buddypress{
+		.dir-form .item-list-tabs#subnav{
+			margin-bottom:0;
+			ul li a{border:2px solid;}
+		}
+	}
+	&.archive.d5, 
+	&.directory.d5{
+		section#content,
+		section#title{
+			margin-top:0;
+			padding-bottom:0;
+		}
+	} 
+}
+.modern.groups.single-item{
+	#buddypress div#item-header{
+		div#item-header-content{
+			color:#444;
+		}
+	} 
+}
+
+.modern{
+	#buddypress div#item-header{
+		background:#fafafa;
+	}
+}
+.modern.groups.single-item.g4{
+	#item-header{
+		#item-header-content{
+			margin-top:30px;
+			.highlight{
+				color:#444;
+				font-size:11px;
+				text-transform:uppercase;
+				font-weight:600;
+				letter-spacing:1px;
+			}
+		}
+		#item-header-avatar{
+			margin:15px 0;
+			border-radius:4px;
+			overflow:hidden;
+			a,img{width:100%;}
+		}
+	}
+	.item-list-tabs{
+		&#object-nav{
+			text-align:left;
+			margin-bottom:0;
+		}
+	}
+	#item-body{
+		padding-top:0;
+		.item-list-tabs#subnav{
+			border-bottom:2px solid $bordercolor;
+			ul{
+				li{
+					clear:none;
+					float:left;
+					display:inline-block;
+					width:auto;
+					a{
+						padding:15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. PROFILE STYLING
+/*========================================================================*/
+.modern{
+	#buddypress{
+		div#item-header{
+			#item-header-content{
+			    border: 1px solid $bordercolor;
+			    border-top: none;
+			    border-bottom: none;
+			    #item-meta,
+			    h3,.location,h3>a,#latest-update h6,
+			    span.highlight a{
+					color:#444;
+				}
+			}
+		}
+		#item-nav{
+			margin-top:0;
+			.item-list-tabs{
+				margin:0;
+				padding:0;
+				border:1px solid $bordercolor;
+				ul{
+					li{
+						border-bottom:1px solid $bordercolor;
+						a{
+							color:#444;
+							text-align:left;
+						}
+						&.current,&.selected{
+							position:relative;
+							a{
+								background:none;
+								color:$primarybg;
+								&:after{
+									content:'';
+									width:2px;
+									position:absolute;
+									left:0;
+									top:0;
+									height:100%;
+									background:$primarybg;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.single-course{
+		.total_students,
+		.review_title,
+		.course_title > h2{
+			margin-left:0;
+			margin-right:0;
+			background:none;
+			border-top:1px solid $bordercolor;
+			border-bottom:1px solid $bordercolor;
+		}
+	}
+}
+
+.modern.p2.bp-user,
+.modern.p3.bp-user,
+.modern.p4.bp-user,
+.modern.g2.groups,
+.modern.g3.groups,
+.modern.g4.groups{
+	#buddypress{
+		#item-nav{
+			.item-list-tabs{
+				ul{
+					float:left;
+					li{
+						&.current,
+						&.selected{
+							a{
+								&:after{
+									width:100%;
+									height:2px;
+									top:auto;
+									bottom:-2px;
+								}
+							}
+						}
+					}
+				}
+			}
+		} 
+		.wplms-dashboard{margin-top:30px;}
+	}
+	
+	#buddypress{ 
+		#item-header{
+			#item-header-content{
+				padding:0;
+				border:none;
+			}
+		}
+		div.item-list-tabs#object-nav{
+			li{
+				.flexMenu-popup{
+					border:1px solid $bordercolor;
+					background:#FFF;
+				}
+			}
+		}
+	}
+}
+.modern.p2.bp-user,
+.modern.p3.bp-user,
+.modern.g2.groups,
+.modern.g3.groups{
+	#item-body{
+	    padding-top: 15px;
+	}
+}
+
+/*========================================================================*/
+/*   02. COURSE STYLING
+/*========================================================================*/
+.modern.single-course.c2,
+.modern.single-course.c3,
+.modern.single-course.c5{
+	.course_header{
+		color:#fff;
+		#item-header{
+			div#item-header-content{
+				color:#fff;
+				a,.breadcrumbs li+li:before{
+					color:#fff;
+				}
+			}
+			.widget.pricing{
+				padding:15px;
+			}
+		}
+	}
+	#item-nav{
+		margin-top:0;
+		background:#FFF;
+		border-top:1px solid $bordercolor;
+		border-bottom:1px solid $bordercolor;
+		.item-list-tabs#object-nav{
+			margin:0;
+			padding:0;
+			border:none;
+			ul{
+				li{
+					border:none;
+					a{
+						color:#444;
+						text-align:left;
+					}
+					&.current,&.selected{
+						position:relative;
+						a{
+							background:none;
+							color:$primarybg;
+							&:after{
+								content:'';
+								position:absolute;
+								background:$primarybg;
+								width:100%;
+								height:2px;
+								top:auto;
+								left:0;
+								bottom:-2px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.course_description+.course_curriculum .course_title h2{
+		padding:15px 0;
+	}
+	.students_undertaking{
+		border:1px solid $bordercolor;
+	}
+}
+
+.modern.single-course.c5 .course_header #item-header .widget.pricing{
+	background:#FFF;
+}
+
+.modern.single-course.submissions{
+	.course_sub_action{
+		position:relative;
+		&.current{
+			a{
+				color:$primarybg;
+				&:after{
+					content:'';
+					position:absolute;
+					left:0;
+					bottom:-2px;
+					height:2px;
+					width:100%;
+					background:$primarybg;
+				}
+			}
+		}
+	}
+}
+.single-course.c3.modern,
+.single-course.c4.modern{
+	#item-nav{
+		.item-list-tabs#object-nav{
+			li{
+				&.flexMenu-viewMore{
+					.flexMenu-popup{
+						background:#FFF;
+						border:1px solid $bordercolor;
+					}
+				}
+			}
+		}
+	}
+	#buddypress{
+		div#item-header{
+			#item-header-content{
+				border:none;
+				padding:0;
+			}
+		}
+	}	
+}
+/*========================================================================*/
+/*   02. SIDEBARS STYLING
+/*========================================================================*/
+.modern{
+	.widget{
+		&.pricing{
+		    border: 1px solid $bordercolor;
+    		background: #Fafafa;
+		}
+		.course_filters{
+			border:1px solid $bordercolor;
+			border-radius:2px;
+		}
+	}
+}
+
+
+/*========================================================================*/
+/*   02. FOOTER STYLING
+/*========================================================================*/
+
+.modern{
+	footer{
+		border-top:1px solid $bordercolor;
+		.footerbottom{
+			border-top:1px solid $bordercolor;
+		}
+		.form_field,input[type="text"]{
+			border:1px solid $bordercolor;
+			color:#444;
+		}
+	}
+	#footerbottom{
+		border-top:1px solid $bordercolor;
+	}
+}
+
+/*========================================================================*/
+/*   02. MISC STYLING
+/*========================================================================*/
+.modern{
+	.dash-widget { border: 1px solid $bordercolor; }
+	.countdown,.counttime{color:#444;}
+	.quiz_bar{border:2px solid #444;
+	.ques_link{color:#444;}
+	}
+}
