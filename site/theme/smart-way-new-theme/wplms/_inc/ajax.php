@@ -36,7 +36,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			  'post_status'  => 'publish',
 			  'post_type'    => 'smarty-consulting',
 			  'meta_input'   => array(
-				  '_contact_email_value_key' => $email
+				  '_consultation_email_value_key' => $email,
+//          '_price' => ''
 			  )
 		  );
 

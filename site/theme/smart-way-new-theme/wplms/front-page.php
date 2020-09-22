@@ -1,9 +1,14 @@
 <?php get_header(); ?>
 
 <!-- Start Home Page -->
-<?php  echo wp_get_session_token(); ?>
+<?php  //echo wp_get_session_token();
+//    var_dump(is_admin()); ?>
 <div class="home-page">
   <!-- live video section -->
+	<?php
+		// Get Live Video Price
+
+	?>
  <?php
 	 $args = array(
 		 'post_type' => 'course',
@@ -25,20 +30,7 @@
           <?php while ( $query->have_posts() ):
             $query->the_post(); ?>
             <div class="col-xs-12">
-              <div class="row">		
-				  <?php 
-				      // Get Live Video Price
-					  $args = array( 'post_type' => 'product' );
-					  $products = new WP_Query( $args );
-					  if ( $products->have_posts() ):
-						  while ( $products->have_posts() ) : $products->the_post();
-							  $product = wc_get_product( get_the_ID() );
-							  if ( $product->get_slug() == 'live-video' ) {
-								  $price = $product->get_price();
-							  }
-						  endwhile;
-					  endif;
-				  ?>
+              <div class="row">
               <div class="col-xs-12 col-md-8">
                 <div class="live-video-desc">					
                   <div class="row">
@@ -46,8 +38,26 @@
                       <span class="intro text-white">join our community</span>
                     </div>
                     <div class="col-xs-6 text-right pr-4">
-						<i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
-                      <span class="live-video-price">For <?php echo $price; ?>$</span>
+          						<i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
+                      <span class="live-video-price">For <?php echo smarty_get_product_price( 'live-video' ); ?>$</span>
+<!--	                    --><?php
+//		                    // Get Live Video Price
+//		                    $args = array( 'post_type' => 'product' );
+//		                    $products = new WP_Query( $args );
+//		                    if ( $products->have_posts() ):
+//			                    while ( $products->have_posts() ) : $products->the_post();
+//
+////				                    $product = wc_get_product( 161 );
+//                            var_dump(get_the_ID());
+////				                    if ( $product->get_slug() == 'live-video' ) {
+////			                      echo get_the_ID();
+////					                    $liveVideoPrice = $product->get_price();
+////                              echo '<span class="live-video-price">For '. $liveVideoPrice . '$</span>';
+////				                    }
+//			                    endwhile;
+//		                    endif;
+////	                      wp_reset_postdata();
+//                      ?>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-xs-12 pl-5">
@@ -404,7 +414,18 @@
           <h2 class="h1">Request for advice</h2>
         </div>
         <div class="col-xs-6 col-md-5 col-lg-4">
-          <h4 class="text-right">For 50 $</h4>
+	        <?php
+		        // Get Live Video Pricse
+//		        if ( $products->have_posts() ):
+//			        while ( $products->have_posts() ) : $products->the_post();
+//				        $product = wc_get_product( get_the_ID() );
+//				        if ( $product->get_slug() == 'consultation' ) {
+//					        $price = $product->get_price();
+//				        }
+//			        endwhile;
+//		        endif;
+	        ?>
+          <h4 class="text-right">For <?php echo smarty_get_product_price('consultation' ); ?> $</h4>
         </div>
         <div class="col-xs-12 mt-3">
           <?php
@@ -444,7 +465,25 @@
               <small class="text-danger form-control-msg mt-2">Your Message is Required</small>
             </div>
             <div class="form-group text-center">
-              <button type="submit" class="btn btn-default bg-pink py-1 px-5">Send</button>
+               
+<!--               --><?php //echo do_shortcode("[add_to_cart id='1091']"); ?>
+              <?php
+              global $product;
+              // check if the user is pay for this request
+              if ( !wc_customer_bought_product( wp_get_current_user()->user_email, get_current_user_id(), $product->get_id() ) ):
+              echo apply_filters( 'woocommerce_loop_add_to_cart_link',
+                sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
+                  esc_url( $product->add_to_cart_url() ),
+                  esc_attr( $product->get_id() ),
+                  esc_attr( $product->get_sku() ),
+                  $product->is_purchasable() ? 'add_to_cart_button' : '',
+                  esc_attr( $product->get_type() ),
+                  esc_html( $product->add_to_cart_text() )
+                ),
+                $product );
+              else: ?>
+                <button type="submit" class="btn btn-default bg-pink py-1 px-5">Send</button>
+              <?php endif; ?>
               <br>
               <small class="text-info form-control-msg js-form-submission">Submission in process, please wait..</small>
               <small class="text-success form-control-msg js-form-success">Message Successfully submitted, thank you!</small>
