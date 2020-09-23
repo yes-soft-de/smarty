@@ -13,15 +13,15 @@ do_action('wplms_single_course_content_end');
 						$students_undertaking=array();
 						$students_undertaking = bp_course_get_students_undertaking();
 						$students=get_post_meta(get_the_ID(),'vibe_students',true);
-	
-						$request_uri = explode('/', $_SERVER['REQUEST_URI']);
-						if ( in_array('pre-wellness', $request_uri, false) ||
-							 in_array('pre-business', $request_uri, false) ||
-							 in_array('pre-tune', $request_uri, false) ):
-							echo '<strong>'.$students.__(' MEMBERS ENROLLED','vibe').'</strong>';
-						else:
-							echo '<strong>'.$students.__(' STUDENTS ENROLLED','vibe').'</strong>';						
-						endif;
+
+            $request_uri = explode('/', $_SERVER['REQUEST_URI']);
+            if ( in_array('pre-wellness', $request_uri, false) ||
+                 in_array('pre-business', $request_uri, false) ||
+                 in_array('pre-tune', $request_uri, false) ):
+              echo '<strong>'.$students.__(' MEMBERS ENROLLED','vibe').'</strong>';
+            else:
+              echo '<strong>'.$students.__(' STUDENTS ENROLLED','vibe').'</strong>';
+            endif;
 
 						echo '<ul>';
 						foreach($students_undertaking as $student){
@@ -38,4 +38,4 @@ do_action('wplms_single_course_content_end');
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</div><!-- #buddypress -->
-</section>	
+</section>

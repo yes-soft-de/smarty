@@ -56,6 +56,76 @@ jQuery(document).ready( function($){
   });
 
 
+  $(document).on('submit', '#smartyContactForm', function (e) {
+    e.preventDefault();
+
+    $('.has-error').removeClass('has-error');
+    $('.js-show-feedback').removeClass('js-show-feedback');
+
+    var form = $(this),
+        consultingValue = form.find('#consultingType').val(),
+        message = form.find('#message').val(),
+        email = form.data('user-email'),
+        userId = form.data('user-id'),
+        ajaxurl = form.data('url');
+
+    if (consultingValue === '') {
+      $('#consultingType').parent('.form-group').addClass('has-error');
+      return;
+    }
+
+    if (message === '') {
+      $('#message').parent('.form-group').addClass('has-error');
+      return;
+    }
+
+    if (email === '' && userId === 0) {
+      $('.user-not-login').show();
+      return;
+    }
+
+    form.find('button, textarea').attr('disabled','disabled');
+    $('.js-form-submission').addClass('js-show-feedback');
+
+
+    $.ajax({
+      url: ajaxurl,
+      type: 'post',
+      data: {
+        consultingValue: consultingValue,
+        message: message,
+        email: email,
+        userId: userId,
+        action: 'smarty_consulting_form'
+      },
+      error : function( response ) {
+        $('.js-form-submission').removeClass('js-show-feedback');
+        $('.js-form-error').addClass('js-show-feedback');
+        form.find('button, textarea').removeAttr('disabled');
+      },
+      success : function( response ) {
+        // if the response equal to zero that mean the request was not successfully done and not recording into database
+        if( response == 0 ) {
+
+          setTimeout(function () {
+            $('.js-form-submission').removeClass('js-show-feedback');
+            $('.js-form-error').addClass('js-show-feedback');
+            form.find('button, textarea').removeAttr('disabled');
+          }, 1500);
+        } else {
+          setTimeout(function(){
+            $('.js-form-submission').removeClass('js-show-feedback');
+            $('.js-form-success').addClass('js-show-feedback');
+            form.find('button, textarea').removeAttr('disabled').val('');
+          },1500);
+        }
+
+      }
+    });
+
+  });
+
+
 
   
 

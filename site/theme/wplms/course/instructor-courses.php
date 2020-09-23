@@ -25,7 +25,7 @@ $append='&instructor='.$user_id;
 if ( bp_course_has_items( bp_ajax_querystring( 'course' ).$append )) : ?>
 <?php // global $items_template; var_dump( $items_template ) ?>
 	<div id="pag-top" class="pagination">
-
+		
 		<div class="pag-count" id="course-dir-count-top">
 
 			<?php bp_course_pagination_count(); ?>
