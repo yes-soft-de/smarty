@@ -1,14 +1,9 @@
 <?php get_header(); ?>
 
 <!-- Start Home Page -->
-<?php  //echo wp_get_session_token();
-//    var_dump(is_admin()); ?>
+<?php  // echo wp_get_session_token(); ?>
 <div class="home-page">
   <!-- live video section -->
-	<?php
-		// Get Live Video Price
-
-	?>
  <?php
 	 $args = array(
 		 'post_type' => 'course',
@@ -22,6 +17,9 @@
 		 ),
 	 );
 	 $query = new WP_Query( $args );
+// 	echo '<pre>';
+// 	print_r($query);
+// 	echo '</pre>';
 	 if ( $query->have_posts() ): ?>
     <article class="live-video">
       <div class="container">
@@ -30,7 +28,20 @@
           <?php while ( $query->have_posts() ):
             $query->the_post(); ?>
             <div class="col-xs-12">
-              <div class="row">
+              <div class="row">		
+				  <?php 
+				      // Get Live Video Price
+					  $args = array( 'post_type' => 'product' );
+					  $products = new WP_Query( $args );
+					  if ( $products->have_posts() ):
+						  while ( $products->have_posts() ) : $products->the_post();
+							  $product = wc_get_product( get_the_ID() );
+							  if ( $product->get_slug() == 'live-video' ) {
+								  $price = $product->get_price();
+							  }
+						  endwhile;
+					  endif;
+				  ?>
               <div class="col-xs-12 col-md-8">
                 <div class="live-video-desc">					
                   <div class="row">
@@ -38,26 +49,8 @@
                       <span class="intro text-white">join our community</span>
                     </div>
                     <div class="col-xs-6 text-right pr-4">
-          						<i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
-                      <span class="live-video-price">For <?php echo smarty_get_product_price( 'live-video' ); ?>$</span>
-<!--	                    --><?php
-//		                    // Get Live Video Price
-//		                    $args = array( 'post_type' => 'product' );
-//		                    $products = new WP_Query( $args );
-//		                    if ( $products->have_posts() ):
-//			                    while ( $products->have_posts() ) : $products->the_post();
-//
-////				                    $product = wc_get_product( 161 );
-//                            var_dump(get_the_ID());
-////				                    if ( $product->get_slug() == 'live-video' ) {
-////			                      echo get_the_ID();
-////					                    $liveVideoPrice = $product->get_price();
-////                              echo '<span class="live-video-price">For '. $liveVideoPrice . '$</span>';
-////				                    }
-//			                    endwhile;
-//		                    endif;
-////	                      wp_reset_postdata();
-//                      ?>
+						<i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
+                      <span class="live-video-price">For <?php echo $price; ?>$</span>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-xs-12 pl-5">
@@ -74,12 +67,11 @@
                     <div class="clearfix"></div>
                   </div><!--.row-->
                   <div class="w-75 register-button" style="width: 75%;">
-
-                    <a href="<?php echo get_permalink(); ?>">Take This Live Video</a>
-	                  <?php //echo the_course_button(get_the_ID()); ?>
-                    <!--                    <a href="--><?php //echo get_site_url() . '/register' ?><!--">Register now</a>-->
+					  <a href="<?php echo get_permalink(); ?>">Take This Live Video</a>
+					  <?php //echo the_course_button(get_the_ID()); ?>
+<!--                    <a href="--><?php //echo get_site_url() . '/register' ?><!--">Register now</a>-->
 	                  <?php // echo do_shortcode( '[lifterlms_access_plan_button id="51"]Register Now[/lifterlms_access_plan_button]') ;?>
-
+					  
                     <span class="d-inline-block text-center"><i class="fa fa-arrow-right"></i></span>
                   </div>
                 </div>
@@ -405,97 +397,6 @@
 	  /* Restore original Post Data */
 	  wp_reset_postdata(); ?>
   <!-- Our Courses -->
-
-  <!-- Consulting -->
-  <article class="consulting">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-6 col-md-7 col-lg-8">
-          <h2 class="h1">Request for advice</h2>
-        </div>
-        <div class="col-xs-6 col-md-5 col-lg-4">
-	        <?php
-		        // Get Live Video Pricse
-//		        if ( $products->have_posts() ):
-//			        while ( $products->have_posts() ) : $products->the_post();
-//				        $product = wc_get_product( get_the_ID() );
-//				        if ( $product->get_slug() == 'consultation' ) {
-//					        $price = $product->get_price();
-//				        }
-//			        endwhile;
-//		        endif;
-	        ?>
-          <h4 class="text-right">For <?php echo smarty_get_product_price('consultation' ); ?> $</h4>
-        </div>
-        <div class="col-xs-12 mt-3">
-          <?php
-            if ( is_user_logged_in() ):
-              $userEmail = wp_get_current_user()->user_email;
-              $userId = get_current_user_id();
-            else:
-	            $userEmail = '';
-	            $userId = 0;
-            endif;
-          ?>
-          <form id="smartyContactForm" class="smarty-contact-form" action="#" method="post" data-user-id="<?php echo $userId; ?>" data-user-email="<?php echo $userEmail; ?>" data-url="<?php echo admin_url( 'admin-ajax.php'); ?>">
-            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 form-group pl-0">
-              <?php $consultings = array(
-                  'Administrative',
-                  'Finance',
-                  'Preparing Content',
-                  'Support Finance',
-                  'Marketing',
-                  'Organizing Events',
-                  'Educational',
-                  'Life Plan',
-                  'Creativity Thinking'
-              ); ?>
-              <select id="consultingType" name="consulting-type" class="form-control smarty-select">
-               <option value="">TYPE OF CONSULTATION</option>
-                <?php
-                  foreach ($consultings as $consulting):
-                    echo '<option value="' . $consulting . '">' . ucwords( $consulting ) . '</option>';
-                  endforeach;
-                ?>
-              </select>
-              <small class="text-danger form-control-msg mt-2">Type Of Consultation Is Required</small>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" rows="6" name="message" id="message" placeholder="Write the consultation"></textarea>
-              <small class="text-danger form-control-msg mt-2">Your Message is Required</small>
-            </div>
-            <div class="form-group text-center">
-               
-<!--               --><?php //echo do_shortcode("[add_to_cart id='1091']"); ?>
-              <?php
-              global $product;
-              // check if the user is pay for this request
-              if ( !wc_customer_bought_product( wp_get_current_user()->user_email, get_current_user_id(), $product->get_id() ) ):
-              echo apply_filters( 'woocommerce_loop_add_to_cart_link',
-                sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
-                  esc_url( $product->add_to_cart_url() ),
-                  esc_attr( $product->get_id() ),
-                  esc_attr( $product->get_sku() ),
-                  $product->is_purchasable() ? 'add_to_cart_button' : '',
-                  esc_attr( $product->get_type() ),
-                  esc_html( $product->add_to_cart_text() )
-                ),
-                $product );
-              else: ?>
-                <button type="submit" class="btn btn-default bg-pink py-1 px-5">Send</button>
-              <?php endif; ?>
-              <br>
-              <small class="text-info form-control-msg js-form-submission">Submission in process, please wait..</small>
-              <small class="text-success form-control-msg js-form-success">Message Successfully submitted, thank you!</small>
-              <small class="text-danger form-control-msg js-form-error">There was a problem with the Contact Form, please try again!</small>
-              <small class="text-danger form-control-msg user-not-login">You must be logged in to send your request</small>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </article>
-  <!-- Consulting -->
 
   <!--Testimonial-->
   <?php

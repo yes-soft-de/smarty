@@ -26,5 +26,5 @@ width: 100%;
 list-style:none;
 }
 
-.block.courseitem span.amount{font-size:16px !important; }
+.block.courseitem span.amount{font-size:16px !important;}
 .live-edit-sidebar,.live-edit-sidebar + .text-options{display: none;}

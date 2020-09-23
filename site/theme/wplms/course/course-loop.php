@@ -14,7 +14,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 <?php 
 if ( bp_course_has_items( bp_ajax_querystring( 'course' ) ) ) : ?>
 	<div id="pag-top" class="pagination">
-		
+
 		<div class="pag-count" id="course-dir-count-top">
 
 			<?php bp_course_pagination_count(); ?>

@@ -26,6 +26,7 @@ wp_head();
         <?php
             $fix=vibe_get_option('header_fix');
         ?>
+        
         <header class="mooc app <?php if(isset($fix) && $fix){echo 'fix';} ?>">
             <?php
                 if(is_user_logged_in()){
@@ -68,7 +69,7 @@ wp_head();
                             if(!empty($url)){
                         ?>
                         
-                            <a href="<?php echo vibe_site_url('','logo'); ?>"><img src="<?php  echo $url; ?>" alt="<?php echo get_bloginfo('name'); ?>" /></a>
+                            <a href="<?php echo vibe_site_url('','logo'); ?>"><img src="<?php  echo get_template_directory_uri().'/assets/img/logo.png'; ?>" alt="<?php echo get_bloginfo('name'); ?>" /></a>
                         <?php
                             }
                             if(is_front_page()){

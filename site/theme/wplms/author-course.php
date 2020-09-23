@@ -5,7 +5,6 @@ global $wp_query;
 $curauth = $wp_query->get_queried_object();
 
 ?>
-
 <section id="title">
 	<?php do_action('wplms_before_title'); ?>
     <div class="<?php echo vibe_get_container(); ?>">

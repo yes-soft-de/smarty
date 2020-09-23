@@ -13,16 +13,17 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		</div>
 	</div>
 </section>
-<?php
+<?php 
 	$request_uri = explode('/', $_SERVER['REQUEST_URI']);
-	if ( !in_array('pre-wellness', $request_uri, false) &&
-	     !in_array('pre-business', $request_uri, false) &&
-	     !in_array('pre-tune', $request_uri, false) ):
+    if ( !in_array('pre-wellness', $request_uri, false) &&
+         !in_array('pre-business', $request_uri, false) &&
+         !in_array('pre-tune', $request_uri, false) ):
 ?>
 <section>
 	<div id="item-nav">
 		<div class="<?php echo vibe_get_container(); ?>">
 			<div class="item-list-tabs no-ajax" id="object-nav" role="navigation">
+	
 				<ul>
 					<?php bp_get_options_nav(); ?>
 					<?php

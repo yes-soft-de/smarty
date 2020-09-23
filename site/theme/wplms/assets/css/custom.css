@@ -303,7 +303,7 @@
   border-radius: 50%;
   color: #fff;
   line-height: 30px;
-  /*padding-top: 6px;*/
+  padding-top: 6px;
   background: rgba(255, 255, 255, 0.15);
   opacity: 0.5;
 }
@@ -539,41 +539,6 @@
 }
 .home-page article.our-courses .courses-carousel .slick-dots li.slick-active button:before {
   font-size: 13px;
-}
-.home-page article.consulting {
-  background-color: rgba(204, 169, 236, .52);
-}
-.home-page article.consulting h2 {
-  font-weight: bolder;
-}
-.home-page article.consulting h4 {
-  font-weight: 800;
-}
-.home-page article.consulting .smarty-select {
-  background : #30124E;
-  color: #fff;
-  cursor: pointer;
-}
-.home-page article.consulting .smarty-select:hover {
-  background-color: rgba(48, 18, 78, .8);
-}
-.home-page article.consulting .smarty-contact-form .form-group .form-control-msg {
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: .08rem;
-  font-size: 11px;
-}
-.home-page article.consulting .smarty-contact-form .form-group.has-error:before {
-  background-color: #a94442;
-}
-.form-control-msg {
-  display: none;
-}
-.has-error .form-control-msg {
-  display: block;
-}
-.js-show-feedback {
-  display: block;
 }
 .home-page article.testimonial { 
   padding-top: 100px;

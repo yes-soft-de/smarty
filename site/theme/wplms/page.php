@@ -1,9 +1,11 @@
 <?php
 
 // get_header(vibe_get_header());
-get_header();
+get_header();s
 
 if ( have_posts() ) : while ( have_posts() ) : the_post();
+
+
 
 ?>
 <section id="title">
