@@ -7,7 +7,8 @@ if(!empty($redirect_course_cat_directory)){
 	exit;	
 }
 
-get_header( vibe_get_header() ); ?>
+get_header();
+// get_header( vibe_get_header() ); ?>
 
 <section id="title">
 	<?php do_action('wplms_before_title'); ?>
@@ -60,4 +61,4 @@ get_header( vibe_get_header() ); ?>
 </div>
 </section>
 
-<?php get_footer( vibe_get_footer() );  ?>
+<?php get_footer(); // get_footer( vibe_get_footer() );  ?>

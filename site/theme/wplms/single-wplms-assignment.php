@@ -2,7 +2,8 @@
 if ( !defined( 'ABSPATH' ) ) exit;
 
 do_action('wplms_before_single_assignment');
-get_header(vibe_get_header());
+// get_header(vibe_get_header());
+get_header();
 if ( have_posts() ) : while ( have_posts() ) : the_post();
 
 $user_id = get_current_user_id();
@@ -169,4 +170,5 @@ if($user_id == $post->post_author || current_user_can('manage_options'))
     do_action('wplms_after_assignment');
 ?>
 <?php
-get_footer(vibe_get_footer());
+// get_footer(vibe_get_footer());
+get_footer();

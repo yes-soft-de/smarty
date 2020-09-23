@@ -13,6 +13,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		</div>
 	</div>
 </section>
+<?php
+	$request_uri = explode('/', $_SERVER['REQUEST_URI']);
+	if ( !in_array('pre-wellness', $request_uri, false) &&
+	     !in_array('pre-business', $request_uri, false) &&
+	     !in_array('pre-tune', $request_uri, false) ):
+?>
 <section>
 	<div id="item-nav">
 		<div class="<?php echo vibe_get_container(); ?>">
@@ -32,6 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		</div><!-- #item-nav -->
 	</div>
 </section>
+<?php endif; ?>
 <section id="content">
 	<div id="buddypress">
 	    <div class="<?php echo vibe_get_container(); ?>">

@@ -929,7 +929,7 @@ class WPLMS_Actions{
     }
     function include_child_theme_styling(){
     	if (get_template_directory() !== get_stylesheet_directory()) {
-	      	wp_enqueue_style('wplms_child_theme_style',get_stylesheet_uri(),'wplms-style');
+			  wp_enqueue_style('wplms_child_theme_style',get_stylesheet_uri(),'wplms-style');
 	    }
     }
 

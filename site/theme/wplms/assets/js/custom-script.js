@@ -24,6 +24,9 @@ jQuery(document).ready( function($){
         ajaxUrl = that.data('url'),
         courseId = that.data('id');
 
+        // show spinner loading icon
+        $('#spinner-cover').removeClass('hide');
+
     $.ajax({
       url: ajaxUrl,
       dataType: 'html',
@@ -34,8 +37,10 @@ jQuery(document).ready( function($){
       },
       error: function ( response ) {
         console.log( 'error : ', response );
+        $('#spinner-cover').addClass('hide');
       },
       success: function ( response ) {
+        $('#spinner-cover').addClass('hide');
         llms_meditations.html('');
         $('.topic').removeClass('bg-less-dark-blue');
         that.find('.topic').addClass('bg-less-dark-blue');
@@ -46,6 +51,76 @@ jQuery(document).ready( function($){
         }
       }
 
+    });
+
+  });
+
+
+  $(document).on('submit', '#smartyContactForm', function (e) {
+    e.preventDefault();
+
+    $('.has-error').removeClass('has-error');
+    $('.js-show-feedback').removeClass('js-show-feedback');
+
+    var form = $(this),
+        consultingValue = form.find('#consultingType').val(),
+        message = form.find('#message').val(),
+        email = form.data('user-email'),
+        userId = form.data('user-id'),
+        ajaxurl = form.data('url');
+
+    if (consultingValue === '') {
+      $('#consultingType').parent('.form-group').addClass('has-error');
+      return;
+    }
+
+    if (message === '') {
+      $('#message').parent('.form-group').addClass('has-error');
+      return;
+    }
+
+    if (email === '' && userId === 0) {
+      $('.user-not-login').show();
+      return;
+    }
+
+    form.find('button, textarea').attr('disabled','disabled');
+    $('.js-form-submission').addClass('js-show-feedback');
+
+
+    $.ajax({
+      url: ajaxurl,
+      type: 'post',
+      data: {
+        consultingValue: consultingValue,
+        message: message,
+        email: email,
+        userId: userId,
+        action: 'smarty_consulting_form'
+      },
+      error : function( response ) {
+        $('.js-form-submission').removeClass('js-show-feedback');
+        $('.js-form-error').addClass('js-show-feedback');
+        form.find('button, textarea').removeAttr('disabled');
+      },
+      success : function( response ) {
+        // if the response equal to zero that mean the request was not successfully done and not recording into database
+        if( response == 0 ) {
+
+          setTimeout(function () {
+            $('.js-form-submission').removeClass('js-show-feedback');
+            $('.js-form-error').addClass('js-show-feedback');
+            form.find('button, textarea').removeAttr('disabled');
+          }, 1500);
+        } else {
+          setTimeout(function(){
+            $('.js-form-submission').removeClass('js-show-feedback');
+            $('.js-form-success').addClass('js-show-feedback');
+            form.find('button, textarea').removeAttr('disabled').val('');
+          },1500);
+        }
+
+      }
     });
 
   });
@@ -82,9 +157,6 @@ jQuery(document).ready( function($){
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
 
@@ -183,6 +255,17 @@ jQuery(document).ready( function($){
       },
     ]
   });
+
+
+  // Carousel For Live Video
+  $('.testimonial-carousel').slick({
+    dots: true,
+    arrows: true,
+    autoPlay: true,
+    infinite: true,
+    speed: 300
+  });
+  
 
 
 });

@@ -2,7 +2,8 @@
 
 
 do_action('wplms_before_quiz');
-get_header(vibe_get_header());
+get_header();
+// get_header(vibe_get_header());
 $user_id = get_current_user_id();
 do_action('wplms_before_quiz_begining',get_the_ID());
 $quiztaken=get_user_meta($user_id,get_the_ID(),true);
@@ -93,5 +94,6 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
     </div>
 </section>
 <?php
-get_footer( vibe_get_footer() ); 
+// get_footer( vibe_get_footer() ); 
+get_footer(  ); 
 ?>

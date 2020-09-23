@@ -140,6 +140,20 @@
     width: 55px;
     height: 55px;
   }
+  .custom-main .llms-loop .cover {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    background: rgb(9 9 9 / 47%);
+    z-index: 9;
+  }
+  .custom-main .llms-loop .cover i {
+    align-self: center;
+  }
   .custom-main .llms-loop .custom-llms-loop-list .llms-loop-item.meditations .llms-loop-link:hover .meditation-title {
     color: #fff;
   }
@@ -184,11 +198,11 @@
   }
   .custom-main .llms-loop .meditations-topics .topic {
     padding: 10px;
-    background: rgba(51, 51, 51, 0.94);
+    background: rgb(48, 68, 78);
     border-radius: 50px;
     text-align: center;
     color: #fff;
-    min-height: 11rem;
+    min-height: 13rem;
   }
   .custom-main .llms-loop .meditations-topics .topic .topic-image {
     border-radius: 50%;
@@ -196,6 +210,7 @@
   }
   .custom-main .llms-loop .meditations-topics .topic h5 {
     margin-top: 0.5rem;
+    transform: translateY(50%);
   }
   .custom-main .llms-loop .meditations-topics .topic:hover {
     background: #5E239D;
@@ -218,7 +233,9 @@
   .custom-main .llms-loop .meditation-bottom-section p:last-of-type {
     background: #F61067;
   }
-  
+  #content .related_courses {
+    display: none;
+  }
   /*# sourceMappingURL=sunset.css.map */
   
   /*
@@ -237,6 +254,16 @@
 .home-page article.live-video .live-video-desc {
   border: 1px solid rgba(220, 220, 222, 0.32);
   padding: 20px;
+}
+.home-page article.live-video .live-video-desc .intro {
+  margin-top: 1rem;
+}
+.home-page article.live-video .live-video-desc i.fa-tag {
+  font-size: 1.6rem;
+}
+.home-page article.live-video .live-video-desc .live-video-price {
+  font-size: 2rem;
+  letter-spacing: .1rem;
 }
 .home-page article.live-video .live-video-desc p {
   font-size: 2rem;
@@ -276,7 +303,7 @@
   border-radius: 50%;
   color: #fff;
   line-height: 30px;
-  padding-top: 6px;
+  /*padding-top: 6px;*/
   background: rgba(255, 255, 255, 0.15);
   opacity: 0.5;
 }
@@ -513,6 +540,88 @@
 .home-page article.our-courses .courses-carousel .slick-dots li.slick-active button:before {
   font-size: 13px;
 }
+.home-page article.consulting {
+  background-color: rgba(204, 169, 236, .52);
+}
+.home-page article.consulting h2 {
+  font-weight: bolder;
+}
+.home-page article.consulting h4 {
+  font-weight: 800;
+}
+.home-page article.consulting .smarty-select {
+  background : #30124E;
+  color: #fff;
+  cursor: pointer;
+}
+.home-page article.consulting .smarty-select:hover {
+  background-color: rgba(48, 18, 78, .8);
+}
+.home-page article.consulting .smarty-contact-form .form-group .form-control-msg {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .08rem;
+  font-size: 11px;
+}
+.home-page article.consulting .smarty-contact-form .form-group.has-error:before {
+  background-color: #a94442;
+}
+.form-control-msg {
+  display: none;
+}
+.has-error .form-control-msg {
+  display: block;
+}
+.js-show-feedback {
+  display: block;
+}
+.home-page article.testimonial { 
+  padding-top: 100px;
+  background: #eee;
+}
+.home-page article.testimonial .testimonial-item img {
+    display: inline-block;
+    width: 40%;
+    border-radius: 50%;
+}
+.home-page article.testimonial .testimonial-item i {
+    display: block;
+    margin-top: -20px;
+    font-size: 50px;
+}
+.home-page article.testimonial .testimonial-item {
+  outline: none;
+}
+.home-page article.testimonial .slick-next:before, .slick-prev:before {
+  color: #F61067;
+  font-size: 30px;
+}
+.home-page article.newsletter-section {
+  background-color: #fff;
+}
+.home-page article.newsletter-section .widget-content form input.tnp-email {
+  border-right: none;
+  width: 70%;
+  border-top: none;
+  border-left: none;
+  background-color: #fff;
+  font-size: 17px;
+  letter-spacing: .05rem;
+}
+.home-page article.newsletter-section .widget-content form input.tnp-submit {
+  border-left: none;
+  width: 30%;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 15px;
+  border-top: none;
+  border-right: 0;
+  color: #F61067;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 1000;
+  padding-bottom: 11px;
+}
 .home-page article.live-video .intro,
 .home-page article.what-we-do .intro,
 .home-page article.believe-us .intro,
@@ -530,7 +639,8 @@
 .home-page article.believe-us h3,
 .home-page article.power-meditation h3,
 .home-page article.our-services h3,
-.home-page article.our-courses h3 {
+.home-page article.our-courses h3,
+.home-page article.newsletter-section h3 {
   letter-spacing: 0.1rem;
   font-weight: 600;
 }
@@ -541,14 +651,390 @@
   margin-bottom: 15px;
 }
 
+
+
+/* -- Articles Page -- */
+
+.article-page .article-header {
+  height: 300px;
+  padding: 100px;
+  background-image: url(../images/Header.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.article-page .article-header h1 {
+  color: #f01067;
+}
+
+.article-page .article-header p {
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+}
+
+.article-page .sub-article {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.article-page .sub-article .zoom-img {
+  height: 300px;
+  display: block;
+}
+
+.article-page .sub-article h2 {
+  margin: 0 0 15px;
+  font-size: 22px;
+  line-height: 30px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.article-page .sub-article h2 a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.article-page .sub-article h2 a:hover {
+  color: #f01067;
+}
+
+.article-page .sub-article .date {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f01067;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.article-page .sub-article .content {
+  height: 150px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.article-page .sub-article .share-area {
+  margin-top: 15px;
+}
+
+.article-page .sub-article .share-area span {
+  font-weight: bold;
+  color: #444;
+  font-size: 16px;
+}
+
+.article-page .sub-article .share-area ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-page .sub-article .share-area ul li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.article-page .sub-article .share-area ul li a {
+  transition: all 0.5s ease-in-out;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
+
+.article-page .sub-article .share-area ul li.facebook a {
+  color: #4867aa;
+}
+
+.article-page .sub-article .share-area ul li.twitter a {
+  color: #1c9be9;
+}
+
+.article-page .sub-article .share-area ul li.whatsapp a {
+  color: #50eb6a;
+}
+
+.article-page .sub-article .share-area ul li.facebook a:hover {
+  color: #fff;
+  background: #4867aa;
+}
+
+.article-page .sub-article .share-area ul li.twitter a:hover {
+  background: #1c9be9;
+  color: #fff;
+}
+
+.article-page .sub-article .share-area ul li.whatsapp a:hover {
+  background: #50eb6a;
+  color: #fff;
+}
+
+.article-page .sub-article .read-more {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  padding: 5px 15px;
+  background: #f01067;
+  border: 1px solid #f01067;
+  color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+.article-page .sub-article .read-more:hover {
+  background: #fff;
+  color: #f01067;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .article-page .sub-article .zoom-img {
+    height: 200px;
+  }
+  .article-page .sub-article h2 {
+    height: auto;
+    max-height: 60px;
+  }
+  .article-page .sub-article .content {
+    height: auto;
+    max-height: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .article-page .sub-article .zoom-img {
+    margin-bottom: 10px;
+  }
+  .article-page .sub-article h2 {
+    height: auto;
+    max-height: 60px;
+  }
+  .article-page .sub-article .content {
+    height: auto;
+    max-height: 150px;
+  }
+  .article-page .article-header {
+    padding: 40px 0 0 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .article-page .sub-article .zoom-img {
+    height: 225px;
+  }
+  .article-page .sub-article .read-more {
+    position: static;
+    margin-top: 15px;
+    display: inline-block;
+  }
+}
+
+/* -- ./Articles Page -- */
+
+
+/* -- Article Details Page -- */
+
+.article-details-page {
+  padding: 25px 0;
+}
+
+.article-details-page .main-img {
+  width: 100%;
+  max-height: 600px;
+}
+
+.article-details-page .title-box {
+  position: relative;
+}
+
+.article-details-page h1 {
+  font-size: 22px;
+  line-height: 30px;
+  width: calc(100% - 150px);
+}
+
+.article-details-page .date {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 25px;
+  color: #f01067;
+  font-weight: bold;
+}
+
+.article-details-page .details-content {
+  font-size: 16px;
+  color: #000;
+}
+
+.article-details-page .details-content img {
+  display: block;
+  margin: 10px auto;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+
+.article-details-page .share-area {
+  margin-top: 15px;
+}
+
+.article-details-page .share-area span {
+  font-weight: bold;
+  color: #444;
+  font-size: 16px;
+}
+
+.article-details-page .share-area ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-details-page .share-area ul li {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.article-details-page .share-area ul li a {
+  transition: all 0.5s ease-in-out;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
+
+.article-details-page .share-area ul li.facebook a {
+  color: #4867aa;
+}
+
+.article-details-page .share-area ul li.twitter a {
+  color: #1c9be9;
+}
+
+.article-details-page .share-area ul li.whatsapp a {
+  color: #50eb6a;
+}
+
+.article-details-page .share-area ul li.facebook a:hover {
+  color: #fff;
+  background: #4867aa;
+}
+
+.article-details-page .share-area ul li.twitter a:hover {
+  background: #1c9be9;
+  color: #fff;
+}
+
+.article-details-page .share-area ul li.whatsapp a:hover {
+  background: #50eb6a;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .article-details-page h1 {
+    width: 100%;
+  }
+
+  .article-details-page .date {
+    position: static;
+    margin-bottom: 15px;
+    display: block;
+  }
+}
+
+/* -- ./Article Details Page -- */
   
 
+/*
+	Footer Section
+	------------------------------------------------
+*/
+.footer {
+  background-color: #30124E;
+  color: #DCDCDE;
+  margin-top: 40px;
+  padding-top: 7rem;
+}
+.footer h2 {
+  color: #DCDCDE;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+.footer h5 {
+  color: #DCDCDE;
+  width: fit-content;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+.footer h5:after {
+  content: "";
+  display: block;
+  border: 1px solid #F61067;
+  margin-top: 0.5rem;
+}
+.footer ul li .nav-link,
+.footer ul li .icon-links, 
+.footer .social-media-icon .nav-link, 
+.footer .social-media-icon .icon-links {
+  color: #DCDCDE;
+}
+.footer ul li:hover .nav-link, 
+.footer ul li:hover .icon-links, 
+.footer ul li:focus .nav-link, 
+.footer ul li:focus .icon-links, 
+.footer ul li:visited .nav-link, 
+.footer ul li:visited .icon-links, 
+.footer .social-media-icon:hover .nav-link, 
+.footer .social-media-icon:hover .icon-links, 
+.footer .social-media-icon:focus .nav-link, 
+.footer .social-media-icon:focus .icon-links, 
+.footer .social-media-icon:visited .nav-link, 
+.footer .social-media-icon:visited .icon-links {
+  color: #fff;
+}
+
+.smart-way-footer {
+  background-color: #30124E;
+  color: #DCDCDE;
+  padding: 20px 0;
+}
+.smart-way-footer a {
+  color: #DCDCDE;
+}
+.smart-way-footer a:hover {
+  color: #5E239D;
+}
 
 
 /*
   Bootstrap 4 Classes
   -------------------------------------------------------
 */
+.zoom-img img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+}
+
 .responsive-image {
   width: 100% !important;
   height: 100% !important;
@@ -2552,129 +3038,5 @@ a.text-dark:focus, a.text-dark:hover {
   
   /* -- ./Home page -- */
   
-  /* -- ./Article page -- */
-A {text-decoration: none;}
-h2{
-    margin:10px;
-}
-.header{
-    width: 100%;
-    height: 100%;
-   background-image: url("starry-night.jpg"); 
-   background-position: 100% 100%;
-   background-repeat: no-repeat;
-
-}
-.main-content {
-    width: 70%;
-    margin: 30px auto;
-}
-
-.main-content .post {
-    width: 95%;
-    height: 270px;
-    margin: 10px auto;
-    border-radius: 5px;
-    background: white;
-    position: relative;
-}
-.main-content .post .post-image {
-    height:100%;
-    float: left;
-}
-.main-content .post .post-preview {
-    width: 70%;
-    padding: 5px;
-    float: right;
-}
-.main-content .post .preview-text {
-    width: 70%;
-    float: right;
-    color:black;
-}
-.main-content .post .btn {
-    padding-right: 30px;
-    padding-left: 30px;
-    float: 80px;
-}
-.btn{
-    padding: .5rem 1rem;
-    background: #f61067	;
-    color: white;
-    border: 1px solid transparent;
-    border-radius: 2rem;
-    font-size: 12px;
-}
-.main-content .post .learn-more{
-    position: absolute;
-    bottom: 0px;
-    right: 100px;
-}
-.main-content .post .far{
-color: #f61067;
-padding: 10px;
-}
-.main-content .post .share{
-    position: absolute;
-    bottom: 0px;
-    right: 570px;
-    color: black;
-}
-.icon { display: inline-block; }
-
-.main-content .post .fa{
-    width: 15px;
-    height: 15px;
-    bottom: 0px;
-    right: 510px;
-    position: absolute;
-
-}
-.tw{
-    width: 15px;
-    height: 15px;
-    bottom: 0px;
-    right: 540px;
-    position: absolute; 
-}
-.in{
-    width: 15px;
-    height: 15px;
-    bottom: 0px;
-    right: 480px;
-    position: absolute; 
-}
-.header .article{
-    color: #f61067;
-    font-size: 40px;
-    top: 150px;
-    margin: auto;
-    left: 220px;
-    position: absolute;
-}
-.header .know{
-    color: white;
-    font-size: 20px;
-    top: 200px;
-    left: 220px;
-    position: absolute;
-}
-.pages .left{
-    width: 20px;
-    height: 20px;
-}
-.pages .right{
-    width: 20px;
-    height: 20px;
-}
-.pages {
-    display: flex;
-  justify-content: center;
-  margin: 30px; 
-}
-.pages .one{
-    color: #f61067;
-}
- /* -- .End of article page -- */
   
   

@@ -1,9 +1,14 @@
 <?php get_header(); ?>
 
 <!-- Start Home Page -->
-<?php  echo wp_get_session_token(); ?>
+<?php  //echo wp_get_session_token();
+//    var_dump(is_admin()); ?>
 <div class="home-page">
   <!-- live video section -->
+	<?php
+		// Get Live Video Price
+
+	?>
  <?php
 	 $args = array(
 		 'post_type' => 'course',
@@ -27,13 +32,32 @@
             <div class="col-xs-12">
               <div class="row">
               <div class="col-xs-12 col-md-8">
-                <div class="live-video-desc">
+                <div class="live-video-desc">					
                   <div class="row">
                     <div class="col-xs-6 pl-5">
                       <span class="intro text-white">join our community</span>
                     </div>
                     <div class="col-xs-6 text-right pr-4">
-                      <span>For 50$</span>
+          						<i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
+                      <span class="live-video-price">For <?php echo smarty_get_product_price( 'live-video' ); ?>$</span>
+<!--	                    --><?php
+//		                    // Get Live Video Price
+//		                    $args = array( 'post_type' => 'product' );
+//		                    $products = new WP_Query( $args );
+//		                    if ( $products->have_posts() ):
+//			                    while ( $products->have_posts() ) : $products->the_post();
+//
+////				                    $product = wc_get_product( 161 );
+//                            var_dump(get_the_ID());
+////				                    if ( $product->get_slug() == 'live-video' ) {
+////			                      echo get_the_ID();
+////					                    $liveVideoPrice = $product->get_price();
+////                              echo '<span class="live-video-price">For '. $liveVideoPrice . '$</span>';
+////				                    }
+//			                    endwhile;
+//		                    endif;
+////	                      wp_reset_postdata();
+//                      ?>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-xs-12 pl-5">
@@ -50,8 +74,12 @@
                     <div class="clearfix"></div>
                   </div><!--.row-->
                   <div class="w-75 register-button" style="width: 75%;">
-<!--                    <a href="--><?php //echo get_site_url() . '/register' ?><!--">Register now</a>-->
-	                  <?php echo do_shortcode( '[lifterlms_access_plan_button id="51"]Register Now[/lifterlms_access_plan_button]') ;?>
+
+                    <a href="<?php echo get_permalink(); ?>">Take This Live Video</a>
+	                  <?php //echo the_course_button(get_the_ID()); ?>
+                    <!--                    <a href="--><?php //echo get_site_url() . '/register' ?><!--">Register now</a>-->
+	                  <?php // echo do_shortcode( '[lifterlms_access_plan_button id="51"]Register Now[/lifterlms_access_plan_button]') ;?>
+
                     <span class="d-inline-block text-center"><i class="fa fa-arrow-right"></i></span>
                   </div>
                 </div>
@@ -302,7 +330,7 @@
                   <a href="<?php echo $lesson['link']; ?>">
                     <div class="row">
                       <div class="col-xs-7">
-                        <img src="<?php// echo wp_get_attachment_url( get_post_thumbnail_id($lesson->id) ); ?>" alt="">
+                        <img src="<?php echo get_the_post_thumbnail_url( $lesson['id'] ) ? get_the_post_thumbnail_url( $lesson['id'] ) : get_template_directory_uri() . '/assets/img/inner-peace-meditation.jpg'; ?>" alt="">
                         <div class="d-inline-block meditation-div-title">
                           <span class="meditation-title d-block"><?php echo $lesson['title']; ?></span>
                           <span class="meditation-shadow-title d-block"><?php echo $lesson['title']; ?></span>
@@ -319,7 +347,7 @@
 
         </div><!--.container-->
         <div class="w-50 full-sessions" style="width: 50%;">
-          <a href="<?php // echo get_term_link('meditations', 'course_cat') ?>">See full sessions</a>
+          <a href="<?php echo get_term_link('meditations', 'course-cat') ?>">See full sessions</a>
           <span class="d-inline-block text-center"><i class="fa fa-arrow-right"></i></span>
         </div>
       </article>
@@ -377,6 +405,145 @@
 	  /* Restore original Post Data */
 	  wp_reset_postdata(); ?>
   <!-- Our Courses -->
+
+  <!-- Consulting -->
+  <article class="consulting">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-md-7 col-lg-8">
+          <h2 class="h1">Request for advice</h2>
+        </div>
+        <div class="col-xs-6 col-md-5 col-lg-4">
+	        <?php
+		        // Get Live Video Pricse
+//		        if ( $products->have_posts() ):
+//			        while ( $products->have_posts() ) : $products->the_post();
+//				        $product = wc_get_product( get_the_ID() );
+//				        if ( $product->get_slug() == 'consultation' ) {
+//					        $price = $product->get_price();
+//				        }
+//			        endwhile;
+//		        endif;
+	        ?>
+          <h4 class="text-right">For <?php echo smarty_get_product_price('consultation' ); ?> $</h4>
+        </div>
+        <div class="col-xs-12 mt-3">
+          <?php
+            if ( is_user_logged_in() ):
+              $userEmail = wp_get_current_user()->user_email;
+              $userId = get_current_user_id();
+            else:
+	            $userEmail = '';
+	            $userId = 0;
+            endif;
+          ?>
+          <form id="smartyContactForm" class="smarty-contact-form" action="#" method="post" data-user-id="<?php echo $userId; ?>" data-user-email="<?php echo $userEmail; ?>" data-url="<?php echo admin_url( 'admin-ajax.php'); ?>">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 form-group pl-0">
+              <?php $consultings = array(
+                  'Administrative',
+                  'Finance',
+                  'Preparing Content',
+                  'Support Finance',
+                  'Marketing',
+                  'Organizing Events',
+                  'Educational',
+                  'Life Plan',
+                  'Creativity Thinking'
+              ); ?>
+              <select id="consultingType" name="consulting-type" class="form-control smarty-select">
+               <option value="">TYPE OF CONSULTATION</option>
+                <?php
+                  foreach ($consultings as $consulting):
+                    echo '<option value="' . $consulting . '">' . ucwords( $consulting ) . '</option>';
+                  endforeach;
+                ?>
+              </select>
+              <small class="text-danger form-control-msg mt-2">Type Of Consultation Is Required</small>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="6" name="message" id="message" placeholder="Write the consultation"></textarea>
+              <small class="text-danger form-control-msg mt-2">Your Message is Required</small>
+            </div>
+            <div class="form-group text-center">
+               
+<!--               --><?php //echo do_shortcode("[add_to_cart id='1091']"); ?>
+              <?php
+              global $product;
+              // check if the user is pay for this request
+              if ( !wc_customer_bought_product( wp_get_current_user()->user_email, get_current_user_id(), $product->get_id() ) ):
+              echo apply_filters( 'woocommerce_loop_add_to_cart_link',
+                sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
+                  esc_url( $product->add_to_cart_url() ),
+                  esc_attr( $product->get_id() ),
+                  esc_attr( $product->get_sku() ),
+                  $product->is_purchasable() ? 'add_to_cart_button' : '',
+                  esc_attr( $product->get_type() ),
+                  esc_html( $product->add_to_cart_text() )
+                ),
+                $product );
+              else: ?>
+                <button type="submit" class="btn btn-default bg-pink py-1 px-5">Send</button>
+              <?php endif; ?>
+              <br>
+              <small class="text-info form-control-msg js-form-submission">Submission in process, please wait..</small>
+              <small class="text-success form-control-msg js-form-success">Message Successfully submitted, thank you!</small>
+              <small class="text-danger form-control-msg js-form-error">There was a problem with the Contact Form, please try again!</small>
+              <small class="text-danger form-control-msg user-not-login">You must be logged in to send your request</small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- Consulting -->
+
+  <!--Testimonial-->
+  <?php
+    $args = array(
+        'post_type' => 'testimonials',
+        'posts_per_page' => -1        
+    );
+
+    $query = new WP_Query( $args );
+    if ( $query->have_posts() ): ?>
+  <article class="testimonial">
+    <div class="container">
+      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-8 mx-auto testimonial-carousel">
+        
+      <?php while ( $query->have_posts() ):
+                $query->the_post(); ?>
+
+        <div class="testimonial-item text-center">
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>" class="" alt="">
+          <i class="fa fa-quote-left fa-3x pink"></i>
+          <h3 class="mb-4"><?php echo get_the_content(); ?></h3>
+          <p>
+            <span class="pink m-1"><?php echo get_the_title(); ?></span>
+            <span class="m-1">Company Name</span>
+          </p>
+        </div>
+        <?php endwhile; ?>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </article>
+  <?php endif;
+	  /* Restore original Post Data */
+	  wp_reset_postdata(); ?>
+  <!--Testimonial-->
+
+
+  <!--Newsletter-->
+<?php if (is_active_sidebar('newsletter-sidebar')) : ?>
+  <article class="newsletter-section text-center py-5">
+    <div class="container">
+      <div class="col-xs-12 col-sm-8 col-md-6 mx-auto">
+        <?php dynamic_sidebar('newsletter-sidebar'); ?>
+      </div>
+    </div>
+  </article>
+<?php endif; ?>
+  <!--Newsletter-->
 
 
 </div>

@@ -17,6 +17,53 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 
+  add_action( 'wp_ajax_nopriv_smarty_consulting_form', 'smarty_consulting_form' );
+	add_action( 'wp_ajax_smarty_consulting_form', 'smarty_consulting_form' );
+
+	function smarty_consulting_form() {
+
+	  $consulting = wp_strip_all_tags( $_POST['consultingValue'] );
+    $message = wp_strip_all_tags( $_POST['message'] );
+	  $email = wp_strip_all_tags($_POST['email']);
+	  $userId = wp_strip_all_tags($_POST['userId']);
+
+	  if ( $userId == get_current_user_id() ) {
+
+		  $args = array(
+			  'post_title'   => $consulting,
+			  'post_content' => $message,
+			  'post_author'  => $userId,
+			  'post_status'  => 'publish',
+			  'post_type'    => 'smarty-consulting',
+			  'meta_input'   => array(
+				  '_consultation_email_value_key' => $email,
+//          '_price' => ''
+			  )
+		  );
+
+		  $postID = wp_insert_post( $args );
+
+		  if ( $postID != 0 ) {
+
+	      $to = get_bloginfo( 'admin_email' );
+			  $subject = 'Smart-Y Consultation : ' . $consulting;
+
+			  $headers[] = 'From: ' . get_bloginfo( 'name' ) . ' <' . $to . '>'; // 'From: Talal <me@gmail.com>'
+			  $headers[] = 'Reply-To: ' . $consulting . ' <' . $email . '>';
+			  $headers[] = 'Content-Type: text/html: charset=UTF-8';
+
+			  wp_mail( $to, $subject, $message, $headers );
+		  }
+	  } else {
+		  $postID = 0;
+    }
+
+    echo $postID;
+
+    die();
+  }
+
+
 
 add_action( 'wp_ajax_nopriv_smart_way_load_more', 'smart_way_load_more' );    // If The User Not Logged In
 add_action( 'wp_ajax_smart_way_load_more', 'smart_way_load_more' );           // If The User Logged In
