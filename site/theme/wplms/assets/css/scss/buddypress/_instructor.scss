@@ -1,0 +1,167 @@
+/*========================================================================*/
+/*   01. Instructor Meta
+/*========================================================================*/
+
+#buddypress ul.item-list li {
+	.item-instructor{
+		margin-top:15px;
+		display: grid;
+	    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	    grid-gap: 15px;
+	    align-items: center;
+	} 
+}
+ 
+.instructor_course{
+	display:grid !important;
+	grid-template-columns: 32px 1fr;
+	grid-gap:10px;
+	align-items:center;
+	justify-items:start;
+	.item-avatar{
+		img{
+			border-radius:50%;
+		}
+	}
+}
+
+/*========================================================================*/
+/*   02. Instructor in Course
+/*========================================================================*/
+.instructor_course{
+	.instructor_meta{
+		margin:0;
+		li{
+			list-style:none; 
+			padding:0;
+			clear:none;
+			float:left;
+			width:auto;
+			border:none;
+			a{
+				&.button{
+					padding:1px 4px !important;
+					margin:0 5px 0 0;
+				}
+			}
+		}
+	}	
+} 
+
+.widget .instructor_course .instructor_meta,.footerwidget .instructor_course .instructor_meta{display:none;}
+
+
+
+#buddypress{
+	
+	div#item-header{
+		ul.instructor_meta{
+			float: right;
+			padding: 0 5px;
+			margin: 0;
+			a.button{padding:2px 5px;}
+		}
+	}	
+}  
+
+
+
+#buddypress{
+	ul.item-list{
+		li{
+			.item-instructor{
+				img.avatar{
+					max-width: 36px;
+					border-radius:50% !important;
+					margin-right:0;
+				}
+			}
+		}
+	}	
+} 
+/*========================================================================*/
+/*   07. Instructor in Directory
+/*========================================================================*/
+.item-instructor{
+	padding:15px 0 0;
+	strong{
+		float:right;
+		display: inline-block;
+		min-width:108px;
+		span{
+			display: block;
+			font-size: 11px;
+			opacity: 0.5;
+			text-transform: uppercase;
+			&.amount{
+				color:#5D951F;
+				font-size:20px;
+				text-align: center;
+				opacity: 1;
+				margin-right:5px;
+			}
+		}
+	}
+}
+/*========================================================================*/
+/*   07. Course Instructor
+/*========================================================================*/
+.course_instructor{
+	margin:0;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight:600;
+	a{
+		font-weight:600;
+	}
+	span{
+		display: block;
+		color: #bbb;
+		font-size: 11px;
+	}
+}	
+
+
+.instructor_action_buttons{
+	display: inline-block;
+	width:100%;
+	border-left: 1px solid $bordercolor;
+	li{
+		float:left;
+		position:relative;
+		max-width:120px !important;
+		text-align:center;
+		border-top: 1px solid $bordercolor;
+		border-right: 1px solid $bordercolor;
+		clear:none !important;
+		a{
+			padding: 30px 5px !important;
+			i{
+				font-size:32px !important;
+				color:#bbb;
+				&:hover{
+					color:$primarybg;
+				}
+			}
+			span{
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    padding: 4px 5px;
+			    background: $primarybg;
+			    color: #FFF !important;
+			    font-size: 10px !important;
+			    line-height: 1;
+			}
+		}
+	}
+}
+
+.grid{
+	.instructor_action_buttons{
+		border:none;
+		& > li{
+			padding: 5px;
+		}
+	}
+}

@@ -1,0 +1,50 @@
+/*========================================================================*/
+/*   07. MISCELLANEOUS
+/*========================================================================*/
+
+#calendar_wrap{
+	border: 1px solid rgba(0,0,0,0.1);
+	background: rgba(255,255,255,0.4);
+	border-radius: 2px;
+	width: 100%;
+}
+#calendar_wrap table{width:100%;}
+#calendar_wrap caption{
+	padding: 6px;
+	background: #232b2d;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#calendar_wrap thead,
+#calendar_wrap tfoot{
+	background:rgba(0,0,0,0.1);
+}
+#calendar_wrap tfoot a{
+	font-size:12px;
+	font-weight:600;
+	text-transform: uppercase;
+	padding:6px;
+}
+
+#calendar_wrap tbody td{
+	text-align: center;
+	border-top: 1px solid rgba(0,0,0,0.05);
+	border-right: 1px solid rgba(0,0,0,0.05);
+}
+
+#calendar_wrap tbody td#today{
+	background: #78c8c9;
+color: #FFF;
+font-weight: 600;
+background-image: url(../images/button.png);
+}
+
+
+#userstats li strong.stats_user_course_status{
+	margin:0;
+	padding:8px 15px;
+	text-transform:uppercase;
+    border: 1px solid rgba(0,0,0,0.2);
+}

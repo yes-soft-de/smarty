@@ -1,0 +1,97 @@
+
+/*========================================================================*/
+/*  BOXED CHANGES IN WPLMS TEMPLATE
+/*========================================================================*/
+
+
+/*========================================================================*/
+/*   01. HEADER
+/*========================================================================*/
+.boxed #headertop{
+	background:none !important;
+	padding:0;
+}
+
+.boxed header{
+	background:none !important;
+}
+
+.boxed #headertop .container{
+	background:#232b2d;
+	padding:8px 30px;
+}
+.boxed header .container{
+	background:#313B3D;
+	padding:0 30px;
+}
+
+.boxed #item-body{
+	padding-top:0;
+}
+
+
+/*========================================================================*/
+/*   01. FOOTER
+/*========================================================================*/
+
+.boxed footer{
+	margin-top:0;
+	padding:0;
+	background:none !important;
+}
+.boxed footer .container{
+	padding:30px;
+	background:#313B3D;
+}
+
+.boxed #footerbottom{
+	padding:0;
+	background:none !important;
+}
+.boxed #footerbottom .container{
+	padding:30px 30px 20px;
+	background:#232b2d;
+}
+
+/*========================================================================*/
+/*   01. CONTENT
+/*========================================================================*/
+
+.boxed #content .container,
+.boxed .main .container,
+.boxed #create_content .container{
+	background:#FFF;
+	padding:30px;
+}
+
+.boxed #content #buddypress{
+	margin-top:0;
+}
+
+.boxed #title,
+.boxed #grouptitle, 
+.boxed #memberstitle, 
+.boxed #activitytitle{
+	padding-bottom:20px;
+}
+
+
+.boxed.page .content,
+.boxed.single .content,
+.boxed .padder.content{
+	margin:0;
+	padding:0;
+}
+.boxed #groups-dir-list, 
+.boxed #course-dir-list{
+	padding:0;
+}
+
+.boxed .widget_carousel .flex-direction-nav a.flex-next, 
+.boxed .vibe_carousel .flex-direction-nav a.flex-next,
+.boxed .widget_carousel .flex-direction-nav a.flex-prev, 
+.boxed .vibe_carousel .flex-direction-nav a.flex-prev{
+	top:8px;
+}
+
+.boxed #buddypress #members-activity div.activity-type-tabs ul li{width:165px;}

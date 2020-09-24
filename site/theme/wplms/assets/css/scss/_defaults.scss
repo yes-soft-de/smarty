@@ -1,0 +1,199 @@
+$globalbg : #F9F9F9;
+$textcolor: #313b3d;
+$fontsize : 14px;
+$fontweight: 400;
+$font-family:'Open Sans', 'Helvetica Neue',sans-serif;
+
+$primarybg : #78C8Ce;
+$secondarybg: #F16645;
+$primarycolor : #FFF;
+$secondarycolor : #FFF;
+
+$successbg: #70c989;
+$successcolor: #FFF;
+$errorbg:#f9edbe;
+$errorcolor:#222;
+
+$pricecolor:#70c989;
+
+$topheaderbg:#232b2d;
+$topheadercolor:#FFF;
+
+$headerbg: #313B3D;
+$headercolor:#FFF;
+$darkmenubg:#232b2d;
+$lightmenubg:#313B3D;
+$darkmenucolor:#FFF;
+$lightmenucolor:#FFF;
+
+$bordercolor: rgba(0,0,0,0.08); //$bordercolor;
+
+$light-border-color : #fafafa;
+$light-text-color: #bbb;
+
+$breadcrumbscolor: #444;
+$title-bg:#fafafa;
+
+$topheaderbg: #232b2d;
+$pagesidebarbg: #0e262e;
+$pagesidebarcolor: #FFF;
+$titlebg:#fafafa;//F0F3F4;     
+$titlecolor:#444;//#443d3d;
+
+
+
+$menufont : 'Raleway',sans-serif;
+
+$darker-color:#E4EAEC;
+$logo-bg-color:#333742;
+$content-bg-color: #FFFFFF;	
+$content-border-color:rgba(0,0,0,0.05);
+$header-bg-color:#FFF;
+$header-text-color:#FFF;
+$menu-bg-color:#333742;
+$menu-color:#FFF;
+$dropdown-bg-color:#24272F;
+$dropdown-text-color:#FFF;
+
+$primary-bg-color: #009dd8;
+$primary-text-color:#FFF;
+
+$secondary-bg-color:#ff5722;
+$secondary-text-color:#FFF;
+
+
+$menu-item-width: 180px;
+
+/**
+ * WooCommerce CSS Variables
+ */
+
+$woocommerce:   	#a46497;
+$green:         	#7ad03a;
+$red:           	#a00;
+$orange:        	#ffba00;
+$blue:          	#2ea2cc;
+
+$primary:           #a46497;                                    // Primary colour for buttons (alt)
+$primarytext:       desaturate(lighten($primary, 50%), 18%);    // Text on primary colour bg
+
+$secondary:         desaturate(lighten($primary, 40%), 21%);    // Secondary buttons
+$secondarytext:     desaturate(darken($secondary, 60%), 21%);   // Text on secondary colour bg
+
+$highlight:         adjust-hue($primary, 150deg);               // Prices, In stock labels, sales flash
+$highlightext:      desaturate(lighten($highlight, 50%), 18%);  // Text on highlight colour bg
+
+$contentbg:         #fff;                                       // Content BG - Tabs (active state)
+$subtext:           #777;                                       // small, breadcrumbs etc
+
+
+
+@mixin link($color: #bbb, $symbol: "\f177", $size: 11px,$direction: left) {
+	font-size: $size;
+	color:$color;
+	text-transform:uppercase;
+	font-weight:600;
+	@if $direction == left{
+		&:before{
+			font-family:'fontawesome';
+			content: $symbol;
+			font-size: $size;
+			margin-right: 5px;
+		}
+	} @else {
+		&:after{
+			font-family:'fontawesome';
+			content: $symbol;
+			font-size: $size;
+			margin-left: 5px;
+		}
+	}
+}
+
+@mixin small(){
+  font-size: 11px;
+  text-transform: uppercase;
+  color: $light-text-color;
+}
+
+
+
+@mixin clearfix() {
+	*zoom: 1;
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+@mixin icon( $glyph: "\e001" ) {
+	font-family: 'WooCommerce';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	content: $glyph;
+}
+
+@mixin iconbefore( $glyph: "\e001" ) {
+	font-family: 'WooCommerce';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .618em;
+	content: $glyph;
+	text-decoration: none;
+}
+
+@mixin iconafter( $glyph: "\e001" ) {
+	font-family: 'WooCommerce';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin-left: .618em;
+	content: $glyph;
+	text-decoration: none;
+}
+
+@mixin loader() {
+	&:before {
+		height: 1em;
+		width: 1em;
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -.5em;
+		margin-top: -.5em;
+		display: block;
+		content: "";
+		background: url(../images/icons/loader.svg) center center;
+		background-size: cover;
+		line-height: 1;
+		text-align: center;
+		font-size: 2em;
+		color: rgba(#000,0.75);
+	}
+}

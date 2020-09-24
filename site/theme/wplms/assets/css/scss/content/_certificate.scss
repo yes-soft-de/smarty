@@ -1,0 +1,58 @@
+/*========================================================================*/
+/*   07. CERTIFICATE
+/*========================================================================*/
+.certificate {
+	text-align: center;
+	font-size:16px;
+	margin:0;
+	p{margin:0;}
+}
+.mfp-content{
+	.certificate_generated{
+		margin-top:60px;
+	}
+}
+#certificate{background: #FFF;}
+.certificate_content{position: relative;z-index:2;}
+
+.certificate h1{
+	font-size: 60px;
+	font-weight: 800;
+}
+.certificate h2{font-size:32px;
+	text-transform: uppercase;font-weight: 600;
+}
+.certificate h2 span{color:#bbb;display: block;
+font-size:18px;
+}
+.certificate h3{
+	font-size:24px;
+	text-transform: uppercase;font-weight: 600;
+}
+.mfp-content .certificate_generated .col-md-12{margin:0;padding:0;}
+.certificate_content{
+	position: relative;
+	border-radius:2px;
+	background-color:#FFF;
+	padding:0;
+	display: inline-block;
+	width:100%;
+	media:print;
+}
+
+.single-certificate #certificate{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.vibe_carousel.widget_carousel.flexslider .block{margin-right:0;}
+.vibe_carousel.widget_carousel.flexslider .flex-direction-nav li{border-bottom:none;}
+
+/*.vibe_carousel.onecol .slides > li+li {
+margin-left: 30px;
+}*/
+
+.certificate_bg_image{
+	width:100%;
+	height:auto;
+	z-index: -1;
+}
