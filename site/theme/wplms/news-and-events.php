@@ -1,4 +1,4 @@
-<?php /* Template Name: New And Events */ ?>
+<?php /* Template Name: CustomPageT1 */ ?>
 <?php get_header() ?>
 <!-- This is the standard html code that we will find in every standard wordpress theme -->
 <div id="primary" class="content-area">

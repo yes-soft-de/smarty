@@ -183,7 +183,7 @@ if ( in_array('courses', $request_uri, false) ): ?>
 					$query = new WP_Query( $args );
 				?>
 				<h3>Mindfulness plan ( <?php echo $query->found_posts . ' ' . ($query->found_posts > 1 ? 'Topics' : 'Topic'); ?> )</h3>
-				<p class="lead">Online Mindfulness-Based Stress Reduction (MBSR).This online MBSR training course is created by a fully certified MBSR instructor, and is based</p>
+        <p class="lead">Online Mindfulness-Based Stress Reduction (MBSR).This online MBSR training course is created by a fully certified MBSR instructor, and is based</p>
 				<ul class="custom-llms-loop-list">
 					<div class="row">
 						<div id="llms-loop-item-meditations" class="col-12 mx-auto">
@@ -197,7 +197,7 @@ if ( in_array('courses', $request_uri, false) ): ?>
 		</div>
 		<div class="clearfix"></div>
 		<?php $request_uri = explode('/', $_SERVER['REQUEST_URI']);
-			echo '<div class="container">';
+		  echo '<div class="container">';
 			if ( in_array('meditations', $request_uri, false) ): ?>
 				<div class="col-xs-12 meditation-bottom-section pt-5">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>
