@@ -1,0 +1,549 @@
+{
+	"wplms_course_progress": {
+		"2": {
+			"title": "Course Progress",
+			"number": "5",
+			"finished": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_contact_users": {
+		"2": {
+			"title": "Contact Instructors",
+			"users": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "Contact Instructors",
+			"users": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_tasks": {
+		"2": {
+			"title": "To do List",
+			"date": "1",
+			"priority": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "To do List",
+			"date": "1",
+			"priority": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_student_stats": {
+		"2": {
+			"title": "Student Statistics",
+			"width": "col-md-12",
+			"course": "1",
+			"quiz": "1",
+			"assignments": "1",
+			"course_chart": "Area",
+			"quiz_chart": "Line",
+			"assignment_chart": "Line"
+		},
+		"4": {
+			"title": "Student Statistics",
+			"width": "col-md-6 col-sm-12",
+			"course": "1",
+			"quiz": "1",
+			"assignments": "1",
+			"course_chart": "Line",
+			"quiz_chart": "Line",
+			"assignment_chart": "Line"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_stats": {
+		"2": {
+			"title": "",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"3": {
+			"title": "",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"4": {
+			"title": "",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"5": {
+			"title": "",
+			"stats": "units",
+			"width": "col-md-3 col-sm-6"
+		},
+		"6": {
+			"title": "Finished Courses",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"7": {
+			"title": "Finished Quizzes",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"8": {
+			"title": "Finished Assignments",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"9": {
+			"title": "Finished Units",
+			"stats": "units",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_news": {
+		"2": {
+			"title": "News",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"3": {
+			"title": "",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_line_break": {
+		"2": [],
+		"3": [],
+		"_multiwidget": 1
+	},
+	"bp_course_widget": {
+		"3": {
+			"title": "Course",
+			"style": "list",
+			"category": "",
+			"orderby": "comment_count",
+			"order": "DESC",
+			"ids": "",
+			"max_items": "5"
+		},
+		"4": {
+			"title": "Course",
+			"style": "carousel",
+			"category": "",
+			"orderby": "vibe_students",
+			"order": "DESC",
+			"ids": "",
+			"max_items": "5"
+		},
+		"5": {
+			"title": "Popular Courses",
+			"style": "list1",
+			"category": "",
+			"orderby": "vibe_students",
+			"order": "DESC",
+			"ids": "",
+			"max_items": "3"
+		},
+		"6": {
+			"title": "Most Rated",
+			"style": "list1",
+			"category": "",
+			"orderby": "comment_count",
+			"order": "DESC",
+			"ids": "",
+			"max_items": "3"
+		},
+		"_multiwidget": 1
+	},
+	"bp_instructor_widget": {
+		"2": {
+			"title": "Instructor Details",
+			"instructor": "1",
+			"max_items": "5"
+		},
+		"_multiwidget": 1
+	},
+	"bp_course_search_widget": {
+		"2": {
+			"title": "Advanced Course Search Widget",
+			"cats": "1",
+			"instructors": "1",
+			"level": ""
+		},
+		"3": {
+			"title": "Advanced Course Search Widget",
+			"cats": "1",
+			"instructors": "1",
+			"level": ""
+		},
+		"4": {
+			"title": "Advanced Course Search Widget",
+			"cats": "1",
+			"instructors": "1",
+			"level": ""
+		},
+		"_multiwidget": 1
+	},
+	"bp_course_stats_widget": {
+		"2": {
+			"title": "Course Stats Widget",
+			"course": "",
+			"students": "1",
+			"badgecertificates": "1"
+		},
+		"_multiwidget": 1
+	},
+	"bp_course_filter_widget": {
+		"2": {
+			"category": "1",
+			"category_label": "Course Categories",
+			"free": "1",
+			"free_label": "Type",
+			"level": "",
+			"level_label": ""
+		},
+		"_multiwidget": 1
+	},
+	"archives": {
+		"2": {
+			"title": "",
+			"count": 0,
+			"dropdown": 0
+		},
+		"_multiwidget": 1
+	},
+	"meta": {
+		"2": {
+			"title": ""
+		},
+		"_multiwidget": 1
+	},
+	"categories": {
+		"2": {
+			"title": "",
+			"count": 0,
+			"hierarchical": 0,
+			"dropdown": 0
+		},
+		"_multiwidget": 1
+	},
+	"recent-posts": {
+		"2": {
+			"title": "",
+			"number": 5
+		},
+		"_multiwidget": 1
+	},
+	"recent-comments": {
+		"2": {
+			"title": "",
+			"number": 5
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_activity": {
+		"2": {
+			"title": "",
+			"number": "5",
+			"activity": "1",
+			"messages": "1",
+			"friends": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"4": {
+			"title": "Student Activity",
+			"number": "5",
+			"activity": "1",
+			"messages": "1",
+			"friends": "1",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_cal": {
+		"2": {
+			"title": "My Course Events",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_mymodules": {
+		"2": {
+			"title": "My Modules",
+			"course": "1",
+			"quiz": "1",
+			"assignment": "1",
+			"unit": "1",
+			"download": "1",
+			"finished": "1",
+			"number": "5",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_instructor_dash_stats": {
+		"2": {
+			"title": "Woocommerce Earnings",
+			"stats": "woo_commission",
+			"width": "col-md-3 col-sm-6"
+		},
+		"3": {
+			"title": "Number of Courses",
+			"stats": "courses",
+			"width": "col-md-3 col-sm-6"
+		},
+		"4": {
+			"title": "",
+			"stats": "quizes",
+			"width": "col-md-3 col-sm-6"
+		},
+		"5": {
+			"title": "",
+			"stats": "assignments",
+			"width": "col-md-3 col-sm-6"
+		},
+		"7": {
+			"title": "",
+			"stats": "units",
+			"width": "col-md-3 col-sm-6"
+		},
+		"8": {
+			"title": "",
+			"stats": "badges",
+			"width": "col-md-3 col-sm-6"
+		},
+		"9": {
+			"title": "",
+			"stats": "certificates",
+			"width": "col-md-3 col-sm-6"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_instructor_commission_stats": {
+		"2": {
+			"title": "Instructor Commissions",
+			"width": "col-md-12"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_instructor_stats": {
+		"2": {
+			"title": "Instructor Statistics",
+			"width": "col-md-12",
+			"range": "10",
+			"max": "10"
+		},
+		"_multiwidget": 1
+	},
+	"wplms_dash_text": {
+		"2": {
+			"title": "Instructor Gallery",
+			"content": "[gallery ids=\"554,553,549,542,545\"]",
+			"width": "col-md-6 col-sm-12"
+		},
+		"_multiwidget": 1
+	},
+	"vibetabs": {
+		"2": {
+			"theme": "light",
+			"show_tab1": "1",
+			"title_tab1": "Posts",
+			"style_tab1": "thumbnail",
+			"num_tab1": "5",
+			"show_tab2": "1",
+			"title_tab2": "Courses",
+			"style_tab2": "courses",
+			"num_tab2": "5",
+			"show_tab3": "0",
+			"title_tab3": "Courses",
+			"style_tab3": "courses",
+			"num_tab3": "5"
+		},
+		"_multiwidget": 1
+	},
+	"search": {
+		"2": {
+			"title": ""
+		},
+		"_multiwidget": 1
+	},
+	"tag_cloud": {
+		"2": {
+			"title": "",
+			"taxonomy": "post_tag"
+		},
+		"3": {
+			"title": "",
+			"taxonomy": "post_tag"
+		},
+		"_multiwidget": 1
+	},
+	"vibegallery": {
+		"2": {
+			"title": "Featured Gallery",
+			"size": "medium",
+			"ids": "[gallery ids=\"1932,1922,1918,1930,1928,1916,1914,1926\"]"
+		},
+		"_multiwidget": 1
+	},
+	"vibe_course_categories": {
+		"2": {
+			"title": "Course Categories",
+			"exclude_ids": "",
+			"sort": "DESC",
+			"order": "count"
+		},
+		"3": {
+			"title": "Course Categories",
+			"exclude_ids": "",
+			"sort": "DESC",
+			"order": "name"
+		},
+		"4": {
+			"title": "Course Categories",
+			"exclude_ids": "",
+			"sort": "DESC",
+			"order": "name"
+		},
+		"5": {
+			"title": "Course Categories",
+			"exclude_ids": "",
+			"sort": "DESC",
+			"order": "count"
+		},
+		"6": {
+			"title": "Course Categories",
+			"exclude_ids": "",
+			"sort": "DESC",
+			"order": "name"
+		},
+		"_multiwidget": 1
+	},
+	"vibeposts": {
+		"2": {
+			"title": "Recent Posts",
+			"theme": "light",
+			"type": "course",
+			"taxonomy": "course-cat",
+			"term": "business",
+			"sort": "recent",
+			"size": "small",
+			"style": "post",
+			"num": "3",
+			"chars": "80"
+		},
+		"_multiwidget": 1
+	},
+	"vibetestimonials": {
+		"2": {
+			"title": "Featured Testimonial",
+			"id": "random",
+			"length": "40"
+		},
+		"_multiwidget": 1
+	},
+	"woocommerce_price_filter": {
+		"2": {
+			"title": "Filter by price"
+		},
+		"_multiwidget": 1
+	},
+	"woocommerce_layered_nav_filters": {
+		"2": {
+			"title": "Active Filters"
+		},
+		"_multiwidget": 1
+	},
+	"woocommerce_layered_nav": {
+		"2": {
+			"title": "Filter by",
+			"display_type": "list",
+			"query_type": "and"
+		},
+		"_multiwidget": 1
+	},
+	"vibe_woocommerce_carousels": {
+		"2": {
+			"title": "Featured Products",
+			"function": "sale_products",
+			"columns": "1",
+			"controls": "direction",
+			"number": ""
+		},
+		"3": {
+			"title": "Featured Products",
+			"function": "recent_products",
+			"columns": "1",
+			"controls": "direction",
+			"number": ""
+		},
+		"_multiwidget": 1
+	},
+	"woocommerce_product_categories": {
+		"2": {
+			"title": "Product Categories",
+			"orderby": "name",
+			"dropdown": 0,
+			"count": 0,
+			"hierarchical": "1",
+			"show_children_only": 0
+		},
+		"_multiwidget": 1
+	},
+	"woocommerce_products": {
+		"2": {
+			"title": "Products",
+			"number": "5",
+			"show": "featured",
+			"orderby": "date",
+			"order": "desc",
+			"hide_free": 0,
+			"show_hidden": 0
+		},
+		"3": {
+			"title": "Products",
+			"number": "5",
+			"show": "onsale",
+			"orderby": "date",
+			"order": "desc",
+			"hide_free": "1",
+			"show_hidden": 0
+		},
+		"_multiwidget": 1
+	},
+	"text": {
+		"2": {
+			"title": "About WPLMS",
+			"text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. \r\n\r\n<h4>WPLMS : The Best LMS platform for WordPress</h4>",
+			"filter": false
+		},
+		"3": {
+			"title": "",
+			"text": "<img src=\"http://wplms.io/demos/demo9/wp-content/uploads/2018/01/banner-home.png\" />",
+			"filter": true,
+			"visual": true
+		},
+		"_multiwidget": 1
+	},
+	"bp_core_whos_online_widget": {
+		"2": {
+			"title": "Who's Online",
+			"max_members": "15"
+		},
+		"3": {
+			"title": "Who's Online",
+			"max_members": "5"
+		},
+		"_multiwidget": 1
+	},
+	"vibecertificatecode": {
+		"2": {
+			"title": "Certificate Code"
+		},
+		"_multiwidget": 1
+	}
+}

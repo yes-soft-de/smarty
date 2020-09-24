@@ -1,0 +1,25 @@
+#unit h1+h3{
+	margin:0;
+}
+
+.postsmall .post_thumb{
+	float: left;
+	max-width: 70px;
+	padding: 0;
+	border-radius: 2px;
+	margin: 0 10px 0 0;
+	line-height: 0;
+}
+.postsmall .post_thumb a{padding:0;border: 2px solid #232b2d;display:inline-block;max-width:100%;}
+.postsmall .post_thumb a:hover{border-color:#78c8c9;}
+.postsmall .post_title {margin:0;}
+.postsmall .post_title a{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.widgets ul.flex-direction-nav li{
+	border:none !important;
+	padding:0 !important;
+}

@@ -1,0 +1,76 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">course</custom-type>
+        <custom-type translate="1">unit</custom-type>
+        <custom-type translate="1">quiz</custom-type>
+        <custom-type translate="1">question</custom-type>
+        <custom-type translate="1">wplms-event</custom-type>
+        <custom-type translate="1">wplms-assignment</custom-type>
+        <custom-type translate="1">certificate</custom-type>
+        <custom-type translate="1">testimonials</custom-type>
+        <custom-type translate="1">popups</custom-type>
+        <custom-type translate="1">news</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">course-cat</taxonomy>
+        <taxonomy translate="1">location</taxonomy>
+        <taxonomy translate="1">level</taxonomy>
+        <taxonomy translate="1">module-tag</taxonomy>
+        <taxonomy translate="1">question-tag</taxonomy>
+        <taxonomy translate="1">event-type</taxonomy>
+        <taxonomy translate="1">assignment-type</taxonomy>
+        <taxonomy translate="1">news-tag</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="copy">vibe_assignment</custom-field>
+        <custom-field action="copy">vibe_breadcrumbs</custom-field>
+        <custom-field action="copy">vibe_certificate_template</custom-field>
+        <custom-field action="copy">vibe_course_auto_eval</custom-field>
+        <custom-field action="copy">vibe_course_badge</custom-field>
+        <custom-field action="copy">vibe_course_badge_percentage</custom-field>
+        <custom-field action="copy">vibe_course_badge_title</custom-field>
+        <custom-field action="copy">vibe_course_certificate</custom-field>
+        <custom-field action="copy">vibe_course_drip</custom-field>
+        <custom-field action="copy">vibe_course_drip_duration</custom-field>
+        <custom-field action="copy">vibe_course_free</custom-field>
+        <custom-field action="copy">vibe_course_message</custom-field>
+        <custom-field action="copy">vibe_course_passing_percentage</custom-field>
+        <custom-field action="copy">vibe_duration</custom-field>
+        <custom-field action="copy">vibe_forum</custom-field>
+        <custom-field action="copy">vibe_free</custom-field>
+        <custom-field action="copy">vibe_group</custom-field>
+        <custom-field action="copy">vibe_max_students</custom-field>
+        <custom-field action="copy">vibe_pre_course</custom-field>
+        <custom-field action="copy">vibe_question_answer</custom-field>
+        <custom-field action="copy">vibe_question_explaination</custom-field>
+        <custom-field action="copy">vibe_question_hint</custom-field>
+        <custom-field action="copy">vibe_question_options</custom-field>
+        <custom-field action="copy">vibe_question_type</custom-field>
+        <custom-field action="copy">vibe_quiz_auto_evaluate</custom-field>
+        <custom-field action="copy">vibe_quiz_course</custom-field>
+        <custom-field action="copy">vibe_quiz_dynamic</custom-field>
+        <custom-field action="copy">vibe_quiz_marks_per_question</custom-field>
+        <custom-field action="copy">vibe_quiz_message</custom-field>
+        <custom-field action="copy">vibe_quiz_number_questions</custom-field>
+        <custom-field action="copy">vibe_quiz_questions</custom-field>
+        <custom-field action="copy">vibe_quiz_random</custom-field>
+        <custom-field action="copy">vibe_quiz_retakes</custom-field>
+        <custom-field action="copy">vibe_quiz_tags</custom-field>
+        <custom-field action="copy">vibe_sidebar</custom-field>
+        <custom-field action="copy">vibe_start_date</custom-field>
+        <custom-field action="copy">vibe_students</custom-field>
+        <custom-field action="copy">vibe_subtitle</custom-field>
+        <custom-field action="copy">vibe_title</custom-field>
+        <custom-field action="copy">vibe_type</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="wplms">
+            <key name="take_course_page"/>
+            <key name="create_course"/>
+            <key name="teacher_form"/>
+            <key name="certificate_page"/>
+            <key name="copyright"/>
+            <key name="credits"/>
+        </key>
+    </admin-texts>
+</wpml-config>

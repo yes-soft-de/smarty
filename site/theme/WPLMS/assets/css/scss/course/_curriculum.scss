@@ -1,0 +1,217 @@
+/**
+ * File: curriculum.scss
+ * Description : Contains all styling for the Course Curriculum in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. DEFAULT STYLING 
+/*    02. ACCORDION CURRICULUM
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+.course_curriculum{
+	
+	.course_section{
+		margin: 10px 0 0;
+		padding: 15px 0;
+		border-bottom: 1px solid $bordercolor;
+		& > td{
+		    border: none;
+    		padding: 15px 0;
+    		font-size:16px;
+    		font-weight:600;
+    		letter-spacing:1px;
+		}
+	}	
+	.unit_description{
+		display:none;
+		padding: 15px 0;
+		font-size:14px;
+		line-height:1.6;
+		border:none;
+		border:1px solid $bordercolor;
+		border-top:none;
+		background:$light-border-color;
+		& > td{padding:15px;}
+	}
+
+	.course_lesson{
+		margin:0;
+		padding: 15px 0;
+		font-size:14px;
+		line-height:1.6;
+		border:none;
+		border:1px solid $bordercolor;
+		position: relative;
+		.curriculum-icon{
+			width:20px;
+			&	> i{
+				float: left;
+				font-size: 16px;
+				margin-right: 10px;
+			}
+		}
+		span{
+			font-size: 11px;
+			font-weight: 600;
+			text-transform: uppercase;
+			&.free{
+				padding:2px 8px;
+				margin-left:10px;
+				border-radius:2px;
+				background:$successbg;
+				color:$successcolor;
+			}
+			&.time{
+			    display: block;
+    			text-align: right;
+    			letter-spacing:1px;
+    			i{
+    				font-size:1.6em;
+    				color:$light-text-color;
+    			}
+			}
+			&.unit_description_expander{
+			    margin-left: 10px;
+				font-size: 10px;
+				&:before{
+					content:"\f078";
+					font-family:'fontawesome';
+					color:$light-text-color;
+				}
+			}
+		}
+		& >	td{ 
+			border:none;
+			vertical-align: middle!important;
+			padding: 15px 8px;
+			&:last-child{
+				width:110px;
+				i{
+					float:left;
+					margin-right:5px;
+				}
+			}
+		}
+		.curriculum_unit_popup{
+			display:block;
+			font-size:10px;
+			cursor:pointer;
+			letter-spacing:1px;
+		}
+	}
+	&.accordion{
+		.course_section{
+			margin:0;
+			& > td{
+				position:relative;
+				&:after{
+					content: "\f067";
+				    font-family: 'fontawesome';
+				    color: rgba(0,0,0,0.2);
+				    font-size: 24px;
+				    position: absolute;
+				    right: 0;
+				    top: 10px;
+				}
+			}
+			&.show{
+				display:table !important;
+				width:100%;
+				& > td{
+					&:after{
+						content:"\f068";
+					}
+				}
+			}
+		}
+		.course_lesson{
+			display:none;
+			&.show{
+				display:table !important;
+				width:100%;
+			}
+		}
+	}
+} 
+
+.course_description+.course_curriculum>.course_title>h2{text-align:left;}
+/*========================================================================*/
+/*   02. ACCORDION CURRICULUM
+/*========================================================================*/
+
+.course_timeline{
+	&.accordion .course_section{
+	    animation:  slideDown 0.2s ease-in-out;
+		.course_section:after{
+		    font-family: 'fonticon';
+		    font-size:24px;
+		    float:right;
+		    content: "\e05d";
+		    color:#bbb;
+		}
+		.course_lesson{
+			display: none;
+			opacity:0;
+		    animation:  slideDown 0.2s ease-in-out;
+			&.show{
+			    display: inline-block !important;
+			    width:100%;
+			    animation:  slideDown 0.2s ease-in-out;
+			    opacity: 1;
+				&:after{
+		    		content: "\e092";
+				}
+			}
+		}
+	}
+}
+.course_timeline.accordion{
+	padding:0;
+ 	.section{
+	 	&:after{
+		    font-family: 'fontawesome';
+		    font-size:16px;
+		    position: absolute;
+		    top: 15px;
+		    right: 15px;
+		    content: "\f067";
+		    color:rgba(255,255,255,0.2);
+		}
+		&.show:after{
+		    top:20px;
+		    content:"\f068";
+		}
+	}	
+	.unit_line{
+		display: none;
+		opacity:0;
+		padding-right:20px;
+		&.show{
+		    display: inline-block !important;
+		    width:100%;
+		    animation:  slideDown 0.2s ease-in-out;
+		    opacity: 1;
+		}
+	}
+	li+li.section{
+	    padding:1px 0;
+	    margin-top:0;
+	}
+	li.section + li{margin-top:0;}
+	h4{padding-right:35px;}
+}
+
+
+.course_single_item .icon-wallet-money.right{
+	display:none;
+}

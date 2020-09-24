@@ -1,0 +1,325 @@
+/*========================================================================*/
+/*   07. MESSAGES
+/*========================================================================*/
+
+.message{
+	padding:12px 24px;
+	border:1px solid #f0c36d;
+	background-color: #f9edbe;
+	border-radius:2px;
+	font-size:11px;
+	font-weight:600;
+    text-transform: uppercase;
+	&.success{
+		color: #468847;
+		background-color: #dff0d8;
+		border-color: #d6e9c6;
+	}
+	h3, h3+p{margin:0;font-weight:600;color:#222;}
+	&.error{
+		border-color: #de5439;
+		background-color: #f16645;
+		color:#fff;
+		h3,h3+p{color:#444;}
+	}
+	p{
+		margin-bottom:0;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+3.4 - Errors / Success Messages
+--------------------------------------------------------------*/
+#buddypress{
+	
+	div#message{
+		margin: 0 0 15px;
+	    padding: 0;
+    	border: none;
+		&.info {
+			margin-bottom: 0;
+			display: inline-block;
+		}
+		&.updated {
+			clear: both;
+		}
+	}
+
+	#create-group-form div#message.updated {
+		clear:none;
+	}
+}
+
+.button.create-group-button{
+	padding: 27px 40px 28px;
+	margin:30px 0 0;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+	float: right;
+}	
+
+#buddypress{
+	div#message p,
+	#sitewide-notice p {
+		font-size: 11px;
+		display: block;
+		padding: 10px 15px;
+		margin:0;
+	}	
+	div#message.error p {
+		background-color: #FBE3E4;
+		clear: both;
+		border: none;
+		color:#d12f19;
+	    border:1px solid #fbc2c4;
+		font-weight: 600;
+		text-transform: uppercase;
+		border-radius:2px;
+		margin-top:0;
+	}
+
+	div#message.updated p {
+		background-color: #E6EFC2;
+		color:#529214;
+	    border:1px solid #c6d880;
+		font-weight: 600;
+		text-transform: uppercase;
+		border-radius:2px;
+	}
+	.standard-form#signup_form div div.error {
+		background: #faa;
+		color: #a00;
+		margin: 0 0 10px 0;
+		padding: 6px;
+		width: 90%;
+	}
+	div.accept,div.reject {
+		float: left;
+		margin-left: 10px;
+	}
+}
+
+
+/*-------------------------------------------------------------------------
+3.8 - Headers, Lists and Tabs - Activity, Groups, Blogs, Forums, Profiles
+-------------------------------------------------------------------------*/
+#buddypress .item-body {
+	margin: 20px 0;
+	display: inline-block;
+	width: 100%;
+	h3{
+		margin-top:0;
+	}
+}
+
+#buddypress {
+	span.activity {
+		display: block;
+		padding: 0;
+		color: #bbb;
+		font-size: 12px;
+		text-align: start;
+		display: inline-block;
+	}
+	span.user-nicename {
+		display: inline-block;
+		opacity:0.9;
+		font-weight: bold;
+		&+span.activity{
+			margin-left:0;
+		}
+	}
+	div#message p,
+	#sitewide-notice p {
+		margin-top: 10px;
+		background-color: #FFF6BF;
+		border:1px solid #ffd324;
+		border-radius:2px;
+		clear: left;
+		color: #817134;
+		font-weight: 600;
+		text-transform: uppercase;
+		width:100%;
+
+	}
+	div#message a,
+	#sitewide-notice a{font-weight:600;color:#222;}
+	div#item-header {
+		overflow: hidden;
+		background: #232b2d;
+		padding: 0;
+		position: relative;
+		z-index: 2;
+		overflow:hidden;
+		border-top-right-radius: 2px;
+		border-top-left-radius: 2px;
+	}
+}
+
+
+.message-action-star .screen-reader-text,
+.message-action-star .bp-screen-reader-text,
+.message-action-unstar .bp-screen-reader-text{
+	display: none;
+}
+.message-action-star span.icon:before, .message-action-unstar span.icon:before {
+  font-family: 'fontawesome';
+  font-size: 18px;
+}
+
+.message-action-star span.icon:before {
+  color: #aaa;
+  content: "\f005";
+}
+.message-action-unstar span.icon:before {
+  color: #FCDD77;
+  content: "\f006";
+}
+
+
+
+/*--------------------------------------------------------------
+3.9 - Private Messaging Threads
+--------------------------------------------------------------*/
+#buddypress{
+	table#message-threads{
+		thead{
+		    border-bottom: 2px solid $bordercolor;
+		    font-size: 11px;
+		    text-transform: uppercase;
+		    text-align: center;
+		    letter-spacing: 1px;
+			tr{
+				th{text-align:center;}
+			}
+		}
+		tr{
+			td{
+				padding:8px;
+			}
+			&.unread{
+				td {
+					background: #fff9db;
+					border-top: 1px solid #ffe8c4;
+					border-bottom: 1px solid #ffe8c4;
+					font-weight: bold;
+				}
+				span.unread-count {
+				  	color: #fa7252;
+				  	font-weight: bold;
+			  		padding: 1px 5px;
+				  	border-radius: 20px;
+				  	font-size:11px;
+				  	line-height:1;
+				  	border: 1px solid #fa7252;
+				}
+			}
+			.thread-info{text-align:left;}
+		}
+	}	
+	div.messages-options-nav,
+	.notifications-options-nav {
+		border-top:1px solid $bordercolor;
+		font-size:11px;
+		font-weight:600;
+		margin: 0;
+		padding: 15px 0 0;
+		text-align: right;
+		a{
+			font-weight:600;
+			text-transform: uppercase; 
+			color:#fa7252;
+		}
+		label.bp-screen-reader-text{display: none;}
+		#message-type-select{
+			float:left;
+		}
+	}
+} 
+
+#buddypress div.item-list-tabs ul li a span.unread-count {
+	padding: 1px 6px;
+	color: #fff;
+}
+
+
+#buddypress{
+	div#message-thread{
+		div.message-box {
+			margin: 0;
+			padding: 15px;
+		}
+		p#message-recipients {
+			margin: 10px 0 20px 0;
+		}
+		img.avatar {
+			float: left;
+			margin: 0 10px 0 0;
+			vertical-align: middle;
+			border-radius:50%;
+		}
+		strong {
+			font-size: 100%;
+			margin: 0;
+			a {
+				text-decoration: none;
+			}
+			span.activity {
+				margin-top: 4px;
+			}
+		}
+		div.message-metadata {
+			overflow: hidden;
+			font-size:11px;
+			text-transform:uppercase;
+			span.activity{margin:0;font-size:11px;}
+		}
+		div.message-content {
+			margin: -10px 0 0 40px;
+			text-align: left;
+			a{
+				color:$primarybg;
+				font-weight:600;
+			}
+		}
+		div.message-options {
+			text-align: right;
+		}
+	}	
+}  
+
+
+#buddypress{
+	div.message-search {
+		float: right;
+		margin: 0;
+		line-height:1;
+		#messages_search_submit{display:none;}
+		#messages_search{
+			padding:5px 30px 5px 5px;
+		}
+		#search-message-form{
+			position:relative;
+			.bp-screen-reader-text{display:none;}
+			&:after {
+			    content: "\f002";
+			    font-family: 'fontawesome';
+			    top: 15px;
+			    right: 10px;
+			    position: absolute;
+			    color: #bbb;
+			    font-size: 12px;
+			}
+		}
+	}
+	 #message-threads{
+	 	img.avatar {
+			max-width: 48px;
+			border-radius:50%;
+		}
+	 }
+} 
+

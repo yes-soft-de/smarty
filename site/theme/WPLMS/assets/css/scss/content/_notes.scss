@@ -1,0 +1,59 @@
+
+/*========================================================================*/
+/*   07. Unit Comments
+/*========================================================================*/
+
+.notes_list,
+.notes_list .actions{
+	list-style:none !important;
+	margin:0 !important;
+}
+.notes_list > li:first-child{padding-top:0;}
+.notes_list > li{
+	position: relative;
+	display: inline-block;
+	width:100%;
+	padding:10px 0;
+	border-bottom:1px solid $bordercolor;
+}
+.notes_list>li img{
+	max-width:64px;
+	margin:0 20px 0 0;
+	border-radius:50%;
+	float:left;
+}
+
+.notes_list .unit_comment_author{
+	font-weight:600;
+	text-transform: uppercase;
+}
+.notes_list > li .unit_comment_content,
+.notes_list > li .actions{
+	margin-left:84px !important;
+}
+.notes_list .unit_comment_author+span{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #bbb;
+	text-align:right;
+}
+.unit_comment_content .note_content{
+	display:inline-block;
+	width:100%;
+}
+.notes_list .actions li{
+	float:left;
+	margin-right:10px;
+}
+
+.notes_list .creply.loaded{
+    clear: both;
+    margin: 18px 0 0 10%;
+    display: inline-block;
+    width: 90%;
+}
+#notes_query{display: none;}
+
+#notes-discussion-form{
+	margin-top:30px;
+}

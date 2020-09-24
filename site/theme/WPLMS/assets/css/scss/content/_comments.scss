@@ -1,0 +1,117 @@
+/*========================================================================*/
+/*   07. COMMENTS
+/*========================================================================*/
+
+#comments{
+	clear:both;
+	margin-bottom:60px;
+	.comments-title{
+		padding-bottom:20px;
+		border-bottom:5px solid $bordercolor;
+	}
+	.comments_rss{
+		float: right;
+		margin: 8px 0 10px;
+		font-size: 20px;
+	}
+
+
+	.comment{
+		clear:both;
+		position: relative;
+		margin-bottom:30px;
+		.comment-body{
+			position: relative;
+			p{
+				margin-left:84px;
+			}
+
+			&.unapproved {
+			    background: #FFFDD8;
+			    display: inline-block;
+			    width: 100%;
+			    padding: 15px 15px 0;
+			}
+		}
+	}
+	.commentlist{
+		margin: 30px 0;
+	}
+}
+
+.footerwidget .item-list img,
+.vcard img{
+	width: 64px;
+	height:auto;
+	border-radius: 2px;
+	float: left;
+	margin-right: 20px;
+	border:2px solid rgba(0,0,0,0.2);
+}
+.footerwidget .item-list li:hover img,
+.vcard:hover img{
+	border-color:#78c8c9;
+}
+.footerwidget .item-list li .item-meta,
+.vcard .item-meta{font-size:80%;}
+
+.children{
+	margin-top:30px;
+	padding-left:84px;
+}
+
+.children:before{
+
+}
+.comment-meta{
+	margin: 0 0 0 84px;
+	a{
+		font-size:11px;
+		text-transform: uppercase;
+		color:#bbb;
+		font-weight: 600;
+	}
+}
+
+/*========================================================================*/
+/*   07. REVIEWS
+/*========================================================================*/
+
+.reviewlist.commentlist{
+
+	.reply{
+		display: none;
+	}
+
+	.comment-body p{
+		margin:10px 0;
+	}
+
+	cite{
+		float:right;
+		clear: both;
+		 a{
+			font-size: 11px;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+	}
+
+	cite+span,.comment-meta{display: none;}
+	.vcard img{
+		float:right;
+		border-radius:50%;
+		margin-right:0;
+	}
+	.comment{
+		display: inline-block;
+		width:100%;
+		padding: 0 0 30px 0;
+		border-bottom: 3px solid $bordercolor;
+	}
+	.vcard{
+		display: inline-block;
+		float: right;
+		margin-left: 15px;
+	}
+}

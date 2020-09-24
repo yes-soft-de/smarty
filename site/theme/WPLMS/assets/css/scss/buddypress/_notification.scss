@@ -1,0 +1,26 @@
+table.notifications{
+	width:100%;
+	thead{
+	    font-size: 11px;
+    	text-transform: uppercase;
+		th{
+			&.bulk-select-all{
+				label.bp-screen-reader-text{display:none;}
+			}
+		}
+	}
+	th,td{
+		padding: 15px 5px 15px;
+	    text-align: left;
+	    border-bottom: 1px solid $bordercolor;
+	}
+	td.notification-since, td.notification-actions {
+	    font-size: 11px;
+	    text-transform: uppercase;
+	}
+}
+
+#notification-bulk-manage{
+    margin: 0;
+    height: 36px;
+}

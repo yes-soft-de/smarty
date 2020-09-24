@@ -1,0 +1,166 @@
+
+@media (max-width:991px){
+	header{
+		#trigger{
+			display:block; 
+			top:28px;
+			right:48px;
+		}
+
+		/* ==== SLEEK HEADER === */	
+		&.sleek{
+			.topmenu{
+				float: right;
+				margin-right:40px;
+	    		li:first-child > a > span{max-width:78px;}
+			}
+			.col-md-9.col-sm-6.col-xs-12 #logo{
+				float:left !important;
+			}
+			#trigger{
+				right:15px;
+			}
+		}
+
+
+		/* ==== TRANSPARENT HEADER === */
+
+
+		/* ==== CENTER HEADER === */
+
+
+		/* ==== STANDARD HEADER === */
+		&.standard{
+			#alt_logo{display:inline-block;}
+			#alt_logo img#header_logo{display:none;}
+			#alt_logo img#header_mobile_logo.hide{display:block !important;}
+			&.center{
+				nav{display:none;}
+				#alt_logo{display:block;}
+			}
+			.header_content,nav{display:none;}
+		}
+
+		/* ==== STANDARD CENTER HEADER === */
+
+
+
+		/* ==== MOOC HEADER === */
+
+
+
+		/* ==== APP HEADER === */
+		&.app{
+			.topmenu{display:none;}
+		}
+
+	}
+	/* ==== STANDARD HEADER === */
+	.header_content{display:none;}
+
+	.single-course.c3 .course_header{margin-bottom:0 !important;}
+	.single-course.c3 .course_header #item-header-avatar{margin-bottom:15px !important;}
+}
+
+
+@media (max-width: 767px){
+	
+	.logged-in{
+		header.sleek,header.mooc{
+			.topmenu .vbplogin{
+		    	span{
+		    		display:none;
+		    	}
+		    }
+		}
+	} 
+
+
+	#new_searchicon{
+		display:none;
+	}
+
+	#header_logo,#header_alt_logo{display:none;}
+	#header_mobile_logo.hide{display:block !important;}
+			
+	#headertop .topmenu+.topmenu{
+		display: none;
+	}
+	header{
+
+		nav{
+			display: none;
+		}
+		
+		#trigger{
+			display:block; 
+			.lines:after, 
+			.lines:before{
+				transform-origin:27px center;
+			}
+		}
+		
+
+	
+
+		/* ==== SLEEK HEADER === */	
+		&.sleek{
+			.vbpcart{
+				display:none !important;
+			}
+			ul.topmenu{
+	    		margin-right: 40px;
+			}			
+		} 
+
+		/* ==== TRANSPARENT HEADER === */
+
+
+		/* ==== CENTER HEADER === */
+
+
+		/* ==== STANDARD HEADER === */
+
+		&.standard{
+		}
+		/* ==== STANDARD CENTER HEADER === */
+
+
+
+		/* ==== MOOC HEADER === */
+
+		/* ==== APP HEADER === */
+		&.mooc.app{
+			min-height:72px;
+			.topmenu{
+				display:none;
+			}
+			#trigger{
+				left:auto;
+				right:10px;    
+				top: 20px;
+			}
+		}
+	}
+	.admin-bar{
+		header.mooc.app{
+			#trigger{top:64px;}
+			&.fixed #trigger{top:24px;}
+		} 
+	}
+}
+
+
+@media (max-width: 420px){
+
+	.logged-out{
+		#vibe_bp_login{
+			.fullscreen_login,
+			.popup_login{
+			    #vbp-login-form{
+			    	width:100%;
+			    }
+		    }
+	    }
+    }
+}

@@ -1,0 +1,291 @@
+/**
+ * File: unit.scss
+ * Description : Contains all styling for the Units in WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GLOBAL STYLING
+/*    02. TYPOGRAPHY STYLING
+/*
+/*========================================================================*/
+/*   01. DEFAULT STYLING 
+/*========================================================================*/
+
+
+
+/*========================================================================*/
+/*   01. UNIT FORUM
+/*========================================================================*/
+.unitforum{
+	text-align: center;
+	padding: 15px 0;
+	margin: 30px -20px -20px;
+	background: #F6F6F6;
+}
+
+.unitattachments + .unitforum{
+	margin: 0 -20px -20px -20px;
+}
+.unitforum a{
+	font-size:12px;
+	color:#F16645;
+	font-weight:600;
+	text-transform: uppercase;
+}
+.single.single-unit .unitforum{
+	margin:0 -30px 15px -30px;
+}
+
+/*========================================================================*/
+/*   01. UNIT ATTACHMENTS
+/*========================================================================*/
+
+.unitattachments{
+	background: #fbfbfb;
+	padding: 20px;
+	margin: 20px -20px 0;
+	h4{
+		margin:0 0 10px;
+		padding: 0 0 10px;
+		border-bottom:5px solid #DDD;
+		span{
+			float:right;
+			color:$primarybg;
+			font-weight:600;
+			max-width:48px;
+			i{
+				float: left;
+				margin-right: 5px;
+				margin-top: 2px;
+			}
+		}
+	}
+	li{
+		clear:both;
+		display: inline-block;
+		width:100%;
+		border-bottom:1px dotted #DDD;
+		padding:8px 0;
+		a{
+			font-size:12px;
+			text-transform: uppercase;
+			&:after{
+				content:'DOWNLOAD';
+				float:right;
+				margin-top:5px;
+				color:#78c8ce;
+				font-size:11px;
+				text-transform: uppercase;
+				font-weight:600;
+			}
+		}
+		& > i{
+			float:left;
+			margin-right:30px;
+			font-size:16px;
+		}
+	}
+}
+
+.single.single-unit .unitattachments{
+	margin:20px 0 0;
+	#attachments{padding:0;}
+}
+
+
+.simple-post-tax-wrap.simple-post-tax-module-wrap{
+	background: #F6F6F6;
+	margin: 30px 0;
+	padding: 30px;
+	border-radius: 2px;
+}
+.simple-post-tax{
+	max-height:240px;
+	overflow-y:scroll;
+}
+
+/*========================================================================*/
+/*   01. UNIT MODULE
+/*========================================================================*/
+
+.unit_module{
+	padding: 10px 15px 20px;
+	background: #Fbfbfb;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	ul{
+		margin-left:20px;
+		padding-left:20px;
+		border-left:1px solid #DDD;
+		li{
+			padding: 10px 20px;
+			background: #F6f6f6;
+			border-radius: 2px;
+			margin-bottom:5px;
+		}
+		&.actions{
+			float:right;
+			li{
+				float:left;
+				margin-left:10px;
+				padding:0;
+				span{
+					font-size:12px;
+					text-transform: uppercase;
+					font-weight:600;
+					color:#fa7252;
+				}
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   07. Unit Comments
+/*========================================================================*/
+
+.notes_list,
+.notes_list .actions{
+	list-style:none;
+	margin:0;
+}
+.notes_list{
+	& > li{
+		position: relative;
+		display: inline-block;
+		width:100%;
+		padding:10px 0;
+		border-bottom:1px solid $bordercolor;
+		&:first-child{padding-top:0;}
+		img{
+			max-width:64px;
+			margin:0 20px 0 0;
+			border-radius:50%;
+			float:left;
+		}
+		.unit_comment_content,
+		.actions{
+			margin-left:84px !important;
+		}
+		.unit_comment_content{
+			.note_content{
+				display:inline-block;
+				width:100%;
+			}
+		}
+		.actions{
+			li{
+				float:left;
+				margin-right:10px;
+			}
+		}
+	}
+	.unit_comment_author{
+		font-weight:600;
+		text-transform: uppercase;
+		&+span{
+			font-size: 11px;
+			text-transform: uppercase;
+			color: #bbb;
+			text-align:right;
+		}
+	}
+	.creply.loaded{
+	    clear: both;
+	    margin: 18px 0 0 10%;
+	    display: inline-block;
+	    width: 90%;
+	}
+	#notes_query{display: none;}
+}
+
+
+
+
+
+.unit_content{
+	#discussion.loading{
+	    opacity:0.4;
+	}
+	ul:not(.tags),
+	ol {
+    	list-style: disc;
+    	padding-left:20px;
+	}
+
+	.commentlist{
+		margin-bottom:15px;	
+		li{
+		    display: inline-block;
+		    width: 100%;
+		    padding:15px 0;
+			border-bottom: 1px solid $bordercolor ;
+			.unit-comment-body{
+				display:inline-block;
+				width:100%;
+				.unit-comment-author{
+				    width: 48px;
+				    height: 48px;
+				    float: left;
+				    border-radius: 50%;
+				    overflow: hidden;
+				    margin-right: 15px;
+				}
+				.unit-comment-text{
+				    margin-left: 64px;
+					cite{
+					    float: left;
+    					margin-right: 15px;
+					}
+					.reply{
+						float:right;
+					}
+					.unit-comment-meta,
+					.comment-meta a,
+					.unit-comment-meta a{
+						 font-size: 11px;
+					    text-transform: uppercase;
+					    color: #bbb;line-height:2;
+					}
+				}
+			}
+			&.bypostauthor{
+				.unit-comment-author{
+					img{border:2px solid $successbg;}
+				}
+			}
+		}
+	}
+	.reply a,
+	.add_comment{
+		cursor:pointer;
+	}
+	.load_more_comments,
+	.add_comment{
+		clear:both;
+		display:block;
+	    font-size:11px;
+	    font-weight:600;
+	    text-transform: uppercase;
+	    cursor: pointer;
+	}
+	.add_unit_comment_text{
+	    margin-top: 15px;
+    	display: inline-block;
+		width: 100%;
+		&.hide{
+		    display: none;
+		    webkit-transition: all 0.2s ease-in-out;
+		    -moz-transition: all 0.2s ease-in-out;
+		    -o-transition: all 0.2s ease-in-out;
+		    transition: all 0.2s ease-in-out;
+	    }
+    }
+
+}

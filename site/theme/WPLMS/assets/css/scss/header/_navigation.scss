@@ -1,0 +1,418 @@
+/**
+ * File: nav.scss
+ * Description : Menu and Navigation for WPLMS
+ * Author: Mr.Vibe 
+ * Credits: www.VibeThemes.com
+ * Project: WPLMS
+ * version 2.0
+ **/
+/*========================================================================*/
+/*   TABLE OF CONTENT
+/*========================================================================*/
+/*
+/*    01. GENERAL STYLING
+/*    02. MEGAMENU STYLING
+/*    03. SIDE MENU
+/*    04. STANDARD
+/*    05. MISCELLANEOUS
+/*
+/*========================================================================*/
+/*   01. GENERAL STYLING 
+/*========================================================================*/
+
+nav{
+	float:right;
+ 	.menu{
+ 		li{
+			float:left;
+			position:relative;
+			a{
+				font-weight:600;
+				margin:0 10px;
+				padding: 30px 6px;
+				display: inline-block;
+				font-size: 13px;
+				text-transform:uppercase;
+				color: #FFF;
+				opacity: 0.8;
+				position: relative;
+				span{
+				    display: block;
+				    font-weight: 400;
+				    font-size: 10px;
+				    opacity: 0.6;
+				}
+			}
+		 	&.menu-item-has-children{
+		 		&:hover{
+		 			& > a:before{
+		 				content: '';
+						position: absolute;
+						bottom: -20px;
+						height: 15px;
+						width: 15px;
+						left: 14px;
+						bottom: -1px;
+						border: 7px solid;
+						border-color: transparent transparent rgba(0,0,0,.1) transparent;
+		 			}
+		 		}
+			}
+			&.active{
+				a{
+					color:#FFF;
+					position: relative;
+				}
+			}
+			&.current-menu-item{
+				a{
+					color:#FFF;
+					opacity: 1;
+				}	
+			}
+			&.iconstyle{
+				width:88px;
+				float:left;
+				& > .sub-menu{
+					width: 360px;
+					margin-left:-50%;
+				}
+			}
+			&:hover{
+				& > a{
+					opacity:1;
+				}
+				& > .sub-menu{
+					display: block;
+					width:176px;
+					opacity: 1;
+				  	transition: fadeInFromNone 1s ease-in-out;
+				  	& > li{
+						font-size:12px;
+						i{
+							display: block;
+							font-size:48px;
+						}
+					}
+				}
+				&.hasmegamenu {position:static;}
+				&.hasmegamenu > .sub-menu{
+					width:100%;
+				}
+			} 
+			li.megadrop > .sub-menu{
+				width:100%;
+			}
+			.menu-sidebar{
+				padding:0 10px;
+				display: inline-block;
+				width:100%;
+				color:rgba(255,255,255,0.6);
+				&.column5 .widget{
+					width:20%;
+					float:left;
+
+				}
+
+				&.column4 .widget{
+					width:25%;
+					float:left;
+				}
+
+				&.column3 .widget{
+					width:33%;
+					float:left;
+				}
+
+				&.column2 .widget{
+					width:50%;
+					float:left;
+				}
+				.widget{
+    				padding: 15px;
+					border-left: 1px solid rgba(255,255,255,0.1);
+					.inside{
+						padding:20px 0;
+					}
+					h4.widget_title{border:none;color:#FFF;}
+					ul li{
+						border:none;
+						padding:0;
+						h6{
+							color:#FFF;
+						}
+						a{
+							padding: 4px 0;
+							margin:0;font-weight:600;
+							font-size:12px;
+							color: rgba(255,255,255,0.8);
+							border-bottom:1px dotted rgba(255,255,255,0.1);
+							&:hover{color:#FFF;}
+						}
+					}
+				}
+				.widget_course_list{
+					li{
+						h6{
+							color:#FFF;
+						}
+						img{
+							border-color:rgba(0,0,0,0.2);
+						}
+					}
+				}
+			}
+		}
+
+ 	} 
+ 	.sub-menu{
+ 		display: none;
+ 		position:absolute;
+		opacity: 0;
+		top:100%;
+		left:0;
+		width:100%;
+		z-index: 99;
+		display: none;
+		background:#48575a;
+		border-bottom-left-radius: 2px;
+		border-bottom-right-radius: 2px;
+		box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+ 		li{
+ 			display: block;
+			position: relative;
+			width:100%;
+			a{
+				color:#FFF;
+				opacity: 0.8;
+				display: block;
+				font-size:12px;
+				border-bottom:1px dotted rgba(255,255,255,0.3);
+				padding:10px;
+				&:hover{
+					opacity: 1;
+				}
+			}
+ 			& > .sub-menu:before{
+				content: '';
+				border: none;
+			}
+			& > .sub-menu{
+				top:0;
+				left:100%;
+			}
+			&.left > .sub-menu{
+				top:0;
+				left:-100%;
+			}
+ 			&:hover{
+ 				& > a{
+ 					opacity: 1;
+ 				}
+ 			}
+ 			&:last-child a{
+				border-bottom:none;
+			}
+ 		}
+ 	}
+
+}
+
+
+
+/*========================================================================*/
+/*   02. MEGA MENU
+/*========================================================================*/
+
+.megadrop{
+	.menu-sidebar{
+		transform:translateZ(0); 
+		.widget{
+			ul{
+				li{
+					a{
+						&:hover{
+							opacity:1;
+						}
+					}
+				}
+			}
+			& + .widget{
+				margin:0;
+			}
+			.widgettitle{
+				font-size:14px;
+				color:#FFF;
+				margin:0 ;
+				font-weight:600;
+				padding-bottom:10px;
+				text-transform: uppercase;
+				border-bottom:1px solid rgba(255,255,255,0.1);
+			}
+		}
+		&.column5{
+			.widget:nth-child(5n+1){
+				clear:both;
+				border-left:none;
+			}
+		}
+		&.column4 .widget:nth-child(4n+1){
+			clear:both;
+			border-left:none;
+		}
+		&.column3 .widget:nth-child(3n+1){
+			clear:both;
+			border-left:none;
+		}
+		&.column2 .widget:nth-child(2n+1){
+			clear:both;
+			border-left:none;
+		}
+	}	
+
+	.menu-cat_subcat{
+	    min-height: 180px;
+		.taxonomy_menu{
+			& > li{
+				position:static;
+				& > a{
+					width:20%;
+				}
+			}
+			li:first-child{
+				.sub_cat_menu{
+					display:block;
+					z-index:1;
+				}
+			}
+		}
+		li:hover>.sub_cat_menu{
+			display:block;
+			z-index:2;
+		}
+		.sub_cat_menu{
+			display:none;
+			position: absolute;
+			padding:15px;
+		    top: 0;
+		    left:176px;
+		    width: calc(100% - 176px);;
+		    height:100%;
+	        overflow-y: hidden;
+    		border-left: 1px solid rgba(0,0,0,0.1);
+			a{width:100%;margin:5px;padding:0;}
+			&.sub_posts_menu{
+				padding:15px 30px ;
+				a{width:100%;margin:15px 0 30px;padding:0;
+				.menu_featured{
+					img{border-radius: 2px;margin-bottom: 10px;}
+				}}
+			}
+		}
+	}
+}  
+
+
+
+/*========================================================================*/
+/*   03. SIDE MENU
+/*========================================================================*/
+
+
+.sidemenu{
+	width:100%;
+	padding:0;
+	margin:0;
+	li{
+		clear:both;
+		cursor:pointer;
+		border-top:1px solid rgba(0,0,0,0.1);
+		a{
+			padding:15px 0 15px 30px;
+			display:block;
+			text-align: left;
+			color:#FFF;
+			opacity: 0.8;
+			background:rgba(255,255,255,0.1);
+		}
+		&.menu-item-has-children > a{
+			margin-right:45px;
+		}
+		&:last-child a{
+			border-bottom:1px solid rgba(0,0,0,0.1);
+		}
+		&.active a,
+		& a:hover{
+			opacity: 1;
+			background:rgba(0,0,0,0.2);
+		}
+		&.menu-item-has-children{
+		    position: relative;
+		    &:after{
+		      content:"\e05d";
+		      font-family:'fonticon';
+		      position: absolute;
+		      top:15px;
+		      right:15px;
+		      color:rgba(0,0,0,0.6);
+		    }
+		    &.active{
+		    	& > ul{
+		    		display:block;
+		    	}
+		    	&:after{
+		      		content:"\e092";
+	    		}
+    		}
+	  	}
+	}
+}
+
+/*========================================================================*/
+/*   03. STANDARD MENU
+/*========================================================================*/
+
+header.standard{
+	nav{
+		float:left;
+		& > .menu{
+ 			& > li{
+			 	& >a{
+					margin:0;
+					padding-right:15px;
+					padding-left:15px;
+				}
+			}
+		}
+	}
+}
+
+/*========================================================================*/
+/*   06. RESPONSIVE
+/*========================================================================*/
+@media (max-width: 990px){
+	#mooc_menu{
+		nav{
+			.menu{
+				li{
+					.menu-sidebar{
+						width:750px;
+					}
+				}
+			} 
+		} 
+	}
+}
+@media (max-width: 767px){
+	#mooc_menu{
+		nav{
+			.menu{
+				li{
+					.menu-sidebar{
+						width:480px;
+					}
+				}
+			} 
+		} 
+	}
+}
