@@ -15,7 +15,12 @@ jQuery(document).ready( function($){
     
     /* -- ./Fixed Header -- */
 
+  $(document).on('click', '.paidCourse', function (e) {
+    e.preventDefault();
+    alert('Sorry, You Must Pay This Meditation To Access It');
+  });
 
+  /* -- ./Meditation -- */
   $(document).on('click', '#topic', function (e) {
     e.preventDefault();
 
@@ -54,8 +59,9 @@ jQuery(document).ready( function($){
     });
 
   });
+  /* -- ./Meditation -- */
 
-
+  /* -- ./Consultation -- */
   $(document).on('submit', '#smartyContactForm', function (e) {
     e.preventDefault();
 
@@ -86,7 +92,6 @@ jQuery(document).ready( function($){
 
     form.find('button, textarea').attr('disabled','disabled');
     $('.js-form-submission').addClass('js-show-feedback');
-
 
     $.ajax({
       url: ajaxurl,
@@ -122,8 +127,8 @@ jQuery(document).ready( function($){
 
       }
     });
-
   });
+  /* -- ./Consultation -- */
 
 
 

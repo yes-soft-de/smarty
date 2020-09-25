@@ -88,7 +88,7 @@ function smart_way_load_more() {
 				<div class="llms-loop-item-content" style="margin: 0;">
 					<div class="row">
 					<div class="col-xs-7">
-						<a class="llms-loop-link" href="' . get_the_permalink( $lesson['id'] ) . '">
+						<a class="llms-loop-link ' . ($lesson['labels'] == null ? 'paidCourse' : '') . '" href="' . get_the_permalink( $lesson['id'] ) . '">
 							<img src="' . $image . '" alt="Relax" class="llms-featured-image wp-post-image">
 							<div class="meditation-div-title" style="display: inline-block">
 							<span class="meditation-title" style="display: block">' . $lesson['title'] . '</span>

@@ -388,7 +388,7 @@
   display: block;
   padding: 10px 15px;
   background: #F61067;
-  width: 25%;
+  width: 30%;
   text-align: center;
   font-size: 0.7rem;
   border-radius: 20px;
@@ -651,6 +651,43 @@
   margin-bottom: 15px;
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .home-page article.power-meditation .parent-content-box .content-box .content-top {
+    padding: 5rem;
+  }
+
+  .home-page article.power-meditation .parent-content-box .content-box .content-top .learn-more-link {
+    width: 45%;
+  }
+  .home-page article.power-meditation .parent-content-box .content-box {
+    height: 635px;
+  }
+}
+@media (max-width: 575px) {
+  .home-page article.power-meditation .parent-content-box .content-box .content-top {
+    padding: 3rem;
+  }
+
+  .home-page article.power-meditation .parent-content-box .content-box .content-top h3 {
+    font-size: 2rem;
+  }
+
+  .home-page article.power-meditation .parent-content-box .content-box .content-top .learn-more-link {
+    width: 60%;
+  }
+  .home-page article.power-meditation .parent-content-box .content-box {
+    height: 650px;
+  }
+}
+@media (max-width: 400px) {
+  .home-page article.power-meditation .parent-content-box .content-box .content-top {
+    padding: 2rem;
+  }
+
+  .home-page article.power-meditation .parent-content-box .content-box .content-top h3 {
+    font-size: 1.4rem;
+  }
+}
 
 
 /* -- Articles Page -- */
