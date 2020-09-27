@@ -101,7 +101,6 @@ function smarty_get_product_price( $slug ) {
 	$products = new WP_Query( $args );
 	if ( $products->have_posts() ):
 		while ( $products->have_posts() ) : $products->the_post();
-
 			$product = wc_get_product( get_the_ID() );
 		    if ( $product->get_slug() == $slug ) {
 		        return $product->get_price();
@@ -116,3 +115,37 @@ function bbloomer_only_one_in_cart( $passed, $added_product_id ) {
 		wc_empty_cart();
 		return $passed;
 }
+
+
+	add_action( 'woocommerce_order_status_changed', 'payment_complete', 99, 3 );
+
+	function payment_complete( $order_id, $old_status, $new_status ){
+		if( $new_status == "completed" ) {
+			//your code here
+			return 'yes completed';
+		}
+	}
+
+//	add_action( 'woocommerce_thankyou', 'smarty_wc_autocomplete_order' );
+//
+//	function smarty_wc_autocomplete_order( $order_id ) {
+//
+//		if ( ! $order_id ) {
+//			return;
+//		}
+//
+//		$order = wc_get_order( $order_id );
+//
+//		$order->update_status( 'completed' );
+//
+//	}
+//
+//	add_action('woocommerce_order_status_completed','smarty_payment_complete');
+//
+//	function smarty_payment_complete($order_id)
+//	{
+//		return 'yes payment is complete with order id is : ' . $order_id . '<br>';
+		//global $items;
+		//$order = new WC_Order($order_id);
+		// do something ...
+//	}

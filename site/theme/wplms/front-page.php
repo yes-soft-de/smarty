@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 
 <!-- Start Home Page -->
@@ -309,7 +310,7 @@
 //	              { return; }
                   ?>
                 <div class="meditation-video <?php echo $lesson['labels'] != null ? 'freeLesson' : ''; ?> p-4 mb-3">
-                  <a href="<?php echo $lesson['link']; ?>" <?php echo ($lesson['link'] == '' ? 'class="paidCourse"' : ''); ?>>
+                  <a href="<?php echo $lesson['link']; ?>" <?php echo ($lesson['labels'] == null ? 'class="paidCourse"' : ''); ?>>
                     <div class="row">
                       <div class="col-xs-7">
                         <img src="<?php echo get_the_post_thumbnail_url( $lesson['id'] ) ? get_the_post_thumbnail_url( $lesson['id'] ) : get_template_directory_uri() . '/assets/img/inner-peace-meditation.jpg'; ?>" alt="">
@@ -397,18 +398,11 @@
           <h2 class="h1">Request for advice</h2>
         </div>
         <div class="col-xs-6 col-md-5 col-lg-4">
-	        <?php
-		        // Get Live Video Pricse
-//		        if ( $products->have_posts() ):
-//			        while ( $products->have_posts() ) : $products->the_post();
-//				        $product = wc_get_product( get_the_ID() );
-//				        if ( $product->get_slug() == 'consultation' ) {
-//					        $price = $product->get_price();
-//				        }
-//			        endwhile;
-//		        endif;
-	        ?>
-          <h4 class="text-right">For <?php echo smarty_get_product_price('consultation' ); ?> $</h4>
+          <?php
+            $consultingPrice = smarty_get_product_price('consultation' );
+	          global $product;
+          ?>
+          <h4 class="text-right">For <?php echo (wc_customer_bought_product( wp_get_current_user()->user_email, get_current_user_id(), $product->get_id() ) ? '0' : $consultingPrice); ?> $</h4>
         </div>
         <div class="col-xs-12 mt-3">
           <?php
@@ -451,7 +445,7 @@
                
 <!--               --><?php //echo do_shortcode("[add_to_cart id='1091']"); ?>
               <?php
-              global $product;
+
               // check if the user is pay for this request
               if ( !wc_customer_bought_product( wp_get_current_user()->user_email, get_current_user_id(), $product->get_id() ) ):
               echo apply_filters( 'woocommerce_loop_add_to_cart_link',
@@ -464,6 +458,7 @@
                   esc_html( $product->add_to_cart_text() )
                 ),
                 $product );
+
               else: ?>
                 <button type="submit" class="btn btn-default bg-pink py-1 px-5">Send</button>
               <?php endif; ?>

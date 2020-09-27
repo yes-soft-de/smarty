@@ -75,6 +75,7 @@ function smart_way_load_more() {
 	
 	$output = '';
 	if ( $courseId ):
+	  the_course_button($courseId);
 		foreach ( $course as $lesson ):
 			$output .= '';
 			if ( $lesson['type'] == 'unit' ):
