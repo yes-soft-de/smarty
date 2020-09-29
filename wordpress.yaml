@@ -45,9 +45,7 @@ spec:
         - name: persistent-storage
           persistentVolumeClaim:
             claimName: pv-claim     
-        - name: persistent-storage-themes
-          persistentVolumeClaim:
-            claimName: pv-claim-themes    
+
             #
 ---
 apiVersion: v1
