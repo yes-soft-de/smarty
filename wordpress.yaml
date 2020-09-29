@@ -38,7 +38,7 @@ spec:
               protocol: TCP
           volumeMounts:
           - name: persistent-storage
-            mountPath: /var/www/html/wp-content
+            mountPath: /var/www/html/wp-content/uploads
       volumes:
         - name: persistent-storage
           persistentVolumeClaim:
