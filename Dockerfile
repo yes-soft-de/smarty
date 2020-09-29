@@ -7,7 +7,4 @@ COPY --from=builder ./smarty/site/uploads /var/www/html/wp-content/uploads
 COPY --from=builder ./smarty/site/theme /var/www/html/wp-content/themes
 COPY --from=builder ./smarty/site/plugins /var/www/html/wp-content/plugins
 
-#COPY ./site/uploads /wp-content/uploads
-#COPY ./site/theme /wp-content/themes
-#COPY ./site/plugins /html/wp-content/plugins
 
