@@ -8,6 +8,6 @@ FROM wordpress:5.4.2
 #COPY --from=builder ./smarty/site/plugins /var/www/html/wp-content/plugins
 
 COPY ./site/uploads /wp-content/uploads
-COPY ./site/themes /wp-content/themes
+COPY ./site/theme /wp-content/themes
 COPY ./site/plugins /html/wp-content/plugins
 
