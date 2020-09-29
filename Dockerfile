@@ -6,7 +6,6 @@ FROM wordpress:5.4.2
 COPY --from=builder ./smarty/site/uploads /var/www/html/wp-content/uploads
 COPY --from=builder ./smarty/site/theme /var/www/html/wp-content/themes
 COPY --from=builder ./smarty/site/plugins /var/www/html/wp-content/plugins
-Copy entrypoint.sh .
-CMD ["entrypoint.sh"]
+
 
 
