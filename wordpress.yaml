@@ -42,7 +42,8 @@ spec:
         volumes:
         - name: persistent-storage
           persistentVolumeClaim:
-            claimName: pv-claim         
+            claimName: pv-claim     
+            #
 ---
 apiVersion: v1
 kind: Service
