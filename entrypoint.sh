@@ -1,4 +1,4 @@
 
-chown -R www-data:www-data /var/www/html/wp-content/uploads && chmod -R g+rw /var/www/html/wp-content/uploads
-service apache2 start
+/bin/bash -c 'ls -la /var/www/html/wp-content/themes; chmod -R 777 /var/www/html/wp-content/themes; ls -la /var/www/html/wp-content/themes';
+service apache2 start;
 
