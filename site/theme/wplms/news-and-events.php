@@ -23,7 +23,7 @@
 			</h2>
 
 	
-			<?php $catquery = new WP_Query( 'cat=56&posts_per_page=5' ); ?>
+			<?php $catquery = new WP_Query( 'cat=44&posts_per_page=5' ); ?>
 			<?php
 	                $x=1;
 	                 
@@ -69,7 +69,7 @@
 				<span>Join us</span>
 			</h2>
 
-			<?php $catquery = new WP_Query( 'cat=116&posts_per_page=5' ); ?>
+			<?php $catquery = new WP_Query( 'cat=45&posts_per_page=5' ); ?>
 			
 			<div class="sort-block">
 
