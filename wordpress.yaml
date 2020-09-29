@@ -39,7 +39,7 @@ spec:
           volumeMounts:
           - name: persistent-storage
             mountPath: /var/www/html/wp-content
-        volumes:
+      volumes:
         - name: persistent-storage
           persistentVolumeClaim:
             claimName: pv-claim     
