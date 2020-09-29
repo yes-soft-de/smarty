@@ -8,7 +8,7 @@ FROM wordpress:5.4.2
 #COPY --from=builder ./smarty/site/plugins /var/www/html/wp-content/plugins
 
 
-COPY /site/uploads ./smarty/site/uploads /var/www/html/wp-content/uploads
-COPY /site/themes ./smarty/site/theme /var/www/html/wp-content/themes
-COPY /site/plugins ./smarty/site/plugins /var/www/html/wp-content/plugins
+COPY ./site/uploads /var/www/html/wp-content/uploads
+COPY ./site/themes /var/www/html/wp-content/themes
+COPY ./site/plugins /var/www/html/wp-content/plugins
 
