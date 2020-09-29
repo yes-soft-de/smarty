@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 
 <!-- Start Home Page -->
@@ -40,24 +41,6 @@
                     <div class="col-xs-6 text-right pr-4">
           						<i class="fa fa-tag fa-flip-horizontal fa-fw"></i>
                       <span class="live-video-price">For <?php echo smarty_get_product_price( 'live-video' ); ?>$</span>
-<!--	                    --><?php
-//		                    // Get Live Video Price
-//		                    $args = array( 'post_type' => 'product' );
-//		                    $products = new WP_Query( $args );
-//		                    if ( $products->have_posts() ):
-//			                    while ( $products->have_posts() ) : $products->the_post();
-//
-////				                    $product = wc_get_product( 161 );
-//                            var_dump(get_the_ID());
-////				                    if ( $product->get_slug() == 'live-video' ) {
-////			                      echo get_the_ID();
-////					                    $liveVideoPrice = $product->get_price();
-////                              echo '<span class="live-video-price">For '. $liveVideoPrice . '$</span>';
-////				                    }
-//			                    endwhile;
-//		                    endif;
-////	                      wp_reset_postdata();
-//                      ?>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-xs-12 pl-5">
@@ -114,21 +97,21 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-sm-4">
           <div class="content-icon-item">
             <img class="responsive-image" src="<?php echo get_template_directory_uri() . '/assets/img/react.png'; ?>" alt="react image">
           </div>
           <h5>Develop & Empowering</h5>
           <p class="content-small-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis facilis obcaecati reprehenderit?</p>
         </div>
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-sm-4">
           <div class="content-icon-item">
             <img class="responsive-image" src="<?php echo get_template_directory_uri() . '/assets/img/balance.png'; ?>" alt="balance image">
           </div>
           <h5>Give advice</h5>
           <p class="content-small-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis facilis obcaecati reprehenderit?</p>
         </div>
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-sm-4">
           <div class="content-icon-item">
             <img class="responsive-image" src="<?php echo get_template_directory_uri() . '/assets/img/brain.png'; ?>" alt="brain image">
           </div>
@@ -146,15 +129,15 @@
       <span class="intro text-center">our record</span>
       <h3 class="text-center mb-5">What we do more than you can<br> imagine, believe us.</h3>
       <div class="row text-center">
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-sm-4">
           <span class="number pink">15+</span>
           <span class="event-name">events</span>
         </div>
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-sm-4">
           <span class="number blue">33</span>
           <span class="event-name">crazy days</span>
         </div>
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-sm-4">
           <span class="number green">12</span>
           <span class="event-name">travels</span>
         </div>
@@ -180,7 +163,7 @@
             while ( $posts->have_posts() ):
 	            $posts->the_post(); ?>
               <div class="row">
-                <div class="col-xs-9">
+                <div class="col-xs-10 col-sm-10 col-md-9">
                   <div class="content-box">
                     <div class="col-xs-9 content-top">
                       <span class="intro">Blog</span>
@@ -318,16 +301,16 @@
             $x = 0;
            foreach($course_curriculum as $lesson):
 			if($lesson['type']=='unit'):
-          //      echo '<pre>';
-          //    print_r($lesson);
-          //  echo '</pre>';
+//                echo '<pre>';
+//              print_r($lesson);
+//            echo '</pre>';
               if ( $x < 3 ):
 //                var_dump( llms_is_user_enrolled( get_current_user_id(), $lesson->id ));
 //	              if ( ! llms_is_user_enrolled( get_current_user_id(), $lesson->get( 'parent_course' ) ) )
 //	              { return; }
                   ?>
                 <div class="meditation-video <?php echo $lesson['labels'] != null ? 'freeLesson' : ''; ?> p-4 mb-3">
-                  <a href="<?php echo $lesson['link']; ?>">
+                  <a href="<?php echo $lesson['link']; ?>" <?php echo ($lesson['labels'] == null ? 'class="paidCourse"' : ''); ?>>
                     <div class="row">
                       <div class="col-xs-7">
                         <img src="<?php echo get_the_post_thumbnail_url( $lesson['id'] ) ? get_the_post_thumbnail_url( $lesson['id'] ) : get_template_directory_uri() . '/assets/img/inner-peace-meditation.jpg'; ?>" alt="">
@@ -336,8 +319,9 @@
                           <span class="meditation-shadow-title d-block"><?php echo $lesson['title']; ?></span>
                         </div>
                       </div>
-                      <div class="col-xs-5 text-right align-self-center">
-                        <span class="meditation-play"></span>
+                      <div class="col-xs-5 text-right align-self-center" style="transform: translateY(15%);">
+                        <?php echo ($lesson['labels'] == null ? '<i class="fa fa-dollar fa-3x fa-fw" style="vertical-align: middle; color: #8e8e8e;"></i>' : ''); ?>
+                        <span class="meditation-play" style="vertical-align: middle"></span>
                       </div>
                       <div class="clearfix"></div>
                     </div>
@@ -414,18 +398,11 @@
           <h2 class="h1">Request for advice</h2>
         </div>
         <div class="col-xs-6 col-md-5 col-lg-4">
-	        <?php
-		        // Get Live Video Pricse
-//		        if ( $products->have_posts() ):
-//			        while ( $products->have_posts() ) : $products->the_post();
-//				        $product = wc_get_product( get_the_ID() );
-//				        if ( $product->get_slug() == 'consultation' ) {
-//					        $price = $product->get_price();
-//				        }
-//			        endwhile;
-//		        endif;
-	        ?>
-          <h4 class="text-right">For <?php echo smarty_get_product_price('consultation' ); ?> $</h4>
+          <?php
+            $consultingPrice = smarty_get_product_price('consultation' );
+	          global $product;
+          ?>
+          <h4 class="text-right">For <?php echo (wc_customer_bought_product( wp_get_current_user()->user_email, get_current_user_id(), $product->get_id() ) ? '0' : $consultingPrice); ?> $</h4>
         </div>
         <div class="col-xs-12 mt-3">
           <?php
@@ -468,7 +445,7 @@
                
 <!--               --><?php //echo do_shortcode("[add_to_cart id='1091']"); ?>
               <?php
-              global $product;
+
               // check if the user is pay for this request
               if ( !wc_customer_bought_product( wp_get_current_user()->user_email, get_current_user_id(), $product->get_id() ) ):
               echo apply_filters( 'woocommerce_loop_add_to_cart_link',
@@ -481,6 +458,7 @@
                   esc_html( $product->add_to_cart_text() )
                 ),
                 $product );
+
               else: ?>
                 <button type="submit" class="btn btn-default bg-pink py-1 px-5">Send</button>
               <?php endif; ?>

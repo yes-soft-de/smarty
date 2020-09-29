@@ -196,17 +196,17 @@ if ( in_array('courses', $request_uri, false) ): ?>
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<?php $request_uri = explode('/', $_SERVER['REQUEST_URI']);
-		  echo '<div class="container">';
-			if ( in_array('meditations', $request_uri, false) ): ?>
-				<div class="col-xs-12 meditation-bottom-section pt-5">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>
-				</div>
-				<div class="clearfix"></div>
+<!--		--><?php //$request_uri = explode('/', $_SERVER['REQUEST_URI']);
+//		  echo '<div class="container">';
+//			if ( in_array('meditations', $request_uri, false) ): ?>
+<!--				<div class="col-xs-12 meditation-bottom-section pt-5">-->
+<!--					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>-->
+<!--					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci expedita explicabo perspiciatis sed! Assumenda consequatur esse est eum, incidunt iusto modi molestias nemo neque non obcaecati qui rem repudiandae tempora.</p>-->
+<!--				</div>-->
+<!--				<div class="clearfix"></div>-->
 			<!-- </div> -->
-		<?php endif; echo '</div>'; ?>
-		</div><!-- .col-12 -->
+<!--		--><?php //endif; echo '</div>'; ?>
+		</div><!-- .llms-loop -->
 	</section>
 
 <?php else: ?>

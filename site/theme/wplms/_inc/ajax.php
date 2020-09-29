@@ -75,6 +75,7 @@ function smart_way_load_more() {
 	
 	$output = '';
 	if ( $courseId ):
+	  the_course_button($courseId);
 		foreach ( $course as $lesson ):
 			$output .= '';
 			if ( $lesson['type'] == 'unit' ):
@@ -88,7 +89,7 @@ function smart_way_load_more() {
 				<div class="llms-loop-item-content" style="margin: 0;">
 					<div class="row">
 					<div class="col-xs-7">
-						<a class="llms-loop-link" href="' . get_the_permalink( $lesson['id'] ) . '">
+						<a class="llms-loop-link ' . ($lesson['labels'] == null ? 'paidCourse' : '') . '" href="' . get_the_permalink( $lesson['id'] ) . '">
 							<img src="' . $image . '" alt="Relax" class="llms-featured-image wp-post-image">
 							<div class="meditation-div-title" style="display: inline-block">
 							<span class="meditation-title" style="display: block">' . $lesson['title'] . '</span>
@@ -96,8 +97,9 @@ function smart_way_load_more() {
 							</div>
 						</a><!-- .llms-loop-link -->
 					</div>
-					<div class="col-xs-5 text-right align-self-center">
-						<span class="meditation-play"></span>
+					<div class="col-xs-5 text-right align-self-center" style="transform: translateY(15%);">' .
+           ($lesson['labels'] == null ? '<i class="fa fa-dollar fa-3x fa-fw" style="vertical-align: middle; color: #8e8e8e;"></i>' : '')
+           . '<span class="meditation-play" style="vertical-align: middle"></span>
 						<!--$lesson["duration"]-->
 					</div>
 					</div>

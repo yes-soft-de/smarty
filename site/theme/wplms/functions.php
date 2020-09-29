@@ -101,7 +101,6 @@ function smarty_get_product_price( $slug ) {
 	$products = new WP_Query( $args );
 	if ( $products->have_posts() ):
 		while ( $products->have_posts() ) : $products->the_post();
-
 			$product = wc_get_product( get_the_ID() );
 		    if ( $product->get_slug() == $slug ) {
 		        return $product->get_price();
@@ -117,66 +116,36 @@ function bbloomer_only_one_in_cart( $passed, $added_product_id ) {
 		return $passed;
 }
 
-//	add_filter('woocommerce_get_price','reigel_woocommerce_get_price',20,2);
-//	function reigel_woocommerce_get_price($price,$post){
-//		if ($post->post->post_type === 'smarty-consulting')
-//			$price = get_post_meta($post->id, "price", true);
-//		return $price;
-//	}
 
+	add_action( 'woocommerce_order_status_changed', 'payment_complete', 99, 3 );
 
-//	function lease_cpt_register() {
+	function payment_complete( $order_id, $old_status, $new_status ){
+		if( $new_status == "completed" ) {
+			//your code here
+			return 'yes completed';
+		}
+	}
+
+//	add_action( 'woocommerce_thankyou', 'smarty_wc_autocomplete_order' );
 //
-//		class CPT_lease_product extends WC_Product_Simple {
-//			public function __construct( $product ) {
-//				$this->product_type = 'smarty-consulting';
-//				parent::__construct( $product );
-//			}
+//	function smarty_wc_autocomplete_order( $order_id ) {
+//
+//		if ( ! $order_id ) {
+//			return;
 //		}
+//
+//		$order = wc_get_order( $order_id );
+//
+//		$order->update_status( 'completed' );
+//
 //	}
-//	add_action( 'init', 'lease_cpt_register' );
 //
+//	add_action('woocommerce_order_status_completed','smarty_payment_complete');
 //
-//	function add_cpt_lease_product( $types ){
-//		$types[ 'smarty-consulting' ] = __( 'Smarty Consulting' );
-//		return $types;
+//	function smarty_payment_complete($order_id)
+//	{
+//		return 'yes payment is complete with order id is : ' . $order_id . '<br>';
+		//global $items;
+		//$order = new WC_Order($order_id);
+		// do something ...
 //	}
-//	add_filter( 'product_type_selector', 'add_cpt_lease_product' );
-//
-//	function cpt_woo_tab( $tabs) {
-//		$tabs['lease'] = array(
-//			'label'         => __( 'Consultation', 'woocommerce' ),
-//			'target'        => 'cpt_woo_opt',
-//		);
-//		return $tabs;
-//	}
-//	add_filter( 'woocommerce_product_data_tabs', 'cpt_woo_tab' );
-//
-//	function lease_cpt_woo_opt() {
-//		global $post;
-//		?><!--<div id='cpt_woo_opt' class='panel woocommerce_options_panel'>--><?php
-//		?><!--<div class='options_group'>--><?php
-//		woocommerce_wp_text_input( array(
-//			'id'                                            => 'woo_cpt_input_txt',
-//			'type'                                       => 'text',
-//			'label'                                      => __( 'Insert your Value', 'woocommerce' ),
-//		) );
-//		woocommerce_wp_checkbox( array(
-//			'id'                            => 'woo_cpt_opt',
-//			'label'      => __( 'Allow Option', 'woocommerce' ),
-//		) );
-//		?><!--</div>-->
-<!--		</div>--><?php
-//	}
-//	add_action( 'woocommerce_product_data_panels', 'lease_cpt_woo_opt' );
-//
-//
-//	function save_lease_cpt_field( $post_id ) {
-//		$lease_opportunity = isset( $_POST['lease_woo_cpt_opt'] ) ? 'yes' : 'no';
-//		update_post_meta( $post_id, 'lease_woo_cpt_opt', $lease_opportunity );
-//		if ( isset( $_POST['woo_cpt_input_txt'] ) ) :
-//			update_post_meta( $post_id, 'woo_cpt_input_txt', sanitize_text_field( $_POST['woo_cpt_input_txt'] ) );
-//		endif;
-//	}
-//	add_action( 'woocommerce_process_product_meta_simple_rental', 'save_lease_cpt_field'  );
-//	add_action( 'woocommerce_process_product_meta_variable_rental', 'save_lease_cpt_field'  );

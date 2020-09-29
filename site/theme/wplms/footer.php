@@ -6,8 +6,8 @@
 								<h2>Smart Y</h2>
 								<p>Lorem ipsum dolor sit amet</p>
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3">
-								<h5 style="margin-bottom: 0;">menu</h5>
+							<div class="col-xs-12 col-sm-6 col-md-3 text-center text-lg-left">
+								<h5 class="mx-auto mx-lg-0" style="margin-bottom: 0;">menu</h5>
 <!--								<hr class="line-">-->
 								<ul class="list-unstyled">
                                     <?php 
@@ -22,14 +22,14 @@
                                     ?>
 								</ul>
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3">
-								<h5>contact us</h5>
+							<div class="col-xs-12 col-sm-6 col-md-3 text-center text-lg-left">
+								<h5 class="mx-auto mx-lg-0">contact us</h5>
 <!--								<hr>-->
 								<p><i class="fa fa-envelope-o fa-fw"></i> Contact@lop.com</p>
 								<p><i class="fa fa-phone fa-fw"></i> 856-546-987-456</p>
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-3">
-								<h5>follow us</h5>
+							<div class="col-xs-12 col-sm-6 col-md-3 text-center text-lg-left">
+								<h5 class="mx-auto mx-lg-0">follow us</h5>
 <!--								<hr>-->
 								<div class="row">
 									<div class="col-xs-3 social-media-icon"><a class="icon-links" href="#"><i class="fa fa-twitter fa-lg"></i></a></div>
