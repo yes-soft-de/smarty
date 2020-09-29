@@ -40,7 +40,7 @@ spec:
             - name: persistent-storage
               mountPath: /var/www/html/wp-content
         volumes:
-        - name: mysql-persistent-storage
+        - name: persistent-storage
           persistentVolumeClaim:
             claimName: pv-claim         
 ---
