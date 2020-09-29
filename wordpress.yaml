@@ -39,8 +39,7 @@ spec:
           volumeMounts:
           - name: persistent-storage
             mountPath: /var/www/html/wp-content/uploads
-          - name: persistent-storage-themes
-            mountPath: /var/www/html/wp-content/themes  
+
       volumes:
         - name: persistent-storage
           persistentVolumeClaim:
